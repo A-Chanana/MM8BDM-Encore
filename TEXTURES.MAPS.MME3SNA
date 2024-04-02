@@ -1,0 +1,820 @@
+///// MM3SNA /////
+texture ESNAKS1, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT25, 0, 0
+   Patch ESNAKT2, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+texture ESNAKS2, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT26, 0, 0
+   Patch ESNAKT2, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+texture ESNAKS3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT1, 0, 0
+}
+
+texture ESNAKS4, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT29, 0, 0
+}
+
+texture ESNAKS5, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT30, 0, 0
+}
+
+texture ESNAKS6, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT4, 0, 0
+   Patch ESNAKT2, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+texture ESNAKS7, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT3, 0, 0
+   Patch ESNAKT2, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+texture ESNAKS8, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT5, 0, 0
+   Patch ESNAKT2, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+texture ESNAKS9, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT6, 0, 0
+   Patch ESNAKT2, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+texture ESNAKS10, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT7, 0, 0
+}
+
+texture ESNAKS11, 16, 512
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT9, 0, 0
+   patch ESNAKT8, 0, 16
+   patch ESNAKT8, 0, 32
+   patch ESNAKT8, 0, 48
+   patch ESNAKT8, 0, 64
+   patch ESNAKT8, 0, 80
+   patch ESNAKT8, 0, 96
+   patch ESNAKT8, 0, 112
+   patch ESNAKT8, 0, 128
+   patch ESNAKT8, 0, 144
+   patch ESNAKT8, 0, 160
+   patch ESNAKT8, 0, 176
+   patch ESNAKT8, 0, 192
+   patch ESNAKT8, 0, 208
+   patch ESNAKT8, 0, 224
+   patch ESNAKT8, 0, 240
+   patch ESNAKT8, 0, 256
+   patch ESNAKT8, 0, 272
+   patch ESNAKT8, 0, 288
+   patch ESNAKT8, 0, 304
+   patch ESNAKT8, 0, 320
+   patch ESNAKT8, 0, 336
+   patch ESNAKT8, 0, 352
+   patch ESNAKT8, 0, 368
+   patch ESNAKT8, 0, 384
+   patch ESNAKT8, 0, 400
+   patch ESNAKT8, 0, 416
+   patch ESNAKT8, 0, 432
+   patch ESNAKT8, 0, 448
+   patch ESNAKT8, 0, 464
+   patch ESNAKT8, 0, 480
+   patch ESNAKT8, 0, 496
+}
+
+texture ESNAKS12, 16, 512
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT10, 0, 0
+   patch ESNAKT8, 0, 16
+   patch ESNAKT8, 0, 32
+   patch ESNAKT8, 0, 48
+   patch ESNAKT8, 0, 64
+   patch ESNAKT8, 0, 80
+   patch ESNAKT8, 0, 96
+   patch ESNAKT8, 0, 112
+   patch ESNAKT8, 0, 128
+   patch ESNAKT8, 0, 144
+   patch ESNAKT8, 0, 160
+   patch ESNAKT8, 0, 176
+   patch ESNAKT8, 0, 192
+   patch ESNAKT8, 0, 208
+   patch ESNAKT8, 0, 224
+   patch ESNAKT8, 0, 240
+   patch ESNAKT8, 0, 256
+   patch ESNAKT8, 0, 272
+   patch ESNAKT8, 0, 288
+   patch ESNAKT8, 0, 304
+   patch ESNAKT8, 0, 320
+   patch ESNAKT8, 0, 336
+   patch ESNAKT8, 0, 352
+   patch ESNAKT8, 0, 368
+   patch ESNAKT8, 0, 384
+   patch ESNAKT8, 0, 400
+   patch ESNAKT8, 0, 416
+   patch ESNAKT8, 0, 432
+   patch ESNAKT8, 0, 448
+   patch ESNAKT8, 0, 464
+   patch ESNAKT8, 0, 480
+   patch ESNAKT8, 0, 496
+}
+
+texture ESNAKS13, 16, 512
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT11, 0, 0
+   patch ESNAKT8, 0, 16
+   patch ESNAKT8, 0, 32
+   patch ESNAKT8, 0, 48
+   patch ESNAKT8, 0, 64
+   patch ESNAKT8, 0, 80
+   patch ESNAKT8, 0, 96
+   patch ESNAKT8, 0, 112
+   patch ESNAKT8, 0, 128
+   patch ESNAKT8, 0, 144
+   patch ESNAKT8, 0, 160
+   patch ESNAKT8, 0, 176
+   patch ESNAKT8, 0, 192
+   patch ESNAKT8, 0, 208
+   patch ESNAKT8, 0, 224
+   patch ESNAKT8, 0, 240
+   patch ESNAKT8, 0, 256
+   patch ESNAKT8, 0, 272
+   patch ESNAKT8, 0, 288
+   patch ESNAKT8, 0, 304
+   patch ESNAKT8, 0, 320
+   patch ESNAKT8, 0, 336
+   patch ESNAKT8, 0, 352
+   patch ESNAKT8, 0, 368
+   patch ESNAKT8, 0, 384
+   patch ESNAKT8, 0, 400
+   patch ESNAKT8, 0, 416
+   patch ESNAKT8, 0, 432
+   patch ESNAKT8, 0, 448
+   patch ESNAKT8, 0, 464
+   patch ESNAKT8, 0, 480
+   patch ESNAKT8, 0, 496
+}
+
+texture ESNAKS14, 16, 512
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT12, 0, 0
+   patch ESNAKT8, 0, 16
+   patch ESNAKT8, 0, 32
+   patch ESNAKT8, 0, 48
+   patch ESNAKT8, 0, 64
+   patch ESNAKT8, 0, 80
+   patch ESNAKT8, 0, 96
+   patch ESNAKT8, 0, 112
+   patch ESNAKT8, 0, 128
+   patch ESNAKT8, 0, 144
+   patch ESNAKT8, 0, 160
+   patch ESNAKT8, 0, 176
+   patch ESNAKT8, 0, 192
+   patch ESNAKT8, 0, 208
+   patch ESNAKT8, 0, 224
+   patch ESNAKT8, 0, 240
+   patch ESNAKT8, 0, 256
+   patch ESNAKT8, 0, 272
+   patch ESNAKT8, 0, 288
+   patch ESNAKT8, 0, 304
+   patch ESNAKT8, 0, 320
+   patch ESNAKT8, 0, 336
+   patch ESNAKT8, 0, 352
+   patch ESNAKT8, 0, 368
+   patch ESNAKT8, 0, 384
+   patch ESNAKT8, 0, 400
+   patch ESNAKT8, 0, 416
+   patch ESNAKT8, 0, 432
+   patch ESNAKT8, 0, 448
+   patch ESNAKT8, 0, 464
+   patch ESNAKT8, 0, 480
+   patch ESNAKT8, 0, 496
+}
+
+texture ESNAKS15, 16, 512
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT27, 0, 0
+   patch ESNAKT8, 0, 16
+   patch ESNAKT8, 0, 32
+   patch ESNAKT8, 0, 48
+   patch ESNAKT8, 0, 64
+   patch ESNAKT8, 0, 80
+   patch ESNAKT8, 0, 96
+   patch ESNAKT8, 0, 112
+   patch ESNAKT8, 0, 128
+   patch ESNAKT8, 0, 144
+   patch ESNAKT8, 0, 160
+   patch ESNAKT8, 0, 176
+   patch ESNAKT8, 0, 192
+   patch ESNAKT8, 0, 208
+   patch ESNAKT8, 0, 224
+   patch ESNAKT8, 0, 240
+   patch ESNAKT8, 0, 256
+   patch ESNAKT8, 0, 272
+   patch ESNAKT8, 0, 288
+   patch ESNAKT8, 0, 304
+   patch ESNAKT8, 0, 320
+   patch ESNAKT8, 0, 336
+   patch ESNAKT8, 0, 352
+   patch ESNAKT8, 0, 368
+   patch ESNAKT8, 0, 384
+   patch ESNAKT8, 0, 400
+   patch ESNAKT8, 0, 416
+   patch ESNAKT8, 0, 432
+   patch ESNAKT8, 0, 448
+   patch ESNAKT8, 0, 464
+   patch ESNAKT8, 0, 480
+   patch ESNAKT8, 0, 496
+}
+
+
+texture ESNAKS17, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT3, 0, 0
+}
+
+
+texture ESNAKS16, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT4, 0, 0
+}
+
+texture ESNAKS18, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT5, 0, 0
+}
+
+texture ESNAKS19, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT6, 0, 0
+}
+
+texture ESNAKS20, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT9, 0, 0
+}
+
+texture ESNAKS21, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT10, 0, 0
+}
+
+texture ESNAKS22, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT11, 0, 0
+}
+
+texture ESNAKS23, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT12, 0, 0
+}
+
+texture ESNAKS24, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT32, 0, 0
+}
+
+texture ESNAKS25, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT33, 0, 0
+}
+
+texture ESNAKS26, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT8, 0, 0
+}
+
+texture ESNAKS27, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT2, 0, 0
+}
+
+texture ESNAKS28, 16, 512
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT28, 0, 0
+   patch ESNAKT8, 0, 16
+   patch ESNAKT8, 0, 32
+   patch ESNAKT8, 0, 48
+   patch ESNAKT8, 0, 64
+   patch ESNAKT8, 0, 80
+   patch ESNAKT8, 0, 96
+   patch ESNAKT8, 0, 112
+   patch ESNAKT8, 0, 128
+   patch ESNAKT8, 0, 144
+   patch ESNAKT8, 0, 160
+   patch ESNAKT8, 0, 176
+   patch ESNAKT8, 0, 192
+   patch ESNAKT8, 0, 208
+   patch ESNAKT8, 0, 224
+   patch ESNAKT8, 0, 240
+   patch ESNAKT8, 0, 256
+   patch ESNAKT8, 0, 272
+   patch ESNAKT8, 0, 288
+   patch ESNAKT8, 0, 304
+   patch ESNAKT8, 0, 320
+   patch ESNAKT8, 0, 336
+   patch ESNAKT8, 0, 352
+   patch ESNAKT8, 0, 368
+   patch ESNAKT8, 0, 384
+   patch ESNAKT8, 0, 400
+   patch ESNAKT8, 0, 416
+   patch ESNAKT8, 0, 432
+   patch ESNAKT8, 0, 448
+   patch ESNAKT8, 0, 464
+   patch ESNAKT8, 0, 480
+   patch ESNAKT8, 0, 496
+}
+
+
+texture ESNAKS29, 16, 512
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT9, 0, 0
+   patch ESNAKT8, 0, 16
+   patch ESNAKT8, 0, 32
+   patch ESNAKT8, 0, 48
+   patch ESNAKT8, 0, 64
+   patch ESNAKT8, 0, 80
+   patch ESNAKT8, 0, 96
+   patch ESNAKT8, 0, 112
+   patch ESNAKT8, 0, 128
+   patch ESNAKT8, 0, 144
+   patch ESNAKT8, 0, 160
+   patch ESNAKT8, 0, 176
+   patch ESNAKT8, 0, 192
+   patch ESNAKT8, 0, 208
+   patch ESNAKT8, 0, 224
+   patch ESNAKT8, 0, 240
+   patch ESNAKT8, 0, 256
+   patch ESNAKT8, 0, 272
+   patch ESNAKT8, 0, 288
+   patch ESNAKT8, 0, 304
+   patch ESNAKT8, 0, 320
+   patch ESNAKT8, 0, 336
+   patch ESNAKT8, 0, 352
+   patch ESNAKT8, 0, 368
+   patch ESNAKT8, 0, 384
+   patch ESNAKT8, 0, 400
+   patch ESNAKT8, 0, 416
+   patch ESNAKT8, 0, 432
+   patch ESNAKT8, 0, 448
+   patch ESNAKT8, 0, 464
+   patch ESNAKT8, 0, 480
+   patch ESNAKT8, 0, 496
+}
+
+texture ESNAKS30, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT25, 0, 0
+}
+
+texture ESNAKS31, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT26, 0, 0
+}
+
+texture ESNAKS32, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT27, 0, 0
+}
+
+texture ESNAKS33, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT28, 0, 0
+}
+
+texture ESNAKBLK, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT13, 0, 0
+}
+
+
+texture ESNAKWAF, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT21, 0, 0
+}
+
+texture ESNAKWAL, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT15, 0, 0
+   Patch ESNAKT14, 0, 32
+   Patch ESNAKT14, 0, 64
+   Patch ESNAKT14, 0, 96
+   Patch ESNAKT14, 0, 128
+   Patch ESNAKT14, 0, 160
+   Patch ESNAKT14, 0, 192
+   Patch ESNAKT14, 0, 224
+   Patch ESNAKT14, 0, 256
+   Patch ESNAKT14, 0, 288
+   Patch ESNAKT14, 0, 320
+   Patch ESNAKT14, 0, 352
+   Patch ESNAKT14, 0, 384
+   Patch ESNAKT14, 0, 416
+   Patch ESNAKT14, 0, 448
+   Patch ESNAKT14, 0, 480
+}
+
+texture ESNAKTO1, 48, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT19, 0, 0
+   Patch ESNAKT18, 0, 32
+   Patch ESNAKT18, 0, 64
+   Patch ESNAKT18, 0, 96
+   Patch ESNAKT18, 0, 128
+   Patch ESNAKT18, 0, 160
+   Patch ESNAKT18, 0, 192
+   Patch ESNAKT18, 0, 224
+   Patch ESNAKT18, 0, 256
+   Patch ESNAKT18, 0, 288
+   Patch ESNAKT18, 0, 320
+   Patch ESNAKT18, 0, 352
+   Patch ESNAKT18, 0, 384
+   Patch ESNAKT18, 0, 416
+   Patch ESNAKT18, 0, 448
+   Patch ESNAKT18, 0, 480
+}
+
+
+texture ESNAKTO2, 48, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT22, 0, 0
+   Patch ESNAKT23, 0, 32
+   Patch ESNAKT23, 0, 64
+   Patch ESNAKT23, 0, 96
+   Patch ESNAKT23, 0, 128
+   Patch ESNAKT23, 0, 160
+   Patch ESNAKT23, 0, 192
+   Patch ESNAKT23, 0, 224
+   Patch ESNAKT23, 0, 256
+   Patch ESNAKT23, 0, 288
+   Patch ESNAKT23, 0, 320
+   Patch ESNAKT23, 0, 352
+   Patch ESNAKT23, 0, 384
+   Patch ESNAKT23, 0, 416
+   Patch ESNAKT23, 0, 448
+   Patch ESNAKT23, 0, 480
+}
+
+texture ESNAKTO3, 48, 48
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT31, 0, 0
+}
+
+texture ESNAKSKY, 512, 256
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT20, 0, 0
+}
+
+texture ESNAKSFL, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT34, 0, 0
+}
+
+texture ESNAKPIT, 32, 64
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT15, 0, 0
+   Patch ESNAKT16, 0, 32
+}
+
+texture ESNAKY1, 32, 64
+{
+   XScale 0.5
+   YScale 0.5
+   patch ESNAKT1, 0, 0
+   patch ESNAKT17, 0, 32
+}
+
+texture ESNAKY2, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT4, 0, 0
+   Patch ESNAKT17, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+
+texture ESNAKY3, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT5, 0, 0
+   Patch ESNAKT17, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+texture ESNAKY4, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT26, 0, 0
+   Patch ESNAKT17, 0, 32
+   Patch ESNAKT2, 0, 64
+   Patch ESNAKT2, 0, 96
+   Patch ESNAKT2, 0, 128
+   Patch ESNAKT2, 0, 160
+   Patch ESNAKT2, 0, 192
+   Patch ESNAKT2, 0, 224
+   Patch ESNAKT2, 0, 256
+   Patch ESNAKT2, 0, 288
+   Patch ESNAKT2, 0, 320
+   Patch ESNAKT2, 0, 352
+   Patch ESNAKT2, 0, 384
+   Patch ESNAKT2, 0, 416
+   Patch ESNAKT2, 0, 448
+   Patch ESNAKT2, 0, 480
+}
+
+texture ESNAKTO4, 48, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT35, 0, 0
+   Patch ESNAKT36, 0, 32
+   Patch ESNAKT36, 0, 64
+   Patch ESNAKT36, 0, 96
+   Patch ESNAKT36, 0, 128
+   Patch ESNAKT36, 0, 160
+   Patch ESNAKT36, 0, 192
+   Patch ESNAKT36, 0, 224
+   Patch ESNAKT36, 0, 256
+   Patch ESNAKT36, 0, 288
+   Patch ESNAKT36, 0, 320
+   Patch ESNAKT36, 0, 352
+   Patch ESNAKT36, 0, 384
+   Patch ESNAKT36, 0, 416
+   Patch ESNAKT36, 0, 448
+   Patch ESNAKT36, 0, 480
+}
+
+texture ESNAKTO5, 48, 48
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNAKT37, 0, 0
+}
+
+texture ESNAKES1, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT38, 0, 0
+}
+
+texture ESNAKES2, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT39, 0, 0
+}
+
+texture ESNAKES3, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT40, 0, 0
+}
+
+texture ESNAKES4, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT41, 0, 0
+}
+
+texture ESNAKES5, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT42, 0, 0
+}
+
+texture ESNAKES6, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT43, 0, 0
+}
+
+texture ESNAKES7, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT44, 0, 0
+}
+
+texture ESNAKES8, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT45, 0, 0
+}
+
+texture ESNAKESX, 32, 32
+{
+	XScale 0.5
+   YScale 0.5
+   Patch ESNAKT38, 0, 0
+}
+

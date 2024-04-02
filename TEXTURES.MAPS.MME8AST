@@ -1,0 +1,612 @@
+
+texture EASTSKY, 16, 384
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR6, 0, 0
+   WorldPanning
+}
+
+texture EASTPUR1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR7, 0, 0
+   WorldPanning
+}
+
+texture EASTPUR2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR8, 0, 0
+   WorldPanning
+}
+	
+texture EASTBG1, 160, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR1, 0, 0
+   WorldPanning
+}
+
+texture EASTBG2, 160, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR2, 0, 0
+   WorldPanning
+}
+
+texture EASTBG3, 160, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR3, 0, 0
+   WorldPanning
+}
+
+texture EASTBG4, 160, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR4, 0, 0
+   WorldPanning
+}
+
+texture EASTBGX, 160, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR1, 0, 0
+   WorldPanning
+}
+
+texture EASTFLR1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR5, 0, 0
+   WorldPanning
+}
+
+texture EASTFLR2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR17, 0, 0
+   WorldPanning
+}
+
+texture EASTFLR3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR18, 0, 0
+   WorldPanning
+}
+
+texture EASTFL3A, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR18A, 0, 0
+   WorldPanning
+}
+
+texture EASTFLR4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR19, 0, 0
+   WorldPanning
+}
+
+texture EASTFL4A, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR19A, 0, 0
+   WorldPanning
+}
+
+texture EASTWAL1, 16, 480
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR9, 0, 0
+   Patch EASTR10, 0, 16
+   Patch EASTR10, 0, 32
+   Patch EASTR10, 0, 48
+   Patch EASTR10, 0, 64
+   Patch EASTR10, 0, 80
+   Patch EASTR10, 0, 96
+   Patch EASTR10, 0, 112
+   Patch EASTR10, 0, 128
+   Patch EASTR10, 0, 144
+   Patch EASTR10, 0, 160
+   Patch EASTR10, 0, 176
+   Patch EASTR10, 0, 192
+   Patch EASTR10, 0, 208
+   Patch EASTR10, 0, 224
+   Patch EASTR10, 0, 240
+   Patch EASTR10, 0, 256
+   Patch EASTR10, 0, 272
+   Patch EASTR10, 0, 288
+   Patch EASTR10, 0, 304
+   Patch EASTR10, 0, 320
+   Patch EASTR10, 0, 336
+   Patch EASTR10, 0, 352
+   Patch EASTR10, 0, 368
+   Patch EASTR10, 0, 384
+   Patch EASTR10, 0, 400
+   Patch EASTR10, 0, 416
+   Patch EASTR10, 0, 432
+   Patch EASTR10, 0, 448
+   Patch EASTR16, 0, 464
+   WorldPanning
+}
+
+texture EASTWAL2, 32, 192
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR11, 0, 0
+   Patch EASTR12, 0, 48
+   Patch EASTR11, 0, 96
+   Patch EASTR12, 0, 144
+   WorldPanning
+}
+
+texture EASTWAL3, 32, 480
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR27, 0, 0
+   Patch EASTR28, 0, 16
+   Patch EASTR28, 0, 32
+   Patch EASTR28, 0, 48
+   Patch EASTR28, 0, 64
+   Patch EASTR28, 0, 80
+   Patch EASTR28, 0, 96
+   Patch EASTR28, 0, 112
+   Patch EASTR28, 0, 128
+   Patch EASTR28, 0, 144
+   Patch EASTR28, 0, 160
+   Patch EASTR28, 0, 176
+   Patch EASTR28, 0, 192
+   Patch EASTR28, 0, 208
+   Patch EASTR28, 0, 224
+   Patch EASTR28, 0, 240
+   Patch EASTR28, 0, 256
+   Patch EASTR28, 0, 272
+   Patch EASTR28, 0, 288
+   Patch EASTR28, 0, 304
+   Patch EASTR28, 0, 320
+   Patch EASTR28, 0, 336
+   Patch EASTR28, 0, 352
+   Patch EASTR28, 0, 368
+   Patch EASTR28, 0, 384
+   Patch EASTR28, 0, 400
+   Patch EASTR28, 0, 416
+   Patch EASTR28, 0, 432
+   Patch EASTR28, 0, 448
+   Patch EASTR28, 0, 464
+   Patch EASTR29, 16, 0
+   Patch EASTR30, 16, 16
+   Patch EASTR30, 16, 32
+   Patch EASTR30, 16, 48
+   Patch EASTR30, 16, 64
+   Patch EASTR30, 16, 80
+   Patch EASTR30, 16, 96
+   Patch EASTR30, 16, 112
+   Patch EASTR30, 16, 128
+   Patch EASTR30, 16, 144
+   Patch EASTR30, 16, 160
+   Patch EASTR30, 16, 176
+   Patch EASTR30, 16, 192
+   Patch EASTR30, 16, 208
+   Patch EASTR30, 16, 224
+   Patch EASTR30, 16, 240
+   Patch EASTR30, 16, 256
+   Patch EASTR30, 16, 272
+   Patch EASTR30, 16, 288
+   Patch EASTR30, 16, 304
+   Patch EASTR30, 16, 320
+   Patch EASTR30, 16, 336
+   Patch EASTR30, 16, 352
+   Patch EASTR30, 16, 368
+   Patch EASTR30, 16, 384
+   Patch EASTR30, 16, 400
+   Patch EASTR30, 16, 416
+   Patch EASTR30, 16, 432
+   Patch EASTR30, 16, 448
+   Patch EASTR30, 16, 464
+   WorldPanning
+}
+
+texture EASTWAL4, 32, 480
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR31, 0, 0
+   Patch EASTR32, 0, 16
+   Patch EASTR32, 0, 32
+   Patch EASTR32, 0, 48
+   Patch EASTR32, 0, 64
+   Patch EASTR32, 0, 80
+   Patch EASTR32, 0, 96
+   Patch EASTR32, 0, 112
+   Patch EASTR32, 0, 128
+   Patch EASTR32, 0, 144
+   Patch EASTR32, 0, 160
+   Patch EASTR32, 0, 176
+   Patch EASTR32, 0, 192
+   Patch EASTR32, 0, 208
+   Patch EASTR32, 0, 224
+   Patch EASTR32, 0, 240
+   Patch EASTR32, 0, 256
+   Patch EASTR32, 0, 272
+   Patch EASTR32, 0, 288
+   Patch EASTR32, 0, 304
+   Patch EASTR32, 0, 320
+   Patch EASTR32, 0, 336
+   Patch EASTR32, 0, 352
+   Patch EASTR32, 0, 368
+   Patch EASTR32, 0, 384
+   Patch EASTR32, 0, 400
+   Patch EASTR32, 0, 416
+   Patch EASTR32, 0, 432
+   Patch EASTR32, 0, 448
+   Patch EASTR34, 0, 464
+   Patch EASTR33, 16, 0
+   Patch EASTR34, 16, 16
+   Patch EASTR34, 16, 32
+   Patch EASTR34, 16, 48
+   Patch EASTR34, 16, 64
+   Patch EASTR34, 16, 80
+   Patch EASTR34, 16, 96
+   Patch EASTR34, 16, 112
+   Patch EASTR34, 16, 128
+   Patch EASTR34, 16, 144
+   Patch EASTR34, 16, 160
+   Patch EASTR34, 16, 176
+   Patch EASTR34, 16, 192
+   Patch EASTR34, 16, 208
+   Patch EASTR34, 16, 224
+   Patch EASTR34, 16, 240
+   Patch EASTR34, 16, 256
+   Patch EASTR34, 16, 272
+   Patch EASTR34, 16, 288
+   Patch EASTR34, 16, 304
+   Patch EASTR34, 16, 320
+   Patch EASTR34, 16, 336
+   Patch EASTR34, 16, 352
+   Patch EASTR34, 16, 368
+   Patch EASTR34, 16, 384
+   Patch EASTR34, 16, 400
+   Patch EASTR34, 16, 416
+   Patch EASTR34, 16, 432
+   Patch EASTR34, 16, 448
+   Patch EASTR32, 16, 464
+   WorldPanning
+}
+
+texture EASTWAL5, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR25, 0, 0
+   WorldPanning
+}
+
+texture EASTWL5A, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR25A, 0, 0
+   WorldPanning
+}
+
+texture EASTWAL6, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR26, 0, 0
+   WorldPanning
+}
+
+texture EASTWL6A, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR26A, 0, 0
+   WorldPanning
+}
+
+texture EASTWAL7, 64, 96
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR36, 0, 0
+   Patch EASTR35, 0, 48
+   WorldPanning
+}
+
+texture EASTWAL8, 64, 320
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR37, 0, 0
+   Patch EASTR37, 0, 64
+   Patch EASTR25, 0, 128
+   Patch EASTR25, 0, 192
+   Patch EASTR25, 0, 256
+   WorldPanning
+}
+
+texture EASTWL8A, 64, 320
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR37, 0, 0
+   Patch EASTR37, 0, 64
+   Patch EASTR25A, 0, 128
+   Patch EASTR25A, 0, 192
+   Patch EASTR25A, 0, 256
+   WorldPanning
+}
+
+texture EASTWAL9, 64, 320
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR37, 0, 0
+   Patch EASTR37, 0, 64
+   Patch EASTR26, 0, 128
+   Patch EASTR26, 0, 192
+   Patch EASTR26, 0, 256
+   WorldPanning
+}
+
+texture EASTWL9A, 64, 320
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR37, 0, 0
+   Patch EASTR37, 0, 64
+   Patch EASTR26A, 0, 128
+   Patch EASTR26A, 0, 192
+   Patch EASTR26A, 0, 256
+   WorldPanning
+}
+
+texture EASTBRK2, 32, 64
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR15, 0, 0
+   WorldPanning
+}
+
+texture EASTBRK1, 16, 480
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR13, 0, 0
+   Patch EASTR14, 0, 16
+   Patch EASTR14, 0, 32
+   Patch EASTR14, 0, 48
+   Patch EASTR14, 0, 64
+   Patch EASTR14, 0, 80
+   Patch EASTR14, 0, 96
+   Patch EASTR14, 0, 112
+   Patch EASTR14, 0, 128
+   Patch EASTR14, 0, 144
+   Patch EASTR14, 0, 160
+   Patch EASTR14, 0, 176
+   Patch EASTR14, 0, 192
+   Patch EASTR14, 0, 208
+   Patch EASTR14, 0, 224
+   Patch EASTR14, 0, 240
+   Patch EASTR14, 0, 256
+   Patch EASTR14, 0, 272
+   Patch EASTR14, 0, 288
+   Patch EASTR14, 0, 304
+   Patch EASTR14, 0, 320
+   Patch EASTR14, 0, 336
+   Patch EASTR14, 0, 352
+   Patch EASTR14, 0, 368
+   Patch EASTR14, 0, 384
+   Patch EASTR14, 0, 400
+   Patch EASTR14, 0, 416
+   Patch EASTR14, 0, 432
+   Patch EASTR14, 0, 448
+   Patch EASTR14, 0, 464
+   WorldPanning
+}
+
+texture EASTLDR1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR20, 0, 0
+   WorldPanning
+}
+
+texture EASTLDR2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR21, 0, 0
+   WorldPanning
+}
+
+texture EASTLDR3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR22, 0, 0
+   WorldPanning
+}
+
+texture EASTLDR4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR23, 0, 0
+   WorldPanning
+}
+
+texture EASTLDR5, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR24, 0, 0
+   WorldPanning
+}
+
+texture EASTLDRX, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR20, 0, 0
+   WorldPanning
+}
+
+texture EASTFLR5, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR38, 0, 0
+   WorldPanning
+}
+
+texture EASTCIL1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR40, 0, 0
+   WorldPanning
+}
+
+texture EASTCL1A, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR40A, 0, 0
+   WorldPanning
+}
+
+texture EASTCIL2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR39, 0, 0
+   WorldPanning
+}
+
+texture EASTCL2A, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR39A, 0, 0
+   WorldPanning
+}
+
+texture EASTCIL3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR14, 0, 0
+   WorldPanning
+}
+
+texture EASTCIL4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR10, 0, 0
+   WorldPanning
+}
+
+texture EASTSNDX, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR41, 0, 0
+   WorldPanning
+}
+
+texture EASTSND1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR41, 0, 0
+   WorldPanning
+}
+
+texture EASTSND2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR42, 0, 0
+   WorldPanning
+}
+
+texture EASTSND3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR43, 0, 0
+   WorldPanning
+}
+
+texture EASTCIL5, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR44, 0, 0
+   WorldPanning
+}
+
+texture EASTFLRS, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR45, 0, 0
+   WorldPanning
+}
+
+texture EASTWALS, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EASTR46, 0, 0
+   WorldPanning
+}
+
+texture ASTCIEL5, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ASTRO44, 0, 0
+   WorldPanning
+}
+
+texture ASTFLRS, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ASTRO45, 0, 0
+   WorldPanning
+}
+
+texture ASTWALS, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ASTRO46, 0, 0
+   WorldPanning
+}

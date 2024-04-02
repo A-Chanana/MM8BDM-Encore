@@ -1,0 +1,777 @@
+
+//Red things
+texture EGRODRGL, 64, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU1, 0, 0
+}
+
+texture EGRODRGM, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU2, 0, 0
+}
+
+texture EGRODRGR, 64, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU3, 0, 0
+}
+
+texture EGROCLM1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU6, 0, 0
+}
+
+texture EGROCLM2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU7, 0, 0
+}
+
+texture EGROBSTP, 64, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU27, 0, 0
+}
+
+texture EGROBTHI, 16, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU10, 0, 0
+}
+
+texture EGROBTH2, 16, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU11, 0, 0
+}
+
+texture EGROSTP2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU26, 0, 0
+}
+
+texture EGROLADR, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU25, 0, 0
+}
+
+texture EGROLADW, 32, 256
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU21, 0, 0
+   Patch EGROU22, 0, 16
+   Patch EGROU22, 0, 32
+   Patch EGROU22, 0, 48
+   Patch EGROU22, 0, 64
+   Patch EGROU22, 0, 80
+   Patch EGROU22, 0, 96
+   Patch EGROU22, 0, 112
+   Patch EGROU22, 0, 128
+   Patch EGROU22, 0, 144
+   Patch EGROU22, 0, 160
+   Patch EGROU22, 0, 176
+   Patch EGROU22, 0, 192
+   Patch EGROU22, 0, 208
+   Patch EGROU22, 0, 224
+   Patch EGROU22, 0, 240
+   
+   Patch EGROU23, 16, 0
+   Patch EGROU24, 16, 16
+   Patch EGROU24, 16, 32
+   Patch EGROU24, 16, 48
+   Patch EGROU24, 16, 64
+   Patch EGROU24, 16, 80
+   Patch EGROU24, 16, 96
+   Patch EGROU24, 16, 112
+   Patch EGROU24, 16, 128
+   Patch EGROU24, 16, 144
+   Patch EGROU24, 16, 160
+   Patch EGROU24, 16, 176
+   Patch EGROU24, 16, 192
+   Patch EGROU24, 16, 208
+   Patch EGROU24, 16, 224
+   Patch EGROU24, 16, 240
+   WorldPanning 
+}
+
+//Walls
+
+texture EGROWAL1, 16, 448
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU8, 0, 0
+   Patch EGROU9, 0, 16
+   Patch EGROU9, 0, 32
+   Patch EGROU9, 0, 48
+   Patch EGROU9, 0, 64
+   Patch EGROU9, 0, 80
+   Patch EGROU9, 0, 96
+   Patch EGROU9, 0, 112
+   Patch EGROU9, 0, 128
+   Patch EGROU9, 0, 144
+   Patch EGROU9, 0, 160
+   Patch EGROU9, 0, 176
+   Patch EGROU9, 0, 192
+   Patch EGROU9, 0, 208
+   Patch EGROU9, 0, 224
+   Patch EGROU9, 0, 240
+   Patch EGROU9, 0, 256
+   Patch EGROU9, 0, 272
+   Patch EGROU9, 0, 288
+   Patch EGROU9, 0, 304
+   Patch EGROU9, 0, 320
+   Patch EGROU9, 0, 336
+   Patch EGROU9, 0, 352
+   Patch EGROU9, 0, 368
+   Patch EGROU9, 0, 384
+   Patch EGROU9, 0, 400
+   Patch EGROU9, 0, 416
+   Patch EGROU9, 0, 432
+   WorldPanning 
+}
+
+texture EGRORCKM, 16, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU13, 0, 0
+   Patch EGROU16, 0, 16
+   Patch EGROU16, 0, 32
+   Patch EGROU16, 0, 48
+   Patch EGROU16, 0, 64
+   Patch EGROU16, 0, 80
+   Patch EGROU16, 0, 96
+   Patch EGROU19, 0, 112
+}
+
+texture EGRORCKL, 16, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU12, 0, 0
+   Patch EGROU15, 0, 16
+   Patch EGROU15, 0, 32
+   Patch EGROU15, 0, 48
+   Patch EGROU15, 0, 64
+   Patch EGROU15, 0, 80
+   Patch EGROU15, 0, 96
+   Patch EGROU18, 0, 112
+   WorldPanning 
+}
+
+texture EGRORCKR, 16, 128
+{
+   XScale 0.5
+   YScale 0.5
+
+   Patch EGROU14, 0, 0
+   Patch EGROU17, 0, 16
+   Patch EGROU17, 0, 32
+   Patch EGROU17, 0, 48
+   Patch EGROU17, 0, 64
+   Patch EGROU17, 0, 80
+   Patch EGROU17, 0, 96
+   Patch EGROU20, 0, 112
+   WorldPanning 
+}
+
+//Ivory Stones
+texture EGROSTP1, 64, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU36, 0, 0
+}
+
+texture EGROTIL1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU4, 0, 0
+}
+
+texture EGROTIL2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU5, 0, 0
+}
+
+texture EGROTIL3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU28, 0, 0
+}
+
+texture EGROTIL4, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU29, 0, 0
+}
+
+texture EGROTIL5, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU30, 0, 0
+}
+
+texture EGROPLR1, 32, 64
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU31, 0, 0
+   Patch EGROU35, 0, 32
+   WorldPanning 
+}
+
+texture EGROPLR2, 32, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU31, 0, 0
+   Patch EGROU34, 0, 32
+   Patch EGROU32, 0, 48
+   Patch EGROU34, 0, 80
+   Patch EGROU35, 0, 96
+   WorldPanning 
+}
+
+texture EGROPLR3, 32, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU31, 0, 0
+   Patch EGROU34, 0, 16
+   Patch EGROU33, 0, 32
+   Patch EGROU34, 0, 48
+   Patch EGROU33, 0, 64
+   Patch EGROU34, 0, 80
+   Patch EGROU35, 0, 96
+   WorldPanning 
+}
+
+//Stone Slabs
+texture EGROBRCK, 64, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU38, 0, 0
+   Patch EGROU39, 0, 16
+   Patch EGROU40, 0, 32
+   Patch EGROU39, 0, 48
+   Patch EGROU40, 0, 64
+   Patch EGROU39, 0, 80
+   Patch EGROU38, 0, 96
+   Patch EGROU40, 0, 112
+   
+   Patch EGROU41, 16, 0
+   Patch EGROU42, 16, 32
+   Patch EGROU41, 16, 64
+   Patch EGROU41, 16, 96
+   Patch EGROU38, 16, 112
+
+   Patch EGROU41, 32, 16
+   Patch EGROU38, 32, 32
+   Patch EGROU41, 32, 48
+   Patch EGROU41, 32, 80
+   Patch EGROU42, 32, 112
+   
+   Patch EGROU38, 48, 0
+   Patch EGROU40, 48, 32
+   Patch EGROU42, 48, 64
+   Patch EGROU38, 48, 96
+   Patch EGROU38, 48, 112
+   
+   WorldPanning 
+}
+
+texture EGROBRC2, 32, 448
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU46, 0, 0
+   Patch EGROU44, 0, 16
+   Patch EGROU44, 0, 32
+   Patch EGROU44, 0, 48
+   Patch EGROU44, 0, 64
+   Patch EGROU44, 0, 80
+   Patch EGROU44, 0, 96
+   Patch EGROU44, 0, 112
+   Patch EGROU44, 0, 128
+   Patch EGROU44, 0, 144
+   Patch EGROU44, 0, 160
+   Patch EGROU44, 0, 176
+   Patch EGROU44, 0, 192
+   Patch EGROU44, 0, 208
+   Patch EGROU44, 0, 224
+   Patch EGROU44, 0, 240
+   Patch EGROU44, 0, 256
+   Patch EGROU44, 0, 272
+   Patch EGROU44, 0, 288
+   Patch EGROU44, 0, 304
+   Patch EGROU44, 0, 320
+   Patch EGROU44, 0, 336
+   Patch EGROU44, 0, 352
+   Patch EGROU44, 0, 368
+   Patch EGROU44, 0, 384
+   Patch EGROU44, 0, 400
+   Patch EGROU44, 0, 416
+   Patch EGROU44, 0, 432
+   
+   Patch EGROU47, 16, 0
+   Patch EGROU44, 16, 16
+   Patch EGROU44, 16, 32
+   Patch EGROU44, 16, 48
+   Patch EGROU44, 16, 64
+   Patch EGROU44, 16, 80
+   Patch EGROU44, 16, 96
+   Patch EGROU44, 16, 112
+   Patch EGROU44, 16, 128
+   Patch EGROU44, 16, 144
+   Patch EGROU44, 16, 160
+   Patch EGROU44, 16, 176
+   Patch EGROU44, 16, 192
+   Patch EGROU44, 16, 208
+   Patch EGROU44, 16, 224
+   Patch EGROU44, 16, 240
+   Patch EGROU44, 16, 256
+   Patch EGROU44, 16, 272
+   Patch EGROU44, 16, 288
+   Patch EGROU44, 16, 304
+   Patch EGROU44, 16, 320
+   Patch EGROU44, 16, 336
+   Patch EGROU44, 16, 352
+   Patch EGROU44, 16, 368
+   Patch EGROU44, 16, 384
+   Patch EGROU44, 16, 400
+   Patch EGROU44, 16, 416
+   Patch EGROU44, 16, 432   
+   WorldPanning 
+}
+
+texture EGROBRC3, 32, 448
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU43, 0, 0
+   Patch EGROU43, 0, 16
+   Patch EGROU43, 0, 32
+   Patch EGROU43, 0, 48
+   Patch EGROU43, 0, 64
+   Patch EGROU43, 0, 80
+   Patch EGROU43, 0, 96
+   Patch EGROU43, 0, 112
+   Patch EGROU43, 0, 128
+   Patch EGROU43, 0, 144
+   Patch EGROU43, 0, 160
+   Patch EGROU43, 0, 176
+   Patch EGROU43, 0, 192
+   Patch EGROU43, 0, 208
+   Patch EGROU43, 0, 224
+   Patch EGROU43, 0, 240
+   Patch EGROU43, 0, 256
+   Patch EGROU43, 0, 272
+   Patch EGROU43, 0, 288
+   Patch EGROU43, 0, 304
+   Patch EGROU43, 0, 320
+   Patch EGROU43, 0, 336
+   Patch EGROU43, 0, 352
+   Patch EGROU43, 0, 368
+   Patch EGROU43, 0, 384
+   Patch EGROU43, 0, 400
+   Patch EGROU43, 0, 416
+   Patch EGROU43, 0, 432
+   
+   Patch EGROU45, 16, 0
+   Patch EGROU45, 16, 16
+   Patch EGROU45, 16, 32
+   Patch EGROU45, 16, 48
+   Patch EGROU45, 16, 64
+   Patch EGROU45, 16, 80
+   Patch EGROU45, 16, 96
+   Patch EGROU45, 16, 112
+   Patch EGROU45, 16, 128
+   Patch EGROU45, 16, 144
+   Patch EGROU45, 16, 160
+   Patch EGROU45, 16, 176
+   Patch EGROU45, 16, 192
+   Patch EGROU45, 16, 208
+   Patch EGROU45, 16, 224
+   Patch EGROU45, 16, 240
+   Patch EGROU45, 16, 256
+   Patch EGROU45, 16, 272
+   Patch EGROU45, 16, 288
+   Patch EGROU45, 16, 304
+   Patch EGROU45, 16, 320
+   Patch EGROU45, 16, 336
+   Patch EGROU45, 16, 352
+   Patch EGROU45, 16, 368
+   Patch EGROU45, 16, 384
+   Patch EGROU45, 16, 400
+   Patch EGROU45, 16, 416
+   Patch EGROU45, 16, 432   
+   WorldPanning 
+}
+
+//Water/Waterspouts
+texture EGROWTLX, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU48, 0, 0
+}
+
+texture EGROWTL1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU48, 0, 0
+}
+
+texture EGROWTL2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU49, 0, 0
+}
+
+texture EGROWTL3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU50, 0, 0
+}
+
+texture EGROWTL4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU51, 0, 0
+}
+
+texture EGROWTDX, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU52, 0, 0
+}
+
+texture EGROWTD1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU52, 0, 0
+}
+
+texture EGROWTD2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU53, 0, 0
+}
+
+texture EGROWTD3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU54, 0, 0
+}
+
+texture EGROWTD4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU55, 0, 0
+}
+
+texture EGROWTRX, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU72, 0, 0
+}
+
+texture EGROWTR1, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU72, 0, 0
+}
+
+texture EGROWTR2, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU73, 0, 0
+}
+
+texture EGROWTR3, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU74, 0, 0
+}
+
+texture EGROWTGX, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU75, 0, 0
+}
+
+texture EGROWTG1, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU75, 0, 0
+}
+
+texture EGROWTG2, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU76, 0, 0
+}
+
+texture EGROWTG3, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU77, 0, 0
+}
+
+texture EGROWTFX, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU68, 0, 0
+}
+
+texture EGROWTF1, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU68, 0, 0
+}
+
+texture EGROWTF2, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU69, 0, 0
+}
+
+texture EGROWTF3, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU70, 0, 0
+}
+
+texture EGROWTF4, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU71, 0, 0
+}
+
+//Floors
+
+texture EGROFLR1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU59, 0, 0
+}
+
+texture EGROFLR2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU60, 0, 0
+}
+
+texture EGROFLR3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU61, 0, 0
+}
+
+texture EGROFLR4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU62, 0, 0
+}
+
+texture EGROFLR5, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU63, 0, 0
+   patch EGROU64, 0, 16
+   patch EGROU63, 16, 0
+}
+
+texture EGROFLR6, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU65, 0, 0
+   patch EGROU66, 0, 16
+   patch EGROU65, 16, 0
+}
+
+texture EGROFLR7, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EGROU67, 0, 0
+}
+
+texture EGROFLR8, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   Patch EGROU16, 0, 0
+}
+   
+//Other
+
+texture EGROWALG, 32, 448
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGROU81, 0, 0
+   Patch EGROU80, 0, 32
+   Patch EGROU80, 0, 64
+   Patch EGROU80, 0, 96
+   Patch EGROU80, 0, 128
+   Patch EGROU80, 0, 144
+   Patch EGROU80, 0, 160
+   Patch EGROU80, 0, 192
+   Patch EGROU80, 0, 224
+   Patch EGROU80, 0, 256
+   Patch EGROU80, 0, 288
+   Patch EGROU80, 0, 320
+   Patch EGROU80, 0, 352
+   Patch EGROU80, 0, 384
+   Patch EGROU80, 0, 416
+   WorldPanning 
+}
+
+texture EGROSLT1, 96, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   Patch EGROU78, 0, 0
+}
+
+texture EGROSLT2, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   Patch EGROU79, 0, 0
+}
+
+texture EGROSLT3, 80, 48
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   Patch EGROU82, 0, 0
+}
+
+texture EGROSLT4, 48, 48
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   Patch EGROU83, 0, 0
+}
+
+texture EGROSLT5, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   Patch EGROU84, 0, 0
+}
+
+texture EGROSLT6, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   Patch EGROU85, 0, 0
+}

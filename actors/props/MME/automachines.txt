@@ -1,0 +1,199 @@
+
+//Original idea and sprite for vending machine by Mega Man Permafrost developer: michaelwave1997
+
+actor VendingMachineETank 30001
+{
+//$Category MM8BDME-AutoProps
++FORCEYBILLBOARD
++QUICKTORETALIATE
++DONTBLAST
+scale 2.0
+Height 64
+Radius 16
+States
+{
+Spawn:
+VEND A 0
+goto Spawnloop
+Spawnloop:
+VEND A 0
+VEND ABCD 3 
+goto Spawnloop+1
+Dispense:
+VEND E 0
+VEND E 70 A_SpawnItemEx("ETankTemporary",0,0,32,4,0,8)
+Goto SpawnLoop+1
+Death:
+VEND L 0 A_SpawnItemEx("VendingMachineInactive",0,0,0,0,0,0)
+VEND L 1
+stop
+}
+}
+
+actor VendingMachineInactive
+{
++QUICKTORETALIATE
++DONTBLAST
+scale 2.0
+Height 64
+Radius 16
+States
+{
+Spawn:
+VEND L 0
+goto Spawnloop
+Spawnloop:
+VEND A 0
+VEND L 3 
+goto Spawnloop+1
+}
+}
+
+actor ETankTemporary : BaseMM8BDMItem
+{
+Inventory.PickupSound "item/1up"
+inventory.pickupmessage "$PU_ETANK"
+Tag "$TAG_ETANK"
+inventory.icon "ETANK"
+inventory.pickupsound "item/1up"
+States
+{
+SpawnLoop:
+EBAL F 0 
+EBAL F 0 A_JumpIf(tid!=0, 2)
+EBAL F 0 Thing_ChangeTID(0,999)
+EBAL FEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFEFE 6
+TNT1 A 6
+EBAL F 6
+TNT1 A 6
+EBAL E 6
+TNT1 A 6
+EBAL F 6
+TNT1 A 6
+EBAL E 6
+TNT1 A 3
+EBAL F 3
+TNT1 A 3
+EBAL E 3
+TNT1 A 3
+EBAL F 3
+TNT1 A 3
+EBAL E 3
+Goto Death
+Pickup:
+EBAL E 0 A_GiveInventory("ETank",1)
+stop
+Death:
+TNT1 A 0
+stop
+}
+}
+
+actor VendingMachineMTank : VendingMachineETank 30002
+{
+States
+{
+Spawn:
+VEND F 0
+goto Spawnloop
+Spawnloop:
+VEND F 0
+VEND FGHI 3 
+goto Spawnloop+1
+Dispense:
+VEND J 0
+VEND J 70 A_SpawnItemEx("MTankTemporary",0,0,32,4,0,8)
+Goto SpawnLoop+1
+Death:
+VEND L 0 A_SpawnItemEx("VendingMachineInactive",0,0,0,0,0,0)
+VEND L 1
+stop
+}
+}
+
+actor MTankTemporary : BaseMM8BDMItem
+{
+Inventory.PickupSound "item/1up"
+inventory.pickupmessage "$PU_MTANK"
+Tag "$TAG_MTANK"
+inventory.icon "MTANK"
+States
+{
+SpawnLoop:
+EBAL G 0 
+EBAL G 0 A_JumpIf(tid!=0, 2)
+EBAL G 0 Thing_ChangeTID(0,999)
+EBAL GEGEGEGEGEGEGEGEGEGEGEGEGEGEGEGEGEGE 6
+TNT1 A 6
+EBAL G 6
+TNT1 A 6
+EBAL E 6
+TNT1 A 6
+EBAL G 6
+TNT1 A 6
+EBAL E 6
+TNT1 A 3
+EBAL G 3
+TNT1 A 3
+EBAL E 3
+TNT1 A 3
+EBAL G 3
+TNT1 A 3
+EBAL E 3
+Goto Death
+Pickup:
+EBAL E 0 A_GiveInventory("MTank",1)
+stop
+Death:
+TNT1 A 0
+stop
+}
+}
+
+actor VendingMachineEddie : VendingMachineETank 30003
+{
+renderstyle none
+States
+{
+Spawn:
+EDDI A 0
+goto Spawnloop
+Spawnloop:
+EDDI A 0
+EDDI A 1 
+goto Spawnloop+1
+Dispense:
+EDDI A 0
+EDDI A 1 A_SpawnItemEx("RandomWeapon",0,0,32,Random(200, 300),Random(-100, 100),6)
+EDDI A 1 A_SpawnItemEx("RandomWeapon",0,0,32,Random(200, 300),Random(-100, 100),6)
+EDDI A 1 A_SpawnItemEx("RandomWeapon",0,0,32,Random(200, 300),Random(-100, 100),6)
+Goto SpawnLoop+1
+Death:
+TNT1 A 1
+stop
+}
+}
+
+actor VendingMachineEddieText 30004
+{
+//$Category MM8BDME-AutoProps
++FORCEYBILLBOARD
++QUICKTORETALIATE
++DONTBLAST
+scale 2.0
+Height 64
+Radius 16
+States
+{
+Spawn:
+VEND K 0
+goto Spawnloop
+Spawnloop:
+VEND K 0
+VEND K 3 
+goto Spawnloop+1
+Death:
+TNT1 A 1
+stop
+}
+}

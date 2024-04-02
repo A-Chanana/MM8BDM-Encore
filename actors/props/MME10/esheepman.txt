@@ -1,0 +1,246 @@
+actor ESheepMapBlock 21746
+{
+	//$Category MM8BDME-Interactive Props
+	//$Title Holographic Block
+	//$NotAngled
+	PROJECTILE
+	+NOGRAVITY
+	+ACTLIKEBRIDGE
+	+THRUSPECIES
+	species "MovingPlatform"
+	renderstyle none
+	height 32
+	radius 12
+	Scale 2.0
+	States
+	{
+	Spawn:
+		SBLO A 3
+		SBLO A 0 A_Stop
+		SBLO A 0 A_ChangeFlag(MISSILE, false)
+		SBLO A 0 A_ChangeFlag(NOBLOCKMAP, false)
+		SBLO A 0 A_ChangeFlag(SOLID, true)
+		SBLO A 0 A_SpawnItemEx("SheepBlockDetect", 0, 0, 32)
+	SpawnLoop:
+		SBLO A 1 A_JumpIfInventory("SheepBlockFlag", 1, "VanishStart")
+		loop
+	VanishStart:
+		SBLO A 0 ACS_NamedExecuteAlways("10SHE_BlockVanish", 0, tid)
+		SBLO A 1
+		wait
+	Destroy:
+		SBLO A 0 A_TakeInventory("SheepBlockFlag", 1)
+		SBLO A 0 A_ChangeFlag(SOLID, FALSE)
+		SBLO Z 1
+		wait
+	Death:
+		SBLO Z 16
+	Replace:
+		SBLO Z 1
+		SBLO Z 0 A_SpawnItemEx("SheepMapBlock", 0, 0, 0, 0, 0, 0, 0, 0, 0, tid)
+		SBLO Z 0 A_SpawnItemEx("SheepBlockDamager", 0, 0, 0, 0, 0, 0, 0, 0, 0, tid)
+		stop
+	}
+}
+
+actor EncoreSheepPlatform 20013
+{
+height 64
+radius 64
+scale 2.5
+-FORCEXYBILLBOARD
++NOGRAVITY
+-SOLID
++THRUSPECIES
++THRUGHOST 
++Shootable
++NOTAUTOAIMED
++NoDamage
++DontBlast
++CANTSEEK
++FORCEYBILLBOARD
++NOBLOOD
+Painchance 256
+Health 999999
+Mass 999999999999999999
+States
+{
+Spawn:
+ESHW A 0 A_ChangeFlag("Shootable",1)
+ESHW A 0 A_ChangeFlag("Solid",1)
+Goto Spawn2
+Spawn2:
+ESHW AB 4
+Loop
+InactiveState:
+TNT1 A 0 A_JumpIfInventory("CutterFlag",12,"Reset1")
+TNT1 A 0 A_GiveInventory("CutterFlag",1)
+TNT1 A 12
+Loop
+Reset1:
+ESHW CACA 3
+TNT1 A 0 A_JumpIf(ACS_NamedExecuteWithResult("core_checkdistance", 96) == 0, "Reset")
+Goto Nope
+Reset:
+ESHW A 0 A_TakeInventory("CutterFlag",999)
+ESHW A 0 A_ChangeFlag("Shootable",1)
+ESHW A 0 A_ChangeFlag("Solid",1)
+ESHW A 0 A_PlaySoundEx("misc/galaxyteleport", "Weapon")
+Goto Spawn2
+Pain:
+ESHW A 0 A_ChangeFlag("Shootable",0)
+ESHW A 0 A_ChangeFlag("Solid",0)
+ESHW A 0 A_PlaySoundEx("encore/sheepcloudshot", "Weapon")
+ESHW AAAAAAAAAAA 0 A_SpawnItemEx("WoolCloudPoof",0,0,32,random(-5,5),random(-5,5),random(-5,5),random(0,360)) 
+Goto InactiveState
+Nope:
+TNT1 A 12
+TNT1 J 0 A_ChangeFlag("Shootable",0)
+TNT1 J 0 A_ChangeFlag("Solid",0) // Just in case
+Goto Reset1
+Death:
+TNT1 A 0
+stop
+}
+} 
+
+actor WoolCloudPoof : BasicGraphicEffect
+{
++NOGRAVITY
++NOINTERACTION
++RIPPER
++BRIGHT
+RenderStyle "SoulTrans"
+damage (0)
+States
+{
+SpawnFrame:
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+ESHW D 2
+ESHW E 2
+stop
+}
+}
+
+actor EncoreOctobulb 21764
+{
+	//$Category MM8BDM-Props
+	//$Arg0 Spawn Babies?
+	//$Arg0Enum { 0 = "Yes"; 1 = "No"; }
+	//$Arg0Type 11
+	-SOLID
+	+LOOKALLAROUND
+	+AMBUSH
+	+QUICKTORETALIATE
+	+FORCEYBILLBOARD
+	//+CLIENTSIDEONLY
+	speed 0
+	height 48
+	radius 16
+	scale 2.0
+	var int user_lightTime;
+	States
+	{
+	Spawn:
+		ESPR AAA 2
+		ESPR A 0 A_SetUserVar("user_lightTime", user_lightTime-1)
+		ESPR A 0 A_Look//A_LookEx(LOF_NOSOUNDCHECK, 0, 1000, 0, 0, "Awaken")
+		loop
+	See:
+		ESPR AAA 2 A_JumpIfTargetInLOS("Open", 0, 0, 1000)
+		Goto Spawn
+	Open:
+		ESPR B 4
+	Awake:
+		ESPR C 18 bright
+		ESPR C 0 A_JumpIf(args[0] == 0 && user_lightTime <= 0, "SpawnBulbs")
+		ESPR C 0 A_SetUserVar("user_lightTime", user_lightTime-1)
+		ESPR C 0 A_JumpIfTargetInLOS("Awake", 0, 0, 1000)
+		ESPR C 1 A_JumpIf(true, "Sleep")
+		wait
+	Sleep:
+		ESPR B 3 A_JumpIfTargetInLOS("Open", 0, 0, 1000)
+		ESPR C 3 bright A_JumpIfTargetInLOS("Open", 0, 0, 1000)
+		ESPR B 3 A_JumpIfTargetInLOS("Open", 0, 0, 1000)
+		ESPR C 3 bright A_JumpIfTargetInLOS("Open", 0, 0, 1000)
+		ESPR B 3 A_JumpIfTargetInLOS("Open", 0, 0, 1000)
+		ESPR C 3 bright A_JumpIfTargetInLOS("Open", 0, 0, 1000)
+		ESPR B 3 A_JumpIfTargetInLOS("Open", 0, 0, 1000)
+		goto Spawn
+	SpawnBulbs:
+		ESPR B 0 A_SpawnItemEx("EncorePachiSmoke", 48, 0, 32, 0, 0.4, 0)
+		ESPR B 0 A_SpawnItemEx("EncorePachiSmoke", 48, 0, 32, 0, -0.4, 0)
+		ESPR B 0 A_SpawnItemEx("EncorePachiSmoke", 48, 0, 32, 0, 0, 0.4)
+		ESPR B 0 A_SpawnItemEx("EncorePachiSmoke", 48, 0, 32, 0, 0, -0.4)
+		ESPR C 8 bright
+		ESPR B 0 A_SpawnItemEx("EncoreLittlePachipachi", 16, 0, 32, 16, 0, 0,  22.5)
+		ESPR B 0 A_SpawnItemEx("EncoreLittlePachipachi", 16, 0, 32, 16, 0, 0, -22.5)
+		ESPR B 0 A_SetUserVar("user_lightTime", 15)
+		goto Awake
+	}
+}
+
+actor EncorePachiSmoke
+{
+	+NOINTERACTION
+	+NOGRAVITY
+	+CLIENTSIDEONLY
+	+FORCEXYBILLBOARD
+	-SOLID
+	scale 2.5
+	height 0
+	radius 0
+	States
+	{
+	Spawn:
+		TNT1 A 0
+		ESPR HIHIHI 4
+		ESPR HZHZHZHZIZIZIZIZHZHZHZHZIZIZIZIZHZHZHZHZ 1
+		stop
+	}
+}
+
+actor EncoreLittlePachipachi
+{
+	PROJECTILE
+	+THRUACTORS
+	-NOGRAVITY
+    +BRIGHT
+	damage 0
+	Scale 2.0
+	Height 1
+	radius 1
+	gravity 0.1
+	States
+	{
+	Spawn:
+		ESPR G 4
+		MMFX D 0 A_Stop
+	SpawnLoop:
+		ESPR DEDEDEDEDEDEDEDE 2
+	Up:
+		ESPR F 0 A_SetAngle(angle+random(-10, 10))
+		ESPR F 0 A_ChangeVelocity(frandom(0, 15), 0, 12, CVF_REPLACE)
+		ESPR FGFG 2
+		MMFX D 0 A_Stop
+		goto SpawnLoop
+	}
+}
+

@@ -1,0 +1,2998 @@
+
+Texture "ECHISKY1", 400, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI01", 0, 0
+}
+
+Texture "ECHISKY2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI02", 0, 0
+}
+
+Texture "ECHISKY3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI03", 0, 0
+}
+
+Texture "ECHIIC1X", 128, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05A", 96, 16
+	Patch "ECHI05A", 96, 208
+	Patch "ECHI05A", 96, 64
+	Patch "ECHI05A", 96, 256
+	Patch "ECHI05A", 96, 112
+	Patch "ECHI05A", 96, 304
+	Patch "ECHI05A", 96, 400
+	Patch "ECHI05A", 96, 160
+	Patch "ECHI05A", 96, 352
+	Patch "ECHI05A", 96, 448
+	Patch "ECHI05A", 32, 32
+	Patch "ECHI05A", 32, 256
+	Patch "ECHI05A", 32, 384
+	Patch "ECHI05A", 32, 448
+	Patch "ECHI05A", 32, 64
+	Patch "ECHI05A", 32, 288
+	Patch "ECHI05A", 32, 416
+	Patch "ECHI05A", 32, 480
+	Patch "ECHI05A", 32, 96
+	Patch "ECHI05A", 32, 320
+	Patch "ECHI05A", 32, 128
+	Patch "ECHI05A", 32, 352
+	Patch "ECHI05A", 32, 160
+	Patch "ECHI05A", 32, 192
+	Patch "ECHI05A", 32, 224
+	Patch "ECHI05A", 0, 48
+	Patch "ECHI05A", 0, 272
+	Patch "ECHI05A", 0, 320
+	Patch "ECHI05A", 0, 368
+	Patch "ECHI05A", 0, 416
+	Patch "ECHI05A", 0, 464
+	Patch "ECHI05A", 0, 96
+	Patch "ECHI05A", 0, 144
+	Patch "ECHI05A", 0, 192
+	Patch "ECHI06A", 0, 32
+	Patch "ECHI06A", 0, 256
+	Patch "ECHI06A", 0, 304
+	Patch "ECHI06A", 0, 352
+	Patch "ECHI06A", 0, 400
+	Patch "ECHI06A", 0, 448
+	Patch "ECHI06A", 0, 80
+	Patch "ECHI06A", 0, 128
+	Patch "ECHI06A", 0, 176
+	Patch "ECHI06A", 0, 224
+	Patch "ECHI06A", 0, 16
+	Patch "ECHI06A", 0, 240
+	Patch "ECHI06A", 0, 288
+	Patch "ECHI06A", 0, 336
+	Patch "ECHI06A", 0, 384
+	Patch "ECHI06A", 0, 432
+	Patch "ECHI06A", 0, 480
+	Patch "ECHI06A", 0, 64
+	Patch "ECHI06A", 0, 112
+	Patch "ECHI06A", 0, 160
+	Patch "ECHI06A", 0, 208
+	Patch "ECHI06A", 64, 32
+	Patch "ECHI06A", 64, 272
+	Patch "ECHI06A", 64, 80
+	Patch "ECHI06A", 64, 320
+	Patch "ECHI06A", 64, 128
+	Patch "ECHI06A", 64, 368
+	Patch "ECHI06A", 64, 176
+	Patch "ECHI06A", 64, 416
+	Patch "ECHI06A", 64, 224
+	Patch "ECHI06A", 64, 464
+	Patch "ECHI06A", 32, 16
+	Patch "ECHI06A", 32, 240
+	Patch "ECHI06A", 32, 368
+	Patch "ECHI06A", 32, 48
+	Patch "ECHI06A", 32, 272
+	Patch "ECHI06A", 32, 400
+	Patch "ECHI06A", 32, 464
+	Patch "ECHI06A", 32, 80
+	Patch "ECHI06A", 32, 304
+	Patch "ECHI06A", 32, 432
+	Patch "ECHI06A", 32, 112
+	Patch "ECHI06A", 32, 336
+	Patch "ECHI06A", 32, 144
+	Patch "ECHI06A", 32, 176
+	Patch "ECHI06A", 32, 208
+	Patch "ECHI06A", 96, 48
+	Patch "ECHI06A", 96, 240
+	Patch "ECHI06A", 96, 96
+	Patch "ECHI06A", 96, 288
+	Patch "ECHI06A", 96, 144
+	Patch "ECHI06A", 96, 336
+	Patch "ECHI06A", 96, 432
+	Patch "ECHI06A", 96, 192
+	Patch "ECHI06A", 96, 384
+	Patch "ECHI06A", 96, 480
+	Patch "ECHI08A", 0, 496
+	Patch "ECHI08A", 32, 496
+	Patch "ECHI08A", 64, 496
+	Patch "ECHI08A", 96, 496
+	Patch "ECHI07A", 64, 16
+	Patch "ECHI07A", 64, 256
+	Patch "ECHI07A", 64, 240
+	Patch "ECHI07A", 64, 64
+	Patch "ECHI07A", 64, 304
+	Patch "ECHI07A", 64, 112
+	Patch "ECHI07A", 64, 352
+	Patch "ECHI07A", 64, 160
+	Patch "ECHI07A", 64, 400
+	Patch "ECHI07A", 64, 208
+	Patch "ECHI07A", 64, 448
+	Patch "ECHI07A", 64, 480
+	Patch "ECHI07A", 64, 48
+	Patch "ECHI07A", 64, 288
+	Patch "ECHI07A", 64, 96
+	Patch "ECHI07A", 64, 336
+	Patch "ECHI07A", 64, 144
+	Patch "ECHI07A", 64, 384
+	Patch "ECHI07A", 64, 192
+	Patch "ECHI07A", 64, 432
+	Patch "ECHI07A", 96, 32
+	Patch "ECHI07A", 96, 80
+	Patch "ECHI07A", 96, 272
+	Patch "ECHI07A", 96, 128
+	Patch "ECHI07A", 96, 320
+	Patch "ECHI07A", 96, 416
+	Patch "ECHI07A", 96, 176
+	Patch "ECHI07A", 96, 368
+	Patch "ECHI07A", 96, 464
+	Patch "ECHI07A", 96, 224
+	Patch "ECHI04A", 0, 0
+	Patch "ECHI04A", 32, 0
+	Patch "ECHI04A", 64, 0
+	Patch "ECHI04A", 96, 0
+}
+
+Texture "ECHIIC1A", 128, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05A", 96, 16
+	Patch "ECHI05A", 96, 208
+	Patch "ECHI05A", 96, 64
+	Patch "ECHI05A", 96, 256
+	Patch "ECHI05A", 96, 112
+	Patch "ECHI05A", 96, 304
+	Patch "ECHI05A", 96, 400
+	Patch "ECHI05A", 96, 160
+	Patch "ECHI05A", 96, 352
+	Patch "ECHI05A", 96, 448
+	Patch "ECHI05A", 32, 32
+	Patch "ECHI05A", 32, 256
+	Patch "ECHI05A", 32, 384
+	Patch "ECHI05A", 32, 448
+	Patch "ECHI05A", 32, 64
+	Patch "ECHI05A", 32, 288
+	Patch "ECHI05A", 32, 416
+	Patch "ECHI05A", 32, 480
+	Patch "ECHI05A", 32, 96
+	Patch "ECHI05A", 32, 320
+	Patch "ECHI05A", 32, 128
+	Patch "ECHI05A", 32, 352
+	Patch "ECHI05A", 32, 160
+	Patch "ECHI05A", 32, 192
+	Patch "ECHI05A", 32, 224
+	Patch "ECHI05A", 0, 48
+	Patch "ECHI05A", 0, 272
+	Patch "ECHI05A", 0, 320
+	Patch "ECHI05A", 0, 368
+	Patch "ECHI05A", 0, 416
+	Patch "ECHI05A", 0, 464
+	Patch "ECHI05A", 0, 96
+	Patch "ECHI05A", 0, 144
+	Patch "ECHI05A", 0, 192
+	Patch "ECHI06A", 0, 32
+	Patch "ECHI06A", 0, 256
+	Patch "ECHI06A", 0, 304
+	Patch "ECHI06A", 0, 352
+	Patch "ECHI06A", 0, 400
+	Patch "ECHI06A", 0, 448
+	Patch "ECHI06A", 0, 80
+	Patch "ECHI06A", 0, 128
+	Patch "ECHI06A", 0, 176
+	Patch "ECHI06A", 0, 224
+	Patch "ECHI06A", 0, 16
+	Patch "ECHI06A", 0, 240
+	Patch "ECHI06A", 0, 288
+	Patch "ECHI06A", 0, 336
+	Patch "ECHI06A", 0, 384
+	Patch "ECHI06A", 0, 432
+	Patch "ECHI06A", 0, 480
+	Patch "ECHI06A", 0, 64
+	Patch "ECHI06A", 0, 112
+	Patch "ECHI06A", 0, 160
+	Patch "ECHI06A", 0, 208
+	Patch "ECHI06A", 64, 32
+	Patch "ECHI06A", 64, 272
+	Patch "ECHI06A", 64, 80
+	Patch "ECHI06A", 64, 320
+	Patch "ECHI06A", 64, 128
+	Patch "ECHI06A", 64, 368
+	Patch "ECHI06A", 64, 176
+	Patch "ECHI06A", 64, 416
+	Patch "ECHI06A", 64, 224
+	Patch "ECHI06A", 64, 464
+	Patch "ECHI06A", 32, 16
+	Patch "ECHI06A", 32, 240
+	Patch "ECHI06A", 32, 368
+	Patch "ECHI06A", 32, 48
+	Patch "ECHI06A", 32, 272
+	Patch "ECHI06A", 32, 400
+	Patch "ECHI06A", 32, 464
+	Patch "ECHI06A", 32, 80
+	Patch "ECHI06A", 32, 304
+	Patch "ECHI06A", 32, 432
+	Patch "ECHI06A", 32, 112
+	Patch "ECHI06A", 32, 336
+	Patch "ECHI06A", 32, 144
+	Patch "ECHI06A", 32, 176
+	Patch "ECHI06A", 32, 208
+	Patch "ECHI06A", 96, 48
+	Patch "ECHI06A", 96, 240
+	Patch "ECHI06A", 96, 96
+	Patch "ECHI06A", 96, 288
+	Patch "ECHI06A", 96, 144
+	Patch "ECHI06A", 96, 336
+	Patch "ECHI06A", 96, 432
+	Patch "ECHI06A", 96, 192
+	Patch "ECHI06A", 96, 384
+	Patch "ECHI06A", 96, 480
+	Patch "ECHI08A", 0, 496
+	Patch "ECHI08A", 32, 496
+	Patch "ECHI08A", 64, 496
+	Patch "ECHI08A", 96, 496
+	Patch "ECHI07A", 64, 16
+	Patch "ECHI07A", 64, 256
+	Patch "ECHI07A", 64, 240
+	Patch "ECHI07A", 64, 64
+	Patch "ECHI07A", 64, 304
+	Patch "ECHI07A", 64, 112
+	Patch "ECHI07A", 64, 352
+	Patch "ECHI07A", 64, 160
+	Patch "ECHI07A", 64, 400
+	Patch "ECHI07A", 64, 208
+	Patch "ECHI07A", 64, 448
+	Patch "ECHI07A", 64, 480
+	Patch "ECHI07A", 64, 48
+	Patch "ECHI07A", 64, 288
+	Patch "ECHI07A", 64, 96
+	Patch "ECHI07A", 64, 336
+	Patch "ECHI07A", 64, 144
+	Patch "ECHI07A", 64, 384
+	Patch "ECHI07A", 64, 192
+	Patch "ECHI07A", 64, 432
+	Patch "ECHI07A", 96, 32
+	Patch "ECHI07A", 96, 80
+	Patch "ECHI07A", 96, 272
+	Patch "ECHI07A", 96, 128
+	Patch "ECHI07A", 96, 320
+	Patch "ECHI07A", 96, 416
+	Patch "ECHI07A", 96, 176
+	Patch "ECHI07A", 96, 368
+	Patch "ECHI07A", 96, 464
+	Patch "ECHI07A", 96, 224
+	Patch "ECHI04A", 0, 0
+	Patch "ECHI04A", 32, 0
+	Patch "ECHI04A", 64, 0
+	Patch "ECHI04A", 96, 0
+}
+
+Texture "ECHIIC1B", 128, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05B", 96, 16
+	Patch "ECHI05B", 96, 208
+	Patch "ECHI05B", 96, 64
+	Patch "ECHI05B", 96, 256
+	Patch "ECHI05B", 96, 112
+	Patch "ECHI05B", 96, 304
+	Patch "ECHI05B", 96, 400
+	Patch "ECHI05B", 96, 160
+	Patch "ECHI05B", 96, 352
+	Patch "ECHI05B", 96, 448
+	Patch "ECHI05B", 32, 32
+	Patch "ECHI05B", 32, 256
+	Patch "ECHI05B", 32, 384
+	Patch "ECHI05B", 32, 448
+	Patch "ECHI05B", 32, 64
+	Patch "ECHI05B", 32, 288
+	Patch "ECHI05B", 32, 416
+	Patch "ECHI05B", 32, 480
+	Patch "ECHI05B", 32, 96
+	Patch "ECHI05B", 32, 320
+	Patch "ECHI05B", 32, 128
+	Patch "ECHI05B", 32, 352
+	Patch "ECHI05B", 32, 160
+	Patch "ECHI05B", 32, 192
+	Patch "ECHI05B", 32, 224
+	Patch "ECHI05B", 0, 48
+	Patch "ECHI05B", 0, 272
+	Patch "ECHI05B", 0, 320
+	Patch "ECHI05B", 0, 368
+	Patch "ECHI05B", 0, 416
+	Patch "ECHI05B", 0, 464
+	Patch "ECHI05B", 0, 96
+	Patch "ECHI05B", 0, 144
+	Patch "ECHI05B", 0, 192
+	Patch "ECHI06B", 0, 32
+	Patch "ECHI06B", 0, 256
+	Patch "ECHI06B", 0, 304
+	Patch "ECHI06B", 0, 352
+	Patch "ECHI06B", 0, 400
+	Patch "ECHI06B", 0, 448
+	Patch "ECHI06B", 0, 80
+	Patch "ECHI06B", 0, 128
+	Patch "ECHI06B", 0, 176
+	Patch "ECHI06B", 0, 224
+	Patch "ECHI06B", 0, 16
+	Patch "ECHI06B", 0, 240
+	Patch "ECHI06B", 0, 288
+	Patch "ECHI06B", 0, 336
+	Patch "ECHI06B", 0, 384
+	Patch "ECHI06B", 0, 432
+	Patch "ECHI06B", 0, 480
+	Patch "ECHI06B", 0, 64
+	Patch "ECHI06B", 0, 112
+	Patch "ECHI06B", 0, 160
+	Patch "ECHI06B", 0, 208
+	Patch "ECHI06B", 64, 32
+	Patch "ECHI06B", 64, 272
+	Patch "ECHI06B", 64, 80
+	Patch "ECHI06B", 64, 320
+	Patch "ECHI06B", 64, 128
+	Patch "ECHI06B", 64, 368
+	Patch "ECHI06B", 64, 176
+	Patch "ECHI06B", 64, 416
+	Patch "ECHI06B", 64, 224
+	Patch "ECHI06B", 64, 464
+	Patch "ECHI06B", 32, 16
+	Patch "ECHI06B", 32, 240
+	Patch "ECHI06B", 32, 368
+	Patch "ECHI06B", 32, 48
+	Patch "ECHI06B", 32, 272
+	Patch "ECHI06B", 32, 400
+	Patch "ECHI06B", 32, 464
+	Patch "ECHI06B", 32, 80
+	Patch "ECHI06B", 32, 304
+	Patch "ECHI06B", 32, 432
+	Patch "ECHI06B", 32, 112
+	Patch "ECHI06B", 32, 336
+	Patch "ECHI06B", 32, 144
+	Patch "ECHI06B", 32, 176
+	Patch "ECHI06B", 32, 208
+	Patch "ECHI06B", 96, 48
+	Patch "ECHI06B", 96, 240
+	Patch "ECHI06B", 96, 96
+	Patch "ECHI06B", 96, 288
+	Patch "ECHI06B", 96, 144
+	Patch "ECHI06B", 96, 336
+	Patch "ECHI06B", 96, 432
+	Patch "ECHI06B", 96, 192
+	Patch "ECHI06B", 96, 384
+	Patch "ECHI06B", 96, 480
+	Patch "ECHI08B", 0, 496
+	Patch "ECHI08B", 32, 496
+	Patch "ECHI08B", 64, 496
+	Patch "ECHI08B", 96, 496
+	Patch "ECHI07B", 64, 16
+	Patch "ECHI07B", 64, 256
+	Patch "ECHI07B", 64, 240
+	Patch "ECHI07B", 64, 64
+	Patch "ECHI07B", 64, 304
+	Patch "ECHI07B", 64, 112
+	Patch "ECHI07B", 64, 352
+	Patch "ECHI07B", 64, 160
+	Patch "ECHI07B", 64, 400
+	Patch "ECHI07B", 64, 208
+	Patch "ECHI07B", 64, 448
+	Patch "ECHI07B", 64, 480
+	Patch "ECHI07B", 64, 48
+	Patch "ECHI07B", 64, 288
+	Patch "ECHI07B", 64, 96
+	Patch "ECHI07B", 64, 336
+	Patch "ECHI07B", 64, 144
+	Patch "ECHI07B", 64, 384
+	Patch "ECHI07B", 64, 192
+	Patch "ECHI07B", 64, 432
+	Patch "ECHI07B", 96, 32
+	Patch "ECHI07B", 96, 80
+	Patch "ECHI07B", 96, 272
+	Patch "ECHI07B", 96, 128
+	Patch "ECHI07B", 96, 320
+	Patch "ECHI07B", 96, 416
+	Patch "ECHI07B", 96, 176
+	Patch "ECHI07B", 96, 368
+	Patch "ECHI07B", 96, 464
+	Patch "ECHI07B", 96, 224
+	Patch "ECHI04B", 0, 0
+	Patch "ECHI04B", 32, 0
+	Patch "ECHI04B", 64, 0
+	Patch "ECHI04B", 96, 0
+}
+
+Texture "ECHIIC1C", 128, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05C", 96, 16
+	Patch "ECHI05C", 96, 208
+	Patch "ECHI05C", 96, 64
+	Patch "ECHI05C", 96, 256
+	Patch "ECHI05C", 96, 112
+	Patch "ECHI05C", 96, 304
+	Patch "ECHI05C", 96, 400
+	Patch "ECHI05C", 96, 160
+	Patch "ECHI05C", 96, 352
+	Patch "ECHI05C", 96, 448
+	Patch "ECHI05C", 32, 32
+	Patch "ECHI05C", 32, 256
+	Patch "ECHI05C", 32, 384
+	Patch "ECHI05C", 32, 448
+	Patch "ECHI05C", 32, 64
+	Patch "ECHI05C", 32, 288
+	Patch "ECHI05C", 32, 416
+	Patch "ECHI05C", 32, 480
+	Patch "ECHI05C", 32, 96
+	Patch "ECHI05C", 32, 320
+	Patch "ECHI05C", 32, 128
+	Patch "ECHI05C", 32, 352
+	Patch "ECHI05C", 32, 160
+	Patch "ECHI05C", 32, 192
+	Patch "ECHI05C", 32, 224
+	Patch "ECHI05C", 0, 48
+	Patch "ECHI05C", 0, 272
+	Patch "ECHI05C", 0, 320
+	Patch "ECHI05C", 0, 368
+	Patch "ECHI05C", 0, 416
+	Patch "ECHI05C", 0, 464
+	Patch "ECHI05C", 0, 96
+	Patch "ECHI05C", 0, 144
+	Patch "ECHI05C", 0, 192
+	Patch "ECHI06C", 0, 32
+	Patch "ECHI06C", 0, 256
+	Patch "ECHI06C", 0, 304
+	Patch "ECHI06C", 0, 352
+	Patch "ECHI06C", 0, 400
+	Patch "ECHI06C", 0, 448
+	Patch "ECHI06C", 0, 80
+	Patch "ECHI06C", 0, 128
+	Patch "ECHI06C", 0, 176
+	Patch "ECHI06C", 0, 224
+	Patch "ECHI06C", 0, 16
+	Patch "ECHI06C", 0, 240
+	Patch "ECHI06C", 0, 288
+	Patch "ECHI06C", 0, 336
+	Patch "ECHI06C", 0, 384
+	Patch "ECHI06C", 0, 432
+	Patch "ECHI06C", 0, 480
+	Patch "ECHI06C", 0, 64
+	Patch "ECHI06C", 0, 112
+	Patch "ECHI06C", 0, 160
+	Patch "ECHI06C", 0, 208
+	Patch "ECHI06C", 64, 32
+	Patch "ECHI06C", 64, 272
+	Patch "ECHI06C", 64, 80
+	Patch "ECHI06C", 64, 320
+	Patch "ECHI06C", 64, 128
+	Patch "ECHI06C", 64, 368
+	Patch "ECHI06C", 64, 176
+	Patch "ECHI06C", 64, 416
+	Patch "ECHI06C", 64, 224
+	Patch "ECHI06C", 64, 464
+	Patch "ECHI06C", 32, 16
+	Patch "ECHI06C", 32, 240
+	Patch "ECHI06C", 32, 368
+	Patch "ECHI06C", 32, 48
+	Patch "ECHI06C", 32, 272
+	Patch "ECHI06C", 32, 400
+	Patch "ECHI06C", 32, 464
+	Patch "ECHI06C", 32, 80
+	Patch "ECHI06C", 32, 304
+	Patch "ECHI06C", 32, 432
+	Patch "ECHI06C", 32, 112
+	Patch "ECHI06C", 32, 336
+	Patch "ECHI06C", 32, 144
+	Patch "ECHI06C", 32, 176
+	Patch "ECHI06C", 32, 208
+	Patch "ECHI06C", 96, 48
+	Patch "ECHI06C", 96, 240
+	Patch "ECHI06C", 96, 96
+	Patch "ECHI06C", 96, 288
+	Patch "ECHI06C", 96, 144
+	Patch "ECHI06C", 96, 336
+	Patch "ECHI06C", 96, 432
+	Patch "ECHI06C", 96, 192
+	Patch "ECHI06C", 96, 384
+	Patch "ECHI06C", 96, 480
+	Patch "ECHI08C", 0, 496
+	Patch "ECHI08C", 32, 496
+	Patch "ECHI08C", 64, 496
+	Patch "ECHI08C", 96, 496
+	Patch "ECHI07C", 64, 16
+	Patch "ECHI07C", 64, 256
+	Patch "ECHI07C", 64, 240
+	Patch "ECHI07C", 64, 64
+	Patch "ECHI07C", 64, 304
+	Patch "ECHI07C", 64, 112
+	Patch "ECHI07C", 64, 352
+	Patch "ECHI07C", 64, 160
+	Patch "ECHI07C", 64, 400
+	Patch "ECHI07C", 64, 208
+	Patch "ECHI07C", 64, 448
+	Patch "ECHI07C", 64, 480
+	Patch "ECHI07C", 64, 48
+	Patch "ECHI07C", 64, 288
+	Patch "ECHI07C", 64, 96
+	Patch "ECHI07C", 64, 336
+	Patch "ECHI07C", 64, 144
+	Patch "ECHI07C", 64, 384
+	Patch "ECHI07C", 64, 192
+	Patch "ECHI07C", 64, 432
+	Patch "ECHI07C", 96, 32
+	Patch "ECHI07C", 96, 80
+	Patch "ECHI07C", 96, 272
+	Patch "ECHI07C", 96, 128
+	Patch "ECHI07C", 96, 320
+	Patch "ECHI07C", 96, 416
+	Patch "ECHI07C", 96, 176
+	Patch "ECHI07C", 96, 368
+	Patch "ECHI07C", 96, 464
+	Patch "ECHI07C", 96, 224
+	Patch "ECHI04C", 0, 0
+	Patch "ECHI04C", 32, 0
+	Patch "ECHI04C", 64, 0
+	Patch "ECHI04C", 96, 0
+}
+
+Texture "ECHIIC1D", 128, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05D", 96, 16
+	Patch "ECHI05D", 96, 208
+	Patch "ECHI05D", 96, 64
+	Patch "ECHI05D", 96, 256
+	Patch "ECHI05D", 96, 112
+	Patch "ECHI05D", 96, 304
+	Patch "ECHI05D", 96, 400
+	Patch "ECHI05D", 96, 160
+	Patch "ECHI05D", 96, 352
+	Patch "ECHI05D", 96, 448
+	Patch "ECHI05D", 32, 32
+	Patch "ECHI05D", 32, 256
+	Patch "ECHI05D", 32, 384
+	Patch "ECHI05D", 32, 448
+	Patch "ECHI05D", 32, 64
+	Patch "ECHI05D", 32, 288
+	Patch "ECHI05D", 32, 416
+	Patch "ECHI05D", 32, 480
+	Patch "ECHI05D", 32, 96
+	Patch "ECHI05D", 32, 320
+	Patch "ECHI05D", 32, 128
+	Patch "ECHI05D", 32, 352
+	Patch "ECHI05D", 32, 160
+	Patch "ECHI05D", 32, 192
+	Patch "ECHI05D", 32, 224
+	Patch "ECHI05D", 0, 48
+	Patch "ECHI05D", 0, 272
+	Patch "ECHI05D", 0, 320
+	Patch "ECHI05D", 0, 368
+	Patch "ECHI05D", 0, 416
+	Patch "ECHI05D", 0, 464
+	Patch "ECHI05D", 0, 96
+	Patch "ECHI05D", 0, 144
+	Patch "ECHI05D", 0, 192
+	Patch "ECHI06D", 0, 32
+	Patch "ECHI06D", 0, 256
+	Patch "ECHI06D", 0, 304
+	Patch "ECHI06D", 0, 352
+	Patch "ECHI06D", 0, 400
+	Patch "ECHI06D", 0, 448
+	Patch "ECHI06D", 0, 80
+	Patch "ECHI06D", 0, 128
+	Patch "ECHI06D", 0, 176
+	Patch "ECHI06D", 0, 224
+	Patch "ECHI06D", 0, 16
+	Patch "ECHI06D", 0, 240
+	Patch "ECHI06D", 0, 288
+	Patch "ECHI06D", 0, 336
+	Patch "ECHI06D", 0, 384
+	Patch "ECHI06D", 0, 432
+	Patch "ECHI06D", 0, 480
+	Patch "ECHI06D", 0, 64
+	Patch "ECHI06D", 0, 112
+	Patch "ECHI06D", 0, 160
+	Patch "ECHI06D", 0, 208
+	Patch "ECHI06D", 64, 32
+	Patch "ECHI06D", 64, 272
+	Patch "ECHI06D", 64, 80
+	Patch "ECHI06D", 64, 320
+	Patch "ECHI06D", 64, 128
+	Patch "ECHI06D", 64, 368
+	Patch "ECHI06D", 64, 176
+	Patch "ECHI06D", 64, 416
+	Patch "ECHI06D", 64, 224
+	Patch "ECHI06D", 64, 464
+	Patch "ECHI06D", 32, 16
+	Patch "ECHI06D", 32, 240
+	Patch "ECHI06D", 32, 368
+	Patch "ECHI06D", 32, 48
+	Patch "ECHI06D", 32, 272
+	Patch "ECHI06D", 32, 400
+	Patch "ECHI06D", 32, 464
+	Patch "ECHI06D", 32, 80
+	Patch "ECHI06D", 32, 304
+	Patch "ECHI06D", 32, 432
+	Patch "ECHI06D", 32, 112
+	Patch "ECHI06D", 32, 336
+	Patch "ECHI06D", 32, 144
+	Patch "ECHI06D", 32, 176
+	Patch "ECHI06D", 32, 208
+	Patch "ECHI06D", 96, 48
+	Patch "ECHI06D", 96, 240
+	Patch "ECHI06D", 96, 96
+	Patch "ECHI06D", 96, 288
+	Patch "ECHI06D", 96, 144
+	Patch "ECHI06D", 96, 336
+	Patch "ECHI06D", 96, 432
+	Patch "ECHI06D", 96, 192
+	Patch "ECHI06D", 96, 384
+	Patch "ECHI06D", 96, 480
+	Patch "ECHI08D", 0, 496
+	Patch "ECHI08D", 32, 496
+	Patch "ECHI08D", 64, 496
+	Patch "ECHI08D", 96, 496
+	Patch "ECHI07D", 64, 16
+	Patch "ECHI07D", 64, 256
+	Patch "ECHI07D", 64, 240
+	Patch "ECHI07D", 64, 64
+	Patch "ECHI07D", 64, 304
+	Patch "ECHI07D", 64, 112
+	Patch "ECHI07D", 64, 352
+	Patch "ECHI07D", 64, 160
+	Patch "ECHI07D", 64, 400
+	Patch "ECHI07D", 64, 208
+	Patch "ECHI07D", 64, 448
+	Patch "ECHI07D", 64, 480
+	Patch "ECHI07D", 64, 48
+	Patch "ECHI07D", 64, 288
+	Patch "ECHI07D", 64, 96
+	Patch "ECHI07D", 64, 336
+	Patch "ECHI07D", 64, 144
+	Patch "ECHI07D", 64, 384
+	Patch "ECHI07D", 64, 192
+	Patch "ECHI07D", 64, 432
+	Patch "ECHI07D", 96, 32
+	Patch "ECHI07D", 96, 80
+	Patch "ECHI07D", 96, 272
+	Patch "ECHI07D", 96, 128
+	Patch "ECHI07D", 96, 320
+	Patch "ECHI07D", 96, 416
+	Patch "ECHI07D", 96, 176
+	Patch "ECHI07D", 96, 368
+	Patch "ECHI07D", 96, 464
+	Patch "ECHI07D", 96, 224
+	Patch "ECHI04D", 0, 0
+	Patch "ECHI04D", 32, 0
+	Patch "ECHI04D", 64, 0
+	Patch "ECHI04D", 96, 0
+}
+
+Texture "ECHIIC1E", 128, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05E", 96, 16
+	Patch "ECHI05E", 96, 208
+	Patch "ECHI05E", 96, 64
+	Patch "ECHI05E", 96, 256
+	Patch "ECHI05E", 96, 112
+	Patch "ECHI05E", 96, 304
+	Patch "ECHI05E", 96, 400
+	Patch "ECHI05E", 96, 160
+	Patch "ECHI05E", 96, 352
+	Patch "ECHI05E", 96, 448
+	Patch "ECHI05E", 32, 32
+	Patch "ECHI05E", 32, 256
+	Patch "ECHI05E", 32, 384
+	Patch "ECHI05E", 32, 448
+	Patch "ECHI05E", 32, 64
+	Patch "ECHI05E", 32, 288
+	Patch "ECHI05E", 32, 416
+	Patch "ECHI05E", 32, 480
+	Patch "ECHI05E", 32, 96
+	Patch "ECHI05E", 32, 320
+	Patch "ECHI05E", 32, 128
+	Patch "ECHI05E", 32, 352
+	Patch "ECHI05E", 32, 160
+	Patch "ECHI05E", 32, 192
+	Patch "ECHI05E", 32, 224
+	Patch "ECHI05E", 0, 48
+	Patch "ECHI05E", 0, 272
+	Patch "ECHI05E", 0, 320
+	Patch "ECHI05E", 0, 368
+	Patch "ECHI05E", 0, 416
+	Patch "ECHI05E", 0, 464
+	Patch "ECHI05E", 0, 96
+	Patch "ECHI05E", 0, 144
+	Patch "ECHI05E", 0, 192
+	Patch "ECHI06E", 0, 32
+	Patch "ECHI06E", 0, 256
+	Patch "ECHI06E", 0, 304
+	Patch "ECHI06E", 0, 352
+	Patch "ECHI06E", 0, 400
+	Patch "ECHI06E", 0, 448
+	Patch "ECHI06E", 0, 80
+	Patch "ECHI06E", 0, 128
+	Patch "ECHI06E", 0, 176
+	Patch "ECHI06E", 0, 224
+	Patch "ECHI06E", 0, 16
+	Patch "ECHI06E", 0, 240
+	Patch "ECHI06E", 0, 288
+	Patch "ECHI06E", 0, 336
+	Patch "ECHI06E", 0, 384
+	Patch "ECHI06E", 0, 432
+	Patch "ECHI06E", 0, 480
+	Patch "ECHI06E", 0, 64
+	Patch "ECHI06E", 0, 112
+	Patch "ECHI06E", 0, 160
+	Patch "ECHI06E", 0, 208
+	Patch "ECHI06E", 64, 32
+	Patch "ECHI06E", 64, 272
+	Patch "ECHI06E", 64, 80
+	Patch "ECHI06E", 64, 320
+	Patch "ECHI06E", 64, 128
+	Patch "ECHI06E", 64, 368
+	Patch "ECHI06E", 64, 176
+	Patch "ECHI06E", 64, 416
+	Patch "ECHI06E", 64, 224
+	Patch "ECHI06E", 64, 464
+	Patch "ECHI06E", 32, 16
+	Patch "ECHI06E", 32, 240
+	Patch "ECHI06E", 32, 368
+	Patch "ECHI06E", 32, 48
+	Patch "ECHI06E", 32, 272
+	Patch "ECHI06E", 32, 400
+	Patch "ECHI06E", 32, 464
+	Patch "ECHI06E", 32, 80
+	Patch "ECHI06E", 32, 304
+	Patch "ECHI06E", 32, 432
+	Patch "ECHI06E", 32, 112
+	Patch "ECHI06E", 32, 336
+	Patch "ECHI06E", 32, 144
+	Patch "ECHI06E", 32, 176
+	Patch "ECHI06E", 32, 208
+	Patch "ECHI06E", 96, 48
+	Patch "ECHI06E", 96, 240
+	Patch "ECHI06E", 96, 96
+	Patch "ECHI06E", 96, 288
+	Patch "ECHI06E", 96, 144
+	Patch "ECHI06E", 96, 336
+	Patch "ECHI06E", 96, 432
+	Patch "ECHI06E", 96, 192
+	Patch "ECHI06E", 96, 384
+	Patch "ECHI06E", 96, 480
+	Patch "ECHI08E", 0, 496
+	Patch "ECHI08E", 32, 496
+	Patch "ECHI08E", 64, 496
+	Patch "ECHI08E", 96, 496
+	Patch "ECHI07E", 64, 16
+	Patch "ECHI07E", 64, 256
+	Patch "ECHI07E", 64, 240
+	Patch "ECHI07E", 64, 64
+	Patch "ECHI07E", 64, 304
+	Patch "ECHI07E", 64, 112
+	Patch "ECHI07E", 64, 352
+	Patch "ECHI07E", 64, 160
+	Patch "ECHI07E", 64, 400
+	Patch "ECHI07E", 64, 208
+	Patch "ECHI07E", 64, 448
+	Patch "ECHI07E", 64, 480
+	Patch "ECHI07E", 64, 48
+	Patch "ECHI07E", 64, 288
+	Patch "ECHI07E", 64, 96
+	Patch "ECHI07E", 64, 336
+	Patch "ECHI07E", 64, 144
+	Patch "ECHI07E", 64, 384
+	Patch "ECHI07E", 64, 192
+	Patch "ECHI07E", 64, 432
+	Patch "ECHI07E", 96, 32
+	Patch "ECHI07E", 96, 80
+	Patch "ECHI07E", 96, 272
+	Patch "ECHI07E", 96, 128
+	Patch "ECHI07E", 96, 320
+	Patch "ECHI07E", 96, 416
+	Patch "ECHI07E", 96, 176
+	Patch "ECHI07E", 96, 368
+	Patch "ECHI07E", 96, 464
+	Patch "ECHI07E", 96, 224
+	Patch "ECHI04E", 0, 0
+	Patch "ECHI04E", 32, 0
+	Patch "ECHI04E", 64, 0
+	Patch "ECHI04E", 96, 0
+}
+
+Texture "ECHIIC2X", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12A", 0, 0
+	Patch "ECHI66A", 0, 16
+	Patch "ECHI66A", 0, 64
+	Patch "ECHI66A", 0, 112
+	Patch "ECHI66A", 0, 160
+	Patch "ECHI66A", 0, 208
+	Patch "ECHI67A", 0, 32
+	Patch "ECHI67A", 0, 80
+	Patch "ECHI67A", 0, 128
+	Patch "ECHI67A", 0, 176
+	Patch "ECHI67A", 0, 224
+	Patch "ECHI67A", 0, 48
+	Patch "ECHI67A", 0, 96
+	Patch "ECHI67A", 0, 144
+	Patch "ECHI67A", 0, 192
+	Patch "ECHI67A", 0, 240
+}
+
+Texture "ECHIIC2A", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12A", 0, 0
+	Patch "ECHI66A", 0, 16
+	Patch "ECHI66A", 0, 64
+	Patch "ECHI66A", 0, 112
+	Patch "ECHI66A", 0, 160
+	Patch "ECHI66A", 0, 208
+	Patch "ECHI67A", 0, 32
+	Patch "ECHI67A", 0, 80
+	Patch "ECHI67A", 0, 128
+	Patch "ECHI67A", 0, 176
+	Patch "ECHI67A", 0, 224
+	Patch "ECHI67A", 0, 48
+	Patch "ECHI67A", 0, 96
+	Patch "ECHI67A", 0, 144
+	Patch "ECHI67A", 0, 192
+	Patch "ECHI67A", 0, 240
+}
+
+Texture "ECHIIC2B", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12B", 0, 0
+	Patch "ECHI66B", 0, 16
+	Patch "ECHI66B", 0, 64
+	Patch "ECHI66B", 0, 112
+	Patch "ECHI66B", 0, 160
+	Patch "ECHI66B", 0, 208
+	Patch "ECHI67B", 0, 32
+	Patch "ECHI67B", 0, 80
+	Patch "ECHI67B", 0, 128
+	Patch "ECHI67B", 0, 176
+	Patch "ECHI67B", 0, 224
+	Patch "ECHI67B", 0, 48
+	Patch "ECHI67B", 0, 96
+	Patch "ECHI67B", 0, 144
+	Patch "ECHI67B", 0, 192
+	Patch "ECHI67B", 0, 240
+}
+
+Texture "ECHIIC2C", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12C", 0, 0
+	Patch "ECHI66C", 0, 16
+	Patch "ECHI66C", 0, 64
+	Patch "ECHI66C", 0, 112
+	Patch "ECHI66C", 0, 160
+	Patch "ECHI66C", 0, 208
+	Patch "ECHI67C", 0, 32
+	Patch "ECHI67C", 0, 80
+	Patch "ECHI67C", 0, 128
+	Patch "ECHI67C", 0, 176
+	Patch "ECHI67C", 0, 224
+	Patch "ECHI67C", 0, 48
+	Patch "ECHI67C", 0, 96
+	Patch "ECHI67C", 0, 144
+	Patch "ECHI67C", 0, 192
+	Patch "ECHI67C", 0, 240
+}
+
+Texture "ECHIIC2D", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12D", 0, 0
+	Patch "ECHI66D", 0, 16
+	Patch "ECHI66D", 0, 64
+	Patch "ECHI66D", 0, 112
+	Patch "ECHI66D", 0, 160
+	Patch "ECHI66D", 0, 208
+	Patch "ECHI67D", 0, 32
+	Patch "ECHI67D", 0, 80
+	Patch "ECHI67D", 0, 128
+	Patch "ECHI67D", 0, 176
+	Patch "ECHI67D", 0, 224
+	Patch "ECHI67D", 0, 48
+	Patch "ECHI67D", 0, 96
+	Patch "ECHI67D", 0, 144
+	Patch "ECHI67D", 0, 192
+	Patch "ECHI67D", 0, 240
+}
+
+Texture "ECHIIC2E", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12E", 0, 0
+	Patch "ECHI66E", 0, 16
+	Patch "ECHI66E", 0, 64
+	Patch "ECHI66E", 0, 112
+	Patch "ECHI66E", 0, 160
+	Patch "ECHI66E", 0, 208
+	Patch "ECHI67E", 0, 32
+	Patch "ECHI67E", 0, 80
+	Patch "ECHI67E", 0, 128
+	Patch "ECHI67E", 0, 176
+	Patch "ECHI67E", 0, 224
+	Patch "ECHI67E", 0, 48
+	Patch "ECHI67E", 0, 96
+	Patch "ECHI67E", 0, 144
+	Patch "ECHI67E", 0, 192
+	Patch "ECHI67E", 0, 240
+}
+
+Texture "ECHIIC3X", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12A", 0, 0
+	Patch "ECHI12A", 16, 0
+	Patch "ECHI13A", 0, 16
+	Patch "ECHI13A", 16, 16
+	Patch "ECHI24", 0, 32
+	Patch "ECHI24", 16, 32
+	Patch "ECHI23", 16, 48
+	Patch "ECHI21", 0, 48
+}
+
+Texture "ECHIIC3A", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12A", 0, 0
+	Patch "ECHI12A", 16, 0
+	Patch "ECHI13A", 0, 16
+	Patch "ECHI13A", 16, 16
+	Patch "ECHI24", 0, 32
+	Patch "ECHI24", 16, 32
+	Patch "ECHI23", 16, 48
+	Patch "ECHI21", 0, 48
+}
+
+Texture "ECHIIC3B", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12B", 0, 0
+	Patch "ECHI12B", 16, 0
+	Patch "ECHI13B", 0, 16
+	Patch "ECHI13B", 16, 16
+	Patch "ECHI24", 0, 32
+	Patch "ECHI24", 16, 32
+	Patch "ECHI23", 16, 48
+	Patch "ECHI21", 0, 48
+}
+
+Texture "ECHIIC3C", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12C", 0, 0
+	Patch "ECHI12C", 16, 0
+	Patch "ECHI13C", 0, 16
+	Patch "ECHI13C", 16, 16
+	Patch "ECHI24", 0, 32
+	Patch "ECHI24", 16, 32
+	Patch "ECHI23", 16, 48
+	Patch "ECHI21", 0, 48
+}
+
+Texture "ECHIIC3D", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12D", 0, 0
+	Patch "ECHI12D", 16, 0
+	Patch "ECHI13D", 0, 16
+	Patch "ECHI13D", 16, 16
+	Patch "ECHI24", 0, 32
+	Patch "ECHI24", 16, 32
+	Patch "ECHI23", 16, 48
+	Patch "ECHI21", 0, 48
+}
+
+Texture "ECHIIC3E", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI12E", 0, 0
+	Patch "ECHI12E", 16, 0
+	Patch "ECHI13E", 0, 16
+	Patch "ECHI13E", 16, 16
+	Patch "ECHI24", 0, 32
+	Patch "ECHI24", 16, 32
+	Patch "ECHI23", 16, 48
+	Patch "ECHI21", 0, 48
+}
+
+Texture "ECHIIC4X", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04A", 0, 0
+	Patch "ECHI04A", 96, 0
+	Patch "ECHI10A", 0, 16
+	Patch "ECHI11A", 96, 16
+	Patch "ECHI19", 32, 16
+	Patch "ECHI19", 32, 96
+	Patch "ECHI19", 80, 16
+	Patch "ECHI19", 80, 96
+	Patch "ECHI20", 48, 16
+	Patch "ECHI20", 48, 96
+	Patch "ECHI26", 32, 0
+	Patch "ECHI26", 32, 112
+	Patch "ECHI26", 64, 0
+	Patch "ECHI26", 64, 112
+	Patch "ECHI26", 48, 0
+	Patch "ECHI26", 48, 112
+	Patch "ECHI26", 80, 0
+	Patch "ECHI26", 80, 112
+	Patch "ECHI72A", 0, 32
+	Patch "ECHI72A", 96, 32
+	Patch "ECHI72A", 0, 48
+	Patch "ECHI72A", 96, 48
+	Patch "ECHI72A", 0, 64
+	Patch "ECHI72A", 96, 64
+	Patch "ECHI72A", 0, 80
+	Patch "ECHI72A", 96, 80
+	Patch "ECHI10A", 0, 96
+	Patch "ECHI11A", 96, 96
+	Patch "ECHI72A", 0, 112
+	Patch "ECHI72A", 96, 112
+	Patch "ECHI04A", 32, 32
+	Patch "ECHI04A", 64, 32
+	Patch "ECHI05A", 32, 48
+	Patch "ECHI05A", 64, 48
+	Patch "ECHI06A", 32, 64
+	Patch "ECHI06A", 64, 64
+	Patch "ECHI08A", 32, 80
+	Patch "ECHI08A", 64, 80
+	Patch "ECHI16", 64, 16
+	Patch "ECHI16", 64, 96
+}
+
+Texture "ECHIIC4A", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04A", 0, 0
+	Patch "ECHI04A", 96, 0
+	Patch "ECHI10A", 0, 16
+	Patch "ECHI11A", 96, 16
+	Patch "ECHI19", 32, 16
+	Patch "ECHI19", 32, 96
+	Patch "ECHI19", 80, 16
+	Patch "ECHI19", 80, 96
+	Patch "ECHI20", 48, 16
+	Patch "ECHI20", 48, 96
+	Patch "ECHI26", 32, 0
+	Patch "ECHI26", 32, 112
+	Patch "ECHI26", 64, 0
+	Patch "ECHI26", 64, 112
+	Patch "ECHI26", 48, 0
+	Patch "ECHI26", 48, 112
+	Patch "ECHI26", 80, 0
+	Patch "ECHI26", 80, 112
+	Patch "ECHI72A", 0, 32
+	Patch "ECHI72A", 96, 32
+	Patch "ECHI72A", 0, 48
+	Patch "ECHI72A", 96, 48
+	Patch "ECHI72A", 0, 64
+	Patch "ECHI72A", 96, 64
+	Patch "ECHI72A", 0, 80
+	Patch "ECHI72A", 96, 80
+	Patch "ECHI10A", 0, 96
+	Patch "ECHI11A", 96, 96
+	Patch "ECHI72A", 0, 112
+	Patch "ECHI72A", 96, 112
+	Patch "ECHI04A", 32, 32
+	Patch "ECHI04A", 64, 32
+	Patch "ECHI05A", 32, 48
+	Patch "ECHI05A", 64, 48
+	Patch "ECHI06A", 32, 64
+	Patch "ECHI06A", 64, 64
+	Patch "ECHI08A", 32, 80
+	Patch "ECHI08A", 64, 80
+	Patch "ECHI16", 64, 16
+	Patch "ECHI16", 64, 96
+}
+
+Texture "ECHIIC4B", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04B", 0, 0
+	Patch "ECHI04B", 96, 0
+	Patch "ECHI10B", 0, 16
+	Patch "ECHI11B", 96, 16
+	Patch "ECHI19", 32, 16
+	Patch "ECHI19", 32, 96
+	Patch "ECHI19", 80, 16
+	Patch "ECHI19", 80, 96
+	Patch "ECHI20", 48, 16
+	Patch "ECHI20", 48, 96
+	Patch "ECHI26", 32, 0
+	Patch "ECHI26", 32, 112
+	Patch "ECHI26", 64, 0
+	Patch "ECHI26", 64, 112
+	Patch "ECHI26", 48, 0
+	Patch "ECHI26", 48, 112
+	Patch "ECHI26", 80, 0
+	Patch "ECHI26", 80, 112
+	Patch "ECHI72B", 0, 32
+	Patch "ECHI72B", 96, 32
+	Patch "ECHI72B", 0, 48
+	Patch "ECHI72B", 96, 48
+	Patch "ECHI72B", 0, 64
+	Patch "ECHI72B", 96, 64
+	Patch "ECHI72B", 0, 80
+	Patch "ECHI72B", 96, 80
+	Patch "ECHI10B", 0, 96
+	Patch "ECHI11B", 96, 96
+	Patch "ECHI72B", 0, 112
+	Patch "ECHI72B", 96, 112
+	Patch "ECHI04B", 32, 32
+	Patch "ECHI04B", 64, 32
+	Patch "ECHI05B", 32, 48
+	Patch "ECHI05B", 64, 48
+	Patch "ECHI06B", 32, 64
+	Patch "ECHI06B", 64, 64
+	Patch "ECHI08B", 32, 80
+	Patch "ECHI08B", 64, 80
+	Patch "ECHI16", 64, 16
+	Patch "ECHI16", 64, 96
+}
+
+Texture "ECHIIC4C", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04C", 0, 0
+	Patch "ECHI04C", 96, 0
+	Patch "ECHI10C", 0, 16
+	Patch "ECHI11C", 96, 16
+	Patch "ECHI19", 32, 16
+	Patch "ECHI19", 32, 96
+	Patch "ECHI19", 80, 16
+	Patch "ECHI19", 80, 96
+	Patch "ECHI20", 48, 16
+	Patch "ECHI20", 48, 96
+	Patch "ECHI26", 32, 0
+	Patch "ECHI26", 32, 112
+	Patch "ECHI26", 64, 0
+	Patch "ECHI26", 64, 112
+	Patch "ECHI26", 48, 0
+	Patch "ECHI26", 48, 112
+	Patch "ECHI26", 80, 0
+	Patch "ECHI26", 80, 112
+	Patch "ECHI72C", 0, 32
+	Patch "ECHI72C", 96, 32
+	Patch "ECHI72C", 0, 48
+	Patch "ECHI72C", 96, 48
+	Patch "ECHI72C", 0, 64
+	Patch "ECHI72C", 96, 64
+	Patch "ECHI72C", 0, 80
+	Patch "ECHI72C", 96, 80
+	Patch "ECHI10C", 0, 96
+	Patch "ECHI11C", 96, 96
+	Patch "ECHI72C", 0, 112
+	Patch "ECHI72C", 96, 112
+	Patch "ECHI04C", 32, 32
+	Patch "ECHI04C", 64, 32
+	Patch "ECHI05C", 32, 48
+	Patch "ECHI05C", 64, 48
+	Patch "ECHI06C", 32, 64
+	Patch "ECHI06C", 64, 64
+	Patch "ECHI08C", 32, 80
+	Patch "ECHI08C", 64, 80
+	Patch "ECHI16", 64, 16
+	Patch "ECHI16", 64, 96
+}
+
+Texture "ECHIIC4D", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04D", 0, 0
+	Patch "ECHI04D", 96, 0
+	Patch "ECHI10D", 0, 16
+	Patch "ECHI11D", 96, 16
+	Patch "ECHI19", 32, 16
+	Patch "ECHI19", 32, 96
+	Patch "ECHI19", 80, 16
+	Patch "ECHI19", 80, 96
+	Patch "ECHI20", 48, 16
+	Patch "ECHI20", 48, 96
+	Patch "ECHI26", 32, 0
+	Patch "ECHI26", 32, 112
+	Patch "ECHI26", 64, 0
+	Patch "ECHI26", 64, 112
+	Patch "ECHI26", 48, 0
+	Patch "ECHI26", 48, 112
+	Patch "ECHI26", 80, 0
+	Patch "ECHI26", 80, 112
+	Patch "ECHI72D", 0, 32
+	Patch "ECHI72D", 96, 32
+	Patch "ECHI72D", 0, 48
+	Patch "ECHI72D", 96, 48
+	Patch "ECHI72D", 0, 64
+	Patch "ECHI72D", 96, 64
+	Patch "ECHI72D", 0, 80
+	Patch "ECHI72D", 96, 80
+	Patch "ECHI10D", 0, 96
+	Patch "ECHI11D", 96, 96
+	Patch "ECHI72D", 0, 112
+	Patch "ECHI72D", 96, 112
+	Patch "ECHI04D", 32, 32
+	Patch "ECHI04D", 64, 32
+	Patch "ECHI05D", 32, 48
+	Patch "ECHI05D", 64, 48
+	Patch "ECHI06D", 32, 64
+	Patch "ECHI06D", 64, 64
+	Patch "ECHI08D", 32, 80
+	Patch "ECHI08D", 64, 80
+	Patch "ECHI16", 64, 16
+	Patch "ECHI16", 64, 96
+}
+
+Texture "ECHIIC4E", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04E", 0, 0
+	Patch "ECHI04E", 96, 0
+	Patch "ECHI10E", 0, 16
+	Patch "ECHI11E", 96, 16
+	Patch "ECHI19", 32, 16
+	Patch "ECHI19", 32, 96
+	Patch "ECHI19", 80, 16
+	Patch "ECHI19", 80, 96
+	Patch "ECHI20", 48, 16
+	Patch "ECHI20", 48, 96
+	Patch "ECHI26", 32, 0
+	Patch "ECHI26", 32, 112
+	Patch "ECHI26", 64, 0
+	Patch "ECHI26", 64, 112
+	Patch "ECHI26", 48, 0
+	Patch "ECHI26", 48, 112
+	Patch "ECHI26", 80, 0
+	Patch "ECHI26", 80, 112
+	Patch "ECHI72E", 0, 32
+	Patch "ECHI72E", 96, 32
+	Patch "ECHI72E", 0, 48
+	Patch "ECHI72E", 96, 48
+	Patch "ECHI72E", 0, 64
+	Patch "ECHI72E", 96, 64
+	Patch "ECHI72E", 0, 80
+	Patch "ECHI72E", 96, 80
+	Patch "ECHI10E", 0, 96
+	Patch "ECHI11E", 96, 96
+	Patch "ECHI72E", 0, 112
+	Patch "ECHI72E", 96, 112
+	Patch "ECHI04E", 32, 32
+	Patch "ECHI04E", 64, 32
+	Patch "ECHI05E", 32, 48
+	Patch "ECHI05E", 64, 48
+	Patch "ECHI06E", 32, 64
+	Patch "ECHI06E", 64, 64
+	Patch "ECHI08E", 32, 80
+	Patch "ECHI08E", 64, 80
+	Patch "ECHI16", 64, 16
+	Patch "ECHI16", 64, 96
+}
+
+Texture "ECHIIC5X", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09A", 0, 0
+	Patch "ECHI73A", 0, 16
+	Patch "ECHI72A", 0, 32
+	Patch "ECHI72A", 0, 48
+	Patch "ECHI72A", 0, 64
+	Patch "ECHI72A", 0, 80
+	Patch "ECHI72A", 0, 96
+	Patch "ECHI72A", 0, 112
+}
+
+Texture "ECHIIC5A", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09A", 0, 0
+	Patch "ECHI73A", 0, 16
+	Patch "ECHI72A", 0, 32
+	Patch "ECHI72A", 0, 48
+	Patch "ECHI72A", 0, 64
+	Patch "ECHI72A", 0, 80
+	Patch "ECHI72A", 0, 96
+	Patch "ECHI72A", 0, 112
+}
+
+Texture "ECHIIC5B", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09B", 0, 0
+	Patch "ECHI73B", 0, 16
+	Patch "ECHI72B", 0, 32
+	Patch "ECHI72B", 0, 48
+	Patch "ECHI72B", 0, 64
+	Patch "ECHI72B", 0, 80
+	Patch "ECHI72B", 0, 96
+	Patch "ECHI72B", 0, 112
+}
+
+Texture "ECHIIC5C", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09C", 0, 0
+	Patch "ECHI73C", 0, 16
+	Patch "ECHI72C", 0, 32
+	Patch "ECHI72C", 0, 48
+	Patch "ECHI72C", 0, 64
+	Patch "ECHI72C", 0, 80
+	Patch "ECHI72C", 0, 96
+	Patch "ECHI72C", 0, 112
+}
+
+Texture "ECHIIC5D", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09D", 0, 0
+	Patch "ECHI73D", 0, 16
+	Patch "ECHI72D", 0, 32
+	Patch "ECHI72D", 0, 48
+	Patch "ECHI72D", 0, 64
+	Patch "ECHI72D", 0, 80
+	Patch "ECHI72D", 0, 96
+	Patch "ECHI72D", 0, 112
+}
+
+Texture "ECHIIC5E", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09E", 0, 0
+	Patch "ECHI73E", 0, 16
+	Patch "ECHI72E", 0, 32
+	Patch "ECHI72E", 0, 48
+	Patch "ECHI72E", 0, 64
+	Patch "ECHI72E", 0, 80
+	Patch "ECHI72E", 0, 96
+	Patch "ECHI72E", 0, 112
+}
+
+Texture "ECHIIC6X", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04A", 0, 0
+	Patch "ECHI04A", 96, 0
+	Patch "ECHI72A", 0, 32
+	Patch "ECHI72A", 96, 32
+	Patch "ECHI73A", 0, 48
+	Patch "ECHI73A", 0, 64
+	Patch "ECHI73A", 0, 16
+	Patch "ECHI73A", 96, 48
+	Patch "ECHI73A", 96, 64
+	Patch "ECHI73A", 96, 16
+	Patch "ECHI73A", 0, 80
+	Patch "ECHI73A", 0, 112
+	Patch "ECHI73A", 96, 80
+	Patch "ECHI73A", 96, 112
+	Patch "ECHI72A", 0, 96
+	Patch "ECHI72A", 96, 96
+	Patch "ECHI17", 32, 48
+	Patch "ECHI17", 32, 64
+	Patch "ECHI17", 32, 16
+	Patch "ECHI17", 32, 80
+	Patch "ECHI17", 32, 112
+	Patch "ECHI19", 48, 48
+	Patch "ECHI19", 48, 64
+	Patch "ECHI19", 48, 16
+	Patch "ECHI19", 48, 80
+	Patch "ECHI19", 48, 112
+	Patch "ECHI19", 64, 48
+	Patch "ECHI19", 64, 64
+	Patch "ECHI19", 64, 16
+	Patch "ECHI19", 64, 80
+	Patch "ECHI19", 64, 112
+	Patch "ECHI22", 80, 48
+	Patch "ECHI22", 80, 64
+	Patch "ECHI22", 80, 16
+	Patch "ECHI22", 80, 80
+	Patch "ECHI22", 80, 112
+}
+
+Texture "ECHIIC6A", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04A", 0, 0
+	Patch "ECHI04A", 96, 0
+	Patch "ECHI72A", 0, 32
+	Patch "ECHI72A", 96, 32
+	Patch "ECHI73A", 0, 48
+	Patch "ECHI73A", 0, 64
+	Patch "ECHI73A", 0, 16
+	Patch "ECHI73A", 96, 48
+	Patch "ECHI73A", 96, 64
+	Patch "ECHI73A", 96, 16
+	Patch "ECHI73A", 0, 80
+	Patch "ECHI73A", 0, 112
+	Patch "ECHI73A", 96, 80
+	Patch "ECHI73A", 96, 112
+	Patch "ECHI72A", 0, 96
+	Patch "ECHI72A", 96, 96
+	Patch "ECHI17", 32, 48
+	Patch "ECHI17", 32, 64
+	Patch "ECHI17", 32, 16
+	Patch "ECHI17", 32, 80
+	Patch "ECHI17", 32, 112
+	Patch "ECHI19", 48, 48
+	Patch "ECHI19", 48, 64
+	Patch "ECHI19", 48, 16
+	Patch "ECHI19", 48, 80
+	Patch "ECHI19", 48, 112
+	Patch "ECHI19", 64, 48
+	Patch "ECHI19", 64, 64
+	Patch "ECHI19", 64, 16
+	Patch "ECHI19", 64, 80
+	Patch "ECHI19", 64, 112
+	Patch "ECHI22", 80, 48
+	Patch "ECHI22", 80, 64
+	Patch "ECHI22", 80, 16
+	Patch "ECHI22", 80, 80
+	Patch "ECHI22", 80, 112
+}
+
+Texture "ECHIIC6B", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04B", 0, 0
+	Patch "ECHI04B", 96, 0
+	Patch "ECHI72B", 0, 32
+	Patch "ECHI72B", 96, 32
+	Patch "ECHI73B", 0, 48
+	Patch "ECHI73B", 0, 64
+	Patch "ECHI73B", 0, 16
+	Patch "ECHI73B", 96, 48
+	Patch "ECHI73B", 96, 64
+	Patch "ECHI73B", 96, 16
+	Patch "ECHI73B", 0, 80
+	Patch "ECHI73B", 0, 112
+	Patch "ECHI73B", 96, 80
+	Patch "ECHI73B", 96, 112
+	Patch "ECHI72B", 0, 96
+	Patch "ECHI72B", 96, 96
+	Patch "ECHI17", 32, 48
+	Patch "ECHI17", 32, 64
+	Patch "ECHI17", 32, 16
+	Patch "ECHI17", 32, 80
+	Patch "ECHI17", 32, 112
+	Patch "ECHI19", 48, 48
+	Patch "ECHI19", 48, 64
+	Patch "ECHI19", 48, 16
+	Patch "ECHI19", 48, 80
+	Patch "ECHI19", 48, 112
+	Patch "ECHI19", 64, 48
+	Patch "ECHI19", 64, 64
+	Patch "ECHI19", 64, 16
+	Patch "ECHI19", 64, 80
+	Patch "ECHI19", 64, 112
+	Patch "ECHI22", 80, 48
+	Patch "ECHI22", 80, 64
+	Patch "ECHI22", 80, 16
+	Patch "ECHI22", 80, 80
+	Patch "ECHI22", 80, 112
+}
+
+Texture "ECHIIC6C", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04C", 0, 0
+	Patch "ECHI04C", 96, 0
+	Patch "ECHI72C", 0, 32
+	Patch "ECHI72C", 96, 32
+	Patch "ECHI73C", 0, 48
+	Patch "ECHI73C", 0, 64
+	Patch "ECHI73C", 0, 16
+	Patch "ECHI73C", 96, 48
+	Patch "ECHI73C", 96, 64
+	Patch "ECHI73C", 96, 16
+	Patch "ECHI73C", 0, 80
+	Patch "ECHI73C", 0, 112
+	Patch "ECHI73C", 96, 80
+	Patch "ECHI73C", 96, 112
+	Patch "ECHI72C", 0, 96
+	Patch "ECHI72C", 96, 96
+	Patch "ECHI17", 32, 48
+	Patch "ECHI17", 32, 64
+	Patch "ECHI17", 32, 16
+	Patch "ECHI17", 32, 80
+	Patch "ECHI17", 32, 112
+	Patch "ECHI19", 48, 48
+	Patch "ECHI19", 48, 64
+	Patch "ECHI19", 48, 16
+	Patch "ECHI19", 48, 80
+	Patch "ECHI19", 48, 112
+	Patch "ECHI19", 64, 48
+	Patch "ECHI19", 64, 64
+	Patch "ECHI19", 64, 16
+	Patch "ECHI19", 64, 80
+	Patch "ECHI19", 64, 112
+	Patch "ECHI22", 80, 48
+	Patch "ECHI22", 80, 64
+	Patch "ECHI22", 80, 16
+	Patch "ECHI22", 80, 80
+	Patch "ECHI22", 80, 112
+}
+
+Texture "ECHIIC6D", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04D", 0, 0
+	Patch "ECHI04D", 96, 0
+	Patch "ECHI72D", 0, 32
+	Patch "ECHI72D", 96, 32
+	Patch "ECHI73D", 0, 48
+	Patch "ECHI73D", 0, 64
+	Patch "ECHI73D", 0, 16
+	Patch "ECHI73D", 96, 48
+	Patch "ECHI73D", 96, 64
+	Patch "ECHI73D", 96, 16
+	Patch "ECHI73D", 0, 80
+	Patch "ECHI73D", 0, 112
+	Patch "ECHI73D", 96, 80
+	Patch "ECHI73D", 96, 112
+	Patch "ECHI72D", 0, 96
+	Patch "ECHI72D", 96, 96
+	Patch "ECHI17", 32, 48
+	Patch "ECHI17", 32, 64
+	Patch "ECHI17", 32, 16
+	Patch "ECHI17", 32, 80
+	Patch "ECHI17", 32, 112
+	Patch "ECHI19", 48, 48
+	Patch "ECHI19", 48, 64
+	Patch "ECHI19", 48, 16
+	Patch "ECHI19", 48, 80
+	Patch "ECHI19", 48, 112
+	Patch "ECHI19", 64, 48
+	Patch "ECHI19", 64, 64
+	Patch "ECHI19", 64, 16
+	Patch "ECHI19", 64, 80
+	Patch "ECHI19", 64, 112
+	Patch "ECHI22", 80, 48
+	Patch "ECHI22", 80, 64
+	Patch "ECHI22", 80, 16
+	Patch "ECHI22", 80, 80
+	Patch "ECHI22", 80, 112
+}
+
+Texture "ECHIIC6E", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI04E", 0, 0
+	Patch "ECHI04E", 96, 0
+	Patch "ECHI72E", 0, 32
+	Patch "ECHI72E", 96, 32
+	Patch "ECHI73E", 0, 48
+	Patch "ECHI73E", 0, 64
+	Patch "ECHI73E", 0, 16
+	Patch "ECHI73E", 96, 48
+	Patch "ECHI73E", 96, 64
+	Patch "ECHI73E", 96, 16
+	Patch "ECHI73E", 0, 80
+	Patch "ECHI73E", 0, 112
+	Patch "ECHI73E", 96, 80
+	Patch "ECHI73E", 96, 112
+	Patch "ECHI72E", 0, 96
+	Patch "ECHI72E", 96, 96
+	Patch "ECHI17", 32, 48
+	Patch "ECHI17", 32, 64
+	Patch "ECHI17", 32, 16
+	Patch "ECHI17", 32, 80
+	Patch "ECHI17", 32, 112
+	Patch "ECHI19", 48, 48
+	Patch "ECHI19", 48, 64
+	Patch "ECHI19", 48, 16
+	Patch "ECHI19", 48, 80
+	Patch "ECHI19", 48, 112
+	Patch "ECHI19", 64, 48
+	Patch "ECHI19", 64, 64
+	Patch "ECHI19", 64, 16
+	Patch "ECHI19", 64, 80
+	Patch "ECHI19", 64, 112
+	Patch "ECHI22", 80, 48
+	Patch "ECHI22", 80, 64
+	Patch "ECHI22", 80, 16
+	Patch "ECHI22", 80, 80
+	Patch "ECHI22", 80, 112
+}
+
+Texture "ECHIIC7X", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09A", 0, 0
+	Patch "ECHI25", 0, 16
+	Patch "ECHI25", 0, 48
+	Patch "ECHI25", 0, 80
+	Patch "ECHI25", 0, 144
+	Patch "ECHI25", 0, 208
+	Patch "ECHI25", 0, 112
+	Patch "ECHI25", 0, 176
+	Patch "ECHI26", 0, 240
+	Patch "ECHI26", 16, 240
+}
+
+Texture "ECHIIC7A", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09A", 0, 0
+	Patch "ECHI25", 0, 16
+	Patch "ECHI25", 0, 48
+	Patch "ECHI25", 0, 80
+	Patch "ECHI25", 0, 144
+	Patch "ECHI25", 0, 208
+	Patch "ECHI25", 0, 112
+	Patch "ECHI25", 0, 176
+	Patch "ECHI26", 0, 240
+	Patch "ECHI26", 16, 240
+}
+
+Texture "ECHIIC7B", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09B", 0, 0
+	Patch "ECHI25", 0, 16
+	Patch "ECHI25", 0, 48
+	Patch "ECHI25", 0, 80
+	Patch "ECHI25", 0, 144
+	Patch "ECHI25", 0, 208
+	Patch "ECHI25", 0, 112
+	Patch "ECHI25", 0, 176
+	Patch "ECHI26", 0, 240
+	Patch "ECHI26", 16, 240
+}
+
+Texture "ECHIIC7C", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09C", 0, 0
+	Patch "ECHI25", 0, 16
+	Patch "ECHI25", 0, 48
+	Patch "ECHI25", 0, 80
+	Patch "ECHI25", 0, 144
+	Patch "ECHI25", 0, 208
+	Patch "ECHI25", 0, 112
+	Patch "ECHI25", 0, 176
+	Patch "ECHI26", 0, 240
+	Patch "ECHI26", 16, 240
+}
+
+Texture "ECHIIC7D", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09D", 0, 0
+	Patch "ECHI25", 0, 16
+	Patch "ECHI25", 0, 48
+	Patch "ECHI25", 0, 80
+	Patch "ECHI25", 0, 144
+	Patch "ECHI25", 0, 208
+	Patch "ECHI25", 0, 112
+	Patch "ECHI25", 0, 176
+	Patch "ECHI26", 0, 240
+	Patch "ECHI26", 16, 240
+}
+
+Texture "ECHIIC7E", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI09E", 0, 0
+	Patch "ECHI25", 0, 16
+	Patch "ECHI25", 0, 48
+	Patch "ECHI25", 0, 80
+	Patch "ECHI25", 0, 144
+	Patch "ECHI25", 0, 208
+	Patch "ECHI25", 0, 112
+	Patch "ECHI25", 0, 176
+	Patch "ECHI26", 0, 240
+	Patch "ECHI26", 16, 240
+}
+
+Texture "ECHIIC8X", 128, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05A", 96, 16
+	Patch "ECHI05A", 96, 64
+	Patch "ECHI05A", 96, 112
+	Patch "ECHI05A", 96, 160
+	Patch "ECHI05A", 96, 208
+	Patch "ECHI05A", 32, 32
+	Patch "ECHI05A", 32, 64
+	Patch "ECHI05A", 32, 96
+	Patch "ECHI05A", 32, 128
+	Patch "ECHI05A", 32, 160
+	Patch "ECHI05A", 32, 192
+	Patch "ECHI05A", 32, 224
+	Patch "ECHI05A", 0, 48
+	Patch "ECHI05A", 0, 96
+	Patch "ECHI05A", 0, 144
+	Patch "ECHI05A", 0, 192
+	Patch "ECHI06A", 0, 32
+	Patch "ECHI06A", 0, 80
+	Patch "ECHI06A", 0, 128
+	Patch "ECHI06A", 0, 176
+	Patch "ECHI06A", 0, 224
+	Patch "ECHI06A", 0, 16
+	Patch "ECHI06A", 0, 64
+	Patch "ECHI06A", 0, 112
+	Patch "ECHI06A", 0, 160
+	Patch "ECHI06A", 0, 208
+	Patch "ECHI06A", 64, 32
+	Patch "ECHI06A", 64, 80
+	Patch "ECHI06A", 64, 128
+	Patch "ECHI06A", 64, 176
+	Patch "ECHI06A", 64, 224
+	Patch "ECHI06A", 32, 16
+	Patch "ECHI06A", 32, 48
+	Patch "ECHI06A", 32, 80
+	Patch "ECHI06A", 32, 112
+	Patch "ECHI06A", 32, 144
+	Patch "ECHI06A", 32, 176
+	Patch "ECHI06A", 32, 208
+	Patch "ECHI06A", 96, 48
+	Patch "ECHI06A", 96, 96
+	Patch "ECHI06A", 96, 144
+	Patch "ECHI06A", 96, 192
+	Patch "ECHI08A", 0, 240
+	Patch "ECHI08A", 32, 240
+	Patch "ECHI08A", 64, 240
+	Patch "ECHI08A", 96, 240
+	Patch "ECHI07A", 64, 16
+	Patch "ECHI07A", 64, 64
+	Patch "ECHI07A", 64, 112
+	Patch "ECHI07A", 64, 160
+	Patch "ECHI07A", 64, 208
+	Patch "ECHI07A", 64, 48
+	Patch "ECHI07A", 64, 96
+	Patch "ECHI07A", 64, 144
+	Patch "ECHI07A", 64, 192
+	Patch "ECHI07A", 96, 32
+	Patch "ECHI07A", 96, 80
+	Patch "ECHI07A", 96, 128
+	Patch "ECHI07A", 96, 176
+	Patch "ECHI07A", 96, 224
+	Patch "ECHI74A", 0, 0
+	Patch "ECHI74A", 32, 0
+	Patch "ECHI74A", 64, 0
+	Patch "ECHI74A", 96, 0
+}
+
+Texture "ECHIIC8A", 128, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05A", 96, 16
+	Patch "ECHI05A", 96, 64
+	Patch "ECHI05A", 96, 112
+	Patch "ECHI05A", 96, 160
+	Patch "ECHI05A", 96, 208
+	Patch "ECHI05A", 32, 32
+	Patch "ECHI05A", 32, 64
+	Patch "ECHI05A", 32, 96
+	Patch "ECHI05A", 32, 128
+	Patch "ECHI05A", 32, 160
+	Patch "ECHI05A", 32, 192
+	Patch "ECHI05A", 32, 224
+	Patch "ECHI05A", 0, 48
+	Patch "ECHI05A", 0, 96
+	Patch "ECHI05A", 0, 144
+	Patch "ECHI05A", 0, 192
+	Patch "ECHI06A", 0, 32
+	Patch "ECHI06A", 0, 80
+	Patch "ECHI06A", 0, 128
+	Patch "ECHI06A", 0, 176
+	Patch "ECHI06A", 0, 224
+	Patch "ECHI06A", 0, 16
+	Patch "ECHI06A", 0, 64
+	Patch "ECHI06A", 0, 112
+	Patch "ECHI06A", 0, 160
+	Patch "ECHI06A", 0, 208
+	Patch "ECHI06A", 64, 32
+	Patch "ECHI06A", 64, 80
+	Patch "ECHI06A", 64, 128
+	Patch "ECHI06A", 64, 176
+	Patch "ECHI06A", 64, 224
+	Patch "ECHI06A", 32, 16
+	Patch "ECHI06A", 32, 48
+	Patch "ECHI06A", 32, 80
+	Patch "ECHI06A", 32, 112
+	Patch "ECHI06A", 32, 144
+	Patch "ECHI06A", 32, 176
+	Patch "ECHI06A", 32, 208
+	Patch "ECHI06A", 96, 48
+	Patch "ECHI06A", 96, 96
+	Patch "ECHI06A", 96, 144
+	Patch "ECHI06A", 96, 192
+	Patch "ECHI08A", 0, 240
+	Patch "ECHI08A", 32, 240
+	Patch "ECHI08A", 64, 240
+	Patch "ECHI08A", 96, 240
+	Patch "ECHI07A", 64, 16
+	Patch "ECHI07A", 64, 64
+	Patch "ECHI07A", 64, 112
+	Patch "ECHI07A", 64, 160
+	Patch "ECHI07A", 64, 208
+	Patch "ECHI07A", 64, 48
+	Patch "ECHI07A", 64, 96
+	Patch "ECHI07A", 64, 144
+	Patch "ECHI07A", 64, 192
+	Patch "ECHI07A", 96, 32
+	Patch "ECHI07A", 96, 80
+	Patch "ECHI07A", 96, 128
+	Patch "ECHI07A", 96, 176
+	Patch "ECHI07A", 96, 224
+	Patch "ECHI74A", 0, 0
+	Patch "ECHI74A", 32, 0
+	Patch "ECHI74A", 64, 0
+	Patch "ECHI74A", 96, 0
+}
+
+Texture "ECHIIC8B", 128, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05B", 96, 16
+	Patch "ECHI05B", 96, 64
+	Patch "ECHI05B", 96, 112
+	Patch "ECHI05B", 96, 160
+	Patch "ECHI05B", 96, 208
+	Patch "ECHI05B", 32, 32
+	Patch "ECHI05B", 32, 64
+	Patch "ECHI05B", 32, 96
+	Patch "ECHI05B", 32, 128
+	Patch "ECHI05B", 32, 160
+	Patch "ECHI05B", 32, 192
+	Patch "ECHI05B", 32, 224
+	Patch "ECHI05B", 0, 48
+	Patch "ECHI05B", 0, 96
+	Patch "ECHI05B", 0, 144
+	Patch "ECHI05B", 0, 192
+	Patch "ECHI06B", 0, 32
+	Patch "ECHI06B", 0, 80
+	Patch "ECHI06B", 0, 128
+	Patch "ECHI06B", 0, 176
+	Patch "ECHI06B", 0, 224
+	Patch "ECHI06B", 0, 16
+	Patch "ECHI06B", 0, 64
+	Patch "ECHI06B", 0, 112
+	Patch "ECHI06B", 0, 160
+	Patch "ECHI06B", 0, 208
+	Patch "ECHI06B", 64, 32
+	Patch "ECHI06B", 64, 80
+	Patch "ECHI06B", 64, 128
+	Patch "ECHI06B", 64, 176
+	Patch "ECHI06B", 64, 224
+	Patch "ECHI06B", 32, 16
+	Patch "ECHI06B", 32, 48
+	Patch "ECHI06B", 32, 80
+	Patch "ECHI06B", 32, 112
+	Patch "ECHI06B", 32, 144
+	Patch "ECHI06B", 32, 176
+	Patch "ECHI06B", 32, 208
+	Patch "ECHI06B", 96, 48
+	Patch "ECHI06B", 96, 96
+	Patch "ECHI06B", 96, 144
+	Patch "ECHI06B", 96, 192
+	Patch "ECHI08B", 0, 240
+	Patch "ECHI08B", 32, 240
+	Patch "ECHI08B", 64, 240
+	Patch "ECHI08B", 96, 240
+	Patch "ECHI07B", 64, 16
+	Patch "ECHI07B", 64, 64
+	Patch "ECHI07B", 64, 112
+	Patch "ECHI07B", 64, 160
+	Patch "ECHI07B", 64, 208
+	Patch "ECHI07B", 64, 48
+	Patch "ECHI07B", 64, 96
+	Patch "ECHI07B", 64, 144
+	Patch "ECHI07B", 64, 192
+	Patch "ECHI07B", 96, 32
+	Patch "ECHI07B", 96, 80
+	Patch "ECHI07B", 96, 128
+	Patch "ECHI07B", 96, 176
+	Patch "ECHI07B", 96, 224
+	Patch "ECHI74B", 0, 0
+	Patch "ECHI74B", 32, 0
+	Patch "ECHI74B", 64, 0
+	Patch "ECHI74B", 96, 0
+}
+
+Texture "ECHIIC8C", 128, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05C", 96, 16
+	Patch "ECHI05C", 96, 64
+	Patch "ECHI05C", 96, 112
+	Patch "ECHI05C", 96, 160
+	Patch "ECHI05C", 96, 208
+	Patch "ECHI05C", 32, 32
+	Patch "ECHI05C", 32, 64
+	Patch "ECHI05C", 32, 96
+	Patch "ECHI05C", 32, 128
+	Patch "ECHI05C", 32, 160
+	Patch "ECHI05C", 32, 192
+	Patch "ECHI05C", 32, 224
+	Patch "ECHI05C", 0, 48
+	Patch "ECHI05C", 0, 96
+	Patch "ECHI05C", 0, 144
+	Patch "ECHI05C", 0, 192
+	Patch "ECHI06C", 0, 32
+	Patch "ECHI06C", 0, 80
+	Patch "ECHI06C", 0, 128
+	Patch "ECHI06C", 0, 176
+	Patch "ECHI06C", 0, 224
+	Patch "ECHI06C", 0, 16
+	Patch "ECHI06C", 0, 64
+	Patch "ECHI06C", 0, 112
+	Patch "ECHI06C", 0, 160
+	Patch "ECHI06C", 0, 208
+	Patch "ECHI06C", 64, 32
+	Patch "ECHI06C", 64, 80
+	Patch "ECHI06C", 64, 128
+	Patch "ECHI06C", 64, 176
+	Patch "ECHI06C", 64, 224
+	Patch "ECHI06C", 32, 16
+	Patch "ECHI06C", 32, 48
+	Patch "ECHI06C", 32, 80
+	Patch "ECHI06C", 32, 112
+	Patch "ECHI06C", 32, 144
+	Patch "ECHI06C", 32, 176
+	Patch "ECHI06C", 32, 208
+	Patch "ECHI06C", 96, 48
+	Patch "ECHI06C", 96, 96
+	Patch "ECHI06C", 96, 144
+	Patch "ECHI06C", 96, 192
+	Patch "ECHI08C", 0, 240
+	Patch "ECHI08C", 32, 240
+	Patch "ECHI08C", 64, 240
+	Patch "ECHI08C", 96, 240
+	Patch "ECHI07C", 64, 16
+	Patch "ECHI07C", 64, 64
+	Patch "ECHI07C", 64, 112
+	Patch "ECHI07C", 64, 160
+	Patch "ECHI07C", 64, 208
+	Patch "ECHI07C", 64, 48
+	Patch "ECHI07C", 64, 96
+	Patch "ECHI07C", 64, 144
+	Patch "ECHI07C", 64, 192
+	Patch "ECHI07C", 96, 32
+	Patch "ECHI07C", 96, 80
+	Patch "ECHI07C", 96, 128
+	Patch "ECHI07C", 96, 176
+	Patch "ECHI07C", 96, 224
+	Patch "ECHI74C", 0, 0
+	Patch "ECHI74C", 32, 0
+	Patch "ECHI74C", 64, 0
+	Patch "ECHI74C", 96, 0
+}
+
+Texture "ECHIIC8D", 128, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05D", 96, 16
+	Patch "ECHI05D", 96, 64
+	Patch "ECHI05D", 96, 112
+	Patch "ECHI05D", 96, 160
+	Patch "ECHI05D", 96, 208
+	Patch "ECHI05D", 32, 32
+	Patch "ECHI05D", 32, 64
+	Patch "ECHI05D", 32, 96
+	Patch "ECHI05D", 32, 128
+	Patch "ECHI05D", 32, 160
+	Patch "ECHI05D", 32, 192
+	Patch "ECHI05D", 32, 224
+	Patch "ECHI05D", 0, 48
+	Patch "ECHI05D", 0, 96
+	Patch "ECHI05D", 0, 144
+	Patch "ECHI05D", 0, 192
+	Patch "ECHI06D", 0, 32
+	Patch "ECHI06D", 0, 80
+	Patch "ECHI06D", 0, 128
+	Patch "ECHI06D", 0, 176
+	Patch "ECHI06D", 0, 224
+	Patch "ECHI06D", 0, 16
+	Patch "ECHI06D", 0, 64
+	Patch "ECHI06D", 0, 112
+	Patch "ECHI06D", 0, 160
+	Patch "ECHI06D", 0, 208
+	Patch "ECHI06D", 64, 32
+	Patch "ECHI06D", 64, 80
+	Patch "ECHI06D", 64, 128
+	Patch "ECHI06D", 64, 176
+	Patch "ECHI06D", 64, 224
+	Patch "ECHI06D", 32, 16
+	Patch "ECHI06D", 32, 48
+	Patch "ECHI06D", 32, 80
+	Patch "ECHI06D", 32, 112
+	Patch "ECHI06D", 32, 144
+	Patch "ECHI06D", 32, 176
+	Patch "ECHI06D", 32, 208
+	Patch "ECHI06D", 96, 48
+	Patch "ECHI06D", 96, 96
+	Patch "ECHI06D", 96, 144
+	Patch "ECHI06D", 96, 192
+	Patch "ECHI08D", 0, 240
+	Patch "ECHI08D", 32, 240
+	Patch "ECHI08D", 64, 240
+	Patch "ECHI08D", 96, 240
+	Patch "ECHI07D", 64, 16
+	Patch "ECHI07D", 64, 64
+	Patch "ECHI07D", 64, 112
+	Patch "ECHI07D", 64, 160
+	Patch "ECHI07D", 64, 208
+	Patch "ECHI07D", 64, 48
+	Patch "ECHI07D", 64, 96
+	Patch "ECHI07D", 64, 144
+	Patch "ECHI07D", 64, 192
+	Patch "ECHI07D", 96, 32
+	Patch "ECHI07D", 96, 80
+	Patch "ECHI07D", 96, 128
+	Patch "ECHI07D", 96, 176
+	Patch "ECHI07D", 96, 224
+	Patch "ECHI74D", 0, 0
+	Patch "ECHI74D", 32, 0
+	Patch "ECHI74D", 64, 0
+	Patch "ECHI74D", 96, 0
+}
+
+Texture "ECHIIC8E", 128, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI05E", 96, 16
+	Patch "ECHI05E", 96, 64
+	Patch "ECHI05E", 96, 112
+	Patch "ECHI05E", 96, 160
+	Patch "ECHI05E", 96, 208
+	Patch "ECHI05E", 32, 32
+	Patch "ECHI05E", 32, 64
+	Patch "ECHI05E", 32, 96
+	Patch "ECHI05E", 32, 128
+	Patch "ECHI05E", 32, 160
+	Patch "ECHI05E", 32, 192
+	Patch "ECHI05E", 32, 224
+	Patch "ECHI05E", 0, 48
+	Patch "ECHI05E", 0, 96
+	Patch "ECHI05E", 0, 144
+	Patch "ECHI05E", 0, 192
+	Patch "ECHI06E", 0, 32
+	Patch "ECHI06E", 0, 80
+	Patch "ECHI06E", 0, 128
+	Patch "ECHI06E", 0, 176
+	Patch "ECHI06E", 0, 224
+	Patch "ECHI06E", 0, 16
+	Patch "ECHI06E", 0, 64
+	Patch "ECHI06E", 0, 112
+	Patch "ECHI06E", 0, 160
+	Patch "ECHI06E", 0, 208
+	Patch "ECHI06E", 64, 32
+	Patch "ECHI06E", 64, 80
+	Patch "ECHI06E", 64, 128
+	Patch "ECHI06E", 64, 176
+	Patch "ECHI06E", 64, 224
+	Patch "ECHI06E", 32, 16
+	Patch "ECHI06E", 32, 48
+	Patch "ECHI06E", 32, 80
+	Patch "ECHI06E", 32, 112
+	Patch "ECHI06E", 32, 144
+	Patch "ECHI06E", 32, 176
+	Patch "ECHI06E", 32, 208
+	Patch "ECHI06E", 96, 48
+	Patch "ECHI06E", 96, 96
+	Patch "ECHI06E", 96, 144
+	Patch "ECHI06E", 96, 192
+	Patch "ECHI08E", 0, 240
+	Patch "ECHI08E", 32, 240
+	Patch "ECHI08E", 64, 240
+	Patch "ECHI08E", 96, 240
+	Patch "ECHI07E", 64, 16
+	Patch "ECHI07E", 64, 64
+	Patch "ECHI07E", 64, 112
+	Patch "ECHI07E", 64, 160
+	Patch "ECHI07E", 64, 208
+	Patch "ECHI07E", 64, 48
+	Patch "ECHI07E", 64, 96
+	Patch "ECHI07E", 64, 144
+	Patch "ECHI07E", 64, 192
+	Patch "ECHI07E", 96, 32
+	Patch "ECHI07E", 96, 80
+	Patch "ECHI07E", 96, 128
+	Patch "ECHI07E", 96, 176
+	Patch "ECHI07E", 96, 224
+	Patch "ECHI74E", 0, 0
+	Patch "ECHI74E", 32, 0
+	Patch "ECHI74E", 64, 0
+	Patch "ECHI74E", 96, 0
+}
+
+Texture "ECHIWL01", 128, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI33", 0, 0
+	Patch "ECHI33", 96, 0
+	Patch "ECHI33", 16, 0
+	Patch "ECHI33", 112, 0
+	Patch "ECHI33", 16, 144
+	Patch "ECHI33", 80, 145
+	Patch "ECHI33", 112, 128
+	Patch "ECHI34", 0, 16
+	Patch "ECHI34", 0, 192
+	Patch "ECHI34", 0, 160
+	Patch "ECHI34", 16, 16
+	Patch "ECHI34", 16, 192
+	Patch "ECHI34", 80, 193
+	Patch "ECHI34", 112, 192
+	Patch "ECHI34", 16, 160
+	Patch "ECHI34", 80, 161
+	Patch "ECHI34", 112, 160
+	Patch "ECHI34", 112, 144
+	Patch "ECHI34", 64, 224
+	Patch "ECHI34", 0, 144
+	Patch "ECHI34", 64, 208
+	Patch "ECHI34", 0, 32
+	Patch "ECHI34", 0, 208
+	Patch "ECHI34", 0, 224
+	Patch "ECHI34", 0, 176
+	Patch "ECHI34", 16, 32
+	Patch "ECHI34", 16, 208
+	Patch "ECHI34", 80, 209
+	Patch "ECHI34", 112, 208
+	Patch "ECHI34", 16, 176
+	Patch "ECHI34", 80, 177
+	Patch "ECHI34", 112, 176
+	Patch "ECHI35", 0, 48
+	Patch "ECHI35", 112, 16
+	Patch "ECHI35", 0, 240
+	Patch "ECHI35", 64, 240
+	Patch "ECHI34", 16, 48
+	Patch "ECHI34", 96, 16
+	Patch "ECHI34", 16, 224
+	Patch "ECHI34", 80, 225
+	Patch "ECHI34", 112, 224
+	Patch "ECHI35", 16, 64
+	Patch "ECHI35", 96, 32
+	Patch "ECHI35", 16, 240
+	Patch "ECHI35", 80, 241
+	Patch "ECHI35", 112, 240
+	Patch "ECHI30", 0, 112
+	Patch "ECHI32", 0, 128
+	Patch "ECHI32", 64, 192
+	Patch "ECHI30", 64, 160
+	Patch "ECHI31", 64, 176
+}
+
+Texture "ECHIWL02", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI50", 0, 0
+	Patch "ECHI51", 0, 16
+	Patch "ECHI51", 0, 32
+	Patch "ECHI51", 0, 64
+	Patch "ECHI51", 0, 128
+	Patch "ECHI51", 0, 192
+	Patch "ECHI51", 0, 96
+	Patch "ECHI51", 0, 160
+	Patch "ECHI51", 0, 224
+	Patch "ECHI51", 0, 48
+	Patch "ECHI51", 0, 80
+	Patch "ECHI51", 0, 144
+	Patch "ECHI51", 0, 208
+	Patch "ECHI51", 0, 112
+	Patch "ECHI51", 0, 176
+	Patch "ECHI51", 0, 240
+}
+
+Texture "ECHIWL03", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI50", 0, 0
+	Patch "ECHI51", 0, 16
+	Patch "ECHI44", 0, 32
+	Patch "ECHI44", 0, 64
+	Patch "ECHI44", 0, 128
+	Patch "ECHI44", 0, 192
+	Patch "ECHI44", 0, 96
+	Patch "ECHI44", 0, 160
+	Patch "ECHI44", 0, 224
+	Patch "ECHI44", 0, 48
+	Patch "ECHI44", 0, 80
+	Patch "ECHI44", 0, 144
+	Patch "ECHI44", 0, 208
+	Patch "ECHI44", 0, 112
+	Patch "ECHI44", 0, 176
+	Patch "ECHI44", 0, 240
+}
+
+Texture "ECHIWL04", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI50", 0, 0
+	Patch "ECHI51", 0, 16
+	Patch "ECHI49", 0, 32
+	Patch "ECHI48", 0, 64
+	Patch "ECHI48", 0, 128
+	Patch "ECHI48", 0, 192
+	Patch "ECHI48", 0, 96
+	Patch "ECHI48", 0, 160
+	Patch "ECHI48", 0, 224
+	Patch "ECHI48", 0, 48
+	Patch "ECHI48", 0, 80
+	Patch "ECHI48", 0, 144
+	Patch "ECHI48", 0, 208
+	Patch "ECHI48", 0, 112
+	Patch "ECHI48", 0, 176
+	Patch "ECHI49", 0, 240
+}
+
+Texture "ECHIWL05", 128, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI50", 0, 0
+	Patch "ECHI50", 16, 0
+	Patch "ECHI50", 32, 0
+	Patch "ECHI50", 48, 0
+	Patch "ECHI50", 64, 0
+	Patch "ECHI50", 80, 0
+	Patch "ECHI50", 96, 0
+	Patch "ECHI50", 112, 0
+	Patch "ECHI51", 0, 16
+	Patch "ECHI51", 16, 16
+	Patch "ECHI51", 32, 16
+	Patch "ECHI51", 48, 16
+	Patch "ECHI51", 64, 16
+	Patch "ECHI51", 80, 16
+	Patch "ECHI51", 96, 16
+	Patch "ECHI51", 112, 16
+	Patch "ECHI42", 32, 32
+	Patch "ECHI42", 32, 128
+	Patch "ECHI46", 48, 32
+	Patch "ECHI46", 48, 128
+	Patch "ECHI44", 0, 32
+	Patch "ECHI44", 16, 32
+	Patch "ECHI44", 64, 32
+	Patch "ECHI44", 80, 32
+	Patch "ECHI44", 96, 32
+	Patch "ECHI44", 112, 32
+	Patch "ECHI44", 0, 64
+	Patch "ECHI44", 16, 64
+	Patch "ECHI44", 32, 64
+	Patch "ECHI44", 48, 64
+	Patch "ECHI44", 64, 64
+	Patch "ECHI44", 80, 64
+	Patch "ECHI44", 96, 64
+	Patch "ECHI44", 112, 64
+	Patch "ECHI44", 0, 128
+	Patch "ECHI44", 16, 128
+	Patch "ECHI44", 64, 128
+	Patch "ECHI44", 80, 128
+	Patch "ECHI44", 96, 128
+	Patch "ECHI44", 112, 128
+	Patch "ECHI44", 32, 192
+	Patch "ECHI44", 64, 192
+	Patch "ECHI44", 80, 208
+	Patch "ECHI44", 96, 192
+	Patch "ECHI44", 112, 192
+	Patch "ECHI44", 16, 96
+	Patch "ECHI44", 32, 96
+	Patch "ECHI44", 48, 96
+	Patch "ECHI44", 64, 96
+	Patch "ECHI43", 80, 96
+	Patch "ECHI43", 80, 192
+	Patch "ECHI44", 96, 96
+	Patch "ECHI44", 112, 96
+	Patch "ECHI44", 0, 160
+	Patch "ECHI44", 16, 160
+	Patch "ECHI44", 32, 160
+	Patch "ECHI44", 48, 160
+	Patch "ECHI44", 64, 160
+	Patch "ECHI44", 80, 160
+	Patch "ECHI44", 96, 160
+	Patch "ECHI44", 112, 160
+	Patch "ECHI44", 0, 224
+	Patch "ECHI44", 16, 224
+	Patch "ECHI44", 32, 224
+	Patch "ECHI44", 48, 224
+	Patch "ECHI44", 64, 224
+	Patch "ECHI44", 80, 224
+	Patch "ECHI44", 96, 224
+	Patch "ECHI44", 112, 224
+	Patch "ECHI44", 0, 48
+	Patch "ECHI42", 48, 48
+	Patch "ECHI42", 48, 144
+	Patch "ECHI44", 32, 48
+	Patch "ECHI44", 16, 48
+	Patch "ECHI44", 64, 48
+	Patch "ECHI44", 80, 48
+	Patch "ECHI44", 96, 48
+	Patch "ECHI44", 112, 48
+	Patch "ECHI43", 0, 80
+	Patch "ECHI43", 0, 176
+	Patch "ECHI45", 16, 80
+	Patch "ECHI45", 16, 176
+	Patch "ECHI44", 32, 80
+	Patch "ECHI45", 48, 80
+	Patch "ECHI45", 48, 176
+	Patch "ECHI44", 64, 80
+	Patch "ECHI44", 80, 80
+	Patch "ECHI44", 96, 80
+	Patch "ECHI44", 112, 80
+	Patch "ECHI44", 0, 144
+	Patch "ECHI44", 16, 144
+	Patch "ECHI44", 32, 144
+	Patch "ECHI44", 64, 144
+	Patch "ECHI44", 80, 144
+	Patch "ECHI44", 96, 144
+	Patch "ECHI44", 112, 144
+	Patch "ECHI44", 16, 208
+	Patch "ECHI44", 32, 208
+	Patch "ECHI44", 48, 208
+	Patch "ECHI44", 64, 208
+	Patch "ECHI44", 96, 208
+	Patch "ECHI44", 112, 208
+	Patch "ECHI44", 0, 112
+	Patch "ECHI44", 16, 112
+	Patch "ECHI44", 32, 112
+	Patch "ECHI44", 48, 112
+	Patch "ECHI44", 64, 112
+	Patch "ECHI44", 80, 112
+	Patch "ECHI44", 96, 112
+	Patch "ECHI44", 112, 112
+	Patch "ECHI44", 0, 208
+	Patch "ECHI44", 16, 192
+	Patch "ECHI44", 32, 176
+	Patch "ECHI44", 48, 192
+	Patch "ECHI44", 64, 176
+	Patch "ECHI44", 80, 176
+	Patch "ECHI44", 96, 176
+	Patch "ECHI44", 112, 176
+	Patch "ECHI44", 0, 240
+	Patch "ECHI44", 16, 240
+	Patch "ECHI44", 32, 240
+	Patch "ECHI44", 48, 240
+	Patch "ECHI44", 64, 240
+	Patch "ECHI44", 80, 240
+	Patch "ECHI44", 96, 240
+	Patch "ECHI44", 112, 240
+	Patch "ECHI42", 57, 32
+	Patch "ECHI42", 57, 128
+	Patch "ECHI43", 0, 96
+	Patch "ECHI43", 0, 192
+}
+
+Texture "ECHIWL06", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI40", 0, 0
+	Patch "ECHI44", 0, 16
+	Patch "ECHI44", 0, 32
+	Patch "ECHI44", 0, 64
+	Patch "ECHI44", 0, 128
+	Patch "ECHI44", 0, 192
+	Patch "ECHI44", 0, 96
+	Patch "ECHI44", 0, 160
+	Patch "ECHI44", 0, 224
+	Patch "ECHI44", 0, 48
+	Patch "ECHI44", 0, 80
+	Patch "ECHI44", 0, 144
+	Patch "ECHI44", 0, 208
+	Patch "ECHI44", 0, 112
+	Patch "ECHI44", 0, 176
+	Patch "ECHI44", 0, 240
+}
+
+Texture "ECHIWL07", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI33", 0, 0
+	Patch "ECHI53", 0, 48
+	Patch "ECHI52", 0, 16
+	Patch "ECHI53", 0, 64
+	Patch "ECHI53", 0, 80
+	Patch "ECHI54", 0, 96
+	Patch "ECHI54", 0, 112
+	Patch "ECHI52", 0, 32
+	Patch "ECHI55", 0, 128
+	Patch "ECHI55", 0, 144
+	Patch "ECHI56", 0, 160
+	Patch "ECHI56", 0, 176
+	Patch "ECHI57", 0, 192
+	Patch "ECHI57", 0, 208
+	Patch "ECHI58", 0, 224
+	Patch "ECHI58", 0, 240
+}
+
+Texture "ECHIBU01", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI27", 0, 0
+	Patch "ECHI47", 0, 16
+	Patch "ECHI48", 0, 32
+	Patch "ECHI48", 0, 64
+	Patch "ECHI48", 0, 128
+	Patch "ECHI48", 0, 192
+	Patch "ECHI48", 0, 96
+	Patch "ECHI48", 0, 160
+	Patch "ECHI48", 0, 224
+	Patch "ECHI48", 0, 48
+	Patch "ECHI48", 0, 80
+	Patch "ECHI48", 0, 144
+	Patch "ECHI48", 0, 208
+	Patch "ECHI48", 0, 112
+	Patch "ECHI48", 0, 176
+	Patch "ECHI49", 0, 240
+}
+
+Texture "ECHIBU02", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI28", 0, 0
+}
+
+Texture "ECHIBU03", 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI68", 0, 0
+	Patch "ECHI69", 0, 16
+	Patch "ECHI69", 0, 32
+	Patch "ECHI69", 0, 64
+	Patch "ECHI69", 0, 128
+	Patch "ECHI69", 0, 192
+	Patch "ECHI69", 0, 96
+	Patch "ECHI69", 0, 160
+	Patch "ECHI69", 0, 224
+	Patch "ECHI69", 0, 48
+	Patch "ECHI69", 0, 80
+	Patch "ECHI69", 0, 144
+	Patch "ECHI69", 0, 208
+	Patch "ECHI69", 0, 112
+	Patch "ECHI69", 0, 176
+	Patch "ECHI71", 0, 240
+}
+
+Texture "ECHIBU04", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI26", 0, 0
+	Patch "ECHI26", 16, 0
+	Patch "ECHI25", 0, 16
+	Patch "ECHI25", 0, 48
+	Patch "ECHI25", 0, 80
+	Patch "ECHI25", 0, 144
+	Patch "ECHI25", 0, 208
+	Patch "ECHI25", 0, 112
+	Patch "ECHI25", 0, 176
+	Patch "ECHI26", 0, 240
+	Patch "ECHI26", 16, 240
+}
+
+Texture "ECHIBU05", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI25", 0, 0
+}
+
+Texture "ECHIBU06", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI62", 0, 0
+	Patch "ECHI63", 0, 16
+	Patch "ECHI63", 0, 64
+	Patch "ECHI63", 0, 112
+	Patch "ECHI63", 0, 160
+	Patch "ECHI63", 0, 208
+	Patch "ECHI63", 0, 256
+	Patch "ECHI63", 0, 304
+	Patch "ECHI63", 0, 352
+	Patch "ECHI63", 0, 400
+	Patch "ECHI63", 0, 448
+	Patch "ECHI64", 0, 496
+}
+
+Texture "ECHILDRX", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14A", 0, 0
+}
+
+Texture "ECHILDRA", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14A", 0, 0
+}
+
+Texture "ECHILDRB", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14B", 0, 0
+}
+
+Texture "ECHILDRC", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14C", 0, 0
+}
+
+Texture "ECHILDRD", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14D", 0, 0
+}
+
+Texture "ECHILDRE", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14E", 0, 0
+}
+
+Texture "ECHIDORX", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15A", 0, 0
+}
+
+Texture "ECHIDORA", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15A", 0, 0
+}
+
+Texture "ECHIDORB", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15B", 0, 0
+}
+
+Texture "ECHIDORC", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15C", 0, 0
+}
+
+Texture "ECHIDORD", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15D", 0, 0
+}
+
+Texture "ECHIDORE", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15E", 0, 0
+}
+
+Texture "ECHIPI01", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI16", 0, 0
+}
+
+Texture "ECHIPI02", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI17", 0, 0
+}
+
+Texture "ECHIPI03", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI18", 0, 0
+}
+
+Texture "ECHIPI04", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI19", 0, 0
+}
+
+Texture "ECHIPI05", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI20", 0, 0
+}
+
+Texture "ECHIPI06", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI21", 0, 0
+}
+
+Texture "ECHIPI07", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI22", 0, 0
+}
+
+Texture "ECHIPI08", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI23", 0, 0
+}
+
+Texture "ECHIPI09", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI24", 0, 0
+}
+
+Texture "ECHIFL1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI60", 0, 0
+}
+
+Texture "ECHIFL2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI61", 0, 0
+}
+
+Texture "ECHIFL3X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI70A", 0, 0
+}
+
+Texture "ECHIFL3A", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI70A", 0, 0
+}
+
+Texture "ECHIFL3B", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI70B", 0, 0
+}
+
+Texture "ECHIFL3C", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI70C", 0, 0
+}
+
+Texture "ECHIFL3D", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI70D", 0, 0
+}
+
+Texture "ECHIFL3E", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI70E", 0, 0
+}
+
+Texture "ECHIFL4", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI75A", 0, 0
+}
+
+Texture "ECHIFL4A", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI75A", 0, 0
+}
+
+Texture "ECHIFL4B", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI75B", 0, 0
+}
+
+Texture "ECHIFL4C", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI75C", 0, 0
+}
+
+Texture "ECHIFL4D", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI75D", 0, 0
+}
+
+Texture "ECHIFL4E", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI75E", 0, 0
+}
+
+Texture "ECHIFL5", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI76", 0, 0
+}
+
+Texture "ECHIFL6", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI77", 0, 0
+}
+
+Texture "ECHIFL7", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI78", 0, 0
+}
+
+Texture "ECHIFL8", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI79", 0, 0
+}
+
+Texture "ECHIFL9", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI80", 0, 0
+}
+
+Texture "ECHIFL10", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI81", 0, 0
+}
+
+Texture "ECHIFL11", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI51", 0, 0
+}
+
+Texture "ECHIPI10", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI82", 0, 0
+}
+
+Texture "ECHIMT01", 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI83", 0, 0
+}
+
+Texture "ECHIMT02", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI84", 0, 0
+}
+
+Texture "ECHIMT03", 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI85", 0, 0
+}
+

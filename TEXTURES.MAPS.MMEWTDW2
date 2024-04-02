@@ -1,0 +1,5537 @@
+
+Texture EWT3FLR1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT103, 0, 0
+}
+
+Texture EWT3FLR2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT104, 0, 0
+}
+
+Texture EWT3FLR3, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT105, 0, 0
+}
+
+Texture EWT3SKY, 256, 144
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT45, 0, 0
+}
+
+Texture EWT3WILY, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT47, 0, 0
+}
+
+Texture EWT3PLR1, 32, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT46, 0, 0
+}
+
+Texture EWT3PLR2, 16, 96
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT25, 0, 0
+	Patch E3WT26, 0, 16
+	Patch E3WT26, 0, 32
+	Patch E3WT26, 0, 48
+	Patch E3WT26, 0, 64
+	Patch E3WT27, 0, 80
+}
+
+Texture EWT3WAL1, 96, 526
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT32, 0, 0
+	Patch E3WT33, 0, 16
+	Patch E3WT33, 0, 272
+	Patch E3WT33, 0, 80
+	Patch E3WT33, 0, 336
+	Patch E3WT33, 0, 144
+	Patch E3WT33, 0, 400
+	Patch E3WT33, 0, 208
+	Patch E3WT33, 0, 464
+}
+
+Texture EWT3LADR, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT77, 0, 0
+}
+
+Texture EWT3MTL1, 144, 160
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT16, 0, 0
+	Patch E3WT28, 0, 16
+	Patch E3WT29, 0, 32
+	Patch E3WT29, 0, 48
+	Patch E3WT29, 0, 64
+	Patch E3WT29, 0, 80
+	Patch E3WT29, 0, 96
+	Patch E3WT29, 0, 112
+	Patch E3WT29, 0, 128
+	Patch E3WT22, 0, 144
+	Patch E3WT23, 16, 144
+	Patch E3WT23, 64, 144
+	Patch E3WT23, 32, 144
+	Patch E3WT23, 80, 144
+	Patch E3WT23, 48, 144
+	Patch E3WT23, 96, 144
+	Patch E3WT23, 112, 144
+	Patch E3WT24, 128, 144
+	Patch E3WT17, 16, 0
+	Patch E3WT17, 64, 0
+	Patch E3WT17, 32, 0
+	Patch E3WT17, 80, 0
+	Patch E3WT17, 48, 0
+	Patch E3WT17, 96, 0
+	Patch E3WT17, 112, 0
+	Patch E3WT100, 16, 16
+	Patch E3WT101, 16, 32
+	Patch E3WT101, 80, 96
+	Patch E3WT102, 16, 64
+	Patch E3WT102, 80, 128
+	Patch E3WT18, 128, 0
+	Patch E3WT30, 128, 16
+	Patch E3WT31, 128, 32
+	Patch E3WT31, 128, 96
+	Patch E3WT31, 128, 64
+	Patch E3WT31, 128, 128
+	Patch E3WT31, 128, 48
+	Patch E3WT31, 128, 112
+	Patch E3WT31, 128, 80
+	Patch E3WT04, 64, 16
+	Patch E3WT08, 80, 32
+	Patch E3WT08, 96, 32
+	Patch E3WT14, 80, 48
+	Patch E3WT14, 96, 48
+	Patch E3WT05, 80, 16
+	Patch E3WT05, 96, 16
+	Patch E3WT06, 112, 16
+	Patch E3WT07, 64, 32
+	Patch E3WT13, 64, 48
+	Patch E3WT09, 112, 32
+	Patch E3WT15, 112, 48
+	Patch E3WT19, 64, 64
+	Patch E3WT19, 16, 128
+	Patch E3WT20, 80, 64
+	Patch E3WT20, 32, 128
+	Patch E3WT20, 96, 64
+	Patch E3WT20, 48, 128
+	Patch E3WT21, 112, 64
+	Patch E3WT21, 64, 128
+	Patch E3WT100, 80, 80
+	Patch E3WT58, 16, 80
+	Patch E3WT59, 32, 80
+	Patch E3WT59, 48, 80
+	Patch E3WT60, 64, 80
+	Patch E3WT61, 16, 96
+	Patch E3WT62, 32, 96
+	Patch E3WT62, 48, 96
+	Patch E3WT63, 64, 96
+	Patch E3WT64, 16, 112
+	Patch E3WT65, 32, 112
+	Patch E3WT65, 48, 112
+	Patch E3WT66, 64, 112
+}
+
+Texture EWT3MTL2, 80, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT16, 0, 0
+	Patch E3WT28, 0, 16
+	Patch E3WT29, 0, 32
+	Patch E3WT29, 0, 48
+	Patch E3WT29, 0, 64
+	Patch E3WT29, 0, 80
+	Patch E3WT29, 0, 96
+	Patch E3WT29, 0, 112
+	Patch E3WT29, 0, 128
+	Patch E3WT29, 0, 144
+	Patch E3WT29, 0, 160
+	Patch E3WT29, 0, 176
+	Patch E3WT29, 0, 192
+	Patch E3WT29, 0, 208
+	Patch E3WT29, 0, 224
+	Patch E3WT29, 0, 240
+	Patch E3WT29, 0, 256
+	Patch E3WT29, 0, 272
+	Patch E3WT29, 0, 288
+	Patch E3WT22, 0, 304
+	Patch E3WT23, 16, 304
+	Patch E3WT23, 32, 304
+	Patch E3WT23, 48, 304
+	Patch E3WT24, 64, 304
+	Patch E3WT17, 16, 0
+	Patch E3WT17, 32, 0
+	Patch E3WT17, 48, 0
+	Patch E3WT100, 16, 16
+	Patch E3WT101, 16, 32
+	Patch E3WT101, 16, 64
+	Patch E3WT101, 16, 96
+	Patch E3WT101, 16, 128
+	Patch E3WT101, 16, 160
+	Patch E3WT101, 16, 192
+	Patch E3WT101, 16, 224
+	Patch E3WT101, 16, 256
+	Patch E3WT102, 16, 288
+	Patch E3WT18, 64, 0
+	Patch E3WT30, 64, 16
+	Patch E3WT31, 64, 160
+	Patch E3WT31, 64, 32
+	Patch E3WT31, 64, 176
+	Patch E3WT31, 64, 96
+	Patch E3WT31, 64, 240
+	Patch E3WT31, 64, 64
+	Patch E3WT31, 64, 208
+	Patch E3WT31, 64, 128
+	Patch E3WT31, 64, 272
+	Patch E3WT31, 64, 48
+	Patch E3WT31, 64, 192
+	Patch E3WT31, 64, 112
+	Patch E3WT31, 64, 256
+	Patch E3WT31, 64, 80
+	Patch E3WT31, 64, 224
+	Patch E3WT31, 64, 144
+	Patch E3WT31, 64, 288
+}
+
+Texture EWT3MTL3, 80, 304
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT16, 0, 0
+	Patch E3WT28, 0, 16
+	Patch E3WT29, 0, 32
+	Patch E3WT29, 0, 48
+	Patch E3WT29, 0, 64
+	Patch E3WT29, 0, 80
+	Patch E3WT29, 0, 96
+	Patch E3WT29, 0, 112
+	Patch E3WT29, 0, 128
+	Patch E3WT29, 0, 144
+	Patch E3WT29, 0, 160
+	Patch E3WT29, 0, 176
+	Patch E3WT29, 0, 192
+	Patch E3WT29, 0, 208
+	Patch E3WT29, 0, 224
+	Patch E3WT29, 0, 240
+	Patch E3WT29, 0, 256
+	Patch E3WT29, 0, 272
+	Patch E3WT22, 0, 288
+	Patch E3WT23, 16, 288
+	Patch E3WT23, 32, 288
+	Patch E3WT23, 48, 288
+	Patch E3WT24, 64, 288
+	Patch E3WT17, 16, 0
+	Patch E3WT17, 32, 0
+	Patch E3WT17, 48, 0
+	Patch E3WT58, 16, 16
+	Patch E3WT61, 16, 48
+	Patch E3WT61, 16, 96
+	Patch E3WT61, 16, 144
+	Patch E3WT61, 16, 192
+	Patch E3WT61, 16, 240
+	Patch E3WT18, 64, 0
+	Patch E3WT30, 64, 16
+	Patch E3WT31, 64, 160
+	Patch E3WT31, 64, 32
+	Patch E3WT31, 64, 176
+	Patch E3WT31, 64, 96
+	Patch E3WT31, 64, 240
+	Patch E3WT31, 64, 64
+	Patch E3WT31, 64, 208
+	Patch E3WT31, 64, 128
+	Patch E3WT31, 64, 272
+	Patch E3WT31, 64, 48
+	Patch E3WT31, 64, 192
+	Patch E3WT31, 64, 112
+	Patch E3WT31, 64, 256
+	Patch E3WT31, 64, 80
+	Patch E3WT31, 64, 224
+	Patch E3WT31, 64, 144
+	Patch E3WT59, 32, 16
+	Patch E3WT60, 48, 16
+	Patch E3WT70, 16, 32
+	Patch E3WT70, 16, 64
+	Patch E3WT70, 16, 112
+	Patch E3WT70, 16, 160
+	Patch E3WT70, 16, 208
+	Patch E3WT70, 16, 256
+	Patch E3WT70, 16, 80
+	Patch E3WT70, 16, 128
+	Patch E3WT70, 16, 176
+	Patch E3WT70, 16, 224
+	Patch E3WT71, 32, 32
+	Patch E3WT71, 32, 64
+	Patch E3WT71, 32, 112
+	Patch E3WT71, 32, 160
+	Patch E3WT71, 32, 208
+	Patch E3WT71, 32, 256
+	Patch E3WT71, 32, 80
+	Patch E3WT71, 32, 128
+	Patch E3WT71, 32, 176
+	Patch E3WT71, 32, 224
+	Patch E3WT62, 32, 48
+	Patch E3WT62, 32, 96
+	Patch E3WT62, 32, 144
+	Patch E3WT62, 32, 192
+	Patch E3WT62, 32, 240
+	Patch E3WT72, 48, 32
+	Patch E3WT72, 48, 64
+	Patch E3WT72, 48, 112
+	Patch E3WT72, 48, 160
+	Patch E3WT72, 48, 208
+	Patch E3WT72, 48, 256
+	Patch E3WT72, 48, 80
+	Patch E3WT72, 48, 128
+	Patch E3WT72, 48, 176
+	Patch E3WT72, 48, 224
+	Patch E3WT63, 48, 48
+	Patch E3WT63, 48, 96
+	Patch E3WT63, 48, 144
+	Patch E3WT63, 48, 192
+	Patch E3WT63, 48, 240
+	Patch E3WT64, 16, 272
+	Patch E3WT65, 32, 272
+	Patch E3WT66, 48, 272
+}
+
+Texture EWT3MTL4, 48, 304
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT16, 0, 0
+	Patch E3WT28, 0, 16
+	Patch E3WT29, 0, 32
+	Patch E3WT29, 0, 48
+	Patch E3WT29, 0, 64
+	Patch E3WT29, 0, 80
+	Patch E3WT29, 0, 96
+	Patch E3WT29, 0, 112
+	Patch E3WT29, 0, 128
+	Patch E3WT29, 0, 144
+	Patch E3WT29, 0, 160
+	Patch E3WT29, 0, 176
+	Patch E3WT29, 0, 192
+	Patch E3WT29, 0, 208
+	Patch E3WT29, 0, 224
+	Patch E3WT29, 0, 240
+	Patch E3WT29, 0, 256
+	Patch E3WT29, 0, 272
+	Patch E3WT22, 0, 288
+	Patch E3WT23, 16, 288
+	Patch E3WT24, 32, 288
+	Patch E3WT17, 16, 0
+	Patch E3WT18, 32, 0
+	Patch E3WT30, 32, 16
+	Patch E3WT31, 32, 160
+	Patch E3WT31, 32, 32
+	Patch E3WT31, 32, 176
+	Patch E3WT31, 32, 96
+	Patch E3WT31, 32, 240
+	Patch E3WT31, 32, 64
+	Patch E3WT31, 32, 208
+	Patch E3WT31, 32, 128
+	Patch E3WT31, 32, 272
+	Patch E3WT31, 32, 48
+	Patch E3WT31, 32, 192
+	Patch E3WT31, 32, 112
+	Patch E3WT31, 32, 256
+	Patch E3WT31, 32, 80
+	Patch E3WT31, 32, 224
+	Patch E3WT31, 32, 144
+	Patch E3WT54, 16, 16
+	Patch E3WT54, 16, 240
+	Patch E3WT54, 16, 96
+	Patch E3WT54, 16, 160
+	Patch E3WT55, 16, 32
+	Patch E3WT55, 16, 256
+	Patch E3WT55, 16, 128
+	Patch E3WT55, 16, 208
+	Patch E3WT56, 16, 48
+	Patch E3WT56, 16, 112
+	Patch E3WT56, 16, 176
+	Patch E3WT56, 16, 192
+	Patch E3WT56, 16, 64
+	Patch E3WT57, 16, 80
+	Patch E3WT57, 16, 272
+	Patch E3WT57, 16, 144
+	Patch E3WT57, 16, 224
+}
+
+Texture EWT3MTL5, 32, 304
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT16, 0, 0
+	Patch E3WT28, 0, 16
+	Patch E3WT29, 0, 32
+	Patch E3WT29, 0, 48
+	Patch E3WT29, 0, 64
+	Patch E3WT29, 0, 80
+	Patch E3WT29, 0, 96
+	Patch E3WT29, 0, 112
+	Patch E3WT29, 0, 128
+	Patch E3WT29, 0, 144
+	Patch E3WT29, 0, 160
+	Patch E3WT29, 0, 176
+	Patch E3WT29, 0, 192
+	Patch E3WT29, 0, 208
+	Patch E3WT29, 0, 224
+	Patch E3WT29, 0, 240
+	Patch E3WT29, 0, 256
+	Patch E3WT29, 0, 272
+	Patch E3WT22, 0, 288
+	Patch E3WT24, 16, 288
+	Patch E3WT18, 16, 0
+	Patch E3WT30, 16, 16
+	Patch E3WT31, 16, 160
+	Patch E3WT31, 16, 32
+	Patch E3WT31, 16, 176
+	Patch E3WT31, 16, 96
+	Patch E3WT31, 16, 240
+	Patch E3WT31, 16, 64
+	Patch E3WT31, 16, 208
+	Patch E3WT31, 16, 128
+	Patch E3WT31, 16, 272
+	Patch E3WT31, 16, 48
+	Patch E3WT31, 16, 192
+	Patch E3WT31, 16, 112
+	Patch E3WT31, 16, 256
+	Patch E3WT31, 16, 80
+	Patch E3WT31, 16, 224
+	Patch E3WT31, 16, 144
+}
+
+Texture EWT3STPL, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT16, 0, 0
+	Patch E3WT17, 16, 0
+}
+
+Texture EWT3STPM, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT17, 0, 0
+	Patch E3WT17, 16, 0
+}
+
+Texture EWT3STPR, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT18, 16, 0
+	Patch E3WT17, 0, 0
+}
+
+Texture EWT3MAGL, 48, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT49, 0, 0
+}
+
+Texture EWT3MAGR, 48, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT49, 0, 0
+	{
+		FlipX
+	}
+}
+
+Texture EWT3MGFR, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT48, 0, 0
+}
+
+Texture EWT3MGTP, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT49, 0, 0
+	Patch E3WT49, 48, 0
+	{
+		FlipX
+	}
+	Patch E3WT49, 16, 32
+	{
+		FlipX
+	}
+	Patch E3WT49, -32, 32
+}
+
+Texture EWT3BRG1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT41, 0, 0
+}
+
+Texture EWT3BRG2, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT42, 0, 0
+	Patch E3WT44, 16, 0
+}
+
+Texture EWT3BRG3, 48, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT42, 0, 0
+	Patch E3WT44, 32, 0
+	Patch E3WT43, 16, 0
+}
+
+Texture EWT3PIPE, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT80A, 16, 96
+	Patch E3WT80A, 72, 144
+	Patch E3WT80A, 160, 248
+	Patch E3WT80A, 56, 144
+	Patch E3WT81A, 32, 96
+	Patch E3WT81A, 248, 40
+	Patch E3WT83A, 64, 128
+	Patch E3WT83A, 64, 48
+	Patch E3WT83A, 200, 224
+	Patch E3WT83A, 216, 264
+	Patch E3WT83A, 192, 304
+	Patch E3WT83A, 200, 192
+	Patch E3WT83A, 64, 272
+	Patch E3WT83A, 64, 288
+	Patch E3WT83A, 64, 304
+	Patch E3WT83A, 152, 128
+	Patch E3WT83A, 152, 144
+	Patch E3WT83A, 152, 264
+	Patch E3WT83A, 64, 0
+	Patch E3WT83A, 200, 96
+	Patch E3WT84A, 64, 32
+	Patch E3WT84A, 200, 208
+	Patch E3WT84A, 8, 160
+	Patch E3WT84A, 48, 272
+	Patch E3WT84A, 200, 112
+	Patch E3WT84A, 152, 112
+	Patch E3WT84A, 200, 240
+	Patch E3WT85A, 0, 32
+	Patch E3WT85A, 0, 160
+	Patch E3WT85A, 0, 272
+	Patch E3WT85A, 16, 272
+	Patch E3WT85A, 32, 272
+	Patch E3WT85A, 32, 32
+	Patch E3WT85A, 48, 32
+	Patch E3WT85A, 80, 16
+	Patch E3WT85A, 136, 32
+	Patch E3WT85A, 168, 112
+	Patch E3WT85A, 168, 208
+	Patch E3WT85A, 136, 208
+	Patch E3WT85A, 120, 208
+	Patch E3WT85A, 168, 160
+	Patch E3WT85A, 184, 112
+	Patch E3WT85A, 232, 160
+	Patch E3WT85A, 248, 160
+	Patch E3WT85A, 176, 240
+	Patch E3WT85A, 240, 272
+	Patch E3WT85A, 184, 240
+	Patch E3WT85A, 176, 280
+	Patch E3WT85A, 184, 208
+	Patch E3WT85A, 152, 208
+	Patch E3WT85A, 96, 16
+	Patch E3WT86A, 16, 32
+	Patch E3WT86A, 72, 16
+	Patch E3WT86A, 160, 160
+	Patch E3WT86A, 160, 280
+	Patch E3WT86A, 224, 272
+	Patch E3WT86A, 120, 32
+	Patch E3WT87A, 16, 112
+	Patch E3WT87A, 16, 128
+	Patch E3WT87A, 16, 144
+	Patch E3WT87A, 56, 160
+	Patch E3WT87A, 16, 16
+	Patch E3WT87A, 16, 48
+	Patch E3WT87A, 16, 64
+	Patch E3WT87A, 16, 80
+	Patch E3WT87A, 16, 0
+	Patch E3WT88A, 168, 32
+	Patch E3WT88A, 72, 208
+	Patch E3WT90A, 184, 32
+	Patch E3WT90A, 88, 208
+	Patch E3WT91A, 48, 64
+	Patch E3WT91A, 184, 144
+	Patch E3WT91A, 152, 16
+	Patch E3WT91A, 24, 192
+	Patch E3WT91A, 168, 0
+	Patch E3WT91A, 40, 176
+	Patch E3WT91A, 160, 8
+	Patch E3WT91A, 32, 184
+	Patch E3WT92A, 64, 64
+	Patch E3WT92A, 200, 144
+	Patch E3WT92A, 184, 0
+	Patch E3WT92A, 56, 176
+	Patch E3WT92A, 200, 0
+	Patch E3WT92A, 72, 176
+	Patch E3WT93A, 80, 64
+	Patch E3WT93A, 216, 144
+	Patch E3WT93A, 216, 0
+	Patch E3WT93A, 88, 176
+	Patch E3WT93A, 224, 8
+	Patch E3WT93A, 96, 184
+	Patch E3WT93A, 232, 16
+	Patch E3WT93A, 104, 192
+	Patch E3WT94A, 80, 80
+	Patch E3WT94A, 216, 160
+	Patch E3WT94A, 232, 32
+	Patch E3WT94A, 104, 208
+	Patch E3WT94A, 232, 48
+	Patch E3WT94A, 104, 224
+	Patch E3WT94A, 80, 96
+	Patch E3WT95A, 80, 112
+	Patch E3WT95A, 216, 176
+	Patch E3WT95A, 232, 64
+	Patch E3WT95A, 104, 240
+	Patch E3WT95A, 224, 72
+	Patch E3WT95A, 96, 248
+	Patch E3WT95A, 216, 80
+	Patch E3WT95A, 88, 256
+	Patch E3WT96A, 64, 112
+	Patch E3WT96A, 200, 176
+	Patch E3WT96A, 184, 80
+	Patch E3WT96A, 56, 256
+	Patch E3WT96A, 200, 80
+	Patch E3WT96A, 72, 256
+	Patch E3WT97A, 48, 112
+	Patch E3WT97A, 184, 176
+	Patch E3WT97A, 152, 64
+	Patch E3WT97A, 24, 240
+	Patch E3WT97A, 160, 72
+	Patch E3WT97A, 32, 248
+	Patch E3WT97A, 168, 80
+	Patch E3WT97A, 40, 256
+	Patch E3WT98A, 48, 80
+	Patch E3WT98A, 184, 160
+	Patch E3WT98A, 152, 32
+	Patch E3WT98A, 24, 208
+	Patch E3WT98A, 152, 48
+	Patch E3WT98A, 24, 224
+	Patch E3WT98A, 48, 96
+	Patch E3WT99A, 64, 80
+	Patch E3WT99A, 200, 16
+	Patch E3WT99A, 56, 192
+	Patch E3WT99A, 200, 48
+	Patch E3WT99A, 56, 224
+	Patch E3WT99A, 72, 224
+	Patch E3WT99A, 72, 240
+	Patch E3WT99A, 40, 224
+	Patch E3WT99A, 184, 48
+	Patch E3WT99A, 64, 96
+	Patch E3WT99A, 200, 32
+	Patch E3WT99A, 56, 208
+	Patch E3WT99A, 40, 208
+	Patch E3WT99A, 200, 64
+	Patch E3WT99A, 56, 240
+	Patch E3WT99A, 184, 64
+	Patch E3WT99A, 200, 160
+	Patch E3WT82A, 112, 24
+	Patch E3WT82A, 192, 288
+	Patch E3WT82A, 216, 248
+}
+
+Texture EWT3PIP1, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT80A, 16, 96
+	Patch E3WT80A, 72, 144
+	Patch E3WT80A, 160, 248
+	Patch E3WT80A, 56, 144
+	Patch E3WT81A, 32, 96
+	Patch E3WT81A, 248, 40
+	Patch E3WT83A, 64, 128
+	Patch E3WT83A, 64, 48
+	Patch E3WT83A, 200, 224
+	Patch E3WT83A, 216, 264
+	Patch E3WT83A, 192, 304
+	Patch E3WT83A, 200, 192
+	Patch E3WT83A, 64, 272
+	Patch E3WT83A, 64, 288
+	Patch E3WT83A, 64, 304
+	Patch E3WT83A, 152, 128
+	Patch E3WT83A, 152, 144
+	Patch E3WT83A, 152, 264
+	Patch E3WT83A, 64, 0
+	Patch E3WT83A, 200, 96
+	Patch E3WT84A, 64, 32
+	Patch E3WT84A, 200, 208
+	Patch E3WT84A, 8, 160
+	Patch E3WT84A, 48, 272
+	Patch E3WT84A, 200, 112
+	Patch E3WT84A, 152, 112
+	Patch E3WT84A, 200, 240
+	Patch E3WT85A, 0, 32
+	Patch E3WT85A, 0, 160
+	Patch E3WT85A, 0, 272
+	Patch E3WT85A, 16, 272
+	Patch E3WT85A, 32, 272
+	Patch E3WT85A, 32, 32
+	Patch E3WT85A, 48, 32
+	Patch E3WT85A, 80, 16
+	Patch E3WT85A, 136, 32
+	Patch E3WT85A, 168, 112
+	Patch E3WT85A, 168, 208
+	Patch E3WT85A, 136, 208
+	Patch E3WT85A, 120, 208
+	Patch E3WT85A, 168, 160
+	Patch E3WT85A, 184, 112
+	Patch E3WT85A, 232, 160
+	Patch E3WT85A, 248, 160
+	Patch E3WT85A, 176, 240
+	Patch E3WT85A, 240, 272
+	Patch E3WT85A, 184, 240
+	Patch E3WT85A, 176, 280
+	Patch E3WT85A, 184, 208
+	Patch E3WT85A, 152, 208
+	Patch E3WT85A, 96, 16
+	Patch E3WT86A, 16, 32
+	Patch E3WT86A, 72, 16
+	Patch E3WT86A, 160, 160
+	Patch E3WT86A, 160, 280
+	Patch E3WT86A, 224, 272
+	Patch E3WT86A, 120, 32
+	Patch E3WT87A, 16, 112
+	Patch E3WT87A, 16, 128
+	Patch E3WT87A, 16, 144
+	Patch E3WT87A, 56, 160
+	Patch E3WT87A, 16, 16
+	Patch E3WT87A, 16, 48
+	Patch E3WT87A, 16, 64
+	Patch E3WT87A, 16, 80
+	Patch E3WT87A, 16, 0
+	Patch E3WT88A, 168, 32
+	Patch E3WT88A, 72, 208
+	Patch E3WT90A, 184, 32
+	Patch E3WT90A, 88, 208
+	Patch E3WT91A, 48, 64
+	Patch E3WT91A, 184, 144
+	Patch E3WT91A, 152, 16
+	Patch E3WT91A, 24, 192
+	Patch E3WT91A, 168, 0
+	Patch E3WT91A, 40, 176
+	Patch E3WT91A, 160, 8
+	Patch E3WT91A, 32, 184
+	Patch E3WT92A, 64, 64
+	Patch E3WT92A, 200, 144
+	Patch E3WT92A, 184, 0
+	Patch E3WT92A, 56, 176
+	Patch E3WT92A, 200, 0
+	Patch E3WT92A, 72, 176
+	Patch E3WT93A, 80, 64
+	Patch E3WT93A, 216, 144
+	Patch E3WT93A, 216, 0
+	Patch E3WT93A, 88, 176
+	Patch E3WT93A, 224, 8
+	Patch E3WT93A, 96, 184
+	Patch E3WT93A, 232, 16
+	Patch E3WT93A, 104, 192
+	Patch E3WT94A, 80, 80
+	Patch E3WT94A, 216, 160
+	Patch E3WT94A, 232, 32
+	Patch E3WT94A, 104, 208
+	Patch E3WT94A, 232, 48
+	Patch E3WT94A, 104, 224
+	Patch E3WT94A, 80, 96
+	Patch E3WT95A, 80, 112
+	Patch E3WT95A, 216, 176
+	Patch E3WT95A, 232, 64
+	Patch E3WT95A, 104, 240
+	Patch E3WT95A, 224, 72
+	Patch E3WT95A, 96, 248
+	Patch E3WT95A, 216, 80
+	Patch E3WT95A, 88, 256
+	Patch E3WT96A, 64, 112
+	Patch E3WT96A, 200, 176
+	Patch E3WT96A, 184, 80
+	Patch E3WT96A, 56, 256
+	Patch E3WT96A, 200, 80
+	Patch E3WT96A, 72, 256
+	Patch E3WT97A, 48, 112
+	Patch E3WT97A, 184, 176
+	Patch E3WT97A, 152, 64
+	Patch E3WT97A, 24, 240
+	Patch E3WT97A, 160, 72
+	Patch E3WT97A, 32, 248
+	Patch E3WT97A, 168, 80
+	Patch E3WT97A, 40, 256
+	Patch E3WT98A, 48, 80
+	Patch E3WT98A, 184, 160
+	Patch E3WT98A, 152, 32
+	Patch E3WT98A, 24, 208
+	Patch E3WT98A, 152, 48
+	Patch E3WT98A, 24, 224
+	Patch E3WT98A, 48, 96
+	Patch E3WT99A, 64, 80
+	Patch E3WT99A, 200, 16
+	Patch E3WT99A, 56, 192
+	Patch E3WT99A, 200, 48
+	Patch E3WT99A, 56, 224
+	Patch E3WT99A, 72, 224
+	Patch E3WT99A, 72, 240
+	Patch E3WT99A, 40, 224
+	Patch E3WT99A, 184, 48
+	Patch E3WT99A, 64, 96
+	Patch E3WT99A, 200, 32
+	Patch E3WT99A, 56, 208
+	Patch E3WT99A, 40, 208
+	Patch E3WT99A, 200, 64
+	Patch E3WT99A, 56, 240
+	Patch E3WT99A, 184, 64
+	Patch E3WT99A, 200, 160
+	Patch E3WT82A, 112, 24
+	Patch E3WT82A, 192, 288
+	Patch E3WT82A, 216, 248
+}
+
+Texture EWT3PIP2, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT80B, 16, 96
+	Patch E3WT80B, 72, 144
+	Patch E3WT80B, 160, 248
+	Patch E3WT80B, 56, 144
+	Patch E3WT81B, 32, 96
+	Patch E3WT81B, 248, 40
+	Patch E3WT83B, 64, 128
+	Patch E3WT83B, 64, 48
+	Patch E3WT83B, 200, 224
+	Patch E3WT83B, 216, 264
+	Patch E3WT83B, 192, 304
+	Patch E3WT83B, 200, 192
+	Patch E3WT83B, 64, 272
+	Patch E3WT83B, 64, 288
+	Patch E3WT83B, 64, 304
+	Patch E3WT83B, 152, 128
+	Patch E3WT83B, 152, 144
+	Patch E3WT83B, 152, 264
+	Patch E3WT83B, 64, 0
+	Patch E3WT83B, 200, 96
+	Patch E3WT84B, 64, 32
+	Patch E3WT84B, 200, 208
+	Patch E3WT84B, 8, 160
+	Patch E3WT84B, 48, 272
+	Patch E3WT84B, 200, 112
+	Patch E3WT84B, 152, 112
+	Patch E3WT84B, 200, 240
+	Patch E3WT85B, 0, 32
+	Patch E3WT85B, 0, 160
+	Patch E3WT85B, 0, 272
+	Patch E3WT85B, 16, 272
+	Patch E3WT85B, 32, 272
+	Patch E3WT85B, 32, 32
+	Patch E3WT85B, 48, 32
+	Patch E3WT85B, 80, 16
+	Patch E3WT85B, 136, 32
+	Patch E3WT85B, 168, 112
+	Patch E3WT85B, 168, 208
+	Patch E3WT85B, 136, 208
+	Patch E3WT85B, 120, 208
+	Patch E3WT85B, 168, 160
+	Patch E3WT85B, 184, 112
+	Patch E3WT85B, 232, 160
+	Patch E3WT85B, 248, 160
+	Patch E3WT85B, 176, 240
+	Patch E3WT85B, 240, 272
+	Patch E3WT85B, 184, 240
+	Patch E3WT85B, 176, 280
+	Patch E3WT85B, 184, 208
+	Patch E3WT85B, 152, 208
+	Patch E3WT85B, 96, 16
+	Patch E3WT86B, 16, 32
+	Patch E3WT86B, 72, 16
+	Patch E3WT86B, 160, 160
+	Patch E3WT86B, 160, 280
+	Patch E3WT86B, 224, 272
+	Patch E3WT86B, 120, 32
+	Patch E3WT87B, 16, 112
+	Patch E3WT87B, 16, 128
+	Patch E3WT87B, 16, 144
+	Patch E3WT87B, 56, 160
+	Patch E3WT87B, 16, 16
+	Patch E3WT87B, 16, 48
+	Patch E3WT87B, 16, 64
+	Patch E3WT87B, 16, 80
+	Patch E3WT87B, 16, 0
+	Patch E3WT88B, 168, 32
+	Patch E3WT88B, 72, 208
+	Patch E3WT90B, 184, 32
+	Patch E3WT90B, 88, 208
+	Patch E3WT91B, 48, 64
+	Patch E3WT91B, 184, 144
+	Patch E3WT91B, 152, 16
+	Patch E3WT91B, 24, 192
+	Patch E3WT91B, 168, 0
+	Patch E3WT91B, 40, 176
+	Patch E3WT91B, 160, 8
+	Patch E3WT91B, 32, 184
+	Patch E3WT92B, 64, 64
+	Patch E3WT92B, 200, 144
+	Patch E3WT92B, 184, 0
+	Patch E3WT92B, 56, 176
+	Patch E3WT92B, 200, 0
+	Patch E3WT92B, 72, 176
+	Patch E3WT93B, 80, 64
+	Patch E3WT93B, 216, 144
+	Patch E3WT93B, 216, 0
+	Patch E3WT93B, 88, 176
+	Patch E3WT93B, 224, 8
+	Patch E3WT93B, 96, 184
+	Patch E3WT93B, 232, 16
+	Patch E3WT93B, 104, 192
+	Patch E3WT94B, 80, 80
+	Patch E3WT94B, 216, 160
+	Patch E3WT94B, 232, 32
+	Patch E3WT94B, 104, 208
+	Patch E3WT94B, 232, 48
+	Patch E3WT94B, 104, 224
+	Patch E3WT94B, 80, 96
+	Patch E3WT95B, 80, 112
+	Patch E3WT95B, 216, 176
+	Patch E3WT95B, 232, 64
+	Patch E3WT95B, 104, 240
+	Patch E3WT95B, 224, 72
+	Patch E3WT95B, 96, 248
+	Patch E3WT95B, 216, 80
+	Patch E3WT95B, 88, 256
+	Patch E3WT96B, 64, 112
+	Patch E3WT96B, 200, 176
+	Patch E3WT96B, 184, 80
+	Patch E3WT96B, 56, 256
+	Patch E3WT96B, 200, 80
+	Patch E3WT96B, 72, 256
+	Patch E3WT97B, 48, 112
+	Patch E3WT97B, 184, 176
+	Patch E3WT97B, 152, 64
+	Patch E3WT97B, 24, 240
+	Patch E3WT97B, 160, 72
+	Patch E3WT97B, 32, 248
+	Patch E3WT97B, 168, 80
+	Patch E3WT97B, 40, 256
+	Patch E3WT98B, 48, 80
+	Patch E3WT98B, 184, 160
+	Patch E3WT98B, 152, 32
+	Patch E3WT98B, 24, 208
+	Patch E3WT98B, 152, 48
+	Patch E3WT98B, 24, 224
+	Patch E3WT98B, 48, 96
+	Patch E3WT99B, 64, 80
+	Patch E3WT99B, 200, 16
+	Patch E3WT99B, 56, 192
+	Patch E3WT99B, 200, 48
+	Patch E3WT99B, 56, 224
+	Patch E3WT99B, 72, 224
+	Patch E3WT99B, 72, 240
+	Patch E3WT99B, 40, 224
+	Patch E3WT99B, 184, 48
+	Patch E3WT99B, 64, 96
+	Patch E3WT99B, 200, 32
+	Patch E3WT99B, 56, 208
+	Patch E3WT99B, 40, 208
+	Patch E3WT99B, 200, 64
+	Patch E3WT99B, 56, 240
+	Patch E3WT99B, 184, 64
+	Patch E3WT99B, 200, 160
+	Patch E3WT82B, 112, 24
+	Patch E3WT82B, 192, 288
+	Patch E3WT82B, 216, 248
+}
+
+Texture EWT3PIP3, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E3WT80C, 16, 96
+	Patch E3WT80C, 72, 144
+	Patch E3WT80C, 160, 248
+	Patch E3WT80C, 56, 144
+	Patch E3WT81C, 32, 96
+	Patch E3WT81C, 248, 40
+	Patch E3WT83C, 64, 128
+	Patch E3WT83C, 64, 48
+	Patch E3WT83C, 200, 224
+	Patch E3WT83C, 216, 264
+	Patch E3WT83C, 192, 304
+	Patch E3WT83C, 200, 192
+	Patch E3WT83C, 64, 272
+	Patch E3WT83C, 64, 288
+	Patch E3WT83C, 64, 304
+	Patch E3WT83C, 152, 128
+	Patch E3WT83C, 152, 144
+	Patch E3WT83C, 152, 264
+	Patch E3WT83C, 64, 0
+	Patch E3WT83C, 200, 96
+	Patch E3WT84C, 64, 32
+	Patch E3WT84C, 200, 208
+	Patch E3WT84C, 8, 160
+	Patch E3WT84C, 48, 272
+	Patch E3WT84C, 200, 112
+	Patch E3WT84C, 152, 112
+	Patch E3WT84C, 200, 240
+	Patch E3WT85C, 0, 32
+	Patch E3WT85C, 0, 160
+	Patch E3WT85C, 0, 272
+	Patch E3WT85C, 16, 272
+	Patch E3WT85C, 32, 272
+	Patch E3WT85C, 32, 32
+	Patch E3WT85C, 48, 32
+	Patch E3WT85C, 80, 16
+	Patch E3WT85C, 136, 32
+	Patch E3WT85C, 168, 112
+	Patch E3WT85C, 168, 208
+	Patch E3WT85C, 136, 208
+	Patch E3WT85C, 120, 208
+	Patch E3WT85C, 168, 160
+	Patch E3WT85C, 184, 112
+	Patch E3WT85C, 232, 160
+	Patch E3WT85C, 248, 160
+	Patch E3WT85C, 176, 240
+	Patch E3WT85C, 240, 272
+	Patch E3WT85C, 184, 240
+	Patch E3WT85C, 176, 280
+	Patch E3WT85C, 184, 208
+	Patch E3WT85C, 152, 208
+	Patch E3WT85C, 96, 16
+	Patch E3WT86C, 16, 32
+	Patch E3WT86C, 72, 16
+	Patch E3WT86C, 160, 160
+	Patch E3WT86C, 160, 280
+	Patch E3WT86C, 224, 272
+	Patch E3WT86C, 120, 32
+	Patch E3WT87C, 16, 112
+	Patch E3WT87C, 16, 128
+	Patch E3WT87C, 16, 144
+	Patch E3WT87C, 56, 160
+	Patch E3WT87C, 16, 16
+	Patch E3WT87C, 16, 48
+	Patch E3WT87C, 16, 64
+	Patch E3WT87C, 16, 80
+	Patch E3WT87C, 16, 0
+	Patch E3WT88C, 168, 32
+	Patch E3WT88C, 72, 208
+	Patch E3WT90C, 184, 32
+	Patch E3WT90C, 88, 208
+	Patch E3WT91C, 48, 64
+	Patch E3WT91C, 184, 144
+	Patch E3WT91C, 152, 16
+	Patch E3WT91C, 24, 192
+	Patch E3WT91C, 168, 0
+	Patch E3WT91C, 40, 176
+	Patch E3WT91C, 160, 8
+	Patch E3WT91C, 32, 184
+	Patch E3WT92C, 64, 64
+	Patch E3WT92C, 200, 144
+	Patch E3WT92C, 184, 0
+	Patch E3WT92C, 56, 176
+	Patch E3WT92C, 200, 0
+	Patch E3WT92C, 72, 176
+	Patch E3WT93C, 80, 64
+	Patch E3WT93C, 216, 144
+	Patch E3WT93C, 216, 0
+	Patch E3WT93C, 88, 176
+	Patch E3WT93C, 224, 8
+	Patch E3WT93C, 96, 184
+	Patch E3WT93C, 232, 16
+	Patch E3WT93C, 104, 192
+	Patch E3WT94C, 80, 80
+	Patch E3WT94C, 216, 160
+	Patch E3WT94C, 232, 32
+	Patch E3WT94C, 104, 208
+	Patch E3WT94C, 232, 48
+	Patch E3WT94C, 104, 224
+	Patch E3WT94C, 80, 96
+	Patch E3WT95C, 80, 112
+	Patch E3WT95C, 216, 176
+	Patch E3WT95C, 232, 64
+	Patch E3WT95C, 104, 240
+	Patch E3WT95C, 224, 72
+	Patch E3WT95C, 96, 248
+	Patch E3WT95C, 216, 80
+	Patch E3WT95C, 88, 256
+	Patch E3WT96C, 64, 112
+	Patch E3WT96C, 200, 176
+	Patch E3WT96C, 184, 80
+	Patch E3WT96C, 56, 256
+	Patch E3WT96C, 200, 80
+	Patch E3WT96C, 72, 256
+	Patch E3WT97C, 48, 112
+	Patch E3WT97C, 184, 176
+	Patch E3WT97C, 152, 64
+	Patch E3WT97C, 24, 240
+	Patch E3WT97C, 160, 72
+	Patch E3WT97C, 32, 248
+	Patch E3WT97C, 168, 80
+	Patch E3WT97C, 40, 256
+	Patch E3WT98C, 48, 80
+	Patch E3WT98C, 184, 160
+	Patch E3WT98C, 152, 32
+	Patch E3WT98C, 24, 208
+	Patch E3WT98C, 152, 48
+	Patch E3WT98C, 24, 224
+	Patch E3WT98C, 48, 96
+	Patch E3WT99C, 64, 80
+	Patch E3WT99C, 200, 16
+	Patch E3WT99C, 56, 192
+	Patch E3WT99C, 200, 48
+	Patch E3WT99C, 56, 224
+	Patch E3WT99C, 72, 224
+	Patch E3WT99C, 72, 240
+	Patch E3WT99C, 40, 224
+	Patch E3WT99C, 184, 48
+	Patch E3WT99C, 64, 96
+	Patch E3WT99C, 200, 32
+	Patch E3WT99C, 56, 208
+	Patch E3WT99C, 40, 208
+	Patch E3WT99C, 200, 64
+	Patch E3WT99C, 56, 240
+	Patch E3WT99C, 184, 64
+	Patch E3WT99C, 200, 160
+	Patch E3WT82C, 112, 24
+	Patch E3WT82C, 192, 288
+	Patch E3WT82C, 216, 248
+}
+
+Texture EWT4FLR1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT89, 0, 0
+}
+
+Texture EWT4FLR2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT90, 0, 0
+}
+
+Texture EWT4FLR3, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT91, 0, 0
+}
+
+Texture EWT4WILY, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT01, 0, 0
+}
+
+Texture EWT4DOOR, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT88, 0, 0
+}
+
+Texture EWT4MTL1, 64, 112
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT02, 0, 0
+	Patch E4WT02, 32, 80
+	Patch E4WT51, 32, 0
+	Patch E4WT55, 32, 16
+	Patch E4WT69, 32, 32
+	Patch E4WT52, 16, 32
+	Patch E4WT51, 0, 32
+	Patch E4WT55, 0, 48
+	Patch E4WT55, 0, 64
+	Patch E4WT55, 0, 80
+	Patch E4WT57, 16, 48
+	Patch E4WT57, 32, 48
+	Patch E4WT54, 48, 0
+	Patch E4WT58, 48, 16
+	Patch E4WT58, 48, 32
+	Patch E4WT58, 48, 48
+	Patch E4WT58, 16, 80
+	Patch E4WT63, 0, 96
+	Patch E4WT66, 16, 96
+	Patch E4WT66, 48, 64
+	Patch E4WT64, 32, 64
+	Patch E4WT67, 16, 64
+}
+
+Texture EWT4MTL2, 144, 112
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT02, 0, 0
+	Patch E4WT02, 64, 80
+	Patch E4WT51, 32, 16
+	Patch E4WT69, 32, 32
+	Patch E4WT52, 16, 32
+	Patch E4WT51, 0, 32
+	Patch E4WT55, 0, 48
+	Patch E4WT55, 96, 64
+	Patch E4WT55, 0, 64
+	Patch E4WT57, 16, 48
+	Patch E4WT57, 32, 48
+	Patch E4WT57, 48, 48
+	Patch E4WT57, 64, 48
+	Patch E4WT57, 112, 64
+	Patch E4WT54, 80, 16
+	Patch E4WT54, 128, 16
+	Patch E4WT58, 80, 32
+	Patch E4WT58, 80, 48
+	Patch E4WT58, 128, 64
+	Patch E4WT63, 0, 80
+	Patch E4WT63, 96, 80
+	Patch E4WT66, 48, 80
+	Patch E4WT66, 80, 64
+	Patch E4WT66, 128, 80
+	Patch E4WT64, 16, 80
+	Patch E4WT64, 32, 80
+	Patch E4WT64, 64, 64
+	Patch E4WT64, 112, 80
+	Patch E4WT67, 48, 64
+	Patch E4WT05, 32, 0
+	Patch E4WT04, 48, 0
+	Patch E4WT04, 80, 0
+	Patch E4WT04, 112, 0
+	Patch E4WT05, 64, 0
+	Patch E4WT05, 96, 0
+	Patch E4WT07, 32, 96
+	Patch E4WT07, 0, 96
+	Patch E4WT07, 112, 96
+	Patch E4WT06, 128, 0
+	Patch E4WT08, 48, 96
+	Patch E4WT06, 96, 96
+	Patch E4WT06, 16, 96
+	Patch E4WT06, 128, 96
+	Patch E4WT52, 48, 16
+	Patch E4WT52, 64, 16
+	Patch E4WT52, 112, 16
+	Patch E4WT56, 48, 32
+	Patch E4WT56, 64, 32
+	Patch E4WT56, 16, 64
+	Patch E4WT56, 32, 64
+	Patch E4WT51, 96, 16
+	Patch E4WT59, 96, 32
+	Patch E4WT60, 112, 32
+	Patch E4WT60, 112, 48
+	Patch E4WT62, 128, 32
+	Patch E4WT62, 128, 48
+	Patch E4WT59, 96, 48
+}
+
+Texture EWT4MTL3, 96, 112
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT02, 64, 0
+	Patch E4WT02, 0, 80
+	Patch E4WT51, 0, 16
+	Patch E4WT52, 64, 32
+	Patch E4WT59, 0, 48
+	Patch E4WT55, 0, 32
+	Patch E4WT61, 16, 48
+	Patch E4WT61, 32, 48
+	Patch E4WT61, 48, 48
+	Patch E4WT61, 64, 48
+	Patch E4WT54, 48, 16
+	Patch E4WT54, 80, 32
+	Patch E4WT58, 80, 64
+	Patch E4WT62, 80, 48
+	Patch E4WT63, 32, 80
+	Patch E4WT63, 0, 64
+	Patch E4WT66, 80, 80
+	Patch E4WT64, 48, 80
+	Patch E4WT64, 64, 80
+	Patch E4WT64, 16, 64
+	Patch E4WT03, 0, 0
+	Patch E4WT07, 48, 96
+	Patch E4WT06, 64, 96
+	Patch E4WT52, 16, 16
+	Patch E4WT52, 32, 16
+	Patch E4WT57, 16, 32
+	Patch E4WT57, 32, 32
+	Patch E4WT57, 64, 64
+	Patch E4WT57, 48, 64
+	Patch E4WT68, 32, 64
+	Patch E4WT70, 48, 32
+	Patch E4WT06, 32, 96
+	Patch E4WT07, 80, 96
+	Patch E4WT04, 16, 0
+	Patch E4WT04, 48, 0
+	Patch E4WT05, 32, 0
+}
+
+Texture EWT4MTL4, 80, 112
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT02, 48, 0
+	Patch E4WT51, 0, 16
+	Patch E4WT52, 48, 32
+	Patch E4WT59, 0, 48
+	Patch E4WT59, 0, 80
+	Patch E4WT55, 0, 32
+	Patch E4WT55, 0, 64
+	Patch E4WT61, 16, 48
+	Patch E4WT61, 16, 80
+	Patch E4WT61, 32, 48
+	Patch E4WT61, 32, 80
+	Patch E4WT61, 48, 48
+	Patch E4WT61, 48, 80
+	Patch E4WT54, 32, 16
+	Patch E4WT54, 64, 32
+	Patch E4WT58, 64, 64
+	Patch E4WT62, 64, 48
+	Patch E4WT62, 64, 80
+	Patch E4WT63, 0, 96
+	Patch E4WT66, 64, 96
+	Patch E4WT64, 32, 96
+	Patch E4WT64, 48, 96
+	Patch E4WT64, 16, 96
+	Patch E4WT03, 0, 0
+	Patch E4WT52, 16, 16
+	Patch E4WT57, 16, 32
+	Patch E4WT57, 16, 64
+	Patch E4WT57, 32, 64
+	Patch E4WT57, 48, 64
+	Patch E4WT70, 32, 32
+	Patch E4WT04, 16, 0
+	Patch E4WT05, 32, 0
+}
+
+Texture EWT4BLCK, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT02, 0, 0
+}
+
+Texture EWT4WAL1, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT09, 128, 0
+	Patch E4WT10, 16, 0
+	Patch E4WT30A, 176, 144
+	Patch E4WT30A, 32, 272
+	Patch E4WT30A, 64, 64
+	Patch E4WT15, 48, 0
+	Patch E4WT15, 80, 0
+	Patch E4WT15, 64, 0
+	Patch E4WT15, 96, 0
+	Patch E4WT15, 112, 0
+	Patch E4WT15, 160, 0
+	Patch E4WT15, 176, 0
+	Patch E4WT15, 192, 0
+	Patch E4WT15, 208, 0
+	Patch E4WT15, 224, 0
+	Patch E4WT15, 240, 0
+	Patch E4WT16A, 0, 0
+	Patch E4WT25A, 144, 0
+	Patch E4WT12B, 160, 96
+	Patch E4WT12B, 160, 64
+	Patch E4WT12B, 160, 128
+	Patch E4WT12B, 48, 48
+	Patch E4WT12B, 160, 48
+	Patch E4WT12B, 160, 112
+	Patch E4WT12B, 48, 32
+	Patch E4WT12B, 160, 80
+	Patch E4WT12B, 16, 240
+	Patch E4WT12B, 16, 256
+	Patch E4WT26A, 16, 16
+	Patch E4WT26A, 144, 208
+	Patch E4WT33A, 80, 16
+	Patch E4WT33A, 176, 208
+	Patch E4WT33A, 48, 272
+	Patch E4WT35A, 96, 32
+	Patch E4WT35A, 208, 48
+	Patch E4WT35A, 224, 64
+	Patch E4WT35A, 240, 80
+	Patch E4WT37A, 128, 16
+	Patch E4WT37A, 0, 80
+	Patch E4WT37A, 112, 160
+	Patch E4WT37A, 96, 176
+	Patch E4WT37A, 80, 192
+	Patch E4WT37A, 176, 288
+	Patch E4WT37A, 208, 256
+	Patch E4WT37A, 64, 208
+	Patch E4WT37A, 160, 304
+	Patch E4WT37A, 192, 272
+	Patch E4WT37A, 224, 240
+	Patch E4WT37A, 240, 96
+	Patch E4WT37A, 208, 128
+	Patch E4WT37A, 224, 112
+	Patch E4WT37A, 112, 32
+	Patch E4WT32A, 48, 16
+	Patch E4WT32A, 64, 16
+	Patch E4WT34A, 80, 64
+	Patch E4WT34A, 192, 144
+	Patch E4WT34A, 48, 224
+	Patch E4WT24, 0, 32
+	Patch E4WT24, 0, 112
+	Patch E4WT24, 32, 96
+	Patch E4WT24, 0, 144
+	Patch E4WT24, 0, 192
+	Patch E4WT24, 0, 288
+	Patch E4WT24, 144, 176
+	Patch E4WT24, 176, 176
+	Patch E4WT24, 176, 192
+	Patch E4WT24, 208, 192
+	Patch E4WT24, 208, 208
+	Patch E4WT24, 224, 144
+	Patch E4WT24, 32, 128
+	Patch E4WT24, 80, 80
+	Patch E4WT24, 80, 96
+	Patch E4WT24, 80, 112
+	Patch E4WT24, 112, 224
+	Patch E4WT24, 112, 208
+	Patch E4WT24, 160, 224
+	Patch E4WT24, 112, 64
+	Patch E4WT24, 112, 96
+	Patch E4WT24, 112, 80
+	Patch E4WT24, 112, 112
+	Patch E4WT24, 112, 128
+	Patch E4WT24, 128, 48
+	Patch E4WT24, 128, 64
+	Patch E4WT24, 128, 96
+	Patch E4WT24, 128, 80
+	Patch E4WT24, 128, 112
+	Patch E4WT24, 128, 128
+	Patch E4WT24, 96, 80
+	Patch E4WT24, 64, 80
+	Patch E4WT24, 16, 96
+	Patch E4WT24, 16, 112
+	Patch E4WT24, 48, 96
+	Patch E4WT24, 64, 96
+	Patch E4WT24, 16, 144
+	Patch E4WT24, 16, 192
+	Patch E4WT24, 16, 288
+	Patch E4WT24, 160, 176
+	Patch E4WT24, 160, 192
+	Patch E4WT24, 192, 176
+	Patch E4WT24, 192, 192
+	Patch E4WT24, 208, 176
+	Patch E4WT24, 224, 192
+	Patch E4WT24, 224, 208
+	Patch E4WT24, 240, 144
+	Patch E4WT24, 240, 176
+	Patch E4WT24, 240, 192
+	Patch E4WT24, 240, 208
+	Patch E4WT24, 32, 192
+	Patch E4WT24, 32, 288
+	Patch E4WT24, 48, 192
+	Patch E4WT24, 48, 128
+	Patch E4WT24, 80, 240
+	Patch E4WT24, 48, 240
+	Patch E4WT24, 128, 240
+	Patch E4WT24, 64, 128
+	Patch E4WT24, 96, 240
+	Patch E4WT24, 64, 240
+	Patch E4WT24, 144, 240
+	Patch E4WT24, 80, 128
+	Patch E4WT24, 160, 240
+	Patch E4WT24, 176, 240
+	Patch E4WT24, 96, 128
+	Patch E4WT24, 32, 80
+	Patch E4WT24, 48, 80
+	Patch E4WT24, 160, 16
+	Patch E4WT24, 192, 16
+	Patch E4WT24, 192, 80
+	Patch E4WT24, 208, 80
+	Patch E4WT24, 192, 96
+	Patch E4WT24, 208, 96
+	Patch E4WT24, 176, 16
+	Patch E4WT24, 208, 16
+	Patch E4WT23, 224, 16
+	Patch E4WT23, 96, 96
+	Patch E4WT23, 224, 160
+	Patch E4WT24, 240, 16
+	Patch E4WT23, 224, 32
+	Patch E4WT23, 192, 64
+	Patch E4WT23, 96, 112
+	Patch E4WT23, 224, 176
+	Patch E4WT23, 16, 128
+	Patch E4WT23, 48, 176
+	Patch E4WT23, 112, 240
+	Patch E4WT23, 112, 256
+	Patch E4WT23, 96, 288
+	Patch E4WT23, 160, 256
+	Patch E4WT23, 224, 288
+	Patch E4WT23, 192, 112
+	Patch E4WT24, 240, 32
+	Patch E4WT24, 240, 48
+	Patch E4WT24, 0, 48
+	Patch E4WT24, 0, 128
+	Patch E4WT24, 0, 176
+	Patch E4WT24, 144, 160
+	Patch E4WT24, 176, 160
+	Patch E4WT24, 32, 112
+	Patch E4WT24, 0, 160
+	Patch E4WT24, 0, 208
+	Patch E4WT24, 0, 304
+	Patch E4WT24, 32, 144
+	Patch E4WT24, 16, 32
+	Patch E4WT24, 16, 48
+	Patch E4WT24, 16, 176
+	Patch E4WT24, 160, 160
+	Patch E4WT24, 192, 160
+	Patch E4WT24, 208, 160
+	Patch E4WT24, 240, 128
+	Patch E4WT24, 240, 160
+	Patch E4WT24, 32, 176
+	Patch E4WT24, 64, 176
+	Patch E4WT24, 48, 112
+	Patch E4WT24, 80, 224
+	Patch E4WT24, 128, 224
+	Patch E4WT24, 64, 112
+	Patch E4WT24, 96, 224
+	Patch E4WT24, 96, 208
+	Patch E4WT24, 144, 224
+	Patch E4WT24, 16, 160
+	Patch E4WT24, 32, 160
+	Patch E4WT24, 48, 160
+	Patch E4WT24, 64, 160
+	Patch E4WT24, 80, 160
+	Patch E4WT24, 16, 208
+	Patch E4WT24, 16, 304
+	Patch E4WT24, 32, 208
+	Patch E4WT24, 32, 304
+	Patch E4WT24, 48, 304
+	Patch E4WT24, 48, 144
+	Patch E4WT24, 80, 256
+	Patch E4WT24, 80, 272
+	Patch E4WT24, 48, 256
+	Patch E4WT24, 128, 256
+	Patch E4WT24, 128, 288
+	Patch E4WT24, 128, 272
+	Patch E4WT24, 224, 304
+	Patch E4WT24, 128, 304
+	Patch E4WT24, 64, 144
+	Patch E4WT24, 96, 256
+	Patch E4WT24, 96, 272
+	Patch E4WT24, 192, 304
+	Patch E4WT24, 64, 256
+	Patch E4WT24, 144, 256
+	Patch E4WT24, 240, 288
+	Patch E4WT24, 144, 288
+	Patch E4WT24, 144, 272
+	Patch E4WT24, 240, 304
+	Patch E4WT24, 80, 144
+	Patch E4WT24, 208, 288
+	Patch E4WT24, 112, 288
+	Patch E4WT24, 112, 272
+	Patch E4WT24, 208, 304
+	Patch E4WT24, 112, 304
+	Patch E4WT24, 160, 272
+	Patch E4WT24, 176, 256
+	Patch E4WT24, 96, 144
+	Patch E4WT27A, 16, 64
+	Patch E4WT27A, 128, 144
+	Patch E4WT27A, 240, 224
+	Patch E4WT37A, 96, 48
+	Patch E4WT31A, 32, 16
+	Patch E4WT31A, 160, 208
+	Patch E4WT14, 32, 0
+	Patch E4WT32A, 160, 32
+	Patch E4WT32A, 176, 32
+	Patch E4WT29A, 160, 144
+	Patch E4WT29A, 16, 272
+	Patch E4WT29A, 48, 64
+	Patch E4WT26A, 128, 32
+	Patch E4WT31A, 144, 32
+	Patch E4WT28A, 144, 144
+	Patch E4WT28A, 0, 272
+	Patch E4WT28A, 32, 64
+	Patch E4WT21, 144, 96
+	Patch E4WT21, 144, 64
+	Patch E4WT21, 144, 128
+	Patch E4WT21, 32, 48
+	Patch E4WT21, 144, 48
+	Patch E4WT21, 144, 112
+	Patch E4WT21, 32, 32
+	Patch E4WT21, 144, 80
+	Patch E4WT21, 0, 240
+	Patch E4WT21, 0, 256
+	Patch E4WT22, 176, 96
+	Patch E4WT22, 176, 64
+	Patch E4WT22, 176, 128
+	Patch E4WT22, 64, 48
+	Patch E4WT22, 176, 48
+	Patch E4WT22, 176, 112
+	Patch E4WT22, 64, 32
+	Patch E4WT22, 176, 80
+	Patch E4WT22, 32, 240
+	Patch E4WT22, 32, 256
+	Patch E4WT17, 0, 64
+	Patch E4WT17, 112, 144
+	Patch E4WT17, 96, 160
+	Patch E4WT17, 80, 176
+	Patch E4WT17, 64, 192
+	Patch E4WT17, 160, 288
+	Patch E4WT17, 144, 304
+	Patch E4WT17, 176, 272
+	Patch E4WT17, 192, 256
+	Patch E4WT17, 224, 224
+	Patch E4WT17, 48, 208
+	Patch E4WT17, 80, 48
+	Patch E4WT17, 224, 96
+	Patch E4WT17, 192, 128
+	Patch E4WT17, 208, 112
+	Patch E4WT17, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT17, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT17, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT17, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT17, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT17, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT17, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 16
+	Patch E4WT17, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT17, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT18, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT18, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT35A, 112, 176
+	Patch E4WT35A, 128, 192
+	Patch E4WT35A, 192, 224
+	Patch E4WT35A, 64, 288
+	Patch E4WT35A, 80, 304
+	Patch E4WT35A, 208, 240
+	Patch E4WT35A, 224, 256
+	Patch E4WT18, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT18, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT18, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT18, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT18, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT18, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT18, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT18, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT18, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 32
+	Patch E4WT18, 224, 48
+	Patch E4WT18, 96, 16
+	Patch E4WT18, 128, 176
+	Patch E4WT18, 144, 192
+	Patch E4WT18, 192, 208
+	Patch E4WT18, 64, 272
+	Patch E4WT18, 80, 288
+	Patch E4WT18, 96, 304
+	Patch E4WT18, 208, 224
+	Patch E4WT18, 240, 256
+	Patch E4WT18, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 64
+	Patch E4WT33A, 192, 32
+	Patch E4WT32A, 32, 224
+	Patch E4WT32A, 16, 224
+	Patch E4WT32A, 0, 224
+	Patch E4WT26A, 240, 272
+}
+
+Texture EWT4WL1A, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT09, 128, 0
+	Patch E4WT10, 16, 0
+	Patch E4WT30A, 176, 144
+	Patch E4WT30A, 32, 272
+	Patch E4WT30A, 64, 64
+	Patch E4WT15, 48, 0
+	Patch E4WT15, 80, 0
+	Patch E4WT15, 64, 0
+	Patch E4WT15, 96, 0
+	Patch E4WT15, 112, 0
+	Patch E4WT15, 160, 0
+	Patch E4WT15, 176, 0
+	Patch E4WT15, 192, 0
+	Patch E4WT15, 208, 0
+	Patch E4WT15, 224, 0
+	Patch E4WT15, 240, 0
+	Patch E4WT16A, 0, 0
+	Patch E4WT25A, 144, 0
+	Patch E4WT12B, 160, 96
+	Patch E4WT12B, 160, 64
+	Patch E4WT12B, 160, 128
+	Patch E4WT12B, 48, 48
+	Patch E4WT12B, 160, 48
+	Patch E4WT12B, 160, 112
+	Patch E4WT12B, 48, 32
+	Patch E4WT12B, 160, 80
+	Patch E4WT12B, 16, 240
+	Patch E4WT12B, 16, 256
+	Patch E4WT26A, 16, 16
+	Patch E4WT26A, 144, 208
+	Patch E4WT33A, 80, 16
+	Patch E4WT33A, 176, 208
+	Patch E4WT33A, 48, 272
+	Patch E4WT35A, 96, 32
+	Patch E4WT35A, 208, 48
+	Patch E4WT35A, 224, 64
+	Patch E4WT35A, 240, 80
+	Patch E4WT37A, 128, 16
+	Patch E4WT37A, 0, 80
+	Patch E4WT37A, 112, 160
+	Patch E4WT37A, 96, 176
+	Patch E4WT37A, 80, 192
+	Patch E4WT37A, 176, 288
+	Patch E4WT37A, 208, 256
+	Patch E4WT37A, 64, 208
+	Patch E4WT37A, 160, 304
+	Patch E4WT37A, 192, 272
+	Patch E4WT37A, 224, 240
+	Patch E4WT37A, 240, 96
+	Patch E4WT37A, 208, 128
+	Patch E4WT37A, 224, 112
+	Patch E4WT37A, 112, 32
+	Patch E4WT32A, 48, 16
+	Patch E4WT32A, 64, 16
+	Patch E4WT34A, 80, 64
+	Patch E4WT34A, 192, 144
+	Patch E4WT34A, 48, 224
+	Patch E4WT24, 0, 32
+	Patch E4WT24, 0, 112
+	Patch E4WT24, 32, 96
+	Patch E4WT24, 0, 144
+	Patch E4WT24, 0, 192
+	Patch E4WT24, 0, 288
+	Patch E4WT24, 144, 176
+	Patch E4WT24, 176, 176
+	Patch E4WT24, 176, 192
+	Patch E4WT24, 208, 192
+	Patch E4WT24, 208, 208
+	Patch E4WT24, 224, 144
+	Patch E4WT24, 32, 128
+	Patch E4WT24, 80, 80
+	Patch E4WT24, 80, 96
+	Patch E4WT24, 80, 112
+	Patch E4WT24, 112, 224
+	Patch E4WT24, 112, 208
+	Patch E4WT24, 160, 224
+	Patch E4WT24, 112, 64
+	Patch E4WT24, 112, 96
+	Patch E4WT24, 112, 80
+	Patch E4WT24, 112, 112
+	Patch E4WT24, 112, 128
+	Patch E4WT24, 128, 48
+	Patch E4WT24, 128, 64
+	Patch E4WT24, 128, 96
+	Patch E4WT24, 128, 80
+	Patch E4WT24, 128, 112
+	Patch E4WT24, 128, 128
+	Patch E4WT24, 96, 80
+	Patch E4WT24, 64, 80
+	Patch E4WT24, 16, 96
+	Patch E4WT24, 16, 112
+	Patch E4WT24, 48, 96
+	Patch E4WT24, 64, 96
+	Patch E4WT24, 16, 144
+	Patch E4WT24, 16, 192
+	Patch E4WT24, 16, 288
+	Patch E4WT24, 160, 176
+	Patch E4WT24, 160, 192
+	Patch E4WT24, 192, 176
+	Patch E4WT24, 192, 192
+	Patch E4WT24, 208, 176
+	Patch E4WT24, 224, 192
+	Patch E4WT24, 224, 208
+	Patch E4WT24, 240, 144
+	Patch E4WT24, 240, 176
+	Patch E4WT24, 240, 192
+	Patch E4WT24, 240, 208
+	Patch E4WT24, 32, 192
+	Patch E4WT24, 32, 288
+	Patch E4WT24, 48, 192
+	Patch E4WT24, 48, 128
+	Patch E4WT24, 80, 240
+	Patch E4WT24, 48, 240
+	Patch E4WT24, 128, 240
+	Patch E4WT24, 64, 128
+	Patch E4WT24, 96, 240
+	Patch E4WT24, 64, 240
+	Patch E4WT24, 144, 240
+	Patch E4WT24, 80, 128
+	Patch E4WT24, 160, 240
+	Patch E4WT24, 176, 240
+	Patch E4WT24, 96, 128
+	Patch E4WT24, 32, 80
+	Patch E4WT24, 48, 80
+	Patch E4WT24, 160, 16
+	Patch E4WT24, 192, 16
+	Patch E4WT24, 192, 80
+	Patch E4WT24, 208, 80
+	Patch E4WT24, 192, 96
+	Patch E4WT24, 208, 96
+	Patch E4WT24, 176, 16
+	Patch E4WT24, 208, 16
+	Patch E4WT23, 224, 16
+	Patch E4WT23, 96, 96
+	Patch E4WT23, 224, 160
+	Patch E4WT24, 240, 16
+	Patch E4WT23, 224, 32
+	Patch E4WT23, 192, 64
+	Patch E4WT23, 96, 112
+	Patch E4WT23, 224, 176
+	Patch E4WT23, 16, 128
+	Patch E4WT23, 48, 176
+	Patch E4WT23, 112, 240
+	Patch E4WT23, 112, 256
+	Patch E4WT23, 96, 288
+	Patch E4WT23, 160, 256
+	Patch E4WT23, 224, 288
+	Patch E4WT23, 192, 112
+	Patch E4WT24, 240, 32
+	Patch E4WT24, 240, 48
+	Patch E4WT24, 0, 48
+	Patch E4WT24, 0, 128
+	Patch E4WT24, 0, 176
+	Patch E4WT24, 144, 160
+	Patch E4WT24, 176, 160
+	Patch E4WT24, 32, 112
+	Patch E4WT24, 0, 160
+	Patch E4WT24, 0, 208
+	Patch E4WT24, 0, 304
+	Patch E4WT24, 32, 144
+	Patch E4WT24, 16, 32
+	Patch E4WT24, 16, 48
+	Patch E4WT24, 16, 176
+	Patch E4WT24, 160, 160
+	Patch E4WT24, 192, 160
+	Patch E4WT24, 208, 160
+	Patch E4WT24, 240, 128
+	Patch E4WT24, 240, 160
+	Patch E4WT24, 32, 176
+	Patch E4WT24, 64, 176
+	Patch E4WT24, 48, 112
+	Patch E4WT24, 80, 224
+	Patch E4WT24, 128, 224
+	Patch E4WT24, 64, 112
+	Patch E4WT24, 96, 224
+	Patch E4WT24, 96, 208
+	Patch E4WT24, 144, 224
+	Patch E4WT24, 16, 160
+	Patch E4WT24, 32, 160
+	Patch E4WT24, 48, 160
+	Patch E4WT24, 64, 160
+	Patch E4WT24, 80, 160
+	Patch E4WT24, 16, 208
+	Patch E4WT24, 16, 304
+	Patch E4WT24, 32, 208
+	Patch E4WT24, 32, 304
+	Patch E4WT24, 48, 304
+	Patch E4WT24, 48, 144
+	Patch E4WT24, 80, 256
+	Patch E4WT24, 80, 272
+	Patch E4WT24, 48, 256
+	Patch E4WT24, 128, 256
+	Patch E4WT24, 128, 288
+	Patch E4WT24, 128, 272
+	Patch E4WT24, 224, 304
+	Patch E4WT24, 128, 304
+	Patch E4WT24, 64, 144
+	Patch E4WT24, 96, 256
+	Patch E4WT24, 96, 272
+	Patch E4WT24, 192, 304
+	Patch E4WT24, 64, 256
+	Patch E4WT24, 144, 256
+	Patch E4WT24, 240, 288
+	Patch E4WT24, 144, 288
+	Patch E4WT24, 144, 272
+	Patch E4WT24, 240, 304
+	Patch E4WT24, 80, 144
+	Patch E4WT24, 208, 288
+	Patch E4WT24, 112, 288
+	Patch E4WT24, 112, 272
+	Patch E4WT24, 208, 304
+	Patch E4WT24, 112, 304
+	Patch E4WT24, 160, 272
+	Patch E4WT24, 176, 256
+	Patch E4WT24, 96, 144
+	Patch E4WT27A, 16, 64
+	Patch E4WT27A, 128, 144
+	Patch E4WT27A, 240, 224
+	Patch E4WT37A, 96, 48
+	Patch E4WT31A, 32, 16
+	Patch E4WT31A, 160, 208
+	Patch E4WT14, 32, 0
+	Patch E4WT32A, 160, 32
+	Patch E4WT32A, 176, 32
+	Patch E4WT29A, 160, 144
+	Patch E4WT29A, 16, 272
+	Patch E4WT29A, 48, 64
+	Patch E4WT26A, 128, 32
+	Patch E4WT31A, 144, 32
+	Patch E4WT28A, 144, 144
+	Patch E4WT28A, 0, 272
+	Patch E4WT28A, 32, 64
+	Patch E4WT21, 144, 96
+	Patch E4WT21, 144, 64
+	Patch E4WT21, 144, 128
+	Patch E4WT21, 32, 48
+	Patch E4WT21, 144, 48
+	Patch E4WT21, 144, 112
+	Patch E4WT21, 32, 32
+	Patch E4WT21, 144, 80
+	Patch E4WT21, 0, 240
+	Patch E4WT21, 0, 256
+	Patch E4WT22, 176, 96
+	Patch E4WT22, 176, 64
+	Patch E4WT22, 176, 128
+	Patch E4WT22, 64, 48
+	Patch E4WT22, 176, 48
+	Patch E4WT22, 176, 112
+	Patch E4WT22, 64, 32
+	Patch E4WT22, 176, 80
+	Patch E4WT22, 32, 240
+	Patch E4WT22, 32, 256
+	Patch E4WT17, 0, 64
+	Patch E4WT17, 112, 144
+	Patch E4WT17, 96, 160
+	Patch E4WT17, 80, 176
+	Patch E4WT17, 64, 192
+	Patch E4WT17, 160, 288
+	Patch E4WT17, 144, 304
+	Patch E4WT17, 176, 272
+	Patch E4WT17, 192, 256
+	Patch E4WT17, 224, 224
+	Patch E4WT17, 48, 208
+	Patch E4WT17, 80, 48
+	Patch E4WT17, 224, 96
+	Patch E4WT17, 192, 128
+	Patch E4WT17, 208, 112
+	Patch E4WT17, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT17, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT17, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT17, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT17, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT17, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT17, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 16
+	Patch E4WT17, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT17, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT18, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT18, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT35A, 112, 176
+	Patch E4WT35A, 128, 192
+	Patch E4WT35A, 192, 224
+	Patch E4WT35A, 64, 288
+	Patch E4WT35A, 80, 304
+	Patch E4WT35A, 208, 240
+	Patch E4WT35A, 224, 256
+	Patch E4WT18, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT18, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT18, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT18, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT18, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT18, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT18, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT18, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT18, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 32
+	Patch E4WT18, 224, 48
+	Patch E4WT18, 96, 16
+	Patch E4WT18, 128, 176
+	Patch E4WT18, 144, 192
+	Patch E4WT18, 192, 208
+	Patch E4WT18, 64, 272
+	Patch E4WT18, 80, 288
+	Patch E4WT18, 96, 304
+	Patch E4WT18, 208, 224
+	Patch E4WT18, 240, 256
+	Patch E4WT18, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 64
+	Patch E4WT33A, 192, 32
+	Patch E4WT32A, 32, 224
+	Patch E4WT32A, 16, 224
+	Patch E4WT32A, 0, 224
+	Patch E4WT26A, 240, 272
+}
+
+Texture EWT4WL1B, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT09, 128, 0
+	Patch E4WT10, 16, 0
+	Patch E4WT30B, 176, 144
+	Patch E4WT30B, 32, 272
+	Patch E4WT30B, 64, 64
+	Patch E4WT15, 48, 0
+	Patch E4WT15, 80, 0
+	Patch E4WT15, 64, 0
+	Patch E4WT15, 96, 0
+	Patch E4WT15, 112, 0
+	Patch E4WT15, 160, 0
+	Patch E4WT15, 176, 0
+	Patch E4WT15, 192, 0
+	Patch E4WT15, 208, 0
+	Patch E4WT15, 224, 0
+	Patch E4WT15, 240, 0
+	Patch E4WT16B, 0, 0
+	Patch E4WT25B, 144, 0
+	Patch E4WT12B, 160, 96
+	Patch E4WT12B, 160, 64
+	Patch E4WT12B, 160, 128
+	Patch E4WT12B, 48, 48
+	Patch E4WT12B, 160, 48
+	Patch E4WT12B, 160, 112
+	Patch E4WT12B, 48, 32
+	Patch E4WT12B, 160, 80
+	Patch E4WT12B, 16, 240
+	Patch E4WT12B, 16, 256
+	Patch E4WT26B, 16, 16
+	Patch E4WT26B, 144, 208
+	Patch E4WT33B, 80, 16
+	Patch E4WT33B, 176, 208
+	Patch E4WT33B, 48, 272
+	Patch E4WT35B, 96, 32
+	Patch E4WT35B, 208, 48
+	Patch E4WT35B, 224, 64
+	Patch E4WT35B, 240, 80
+	Patch E4WT37B, 128, 16
+	Patch E4WT37B, 0, 80
+	Patch E4WT37B, 112, 160
+	Patch E4WT37B, 96, 176
+	Patch E4WT37B, 80, 192
+	Patch E4WT37B, 176, 288
+	Patch E4WT37B, 208, 256
+	Patch E4WT37B, 64, 208
+	Patch E4WT37B, 160, 304
+	Patch E4WT37B, 192, 272
+	Patch E4WT37B, 224, 240
+	Patch E4WT37B, 240, 96
+	Patch E4WT37B, 208, 128
+	Patch E4WT37B, 224, 112
+	Patch E4WT37B, 112, 32
+	Patch E4WT32B, 48, 16
+	Patch E4WT32B, 64, 16
+	Patch E4WT34B, 80, 64
+	Patch E4WT34B, 192, 144
+	Patch E4WT34B, 48, 224
+	Patch E4WT24, 0, 32
+	Patch E4WT24, 0, 112
+	Patch E4WT24, 32, 96
+	Patch E4WT24, 0, 144
+	Patch E4WT24, 0, 192
+	Patch E4WT24, 0, 288
+	Patch E4WT24, 144, 176
+	Patch E4WT24, 176, 176
+	Patch E4WT24, 176, 192
+	Patch E4WT24, 208, 192
+	Patch E4WT24, 208, 208
+	Patch E4WT24, 224, 144
+	Patch E4WT24, 32, 128
+	Patch E4WT24, 80, 80
+	Patch E4WT24, 80, 96
+	Patch E4WT24, 80, 112
+	Patch E4WT24, 112, 224
+	Patch E4WT24, 112, 208
+	Patch E4WT24, 160, 224
+	Patch E4WT24, 112, 64
+	Patch E4WT24, 112, 96
+	Patch E4WT24, 112, 80
+	Patch E4WT24, 112, 112
+	Patch E4WT24, 112, 128
+	Patch E4WT24, 128, 48
+	Patch E4WT24, 128, 64
+	Patch E4WT24, 128, 96
+	Patch E4WT24, 128, 80
+	Patch E4WT24, 128, 112
+	Patch E4WT24, 128, 128
+	Patch E4WT24, 96, 80
+	Patch E4WT24, 64, 80
+	Patch E4WT24, 16, 96
+	Patch E4WT24, 16, 112
+	Patch E4WT24, 48, 96
+	Patch E4WT24, 64, 96
+	Patch E4WT24, 16, 144
+	Patch E4WT24, 16, 192
+	Patch E4WT24, 16, 288
+	Patch E4WT24, 160, 176
+	Patch E4WT24, 160, 192
+	Patch E4WT24, 192, 176
+	Patch E4WT24, 192, 192
+	Patch E4WT24, 208, 176
+	Patch E4WT24, 224, 192
+	Patch E4WT24, 224, 208
+	Patch E4WT24, 240, 144
+	Patch E4WT24, 240, 176
+	Patch E4WT24, 240, 192
+	Patch E4WT24, 240, 208
+	Patch E4WT24, 32, 192
+	Patch E4WT24, 32, 288
+	Patch E4WT24, 48, 192
+	Patch E4WT24, 48, 128
+	Patch E4WT24, 80, 240
+	Patch E4WT24, 48, 240
+	Patch E4WT24, 128, 240
+	Patch E4WT24, 64, 128
+	Patch E4WT24, 96, 240
+	Patch E4WT24, 64, 240
+	Patch E4WT24, 144, 240
+	Patch E4WT24, 80, 128
+	Patch E4WT24, 160, 240
+	Patch E4WT24, 176, 240
+	Patch E4WT24, 96, 128
+	Patch E4WT24, 32, 80
+	Patch E4WT24, 48, 80
+	Patch E4WT24, 160, 16
+	Patch E4WT24, 192, 16
+	Patch E4WT24, 192, 80
+	Patch E4WT24, 208, 80
+	Patch E4WT24, 192, 96
+	Patch E4WT24, 208, 96
+	Patch E4WT24, 176, 16
+	Patch E4WT24, 208, 16
+	Patch E4WT23, 224, 16
+	Patch E4WT23, 96, 96
+	Patch E4WT23, 224, 160
+	Patch E4WT24, 240, 16
+	Patch E4WT23, 224, 32
+	Patch E4WT23, 192, 64
+	Patch E4WT23, 96, 112
+	Patch E4WT23, 224, 176
+	Patch E4WT23, 16, 128
+	Patch E4WT23, 48, 176
+	Patch E4WT23, 112, 240
+	Patch E4WT23, 112, 256
+	Patch E4WT23, 96, 288
+	Patch E4WT23, 160, 256
+	Patch E4WT23, 224, 288
+	Patch E4WT23, 192, 112
+	Patch E4WT24, 240, 32
+	Patch E4WT24, 240, 48
+	Patch E4WT24, 0, 48
+	Patch E4WT24, 0, 128
+	Patch E4WT24, 0, 176
+	Patch E4WT24, 144, 160
+	Patch E4WT24, 176, 160
+	Patch E4WT24, 32, 112
+	Patch E4WT24, 0, 160
+	Patch E4WT24, 0, 208
+	Patch E4WT24, 0, 304
+	Patch E4WT24, 32, 144
+	Patch E4WT24, 16, 32
+	Patch E4WT24, 16, 48
+	Patch E4WT24, 16, 176
+	Patch E4WT24, 160, 160
+	Patch E4WT24, 192, 160
+	Patch E4WT24, 208, 160
+	Patch E4WT24, 240, 128
+	Patch E4WT24, 240, 160
+	Patch E4WT24, 32, 176
+	Patch E4WT24, 64, 176
+	Patch E4WT24, 48, 112
+	Patch E4WT24, 80, 224
+	Patch E4WT24, 128, 224
+	Patch E4WT24, 64, 112
+	Patch E4WT24, 96, 224
+	Patch E4WT24, 96, 208
+	Patch E4WT24, 144, 224
+	Patch E4WT24, 16, 160
+	Patch E4WT24, 32, 160
+	Patch E4WT24, 48, 160
+	Patch E4WT24, 64, 160
+	Patch E4WT24, 80, 160
+	Patch E4WT24, 16, 208
+	Patch E4WT24, 16, 304
+	Patch E4WT24, 32, 208
+	Patch E4WT24, 32, 304
+	Patch E4WT24, 48, 304
+	Patch E4WT24, 48, 144
+	Patch E4WT24, 80, 256
+	Patch E4WT24, 80, 272
+	Patch E4WT24, 48, 256
+	Patch E4WT24, 128, 256
+	Patch E4WT24, 128, 288
+	Patch E4WT24, 128, 272
+	Patch E4WT24, 224, 304
+	Patch E4WT24, 128, 304
+	Patch E4WT24, 64, 144
+	Patch E4WT24, 96, 256
+	Patch E4WT24, 96, 272
+	Patch E4WT24, 192, 304
+	Patch E4WT24, 64, 256
+	Patch E4WT24, 144, 256
+	Patch E4WT24, 240, 288
+	Patch E4WT24, 144, 288
+	Patch E4WT24, 144, 272
+	Patch E4WT24, 240, 304
+	Patch E4WT24, 80, 144
+	Patch E4WT24, 208, 288
+	Patch E4WT24, 112, 288
+	Patch E4WT24, 112, 272
+	Patch E4WT24, 208, 304
+	Patch E4WT24, 112, 304
+	Patch E4WT24, 160, 272
+	Patch E4WT24, 176, 256
+	Patch E4WT24, 96, 144
+	Patch E4WT27B, 16, 64
+	Patch E4WT27B, 128, 144
+	Patch E4WT27B, 240, 224
+	Patch E4WT37B, 96, 48
+	Patch E4WT31B, 32, 16
+	Patch E4WT31B, 160, 208
+	Patch E4WT14, 32, 0
+	Patch E4WT32B, 160, 32
+	Patch E4WT32B, 176, 32
+	Patch E4WT29B, 160, 144
+	Patch E4WT29B, 16, 272
+	Patch E4WT29B, 48, 64
+	Patch E4WT26B, 128, 32
+	Patch E4WT31B, 144, 32
+	Patch E4WT28B, 144, 144
+	Patch E4WT28B, 0, 272
+	Patch E4WT28B, 32, 64
+	Patch E4WT21, 144, 96
+	Patch E4WT21, 144, 64
+	Patch E4WT21, 144, 128
+	Patch E4WT21, 32, 48
+	Patch E4WT21, 144, 48
+	Patch E4WT21, 144, 112
+	Patch E4WT21, 32, 32
+	Patch E4WT21, 144, 80
+	Patch E4WT21, 0, 240
+	Patch E4WT21, 0, 256
+	Patch E4WT22, 176, 96
+	Patch E4WT22, 176, 64
+	Patch E4WT22, 176, 128
+	Patch E4WT22, 64, 48
+	Patch E4WT22, 176, 48
+	Patch E4WT22, 176, 112
+	Patch E4WT22, 64, 32
+	Patch E4WT22, 176, 80
+	Patch E4WT22, 32, 240
+	Patch E4WT22, 32, 256
+	Patch E4WT17, 0, 64
+	Patch E4WT17, 112, 144
+	Patch E4WT17, 96, 160
+	Patch E4WT17, 80, 176
+	Patch E4WT17, 64, 192
+	Patch E4WT17, 160, 288
+	Patch E4WT17, 144, 304
+	Patch E4WT17, 176, 272
+	Patch E4WT17, 192, 256
+	Patch E4WT17, 224, 224
+	Patch E4WT17, 48, 208
+	Patch E4WT17, 80, 48
+	Patch E4WT17, 224, 96
+	Patch E4WT17, 192, 128
+	Patch E4WT17, 208, 112
+	Patch E4WT17, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT17, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT17, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT17, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT17, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT17, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT17, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 16
+	Patch E4WT17, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT17, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT18, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT18, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT35B, 112, 176
+	Patch E4WT35B, 128, 192
+	Patch E4WT35B, 192, 224
+	Patch E4WT35B, 64, 288
+	Patch E4WT35B, 80, 304
+	Patch E4WT35B, 208, 240
+	Patch E4WT35B, 224, 256
+	Patch E4WT18, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT18, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT18, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT18, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT18, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT18, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT18, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT18, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT18, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 32
+	Patch E4WT18, 224, 48
+	Patch E4WT18, 96, 16
+	Patch E4WT18, 128, 176
+	Patch E4WT18, 144, 192
+	Patch E4WT18, 192, 208
+	Patch E4WT18, 64, 272
+	Patch E4WT18, 80, 288
+	Patch E4WT18, 96, 304
+	Patch E4WT18, 208, 224
+	Patch E4WT18, 240, 256
+	Patch E4WT18, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 64
+	Patch E4WT33B, 192, 32
+	Patch E4WT32B, 32, 224
+	Patch E4WT32B, 16, 224
+	Patch E4WT32B, 0, 224
+	Patch E4WT26B, 240, 272
+}
+
+Texture EWT4WL1C, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT09, 128, 0
+	Patch E4WT10, 16, 0
+	Patch E4WT30C, 176, 144
+	Patch E4WT30C, 32, 272
+	Patch E4WT30C, 64, 64
+	Patch E4WT15, 48, 0
+	Patch E4WT15, 80, 0
+	Patch E4WT15, 64, 0
+	Patch E4WT15, 96, 0
+	Patch E4WT15, 112, 0
+	Patch E4WT15, 160, 0
+	Patch E4WT15, 176, 0
+	Patch E4WT15, 192, 0
+	Patch E4WT15, 208, 0
+	Patch E4WT15, 224, 0
+	Patch E4WT15, 240, 0
+	Patch E4WT16C, 0, 0
+	Patch E4WT25C, 144, 0
+	Patch E4WT12B, 160, 96
+	Patch E4WT12B, 160, 64
+	Patch E4WT12B, 160, 128
+	Patch E4WT12B, 48, 48
+	Patch E4WT12B, 160, 48
+	Patch E4WT12B, 160, 112
+	Patch E4WT12B, 48, 32
+	Patch E4WT12B, 160, 80
+	Patch E4WT12B, 16, 240
+	Patch E4WT12B, 16, 256
+	Patch E4WT26C, 16, 16
+	Patch E4WT26C, 144, 208
+	Patch E4WT33C, 80, 16
+	Patch E4WT33C, 176, 208
+	Patch E4WT33C, 48, 272
+	Patch E4WT35C, 96, 32
+	Patch E4WT35C, 208, 48
+	Patch E4WT35C, 224, 64
+	Patch E4WT35C, 240, 80
+	Patch E4WT37C, 128, 16
+	Patch E4WT37C, 0, 80
+	Patch E4WT37C, 112, 160
+	Patch E4WT37C, 96, 176
+	Patch E4WT37C, 80, 192
+	Patch E4WT37C, 176, 288
+	Patch E4WT37C, 208, 256
+	Patch E4WT37C, 64, 208
+	Patch E4WT37C, 160, 304
+	Patch E4WT37C, 192, 272
+	Patch E4WT37C, 224, 240
+	Patch E4WT37C, 240, 96
+	Patch E4WT37C, 208, 128
+	Patch E4WT37C, 224, 112
+	Patch E4WT37C, 112, 32
+	Patch E4WT32C, 48, 16
+	Patch E4WT32C, 64, 16
+	Patch E4WT34C, 80, 64
+	Patch E4WT34C, 192, 144
+	Patch E4WT34C, 48, 224
+	Patch E4WT24, 0, 32
+	Patch E4WT24, 0, 112
+	Patch E4WT24, 32, 96
+	Patch E4WT24, 0, 144
+	Patch E4WT24, 0, 192
+	Patch E4WT24, 0, 288
+	Patch E4WT24, 144, 176
+	Patch E4WT24, 176, 176
+	Patch E4WT24, 176, 192
+	Patch E4WT24, 208, 192
+	Patch E4WT24, 208, 208
+	Patch E4WT24, 224, 144
+	Patch E4WT24, 32, 128
+	Patch E4WT24, 80, 80
+	Patch E4WT24, 80, 96
+	Patch E4WT24, 80, 112
+	Patch E4WT24, 112, 224
+	Patch E4WT24, 112, 208
+	Patch E4WT24, 160, 224
+	Patch E4WT24, 112, 64
+	Patch E4WT24, 112, 96
+	Patch E4WT24, 112, 80
+	Patch E4WT24, 112, 112
+	Patch E4WT24, 112, 128
+	Patch E4WT24, 128, 48
+	Patch E4WT24, 128, 64
+	Patch E4WT24, 128, 96
+	Patch E4WT24, 128, 80
+	Patch E4WT24, 128, 112
+	Patch E4WT24, 128, 128
+	Patch E4WT24, 96, 80
+	Patch E4WT24, 64, 80
+	Patch E4WT24, 16, 96
+	Patch E4WT24, 16, 112
+	Patch E4WT24, 48, 96
+	Patch E4WT24, 64, 96
+	Patch E4WT24, 16, 144
+	Patch E4WT24, 16, 192
+	Patch E4WT24, 16, 288
+	Patch E4WT24, 160, 176
+	Patch E4WT24, 160, 192
+	Patch E4WT24, 192, 176
+	Patch E4WT24, 192, 192
+	Patch E4WT24, 208, 176
+	Patch E4WT24, 224, 192
+	Patch E4WT24, 224, 208
+	Patch E4WT24, 240, 144
+	Patch E4WT24, 240, 176
+	Patch E4WT24, 240, 192
+	Patch E4WT24, 240, 208
+	Patch E4WT24, 32, 192
+	Patch E4WT24, 32, 288
+	Patch E4WT24, 48, 192
+	Patch E4WT24, 48, 128
+	Patch E4WT24, 80, 240
+	Patch E4WT24, 48, 240
+	Patch E4WT24, 128, 240
+	Patch E4WT24, 64, 128
+	Patch E4WT24, 96, 240
+	Patch E4WT24, 64, 240
+	Patch E4WT24, 144, 240
+	Patch E4WT24, 80, 128
+	Patch E4WT24, 160, 240
+	Patch E4WT24, 176, 240
+	Patch E4WT24, 96, 128
+	Patch E4WT24, 32, 80
+	Patch E4WT24, 48, 80
+	Patch E4WT24, 160, 16
+	Patch E4WT24, 192, 16
+	Patch E4WT24, 192, 80
+	Patch E4WT24, 208, 80
+	Patch E4WT24, 192, 96
+	Patch E4WT24, 208, 96
+	Patch E4WT24, 176, 16
+	Patch E4WT24, 208, 16
+	Patch E4WT23, 224, 16
+	Patch E4WT23, 96, 96
+	Patch E4WT23, 224, 160
+	Patch E4WT24, 240, 16
+	Patch E4WT23, 224, 32
+	Patch E4WT23, 192, 64
+	Patch E4WT23, 96, 112
+	Patch E4WT23, 224, 176
+	Patch E4WT23, 16, 128
+	Patch E4WT23, 48, 176
+	Patch E4WT23, 112, 240
+	Patch E4WT23, 112, 256
+	Patch E4WT23, 96, 288
+	Patch E4WT23, 160, 256
+	Patch E4WT23, 224, 288
+	Patch E4WT23, 192, 112
+	Patch E4WT24, 240, 32
+	Patch E4WT24, 240, 48
+	Patch E4WT24, 0, 48
+	Patch E4WT24, 0, 128
+	Patch E4WT24, 0, 176
+	Patch E4WT24, 144, 160
+	Patch E4WT24, 176, 160
+	Patch E4WT24, 32, 112
+	Patch E4WT24, 0, 160
+	Patch E4WT24, 0, 208
+	Patch E4WT24, 0, 304
+	Patch E4WT24, 32, 144
+	Patch E4WT24, 16, 32
+	Patch E4WT24, 16, 48
+	Patch E4WT24, 16, 176
+	Patch E4WT24, 160, 160
+	Patch E4WT24, 192, 160
+	Patch E4WT24, 208, 160
+	Patch E4WT24, 240, 128
+	Patch E4WT24, 240, 160
+	Patch E4WT24, 32, 176
+	Patch E4WT24, 64, 176
+	Patch E4WT24, 48, 112
+	Patch E4WT24, 80, 224
+	Patch E4WT24, 128, 224
+	Patch E4WT24, 64, 112
+	Patch E4WT24, 96, 224
+	Patch E4WT24, 96, 208
+	Patch E4WT24, 144, 224
+	Patch E4WT24, 16, 160
+	Patch E4WT24, 32, 160
+	Patch E4WT24, 48, 160
+	Patch E4WT24, 64, 160
+	Patch E4WT24, 80, 160
+	Patch E4WT24, 16, 208
+	Patch E4WT24, 16, 304
+	Patch E4WT24, 32, 208
+	Patch E4WT24, 32, 304
+	Patch E4WT24, 48, 304
+	Patch E4WT24, 48, 144
+	Patch E4WT24, 80, 256
+	Patch E4WT24, 80, 272
+	Patch E4WT24, 48, 256
+	Patch E4WT24, 128, 256
+	Patch E4WT24, 128, 288
+	Patch E4WT24, 128, 272
+	Patch E4WT24, 224, 304
+	Patch E4WT24, 128, 304
+	Patch E4WT24, 64, 144
+	Patch E4WT24, 96, 256
+	Patch E4WT24, 96, 272
+	Patch E4WT24, 192, 304
+	Patch E4WT24, 64, 256
+	Patch E4WT24, 144, 256
+	Patch E4WT24, 240, 288
+	Patch E4WT24, 144, 288
+	Patch E4WT24, 144, 272
+	Patch E4WT24, 240, 304
+	Patch E4WT24, 80, 144
+	Patch E4WT24, 208, 288
+	Patch E4WT24, 112, 288
+	Patch E4WT24, 112, 272
+	Patch E4WT24, 208, 304
+	Patch E4WT24, 112, 304
+	Patch E4WT24, 160, 272
+	Patch E4WT24, 176, 256
+	Patch E4WT24, 96, 144
+	Patch E4WT27C, 16, 64
+	Patch E4WT27C, 128, 144
+	Patch E4WT27C, 240, 224
+	Patch E4WT37C, 96, 48
+	Patch E4WT31C, 32, 16
+	Patch E4WT31C, 160, 208
+	Patch E4WT14, 32, 0
+	Patch E4WT32C, 160, 32
+	Patch E4WT32C, 176, 32
+	Patch E4WT29C, 160, 144
+	Patch E4WT29C, 16, 272
+	Patch E4WT29C, 48, 64
+	Patch E4WT26C, 128, 32
+	Patch E4WT31C, 144, 32
+	Patch E4WT28C, 144, 144
+	Patch E4WT28C, 0, 272
+	Patch E4WT28C, 32, 64
+	Patch E4WT21, 144, 96
+	Patch E4WT21, 144, 64
+	Patch E4WT21, 144, 128
+	Patch E4WT21, 32, 48
+	Patch E4WT21, 144, 48
+	Patch E4WT21, 144, 112
+	Patch E4WT21, 32, 32
+	Patch E4WT21, 144, 80
+	Patch E4WT21, 0, 240
+	Patch E4WT21, 0, 256
+	Patch E4WT22, 176, 96
+	Patch E4WT22, 176, 64
+	Patch E4WT22, 176, 128
+	Patch E4WT22, 64, 48
+	Patch E4WT22, 176, 48
+	Patch E4WT22, 176, 112
+	Patch E4WT22, 64, 32
+	Patch E4WT22, 176, 80
+	Patch E4WT22, 32, 240
+	Patch E4WT22, 32, 256
+	Patch E4WT17, 0, 64
+	Patch E4WT17, 112, 144
+	Patch E4WT17, 96, 160
+	Patch E4WT17, 80, 176
+	Patch E4WT17, 64, 192
+	Patch E4WT17, 160, 288
+	Patch E4WT17, 144, 304
+	Patch E4WT17, 176, 272
+	Patch E4WT17, 192, 256
+	Patch E4WT17, 224, 224
+	Patch E4WT17, 48, 208
+	Patch E4WT17, 80, 48
+	Patch E4WT17, 224, 96
+	Patch E4WT17, 192, 128
+	Patch E4WT17, 208, 112
+	Patch E4WT17, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT17, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT17, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT17, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT17, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT17, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT17, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 16
+	Patch E4WT17, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT17, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT18, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT18, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT35C, 112, 176
+	Patch E4WT35C, 128, 192
+	Patch E4WT35C, 192, 224
+	Patch E4WT35C, 64, 288
+	Patch E4WT35C, 80, 304
+	Patch E4WT35C, 208, 240
+	Patch E4WT35C, 224, 256
+	Patch E4WT18, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT18, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT18, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT18, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT18, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT18, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT18, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT18, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT18, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 32
+	Patch E4WT18, 224, 48
+	Patch E4WT18, 96, 16
+	Patch E4WT18, 128, 176
+	Patch E4WT18, 144, 192
+	Patch E4WT18, 192, 208
+	Patch E4WT18, 64, 272
+	Patch E4WT18, 80, 288
+	Patch E4WT18, 96, 304
+	Patch E4WT18, 208, 224
+	Patch E4WT18, 240, 256
+	Patch E4WT18, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 64
+	Patch E4WT33C, 192, 32
+	Patch E4WT32C, 32, 224
+	Patch E4WT32C, 16, 224
+	Patch E4WT32C, 0, 224
+	Patch E4WT26C, 240, 272
+}
+
+Texture EWT4WL1D, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT09, 128, 0
+	Patch E4WT10, 16, 0
+	Patch E4WT30D, 176, 144
+	Patch E4WT30D, 32, 272
+	Patch E4WT30D, 64, 64
+	Patch E4WT15, 48, 0
+	Patch E4WT15, 80, 0
+	Patch E4WT15, 64, 0
+	Patch E4WT15, 96, 0
+	Patch E4WT15, 112, 0
+	Patch E4WT15, 160, 0
+	Patch E4WT15, 176, 0
+	Patch E4WT15, 192, 0
+	Patch E4WT15, 208, 0
+	Patch E4WT15, 224, 0
+	Patch E4WT15, 240, 0
+	Patch E4WT16D, 0, 0
+	Patch E4WT25D, 144, 0
+	Patch E4WT12B, 160, 96
+	Patch E4WT12B, 160, 64
+	Patch E4WT12B, 160, 128
+	Patch E4WT12B, 48, 48
+	Patch E4WT12B, 160, 48
+	Patch E4WT12B, 160, 112
+	Patch E4WT12B, 48, 32
+	Patch E4WT12B, 160, 80
+	Patch E4WT12B, 16, 240
+	Patch E4WT12B, 16, 256
+	Patch E4WT26D, 16, 16
+	Patch E4WT26D, 144, 208
+	Patch E4WT33D, 80, 16
+	Patch E4WT33D, 176, 208
+	Patch E4WT33D, 48, 272
+	Patch E4WT35D, 96, 32
+	Patch E4WT35D, 208, 48
+	Patch E4WT35D, 224, 64
+	Patch E4WT35D, 240, 80
+	Patch E4WT37D, 128, 16
+	Patch E4WT37D, 0, 80
+	Patch E4WT37D, 112, 160
+	Patch E4WT37D, 96, 176
+	Patch E4WT37D, 80, 192
+	Patch E4WT37D, 176, 288
+	Patch E4WT37D, 208, 256
+	Patch E4WT37D, 64, 208
+	Patch E4WT37D, 160, 304
+	Patch E4WT37D, 192, 272
+	Patch E4WT37D, 224, 240
+	Patch E4WT37D, 240, 96
+	Patch E4WT37D, 208, 128
+	Patch E4WT37D, 224, 112
+	Patch E4WT37D, 112, 32
+	Patch E4WT32D, 48, 16
+	Patch E4WT32D, 64, 16
+	Patch E4WT34D, 80, 64
+	Patch E4WT34D, 192, 144
+	Patch E4WT34D, 48, 224
+	Patch E4WT24, 0, 32
+	Patch E4WT24, 0, 112
+	Patch E4WT24, 32, 96
+	Patch E4WT24, 0, 144
+	Patch E4WT24, 0, 192
+	Patch E4WT24, 0, 288
+	Patch E4WT24, 144, 176
+	Patch E4WT24, 176, 176
+	Patch E4WT24, 176, 192
+	Patch E4WT24, 208, 192
+	Patch E4WT24, 208, 208
+	Patch E4WT24, 224, 144
+	Patch E4WT24, 32, 128
+	Patch E4WT24, 80, 80
+	Patch E4WT24, 80, 96
+	Patch E4WT24, 80, 112
+	Patch E4WT24, 112, 224
+	Patch E4WT24, 112, 208
+	Patch E4WT24, 160, 224
+	Patch E4WT24, 112, 64
+	Patch E4WT24, 112, 96
+	Patch E4WT24, 112, 80
+	Patch E4WT24, 112, 112
+	Patch E4WT24, 112, 128
+	Patch E4WT24, 128, 48
+	Patch E4WT24, 128, 64
+	Patch E4WT24, 128, 96
+	Patch E4WT24, 128, 80
+	Patch E4WT24, 128, 112
+	Patch E4WT24, 128, 128
+	Patch E4WT24, 96, 80
+	Patch E4WT24, 64, 80
+	Patch E4WT24, 16, 96
+	Patch E4WT24, 16, 112
+	Patch E4WT24, 48, 96
+	Patch E4WT24, 64, 96
+	Patch E4WT24, 16, 144
+	Patch E4WT24, 16, 192
+	Patch E4WT24, 16, 288
+	Patch E4WT24, 160, 176
+	Patch E4WT24, 160, 192
+	Patch E4WT24, 192, 176
+	Patch E4WT24, 192, 192
+	Patch E4WT24, 208, 176
+	Patch E4WT24, 224, 192
+	Patch E4WT24, 224, 208
+	Patch E4WT24, 240, 144
+	Patch E4WT24, 240, 176
+	Patch E4WT24, 240, 192
+	Patch E4WT24, 240, 208
+	Patch E4WT24, 32, 192
+	Patch E4WT24, 32, 288
+	Patch E4WT24, 48, 192
+	Patch E4WT24, 48, 128
+	Patch E4WT24, 80, 240
+	Patch E4WT24, 48, 240
+	Patch E4WT24, 128, 240
+	Patch E4WT24, 64, 128
+	Patch E4WT24, 96, 240
+	Patch E4WT24, 64, 240
+	Patch E4WT24, 144, 240
+	Patch E4WT24, 80, 128
+	Patch E4WT24, 160, 240
+	Patch E4WT24, 176, 240
+	Patch E4WT24, 96, 128
+	Patch E4WT24, 32, 80
+	Patch E4WT24, 48, 80
+	Patch E4WT24, 160, 16
+	Patch E4WT24, 192, 16
+	Patch E4WT24, 192, 80
+	Patch E4WT24, 208, 80
+	Patch E4WT24, 192, 96
+	Patch E4WT24, 208, 96
+	Patch E4WT24, 176, 16
+	Patch E4WT24, 208, 16
+	Patch E4WT23, 224, 16
+	Patch E4WT23, 96, 96
+	Patch E4WT23, 224, 160
+	Patch E4WT24, 240, 16
+	Patch E4WT23, 224, 32
+	Patch E4WT23, 192, 64
+	Patch E4WT23, 96, 112
+	Patch E4WT23, 224, 176
+	Patch E4WT23, 16, 128
+	Patch E4WT23, 48, 176
+	Patch E4WT23, 112, 240
+	Patch E4WT23, 112, 256
+	Patch E4WT23, 96, 288
+	Patch E4WT23, 160, 256
+	Patch E4WT23, 224, 288
+	Patch E4WT23, 192, 112
+	Patch E4WT24, 240, 32
+	Patch E4WT24, 240, 48
+	Patch E4WT24, 0, 48
+	Patch E4WT24, 0, 128
+	Patch E4WT24, 0, 176
+	Patch E4WT24, 144, 160
+	Patch E4WT24, 176, 160
+	Patch E4WT24, 32, 112
+	Patch E4WT24, 0, 160
+	Patch E4WT24, 0, 208
+	Patch E4WT24, 0, 304
+	Patch E4WT24, 32, 144
+	Patch E4WT24, 16, 32
+	Patch E4WT24, 16, 48
+	Patch E4WT24, 16, 176
+	Patch E4WT24, 160, 160
+	Patch E4WT24, 192, 160
+	Patch E4WT24, 208, 160
+	Patch E4WT24, 240, 128
+	Patch E4WT24, 240, 160
+	Patch E4WT24, 32, 176
+	Patch E4WT24, 64, 176
+	Patch E4WT24, 48, 112
+	Patch E4WT24, 80, 224
+	Patch E4WT24, 128, 224
+	Patch E4WT24, 64, 112
+	Patch E4WT24, 96, 224
+	Patch E4WT24, 96, 208
+	Patch E4WT24, 144, 224
+	Patch E4WT24, 16, 160
+	Patch E4WT24, 32, 160
+	Patch E4WT24, 48, 160
+	Patch E4WT24, 64, 160
+	Patch E4WT24, 80, 160
+	Patch E4WT24, 16, 208
+	Patch E4WT24, 16, 304
+	Patch E4WT24, 32, 208
+	Patch E4WT24, 32, 304
+	Patch E4WT24, 48, 304
+	Patch E4WT24, 48, 144
+	Patch E4WT24, 80, 256
+	Patch E4WT24, 80, 272
+	Patch E4WT24, 48, 256
+	Patch E4WT24, 128, 256
+	Patch E4WT24, 128, 288
+	Patch E4WT24, 128, 272
+	Patch E4WT24, 224, 304
+	Patch E4WT24, 128, 304
+	Patch E4WT24, 64, 144
+	Patch E4WT24, 96, 256
+	Patch E4WT24, 96, 272
+	Patch E4WT24, 192, 304
+	Patch E4WT24, 64, 256
+	Patch E4WT24, 144, 256
+	Patch E4WT24, 240, 288
+	Patch E4WT24, 144, 288
+	Patch E4WT24, 144, 272
+	Patch E4WT24, 240, 304
+	Patch E4WT24, 80, 144
+	Patch E4WT24, 208, 288
+	Patch E4WT24, 112, 288
+	Patch E4WT24, 112, 272
+	Patch E4WT24, 208, 304
+	Patch E4WT24, 112, 304
+	Patch E4WT24, 160, 272
+	Patch E4WT24, 176, 256
+	Patch E4WT24, 96, 144
+	Patch E4WT27D, 16, 64
+	Patch E4WT27D, 128, 144
+	Patch E4WT27D, 240, 224
+	Patch E4WT37D, 96, 48
+	Patch E4WT31D, 32, 16
+	Patch E4WT31D, 160, 208
+	Patch E4WT14, 32, 0
+	Patch E4WT32D, 160, 32
+	Patch E4WT32D, 176, 32
+	Patch E4WT29D, 160, 144
+	Patch E4WT29D, 16, 272
+	Patch E4WT29D, 48, 64
+	Patch E4WT26D, 128, 32
+	Patch E4WT31D, 144, 32
+	Patch E4WT28D, 144, 144
+	Patch E4WT28D, 0, 272
+	Patch E4WT28D, 32, 64
+	Patch E4WT21, 144, 96
+	Patch E4WT21, 144, 64
+	Patch E4WT21, 144, 128
+	Patch E4WT21, 32, 48
+	Patch E4WT21, 144, 48
+	Patch E4WT21, 144, 112
+	Patch E4WT21, 32, 32
+	Patch E4WT21, 144, 80
+	Patch E4WT21, 0, 240
+	Patch E4WT21, 0, 256
+	Patch E4WT22, 176, 96
+	Patch E4WT22, 176, 64
+	Patch E4WT22, 176, 128
+	Patch E4WT22, 64, 48
+	Patch E4WT22, 176, 48
+	Patch E4WT22, 176, 112
+	Patch E4WT22, 64, 32
+	Patch E4WT22, 176, 80
+	Patch E4WT22, 32, 240
+	Patch E4WT22, 32, 256
+	Patch E4WT17, 0, 64
+	Patch E4WT17, 112, 144
+	Patch E4WT17, 96, 160
+	Patch E4WT17, 80, 176
+	Patch E4WT17, 64, 192
+	Patch E4WT17, 160, 288
+	Patch E4WT17, 144, 304
+	Patch E4WT17, 176, 272
+	Patch E4WT17, 192, 256
+	Patch E4WT17, 224, 224
+	Patch E4WT17, 48, 208
+	Patch E4WT17, 80, 48
+	Patch E4WT17, 224, 96
+	Patch E4WT17, 192, 128
+	Patch E4WT17, 208, 112
+	Patch E4WT17, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT17, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT17, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT17, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT17, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT17, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT17, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT17, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT17, 112, 16
+	Patch E4WT17, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT17, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT18, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT18, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT35D, 112, 176
+	Patch E4WT35D, 128, 192
+	Patch E4WT35D, 192, 224
+	Patch E4WT35D, 64, 288
+	Patch E4WT35D, 80, 304
+	Patch E4WT35D, 208, 240
+	Patch E4WT35D, 224, 256
+	Patch E4WT18, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT18, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT18, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT18, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT18, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT18, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT18, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT18, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT18, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT18, 208, 32
+	Patch E4WT18, 224, 48
+	Patch E4WT18, 96, 16
+	Patch E4WT18, 128, 176
+	Patch E4WT18, 144, 192
+	Patch E4WT18, 192, 208
+	Patch E4WT18, 64, 272
+	Patch E4WT18, 80, 288
+	Patch E4WT18, 96, 304
+	Patch E4WT18, 208, 224
+	Patch E4WT18, 240, 256
+	Patch E4WT18, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT18, 240, 64
+	Patch E4WT33D, 192, 32
+	Patch E4WT32D, 32, 224
+	Patch E4WT32D, 16, 224
+	Patch E4WT32D, 0, 224
+	Patch E4WT26D, 240, 272
+}
+
+Texture EWT4WAL2, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT20, 128, 0
+	Patch E4WT20, 16, 0
+	Patch E4WT44A, 176, 144
+	Patch E4WT44A, 32, 272
+	Patch E4WT44A, 64, 64
+	Patch E4WT20, 48, 0
+	Patch E4WT20, 80, 0
+	Patch E4WT20, 64, 0
+	Patch E4WT20, 96, 0
+	Patch E4WT20, 112, 0
+	Patch E4WT20, 160, 0
+	Patch E4WT20, 176, 0
+	Patch E4WT20, 192, 0
+	Patch E4WT20, 208, 0
+	Patch E4WT20, 224, 0
+	Patch E4WT20, 240, 0
+	Patch E4WT47A, 0, 0
+	Patch E4WT48A, 144, 0
+	Patch E4WT12A, 160, 96
+	Patch E4WT12A, 160, 64
+	Patch E4WT12A, 160, 128
+	Patch E4WT12A, 48, 48
+	Patch E4WT12A, 160, 48
+	Patch E4WT12A, 160, 112
+	Patch E4WT12A, 48, 32
+	Patch E4WT12A, 160, 80
+	Patch E4WT12A, 16, 240
+	Patch E4WT12A, 16, 256
+	Patch E4WT38A, 16, 16
+	Patch E4WT38A, 144, 208
+	Patch E4WT45A, 80, 16
+	Patch E4WT45A, 176, 208
+	Patch E4WT45A, 48, 272
+	Patch E4WT47A, 96, 32
+	Patch E4WT47A, 208, 48
+	Patch E4WT47A, 224, 64
+	Patch E4WT47A, 240, 80
+	Patch E4WT48A, 128, 16
+	Patch E4WT48A, 0, 80
+	Patch E4WT48A, 112, 160
+	Patch E4WT48A, 96, 176
+	Patch E4WT48A, 80, 192
+	Patch E4WT48A, 176, 288
+	Patch E4WT48A, 208, 256
+	Patch E4WT48A, 64, 208
+	Patch E4WT48A, 160, 304
+	Patch E4WT48A, 192, 272
+	Patch E4WT48A, 224, 240
+	Patch E4WT48A, 240, 96
+	Patch E4WT48A, 208, 128
+	Patch E4WT48A, 224, 112
+	Patch E4WT48A, 112, 32
+	Patch E4WT44A, 48, 16
+	Patch E4WT44A, 64, 16
+	Patch E4WT46A, 80, 64
+	Patch E4WT46A, 192, 144
+	Patch E4WT46A, 48, 224
+	Patch E4WT20, 0, 32
+	Patch E4WT20, 0, 112
+	Patch E4WT20, 32, 96
+	Patch E4WT20, 0, 144
+	Patch E4WT20, 0, 192
+	Patch E4WT20, 0, 288
+	Patch E4WT20, 144, 176
+	Patch E4WT20, 176, 176
+	Patch E4WT20, 176, 192
+	Patch E4WT20, 208, 192
+	Patch E4WT20, 208, 208
+	Patch E4WT20, 224, 144
+	Patch E4WT20, 32, 128
+	Patch E4WT20, 80, 80
+	Patch E4WT20, 80, 96
+	Patch E4WT20, 80, 112
+	Patch E4WT20, 112, 224
+	Patch E4WT20, 112, 208
+	Patch E4WT20, 160, 224
+	Patch E4WT20, 112, 64
+	Patch E4WT20, 112, 96
+	Patch E4WT20, 112, 80
+	Patch E4WT20, 112, 112
+	Patch E4WT20, 112, 128
+	Patch E4WT20, 128, 48
+	Patch E4WT50A, 128, 64
+	Patch E4WT20, 128, 96
+	Patch E4WT20, 128, 80
+	Patch E4WT20, 128, 112
+	Patch E4WT20, 128, 128
+	Patch E4WT20, 96, 80
+	Patch E4WT20, 64, 80
+	Patch E4WT20, 16, 96
+	Patch E4WT20, 16, 112
+	Patch E4WT20, 48, 96
+	Patch E4WT20, 64, 96
+	Patch E4WT20, 16, 144
+	Patch E4WT20, 16, 192
+	Patch E4WT20, 16, 288
+	Patch E4WT20, 160, 176
+	Patch E4WT20, 160, 192
+	Patch E4WT50A, 192, 176
+	Patch E4WT20, 192, 192
+	Patch E4WT20, 208, 176
+	Patch E4WT20, 224, 192
+	Patch E4WT20, 224, 208
+	Patch E4WT20, 240, 144
+	Patch E4WT20, 240, 176
+	Patch E4WT20, 240, 192
+	Patch E4WT20, 240, 208
+	Patch E4WT20, 32, 192
+	Patch E4WT20, 32, 288
+	Patch E4WT20, 48, 192
+	Patch E4WT20, 48, 128
+	Patch E4WT20, 80, 240
+	Patch E4WT20, 48, 240
+	Patch E4WT20, 128, 240
+	Patch E4WT20, 64, 128
+	Patch E4WT20, 96, 240
+	Patch E4WT50A, 64, 240
+	Patch E4WT20, 144, 240
+	Patch E4WT20, 80, 128
+	Patch E4WT20, 160, 240
+	Patch E4WT20, 176, 240
+	Patch E4WT20, 96, 128
+	Patch E4WT20, 32, 80
+	Patch E4WT20, 48, 80
+	Patch E4WT20, 160, 16
+	Patch E4WT50A, 192, 16
+	Patch E4WT20, 192, 80
+	Patch E4WT20, 208, 80
+	Patch E4WT20, 192, 96
+	Patch E4WT20, 208, 96
+	Patch E4WT20, 176, 16
+	Patch E4WT20, 208, 16
+	Patch E4WT50A, 224, 16
+	Patch E4WT50B, 96, 96
+	Patch E4WT50B, 224, 160
+	Patch E4WT20, 240, 16
+	Patch E4WT50B, 224, 32
+	Patch E4WT50B, 192, 64
+	Patch E4WT50B, 96, 112
+	Patch E4WT50B, 224, 176
+	Patch E4WT50B, 16, 128
+	Patch E4WT50B, 48, 176
+	Patch E4WT50B, 112, 240
+	Patch E4WT50A, 112, 256
+	Patch E4WT50B, 96, 288
+	Patch E4WT50B, 160, 256
+	Patch E4WT50B, 224, 288
+	Patch E4WT50B, 192, 112
+	Patch E4WT20, 240, 32
+	Patch E4WT20, 240, 48
+	Patch E4WT20, 0, 48
+	Patch E4WT20, 0, 128
+	Patch E4WT20, 0, 176
+	Patch E4WT20, 144, 160
+	Patch E4WT20, 176, 160
+	Patch E4WT20, 32, 112
+	Patch E4WT20, 0, 160
+	Patch E4WT50A, 0, 208
+	Patch E4WT20, 0, 304
+	Patch E4WT20, 32, 144
+	Patch E4WT20, 16, 32
+	Patch E4WT20, 16, 48
+	Patch E4WT20, 16, 176
+	Patch E4WT20, 160, 160
+	Patch E4WT20, 192, 160
+	Patch E4WT20, 208, 160
+	Patch E4WT20, 240, 128
+	Patch E4WT20, 240, 160
+	Patch E4WT20, 32, 176
+	Patch E4WT20, 64, 176
+	Patch E4WT50A, 48, 112
+	Patch E4WT20, 80, 224
+	Patch E4WT20, 128, 224
+	Patch E4WT50A, 64, 112
+	Patch E4WT20, 96, 224
+	Patch E4WT50A, 96, 208
+	Patch E4WT20, 144, 224
+	Patch E4WT50A, 16, 160
+	Patch E4WT20, 32, 160
+	Patch E4WT20, 48, 160
+	Patch E4WT20, 64, 160
+	Patch E4WT50A, 80, 160
+	Patch E4WT20, 16, 208
+	Patch E4WT20, 16, 304
+	Patch E4WT20, 32, 208
+	Patch E4WT20, 32, 304
+	Patch E4WT20, 48, 304
+	Patch E4WT20, 48, 144
+	Patch E4WT20, 80, 256
+	Patch E4WT20, 80, 272
+	Patch E4WT20, 48, 256
+	Patch E4WT20, 128, 256
+	Patch E4WT20, 128, 288
+	Patch E4WT20, 128, 272
+	Patch E4WT20, 224, 304
+	Patch E4WT20, 128, 304
+	Patch E4WT20, 64, 144
+	Patch E4WT20, 96, 256
+	Patch E4WT20, 96, 272
+	Patch E4WT20, 192, 304
+	Patch E4WT20, 64, 256
+	Patch E4WT20, 144, 256
+	Patch E4WT20, 240, 288
+	Patch E4WT20, 144, 288
+	Patch E4WT20, 144, 272
+	Patch E4WT20, 240, 304
+	Patch E4WT20, 80, 144
+	Patch E4WT20, 208, 288
+	Patch E4WT20, 112, 288
+	Patch E4WT20, 112, 272
+	Patch E4WT20, 208, 304
+	Patch E4WT20, 112, 304
+	Patch E4WT20, 160, 272
+	Patch E4WT20, 176, 256
+	Patch E4WT20, 96, 144
+	Patch E4WT39A, 16, 64
+	Patch E4WT39A, 128, 144
+	Patch E4WT39A, 240, 224
+	Patch E4WT48A, 96, 48
+	Patch E4WT43A, 32, 16
+	Patch E4WT43A, 160, 208
+	Patch E4WT20, 32, 0
+	Patch E4WT44A, 160, 32
+	Patch E4WT44A, 176, 32
+	Patch E4WT41A, 160, 144
+	Patch E4WT41A, 16, 272
+	Patch E4WT41A, 48, 64
+	Patch E4WT38A, 128, 32
+	Patch E4WT43A, 144, 32
+	Patch E4WT44A, 144, 144
+	Patch E4WT44A, 0, 272
+	Patch E4WT44A, 32, 64
+	Patch E4WT20, 144, 96
+	Patch E4WT20, 144, 64
+	Patch E4WT20, 144, 128
+	Patch E4WT20, 32, 48
+	Patch E4WT20, 144, 48
+	Patch E4WT20, 144, 112
+	Patch E4WT20, 32, 32
+	Patch E4WT20, 144, 80
+	Patch E4WT20, 0, 240
+	Patch E4WT20, 0, 256
+	Patch E4WT20, 176, 96
+	Patch E4WT20, 176, 64
+	Patch E4WT20, 176, 128
+	Patch E4WT20, 64, 48
+	Patch E4WT20, 176, 48
+	Patch E4WT20, 176, 112
+	Patch E4WT20, 64, 32
+	Patch E4WT20, 176, 80
+	Patch E4WT20, 32, 240
+	Patch E4WT20, 32, 256
+	Patch E4WT20, 0, 64
+	Patch E4WT20, 112, 144
+	Patch E4WT20, 96, 160
+	Patch E4WT20, 80, 176
+	Patch E4WT20, 64, 192
+	Patch E4WT20, 160, 288
+	Patch E4WT20, 144, 304
+	Patch E4WT20, 176, 272
+	Patch E4WT20, 192, 256
+	Patch E4WT20, 224, 224
+	Patch E4WT20, 48, 208
+	Patch E4WT20, 80, 48
+	Patch E4WT20, 224, 96
+	Patch E4WT20, 192, 128
+	Patch E4WT20, 208, 112
+	Patch E4WT20, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 16
+	Patch E4WT20, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT20, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT47A, 112, 176
+	Patch E4WT47A, 128, 192
+	Patch E4WT47A, 192, 224
+	Patch E4WT47A, 64, 288
+	Patch E4WT47A, 80, 304
+	Patch E4WT47A, 208, 240
+	Patch E4WT47A, 224, 256
+	Patch E4WT20, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT20, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT20, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 32
+	Patch E4WT20, 224, 48
+	Patch E4WT20, 96, 16
+	Patch E4WT20, 128, 176
+	Patch E4WT20, 144, 192
+	Patch E4WT20, 192, 208
+	Patch E4WT20, 64, 272
+	Patch E4WT20, 80, 288
+	Patch E4WT20, 96, 304
+	Patch E4WT20, 208, 224
+	Patch E4WT20, 240, 256
+	Patch E4WT20, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 64
+	Patch E4WT45A, 192, 32
+	Patch E4WT44A, 32, 224
+	Patch E4WT44A, 16, 224
+	Patch E4WT44A, 0, 224
+	Patch E4WT38A, 240, 272
+}
+
+Texture EWT4WL2A, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT20, 128, 0
+	Patch E4WT20, 16, 0
+	Patch E4WT44A, 176, 144
+	Patch E4WT44A, 32, 272
+	Patch E4WT44A, 64, 64
+	Patch E4WT20, 48, 0
+	Patch E4WT20, 80, 0
+	Patch E4WT20, 64, 0
+	Patch E4WT20, 96, 0
+	Patch E4WT20, 112, 0
+	Patch E4WT20, 160, 0
+	Patch E4WT20, 176, 0
+	Patch E4WT20, 192, 0
+	Patch E4WT20, 208, 0
+	Patch E4WT20, 224, 0
+	Patch E4WT20, 240, 0
+	Patch E4WT47A, 0, 0
+	Patch E4WT48A, 144, 0
+	Patch E4WT12A, 160, 96
+	Patch E4WT12A, 160, 64
+	Patch E4WT12A, 160, 128
+	Patch E4WT12A, 48, 48
+	Patch E4WT12A, 160, 48
+	Patch E4WT12A, 160, 112
+	Patch E4WT12A, 48, 32
+	Patch E4WT12A, 160, 80
+	Patch E4WT12A, 16, 240
+	Patch E4WT12A, 16, 256
+	Patch E4WT38A, 16, 16
+	Patch E4WT38A, 144, 208
+	Patch E4WT45A, 80, 16
+	Patch E4WT45A, 176, 208
+	Patch E4WT45A, 48, 272
+	Patch E4WT47A, 96, 32
+	Patch E4WT47A, 208, 48
+	Patch E4WT47A, 224, 64
+	Patch E4WT47A, 240, 80
+	Patch E4WT48A, 128, 16
+	Patch E4WT48A, 0, 80
+	Patch E4WT48A, 112, 160
+	Patch E4WT48A, 96, 176
+	Patch E4WT48A, 80, 192
+	Patch E4WT48A, 176, 288
+	Patch E4WT48A, 208, 256
+	Patch E4WT48A, 64, 208
+	Patch E4WT48A, 160, 304
+	Patch E4WT48A, 192, 272
+	Patch E4WT48A, 224, 240
+	Patch E4WT48A, 240, 96
+	Patch E4WT48A, 208, 128
+	Patch E4WT48A, 224, 112
+	Patch E4WT48A, 112, 32
+	Patch E4WT44A, 48, 16
+	Patch E4WT44A, 64, 16
+	Patch E4WT46A, 80, 64
+	Patch E4WT46A, 192, 144
+	Patch E4WT46A, 48, 224
+	Patch E4WT20, 0, 32
+	Patch E4WT20, 0, 112
+	Patch E4WT20, 32, 96
+	Patch E4WT20, 0, 144
+	Patch E4WT20, 0, 192
+	Patch E4WT20, 0, 288
+	Patch E4WT20, 144, 176
+	Patch E4WT20, 176, 176
+	Patch E4WT20, 176, 192
+	Patch E4WT20, 208, 192
+	Patch E4WT20, 208, 208
+	Patch E4WT20, 224, 144
+	Patch E4WT20, 32, 128
+	Patch E4WT20, 80, 80
+	Patch E4WT20, 80, 96
+	Patch E4WT20, 80, 112
+	Patch E4WT20, 112, 224
+	Patch E4WT20, 112, 208
+	Patch E4WT20, 160, 224
+	Patch E4WT20, 112, 64
+	Patch E4WT20, 112, 96
+	Patch E4WT20, 112, 80
+	Patch E4WT20, 112, 112
+	Patch E4WT20, 112, 128
+	Patch E4WT20, 128, 48
+	Patch E4WT50A, 128, 64
+	Patch E4WT20, 128, 96
+	Patch E4WT20, 128, 80
+	Patch E4WT20, 128, 112
+	Patch E4WT20, 128, 128
+	Patch E4WT20, 96, 80
+	Patch E4WT20, 64, 80
+	Patch E4WT20, 16, 96
+	Patch E4WT20, 16, 112
+	Patch E4WT20, 48, 96
+	Patch E4WT20, 64, 96
+	Patch E4WT20, 16, 144
+	Patch E4WT20, 16, 192
+	Patch E4WT20, 16, 288
+	Patch E4WT20, 160, 176
+	Patch E4WT20, 160, 192
+	Patch E4WT50A, 192, 176
+	Patch E4WT20, 192, 192
+	Patch E4WT20, 208, 176
+	Patch E4WT20, 224, 192
+	Patch E4WT20, 224, 208
+	Patch E4WT20, 240, 144
+	Patch E4WT20, 240, 176
+	Patch E4WT20, 240, 192
+	Patch E4WT20, 240, 208
+	Patch E4WT20, 32, 192
+	Patch E4WT20, 32, 288
+	Patch E4WT20, 48, 192
+	Patch E4WT20, 48, 128
+	Patch E4WT20, 80, 240
+	Patch E4WT20, 48, 240
+	Patch E4WT20, 128, 240
+	Patch E4WT20, 64, 128
+	Patch E4WT20, 96, 240
+	Patch E4WT50A, 64, 240
+	Patch E4WT20, 144, 240
+	Patch E4WT20, 80, 128
+	Patch E4WT20, 160, 240
+	Patch E4WT20, 176, 240
+	Patch E4WT20, 96, 128
+	Patch E4WT20, 32, 80
+	Patch E4WT20, 48, 80
+	Patch E4WT20, 160, 16
+	Patch E4WT50A, 192, 16
+	Patch E4WT20, 192, 80
+	Patch E4WT20, 208, 80
+	Patch E4WT20, 192, 96
+	Patch E4WT20, 208, 96
+	Patch E4WT20, 176, 16
+	Patch E4WT20, 208, 16
+	Patch E4WT50A, 224, 16
+	Patch E4WT50B, 96, 96
+	Patch E4WT50B, 224, 160
+	Patch E4WT20, 240, 16
+	Patch E4WT50B, 224, 32
+	Patch E4WT50B, 192, 64
+	Patch E4WT50B, 96, 112
+	Patch E4WT50B, 224, 176
+	Patch E4WT50B, 16, 128
+	Patch E4WT50B, 48, 176
+	Patch E4WT50B, 112, 240
+	Patch E4WT50A, 112, 256
+	Patch E4WT50B, 96, 288
+	Patch E4WT50B, 160, 256
+	Patch E4WT50B, 224, 288
+	Patch E4WT50B, 192, 112
+	Patch E4WT20, 240, 32
+	Patch E4WT20, 240, 48
+	Patch E4WT20, 0, 48
+	Patch E4WT20, 0, 128
+	Patch E4WT20, 0, 176
+	Patch E4WT20, 144, 160
+	Patch E4WT20, 176, 160
+	Patch E4WT20, 32, 112
+	Patch E4WT20, 0, 160
+	Patch E4WT50A, 0, 208
+	Patch E4WT20, 0, 304
+	Patch E4WT20, 32, 144
+	Patch E4WT20, 16, 32
+	Patch E4WT20, 16, 48
+	Patch E4WT20, 16, 176
+	Patch E4WT20, 160, 160
+	Patch E4WT20, 192, 160
+	Patch E4WT20, 208, 160
+	Patch E4WT20, 240, 128
+	Patch E4WT20, 240, 160
+	Patch E4WT20, 32, 176
+	Patch E4WT20, 64, 176
+	Patch E4WT50A, 48, 112
+	Patch E4WT20, 80, 224
+	Patch E4WT20, 128, 224
+	Patch E4WT50A, 64, 112
+	Patch E4WT20, 96, 224
+	Patch E4WT50A, 96, 208
+	Patch E4WT20, 144, 224
+	Patch E4WT50A, 16, 160
+	Patch E4WT20, 32, 160
+	Patch E4WT20, 48, 160
+	Patch E4WT20, 64, 160
+	Patch E4WT50A, 80, 160
+	Patch E4WT20, 16, 208
+	Patch E4WT20, 16, 304
+	Patch E4WT20, 32, 208
+	Patch E4WT20, 32, 304
+	Patch E4WT20, 48, 304
+	Patch E4WT20, 48, 144
+	Patch E4WT20, 80, 256
+	Patch E4WT20, 80, 272
+	Patch E4WT20, 48, 256
+	Patch E4WT20, 128, 256
+	Patch E4WT20, 128, 288
+	Patch E4WT20, 128, 272
+	Patch E4WT20, 224, 304
+	Patch E4WT20, 128, 304
+	Patch E4WT20, 64, 144
+	Patch E4WT20, 96, 256
+	Patch E4WT20, 96, 272
+	Patch E4WT20, 192, 304
+	Patch E4WT20, 64, 256
+	Patch E4WT20, 144, 256
+	Patch E4WT20, 240, 288
+	Patch E4WT20, 144, 288
+	Patch E4WT20, 144, 272
+	Patch E4WT20, 240, 304
+	Patch E4WT20, 80, 144
+	Patch E4WT20, 208, 288
+	Patch E4WT20, 112, 288
+	Patch E4WT20, 112, 272
+	Patch E4WT20, 208, 304
+	Patch E4WT20, 112, 304
+	Patch E4WT20, 160, 272
+	Patch E4WT20, 176, 256
+	Patch E4WT20, 96, 144
+	Patch E4WT39A, 16, 64
+	Patch E4WT39A, 128, 144
+	Patch E4WT39A, 240, 224
+	Patch E4WT48A, 96, 48
+	Patch E4WT43A, 32, 16
+	Patch E4WT43A, 160, 208
+	Patch E4WT20, 32, 0
+	Patch E4WT44A, 160, 32
+	Patch E4WT44A, 176, 32
+	Patch E4WT41A, 160, 144
+	Patch E4WT41A, 16, 272
+	Patch E4WT41A, 48, 64
+	Patch E4WT38A, 128, 32
+	Patch E4WT43A, 144, 32
+	Patch E4WT44A, 144, 144
+	Patch E4WT44A, 0, 272
+	Patch E4WT44A, 32, 64
+	Patch E4WT20, 144, 96
+	Patch E4WT20, 144, 64
+	Patch E4WT20, 144, 128
+	Patch E4WT20, 32, 48
+	Patch E4WT20, 144, 48
+	Patch E4WT20, 144, 112
+	Patch E4WT20, 32, 32
+	Patch E4WT20, 144, 80
+	Patch E4WT20, 0, 240
+	Patch E4WT20, 0, 256
+	Patch E4WT20, 176, 96
+	Patch E4WT20, 176, 64
+	Patch E4WT20, 176, 128
+	Patch E4WT20, 64, 48
+	Patch E4WT20, 176, 48
+	Patch E4WT20, 176, 112
+	Patch E4WT20, 64, 32
+	Patch E4WT20, 176, 80
+	Patch E4WT20, 32, 240
+	Patch E4WT20, 32, 256
+	Patch E4WT20, 0, 64
+	Patch E4WT20, 112, 144
+	Patch E4WT20, 96, 160
+	Patch E4WT20, 80, 176
+	Patch E4WT20, 64, 192
+	Patch E4WT20, 160, 288
+	Patch E4WT20, 144, 304
+	Patch E4WT20, 176, 272
+	Patch E4WT20, 192, 256
+	Patch E4WT20, 224, 224
+	Patch E4WT20, 48, 208
+	Patch E4WT20, 80, 48
+	Patch E4WT20, 224, 96
+	Patch E4WT20, 192, 128
+	Patch E4WT20, 208, 112
+	Patch E4WT20, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 16
+	Patch E4WT20, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT20, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT47A, 112, 176
+	Patch E4WT47A, 128, 192
+	Patch E4WT47A, 192, 224
+	Patch E4WT47A, 64, 288
+	Patch E4WT47A, 80, 304
+	Patch E4WT47A, 208, 240
+	Patch E4WT47A, 224, 256
+	Patch E4WT20, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT20, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT20, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 32
+	Patch E4WT20, 224, 48
+	Patch E4WT20, 96, 16
+	Patch E4WT20, 128, 176
+	Patch E4WT20, 144, 192
+	Patch E4WT20, 192, 208
+	Patch E4WT20, 64, 272
+	Patch E4WT20, 80, 288
+	Patch E4WT20, 96, 304
+	Patch E4WT20, 208, 224
+	Patch E4WT20, 240, 256
+	Patch E4WT20, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 64
+	Patch E4WT45A, 192, 32
+	Patch E4WT44A, 32, 224
+	Patch E4WT44A, 16, 224
+	Patch E4WT44A, 0, 224
+	Patch E4WT38A, 240, 272
+}
+
+Texture EWT4WL2B, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT20, 128, 0
+	Patch E4WT20, 16, 0
+	Patch E4WT44B, 176, 144
+	Patch E4WT44B, 32, 272
+	Patch E4WT44B, 64, 64
+	Patch E4WT20, 48, 0
+	Patch E4WT20, 80, 0
+	Patch E4WT20, 64, 0
+	Patch E4WT20, 96, 0
+	Patch E4WT20, 112, 0
+	Patch E4WT20, 160, 0
+	Patch E4WT20, 176, 0
+	Patch E4WT20, 192, 0
+	Patch E4WT20, 208, 0
+	Patch E4WT20, 224, 0
+	Patch E4WT20, 240, 0
+	Patch E4WT47B, 0, 0
+	Patch E4WT48B, 144, 0
+	Patch E4WT12A, 160, 96
+	Patch E4WT12A, 160, 64
+	Patch E4WT12A, 160, 128
+	Patch E4WT12A, 48, 48
+	Patch E4WT12A, 160, 48
+	Patch E4WT12A, 160, 112
+	Patch E4WT12A, 48, 32
+	Patch E4WT12A, 160, 80
+	Patch E4WT12A, 16, 240
+	Patch E4WT12A, 16, 256
+	Patch E4WT38B, 16, 16
+	Patch E4WT38B, 144, 208
+	Patch E4WT45B, 80, 16
+	Patch E4WT45B, 176, 208
+	Patch E4WT45B, 48, 272
+	Patch E4WT47B, 96, 32
+	Patch E4WT47B, 208, 48
+	Patch E4WT47B, 224, 64
+	Patch E4WT47B, 240, 80
+	Patch E4WT48B, 128, 16
+	Patch E4WT48B, 0, 80
+	Patch E4WT48B, 112, 160
+	Patch E4WT48B, 96, 176
+	Patch E4WT48B, 80, 192
+	Patch E4WT48B, 176, 288
+	Patch E4WT48B, 208, 256
+	Patch E4WT48B, 64, 208
+	Patch E4WT48B, 160, 304
+	Patch E4WT48B, 192, 272
+	Patch E4WT48B, 224, 240
+	Patch E4WT48B, 240, 96
+	Patch E4WT48B, 208, 128
+	Patch E4WT48B, 224, 112
+	Patch E4WT48B, 112, 32
+	Patch E4WT44B, 48, 16
+	Patch E4WT44B, 64, 16
+	Patch E4WT46B, 80, 64
+	Patch E4WT46B, 192, 144
+	Patch E4WT46B, 48, 224
+	Patch E4WT20, 0, 32
+	Patch E4WT20, 0, 112
+	Patch E4WT20, 32, 96
+	Patch E4WT20, 0, 144
+	Patch E4WT20, 0, 192
+	Patch E4WT20, 0, 288
+	Patch E4WT20, 144, 176
+	Patch E4WT20, 176, 176
+	Patch E4WT20, 176, 192
+	Patch E4WT20, 208, 192
+	Patch E4WT20, 208, 208
+	Patch E4WT20, 224, 144
+	Patch E4WT20, 32, 128
+	Patch E4WT20, 80, 80
+	Patch E4WT20, 80, 96
+	Patch E4WT20, 80, 112
+	Patch E4WT20, 112, 224
+	Patch E4WT20, 112, 208
+	Patch E4WT20, 160, 224
+	Patch E4WT20, 112, 64
+	Patch E4WT20, 112, 96
+	Patch E4WT20, 112, 80
+	Patch E4WT20, 112, 112
+	Patch E4WT20, 112, 128
+	Patch E4WT20, 128, 48
+	Patch E4WT50A, 128, 64
+	Patch E4WT20, 128, 96
+	Patch E4WT20, 128, 80
+	Patch E4WT20, 128, 112
+	Patch E4WT20, 128, 128
+	Patch E4WT20, 96, 80
+	Patch E4WT20, 64, 80
+	Patch E4WT20, 16, 96
+	Patch E4WT20, 16, 112
+	Patch E4WT20, 48, 96
+	Patch E4WT20, 64, 96
+	Patch E4WT20, 16, 144
+	Patch E4WT20, 16, 192
+	Patch E4WT20, 16, 288
+	Patch E4WT20, 160, 176
+	Patch E4WT20, 160, 192
+	Patch E4WT50A, 192, 176
+	Patch E4WT20, 192, 192
+	Patch E4WT20, 208, 176
+	Patch E4WT20, 224, 192
+	Patch E4WT20, 224, 208
+	Patch E4WT20, 240, 144
+	Patch E4WT20, 240, 176
+	Patch E4WT20, 240, 192
+	Patch E4WT20, 240, 208
+	Patch E4WT20, 32, 192
+	Patch E4WT20, 32, 288
+	Patch E4WT20, 48, 192
+	Patch E4WT20, 48, 128
+	Patch E4WT20, 80, 240
+	Patch E4WT20, 48, 240
+	Patch E4WT20, 128, 240
+	Patch E4WT20, 64, 128
+	Patch E4WT20, 96, 240
+	Patch E4WT50A, 64, 240
+	Patch E4WT20, 144, 240
+	Patch E4WT20, 80, 128
+	Patch E4WT20, 160, 240
+	Patch E4WT20, 176, 240
+	Patch E4WT20, 96, 128
+	Patch E4WT20, 32, 80
+	Patch E4WT20, 48, 80
+	Patch E4WT20, 160, 16
+	Patch E4WT50A, 192, 16
+	Patch E4WT20, 192, 80
+	Patch E4WT20, 208, 80
+	Patch E4WT20, 192, 96
+	Patch E4WT20, 208, 96
+	Patch E4WT20, 176, 16
+	Patch E4WT20, 208, 16
+	Patch E4WT50A, 224, 16
+	Patch E4WT50B, 96, 96
+	Patch E4WT50B, 224, 160
+	Patch E4WT20, 240, 16
+	Patch E4WT50B, 224, 32
+	Patch E4WT50B, 192, 64
+	Patch E4WT50B, 96, 112
+	Patch E4WT50B, 224, 176
+	Patch E4WT50B, 16, 128
+	Patch E4WT50B, 48, 176
+	Patch E4WT50B, 112, 240
+	Patch E4WT50A, 112, 256
+	Patch E4WT50B, 96, 288
+	Patch E4WT50B, 160, 256
+	Patch E4WT50B, 224, 288
+	Patch E4WT50B, 192, 112
+	Patch E4WT20, 240, 32
+	Patch E4WT20, 240, 48
+	Patch E4WT20, 0, 48
+	Patch E4WT20, 0, 128
+	Patch E4WT20, 0, 176
+	Patch E4WT20, 144, 160
+	Patch E4WT20, 176, 160
+	Patch E4WT20, 32, 112
+	Patch E4WT20, 0, 160
+	Patch E4WT50A, 0, 208
+	Patch E4WT20, 0, 304
+	Patch E4WT20, 32, 144
+	Patch E4WT20, 16, 32
+	Patch E4WT20, 16, 48
+	Patch E4WT20, 16, 176
+	Patch E4WT20, 160, 160
+	Patch E4WT20, 192, 160
+	Patch E4WT20, 208, 160
+	Patch E4WT20, 240, 128
+	Patch E4WT20, 240, 160
+	Patch E4WT20, 32, 176
+	Patch E4WT20, 64, 176
+	Patch E4WT50A, 48, 112
+	Patch E4WT20, 80, 224
+	Patch E4WT20, 128, 224
+	Patch E4WT50A, 64, 112
+	Patch E4WT20, 96, 224
+	Patch E4WT50A, 96, 208
+	Patch E4WT20, 144, 224
+	Patch E4WT50A, 16, 160
+	Patch E4WT20, 32, 160
+	Patch E4WT20, 48, 160
+	Patch E4WT20, 64, 160
+	Patch E4WT50A, 80, 160
+	Patch E4WT20, 16, 208
+	Patch E4WT20, 16, 304
+	Patch E4WT20, 32, 208
+	Patch E4WT20, 32, 304
+	Patch E4WT20, 48, 304
+	Patch E4WT20, 48, 144
+	Patch E4WT20, 80, 256
+	Patch E4WT20, 80, 272
+	Patch E4WT20, 48, 256
+	Patch E4WT20, 128, 256
+	Patch E4WT20, 128, 288
+	Patch E4WT20, 128, 272
+	Patch E4WT20, 224, 304
+	Patch E4WT20, 128, 304
+	Patch E4WT20, 64, 144
+	Patch E4WT20, 96, 256
+	Patch E4WT20, 96, 272
+	Patch E4WT20, 192, 304
+	Patch E4WT20, 64, 256
+	Patch E4WT20, 144, 256
+	Patch E4WT20, 240, 288
+	Patch E4WT20, 144, 288
+	Patch E4WT20, 144, 272
+	Patch E4WT20, 240, 304
+	Patch E4WT20, 80, 144
+	Patch E4WT20, 208, 288
+	Patch E4WT20, 112, 288
+	Patch E4WT20, 112, 272
+	Patch E4WT20, 208, 304
+	Patch E4WT20, 112, 304
+	Patch E4WT20, 160, 272
+	Patch E4WT20, 176, 256
+	Patch E4WT20, 96, 144
+	Patch E4WT39B, 16, 64
+	Patch E4WT39B, 128, 144
+	Patch E4WT39B, 240, 224
+	Patch E4WT48B, 96, 48
+	Patch E4WT43B, 32, 16
+	Patch E4WT43B, 160, 208
+	Patch E4WT20, 32, 0
+	Patch E4WT44B, 160, 32
+	Patch E4WT44B, 176, 32
+	Patch E4WT41B, 160, 144
+	Patch E4WT41B, 16, 272
+	Patch E4WT41B, 48, 64
+	Patch E4WT38B, 128, 32
+	Patch E4WT43B, 144, 32
+	Patch E4WT44B, 144, 144
+	Patch E4WT44B, 0, 272
+	Patch E4WT44B, 32, 64
+	Patch E4WT20, 144, 96
+	Patch E4WT20, 144, 64
+	Patch E4WT20, 144, 128
+	Patch E4WT20, 32, 48
+	Patch E4WT20, 144, 48
+	Patch E4WT20, 144, 112
+	Patch E4WT20, 32, 32
+	Patch E4WT20, 144, 80
+	Patch E4WT20, 0, 240
+	Patch E4WT20, 0, 256
+	Patch E4WT20, 176, 96
+	Patch E4WT20, 176, 64
+	Patch E4WT20, 176, 128
+	Patch E4WT20, 64, 48
+	Patch E4WT20, 176, 48
+	Patch E4WT20, 176, 112
+	Patch E4WT20, 64, 32
+	Patch E4WT20, 176, 80
+	Patch E4WT20, 32, 240
+	Patch E4WT20, 32, 256
+	Patch E4WT20, 0, 64
+	Patch E4WT20, 112, 144
+	Patch E4WT20, 96, 160
+	Patch E4WT20, 80, 176
+	Patch E4WT20, 64, 192
+	Patch E4WT20, 160, 288
+	Patch E4WT20, 144, 304
+	Patch E4WT20, 176, 272
+	Patch E4WT20, 192, 256
+	Patch E4WT20, 224, 224
+	Patch E4WT20, 48, 208
+	Patch E4WT20, 80, 48
+	Patch E4WT20, 224, 96
+	Patch E4WT20, 192, 128
+	Patch E4WT20, 208, 112
+	Patch E4WT20, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 16
+	Patch E4WT20, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT20, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT47B, 112, 176
+	Patch E4WT47B, 128, 192
+	Patch E4WT47B, 192, 224
+	Patch E4WT47B, 64, 288
+	Patch E4WT47B, 80, 304
+	Patch E4WT47B, 208, 240
+	Patch E4WT47B, 224, 256
+	Patch E4WT20, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT20, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT20, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 32
+	Patch E4WT20, 224, 48
+	Patch E4WT20, 96, 16
+	Patch E4WT20, 128, 176
+	Patch E4WT20, 144, 192
+	Patch E4WT20, 192, 208
+	Patch E4WT20, 64, 272
+	Patch E4WT20, 80, 288
+	Patch E4WT20, 96, 304
+	Patch E4WT20, 208, 224
+	Patch E4WT20, 240, 256
+	Patch E4WT20, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 64
+	Patch E4WT45B, 192, 32
+	Patch E4WT44B, 32, 224
+	Patch E4WT44B, 16, 224
+	Patch E4WT44B, 0, 224
+	Patch E4WT38B, 240, 272
+}
+
+Texture EWT4WL2C, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT20, 128, 0
+	Patch E4WT20, 16, 0
+	Patch E4WT44C, 176, 144
+	Patch E4WT44C, 32, 272
+	Patch E4WT44C, 64, 64
+	Patch E4WT20, 48, 0
+	Patch E4WT20, 80, 0
+	Patch E4WT20, 64, 0
+	Patch E4WT20, 96, 0
+	Patch E4WT20, 112, 0
+	Patch E4WT20, 160, 0
+	Patch E4WT20, 176, 0
+	Patch E4WT20, 192, 0
+	Patch E4WT20, 208, 0
+	Patch E4WT20, 224, 0
+	Patch E4WT20, 240, 0
+	Patch E4WT47C, 0, 0
+	Patch E4WT48C, 144, 0
+	Patch E4WT12A, 160, 96
+	Patch E4WT12A, 160, 64
+	Patch E4WT12A, 160, 128
+	Patch E4WT12A, 48, 48
+	Patch E4WT12A, 160, 48
+	Patch E4WT12A, 160, 112
+	Patch E4WT12A, 48, 32
+	Patch E4WT12A, 160, 80
+	Patch E4WT12A, 16, 240
+	Patch E4WT12A, 16, 256
+	Patch E4WT38C, 16, 16
+	Patch E4WT38C, 144, 208
+	Patch E4WT45C, 80, 16
+	Patch E4WT45C, 176, 208
+	Patch E4WT45C, 48, 272
+	Patch E4WT47C, 96, 32
+	Patch E4WT47C, 208, 48
+	Patch E4WT47C, 224, 64
+	Patch E4WT47C, 240, 80
+	Patch E4WT48C, 128, 16
+	Patch E4WT48C, 0, 80
+	Patch E4WT48C, 112, 160
+	Patch E4WT48C, 96, 176
+	Patch E4WT48C, 80, 192
+	Patch E4WT48C, 176, 288
+	Patch E4WT48C, 208, 256
+	Patch E4WT48C, 64, 208
+	Patch E4WT48C, 160, 304
+	Patch E4WT48C, 192, 272
+	Patch E4WT48C, 224, 240
+	Patch E4WT48C, 240, 96
+	Patch E4WT48C, 208, 128
+	Patch E4WT48C, 224, 112
+	Patch E4WT48C, 112, 32
+	Patch E4WT44C, 48, 16
+	Patch E4WT44C, 64, 16
+	Patch E4WT46C, 80, 64
+	Patch E4WT46C, 192, 144
+	Patch E4WT46C, 48, 224
+	Patch E4WT20, 0, 32
+	Patch E4WT20, 0, 112
+	Patch E4WT20, 32, 96
+	Patch E4WT20, 0, 144
+	Patch E4WT20, 0, 192
+	Patch E4WT20, 0, 288
+	Patch E4WT20, 144, 176
+	Patch E4WT20, 176, 176
+	Patch E4WT20, 176, 192
+	Patch E4WT20, 208, 192
+	Patch E4WT20, 208, 208
+	Patch E4WT20, 224, 144
+	Patch E4WT20, 32, 128
+	Patch E4WT20, 80, 80
+	Patch E4WT20, 80, 96
+	Patch E4WT20, 80, 112
+	Patch E4WT20, 112, 224
+	Patch E4WT20, 112, 208
+	Patch E4WT20, 160, 224
+	Patch E4WT20, 112, 64
+	Patch E4WT20, 112, 96
+	Patch E4WT20, 112, 80
+	Patch E4WT20, 112, 112
+	Patch E4WT20, 112, 128
+	Patch E4WT20, 128, 48
+	Patch E4WT50A, 128, 64
+	Patch E4WT20, 128, 96
+	Patch E4WT20, 128, 80
+	Patch E4WT20, 128, 112
+	Patch E4WT20, 128, 128
+	Patch E4WT20, 96, 80
+	Patch E4WT20, 64, 80
+	Patch E4WT20, 16, 96
+	Patch E4WT20, 16, 112
+	Patch E4WT20, 48, 96
+	Patch E4WT20, 64, 96
+	Patch E4WT20, 16, 144
+	Patch E4WT20, 16, 192
+	Patch E4WT20, 16, 288
+	Patch E4WT20, 160, 176
+	Patch E4WT20, 160, 192
+	Patch E4WT50A, 192, 176
+	Patch E4WT20, 192, 192
+	Patch E4WT20, 208, 176
+	Patch E4WT20, 224, 192
+	Patch E4WT20, 224, 208
+	Patch E4WT20, 240, 144
+	Patch E4WT20, 240, 176
+	Patch E4WT20, 240, 192
+	Patch E4WT20, 240, 208
+	Patch E4WT20, 32, 192
+	Patch E4WT20, 32, 288
+	Patch E4WT20, 48, 192
+	Patch E4WT20, 48, 128
+	Patch E4WT20, 80, 240
+	Patch E4WT20, 48, 240
+	Patch E4WT20, 128, 240
+	Patch E4WT20, 64, 128
+	Patch E4WT20, 96, 240
+	Patch E4WT50A, 64, 240
+	Patch E4WT20, 144, 240
+	Patch E4WT20, 80, 128
+	Patch E4WT20, 160, 240
+	Patch E4WT20, 176, 240
+	Patch E4WT20, 96, 128
+	Patch E4WT20, 32, 80
+	Patch E4WT20, 48, 80
+	Patch E4WT20, 160, 16
+	Patch E4WT50A, 192, 16
+	Patch E4WT20, 192, 80
+	Patch E4WT20, 208, 80
+	Patch E4WT20, 192, 96
+	Patch E4WT20, 208, 96
+	Patch E4WT20, 176, 16
+	Patch E4WT20, 208, 16
+	Patch E4WT50A, 224, 16
+	Patch E4WT50B, 96, 96
+	Patch E4WT50B, 224, 160
+	Patch E4WT20, 240, 16
+	Patch E4WT50B, 224, 32
+	Patch E4WT50B, 192, 64
+	Patch E4WT50B, 96, 112
+	Patch E4WT50B, 224, 176
+	Patch E4WT50B, 16, 128
+	Patch E4WT50B, 48, 176
+	Patch E4WT50B, 112, 240
+	Patch E4WT50A, 112, 256
+	Patch E4WT50B, 96, 288
+	Patch E4WT50B, 160, 256
+	Patch E4WT50B, 224, 288
+	Patch E4WT50B, 192, 112
+	Patch E4WT20, 240, 32
+	Patch E4WT20, 240, 48
+	Patch E4WT20, 0, 48
+	Patch E4WT20, 0, 128
+	Patch E4WT20, 0, 176
+	Patch E4WT20, 144, 160
+	Patch E4WT20, 176, 160
+	Patch E4WT20, 32, 112
+	Patch E4WT20, 0, 160
+	Patch E4WT50A, 0, 208
+	Patch E4WT20, 0, 304
+	Patch E4WT20, 32, 144
+	Patch E4WT20, 16, 32
+	Patch E4WT20, 16, 48
+	Patch E4WT20, 16, 176
+	Patch E4WT20, 160, 160
+	Patch E4WT20, 192, 160
+	Patch E4WT20, 208, 160
+	Patch E4WT20, 240, 128
+	Patch E4WT20, 240, 160
+	Patch E4WT20, 32, 176
+	Patch E4WT20, 64, 176
+	Patch E4WT50A, 48, 112
+	Patch E4WT20, 80, 224
+	Patch E4WT20, 128, 224
+	Patch E4WT50A, 64, 112
+	Patch E4WT20, 96, 224
+	Patch E4WT50A, 96, 208
+	Patch E4WT20, 144, 224
+	Patch E4WT50A, 16, 160
+	Patch E4WT20, 32, 160
+	Patch E4WT20, 48, 160
+	Patch E4WT20, 64, 160
+	Patch E4WT50A, 80, 160
+	Patch E4WT20, 16, 208
+	Patch E4WT20, 16, 304
+	Patch E4WT20, 32, 208
+	Patch E4WT20, 32, 304
+	Patch E4WT20, 48, 304
+	Patch E4WT20, 48, 144
+	Patch E4WT20, 80, 256
+	Patch E4WT20, 80, 272
+	Patch E4WT20, 48, 256
+	Patch E4WT20, 128, 256
+	Patch E4WT20, 128, 288
+	Patch E4WT20, 128, 272
+	Patch E4WT20, 224, 304
+	Patch E4WT20, 128, 304
+	Patch E4WT20, 64, 144
+	Patch E4WT20, 96, 256
+	Patch E4WT20, 96, 272
+	Patch E4WT20, 192, 304
+	Patch E4WT20, 64, 256
+	Patch E4WT20, 144, 256
+	Patch E4WT20, 240, 288
+	Patch E4WT20, 144, 288
+	Patch E4WT20, 144, 272
+	Patch E4WT20, 240, 304
+	Patch E4WT20, 80, 144
+	Patch E4WT20, 208, 288
+	Patch E4WT20, 112, 288
+	Patch E4WT20, 112, 272
+	Patch E4WT20, 208, 304
+	Patch E4WT20, 112, 304
+	Patch E4WT20, 160, 272
+	Patch E4WT20, 176, 256
+	Patch E4WT20, 96, 144
+	Patch E4WT39C, 16, 64
+	Patch E4WT39C, 128, 144
+	Patch E4WT39C, 240, 224
+	Patch E4WT48C, 96, 48
+	Patch E4WT43C, 32, 16
+	Patch E4WT43C, 160, 208
+	Patch E4WT20, 32, 0
+	Patch E4WT44C, 160, 32
+	Patch E4WT44C, 176, 32
+	Patch E4WT41C, 160, 144
+	Patch E4WT41C, 16, 272
+	Patch E4WT41C, 48, 64
+	Patch E4WT38C, 128, 32
+	Patch E4WT43C, 144, 32
+	Patch E4WT44C, 144, 144
+	Patch E4WT44C, 0, 272
+	Patch E4WT44C, 32, 64
+	Patch E4WT20, 144, 96
+	Patch E4WT20, 144, 64
+	Patch E4WT20, 144, 128
+	Patch E4WT20, 32, 48
+	Patch E4WT20, 144, 48
+	Patch E4WT20, 144, 112
+	Patch E4WT20, 32, 32
+	Patch E4WT20, 144, 80
+	Patch E4WT20, 0, 240
+	Patch E4WT20, 0, 256
+	Patch E4WT20, 176, 96
+	Patch E4WT20, 176, 64
+	Patch E4WT20, 176, 128
+	Patch E4WT20, 64, 48
+	Patch E4WT20, 176, 48
+	Patch E4WT20, 176, 112
+	Patch E4WT20, 64, 32
+	Patch E4WT20, 176, 80
+	Patch E4WT20, 32, 240
+	Patch E4WT20, 32, 256
+	Patch E4WT20, 0, 64
+	Patch E4WT20, 112, 144
+	Patch E4WT20, 96, 160
+	Patch E4WT20, 80, 176
+	Patch E4WT20, 64, 192
+	Patch E4WT20, 160, 288
+	Patch E4WT20, 144, 304
+	Patch E4WT20, 176, 272
+	Patch E4WT20, 192, 256
+	Patch E4WT20, 224, 224
+	Patch E4WT20, 48, 208
+	Patch E4WT20, 80, 48
+	Patch E4WT20, 224, 96
+	Patch E4WT20, 192, 128
+	Patch E4WT20, 208, 112
+	Patch E4WT20, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 16
+	Patch E4WT20, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT20, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT47C, 112, 176
+	Patch E4WT47C, 128, 192
+	Patch E4WT47C, 192, 224
+	Patch E4WT47C, 64, 288
+	Patch E4WT47C, 80, 304
+	Patch E4WT47C, 208, 240
+	Patch E4WT47C, 224, 256
+	Patch E4WT20, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT20, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT20, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 32
+	Patch E4WT20, 224, 48
+	Patch E4WT20, 96, 16
+	Patch E4WT20, 128, 176
+	Patch E4WT20, 144, 192
+	Patch E4WT20, 192, 208
+	Patch E4WT20, 64, 272
+	Patch E4WT20, 80, 288
+	Patch E4WT20, 96, 304
+	Patch E4WT20, 208, 224
+	Patch E4WT20, 240, 256
+	Patch E4WT20, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 64
+	Patch E4WT45C, 192, 32
+	Patch E4WT44C, 32, 224
+	Patch E4WT44C, 16, 224
+	Patch E4WT44C, 0, 224
+	Patch E4WT38C, 240, 272
+}
+
+Texture EWT4WL2D, 256, 320
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT20, 128, 0
+	Patch E4WT20, 16, 0
+	Patch E4WT44D, 176, 144
+	Patch E4WT44D, 32, 272
+	Patch E4WT44D, 64, 64
+	Patch E4WT20, 48, 0
+	Patch E4WT20, 80, 0
+	Patch E4WT20, 64, 0
+	Patch E4WT20, 96, 0
+	Patch E4WT20, 112, 0
+	Patch E4WT20, 160, 0
+	Patch E4WT20, 176, 0
+	Patch E4WT20, 192, 0
+	Patch E4WT20, 208, 0
+	Patch E4WT20, 224, 0
+	Patch E4WT20, 240, 0
+	Patch E4WT47D, 0, 0
+	Patch E4WT48D, 144, 0
+	Patch E4WT12A, 160, 96
+	Patch E4WT12A, 160, 64
+	Patch E4WT12A, 160, 128
+	Patch E4WT12A, 48, 48
+	Patch E4WT12A, 160, 48
+	Patch E4WT12A, 160, 112
+	Patch E4WT12A, 48, 32
+	Patch E4WT12A, 160, 80
+	Patch E4WT12A, 16, 240
+	Patch E4WT12A, 16, 256
+	Patch E4WT38D, 16, 16
+	Patch E4WT38D, 144, 208
+	Patch E4WT45D, 80, 16
+	Patch E4WT45D, 176, 208
+	Patch E4WT45D, 48, 272
+	Patch E4WT47D, 96, 32
+	Patch E4WT47D, 208, 48
+	Patch E4WT47D, 224, 64
+	Patch E4WT47D, 240, 80
+	Patch E4WT48D, 128, 16
+	Patch E4WT48D, 0, 80
+	Patch E4WT48D, 112, 160
+	Patch E4WT48D, 96, 176
+	Patch E4WT48D, 80, 192
+	Patch E4WT48D, 176, 288
+	Patch E4WT48D, 208, 256
+	Patch E4WT48D, 64, 208
+	Patch E4WT48D, 160, 304
+	Patch E4WT48D, 192, 272
+	Patch E4WT48D, 224, 240
+	Patch E4WT48D, 240, 96
+	Patch E4WT48D, 208, 128
+	Patch E4WT48D, 224, 112
+	Patch E4WT48D, 112, 32
+	Patch E4WT44D, 48, 16
+	Patch E4WT44D, 64, 16
+	Patch E4WT46D, 80, 64
+	Patch E4WT46D, 192, 144
+	Patch E4WT46D, 48, 224
+	Patch E4WT20, 0, 32
+	Patch E4WT20, 0, 112
+	Patch E4WT20, 32, 96
+	Patch E4WT20, 0, 144
+	Patch E4WT20, 0, 192
+	Patch E4WT20, 0, 288
+	Patch E4WT20, 144, 176
+	Patch E4WT20, 176, 176
+	Patch E4WT20, 176, 192
+	Patch E4WT20, 208, 192
+	Patch E4WT20, 208, 208
+	Patch E4WT20, 224, 144
+	Patch E4WT20, 32, 128
+	Patch E4WT20, 80, 80
+	Patch E4WT20, 80, 96
+	Patch E4WT20, 80, 112
+	Patch E4WT20, 112, 224
+	Patch E4WT20, 112, 208
+	Patch E4WT20, 160, 224
+	Patch E4WT20, 112, 64
+	Patch E4WT20, 112, 96
+	Patch E4WT20, 112, 80
+	Patch E4WT20, 112, 112
+	Patch E4WT20, 112, 128
+	Patch E4WT20, 128, 48
+	Patch E4WT50A, 128, 64
+	Patch E4WT20, 128, 96
+	Patch E4WT20, 128, 80
+	Patch E4WT20, 128, 112
+	Patch E4WT20, 128, 128
+	Patch E4WT20, 96, 80
+	Patch E4WT20, 64, 80
+	Patch E4WT20, 16, 96
+	Patch E4WT20, 16, 112
+	Patch E4WT20, 48, 96
+	Patch E4WT20, 64, 96
+	Patch E4WT20, 16, 144
+	Patch E4WT20, 16, 192
+	Patch E4WT20, 16, 288
+	Patch E4WT20, 160, 176
+	Patch E4WT20, 160, 192
+	Patch E4WT50A, 192, 176
+	Patch E4WT20, 192, 192
+	Patch E4WT20, 208, 176
+	Patch E4WT20, 224, 192
+	Patch E4WT20, 224, 208
+	Patch E4WT20, 240, 144
+	Patch E4WT20, 240, 176
+	Patch E4WT20, 240, 192
+	Patch E4WT20, 240, 208
+	Patch E4WT20, 32, 192
+	Patch E4WT20, 32, 288
+	Patch E4WT20, 48, 192
+	Patch E4WT20, 48, 128
+	Patch E4WT20, 80, 240
+	Patch E4WT20, 48, 240
+	Patch E4WT20, 128, 240
+	Patch E4WT20, 64, 128
+	Patch E4WT20, 96, 240
+	Patch E4WT50A, 64, 240
+	Patch E4WT20, 144, 240
+	Patch E4WT20, 80, 128
+	Patch E4WT20, 160, 240
+	Patch E4WT20, 176, 240
+	Patch E4WT20, 96, 128
+	Patch E4WT20, 32, 80
+	Patch E4WT20, 48, 80
+	Patch E4WT20, 160, 16
+	Patch E4WT50A, 192, 16
+	Patch E4WT20, 192, 80
+	Patch E4WT20, 208, 80
+	Patch E4WT20, 192, 96
+	Patch E4WT20, 208, 96
+	Patch E4WT20, 176, 16
+	Patch E4WT20, 208, 16
+	Patch E4WT50A, 224, 16
+	Patch E4WT50B, 96, 96
+	Patch E4WT50B, 224, 160
+	Patch E4WT20, 240, 16
+	Patch E4WT50B, 224, 32
+	Patch E4WT50B, 192, 64
+	Patch E4WT50B, 96, 112
+	Patch E4WT50B, 224, 176
+	Patch E4WT50B, 16, 128
+	Patch E4WT50B, 48, 176
+	Patch E4WT50B, 112, 240
+	Patch E4WT50A, 112, 256
+	Patch E4WT50B, 96, 288
+	Patch E4WT50B, 160, 256
+	Patch E4WT50B, 224, 288
+	Patch E4WT50B, 192, 112
+	Patch E4WT20, 240, 32
+	Patch E4WT20, 240, 48
+	Patch E4WT20, 0, 48
+	Patch E4WT20, 0, 128
+	Patch E4WT20, 0, 176
+	Patch E4WT20, 144, 160
+	Patch E4WT20, 176, 160
+	Patch E4WT20, 32, 112
+	Patch E4WT20, 0, 160
+	Patch E4WT50A, 0, 208
+	Patch E4WT20, 0, 304
+	Patch E4WT20, 32, 144
+	Patch E4WT20, 16, 32
+	Patch E4WT20, 16, 48
+	Patch E4WT20, 16, 176
+	Patch E4WT20, 160, 160
+	Patch E4WT20, 192, 160
+	Patch E4WT20, 208, 160
+	Patch E4WT20, 240, 128
+	Patch E4WT20, 240, 160
+	Patch E4WT20, 32, 176
+	Patch E4WT20, 64, 176
+	Patch E4WT50A, 48, 112
+	Patch E4WT20, 80, 224
+	Patch E4WT20, 128, 224
+	Patch E4WT50A, 64, 112
+	Patch E4WT20, 96, 224
+	Patch E4WT50A, 96, 208
+	Patch E4WT20, 144, 224
+	Patch E4WT50A, 16, 160
+	Patch E4WT20, 32, 160
+	Patch E4WT20, 48, 160
+	Patch E4WT20, 64, 160
+	Patch E4WT50A, 80, 160
+	Patch E4WT20, 16, 208
+	Patch E4WT20, 16, 304
+	Patch E4WT20, 32, 208
+	Patch E4WT20, 32, 304
+	Patch E4WT20, 48, 304
+	Patch E4WT20, 48, 144
+	Patch E4WT20, 80, 256
+	Patch E4WT20, 80, 272
+	Patch E4WT20, 48, 256
+	Patch E4WT20, 128, 256
+	Patch E4WT20, 128, 288
+	Patch E4WT20, 128, 272
+	Patch E4WT20, 224, 304
+	Patch E4WT20, 128, 304
+	Patch E4WT20, 64, 144
+	Patch E4WT20, 96, 256
+	Patch E4WT20, 96, 272
+	Patch E4WT20, 192, 304
+	Patch E4WT20, 64, 256
+	Patch E4WT20, 144, 256
+	Patch E4WT20, 240, 288
+	Patch E4WT20, 144, 288
+	Patch E4WT20, 144, 272
+	Patch E4WT20, 240, 304
+	Patch E4WT20, 80, 144
+	Patch E4WT20, 208, 288
+	Patch E4WT20, 112, 288
+	Patch E4WT20, 112, 272
+	Patch E4WT20, 208, 304
+	Patch E4WT20, 112, 304
+	Patch E4WT20, 160, 272
+	Patch E4WT20, 176, 256
+	Patch E4WT20, 96, 144
+	Patch E4WT39D, 16, 64
+	Patch E4WT39D, 128, 144
+	Patch E4WT39D, 240, 224
+	Patch E4WT48D, 96, 48
+	Patch E4WT43D, 32, 16
+	Patch E4WT43D, 160, 208
+	Patch E4WT20, 32, 0
+	Patch E4WT44D, 160, 32
+	Patch E4WT44D, 176, 32
+	Patch E4WT41D, 160, 144
+	Patch E4WT41D, 16, 272
+	Patch E4WT41D, 48, 64
+	Patch E4WT38D, 128, 32
+	Patch E4WT43D, 144, 32
+	Patch E4WT44D, 144, 144
+	Patch E4WT44D, 0, 272
+	Patch E4WT44D, 32, 64
+	Patch E4WT20, 144, 96
+	Patch E4WT20, 144, 64
+	Patch E4WT20, 144, 128
+	Patch E4WT20, 32, 48
+	Patch E4WT20, 144, 48
+	Patch E4WT20, 144, 112
+	Patch E4WT20, 32, 32
+	Patch E4WT20, 144, 80
+	Patch E4WT20, 0, 240
+	Patch E4WT20, 0, 256
+	Patch E4WT20, 176, 96
+	Patch E4WT20, 176, 64
+	Patch E4WT20, 176, 128
+	Patch E4WT20, 64, 48
+	Patch E4WT20, 176, 48
+	Patch E4WT20, 176, 112
+	Patch E4WT20, 64, 32
+	Patch E4WT20, 176, 80
+	Patch E4WT20, 32, 240
+	Patch E4WT20, 32, 256
+	Patch E4WT20, 0, 64
+	Patch E4WT20, 112, 144
+	Patch E4WT20, 96, 160
+	Patch E4WT20, 80, 176
+	Patch E4WT20, 64, 192
+	Patch E4WT20, 160, 288
+	Patch E4WT20, 144, 304
+	Patch E4WT20, 176, 272
+	Patch E4WT20, 192, 256
+	Patch E4WT20, 224, 224
+	Patch E4WT20, 48, 208
+	Patch E4WT20, 80, 48
+	Patch E4WT20, 224, 96
+	Patch E4WT20, 192, 128
+	Patch E4WT20, 208, 112
+	Patch E4WT20, 0, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 48, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 112, 16
+	Patch E4WT20, 224, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 32
+	{
+		FlipY
+	}
+	Patch E4WT20, 16, 80
+	{
+		FlipY
+	}
+	Patch E4WT20, 128, 160
+	{
+		FlipY
+	}
+	Patch E4WT47D, 112, 176
+	Patch E4WT47D, 128, 192
+	Patch E4WT47D, 192, 224
+	Patch E4WT47D, 64, 288
+	Patch E4WT47D, 80, 304
+	Patch E4WT47D, 208, 240
+	Patch E4WT47D, 224, 256
+	Patch E4WT20, 96, 192
+	{
+		FlipY
+	}
+	Patch E4WT20, 80, 208
+	{
+		FlipY
+	}
+	Patch E4WT20, 176, 304
+	{
+		FlipY
+	}
+	Patch E4WT20, 192, 288
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 272
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 240
+	{
+		FlipY
+	}
+	Patch E4WT20, 64, 224
+	{
+		FlipY
+	}
+	Patch E4WT20, 0, 96
+	{
+		FlipY
+	}
+	Patch E4WT20, 96, 64
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 112
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 144
+	{
+		FlipY
+	}
+	Patch E4WT20, 144, 16
+	{
+		FlipY
+	}
+	Patch E4WT20, 224, 128
+	{
+		FlipY
+	}
+	Patch E4WT20, 208, 32
+	Patch E4WT20, 224, 48
+	Patch E4WT20, 96, 16
+	Patch E4WT20, 128, 176
+	Patch E4WT20, 144, 192
+	Patch E4WT20, 192, 208
+	Patch E4WT20, 64, 272
+	Patch E4WT20, 80, 288
+	Patch E4WT20, 96, 304
+	Patch E4WT20, 208, 224
+	Patch E4WT20, 240, 256
+	Patch E4WT20, 112, 48
+	{
+		FlipY
+	}
+	Patch E4WT20, 240, 64
+	Patch E4WT45D, 192, 32
+	Patch E4WT44D, 32, 224
+	Patch E4WT44D, 16, 224
+	Patch E4WT44D, 0, 224
+	Patch E4WT38D, 240, 272
+}
+
+Texture EWT2WTRX, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT92, 0, 0
+}
+
+Texture EWT2WTR1, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT92, 0, 0
+}
+
+Texture EWT2WTR2, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT93, 0, 0
+}
+
+Texture EWT2WTR3, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT94, 0, 0
+}
+
+Texture EWT2WTR4, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E4WT95, 0, 0
+}
+
+Texture EWT2WTRP, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch BLACK, 0, 0
+}

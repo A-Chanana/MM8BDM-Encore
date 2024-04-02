@@ -1,0 +1,12 @@
+actor EncoreTorch : Torch 20514
+{
+//$Category MM8BDME-Props
+Translation "235:235=78:78", "42:42=63:63", "225:225=59:59", "103:103=49:49", "74:74=54:54", "207:207=26:26"
+}
+
+actor EncoreSasoreenu : Sasoreenu 20824
+{
+//$Category MM8BDME-Props
+Translation "106:106=52:52"
+Speed 15
+}

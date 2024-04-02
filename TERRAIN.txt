@@ -1,0 +1,131 @@
+splash EncOil{baseclass MMEncOil}
+
+terrain EncOil
+{
+	splash EncOil
+	footclip		12
+}
+
+splash steam{baseclass SteamPoof}
+
+terrain steam
+{
+	splash steam
+}
+
+splash EnLava{baseclass EncoreLava}
+
+splash BondOil{baseclass BondGlueFX}
+
+splash SnakeBite {baseclass	EncoreSnakeBite}
+terrain snake
+{
+	splash SnakeBite
+}
+floor ESNAKESX snake
+
+terrain BondOil
+{
+	splash BondOil
+	footclip		12
+}
+
+floor BONDGLUE BondOil
+
+terrain Encorelava
+{
+	splash EnLava
+}
+
+splash SpaceSplash {baseclass	EncoreSpaceSplash}
+terrain space
+{
+	splash SpaceSplash
+}
+floor EWT1SPCX space
+floor EWT1SPX2 space
+floor EWTWATER steam
+splash FishBite {baseclass	EncoreBigFishBite}
+terrain fish
+{
+	splash FishBite
+}
+
+floor EWT2WTRX water
+floor EWT2WTRP fish
+
+floor ESHWATRX water
+floor ECRAWTRX water
+floor ECRAWTR1 water
+floor ECRAWTR2 water
+floor ECRAWTR3 water
+floor ECRAWTR4 water
+floor EDWATER water
+floor EBLIZWRT water
+floor EYAMFALX water
+floor EYTOWTRX water
+floor EGROWTLX water
+floor EGROWTL4 water
+floor EGROWTL3 water
+floor EGROWTL2 water
+floor EGROWTL1 water
+floor EGROWTDX water
+floor EGROWTD4 water
+floor EGROWTD3 water
+floor EGROWTD2 water
+floor EGROWTD1 water
+floor EGROWTRX water
+floor EGROWTR1 water
+floor EGROWTR2 water
+floor EGROWTR3 water
+floor EGROWTGX water
+floor EGROWTG1 water
+floor EGROWTG2 water
+floor EGROWTG3 water
+floor EGROWTFX water
+floor EGROWTF1 water
+floor EGROWTF2 water
+floor EGROWTF3 water
+floor EGROWTF4 water
+floor ECONWTF1 water
+floor ECONWTF2 water
+floor ECONWTF3 water
+floor ECONWTFA water
+floor ECONWTFB water
+floor ECONWTFC water
+floor ECONWTFA water
+floor ECONWTFB water
+floor ECONWTFC water
+floor ECONWTDA water
+floor ECONWTDB water
+floor ECONWTDC water
+floor ECONWTEA water
+floor ECONWTEB water
+floor ECONWTEC water
+floor E10D1WTR water
+floor E10W1WTR water
+
+floor EJLAVA Encorelava
+floor EJNLAV Encorelava
+floor E9MLAVX Encorelava
+
+floor ENOLSLIK EncOil
+floor ETOADFXX oil
+floor ETODFLW1 oil
+floor ETODFLW2 oil
+floor ETODFLW3 oil
+
+floor ETICONV steam
+
+floor EPHAFLR1 sink
+
+floor CLKSTM steam
+floor CLKSTMF steam
+floor CLKSTM1 steam
+
+floor EHFALL lava
+floor EFIRLAV lava
+floor ESWRLAVX lava
+floor ESLRLAVX lava
+
+floor ECOSFLR1 snow

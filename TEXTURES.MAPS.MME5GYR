@@ -1,0 +1,402 @@
+///// MME5GYR /////
+texture EGYRSKY, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT1, 0, 0
+   WorldPanning
+}
+
+texture EGYRCLOD, 256, 256
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT33, 0, 128
+   Patch EGYRT33, 0, -128
+   WorldPanning
+}
+
+texture EGYRCLO1, 256, 256
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT33, 0, 128
+   Patch EGYRT33, 0, -128
+   WorldPanning
+}
+
+texture EGYRCLO2, 256, 256
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT34, 0, 128
+   Patch EGYRT34, 0, -128
+   WorldPanning
+}
+
+texture EGYRCLO3, 256, 256
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT35, 0, 128
+   Patch EGYRT35, 0, -128
+   WorldPanning
+}
+
+texture EGYRCLOU, 256, 256
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT31, 0, 128
+   Patch EGYRT31, 0, -128
+   WorldPanning
+}
+
+texture EGYRFAX1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT15, 0, 0
+   WorldPanning
+}
+
+texture EGYRFAN1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT15, 0, 0
+   WorldPanning
+}
+
+texture EGYRFAN2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT16, 0, 0
+   WorldPanning
+}
+
+texture EGYRFAN3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT17, 0, 0
+   WorldPanning
+}
+
+texture EGYRFAN4, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT18, 0, 0
+   WorldPanning
+}
+
+texture EGYRMET1, 32, 512
+{
+   Patch EGYRT32, 0, 32
+   Patch EGYRT32, 0, 64
+   Patch EGYRT32, 0, 96
+   Patch EGYRT32, 0, 128
+   Patch EGYRT32, 0, 160
+   Patch EGYRT32, 0, 192
+   Patch EGYRT32, 0, 224
+   Patch EGYRT32, 0, 256
+   Patch EGYRT32, 0, 288
+   Patch EGYRT32, 0, 320
+   Patch EGYRT32, 0, 352
+   Patch EGYRT32, 0, 384
+   Patch EGYRT32, 0, 416
+   Patch EGYRT32, 0, 448
+   Patch EGYRT32, 0, 480
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT2, 0, 0
+   WorldPanning
+}
+
+texture EGYRMET2, 16, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT3, 0, 0
+   WorldPanning
+}
+
+texture EGYRMET3, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT32, 0, 32
+   Patch EGYRT32, 0, 64
+   Patch EGYRT32, 0, 96
+   Patch EGYRT32, 0, 128
+   Patch EGYRT32, 0, 160
+   Patch EGYRT32, 0, 192
+   Patch EGYRT32, 0, 224
+   Patch EGYRT32, 0, 256
+   Patch EGYRT32, 0, 288
+   Patch EGYRT32, 0, 320
+   Patch EGYRT32, 0, 352
+   Patch EGYRT32, 0, 384
+   Patch EGYRT32, 0, 416
+   Patch EGYRT32, 0, 448
+   Patch EGYRT32, 0, 480
+   Patch EGYRT4, 0, 0
+   WorldPanning
+}
+
+texture EGYRMET4, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT32, 0, 32
+   Patch EGYRT32, 0, 64
+   Patch EGYRT32, 0, 96
+   Patch EGYRT32, 0, 128
+   Patch EGYRT32, 0, 160
+   Patch EGYRT32, 0, 192
+   Patch EGYRT32, 0, 224
+   Patch EGYRT32, 0, 256
+   Patch EGYRT32, 0, 288
+   Patch EGYRT32, 0, 320
+   Patch EGYRT32, 0, 352
+   Patch EGYRT32, 0, 384
+   Patch EGYRT32, 0, 416
+   Patch EGYRT32, 0, 448
+   Patch EGYRT32, 0, 480
+   Patch EGYRT14, 0, 0
+   WorldPanning
+}
+
+texture EGYRELV1, 48, 48
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT6, 0, 0
+   WorldPanning
+}
+
+texture EGYRELV2, 48, 48
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT8, 0, 0
+   WorldPanning
+}
+
+texture EGYRELV3, 48, 48
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT7, 0, 0
+   WorldPanning
+}
+
+texture EGYRSTP1, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT9, 0, 0
+   WorldPanning
+}
+
+texture EGYRSTP2, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT10, 0, 0
+   WorldPanning
+}
+
+texture EGYRSTP3, 48, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT11, 0, 0
+   WorldPanning
+}
+
+texture EGYRSTP4, 64, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT12, 0, 0
+   WorldPanning
+}
+
+texture EGYRSTP5, 48, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT13, 0, 0
+   WorldPanning
+}
+
+texture EGYRFLR1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT19, 0, 0
+   WorldPanning
+}
+
+texture EGYRFLR2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT20, 0, 0
+   WorldPanning
+}
+
+texture EGYRFLR3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT21, 0, 0
+   WorldPanning
+}
+
+texture EGYRFLR4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT22, 0, 0
+   WorldPanning
+}
+
+texture EGYRFLR5, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT24, 0, 0
+   WorldPanning
+}
+
+
+texture EGYRFLR6, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT23, 0, 0
+   WorldPanning
+}
+
+texture EGYRFLR7, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT25, -16, 0
+   Patch EGYRT25, 16, 0
+   Patch EGYRT25, 0, -16
+    Patch EGYRT25, 0, 16
+   WorldPanning
+}
+
+texture EGYRFLR8, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT26, 0, 0
+   WorldPanning
+}
+
+texture EGYRFAX2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT27, 0, 0
+   WorldPanning
+}
+
+
+texture EGYRFAN5, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT27, 0, 0
+   WorldPanning
+}
+
+texture EGYRFAN6, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT28, 0, 0
+   WorldPanning
+}
+
+texture EGYRFAN7, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT29, 0, 0
+   WorldPanning
+}
+
+texture EGYRFAN8, 128, 128
+{
+   XScale 0.025
+   YScale 0.025
+   Patch EGYRT30, 0, 0
+   WorldPanning
+}
+
+Texture EGY2STP1, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EGYRR1, 0, 0
+}
+
+Texture EGY2STP2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EGYRR3, 0, 0
+}
+
+Texture EGY2STP3, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EGYRR4, 0, 0
+}
+
+Texture EGY2FLR1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EGYRR5, 0, 0
+}
+
+Texture EGYRGRN1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EGYRR2, 0, 0
+}
+
+texture EGYRFAX3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT15, 0, 0
+   WorldPanning
+}
+
+texture EGYRSKY2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EGYRT32, 0, 0
+   WorldPanning
+}
+
+
+////////////////////

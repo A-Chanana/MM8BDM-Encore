@@ -1,0 +1,19 @@
+ESNPA="ESNPA" {}
+ESNPB="ESNPB" {}
+ETOPA="ETOPA" {AngleOffset = 360}
+ETOPB="ETOPA" {AngleOffset = 240}
+ETOPC="ETOPA" {AngleOffset = 120}
+ENOPA="ENOPA" {}
+ENOPB="ENOPB" {}
+ENOPC="ENOPC" {}
+ENOPD="ENOPD" {}
+EAPTC="EAPTC" {}
+
+THOOA="THOOA" {}
+
+ECHLA="ECHLA" {}
+ECHLB="ECHLB" {}
+
+DGBPA="DGBPA" {}
+DGBPB="DGBPB" {}
+DGBPC="DGBPC" {}

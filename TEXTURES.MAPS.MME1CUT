@@ -1,0 +1,493 @@
+///// MME1CUT /////
+
+Texture "ECUTFLR", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT16", 0, 0
+}
+
+Texture "ECUTFLR2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT17", 0, 0
+}
+
+Texture "ECUTFLR3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT31", 0, 0
+}
+
+Texture "ECUTBRK1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT1", 0, 0
+}
+
+Texture "ECUTBRK2", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT7", 0, 0
+	Patch "ECUT1", 0, 32
+	Patch "ECUT1", 0, 64
+	Patch "ECUT1", 0, 96
+	Patch "ECUT1", 0, 128
+	Patch "ECUT1", 0, 160
+	Patch "ECUT1", 0, 192
+	Patch "ECUT1", 0, 224
+	Patch "ECUT1", 0, 256
+	Patch "ECUT1", 0, 288
+	Patch "ECUT1", 0, 320
+	Patch "ECUT1", 0, 352
+	Patch "ECUT1", 0, 384
+	Patch "ECUT1", 0, 416
+	Patch "ECUT1", 0, 448
+	Patch "ECUT1", 0, 480
+}
+
+Texture "ECUTBRK3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT18", 0, 0
+}
+
+Texture "ECUTBRK4", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT26", 0, 0
+	Patch "ECUT1", 0, 32
+	Patch "ECUT1", 0, 64
+	Patch "ECUT1", 0, 96
+	Patch "ECUT1", 0, 128
+	Patch "ECUT1", 0, 160
+	Patch "ECUT1", 0, 192
+	Patch "ECUT1", 0, 224
+	Patch "ECUT1", 0, 256
+	Patch "ECUT1", 0, 288
+	Patch "ECUT1", 0, 320
+	Patch "ECUT1", 0, 352
+	Patch "ECUT1", 0, 384
+	Patch "ECUT1", 0, 416
+	Patch "ECUT1", 0, 448
+	Patch "ECUT1", 0, 480
+}
+
+Texture "ECUTBRK5", 16, 384
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT24", 0, 0
+	Patch "ECUT25", 0, 32
+	Patch "ECUT25", 0, 64
+	Patch "ECUT25", 0, 96
+	Patch "ECUT25", 0, 128
+	Patch "ECUT25", 0, 160
+	Patch "ECUT25", 0, 192
+	Patch "ECUT25", 0, 224
+	Patch "ECUT25", 0, 256
+	Patch "ECUT25", 0, 288
+	Patch "ECUT25", 0, 320
+	Patch "ECUT25", 0, 352
+}
+
+Texture "ECUTBRK6", 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT25", 0, 0
+}
+
+Texture "ECUTBRK7", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT32", 0, 0
+}
+
+Texture "ECUTGRY1", 32, 384
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT5", 0, 0
+	Patch "ECUT4", 0, 32
+	Patch "ECUT4", 0, 64
+	Patch "ECUT4", 0, 96
+	Patch "ECUT4", 0, 128
+	Patch "ECUT4", 0, 160
+	Patch "ECUT4", 0, 192
+	Patch "ECUT4", 0, 224
+	Patch "ECUT4", 0, 256
+	Patch "ECUT4", 0, 288
+	Patch "ECUT4", 0, 320
+	Patch "ECUT4", 0, 352
+}
+
+Texture "ECUTGRY2", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT3", 0, 0
+	Patch "ECUT2", 0, 32
+	Patch "ECUT2", 0, 64
+	Patch "ECUT2", 0, 96
+	Patch "ECUT2", 0, 128
+	Patch "ECUT2", 0, 160
+	Patch "ECUT2", 0, 192
+	Patch "ECUT2", 0, 224
+}
+
+Texture "ECUTGRY6", 16, 384
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT21", 0, 0
+	Patch "ECUT22", 0, 32
+	Patch "ECUT23", 0, 64
+	Patch "ECUT22", 0, 96
+	Patch "ECUT22", 0, 128
+	Patch "ECUT23", 0, 160
+	Patch "ECUT22", 0, 192
+	Patch "ECUT22", 0, 224
+	Patch "ECUT23", 0, 256
+	Patch "ECUT22", 0, 288
+	Patch "ECUT22", 0, 320
+	Patch "ECUT23", 0, 352
+}
+
+Texture "ECUTGRY7", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT19", 0, 0
+	Patch "ECUT20", 0, 32
+	Patch "ECUT20", 0, 64
+	Patch "ECUT20", 0, 96
+	Patch "ECUT20", 0, 128
+	Patch "ECUT20", 0, 160
+	Patch "ECUT20", 0, 192
+	Patch "ECUT20", 0, 224
+}
+
+Texture "ECUTBARS", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT6", 0, 0
+}
+
+Texture "ECUTBAR2", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT6", 0, 32
+}
+
+Texture "ECUTGUTB", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT8", 0, 0
+}
+
+Texture "ECUTTECH", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT9", 0, 0
+}
+
+Texture "ECUTTCH2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT27", 0, 0
+}
+
+Texture "ECUTTCH3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT28", 0, 0
+}
+
+Texture "ECUTTCH4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT29", 0, 0
+}
+
+Texture "ECUTTCH5", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT30", 0, 0
+}
+
+Texture "ECUTLADD", 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT10", 0, 0
+}
+
+Texture "ECUTLAD2", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECUT7", 0, 0
+	Patch "ECUT1", 0, 32
+	Patch "ECUT1", 0, 64
+	Patch "ECUT1", 0, 96
+	Patch "ECUT1", 0, 128
+	Patch "ECUT1", 0, 160
+	Patch "ECUT1", 0, 192
+	Patch "ECUT1", 0, 224
+	Patch "ECUT10", 8, 0
+	Patch "ECUT10", 8, 32
+	Patch "ECUT10", 8, 64
+	Patch "ECUT10", 8, 96
+	Patch "ECUT10", 8, 128
+	Patch "ECUT10", 8, 160
+	Patch "ECUT10", 8, 192
+	Patch "ECUT10", 8, 224
+}
+
+Texture "ECUTMACH", 96, 80
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT11", 0, 0
+}
+
+Texture "ECUTMAC2", 96, 80
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT15", 0, 0
+}
+
+Texture "ECUTMAC3", 48, 80
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT14", 0, 0
+}
+
+Texture "ECUTSKY", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT12", 0, 0
+}
+
+Texture "ECUTSKY2", 512, 128
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT33", 0, 0
+}
+
+Texture "ECUTSKY3", 256, 128
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT34", 0, 0
+}
+
+Texture "ECUTSKY4", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT35", 0, 0
+}
+
+Texture "ECUTGRY3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT4", 0, 0
+}
+
+Texture "ECUTGRY4", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT2", 0, 0
+}
+
+Texture "ECUTGRY5", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "ECUT13", 0, 0
+}
+
+Texture "CUTFLR2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "CUT17", 0, 0
+}
+
+Texture "CUTFLR3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "CUT31", 0, 0
+}
+
+Texture "CUTBRK3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "CUT18", 0, 0
+}
+
+Texture "CUTBRK4", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "CUT26", 0, 0
+	Patch "CUT1", 0, 32
+	Patch "CUT1", 0, 64
+	Patch "CUT1", 0, 96
+	Patch "CUT1", 0, 128
+	Patch "CUT1", 0, 160
+	Patch "CUT1", 0, 192
+	Patch "CUT1", 0, 224
+	Patch "CUT1", 0, 256
+	Patch "CUT1", 0, 288
+	Patch "CUT1", 0, 320
+	Patch "CUT1", 0, 352
+	Patch "CUT1", 0, 384
+	Patch "CUT1", 0, 416
+	Patch "CUT1", 0, 448
+	Patch "CUT1", 0, 480
+}
+
+Texture "CUTBRK5", 16, 384
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "CUT24", 0, 0
+	Patch "CUT25", 0, 32
+	Patch "CUT25", 0, 64
+	Patch "CUT25", 0, 96
+	Patch "CUT25", 0, 128
+	Patch "CUT25", 0, 160
+	Patch "CUT25", 0, 192
+	Patch "CUT25", 0, 224
+	Patch "CUT25", 0, 256
+	Patch "CUT25", 0, 288
+	Patch "CUT25", 0, 320
+	Patch "CUT25", 0, 352
+}
+
+Texture "CUTBRK6", 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "CUT25", 0, 0
+}
+
+Texture "CUTBRK7", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "CUT32", 0, 0
+}
+
+Texture "CUTGRY6", 16, 384
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "CUT21", 0, 0
+	Patch "CUT22", 0, 32
+	Patch "CUT23", 0, 64
+	Patch "CUT22", 0, 96
+	Patch "CUT22", 0, 128
+	Patch "CUT23", 0, 160
+	Patch "CUT22", 0, 192
+	Patch "CUT22", 0, 224
+	Patch "CUT23", 0, 256
+	Patch "CUT22", 0, 288
+	Patch "CUT22", 0, 320
+	Patch "CUT23", 0, 352
+}
+
+Texture "CUTGRY7", 32, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "CUT19", 0, 0
+	Patch "CUT20", 0, 32
+	Patch "CUT20", 0, 64
+	Patch "CUT20", 0, 96
+	Patch "CUT20", 0, 128
+	Patch "CUT20", 0, 160
+	Patch "CUT20", 0, 192
+	Patch "CUT20", 0, 224
+}
+
+Texture "CUTTECH2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "CUT27", 0, 0
+}
+
+Texture "CUTTECH3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "CUT28", 0, 0
+}
+
+Texture "CUTTECH4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "CUT29", 0, 0
+}
+
+Texture "CUTTECH5", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "CUT30", 0, 0
+}
+
+Texture "CUTSKY2", 512, 128
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "CUT33", 0, 0
+}

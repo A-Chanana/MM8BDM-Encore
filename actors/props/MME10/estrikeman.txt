@@ -1,0 +1,156 @@
+actor SoccerBallPlatformE : Soccerballplatform 17779
+{
+//$Category MM8BDM-Interactive Props
+//$Title Encore Soccer Ball
+//$Arg0 Rise Height
+states
+{
+	Spawn:
+	ETKB A 0
+	ETKB A 0 A_SpawnItemEx("SoccerBallPlatformPlayerCheck", 0, 0, 4)
+	SpawnLoop:
+	ETKB A 6 A_JumpIf(z-floorz==0, "Ready2Shoot")
+	Goto Spawn
+	Ready2Shoot:
+	ETKB A 0 A_JumpIf(pitch!=0, "RealReady")
+	ETKB A 0 A_SetPitch(args[0])
+	ETKB A 0 A_JumpIf(pitch==0, "DefaultPitch")
+	ETKB A 8
+	RealReady:
+	ETKB A 0 A_ChangeFlag("CANPASS", 1)
+	ETKB A -1 A_ChangeFlag("NODAMAGE", 0)
+	stop
+	Death:
+	ETKB A 0 A_SpawnItemEx("SoccerBallPlatformRisingE",0,0,0,0,0,0,0,SXF_NOCHECKPOSITION|SXF_TRANSFERPITCH)
+	stop
+	DefaultPitch:
+	ETKB A 0 A_SetPitch(8)
+	goto Ready2Shoot+3
+}
+}
+
+actor SoccerBallPlatformRisingE : SoccerBallPlatform
+{
++NOGRAVITY
+-CANPASS
+states
+{
+	Spawn:
+	ETKB A 0
+	ETKB A 0 A_PlaySoundEx("misc/soccerballplatform", Voice)
+	Rising:
+	ETKB A 0 ThrustThingZ(0, 38, 0, 0)
+	ETKB CCDDEE 1 A_JumpIf(z-floorz>=pitch*32, "Hang")
+	loop
+	Hang:
+	ETKB C 0 A_stop
+	ETKB CCDDEECCDDEE 1
+	Goto Death
+	Death:
+	ETKB A 1 A_SpawnItemEx("SoccerBallPlatformE", 0, 0, 0, 0, 0, 0, 0, SXF_NOCHECKPOSITION|SXF_TRANSFERPITCH)
+	stop
+}
+}
+
+actor SoccerBallPlatformSpikedE : SoccerBallPlatformspiked 17780
+{
+//$Category MM8BDM-Interactive Props
+//$Title Encore Soccer Ball (Spiked)
+//$Arg0 Rise Height
+states
+{
+	Spawn:
+	ETKB F 0 A_SpawnItemEx("SoccerBallPlatformSpike", 0, 0, 56)
+	ETKB A 0 A_SpawnItemEx("SoccerBallPlatformBottomSpike", 0, 0, -8)
+	ETKB FF 6 A_JumpIf(z-floorz==0, "Ready2Shoot")
+	loop
+	Ready2Shoot:
+	ETKB A 0 A_JumpIf(pitch!=0, "RealReady")
+	ETKB A 0 A_SetPitch(args[0])
+	ETKB A 0 A_JumpIf(pitch==0, "DefaultPitch")
+	ETKB F 8
+	RealReady:
+	Spike:
+	ETKB A 0 A_SpawnItemEx("SoccerBallPlatformSpike", 0, 0, 56)
+	ETKB F 12 A_ChangeFlag("NODAMAGE", 0)
+	loop
+	Death:
+	ETKB A 0 A_SpawnItemEx("SoccerBallPlatformRisingSpikedE",0,0,0,0,0,0,0,SXF_NOCHECKPOSITION|SXF_TRANSFERPITCH)
+	stop
+	DefaultPitch:
+	ETKB A 0 A_SetPitch(8)
+	goto Ready2Shoot+3
+}
+}
+actor SoccerBallPlatformRisingSpikedE : SoccerBallPlatformRising
+{
+states
+{
+	Spawn:
+	ETKB A 0
+	ETKB A 0 A_PlaySoundEx("misc/soccerballplatform", Voice)
+	Rising:
+	STRK A 0 A_SpawnItemEx("SoccerBallPlatformSpike", 0, 0, 56)
+	ETKB A 0 ThrustThingZ(0, 38, 0, 0)
+	ETKB GGHHII 1 A_JumpIf(z-floorz>=pitch*32, "Hang")
+	ETKB A 0 ThrustThingZ(0, 38, 0, 0)
+	ETKB GGHHII 1 A_JumpIf(z-floorz>=pitch*32, "Hang")
+	loop
+	Hang:
+	ETKB C 0 A_stop
+	STRK A 0 A_SpawnItemEx("SoccerBallPlatformSpike", 0, 0, 56)
+	ETKB GGHHIIGGHHII 1
+	Goto Death
+	Death:
+	ETKB A 1 A_SpawnItemEx("SoccerBallPlatformSpikedE", 0, 0, 0, 0, 0, 0, 0, SXF_NOCHECKPOSITION|SXF_TRANSFERPITCH)
+	stop
+}
+}
+
+
+actor TheKeeperE : TheKeeper 17782
+{
+//$Category MM8BDM-Props
+States 
+{
+Spawn: 
+EEPR A 150
+loop 
+}
+}
+
+actor MechaPitchanE : MechaPitchan 17783
+{
+//$Category MM8BDM-Props
+states
+{
+Spawn:
+EPIT A 0
+EPIT A 1 A_Jump(256, "Blue", "Orange")
+Blue:
+EPIT A 1 A_SpawnItemEx("BluePitchanE")
+stop
+Orange:
+EPIT A 1 A_SpawnItemEx("OrangePitchanE")
+stop
+}
+}
+
+actor BluePitchanE
+{
+radius 32
+height 32
+scale 2.5
+translation "192:192=92:92", "198:198=195:195"
+states
+{
+Spawn:
+EPIT A -1
+stop
+}
+}
+
+actor OrangePitchanE : BluePitchanE
+{
+translation "192:192=92:92", "198:198=165:165"
+}

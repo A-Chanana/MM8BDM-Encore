@@ -1,0 +1,9 @@
+actor EncoreBlizzardSpike : BlizzardSpike 20550
+{
+Translation "4:4=85:85", "197:197=198:198", "74:74=3:3"
+}
+
+actor EncoreSeal : Seal 20554
+{
+Translation "225:225=239:239", "197:197=198:198"
+}

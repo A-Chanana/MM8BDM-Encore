@@ -1,0 +1,69 @@
+actor EncoreMetrengerSpawner 21674
+{
+//$Category MM8BDM-Props
+//+CLIENTSIDEONLY
++NOINTERACTION
++NOGRAVITY
+-SOLID
+scale 2.5
+States
+{
+Spawn:
+EWRM E 2100
+EWRM FGHIJK 4
+EWRM E 1 A_SpawnItemEx("EncoreMetrenger",0,0,-35)
+EWRM E 2100
+EWRM FGHIJK 4
+EWRM E 1 A_SpawnItemEx("EncoreMetrenger",0,0,-35)
+EWRM E 2100
+EWRM FGHIJK 4
+EWRM E 1 A_SpawnItemEx("EncoreMetrenger",0,0,-35)
+EWRM E -1
+stop
+}
+}
+
+actor EncoreMetrenger
+{
++CANPASS
++FLOORCLIP
+-ISMONSTER
+-COUNTKILL
+-SHOOTABLE
+-SOLID
+scale 1.5
+Height 10
+Radius 35
+Speed 5
+scale 2.5
+States
+{
+Spawn:
+EWRM L 1 A_CheckFloor("Wander")
+loop
+
+Wander:
+EWRM AABBCCDDCCBB 2 A_Wander
+loop
+}
+}
+
+actor EncoreGroundSpike 23000
+{
++DONTBLAST
++NOGRAVITY
++THRUGHOST
+Height 16
+radius 16
+scale 2.5
+states
+{
+Spawn:
+TNT1 A 0 
+TNT1 A 1 A_SpawnItemEx("SpikeDamager") // From Spiney
+goto Graphic
+Graphic:
+EGRS A -1
+stop
+}
+}

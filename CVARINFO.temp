@@ -1,0 +1,3 @@
+// these are there so the script knows what to set
+local noarchive string _encore_temp_texture;
+local noarchive string _encore_temp_textureReplace;

@@ -1,0 +1,62 @@
+actor SnakePlatformEncore 20009
+{
++SOLID
++NOGRAVITY
++FORCEYBILLBOARD
+Scale 2.5
+Radius 32
+Height 2
+States
+{
+Spawn:
+ESNP A 0
+Goto Rising
+Rising:
+ESNP A 0 ThrustThingZ(0, 16, 0, 0)
+ESNP AABB 1 A_JumpIf(ceilingz - z < 64, "Death")
+Goto Rising+1
+Death:
+ESNP A 0
+Stop
+}
+}
+
+actor EBigSnakey 20010
+{
+-SOLID
+height 32
+radius 32
+scale 2.5
+States
+{
+Spawn:
+ESNK A 0
+//ESNK A 1 A_JumpIf(Args[0] == 1, "BusterRodGSnakey")
+GoTo SnakeManSnakey
+SnakeManSnakey:
+ESNK A 45
+ESNK BCB 6
+loop
+
+//Going to leave the Buster Rod G code commented in just in case that map gets remade down the line
+
+//BusterRodGSnakey:
+//ESNK D 45
+//ESNK EF 6
+//loop
+}
+}
+
+actor EncoreSnakeBite : MMSplash
+{
+States
+{
+Spawn:
+ESNE ABC 2
+ESNE D 0 A_PlaySoundEx("misc/wanaan","Voice")
+ESNE D 2
+ESNE E 8
+ESNE FGH 2
+stop
+}
+}

@@ -1,0 +1,949 @@
+
+
+Texture "EDIVGR1", 64, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM1", 0, 0
+	Patch "EDIVM2", 0, 32
+	Patch "EDIVM2", 0, 64
+	Patch "EDIVM2", 0, 96
+	Patch "EDIVM2", 0, 128
+	Patch "EDIVM2", 0, 160
+	Patch "EDIVM2", 0, 192
+	Patch "EDIVM2", 0, 224
+	Patch "EDIVM2", 0, 256
+	Patch "EDIVM2", 0, 288
+	Patch "EDIVM2", 0, 320
+	Patch "EDIVM2", 0, 352
+	Patch "EDIVM2", 0, 384
+	Patch "EDIVM2", 0, 416
+	Patch "EDIVM2", 0, 448
+	Patch "EDIVM2", 0, 480
+}
+
+Texture "EDIVPI1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM3", 0, 0
+}
+
+Texture "EDIVPI2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM4", 0, 0
+}
+
+Texture "EDIVPI3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM5", 0, 0
+}
+
+Texture "EDIVPX4", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM6", 0, 0
+}
+
+Texture "EDIVPI4", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM6", 0, 0
+}
+
+Texture "EDIVPI5", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM7", 0, 0
+}
+
+Texture "EDIVPI6", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM8", 0, 0
+}
+
+Texture "EDIVPI7", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM9", 0, 0
+}
+
+Texture "EDIVPI8", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM10", 0, 0
+}
+
+Texture "EDIVPI9", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM11", 0, 0
+}
+
+Texture "EDIVPI10", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM17", 0, 0
+	Patch "EDIVM26", 0, 32
+	Patch "EDIVM26", 0, 64
+	Patch "EDIVM26", 0, 96
+	Patch "EDIVM26", 0, 128
+	Patch "EDIVM26", 0, 160
+	Patch "EDIVM26", 0, 192
+	Patch "EDIVM26", 0, 224
+	Patch "EDIVM26", 0, 256
+	Patch "EDIVM26", 0, 288
+	Patch "EDIVM26", 0, 320
+	Patch "EDIVM26", 0, 352
+	Patch "EDIVM26", 0, 384
+	Patch "EDIVM26", 0, 416
+	Patch "EDIVM26", 0, 448
+	Patch "EDIVM26", 0, 480
+}
+
+Texture "EDIVPI11", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM18", 0, 0
+	Patch "EDIVM26", 0, 32
+	Patch "EDIVM26", 0, 64
+	Patch "EDIVM26", 0, 96
+	Patch "EDIVM26", 0, 128
+	Patch "EDIVM26", 0, 160
+	Patch "EDIVM26", 0, 192
+	Patch "EDIVM26", 0, 224
+	Patch "EDIVM26", 0, 256
+	Patch "EDIVM26", 0, 288
+	Patch "EDIVM26", 0, 320
+	Patch "EDIVM26", 0, 352
+	Patch "EDIVM26", 0, 384
+	Patch "EDIVM26", 0, 416
+	Patch "EDIVM26", 0, 448
+	Patch "EDIVM26", 0, 480
+}
+
+Texture "EDIVPI12", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM19", 0, 0
+	Patch "EDIVM26", 0, 32
+	Patch "EDIVM26", 0, 64
+	Patch "EDIVM26", 0, 96
+	Patch "EDIVM26", 0, 128
+	Patch "EDIVM26", 0, 160
+	Patch "EDIVM26", 0, 192
+	Patch "EDIVM26", 0, 224
+	Patch "EDIVM26", 0, 256
+	Patch "EDIVM26", 0, 288
+	Patch "EDIVM26", 0, 320
+	Patch "EDIVM26", 0, 352
+	Patch "EDIVM26", 0, 384
+	Patch "EDIVM26", 0, 416
+	Patch "EDIVM26", 0, 448
+	Patch "EDIVM26", 0, 480
+}
+
+Texture "EDIVGX2", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM12", 0, 0
+}
+
+Texture "EDIVGR2", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM12", 0, 0
+}
+
+Texture "EDIVGR3", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM13", 0, 0
+}
+
+Texture "EDIVGR4", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM14", 0, 0
+}
+
+Texture "EDIVGX5", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM15", 0, 0
+}
+
+Texture "EDIVGR5", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM15", 0, 0
+}
+
+Texture "EDIVGR6", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM16", 0, 0
+}
+
+Texture "EDIVGR7", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM20", 0, 0
+}
+
+Texture "EDIVCHA", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM21", 0, 0
+}
+
+Texture "EDIVPR1", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM22", 0, 0
+}
+
+Texture "EDIVSEA", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM24", 0, 0
+}
+
+Texture "EDIVSKY", 512, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM25", 0, 0
+}
+
+Texture "EDIVPI13", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM27", 0, 0
+}
+
+Texture "EDIVPI14", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM28", 0, 0
+}
+
+Texture "EDIVPI15", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM29", 0, 0
+}
+
+Texture "EDIVPI16", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM30", 0, 0
+}
+
+Texture "EDIVPI17", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM31", 0, 0
+}
+
+Texture "EDIVPI18", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM32", 0, 0
+}
+
+Texture "EDIVPX19", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM33", 0, 0
+}
+
+Texture "EDIVPI19", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM33", 0, 0
+}
+
+Texture "EDIVPI20", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM34", 0, 0
+}
+
+Texture "EDIVPIX1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM35", 0, 0
+}
+
+Texture "EDIVPX21", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM35", 0, 0
+}
+
+Texture "EDIVPI21", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM35", 0, 0
+}
+
+Texture "EDIVPI22", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM36", 0, 0
+}
+
+Texture "EDIVPI23", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM37", 0, 0
+}
+
+Texture "EDIVPI24", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM39", 0, 0
+}
+
+Texture "EDIVGR8", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM40", 0, 0
+}
+
+Texture "EDWATER", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDWATER1", 0, 0
+}
+
+Texture "EDWATER1", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDWATER1", 0, 0
+}
+
+Texture "EDWATER2", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDWATER2", 0, 0
+}
+
+Texture "EDWATER3", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDWATER3", 0, 0
+}
+
+Texture "EDWATER4", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDWATER4", 0, 0
+}
+
+Texture "EDIVGR9", 64, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM38", 0, 0
+}
+
+Texture "EDIVFLR", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM41", 0, 0
+}
+
+Texture "EDIVPI25", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM26", 0, 0
+}
+
+Texture "EDIVGR1X", 64, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM1X", 0, 0
+	Patch "EDIVM2X", 0, 32
+	Patch "EDIVM2X", 0, 64
+	Patch "EDIVM2X", 0, 96
+	Patch "EDIVM2X", 0, 128
+	Patch "EDIVM2X", 0, 160
+	Patch "EDIVM2X", 0, 192
+	Patch "EDIVM2X", 0, 224
+	Patch "EDIVM2X", 0, 256
+	Patch "EDIVM2X", 0, 288
+	Patch "EDIVM2X", 0, 320
+	Patch "EDIVM2X", 0, 352
+	Patch "EDIVM2X", 0, 384
+	Patch "EDIVM2X", 0, 416
+	Patch "EDIVM2X", 0, 448
+	Patch "EDIVM2X", 0, 480
+}
+
+Texture "EDIVPI1X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM3X", 0, 0
+}
+
+Texture "EDIVPI2X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM4X", 0, 0
+}
+
+Texture "EDIVPI3X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM5X", 0, 0
+}
+
+Texture "EDIVPX4X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM6X", 0, 0
+}
+
+Texture "EDIVPI4X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM6X", 0, 0
+}
+
+Texture "EDIVPI5X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM7X", 0, 0
+}
+
+Texture "EDIVPI6X", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM8X", 0, 0
+}
+
+Texture "EDIVPI7X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM9X", 0, 0
+}
+
+Texture "EDIVPI8X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM10X", 0, 0
+}
+
+Texture "EDIVPI9X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM11X", 0, 0
+}
+
+Texture "EDVPI10X", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM17X", 0, 0
+	Patch "EDIVM26X", 0, 32
+	Patch "EDIVM26X", 0, 64
+	Patch "EDIVM26X", 0, 96
+	Patch "EDIVM26X", 0, 128
+	Patch "EDIVM26X", 0, 160
+	Patch "EDIVM26X", 0, 192
+	Patch "EDIVM26X", 0, 224
+	Patch "EDIVM26X", 0, 256
+	Patch "EDIVM26X", 0, 288
+	Patch "EDIVM26X", 0, 320
+	Patch "EDIVM26X", 0, 352
+	Patch "EDIVM26X", 0, 384
+	Patch "EDIVM26X", 0, 416
+	Patch "EDIVM26X", 0, 448
+	Patch "EDIVM26X", 0, 480
+}
+
+Texture "EDVPI11X", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM18X", 0, 0
+	Patch "EDIVM26X", 0, 32
+	Patch "EDIVM26X", 0, 64
+	Patch "EDIVM26X", 0, 96
+	Patch "EDIVM26X", 0, 128
+	Patch "EDIVM26X", 0, 160
+	Patch "EDIVM26X", 0, 192
+	Patch "EDIVM26X", 0, 224
+	Patch "EDIVM26X", 0, 256
+	Patch "EDIVM26X", 0, 288
+	Patch "EDIVM26X", 0, 320
+	Patch "EDIVM26X", 0, 352
+	Patch "EDIVM26X", 0, 384
+	Patch "EDIVM26X", 0, 416
+	Patch "EDIVM26X", 0, 448
+	Patch "EDIVM26X", 0, 480
+}
+
+Texture "EDVPI12X", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM19X", 0, 0
+	Patch "EDIVM26X", 0, 32
+	Patch "EDIVM26X", 0, 64
+	Patch "EDIVM26X", 0, 96
+	Patch "EDIVM26X", 0, 128
+	Patch "EDIVM26X", 0, 160
+	Patch "EDIVM26X", 0, 192
+	Patch "EDIVM26X", 0, 224
+	Patch "EDIVM26X", 0, 256
+	Patch "EDIVM26X", 0, 288
+	Patch "EDIVM26X", 0, 320
+	Patch "EDIVM26X", 0, 352
+	Patch "EDIVM26X", 0, 384
+	Patch "EDIVM26X", 0, 416
+	Patch "EDIVM26X", 0, 448
+	Patch "EDIVM26X", 0, 480
+}
+
+Texture "EDIVGX2X", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM12X", 0, 0
+}
+
+Texture "EDIVGR2X", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM12X", 0, 0
+}
+
+Texture "EDIVGR3X", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM13X", 0, 0
+}
+
+Texture "EDIVGR4X", 32, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM14X", 0, 0
+}
+
+Texture "EDIVGX5X", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM15X", 0, 0
+}
+
+Texture "EDIVGR5X", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM15X", 0, 0
+}
+
+Texture "EDIVGR6X", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM16X", 0, 0
+}
+
+Texture "EDIVGR7X", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM20X", 0, 0
+}
+
+Texture "EDIVCHAX", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM21X", 0, 0
+}
+
+Texture "EDVPI13X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM27X", 0, 0
+}
+
+Texture "EDVPI14X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM28X", 0, 0
+}
+
+Texture "EDVPI15X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM29X", 0, 0
+}
+
+Texture "EDVPI16X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM30X", 0, 0
+}
+
+Texture "EDVPI17X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM31X", 0, 0
+}
+
+Texture "EDVPI18X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM32X", 0, 0
+}
+
+Texture "EDVPX19X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM33X", 0, 0
+}
+
+Texture "EDVPI19X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM33X", 0, 0
+}
+
+Texture "EDVPI20X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM34X", 0, 0
+}
+
+Texture "EDVPIX1X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM35X", 0, 0
+}
+
+Texture "EDVPX21X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM35X", 0, 0
+}
+
+Texture "EDVPI21X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM35X", 0, 0
+}
+
+Texture "EDVPI22X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM36X", 0, 0
+}
+
+Texture "EDVPI23X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM37X", 0, 0
+}
+
+Texture "EDVPI24X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM39X", 0, 0
+}
+
+Texture "EDIVGR8X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM40X", 0, 0
+}
+
+Texture "EDIVGR9X", 64, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM38X", 0, 0
+	Patch "EDIVM38X", 0, 160
+}
+
+Texture "EDIVFLRX", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM41X", 0, 0
+}
+
+Texture "EDVPI25X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM26X", 0, 0
+}
+
+Texture "EDIVLDR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVLDR", 0, 0
+}
+
+Texture "EDIVLDR2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVLDR2", 0, 0
+}
+
+Texture "EDIVPFLR", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM42", 0, 0
+}
+
+Texture "EDIVPR2", 64, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM23", 0, 0
+	Patch "EDIVM44", 0, 176
+	Patch "EDIVM44", 0, 336
+}
+
+Texture "EDIVPR3", 64, 320
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM43", 0, 0
+	Patch "EDIVM43", 0, 160
+}
+
+Texture "EDIVFLR2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM45", 0, 0
+}
+
+Texture "EDIVFL2X", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM45X", 0, 0
+}
+
+Texture "EDIVPFL2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM46", 0, 0
+}
+
+Texture "EDIVSKY2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM47", 0, 0
+}
+
+Texture "EDIVSKY3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM48", 0, 0
+}
+
+Texture "EDIVSKY4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EDIVM48", 0, 0
+}

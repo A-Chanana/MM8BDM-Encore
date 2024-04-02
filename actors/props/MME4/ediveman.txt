@@ -1,0 +1,28 @@
+actor EncoreSpray : Spray 20516
+{
+//$Category MM8BDME-Props
+Translation "197:197=77:77"
+}
+
+actor EncoreMoby : Moby 20517
+{
+//$Category MM8BDME-Interactive Props
+Translation "71:71=194:194", "74:74=195:195", "42:42=88:88"
+speed 8
+States
+{
+SpawnPath:
+MOBY AABBCCDDEEFFEEDDCCBB 2 A_ChangeVelocity(3.0, 0, 0, CVF_RELATIVE|CVF_REPLACE)
+loop
+}
+}
+
+actor EncoreJumpingGyotot : JumpingGyotot
+{
+Translation "104:104=216:216"
+}
+
+actor EncoreSwimmingGyotot : SwimmingGyotot
+{
+Translation "104:104=216:216"
+}

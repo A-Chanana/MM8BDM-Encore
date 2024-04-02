@@ -1,0 +1,481 @@
+
+Texture ECOSOUT1, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS3, 0, 0
+	Patch ECOSS4, 0, 32
+	Patch ECOSS4, 0, 64
+	Patch ECOSS4, 0, 96
+	Patch ECOSS4, 0, 128
+	Patch ECOSS4, 0, 160
+	Patch ECOSS4, 0, 192
+	Patch ECOSS4, 0, 224
+	Patch ECOSS4, 0, 256
+	Patch ECOSS4, 0, 288
+	Patch ECOSS4, 0, 320
+	Patch ECOSS4, 0, 352
+	Patch ECOSS4, 0, 384
+	Patch ECOSS4, 0, 416
+	Patch ECOSS4, 0, 448
+	Patch ECOSS4, 0, 480
+}
+
+Texture ECOSOUT2, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS5, 0, 0
+	Patch ECOSS6, 0, 32
+	Patch ECOSS6, 0, 64
+	Patch ECOSS6, 0, 96
+	Patch ECOSS6, 0, 128
+	Patch ECOSS6, 0, 160
+	Patch ECOSS6, 0, 192
+	Patch ECOSS6, 0, 224
+	Patch ECOSS6, 0, 256
+	Patch ECOSS6, 0, 288
+	Patch ECOSS6, 0, 320
+	Patch ECOSS6, 0, 352
+	Patch ECOSS6, 0, 384
+	Patch ECOSS6, 0, 416
+	Patch ECOSS6, 0, 448
+	Patch ECOSS6, 0, 480
+}
+
+Texture ECOSOUT3, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS7, 0, 0
+	Patch ECOSS8, 0, 32
+	Patch ECOSS8, 0, 64
+	Patch ECOSS8, 0, 96
+	Patch ECOSS8, 0, 128
+	Patch ECOSS8, 0, 160
+	Patch ECOSS8, 0, 192
+	Patch ECOSS8, 0, 224
+	Patch ECOSS8, 0, 256
+	Patch ECOSS8, 0, 288
+	Patch ECOSS8, 0, 320
+	Patch ECOSS8, 0, 352
+	Patch ECOSS8, 0, 384
+	Patch ECOSS8, 0, 416
+	Patch ECOSS8, 0, 448
+	Patch ECOSS8, 0, 480
+}
+
+Texture ECOSOUT4, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS1, 0, 0
+	Patch ECOSS2, 0, 32
+	Patch ECOSS2, 0, 64
+	Patch ECOSS2, 0, 96
+	Patch ECOSS2, 0, 128
+	Patch ECOSS2, 0, 160
+	Patch ECOSS2, 0, 192
+	Patch ECOSS2, 0, 224
+	Patch ECOSS2, 0, 256
+	Patch ECOSS2, 0, 288
+	Patch ECOSS2, 0, 320
+	Patch ECOSS2, 0, 352
+	Patch ECOSS2, 0, 384
+	Patch ECOSS2, 0, 416
+	Patch ECOSS2, 0, 448
+	Patch ECOSS2, 0, 480
+}
+
+Texture ECOSSLDR, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS9, 0, 0
+}
+
+Texture ECOSSBRK, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS10, 0, 0
+}
+
+Texture ECOSSLOG, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS11, 0, 0
+}
+
+Texture ECOSINT1, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS12, 0, 0
+	Patch ECOSS13, 0, 32
+	Patch ECOSS13, 0, 64
+	Patch ECOSS13, 0, 96
+	Patch ECOSS13, 0, 128
+	Patch ECOSS13, 0, 160
+	Patch ECOSS13, 0, 192
+	Patch ECOSS13, 0, 224
+	Patch ECOSS13, 0, 256
+	Patch ECOSS13, 0, 288
+	Patch ECOSS13, 0, 320
+	Patch ECOSS13, 0, 352
+	Patch ECOSS13, 0, 384
+	Patch ECOSS13, 0, 416
+	Patch ECOSS13, 0, 448
+	Patch ECOSS13, 0, 480
+}
+
+Texture ECOSINT2, 32, 96
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS14, 0, 0
+}
+
+Texture ECOSINT3, 32, 96
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS20, 0, 0
+}
+
+Texture ECOSINT4, 32, 96
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS12, 0, 0
+	Patch ECOSS13, 0, 32
+	Patch ECOSS21, 0, 32
+}
+
+Texture ECOSINT6, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS50, 0, 0
+	Patch ECOSS52, 0, 96
+	Patch ECOSS52, 0, 128
+	Patch ECOSS52, 0, 160
+	Patch ECOSS52, 0, 192
+	Patch ECOSS52, 0, 224
+	Patch ECOSS52, 0, 256
+	Patch ECOSS52, 0, 288
+	Patch ECOSS52, 0, 320
+	Patch ECOSS52, 0, 352
+	Patch ECOSS52, 0, 384
+	Patch ECOSS52, 0, 416
+	Patch ECOSS52, 0, 448
+	Patch ECOSS52, 0, 480
+}
+
+Texture ECOSINT7, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS51, 0, 0
+	Patch ECOSS53, 0, 96
+	Patch ECOSS53, 0, 128
+	Patch ECOSS53, 0, 160
+	Patch ECOSS53, 0, 192
+	Patch ECOSS53, 0, 224
+	Patch ECOSS53, 0, 256
+	Patch ECOSS53, 0, 288
+	Patch ECOSS53, 0, 320
+	Patch ECOSS53, 0, 352
+	Patch ECOSS53, 0, 384
+	Patch ECOSS53, 0, 416
+	Patch ECOSS53, 0, 448
+	Patch ECOSS53, 0, 480
+}
+
+Texture ECOSPIP1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS16, 0, 0
+}
+
+Texture ECOSPIP2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS17, 0, 0
+}
+
+Texture ECOSPIP3, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS18, 0, 0
+}
+
+Texture ECOSPIP4, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS19, 0, 0
+}
+
+Texture ECOSPIP5, 16, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS22, 0, 0
+}
+
+Texture ECOSPIP6, 48, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS26, 0, 0
+}
+
+Texture ECOSINT5, 32, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS24, 0, 0
+	Patch ECOSS25, 0, 32
+}
+
+Texture ECOSSTEP, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS27, 0, 0
+}
+
+Texture ECOSORA1, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS28, 0, 16
+	Patch ECOSS28, 32, 16
+	Patch ECOSS28, 0, 0
+}
+
+Texture ECOSORA2, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS29, 0, 16
+	Patch ECOSS29, 32, 16
+	Patch ECOSS29, 0, 0
+}
+
+Texture ECOSSKY1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS34, 0, 0
+}
+
+
+
+Texture ECOSORA3, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS30, 0, 0
+	Patch ECOSS31, 0, 32
+	Patch ECOSS32, 0, 64
+	Patch ECOSS31, 0, 96
+	Patch ECOSS31, 0, 128
+	Patch ECOSS32, 0, 160
+	Patch ECOSS31, 0, 192
+	Patch ECOSS31, 0, 224
+	Patch ECOSS32, 0, 256
+	Patch ECOSS31, 0, 288
+	Patch ECOSS31, 0, 320
+	Patch ECOSS32, 0, 352
+	Patch ECOSS31, 0, 384
+	Patch ECOSS31, 0, 416
+	Patch ECOSS32, 0, 448
+	Patch ECOSS33, 0, 480
+}
+
+Texture ECOSSKYW, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS39, 0, 0
+	Patch ECOSS34, 0, 64
+	Patch ECOSS34, 0, 96
+	Patch ECOSS34, 0, 128
+	Patch ECOSS34, 0, 160
+	Patch ECOSS34, 0, 192
+	Patch ECOSS34, 0, 224
+	Patch ECOSS34, 0, 256
+	Patch ECOSS34, 0, 288
+	Patch ECOSS34, 0, 320
+	Patch ECOSS34, 0, 352
+	Patch ECOSS34, 0, 384
+	Patch ECOSS34, 0, 416
+	Patch ECOSS34, 0, 448
+	Patch ECOSS34, 0, 480
+}
+
+Texture ECOSORA4, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS35, 0, 0
+	Patch ECOSS36, 0, 32
+	Patch ECOSS36, 0, 64
+	Patch ECOSS36, 0, 96
+	Patch ECOSS36, 0, 128
+	Patch ECOSS36, 0, 160
+	Patch ECOSS36, 0, 192
+	Patch ECOSS36, 0, 224
+	Patch ECOSS36, 0, 256
+	Patch ECOSS36, 0, 288
+	Patch ECOSS36, 0, 320
+	Patch ECOSS36, 0, 352
+	Patch ECOSS36, 0, 384
+	Patch ECOSS36, 0, 416
+	Patch ECOSS36, 0, 448
+	Patch ECOSS36, 0, 480
+}
+
+Texture ECOSORA5, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS37, 0, 0
+	Patch ECOSS38, 0, 32
+	Patch ECOSS38, 0, 64
+	Patch ECOSS38, 0, 96
+	Patch ECOSS38, 0, 128
+	Patch ECOSS38, 0, 160
+	Patch ECOSS38, 0, 192
+	Patch ECOSS38, 0, 224
+	Patch ECOSS38, 0, 256
+	Patch ECOSS38, 0, 288
+	Patch ECOSS38, 0, 320
+	Patch ECOSS38, 0, 352
+	Patch ECOSS38, 0, 384
+	Patch ECOSS38, 0, 416
+	Patch ECOSS38, 0, 448
+	Patch ECOSS38, 0, 480
+}
+
+Texture ECOSFLR1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS40, 0, 0
+}
+
+Texture ECOSFLR2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS41, 0, 0
+}
+
+Texture ECOSFLR3, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS42, 0, 0
+}
+
+Texture ECOSFLR4, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS43, 0, 0
+}
+
+Texture ECOSFLR5, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS44, 0, 0
+}
+
+Texture ECOSTOP, 250, 152
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS45, 0, 0
+}
+
+Texture ECOSSKY2, 528, 240
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS46, 0, 0
+}
+
+Texture ECOSSKYX, 256, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS47, 0, 0
+}
+
+Texture ECOSSKY3, 256, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS47, 0, 0
+}
+
+Texture ECOSSKY4, 256, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS48, 0, 0
+}
+
+Texture ECOSSKY5, 256, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch ECOSS49, 0, 0
+}

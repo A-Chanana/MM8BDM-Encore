@@ -1,0 +1,635 @@
+
+
+Texture "EPHAWAL1", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR5", 0, 0
+	Patch "EPHAR4", 0, 32
+	Patch "EPHAR4", 0, 64
+	Patch "EPHAR4", 0, 96
+	Patch "EPHAR4", 0, 128
+	Patch "EPHAR4", 0, 160
+	Patch "EPHAR4", 0, 192
+	Patch "EPHAR4", 0, 224
+	Patch "EPHAR4", 0, 256
+	Patch "EPHAR4", 0, 288
+	Patch "EPHAR4", 0, 320
+	Patch "EPHAR4", 0, 352
+	Patch "EPHAR4", 0, 384
+	Patch "EPHAR4", 0, 416
+	Patch "EPHAR4", 0, 448
+	Patch "EPHAR4", 0, 480
+}
+
+Texture "EPHAWAL2", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR7", 0, 0
+	Patch "EPHAR6", 0, 32
+	Patch "EPHAR6", 0, 64
+	Patch "EPHAR6", 0, 96
+	Patch "EPHAR6", 0, 128
+	Patch "EPHAR6", 0, 160
+	Patch "EPHAR6", 0, 192
+	Patch "EPHAR6", 0, 224
+	Patch "EPHAR6", 0, 256
+	Patch "EPHAR6", 0, 288
+	Patch "EPHAR6", 0, 320
+	Patch "EPHAR6", 0, 352
+	Patch "EPHAR6", 0, 384
+	Patch "EPHAR6", 0, 416
+	Patch "EPHAR6", 0, 448
+	Patch "EPHAR6", 0, 480
+}
+
+Texture "EPHAWAL6", 128, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR8", 0, 0
+}
+
+Texture "EPHAWAL3", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR12", 0, 0
+	Patch "EPHAR11", 0, 32
+	Patch "EPHAR11", 0, 64
+	Patch "EPHAR11", 0, 96
+	Patch "EPHAR11", 0, 128
+	Patch "EPHAR11", 0, 160
+	Patch "EPHAR11", 0, 192
+	Patch "EPHAR11", 0, 224
+	Patch "EPHAR11", 0, 256
+	Patch "EPHAR11", 0, 288
+	Patch "EPHAR11", 0, 320
+	Patch "EPHAR11", 0, 352
+	Patch "EPHAR11", 0, 384
+	Patch "EPHAR11", 0, 416
+	Patch "EPHAR11", 0, 448
+	Patch "EPHAR11", 0, 480
+}
+
+Texture "EPHAWAL4", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR14", 0, 0
+	Patch "EPHAR16", 0, 32
+	Patch "EPHAR16", 0, 64
+	Patch "EPHAR16", 0, 96
+	Patch "EPHAR16", 0, 128
+	Patch "EPHAR16", 0, 160
+	Patch "EPHAR16", 0, 192
+	Patch "EPHAR16", 0, 224
+	Patch "EPHAR16", 0, 256
+	Patch "EPHAR16", 0, 288
+	Patch "EPHAR16", 0, 320
+	Patch "EPHAR16", 0, 352
+	Patch "EPHAR16", 0, 384
+	Patch "EPHAR16", 0, 416
+	Patch "EPHAR16", 0, 448
+	Patch "EPHAR16", 0, 480
+}
+
+Texture "EPHAWAL5", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR15", 0, 0
+	Patch "EPHAR17", 0, 32
+	Patch "EPHAR17", 0, 64
+	Patch "EPHAR17", 0, 96
+	Patch "EPHAR17", 0, 128
+	Patch "EPHAR17", 0, 160
+	Patch "EPHAR17", 0, 192
+	Patch "EPHAR17", 0, 224
+	Patch "EPHAR17", 0, 256
+	Patch "EPHAR17", 0, 288
+	Patch "EPHAR17", 0, 320
+	Patch "EPHAR17", 0, 352
+	Patch "EPHAR17", 0, 384
+	Patch "EPHAR17", 0, 416
+	Patch "EPHAR17", 0, 448
+	Patch "EPHAR17", 0, 480
+}
+
+Texture "EPHAMET1", 64, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR9", 0, 0
+}
+
+Texture "EPHAMET2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR10", 0, 0
+}
+
+Texture "EPHABRK1", 256, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR1", 0, 0
+}
+
+Texture "EPHABRK2", 64, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR2", 0, 0
+}
+
+Texture "EPHAYASH", 64, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR46", 0, 0
+}
+
+Texture "EPHABRK3", 96, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR3", 0, 0
+}
+
+Texture "EPHABRK4", 64, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR18", 0, 0
+}
+
+Texture "PHABRK3F", 96, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "PHAR3", 0, 0
+}
+
+Texture "PHABRK4F", 64, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "PHAR18", 0, 0
+}
+
+Texture "EPHAFLR2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR19", 0, 0
+}
+
+Texture "EPHAFLR1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR25", 0, 0
+}
+
+Texture "EPHAFLR3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR25", 0, 0
+}
+
+Texture "EPHAFLR4", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR29", 0, 0
+}
+
+Texture "EPHAFLR5", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR30", 0, 0
+}
+
+Texture "EPHAFLR6", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR45", 0, 0
+}
+
+Texture "EPTORCH1", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR5", -8, 0
+	Patch "EPHAR4", -8, 32
+	Patch "EPHAR20", -8, 16
+	Patch "EPHAR4", -8, 64
+	Patch "EPHAR20", -8, 96
+	Patch "EPHAR4", -8, 128
+	Patch "EPHAR4", -8, 160
+	Patch "EPHAR4", -8, 192
+	Patch "EPHAR4", -8, 224
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR20", -8, 256
+	Patch "EPHAR4", -8, 288
+	Patch "EPHAR4", -8, 320
+	Patch "EPHAR4", -8, 352
+	Patch "EPHAR4", -8, 384
+	Patch "EPHAR4", -8, 416
+	Patch "EPHAR4", -8, 448
+	Patch "EPHAR4", -8, 480
+}
+
+Texture "EPTORCH2", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR5", -8, 0
+	Patch "EPHAR4", -8, 32
+	Patch "EPHAR20", -8, 16
+	Patch "EPHAR4", -8, 64
+	Patch "EPHAR4", -8, 96
+	Patch "EPHAR4", -8, 128
+	Patch "EPHAR4", -8, 160
+	Patch "EPHAR4", -8, 192
+	Patch "EPHAR4", -8, 224
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR4", -8, 288
+	Patch "EPHAR4", -8, 320
+	Patch "EPHAR4", -8, 352
+	Patch "EPHAR4", -8, 384
+	Patch "EPHAR4", -8, 416
+	Patch "EPHAR4", -8, 448
+	Patch "EPHAR4", -8, 480
+}
+
+Texture "PTORCH2", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "PHAR5", -8, 0
+	Patch "PHAR4", -8, 32
+	Patch "PHAR20", -8, 16
+	Patch "PHAR4", -8, 64
+	Patch "PHAR4", -8, 96
+	Patch "PHAR4", -8, 128
+	Patch "PHAR4", -8, 160
+	Patch "PHAR4", -8, 192
+	Patch "PHAR4", -8, 224
+	Patch "PHAR4", -8, 256
+	Patch "PHAR4", -8, 256
+	Patch "PHAR4", -8, 288
+	Patch "PHAR4", -8, 320
+	Patch "PHAR4", -8, 352
+	Patch "PHAR4", -8, 384
+	Patch "PHAR4", -8, 416
+	Patch "PHAR4", -8, 448
+	Patch "PHAR4", -8, 480
+}
+
+Texture "EPHATWL1", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR5", -8, 0
+	Patch "EPHAR4", -8, 32
+	Patch "EPHAR20", -8, 16
+	Patch "EPHAR4", -8, 64
+	Patch "EPHAR20", -8, 96
+	Patch "EPHAR4", -8, 128
+	Patch "EPHAR4", -8, 160
+	Patch "EPHAR4", -8, 192
+	Patch "EPHAR4", -8, 224
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR20", -8, 256
+	Patch "EPHAR4", -8, 288
+	Patch "EPHAR4", -8, 320
+	Patch "EPHAR4", -8, 352
+	Patch "EPHAR4", -8, 384
+	Patch "EPHAR4", -8, 416
+	Patch "EPHAR4", -8, 448
+	Patch "EPHAR4", -8, 480
+}
+
+Texture "EPHATWL2", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR5", -8, 0
+	Patch "EPHAR4", -8, 32
+	Patch "EPHAR21", -8, 16
+	Patch "EPHAR4", -8, 64
+	Patch "EPHAR21", -8, 96
+	Patch "EPHAR4", -8, 128
+	Patch "EPHAR4", -8, 160
+	Patch "EPHAR4", -8, 192
+	Patch "EPHAR4", -8, 224
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR21", -8, 256
+	Patch "EPHAR4", -8, 288
+	Patch "EPHAR4", -8, 320
+	Patch "EPHAR4", -8, 352
+	Patch "EPHAR4", -8, 384
+	Patch "EPHAR4", -8, 416
+	Patch "EPHAR4", -8, 448
+	Patch "EPHAR4", -8, 480
+}
+
+Texture "EPHATWL3", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR5", -8, 0
+	Patch "EPHAR4", -8, 32
+	Patch "EPHAR20", -8, 16
+	Patch "EPHAR4", -8, 64
+	Patch "EPHAR4", -8, 96
+	Patch "EPHAR4", -8, 128
+	Patch "EPHAR4", -8, 160
+	Patch "EPHAR4", -8, 192
+	Patch "EPHAR4", -8, 224
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR4", -8, 288
+	Patch "EPHAR4", -8, 320
+	Patch "EPHAR4", -8, 352
+	Patch "EPHAR4", -8, 384
+	Patch "EPHAR4", -8, 416
+	Patch "EPHAR4", -8, 448
+	Patch "EPHAR4", -8, 480
+}
+
+Texture "EPHATWL4", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR5", -8, 0
+	Patch "EPHAR4", -8, 32
+	Patch "EPHAR21", -8, 16
+	Patch "EPHAR4", -8, 64
+	Patch "EPHAR4", -8, 96
+	Patch "EPHAR4", -8, 128
+	Patch "EPHAR4", -8, 160
+	Patch "EPHAR4", -8, 192
+	Patch "EPHAR4", -8, 224
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR4", -8, 256
+	Patch "EPHAR4", -8, 288
+	Patch "EPHAR4", -8, 320
+	Patch "EPHAR4", -8, 352
+	Patch "EPHAR4", -8, 384
+	Patch "EPHAR4", -8, 416
+	Patch "EPHAR4", -8, 448
+	Patch "EPHAR4", -8, 480
+}
+
+Texture "PHATWL3", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "PHAR5", -8, 0
+	Patch "PHAR4", -8, 32
+	Patch "PHAR20", -8, 16
+	Patch "PHAR4", -8, 64
+	Patch "PHAR4", -8, 96
+	Patch "PHAR4", -8, 128
+	Patch "PHAR4", -8, 160
+	Patch "PHAR4", -8, 192
+	Patch "PHAR4", -8, 224
+	Patch "PHAR4", -8, 256
+	Patch "PHAR4", -8, 256
+	Patch "PHAR4", -8, 288
+	Patch "PHAR4", -8, 320
+	Patch "PHAR4", -8, 352
+	Patch "PHAR4", -8, 384
+	Patch "PHAR4", -8, 416
+	Patch "PHAR4", -8, 448
+	Patch "PHAR4", -8, 480
+}
+
+Texture "PHATWL4", 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "PHAR5", -8, 0
+	Patch "PHAR4", -8, 32
+	Patch "PHAR21", -8, 16
+	Patch "PHAR4", -8, 64
+	Patch "PHAR4", -8, 96
+	Patch "PHAR4", -8, 128
+	Patch "PHAR4", -8, 160
+	Patch "PHAR4", -8, 192
+	Patch "PHAR4", -8, 224
+	Patch "PHAR4", -8, 256
+	Patch "PHAR4", -8, 256
+	Patch "PHAR4", -8, 288
+	Patch "PHAR4", -8, 320
+	Patch "PHAR4", -8, 352
+	Patch "PHAR4", -8, 384
+	Patch "PHAR4", -8, 416
+	Patch "PHAR4", -8, 448
+	Patch "PHAR4", -8, 480
+}
+
+Texture "EPSANDY", 64, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR22", 0, 0
+}
+
+Texture "EPHASND1", 64, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR22", 0, 0
+}
+
+Texture "EPHASND2", 64, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR23", 0, 0
+}
+
+Texture "EPHASND3", 64, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR24", 0, 0
+}
+
+Texture "EPHASKY", 256, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR26", 0, 0
+}
+
+Texture "EPHASKY1", 256, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR26", 0, 0
+}
+
+Texture "EPHASKY2", 256, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR47", 0, 0
+}
+
+Texture "EPHASKY3", 256, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR48", 0, 0
+}
+
+Texture "EPHASKY4", 256, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR49", 0, 0
+}
+
+Texture "EPHALDR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR28", 0, 0
+}
+
+Texture "EPHAFEN1", 64, 144
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR31", 0, 0
+	Patch "EPHAR32", 16, 0
+	Patch "EPHAR32", 32, 0
+	Patch "EPHAR33", 48, 0
+	Patch "EPHAR34", 0, 16
+	Patch "EPHAR34", 0, 48
+	Patch "EPHAR34", 0, 80
+	Patch "EPHAR34", 0, 112
+	Patch "EPHAR34", 16, 16
+	Patch "EPHAR34", 16, 48
+	Patch "EPHAR34", 16, 80
+	Patch "EPHAR34", 16, 112
+	Patch "EPHAR34", 32, 16
+	Patch "EPHAR34", 32, 48
+	Patch "EPHAR34", 32, 80
+	Patch "EPHAR34", 32, 112
+	Patch "EPHAR34", 48, 16
+	Patch "EPHAR34", 48, 48
+	Patch "EPHAR34", 48, 80
+	Patch "EPHAR34", 48, 112
+	Patch "EPHAR34", 0, 32
+	Patch "EPHAR34", 0, 64
+	Patch "EPHAR34", 0, 96
+	Patch "EPHAR34", 0, 128
+	Patch "EPHAR34", 16, 32
+	Patch "EPHAR34", 16, 64
+	Patch "EPHAR34", 16, 96
+	Patch "EPHAR34", 16, 128
+	Patch "EPHAR34", 32, 32
+	Patch "EPHAR34", 32, 64
+	Patch "EPHAR34", 32, 96
+	Patch "EPHAR34", 32, 128
+	Patch "EPHAR34", 48, 32
+	Patch "EPHAR34", 48, 64
+	Patch "EPHAR34", 48, 96
+	Patch "EPHAR34", 48, 128
+}
+
+Texture "EPHAFEN2", 64, 144
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "EPHAR38", 0, 0
+	Patch "EPHAR41", 0, 16
+	Patch "EPHAR41", 0, 32
+	Patch "EPHAR41", 0, 64
+	Patch "EPHAR41", 0, 96
+	Patch "EPHAR41", 0, 48
+	Patch "EPHAR41", 0, 80
+	Patch "EPHAR41", 0, 112
+	Patch "EPHAR41", 0, 128
+	Patch "EPHAR39", 16, 0
+	Patch "EPHAR39", 16, 16
+	Patch "EPHAR39", 16, 32
+	Patch "EPHAR39", 16, 64
+	Patch "EPHAR39", 16, 96
+	Patch "EPHAR39", 16, 48
+	Patch "EPHAR39", 16, 80
+	Patch "EPHAR39", 16, 112
+	Patch "EPHAR39", 16, 128
+	Patch "EPHAR39", 32, 0
+	Patch "EPHAR39", 32, 16
+	Patch "EPHAR39", 32, 32
+	Patch "EPHAR39", 32, 64
+	Patch "EPHAR39", 32, 96
+	Patch "EPHAR39", 32, 48
+	Patch "EPHAR39", 32, 80
+	Patch "EPHAR39", 32, 112
+	Patch "EPHAR39", 32, 128
+	Patch "EPHAR42", 48, 16
+	Patch "EPHAR42", 48, 32
+	Patch "EPHAR42", 48, 64
+	Patch "EPHAR42", 48, 96
+	Patch "EPHAR42", 48, 48
+	Patch "EPHAR42", 48, 80
+	Patch "EPHAR42", 48, 112
+	Patch "EPHAR42", 48, 128
+	Patch "EPHAR40", 48, 0
+}

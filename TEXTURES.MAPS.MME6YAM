@@ -1,0 +1,746 @@
+
+Texture EYAMRCK, 32, 272
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO64, 0, 0
+	Patch EYMATO63, 0, 16
+	Patch EYMATO63, 0, 48
+	Patch EYMATO63, 0, 80
+	Patch EYMATO63, 0, 112
+	Patch EYMATO63, 0, 144
+	Patch EYMATO63, 0, 176
+	Patch EYMATO63, 0, 208
+	Patch EYMATO63, 0, 240
+}
+
+Texture EYAMSCK, 32, 272
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO76, 0, 0
+	Patch EYMATO63, 0, 16
+	Patch EYMATO63, 0, 48
+	Patch EYMATO63, 0, 80
+	Patch EYMATO63, 0, 112
+	Patch EYMATO63, 0, 144
+	Patch EYMATO63, 0, 176
+	Patch EYMATO63, 0, 208
+	Patch EYMATO63, 0, 240
+}
+
+Texture EYAMFAL1, 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO73, 0, 0
+}
+
+Texture EYAMFAL2, 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO74, 0, 0
+}
+
+Texture EYAMFAL3, 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO75, 0, 0
+}
+
+Texture EYAMFALX, 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO73, 0, 0
+}
+
+Texture EYAMTOP, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO72, 0, 0
+}
+
+Texture EYTOSKY, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO69, 0, 0
+}
+
+Texture EYTOSKY1, 480, 256
+{
+	WorldPanning
+	Patch EYMATO70, 0, 0
+}
+
+Texture EYTOSKY2, 480, 256
+{
+	WorldPanning
+	Patch EYMATO71, 0, 0
+}
+
+Texture EYTOCEG1, 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO52, 0, 0
+	Patch EYMATO52, 16, 0
+	Patch EYMATO52, 32, 0
+	Patch EYMATO52, 48, 0
+	Patch EYMATO01, 0, 16
+	Patch EYMATO01, 16, 16
+	Patch EYMATO01, 32, 16
+	Patch EYMATO02, 48, 16
+	Patch EYMATO03, 0, 32
+	Patch EYMATO03, 16, 32
+	Patch EYMATO03, 32, 32
+	Patch EYMATO03, 48, 32
+	Patch EYMATO04, 0, 48
+	Patch EYMATO04, 16, 48
+	Patch EYMATO04, 32, 48
+	Patch EYMATO04, 48, 48
+	Patch EYMATO04, 16, 64
+	Patch EYMATO04, 32, 64
+	Patch EYMATO04, 48, 64
+	Patch EYMATO04, 16, 80
+	Patch EYMATO04, 32, 80
+	Patch EYMATO04, 48, 80
+	Patch EYMATO04, 16, 96
+	Patch EYMATO04, 32, 96
+	Patch EYMATO04, 48, 96
+	Patch EYMATO04, 0, 80
+	Patch EYMATO04, 0, 96
+	Patch EYMATO05, 0, 64
+}
+
+Texture EYTOCEG2, 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO53, 0, 0
+	Patch EYMATO53, 16, 0
+	Patch EYMATO53, 32, 0
+	Patch EYMATO53, 48, 0
+	Patch EYMATO01, 0, 16
+	Patch EYMATO01, 16, 16
+	Patch EYMATO01, 32, 16
+	Patch EYMATO02, 48, 16
+	Patch EYMATO03, 0, 32
+	Patch EYMATO03, 16, 32
+	Patch EYMATO03, 32, 32
+	Patch EYMATO03, 48, 32
+	Patch EYMATO04, 0, 48
+	Patch EYMATO04, 16, 48
+	Patch EYMATO04, 32, 48
+	Patch EYMATO04, 48, 48
+	Patch EYMATO04, 16, 64
+	Patch EYMATO04, 32, 64
+	Patch EYMATO04, 48, 64
+	Patch EYMATO04, 16, 80
+	Patch EYMATO04, 32, 80
+	Patch EYMATO04, 48, 80
+	Patch EYMATO04, 16, 96
+	Patch EYMATO04, 32, 96
+	Patch EYMATO04, 48, 96
+	Patch EYMATO04, 0, 80
+	Patch EYMATO04, 0, 96
+	Patch EYMATO05, 0, 64
+}
+
+Texture EYTOCEG3, 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO54, 0, 0
+	Patch EYMATO54, 16, 0
+	Patch EYMATO54, 32, 0
+	Patch EYMATO54, 48, 0
+	Patch EYMATO01, 0, 16
+	Patch EYMATO01, 16, 16
+	Patch EYMATO01, 32, 16
+	Patch EYMATO02, 48, 16
+	Patch EYMATO03, 0, 32
+	Patch EYMATO03, 16, 32
+	Patch EYMATO03, 32, 32
+	Patch EYMATO03, 48, 32
+	Patch EYMATO04, 0, 48
+	Patch EYMATO04, 16, 48
+	Patch EYMATO04, 32, 48
+	Patch EYMATO04, 48, 48
+	Patch EYMATO04, 16, 64
+	Patch EYMATO04, 32, 64
+	Patch EYMATO04, 48, 64
+	Patch EYMATO04, 16, 80
+	Patch EYMATO04, 32, 80
+	Patch EYMATO04, 48, 80
+	Patch EYMATO04, 16, 96
+	Patch EYMATO04, 32, 96
+	Patch EYMATO04, 48, 96
+	Patch EYMATO04, 0, 80
+	Patch EYMATO04, 0, 96
+	Patch EYMATO05, 0, 64
+}
+
+Texture EYTOEDG2, 32, 144
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO55, 0, 0
+	Patch EYMATO56, 16, 0
+	Patch EYMATO57, 0, 16
+	Patch EYMATO57, 0, 48
+	Patch EYMATO57, 0, 64
+	Patch EYMATO57, 0, 80
+	Patch EYMATO58, 16, 16
+	Patch EYMATO58, 16, 48
+	Patch EYMATO58, 16, 64
+	Patch EYMATO58, 16, 80
+	Patch EYMATO59, 0, 32
+	Patch EYMATO60, 0, 96
+	Patch EYMATO61, 16, 96
+	Patch EYMATO62, 0, 112
+}
+
+Texture EYTOEDG3, 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO01, 0, 0
+	Patch EYMATO01, 16, 0
+	Patch EYMATO01, 32, 0
+	Patch EYMATO02, 48, 0
+	Patch EYMATO03, 0, 16
+	Patch EYMATO03, 16, 16
+	Patch EYMATO03, 32, 16
+	Patch EYMATO03, 48, 16
+	Patch EYMATO04, 0, 32
+	Patch EYMATO04, 16, 32
+	Patch EYMATO04, 32, 32
+	Patch EYMATO04, 48, 32
+	Patch EYMATO04, 16, 48
+	Patch EYMATO04, 32, 48
+	Patch EYMATO04, 48, 48
+	Patch EYMATO04, 16, 64
+	Patch EYMATO04, 32, 64
+	Patch EYMATO04, 48, 64
+	Patch EYMATO04, 16, 80
+	Patch EYMATO04, 16, 96
+	Patch EYMATO04, 32, 80
+	Patch EYMATO04, 32, 96
+	Patch EYMATO04, 48, 80
+	Patch EYMATO04, 48, 96
+	Patch EYMATO04, 0, 64
+	Patch EYMATO04, 0, 80
+	Patch EYMATO04, 0, 96
+	Patch EYMATO05, 0, 48
+}
+
+Texture EYTOEDG4, 16, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO77, 0, 0
+	Patch EYMATO50, 0, 16
+	Patch EYMATO51, 0, 32
+	Patch EYMATO51, 0, 48
+	Patch EYMATO51, 0, 64
+	Patch EYMATO51, 0, 80
+	Patch EYMATO51, 0, 96
+}
+
+Texture EYTOEG1A, 16, 240
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO35, 0, 0
+	Patch EYMATO38, 0, 16
+	Patch EYMATO38, 0, 80
+	Patch EYMATO38, 0, 144
+	Patch EYMATO38, 0, 208
+	Patch EYMATO44, 0, 48
+	Patch EYMATO44, 0, 112
+	Patch EYMATO44, 0, 176
+	Patch EYMATO41, 0, 32
+	Patch EYMATO41, 0, 96
+	Patch EYMATO41, 0, 160
+	Patch EYMATO41, 0, 64
+	Patch EYMATO41, 0, 128
+	Patch EYMATO41, 0, 192
+	Patch EYMATO47, 0, 224
+}
+
+Texture EYTOEG1B, 16, 240
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO36, 0, 0
+	Patch EYMATO39, 0, 16
+	Patch EYMATO39, 0, 80
+	Patch EYMATO39, 0, 144
+	Patch EYMATO39, 0, 208
+	Patch EYMATO45, 0, 48
+	Patch EYMATO45, 0, 112
+	Patch EYMATO45, 0, 176
+	Patch EYMATO42, 0, 32
+	Patch EYMATO42, 0, 96
+	Patch EYMATO42, 0, 160
+	Patch EYMATO42, 0, 64
+	Patch EYMATO42, 0, 128
+	Patch EYMATO42, 0, 192
+	Patch EYMATO48, 0, 224
+}
+
+Texture EYTOEG1C, 16, 240
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO37, 0, 0
+	Patch EYMATO40, 0, 16
+	Patch EYMATO40, 0, 80
+	Patch EYMATO40, 0, 144
+	Patch EYMATO40, 0, 208
+	Patch EYMATO46, 0, 48
+	Patch EYMATO46, 0, 112
+	Patch EYMATO46, 0, 176
+	Patch EYMATO43, 0, 32
+	Patch EYMATO43, 0, 96
+	Patch EYMATO43, 0, 160
+	Patch EYMATO43, 0, 64
+	Patch EYMATO43, 0, 128
+	Patch EYMATO43, 0, 192
+	Patch EYMATO49, 0, 224
+}
+
+Texture EYTOCOV1, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO52, 0, 0
+	{
+		Rotate 90
+	}
+}
+
+Texture EYTOCOV2, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO53, 0, 0
+	{
+		Rotate -90
+	}
+}
+
+Texture EYTOCOV3, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO54, 0, 0
+	{
+		Rotate -90
+	}
+}
+
+Texture EYTOFLR1, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO65, 0, 0
+}
+
+Texture EYTOFLR2, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO66, 0, 0
+}
+
+Texture EYTOFLR3, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO67, 0, 0
+}
+
+Texture EYTOLADD, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO27, 0, 0
+}
+
+Texture EYTOPIPE, 16, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO06, 0, 0
+	Patch EYMATO07, 0, 16
+	Patch EYMATO08, 0, 32
+	Patch EYMATO08, 0, 48
+	Patch EYMATO08, 0, 64
+	Patch EYMATO08, 0, 80
+	Patch EYMATO08, 0, 96
+}
+
+Texture EYTOPIP2, 16, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO29, 0, 0
+	Patch EYMATO28, 0, 16
+	Patch EYMATO29, 0, 32
+	Patch EYMATO29, 0, 48
+	Patch EYMATO29, 0, 64
+	Patch EYMATO29, 0, 80
+	Patch EYMATO29, 0, 96
+}
+
+Texture EYTORCKF, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO68, 0, 0
+}
+
+Texture EYTORCF2, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO68, 0, 0
+}
+
+Texture EYTOROL1, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO32, 0, 0
+}
+
+Texture EYTOROL2, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO33, 0, 0
+}
+
+Texture EYTOROL3, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO34, 0, 0
+}
+
+Texture EYTOWALL, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO31, 0, 0
+}
+
+Texture EYTOWAL1, 32, 192
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO30, 0, 0
+	Patch EYMATO30, 16, 0
+	Patch EYMATO31, 0, 16
+	Patch EYMATO31, 16, 16
+	Patch EYMATO31, 0, 80
+	Patch EYMATO31, 16, 80
+	Patch EYMATO31, 0, 144
+	Patch EYMATO31, 16, 144
+	Patch EYMATO31, 0, 32
+	Patch EYMATO31, 16, 32
+	Patch EYMATO31, 0, 96
+	Patch EYMATO31, 16, 96
+	Patch EYMATO31, 0, 160
+	Patch EYMATO31, 16, 160
+	Patch EYMATO31, 0, 48
+	Patch EYMATO31, 16, 48
+	Patch EYMATO31, 0, 112
+	Patch EYMATO31, 16, 112
+	Patch EYMATO31, 0, 176
+	Patch EYMATO31, 16, 176
+	Patch EYMATO31, 0, 64
+	Patch EYMATO31, 16, 64
+	Patch EYMATO31, 0, 128
+	Patch EYMATO31, 16, 128
+}
+
+Texture EYTOWAL2, 64, 192
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO09, 0, 0
+	Patch EYMATO10, 16, 0
+	Patch EYMATO10, 32, 0
+	Patch EYMATO11, 48, 0
+	Patch EYMATO13, 16, 16
+	Patch EYMATO13, 32, 16
+	Patch EYMATO13, 16, 80
+	Patch EYMATO13, 32, 80
+	Patch EYMATO12, 0, 64
+	Patch EYMATO13, 16, 144
+	Patch EYMATO13, 32, 144
+	Patch EYMATO12, 0, 128
+	Patch EYMATO13, 16, 32
+	Patch EYMATO13, 32, 32
+	Patch EYMATO12, 0, 16
+	Patch EYMATO13, 16, 96
+	Patch EYMATO13, 32, 96
+	Patch EYMATO12, 0, 80
+	Patch EYMATO13, 16, 160
+	Patch EYMATO13, 32, 160
+	Patch EYMATO12, 0, 144
+	Patch EYMATO13, 16, 48
+	Patch EYMATO13, 32, 48
+	Patch EYMATO12, 0, 32
+	Patch EYMATO13, 16, 112
+	Patch EYMATO13, 32, 112
+	Patch EYMATO12, 0, 96
+	Patch EYMATO13, 16, 176
+	Patch EYMATO13, 32, 176
+	Patch EYMATO12, 0, 160
+	Patch EYMATO12, 0, 176
+	Patch EYMATO13, 16, 64
+	Patch EYMATO13, 32, 64
+	Patch EYMATO12, 0, 48
+	Patch EYMATO13, 16, 128
+	Patch EYMATO13, 32, 128
+	Patch EYMATO12, 0, 112
+	Patch EYMATO14, 48, 16
+	Patch EYMATO14, 48, 80
+	Patch EYMATO14, 48, 144
+	Patch EYMATO14, 48, 48
+	Patch EYMATO14, 48, 112
+	Patch EYMATO14, 48, 176
+	Patch EYMATO14, 48, 32
+	Patch EYMATO14, 48, 96
+	Patch EYMATO14, 48, 160
+	Patch EYMATO14, 48, 64
+	Patch EYMATO14, 48, 128
+}
+
+Texture EYTOWAL3, 64, 208
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO17, 0, 0
+	Patch EYMATO20, 16, 0
+	Patch EYMATO20, 32, 0
+	Patch EYMATO20, 48, 0
+	Patch EYMATO21, 16, 16
+	Patch EYMATO21, 32, 16
+	Patch EYMATO21, 16, 80
+	Patch EYMATO21, 32, 80
+	Patch EYMATO18, 0, 64
+	Patch EYMATO21, 16, 144
+	Patch EYMATO21, 32, 144
+	Patch EYMATO19, 0, 128
+	Patch EYMATO21, 16, 32
+	Patch EYMATO21, 32, 32
+	Patch EYMATO18, 0, 16
+	Patch EYMATO21, 16, 96
+	Patch EYMATO21, 32, 96
+	Patch EYMATO19, 0, 80
+	Patch EYMATO21, 16, 160
+	Patch EYMATO21, 32, 160
+	Patch EYMATO19, 0, 144
+	Patch EYMATO21, 16, 48
+	Patch EYMATO21, 32, 48
+	Patch EYMATO19, 0, 32
+	Patch EYMATO21, 16, 112
+	Patch EYMATO21, 32, 112
+	Patch EYMATO19, 0, 96
+	Patch EYMATO21, 16, 176
+	Patch EYMATO21, 16, 192
+	Patch EYMATO21, 32, 176
+	Patch EYMATO21, 32, 192
+	Patch EYMATO18, 0, 160
+	Patch EYMATO19, 0, 176
+	Patch EYMATO19, 0, 192
+	Patch EYMATO21, 16, 64
+	Patch EYMATO21, 32, 64
+	Patch EYMATO19, 0, 48
+	Patch EYMATO21, 16, 128
+	Patch EYMATO21, 32, 128
+	Patch EYMATO18, 0, 112
+	Patch EYMATO21, 48, 16
+	Patch EYMATO21, 48, 80
+	Patch EYMATO21, 48, 144
+	Patch EYMATO21, 48, 48
+	Patch EYMATO21, 48, 112
+	Patch EYMATO21, 48, 176
+	Patch EYMATO21, 48, 192
+	Patch EYMATO21, 48, 32
+	Patch EYMATO21, 48, 96
+	Patch EYMATO21, 48, 160
+	Patch EYMATO21, 48, 64
+	Patch EYMATO21, 48, 128
+}
+
+Texture EYTOWAL4, 16, 208
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO15, 0, 0
+	Patch EYMATO16, 0, 64
+	Patch EYMATO16, 0, 128
+	Patch EYMATO16, 0, 16
+	Patch EYMATO16, 0, 80
+	Patch EYMATO16, 0, 144
+	Patch EYMATO16, 0, 32
+	Patch EYMATO16, 0, 96
+	Patch EYMATO16, 0, 160
+	Patch EYMATO16, 0, 176
+	Patch EYMATO16, 0, 192
+	Patch EYMATO16, 0, 48
+	Patch EYMATO16, 0, 112
+}
+
+Texture EYTOWIND, 96, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO15, 0, 0
+	Patch EYMATO15, 16, 0
+	Patch EYMATO15, 32, 0
+	Patch EYMATO15, 48, 0
+	Patch EYMATO15, 64, 0
+	Patch EYMATO15, 80, 0
+	Patch EYMATO24, 0, 64
+	Patch EYMATO24, 16, 64
+	Patch EYMATO24, 32, 64
+	Patch EYMATO24, 48, 64
+	Patch EYMATO24, 64, 64
+	Patch EYMATO24, 80, 64
+	Patch EYMATO16, 0, 128
+	Patch EYMATO16, 16, 128
+	Patch EYMATO16, 32, 128
+	Patch EYMATO16, 48, 128
+	Patch EYMATO16, 64, 128
+	Patch EYMATO16, 80, 128
+	Patch EYMATO16, 0, 16
+	Patch EYMATO16, 16, 16
+	Patch EYMATO16, 32, 16
+	Patch EYMATO16, 48, 16
+	Patch EYMATO16, 64, 16
+	Patch EYMATO16, 80, 16
+	Patch EYMATO24, 0, 80
+	Patch EYMATO24, 16, 80
+	Patch EYMATO24, 32, 80
+	Patch EYMATO24, 48, 80
+	Patch EYMATO24, 64, 80
+	Patch EYMATO24, 80, 80
+	Patch EYMATO16, 0, 144
+	Patch EYMATO16, 16, 144
+	Patch EYMATO16, 32, 144
+	Patch EYMATO16, 48, 144
+	Patch EYMATO16, 64, 144
+	Patch EYMATO16, 80, 144
+	Patch EYMATO23, 0, 32
+	Patch EYMATO22, 16, 32
+	Patch EYMATO22, 32, 32
+	Patch EYMATO22, 48, 32
+	Patch EYMATO22, 64, 32
+	Patch EYMATO22, 80, 32
+	Patch EYMATO25, 0, 96
+	Patch EYMATO25, 16, 96
+	Patch EYMATO25, 32, 96
+	Patch EYMATO25, 48, 96
+	Patch EYMATO25, 64, 96
+	Patch EYMATO25, 80, 96
+	Patch EYMATO24, 0, 48
+	Patch EYMATO24, 16, 48
+	Patch EYMATO24, 32, 48
+	Patch EYMATO24, 48, 48
+	Patch EYMATO24, 64, 48
+	Patch EYMATO24, 80, 48
+	Patch EYMATO26, 0, 112
+	Patch EYMATO26, 16, 112
+	Patch EYMATO26, 32, 112
+	Patch EYMATO26, 48, 112
+	Patch EYMATO26, 64, 112
+	Patch EYMATO26, 80, 112
+}
+
+Texture EYTOWTRX, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO78, 0, 0
+}
+
+Texture EYTOWTR1, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO78, 0, 0
+}
+
+Texture EYTOWTR2, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO79, 0, 0
+}
+
+Texture EYTOWTR3, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO80, 0, 0
+}
+
+Texture EYTOWTR4, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EYMATO81, 0, 0
+}

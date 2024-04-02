@@ -1,0 +1,121 @@
+actor EncoreClownTrain 20814
+{
++SOLID
++ACTIVATEMCROSS
++NOGRAVITY
++FORCEYBILLBOARD
++CANPASS
++SHOOTABLE
++NOTAUTOAIMED
++NOBLOOD
++NODAMAGE
+Height 64
+Radius 48
+Speed 7
+scale 2.5
+Mass 999999
+species "MovingPlatform"
++THRUSPECIES
+var int user_playerRiding[64];
+States
+{
+Spawn:
+ECTR A 0
+ECTR A 0 ACS_NamedExecuteAlways("core_stickyLifts",0,STICKYMODE_GUTSLIFT)
+Goto Spawn2
+Spawn2:
+ECTR A 3 A_Recoil(-7)
+ECTR A 0 A_Stop
+ECTR A 0 A_SpawnItemEx("TrainWind",40,0,0, momx, momy, 0, 0, SXF_ABSOLUTEMOMENTUM, 0)
+ECTR A 3 A_Recoil(-7)
+ECTR A 0 A_Stop
+ECTR B 0 A_SpawnItemEx("TrainWind",40,0,0, momx, momy, 0, 0, SXF_ABSOLUTEMOMENTUM, 0)
+ECTR B 3 A_Recoil(-7)
+ECTR B 0 A_Stop
+ECTR B 0 A_SpawnItemEx("TrainWind",40,0,0, momx, momy, 0, 0, SXF_ABSOLUTEMOMENTUM, 0)
+ECTR B 3 A_Recoil(-7)
+ECTR B 0 A_Stop
+ECTR B 0 A_SpawnItemEx("TrainWind",40,0,0, momx, momy, 0, 0, SXF_ABSOLUTEMOMENTUM, 0)
+ECTR B 0 A_SpawnItemEx("TrainSmoke",40,0,64,0,0,5)
+Goto Spawn2+2
+}
+}
+
+actor EncoreRomper : Turtle 21675
+{
+//+NODROPOFF
++NOBLOCKMONST
+scale 2.0
+Speed 8
+States
+{
+Spawn:
+ERMP A 0
+ERMP A 1 A_Jump(156,"RomperG")
+GoTo RomperR
+RomperR:
+ERMP AABBAACC 4 A_Wander
+loop
+RomperG:
+ERMP DDEEDDFF 4 A_Wander
+loop
+}
+}
+
+actor EncoreMagicBalloonSpawner : TenguBalloonSpawner 21658
+{
+//$Arg0 Height
+//$Arg1 Color
+//$Arg1Enum { 0 = "Red"; 1 = "Blue"; 2 = "Yellow"; }
+//$Arg1Type 11
+//$NotAngled
+//$Sprite AMMOA0
+States
+{
+Spawn:
+TNT1 A 0 
+TNT1 A 0 A_JumpIf(args[0]==0, "Spawn2")
+TNT1 A 0 A_GiveInventory("CutterFlag", args[0])
+Goto Spawn2
+Spawn2:
+TNT1 A 0 A_JumpIf(args[1]==0, "SpawnB0")
+TNT1 A 0 A_JumpIf(args[1]==1, "SpawnB1")
+TNT1 A 0 A_JumpIf(args[1]>=2, "SpawnB2")
+SpawnB0:
+TNT1 A 175
+TNT1 A 0 A_SpawnItemEx("EncoreMagicBalloon0",0,0,140,0,0,1)
+TNT1 A 0 A_Jump(128, 2)
+TNT1 A 70
+TNT1 A 1
+loop
+SpawnB1:
+TNT1 A 175
+TNT1 A 0 A_SpawnItemEx("EncoreMagicBalloon1",0,0,140,0,0,1)
+TNT1 A 0 A_Jump(128, 2)
+TNT1 A 70
+TNT1 A 1
+loop
+SpawnB2:
+TNT1 A 175
+TNT1 A 0 A_SpawnItemEx("EncoreMagicuBalloon2",0,0,140,0,0,1)
+TNT1 A 0 A_Jump(128, 2)
+TNT1 A 70
+TNT1 A 1
+loop
+}
+}
+
+actor EncoreMagicBalloon0 : TenguBalloon
+{
+translation "102:102=220:220"
+}
+
+actor EncoreMagicBalloon1 : TenguBalloon
+{
+translation "102:102=110:110"
+}
+
+actor EncoreMagicuBalloon2 : TenguBalloon
+{
+translation "102:102=251:251"
+}

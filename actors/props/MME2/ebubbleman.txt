@@ -1,0 +1,111 @@
+actor EAnko : Anko 21671
+{
+//$Category MM8BDME-Props
+Translation "41:41=63:63"
+}
+
+actor EShrinkSpawner : ShrinkSpawner 21672
+{
+//$Category MM8BDME-Props
+States
+{
+Spawn:
+TNT1 A 5 A_Look
+loop
+See:
+TNT1 A 40
+TNT1 A 0 A_Jump(32,"EShrinkSpawn")
+TNT1 A 40
+TNT1 A 0 A_Jump(64,"EShrinkSpawn")
+TNT1 A 40
+TNT1 A 0 A_Jump(128,"EShrinkSpawn")
+TNT1 A 80
+goto EShrinkSpawn
+
+EShrinkSpawn:
+TNT1 A 1 A_CustomMissile("EShrink",random(10,110),0,0,2,0)
+Goto See
+}
+}
+
+actor EShrink : Shrink
+{
+//$Category MM8BDME-Props
+Translation "41:41=63:63"
+}
+
+actor ETanishi
+{
+Translation "41:41=63:63"
+//$Category MM8BDME-Props
+PROJECTILE
+Damage 0
++RIPPER
++FLOORHUGGER
++DONTBLAST
++BLOODLESSIMPACT
++CLIENTSIDEONLY
++DONTREFLECT
+scale 2.5
+speed 10
+radius 8
+-SOLID
+-NOGRAVITY
+States
+{
+Spawn:
+TNSH AB 8
+loop
+}
+}
+
+actor EM-445
+{
+Translation "41:41=63:63", "215:215=205:205", "205:205=215:215"
+//$Category MM8BDME-Props
++CLIENTSIDEONLY
+scale 2.5
+//+NOINTERACTION
+-SOLID
++NOGRAVITY
++FLOATBOB
+States
+{
+Spawn:
+M445 CD 4
+loop
+}
+}
+
+actor EClawPropBubble
+{
+Translation "41:41=63:63"
+//$Category MM8BDME-Props
+PROJECTILE
+Radius 2
+Height 2
++DONTBLAST
++ACTIVATEMCROSS
++ACTIVATEPCROSS
++DONTREFLECT
++RIPPER
+Damage 0
+DamageType "Misc"
+Speed 0
+-NOGRAVITY
++CLIENTSIDEONLY
+//gravity 0.4
+renderstyle translucent
+scale 2.5
+States
+{
+Spawn:
+CLAW B 0// A_SetAngle(random(0,360))
+CLAW B 0 A_Changeflag("LOWGRAVITY",1)
+CLAW B 1 A_SetAngle(random(0,360))
+CLAW B 3
+Falling:
+CLAW AB 4
+loop
+}
+}

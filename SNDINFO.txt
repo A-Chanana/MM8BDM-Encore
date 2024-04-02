@@ -1,0 +1,74 @@
+misc/undbel		UNDBEL
+misc/realblast	TREXP
+encore/hourglassflip HRGLFLIP
+JOJOKE JOJOKE
+ROACHSQK ROACHSQK
+ROCHBUMP ROCHBUMP
+encore/sheepcloudshot	S_M2B3-2
+encore/lightningstrike	E10DW1LG
+	$volume encore/lightningstrike 0.6
+encore/spacesplash	ECLIPGWH
+
+//MM1
+$musicvolume EGUTMUS 1.1
+$musicvolume EICEMUS 1.1
+$musicvolume EELEMUS 0.9
+$musicvolume EFIRMUS 0.9
+//MM2
+$musicvolume EBUBMUS 1.1
+$musicvolume EHEAMUS 1.1
+$musicvolume EFLAMUS 0.8
+$musicvolume E2DW2MUS 1.2
+//MM3
+$musicvolume EHARMUS 1.2
+$musicvolume ENEEMUS 1.25
+$musicvolume EMAGMUS 1.3
+$musicvolume EGEMMUS 1.3
+$musicvolume ESPAMUS 0.9
+$musicvolume E3DW2MUS 1.3
+$musicvolume MME3BOSS 1.2
+$musicvolume MME3WBOS 1.2
+//MM4
+$musicvolume EPHAMUS 0.83
+$musicvolume EDIVMUS 0.95
+$musicvolume ESKUMUS 0.9
+$musicvolume EDRIMUS 1.4
+$musicvolume E4DC1MUS 1.3
+$musicvolume ECOSSBOS 1.3
+$musicvolume MME4BOSS 1.7
+$musicvolume MME4FBOS 1.4
+//MM5
+$musicvolume ESTAMUS 0.4
+$musicvolume ECHAMUS 1.2
+$musicvolume ENAPMUS 1.2
+$musicvolume EDARMUS 2.2
+$musicvolume MME5BOSS 2.1
+//MM6
+$musicvolume EMRXMUS 1.7
+$musicvolume MME6FBOS 1.15
+//MM7
+$musicvolume MME7FBOS 1.5
+//MM&B
+$musicvolume EGROMUS 1.6
+$musicvolume MMEBBOSS 2.0
+$musicvolume MMEBFBOS 2.2
+//MM9
+$musicvolume ECONMUS 1.25
+$musicvolume EGALMUS 0.8
+$musicvolume MME9FBOS 1.45
+//MM10
+$musicvolume E10DW1MS 0.8
+$musicvolume MME10OBS 1.1
+$musicvolume MME10WBS 1.35
+//MMWT
+$musicvolume MMEWTBOS 2.75
+$musicvolume EHSHMUS 2.25
+$musicvolume WTDW1MUS 0.95
+$musicvolume WTDW4MUS 0.95
+//MME
+$musicvolume EPROMUS 2.0
+$musicvolume EPROINT 2.0
+$musicvolume AUTOMUS 0.9
+$musicvolume ESUNBOS 2.0
+//MMB2
+$musicvolume AICMUS 1.1

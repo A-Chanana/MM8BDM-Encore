@@ -1,0 +1,97 @@
+actor EncorePeng
+{
+PROJECTILE
+Damage 0
++RIPPER
++DONTBLAST
++FLOATBOB
++BLOODLESSIMPACT
++CLIENTSIDEONLY
+scale 2.5
+speed 12
+-SOLID
++NOGRAVITY
+States
+{
+Spawn:
+EPNG AB 4
+loop
+}
+}
+
+actor EncoreIceGust1 20016
+{
++BRIGHT
+-SHOOTABLE
++NOGRAVITY
++FORCEYBILLBOARD
+height 16
+radius 30
+scale 2.5
+States
+{
+Spawn:
+EICG A 4 
+EICG B 4 
+EICG C 4 
+loop
+}
+}
+
+actor EncoreIceGust2 20017
+{
++BRIGHT
+-SHOOTABLE
++NOGRAVITY
++FORCEYBILLBOARD
+height 16
+radius 30
+scale 2.5
+States
+{
+Spawn:
+EICG D 4 
+EICG E 4 
+EICG F 4 
+loop
+}
+}
+
+actor EncoreIceGust3 20014
+{
++BRIGHT
+-SHOOTABLE
++NOGRAVITY
++FORCEYBILLBOARD
+height 16
+radius 30
+scale 2.5
+States
+{
+Spawn:
+EICG G 4 
+EICG H 4 
+EICG I 4 
+loop
+}
+}
+
+actor EncoreIceGust4 20015
+{
++BRIGHT
+-SHOOTABLE
++NOGRAVITY
++FORCEYBILLBOARD
+height 16
+radius 30
+scale 2.5
+States
+{
+Spawn:
+EICG J 4 
+EICG K 4 
+EICG L 4 
+loop
+}
+}
+

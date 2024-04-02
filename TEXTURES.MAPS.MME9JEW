@@ -1,0 +1,2108 @@
+
+Texture EJEWFLR1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL57, 0, 0
+}
+
+Texture EJEWFLR2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL59, 0, 0
+}
+
+Texture EJEWFLR3, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL61, 0, 0
+}
+
+Texture EJEWFLR4, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL58, 0, 0
+}
+
+Texture EJEWFLR5, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL37, 0, 0
+}
+
+Texture EJEWFLR6, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL75, 0, 0
+}
+
+Texture EJEWFLR7, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL76, 0, 0
+}
+
+Texture EJEWFLR8, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL77, 0, 0
+}
+
+Texture EJEWFLR9, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL78, 0, 0
+}
+
+Texture EJEWDOR1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL53, 0, 0
+}
+
+Texture EJEWDOR2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL54, 0, 0
+}
+
+Texture EJEWDOR3, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL55, 0, 0
+}
+
+Texture EJEWDORX, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL53, 0, 0
+}
+
+Texture EJEWDOOR, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL56, 0, 0
+}
+
+Texture EJEWWIR1, 64, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL44, 0, 0
+	Patch EJWEL46, 16, 0
+	Patch EJWEL47, 48, 0
+}
+
+Texture EJEWWIR2, 64, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL45, 0, 0
+	Patch EJWEL46, 16, 0
+	Patch EJWEL48, 48, 0
+}
+
+Texture EJEWLWL1, 32, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL13, 0, 0
+	Patch EJWEL19, 0, 16
+	Patch EJWEL19, 0, 80
+	Patch EJWEL19, 0, 144
+	Patch EJWEL19, 0, 208
+	Patch EJWEL19, 0, 272
+	Patch EJWEL19, 0, 304
+	Patch EJWEL19, 0, 48
+	Patch EJWEL19, 0, 112
+	Patch EJWEL19, 0, 176
+	Patch EJWEL19, 0, 240
+	Patch EJWEL18, 0, 32
+	Patch EJWEL18, 0, 96
+	Patch EJWEL18, 0, 160
+	Patch EJWEL18, 0, 224
+	Patch EJWEL18, 0, 288
+	Patch EJWEL18, 0, 64
+	Patch EJWEL18, 0, 128
+	Patch EJWEL18, 0, 192
+	Patch EJWEL18, 0, 256
+	Patch EJWEL14, 16, 0
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 16, 304
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL26, 16, 32
+	Patch EJWEL26, 16, 160
+	Patch EJWEL26, 16, 288
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 16, 192
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 16, 256
+	Patch EJWEL20, 0, 320
+	Patch EJWEL21, 16, 320
+}
+
+Texture EJEWLWL2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL19, 0, 16
+	Patch EJWEL18, 0, 0
+	Patch EJWEL27, 16, 16
+	Patch EJWEL26, 16, 0
+}
+
+Texture EJEWWAL1, 32, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL26, 16, 32
+	Patch EJWEL26, 16, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 16, 192
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 16, 256
+	Patch EJWEL26, 16, 288
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 16, 304
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 0, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 0, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 0, 128
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 0, 288
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 0, 304
+	Patch EJWEL14, 16, 0
+	Patch EJWEL14, 0, 0
+	Patch EJWEL21, 16, 320
+	Patch EJWEL21, 0, 320
+}
+
+Texture EJEWWAL2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL26, 16, 0
+	Patch EJWEL27, 16, 16
+	Patch EJWEL28, 0, 0
+	Patch EJWEL29, 0, 16
+}
+
+Texture EJEWWAL3, 32, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL25, 16, 32
+	Patch EJWEL25, 16, 160
+	Patch EJWEL25, 16, 96
+	Patch EJWEL25, 16, 224
+	Patch EJWEL25, 16, 64
+	Patch EJWEL25, 16, 192
+	Patch EJWEL25, 16, 128
+	Patch EJWEL25, 16, 256
+	Patch EJWEL25, 16, 288
+	Patch EJWEL24, 16, 48
+	Patch EJWEL24, 16, 16
+	Patch EJWEL24, 16, 176
+	Patch EJWEL24, 16, 112
+	Patch EJWEL24, 16, 240
+	Patch EJWEL24, 16, 80
+	Patch EJWEL24, 16, 208
+	Patch EJWEL24, 16, 144
+	Patch EJWEL24, 16, 272
+	Patch EJWEL24, 16, 304
+	Patch EJWEL18, 0, 32
+	Patch EJWEL18, 0, 160
+	Patch EJWEL18, 0, 96
+	Patch EJWEL18, 0, 224
+	Patch EJWEL18, 0, 64
+	Patch EJWEL18, 0, 192
+	Patch EJWEL18, 0, 128
+	Patch EJWEL18, 0, 256
+	Patch EJWEL18, 0, 288
+	Patch EJWEL19, 0, 48
+	Patch EJWEL19, 0, 16
+	Patch EJWEL19, 0, 176
+	Patch EJWEL19, 0, 112
+	Patch EJWEL19, 0, 240
+	Patch EJWEL19, 0, 80
+	Patch EJWEL19, 0, 208
+	Patch EJWEL19, 0, 144
+	Patch EJWEL19, 0, 272
+	Patch EJWEL19, 0, 304
+	Patch EJWEL14, 16, 0
+	Patch EJWEL13, 0, 0
+	Patch EJWEL23, 16, 320
+	Patch EJWEL20, 0, 320
+}
+
+Texture EJEWWAL4, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL24, 16, 16
+	Patch EJWEL25, 16, 0
+	Patch EJWEL18, 0, 0
+	Patch EJWEL19, 0, 16
+}
+
+Texture EJEWWL5X, 128, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL4, 16, 32
+	Patch EJWEL26, 48, 32
+	Patch EJWEL26, 80, 32
+	Patch EJWEL26, 112, 32
+	Patch EJWEL26, 112, 96
+	Patch EJWEL26, 112, 160
+	Patch EJWEL26, 112, 224
+	Patch EJWEL26, 112, 288
+	Patch EJWEL26, 112, 64
+	Patch EJWEL26, 112, 128
+	Patch EJWEL26, 112, 192
+	Patch EJWEL26, 112, 256
+	Patch EJWEL26, 16, 160
+	Patch EJWEL26, 48, 160
+	Patch EJWEL26, 80, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 80, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL26, 48, 224
+	Patch EJWEL26, 80, 224
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 48, 64
+	Patch EJWEL26, 80, 64
+	Patch EJWEL10, 16, 192
+	Patch EJWEL26, 48, 192
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 48, 128
+	Patch EJWEL26, 80, 128
+	Patch EJWEL26, 16, 256
+	Patch EJWEL1, 48, 256
+	Patch EJWEL26, 80, 256
+	Patch EJWEL26, 16, 288
+	Patch EJWEL26, 48, 288
+	Patch EJWEL26, 80, 288
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 48, 48
+	Patch EJWEL27, 80, 48
+	Patch EJWEL27, 112, 48
+	Patch EJWEL27, 112, 112
+	Patch EJWEL27, 112, 176
+	Patch EJWEL27, 112, 240
+	Patch EJWEL27, 112, 304
+	Patch EJWEL27, 112, 80
+	Patch EJWEL27, 112, 144
+	Patch EJWEL27, 112, 208
+	Patch EJWEL27, 112, 272
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 112, 16
+	Patch EJWEL27, 48, 16
+	Patch EJWEL27, 80, 16
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 48, 176
+	Patch EJWEL7, 80, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 80, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 48, 240
+	Patch EJWEL27, 80, 240
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 48, 80
+	Patch EJWEL27, 80, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 48, 208
+	Patch EJWEL27, 80, 208
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 48, 144
+	Patch EJWEL27, 80, 144
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 80, 272
+	Patch EJWEL27, 16, 304
+	Patch EJWEL27, 48, 304
+	Patch EJWEL27, 80, 304
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 32, 32
+	Patch EJWEL28, 64, 32
+	Patch EJWEL28, 96, 32
+	Patch EJWEL28, 96, 96
+	Patch EJWEL28, 96, 160
+	Patch EJWEL28, 96, 224
+	Patch EJWEL10, 96, 288
+	Patch EJWEL28, 96, 64
+	Patch EJWEL4, 96, 128
+	Patch EJWEL28, 96, 256
+	Patch EJWEL28, 0, 160
+	Patch EJWEL4, 32, 160
+	Patch EJWEL28, 64, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL1, 32, 96
+	Patch EJWEL28, 64, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 32, 224
+	Patch EJWEL28, 64, 224
+	Patch EJWEL28, 0, 64
+	Patch EJWEL28, 32, 64
+	Patch EJWEL10, 64, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 32, 192
+	Patch EJWEL28, 64, 192
+	Patch EJWEL28, 0, 128
+	Patch EJWEL28, 32, 128
+	Patch EJWEL28, 64, 128
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 32, 256
+	Patch EJWEL28, 0, 288
+	Patch EJWEL28, 32, 288
+	Patch EJWEL28, 64, 288
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 32, 48
+	Patch EJWEL29, 64, 48
+	Patch EJWEL10, 96, 48
+	Patch EJWEL29, 96, 112
+	Patch EJWEL29, 96, 240
+	Patch EJWEL29, 96, 304
+	Patch EJWEL29, 96, 80
+	Patch EJWEL29, 96, 144
+	Patch EJWEL29, 96, 208
+	Patch EJWEL29, 96, 272
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 96, 16
+	Patch EJWEL29, 32, 16
+	Patch EJWEL29, 64, 16
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 32, 176
+	Patch EJWEL29, 64, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 64, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 32, 240
+	Patch EJWEL29, 64, 240
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 32, 80
+	Patch EJWEL29, 64, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 32, 208
+	Patch EJWEL29, 64, 208
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 32, 144
+	Patch EJWEL29, 64, 144
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 32, 272
+	Patch EJWEL29, 0, 304
+	Patch EJWEL29, 32, 304
+	Patch EJWEL29, 64, 304
+	Patch EJWEL14, 16, 0
+	Patch EJWEL14, 112, 0
+	Patch EJWEL14, 48, 0
+	Patch EJWEL14, 80, 0
+	Patch EJWEL14, 0, 0
+	Patch EJWEL14, 96, 0
+	Patch EJWEL14, 32, 0
+	Patch EJWEL14, 64, 0
+	Patch EJWEL21, 16, 320
+	Patch EJWEL21, 48, 320
+	Patch EJWEL21, 80, 320
+	Patch EJWEL21, 112, 320
+	Patch EJWEL21, 0, 320
+	Patch EJWEL21, 32, 320
+	Patch EJWEL21, 64, 320
+	Patch EJWEL21, 96, 320
+}
+
+Texture EJEWWL51, 128, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL4, 16, 32
+	Patch EJWEL26, 48, 32
+	Patch EJWEL26, 80, 32
+	Patch EJWEL26, 112, 32
+	Patch EJWEL26, 112, 96
+	Patch EJWEL26, 112, 160
+	Patch EJWEL26, 112, 224
+	Patch EJWEL26, 112, 288
+	Patch EJWEL26, 112, 64
+	Patch EJWEL26, 112, 128
+	Patch EJWEL26, 112, 192
+	Patch EJWEL26, 112, 256
+	Patch EJWEL26, 16, 160
+	Patch EJWEL26, 48, 160
+	Patch EJWEL26, 80, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 80, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL26, 48, 224
+	Patch EJWEL26, 80, 224
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 48, 64
+	Patch EJWEL26, 80, 64
+	Patch EJWEL10, 16, 192
+	Patch EJWEL26, 48, 192
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 48, 128
+	Patch EJWEL26, 80, 128
+	Patch EJWEL26, 16, 256
+	Patch EJWEL1, 48, 256
+	Patch EJWEL26, 80, 256
+	Patch EJWEL26, 16, 288
+	Patch EJWEL26, 48, 288
+	Patch EJWEL26, 80, 288
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 48, 48
+	Patch EJWEL27, 80, 48
+	Patch EJWEL27, 112, 48
+	Patch EJWEL27, 112, 112
+	Patch EJWEL27, 112, 176
+	Patch EJWEL27, 112, 240
+	Patch EJWEL27, 112, 304
+	Patch EJWEL27, 112, 80
+	Patch EJWEL27, 112, 144
+	Patch EJWEL27, 112, 208
+	Patch EJWEL27, 112, 272
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 112, 16
+	Patch EJWEL27, 48, 16
+	Patch EJWEL27, 80, 16
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 48, 176
+	Patch EJWEL7, 80, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 80, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 48, 240
+	Patch EJWEL27, 80, 240
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 48, 80
+	Patch EJWEL27, 80, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 48, 208
+	Patch EJWEL27, 80, 208
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 48, 144
+	Patch EJWEL27, 80, 144
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 80, 272
+	Patch EJWEL27, 16, 304
+	Patch EJWEL27, 48, 304
+	Patch EJWEL27, 80, 304
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 32, 32
+	Patch EJWEL28, 64, 32
+	Patch EJWEL28, 96, 32
+	Patch EJWEL28, 96, 96
+	Patch EJWEL28, 96, 160
+	Patch EJWEL28, 96, 224
+	Patch EJWEL10, 96, 288
+	Patch EJWEL28, 96, 64
+	Patch EJWEL4, 96, 128
+	Patch EJWEL28, 96, 256
+	Patch EJWEL28, 0, 160
+	Patch EJWEL4, 32, 160
+	Patch EJWEL28, 64, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL1, 32, 96
+	Patch EJWEL28, 64, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 32, 224
+	Patch EJWEL28, 64, 224
+	Patch EJWEL28, 0, 64
+	Patch EJWEL28, 32, 64
+	Patch EJWEL10, 64, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 32, 192
+	Patch EJWEL28, 64, 192
+	Patch EJWEL28, 0, 128
+	Patch EJWEL28, 32, 128
+	Patch EJWEL28, 64, 128
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 32, 256
+	Patch EJWEL28, 0, 288
+	Patch EJWEL28, 32, 288
+	Patch EJWEL28, 64, 288
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 32, 48
+	Patch EJWEL29, 64, 48
+	Patch EJWEL10, 96, 48
+	Patch EJWEL29, 96, 112
+	Patch EJWEL29, 96, 240
+	Patch EJWEL29, 96, 304
+	Patch EJWEL29, 96, 80
+	Patch EJWEL29, 96, 144
+	Patch EJWEL29, 96, 208
+	Patch EJWEL29, 96, 272
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 96, 16
+	Patch EJWEL29, 32, 16
+	Patch EJWEL29, 64, 16
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 32, 176
+	Patch EJWEL29, 64, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 64, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 32, 240
+	Patch EJWEL29, 64, 240
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 32, 80
+	Patch EJWEL29, 64, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 32, 208
+	Patch EJWEL29, 64, 208
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 32, 144
+	Patch EJWEL29, 64, 144
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 32, 272
+	Patch EJWEL29, 0, 304
+	Patch EJWEL29, 32, 304
+	Patch EJWEL29, 64, 304
+	Patch EJWEL14, 16, 0
+	Patch EJWEL14, 112, 0
+	Patch EJWEL14, 48, 0
+	Patch EJWEL14, 80, 0
+	Patch EJWEL14, 0, 0
+	Patch EJWEL14, 96, 0
+	Patch EJWEL14, 32, 0
+	Patch EJWEL14, 64, 0
+	Patch EJWEL21, 16, 320
+	Patch EJWEL21, 48, 320
+	Patch EJWEL21, 80, 320
+	Patch EJWEL21, 112, 320
+	Patch EJWEL21, 0, 320
+	Patch EJWEL21, 32, 320
+	Patch EJWEL21, 64, 320
+	Patch EJWEL21, 96, 320
+}
+
+Texture EJEWWL52, 128, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL5, 16, 32
+	Patch EJWEL26, 48, 32
+	Patch EJWEL26, 80, 32
+	Patch EJWEL26, 112, 32
+	Patch EJWEL26, 112, 96
+	Patch EJWEL26, 112, 160
+	Patch EJWEL26, 112, 224
+	Patch EJWEL26, 112, 288
+	Patch EJWEL26, 112, 64
+	Patch EJWEL26, 112, 128
+	Patch EJWEL26, 112, 192
+	Patch EJWEL26, 112, 256
+	Patch EJWEL26, 16, 160
+	Patch EJWEL26, 48, 160
+	Patch EJWEL26, 80, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 80, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL26, 48, 224
+	Patch EJWEL26, 80, 224
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 48, 64
+	Patch EJWEL26, 80, 64
+	Patch EJWEL11, 16, 192
+	Patch EJWEL26, 48, 192
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 48, 128
+	Patch EJWEL26, 80, 128
+	Patch EJWEL26, 16, 256
+	Patch EJWEL2, 48, 256
+	Patch EJWEL26, 80, 256
+	Patch EJWEL26, 16, 288
+	Patch EJWEL26, 48, 288
+	Patch EJWEL26, 80, 288
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 48, 48
+	Patch EJWEL27, 80, 48
+	Patch EJWEL27, 112, 48
+	Patch EJWEL27, 112, 112
+	Patch EJWEL27, 112, 176
+	Patch EJWEL27, 112, 240
+	Patch EJWEL27, 112, 304
+	Patch EJWEL27, 112, 80
+	Patch EJWEL27, 112, 144
+	Patch EJWEL27, 112, 208
+	Patch EJWEL27, 112, 272
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 112, 16
+	Patch EJWEL27, 48, 16
+	Patch EJWEL27, 80, 16
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 48, 176
+	Patch EJWEL8, 80, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 80, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 48, 240
+	Patch EJWEL27, 80, 240
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 48, 80
+	Patch EJWEL27, 80, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 48, 208
+	Patch EJWEL27, 80, 208
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 48, 144
+	Patch EJWEL27, 80, 144
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 80, 272
+	Patch EJWEL27, 16, 304
+	Patch EJWEL27, 48, 304
+	Patch EJWEL27, 80, 304
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 32, 32
+	Patch EJWEL28, 64, 32
+	Patch EJWEL28, 96, 32
+	Patch EJWEL28, 96, 96
+	Patch EJWEL28, 96, 160
+	Patch EJWEL28, 96, 224
+	Patch EJWEL11, 96, 288
+	Patch EJWEL28, 96, 64
+	Patch EJWEL5, 96, 128
+	Patch EJWEL28, 96, 256
+	Patch EJWEL28, 0, 160
+	Patch EJWEL5, 32, 160
+	Patch EJWEL28, 64, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL2, 32, 96
+	Patch EJWEL28, 64, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 32, 224
+	Patch EJWEL28, 64, 224
+	Patch EJWEL28, 0, 64
+	Patch EJWEL28, 32, 64
+	Patch EJWEL11, 64, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 32, 192
+	Patch EJWEL28, 64, 192
+	Patch EJWEL28, 0, 128
+	Patch EJWEL28, 32, 128
+	Patch EJWEL28, 64, 128
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 32, 256
+	Patch EJWEL28, 0, 288
+	Patch EJWEL28, 32, 288
+	Patch EJWEL28, 64, 288
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 32, 48
+	Patch EJWEL29, 64, 48
+	Patch EJWEL11, 96, 48
+	Patch EJWEL29, 96, 112
+	Patch EJWEL29, 96, 240
+	Patch EJWEL29, 96, 304
+	Patch EJWEL29, 96, 80
+	Patch EJWEL29, 96, 144
+	Patch EJWEL29, 96, 208
+	Patch EJWEL29, 96, 272
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 96, 16
+	Patch EJWEL29, 32, 16
+	Patch EJWEL29, 64, 16
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 32, 176
+	Patch EJWEL29, 64, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 64, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 32, 240
+	Patch EJWEL29, 64, 240
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 32, 80
+	Patch EJWEL29, 64, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 32, 208
+	Patch EJWEL29, 64, 208
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 32, 144
+	Patch EJWEL29, 64, 144
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 32, 272
+	Patch EJWEL29, 0, 304
+	Patch EJWEL29, 32, 304
+	Patch EJWEL29, 64, 304
+	Patch EJWEL14, 16, 0
+	Patch EJWEL14, 112, 0
+	Patch EJWEL14, 48, 0
+	Patch EJWEL14, 80, 0
+	Patch EJWEL14, 0, 0
+	Patch EJWEL14, 96, 0
+	Patch EJWEL14, 32, 0
+	Patch EJWEL14, 64, 0
+	Patch EJWEL21, 16, 320
+	Patch EJWEL21, 48, 320
+	Patch EJWEL21, 80, 320
+	Patch EJWEL21, 112, 320
+	Patch EJWEL21, 0, 320
+	Patch EJWEL21, 32, 320
+	Patch EJWEL21, 64, 320
+	Patch EJWEL21, 96, 320
+}
+Texture EJEWWL53, 128, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL6, 16, 32
+	Patch EJWEL26, 48, 32
+	Patch EJWEL26, 80, 32
+	Patch EJWEL26, 112, 32
+	Patch EJWEL26, 112, 96
+	Patch EJWEL26, 112, 160
+	Patch EJWEL26, 112, 224
+	Patch EJWEL26, 112, 288
+	Patch EJWEL26, 112, 64
+	Patch EJWEL26, 112, 128
+	Patch EJWEL26, 112, 192
+	Patch EJWEL26, 112, 256
+	Patch EJWEL26, 16, 160
+	Patch EJWEL26, 48, 160
+	Patch EJWEL26, 80, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 80, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL26, 48, 224
+	Patch EJWEL26, 80, 224
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 48, 64
+	Patch EJWEL26, 80, 64
+	Patch EJWEL12, 16, 192
+	Patch EJWEL26, 48, 192
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 48, 128
+	Patch EJWEL26, 80, 128
+	Patch EJWEL26, 16, 256
+	Patch EJWEL3, 48, 256
+	Patch EJWEL26, 80, 256
+	Patch EJWEL26, 16, 288
+	Patch EJWEL26, 48, 288
+	Patch EJWEL26, 80, 288
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 48, 48
+	Patch EJWEL27, 80, 48
+	Patch EJWEL27, 112, 48
+	Patch EJWEL27, 112, 112
+	Patch EJWEL27, 112, 176
+	Patch EJWEL27, 112, 240
+	Patch EJWEL27, 112, 304
+	Patch EJWEL27, 112, 80
+	Patch EJWEL27, 112, 144
+	Patch EJWEL27, 112, 208
+	Patch EJWEL27, 112, 272
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 112, 16
+	Patch EJWEL27, 48, 16
+	Patch EJWEL27, 80, 16
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 48, 176
+	Patch EJWEL9, 80, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 80, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 48, 240
+	Patch EJWEL27, 80, 240
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 48, 80
+	Patch EJWEL27, 80, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 48, 208
+	Patch EJWEL27, 80, 208
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 48, 144
+	Patch EJWEL27, 80, 144
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 80, 272
+	Patch EJWEL27, 16, 304
+	Patch EJWEL27, 48, 304
+	Patch EJWEL27, 80, 304
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 32, 32
+	Patch EJWEL28, 64, 32
+	Patch EJWEL28, 96, 32
+	Patch EJWEL28, 96, 96
+	Patch EJWEL28, 96, 160
+	Patch EJWEL28, 96, 224
+	Patch EJWEL12, 96, 288
+	Patch EJWEL28, 96, 64
+	Patch EJWEL6, 96, 128
+	Patch EJWEL28, 96, 256
+	Patch EJWEL28, 0, 160
+	Patch EJWEL6, 32, 160
+	Patch EJWEL28, 64, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL3, 32, 96
+	Patch EJWEL28, 64, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 32, 224
+	Patch EJWEL28, 64, 224
+	Patch EJWEL28, 0, 64
+	Patch EJWEL28, 32, 64
+	Patch EJWEL12, 64, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 32, 192
+	Patch EJWEL28, 64, 192
+	Patch EJWEL28, 0, 128
+	Patch EJWEL28, 32, 128
+	Patch EJWEL28, 64, 128
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 32, 256
+	Patch EJWEL28, 0, 288
+	Patch EJWEL28, 32, 288
+	Patch EJWEL28, 64, 288
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 32, 48
+	Patch EJWEL29, 64, 48
+	Patch EJWEL12, 96, 48
+	Patch EJWEL29, 96, 112
+	Patch EJWEL29, 96, 240
+	Patch EJWEL29, 96, 304
+	Patch EJWEL29, 96, 80
+	Patch EJWEL29, 96, 144
+	Patch EJWEL29, 96, 208
+	Patch EJWEL29, 96, 272
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 96, 16
+	Patch EJWEL29, 32, 16
+	Patch EJWEL29, 64, 16
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 32, 176
+	Patch EJWEL29, 64, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 64, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 32, 240
+	Patch EJWEL29, 64, 240
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 32, 80
+	Patch EJWEL29, 64, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 32, 208
+	Patch EJWEL29, 64, 208
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 32, 144
+	Patch EJWEL29, 64, 144
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 32, 272
+	Patch EJWEL29, 0, 304
+	Patch EJWEL29, 32, 304
+	Patch EJWEL29, 64, 304
+	Patch EJWEL14, 16, 0
+	Patch EJWEL14, 112, 0
+	Patch EJWEL14, 48, 0
+	Patch EJWEL14, 80, 0
+	Patch EJWEL14, 0, 0
+	Patch EJWEL14, 96, 0
+	Patch EJWEL14, 32, 0
+	Patch EJWEL14, 64, 0
+	Patch EJWEL21, 16, 320
+	Patch EJWEL21, 48, 320
+	Patch EJWEL21, 80, 320
+	Patch EJWEL21, 112, 320
+	Patch EJWEL21, 0, 320
+	Patch EJWEL21, 32, 320
+	Patch EJWEL21, 64, 320
+	Patch EJWEL21, 96, 320
+}
+
+Texture EJEWWL6X, 128, 304
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL4, 16, 0
+	Patch EJWEL26, 48, 0
+	Patch EJWEL26, 80, 0
+	Patch EJWEL26, 112, 0
+	Patch EJWEL26, 112, 64
+	Patch EJWEL26, 112, 128
+	Patch EJWEL26, 112, 192
+	Patch EJWEL26, 112, 256
+	Patch EJWEL26, 112, 32
+	Patch EJWEL26, 112, 96
+	Patch EJWEL26, 112, 160
+	Patch EJWEL26, 112, 224
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 48, 128
+	Patch EJWEL26, 80, 128
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 80, 64
+	Patch EJWEL26, 16, 192
+	Patch EJWEL26, 48, 192
+	Patch EJWEL26, 80, 192
+	Patch EJWEL26, 16, 32
+	Patch EJWEL26, 48, 32
+	Patch EJWEL26, 80, 32
+	Patch EJWEL10, 16, 160
+	Patch EJWEL26, 48, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 48, 96
+	Patch EJWEL26, 80, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL1, 48, 224
+	Patch EJWEL26, 80, 224
+	Patch EJWEL26, 16, 256
+	Patch EJWEL26, 48, 256
+	Patch EJWEL26, 80, 256
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 48, 16
+	Patch EJWEL27, 80, 16
+	Patch EJWEL27, 112, 16
+	Patch EJWEL27, 112, 80
+	Patch EJWEL27, 112, 144
+	Patch EJWEL27, 112, 208
+	Patch EJWEL27, 112, 272
+	Patch EJWEL27, 112, 48
+	Patch EJWEL27, 112, 112
+	Patch EJWEL27, 112, 176
+	Patch EJWEL27, 112, 240
+	Patch EJWEL27, 16, 288
+	Patch EJWEL27, 112, 288
+	Patch EJWEL27, 48, 288
+	Patch EJWEL27, 80, 288
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 48, 144
+	Patch EJWEL7, 80, 144
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 80, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 48, 208
+	Patch EJWEL27, 80, 208
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 48, 48
+	Patch EJWEL27, 80, 48
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 48, 176
+	Patch EJWEL27, 80, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 48, 112
+	Patch EJWEL27, 80, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 80, 240
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 48, 272
+	Patch EJWEL27, 80, 272
+	Patch EJWEL28, 0, 0
+	Patch EJWEL28, 32, 0
+	Patch EJWEL28, 64, 0
+	Patch EJWEL28, 96, 0
+	Patch EJWEL28, 96, 64
+	Patch EJWEL28, 96, 128
+	Patch EJWEL28, 96, 192
+	Patch EJWEL10, 96, 256
+	Patch EJWEL28, 96, 32
+	Patch EJWEL4, 96, 96
+	Patch EJWEL28, 96, 224
+	Patch EJWEL28, 0, 128
+	Patch EJWEL4, 32, 128
+	Patch EJWEL28, 64, 128
+	Patch EJWEL28, 0, 64
+	Patch EJWEL1, 32, 64
+	Patch EJWEL28, 64, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 32, 192
+	Patch EJWEL28, 64, 192
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 32, 32
+	Patch EJWEL10, 64, 32
+	Patch EJWEL28, 0, 160
+	Patch EJWEL28, 32, 160
+	Patch EJWEL28, 64, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL28, 32, 96
+	Patch EJWEL28, 64, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 32, 224
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 32, 256
+	Patch EJWEL28, 64, 256
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 32, 16
+	Patch EJWEL29, 64, 16
+	Patch EJWEL10, 96, 16
+	Patch EJWEL29, 96, 80
+	Patch EJWEL29, 96, 208
+	Patch EJWEL29, 96, 272
+	Patch EJWEL29, 96, 48
+	Patch EJWEL29, 96, 112
+	Patch EJWEL29, 96, 176
+	Patch EJWEL29, 96, 240
+	Patch EJWEL29, 0, 288
+	Patch EJWEL29, 96, 288
+	Patch EJWEL29, 32, 288
+	Patch EJWEL29, 64, 288
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 32, 144
+	Patch EJWEL29, 64, 144
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 64, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 32, 208
+	Patch EJWEL29, 64, 208
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 32, 48
+	Patch EJWEL29, 64, 48
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 32, 176
+	Patch EJWEL29, 64, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 32, 112
+	Patch EJWEL29, 64, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 32, 240
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 32, 272
+	Patch EJWEL29, 64, 272
+}
+
+Texture EJEWWL61, 128, 304
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL4, 16, 0
+	Patch EJWEL26, 48, 0
+	Patch EJWEL26, 80, 0
+	Patch EJWEL26, 112, 0
+	Patch EJWEL26, 112, 64
+	Patch EJWEL26, 112, 128
+	Patch EJWEL26, 112, 192
+	Patch EJWEL26, 112, 256
+	Patch EJWEL26, 112, 32
+	Patch EJWEL26, 112, 96
+	Patch EJWEL26, 112, 160
+	Patch EJWEL26, 112, 224
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 48, 128
+	Patch EJWEL26, 80, 128
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 80, 64
+	Patch EJWEL26, 16, 192
+	Patch EJWEL26, 48, 192
+	Patch EJWEL26, 80, 192
+	Patch EJWEL26, 16, 32
+	Patch EJWEL26, 48, 32
+	Patch EJWEL26, 80, 32
+	Patch EJWEL10, 16, 160
+	Patch EJWEL26, 48, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 48, 96
+	Patch EJWEL26, 80, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL1, 48, 224
+	Patch EJWEL26, 80, 224
+	Patch EJWEL26, 16, 256
+	Patch EJWEL26, 48, 256
+	Patch EJWEL26, 80, 256
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 48, 16
+	Patch EJWEL27, 80, 16
+	Patch EJWEL27, 112, 16
+	Patch EJWEL27, 112, 80
+	Patch EJWEL27, 112, 144
+	Patch EJWEL27, 112, 208
+	Patch EJWEL27, 112, 272
+	Patch EJWEL27, 112, 48
+	Patch EJWEL27, 112, 112
+	Patch EJWEL27, 112, 176
+	Patch EJWEL27, 112, 240
+	Patch EJWEL27, 16, 288
+	Patch EJWEL27, 112, 288
+	Patch EJWEL27, 48, 288
+	Patch EJWEL27, 80, 288
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 48, 144
+	Patch EJWEL7, 80, 144
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 80, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 48, 208
+	Patch EJWEL27, 80, 208
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 48, 48
+	Patch EJWEL27, 80, 48
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 48, 176
+	Patch EJWEL27, 80, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 48, 112
+	Patch EJWEL27, 80, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 80, 240
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 48, 272
+	Patch EJWEL27, 80, 272
+	Patch EJWEL28, 0, 0
+	Patch EJWEL28, 32, 0
+	Patch EJWEL28, 64, 0
+	Patch EJWEL28, 96, 0
+	Patch EJWEL28, 96, 64
+	Patch EJWEL28, 96, 128
+	Patch EJWEL28, 96, 192
+	Patch EJWEL10, 96, 256
+	Patch EJWEL28, 96, 32
+	Patch EJWEL4, 96, 96
+	Patch EJWEL28, 96, 224
+	Patch EJWEL28, 0, 128
+	Patch EJWEL4, 32, 128
+	Patch EJWEL28, 64, 128
+	Patch EJWEL28, 0, 64
+	Patch EJWEL1, 32, 64
+	Patch EJWEL28, 64, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 32, 192
+	Patch EJWEL28, 64, 192
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 32, 32
+	Patch EJWEL10, 64, 32
+	Patch EJWEL28, 0, 160
+	Patch EJWEL28, 32, 160
+	Patch EJWEL28, 64, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL28, 32, 96
+	Patch EJWEL28, 64, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 32, 224
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 32, 256
+	Patch EJWEL28, 64, 256
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 32, 16
+	Patch EJWEL29, 64, 16
+	Patch EJWEL10, 96, 16
+	Patch EJWEL29, 96, 80
+	Patch EJWEL29, 96, 208
+	Patch EJWEL29, 96, 272
+	Patch EJWEL29, 96, 48
+	Patch EJWEL29, 96, 112
+	Patch EJWEL29, 96, 176
+	Patch EJWEL29, 96, 240
+	Patch EJWEL29, 0, 288
+	Patch EJWEL29, 96, 288
+	Patch EJWEL29, 32, 288
+	Patch EJWEL29, 64, 288
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 32, 144
+	Patch EJWEL29, 64, 144
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 64, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 32, 208
+	Patch EJWEL29, 64, 208
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 32, 48
+	Patch EJWEL29, 64, 48
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 32, 176
+	Patch EJWEL29, 64, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 32, 112
+	Patch EJWEL29, 64, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 32, 240
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 32, 272
+	Patch EJWEL29, 64, 272
+}
+
+Texture EJEWWL62, 128, 304
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL5, 16, 0
+	Patch EJWEL26, 48, 0
+	Patch EJWEL26, 80, 0
+	Patch EJWEL26, 112, 0
+	Patch EJWEL26, 112, 64
+	Patch EJWEL26, 112, 128
+	Patch EJWEL26, 112, 192
+	Patch EJWEL26, 112, 256
+	Patch EJWEL26, 112, 32
+	Patch EJWEL26, 112, 96
+	Patch EJWEL26, 112, 160
+	Patch EJWEL26, 112, 224
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 48, 128
+	Patch EJWEL26, 80, 128
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 80, 64
+	Patch EJWEL26, 16, 192
+	Patch EJWEL26, 48, 192
+	Patch EJWEL26, 80, 192
+	Patch EJWEL26, 16, 32
+	Patch EJWEL26, 48, 32
+	Patch EJWEL26, 80, 32
+	Patch EJWEL11, 16, 160
+	Patch EJWEL26, 48, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 48, 96
+	Patch EJWEL26, 80, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL2, 48, 224
+	Patch EJWEL26, 80, 224
+	Patch EJWEL26, 16, 256
+	Patch EJWEL26, 48, 256
+	Patch EJWEL26, 80, 256
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 48, 16
+	Patch EJWEL27, 80, 16
+	Patch EJWEL27, 112, 16
+	Patch EJWEL27, 112, 80
+	Patch EJWEL27, 112, 144
+	Patch EJWEL27, 112, 208
+	Patch EJWEL27, 112, 272
+	Patch EJWEL27, 112, 48
+	Patch EJWEL27, 112, 112
+	Patch EJWEL27, 112, 176
+	Patch EJWEL27, 112, 240
+	Patch EJWEL27, 16, 288
+	Patch EJWEL27, 112, 288
+	Patch EJWEL27, 48, 288
+	Patch EJWEL27, 80, 288
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 48, 144
+	Patch EJWEL8, 80, 144
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 80, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 48, 208
+	Patch EJWEL27, 80, 208
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 48, 48
+	Patch EJWEL27, 80, 48
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 48, 176
+	Patch EJWEL27, 80, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 48, 112
+	Patch EJWEL27, 80, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 80, 240
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 48, 272
+	Patch EJWEL27, 80, 272
+	Patch EJWEL28, 0, 0
+	Patch EJWEL28, 32, 0
+	Patch EJWEL28, 64, 0
+	Patch EJWEL28, 96, 0
+	Patch EJWEL28, 96, 64
+	Patch EJWEL28, 96, 128
+	Patch EJWEL28, 96, 192
+	Patch EJWEL11, 96, 256
+	Patch EJWEL28, 96, 32
+	Patch EJWEL5, 96, 96
+	Patch EJWEL28, 96, 224
+	Patch EJWEL28, 0, 128
+	Patch EJWEL5, 32, 128
+	Patch EJWEL28, 64, 128
+	Patch EJWEL28, 0, 64
+	Patch EJWEL2, 32, 64
+	Patch EJWEL28, 64, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 32, 192
+	Patch EJWEL28, 64, 192
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 32, 32
+	Patch EJWEL11, 64, 32
+	Patch EJWEL28, 0, 160
+	Patch EJWEL28, 32, 160
+	Patch EJWEL28, 64, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL28, 32, 96
+	Patch EJWEL28, 64, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 32, 224
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 32, 256
+	Patch EJWEL28, 64, 256
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 32, 16
+	Patch EJWEL29, 64, 16
+	Patch EJWEL11, 96, 16
+	Patch EJWEL29, 96, 80
+	Patch EJWEL29, 96, 208
+	Patch EJWEL29, 96, 272
+	Patch EJWEL29, 96, 48
+	Patch EJWEL29, 96, 112
+	Patch EJWEL29, 96, 176
+	Patch EJWEL29, 96, 240
+	Patch EJWEL29, 0, 288
+	Patch EJWEL29, 96, 288
+	Patch EJWEL29, 32, 288
+	Patch EJWEL29, 64, 288
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 32, 144
+	Patch EJWEL29, 64, 144
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 64, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 32, 208
+	Patch EJWEL29, 64, 208
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 32, 48
+	Patch EJWEL29, 64, 48
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 32, 176
+	Patch EJWEL29, 64, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 32, 112
+	Patch EJWEL29, 64, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 32, 240
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 32, 272
+	Patch EJWEL29, 64, 272
+}
+
+Texture EJEWWL63, 128, 304
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL6, 16, 0
+	Patch EJWEL26, 48, 0
+	Patch EJWEL26, 80, 0
+	Patch EJWEL26, 112, 0
+	Patch EJWEL26, 112, 64
+	Patch EJWEL26, 112, 128
+	Patch EJWEL26, 112, 192
+	Patch EJWEL26, 112, 256
+	Patch EJWEL26, 112, 32
+	Patch EJWEL26, 112, 96
+	Patch EJWEL26, 112, 160
+	Patch EJWEL26, 112, 224
+	Patch EJWEL26, 16, 128
+	Patch EJWEL26, 48, 128
+	Patch EJWEL26, 80, 128
+	Patch EJWEL26, 16, 64
+	Patch EJWEL26, 80, 64
+	Patch EJWEL26, 16, 192
+	Patch EJWEL26, 48, 192
+	Patch EJWEL26, 80, 192
+	Patch EJWEL26, 16, 32
+	Patch EJWEL26, 48, 32
+	Patch EJWEL26, 80, 32
+	Patch EJWEL12, 16, 160
+	Patch EJWEL26, 48, 160
+	Patch EJWEL26, 16, 96
+	Patch EJWEL26, 48, 96
+	Patch EJWEL26, 80, 96
+	Patch EJWEL26, 16, 224
+	Patch EJWEL3, 48, 224
+	Patch EJWEL26, 80, 224
+	Patch EJWEL26, 16, 256
+	Patch EJWEL26, 48, 256
+	Patch EJWEL26, 80, 256
+	Patch EJWEL27, 16, 16
+	Patch EJWEL27, 48, 16
+	Patch EJWEL27, 80, 16
+	Patch EJWEL27, 112, 16
+	Patch EJWEL27, 112, 80
+	Patch EJWEL27, 112, 144
+	Patch EJWEL27, 112, 208
+	Patch EJWEL27, 112, 272
+	Patch EJWEL27, 112, 48
+	Patch EJWEL27, 112, 112
+	Patch EJWEL27, 112, 176
+	Patch EJWEL27, 112, 240
+	Patch EJWEL27, 16, 288
+	Patch EJWEL27, 112, 288
+	Patch EJWEL27, 48, 288
+	Patch EJWEL27, 80, 288
+	Patch EJWEL27, 16, 144
+	Patch EJWEL27, 48, 144
+	Patch EJWEL9, 80, 144
+	Patch EJWEL27, 16, 80
+	Patch EJWEL27, 80, 80
+	Patch EJWEL27, 16, 208
+	Patch EJWEL27, 48, 208
+	Patch EJWEL27, 80, 208
+	Patch EJWEL27, 16, 48
+	Patch EJWEL27, 48, 48
+	Patch EJWEL27, 80, 48
+	Patch EJWEL27, 16, 176
+	Patch EJWEL27, 48, 176
+	Patch EJWEL27, 80, 176
+	Patch EJWEL27, 16, 112
+	Patch EJWEL27, 48, 112
+	Patch EJWEL27, 80, 112
+	Patch EJWEL27, 16, 240
+	Patch EJWEL27, 80, 240
+	Patch EJWEL27, 16, 272
+	Patch EJWEL27, 48, 272
+	Patch EJWEL27, 80, 272
+	Patch EJWEL28, 0, 0
+	Patch EJWEL28, 32, 0
+	Patch EJWEL28, 64, 0
+	Patch EJWEL28, 96, 0
+	Patch EJWEL28, 96, 64
+	Patch EJWEL28, 96, 128
+	Patch EJWEL28, 96, 192
+	Patch EJWEL12, 96, 256
+	Patch EJWEL28, 96, 32
+	Patch EJWEL6, 96, 96
+	Patch EJWEL28, 96, 224
+	Patch EJWEL28, 0, 128
+	Patch EJWEL6, 32, 128
+	Patch EJWEL28, 64, 128
+	Patch EJWEL28, 0, 64
+	Patch EJWEL3, 32, 64
+	Patch EJWEL28, 64, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 32, 192
+	Patch EJWEL28, 64, 192
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 32, 32
+	Patch EJWEL12, 64, 32
+	Patch EJWEL28, 0, 160
+	Patch EJWEL28, 32, 160
+	Patch EJWEL28, 64, 160
+	Patch EJWEL28, 0, 96
+	Patch EJWEL28, 32, 96
+	Patch EJWEL28, 64, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 32, 224
+	Patch EJWEL28, 0, 256
+	Patch EJWEL28, 32, 256
+	Patch EJWEL28, 64, 256
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 32, 16
+	Patch EJWEL29, 64, 16
+	Patch EJWEL12, 96, 16
+	Patch EJWEL29, 96, 80
+	Patch EJWEL29, 96, 208
+	Patch EJWEL29, 96, 272
+	Patch EJWEL29, 96, 48
+	Patch EJWEL29, 96, 112
+	Patch EJWEL29, 96, 176
+	Patch EJWEL29, 96, 240
+	Patch EJWEL29, 0, 288
+	Patch EJWEL29, 96, 288
+	Patch EJWEL29, 32, 288
+	Patch EJWEL29, 64, 288
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 32, 144
+	Patch EJWEL29, 64, 144
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 64, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 32, 208
+	Patch EJWEL29, 64, 208
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 32, 48
+	Patch EJWEL29, 64, 48
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 32, 176
+	Patch EJWEL29, 64, 176
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 32, 112
+	Patch EJWEL29, 64, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 32, 240
+	Patch EJWEL29, 0, 272
+	Patch EJWEL29, 32, 272
+	Patch EJWEL29, 64, 272
+}
+
+Texture EJEWRWL1, 32, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL14, 0, 0
+	Patch EJWEL14, 16, 0
+	Patch EJWEL28, 0, 32
+	Patch EJWEL28, 0, 160
+	Patch EJWEL28, 0, 288
+	Patch EJWEL28, 0, 96
+	Patch EJWEL28, 0, 224
+	Patch EJWEL28, 0, 64
+	Patch EJWEL28, 0, 192
+	Patch EJWEL28, 0, 128
+	Patch EJWEL28, 0, 256
+	Patch EJWEL29, 0, 48
+	Patch EJWEL29, 0, 16
+	Patch EJWEL29, 0, 176
+	Patch EJWEL29, 0, 304
+	Patch EJWEL29, 0, 112
+	Patch EJWEL29, 0, 240
+	Patch EJWEL29, 0, 80
+	Patch EJWEL29, 0, 208
+	Patch EJWEL29, 0, 144
+	Patch EJWEL29, 0, 272
+	Patch EJWEL24, 16, 48
+	Patch EJWEL24, 16, 16
+	Patch EJWEL24, 16, 176
+	Patch EJWEL24, 16, 304
+	Patch EJWEL24, 16, 112
+	Patch EJWEL24, 16, 240
+	Patch EJWEL24, 16, 80
+	Patch EJWEL24, 16, 208
+	Patch EJWEL24, 16, 144
+	Patch EJWEL24, 16, 272
+	Patch EJWEL25, 16, 32
+	Patch EJWEL25, 16, 160
+	Patch EJWEL25, 16, 288
+	Patch EJWEL25, 16, 96
+	Patch EJWEL25, 16, 224
+	Patch EJWEL25, 16, 64
+	Patch EJWEL25, 16, 192
+	Patch EJWEL25, 16, 128
+	Patch EJWEL25, 16, 256
+	Patch EJWEL23, 16, 320
+	Patch EJWEL21, 0, 320
+}
+
+Texture EJEWRWL2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL28, 0, 0
+	Patch EJWEL29, 0, 16
+	Patch EJWEL24, 16, 16
+	Patch EJWEL25, 16, 0
+}
+
+Texture EJEWCLM1, 16, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL13, 0, 0
+	Patch EJWEL16, 0, 16
+	Patch EJWEL16, 0, 144
+	Patch EJWEL16, 0, 80
+	Patch EJWEL16, 0, 208
+	Patch EJWEL16, 0, 272
+	Patch EJWEL16, 0, 48
+	Patch EJWEL16, 0, 176
+	Patch EJWEL16, 0, 112
+	Patch EJWEL16, 0, 240
+	Patch EJWEL16, 0, 304
+	Patch EJWEL16, 0, 32
+	Patch EJWEL16, 0, 160
+	Patch EJWEL16, 0, 96
+	Patch EJWEL16, 0, 224
+	Patch EJWEL16, 0, 288
+	Patch EJWEL16, 0, 64
+	Patch EJWEL16, 0, 192
+	Patch EJWEL16, 0, 128
+	Patch EJWEL16, 0, 256
+	Patch EJWEL74, 0, 320
+}
+
+Texture EJEWCLM2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL16, 0, 0
+}
+
+Texture EJEWSTEP, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL15, 0, 0
+}
+
+Texture EJEWGEM1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL1, 0, 0
+}
+
+Texture EJEWGEM2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL2, 0, 0
+}
+
+Texture EJEWGEM3, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL3, 0, 0
+}
+
+Texture EJEWGM1X, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL1, 0, 0
+}
+
+Texture EJEWGEM4, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL7, 0, 0
+}
+
+Texture EJEWGEM5, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL8, 0, 0
+}
+
+Texture EJEWGEM6, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL9, 0, 0
+}
+
+Texture EJEWGM2X, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL7, 0, 0
+}
+
+Texture EJEWDIA1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL4, 0, 0
+}
+
+Texture EJEWDIA2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL5, 0, 0
+}
+
+Texture EJEWDIA3, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL6, 0, 0
+}
+
+Texture EJEWDI1X, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL4, 0, 0
+}
+
+Texture EJEWDIA4, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL10, 0, 0
+}
+
+Texture EJEWDIA5, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL11, 0, 0
+}
+
+Texture EJEWDIA6, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL12, 0, 0
+}
+
+Texture EJEWDI2X, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL10, 0, 0
+}
+
+Texture EJEWLRK1, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL30, 0, 0
+	Patch EJWEL35, 0, 16
+	Patch EJWEL35, 0, 80
+	Patch EJWEL35, 0, 176
+	Patch EJWEL35, 0, 48
+	Patch EJWEL35, 0, 112
+	Patch EJWEL35, 0, 208
+	Patch EJWEL35, 0, 32
+	Patch EJWEL35, 0, 96
+	Patch EJWEL35, 0, 192
+	Patch EJWEL35, 0, 64
+	Patch EJWEL35, 0, 160
+	Patch EJWEL35, 0, 128
+	Patch EJWEL35, 0, 224
+	Patch EJWEL35, 0, 144
+	Patch EJWEL35, 0, 240
+}
+
+Texture EJEWRCK1, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL31, 0, 0
+	Patch EJWEL37, 0, 16
+	Patch EJWEL37, 0, 80
+	Patch EJWEL37, 0, 176
+	Patch EJWEL37, 0, 48
+	Patch EJWEL37, 0, 112
+	Patch EJWEL37, 0, 208
+	Patch EJWEL37, 0, 32
+	Patch EJWEL37, 0, 96
+	Patch EJWEL37, 0, 192
+	Patch EJWEL37, 0, 64
+	Patch EJWEL37, 0, 160
+	Patch EJWEL37, 0, 128
+	Patch EJWEL37, 0, 224
+	Patch EJWEL37, 0, 144
+	Patch EJWEL37, 0, 240
+}
+
+Texture EJEWRRK1, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL31, 0, 0
+	Patch EJWEL38, 0, 16
+	Patch EJWEL38, 0, 80
+	Patch EJWEL38, 0, 176
+	Patch EJWEL38, 0, 48
+	Patch EJWEL38, 0, 112
+	Patch EJWEL38, 0, 208
+	Patch EJWEL38, 0, 32
+	Patch EJWEL38, 0, 96
+	Patch EJWEL38, 0, 192
+	Patch EJWEL38, 0, 64
+	Patch EJWEL38, 0, 160
+	Patch EJWEL38, 0, 128
+	Patch EJWEL38, 0, 224
+	Patch EJWEL38, 0, 144
+	Patch EJWEL38, 0, 240
+}
+
+Texture EJEWLRK2, 48, 48
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL35, 0, 32
+	Patch EJWEL43, 0, 0
+	Patch EJWEL43, 16, 16
+	Patch EJWEL43, 32, 32
+	Patch EJWEL34, 0, 16
+	Patch EJWEL34, 16, 32
+}
+
+Texture EJEWLRK3, 48, 48
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL31, 0, 0
+	Patch EJWEL32, 16, 0
+	Patch EJWEL62, 32, 0
+	Patch EJWEL40, 16, 16
+	Patch EJWEL40, 0, 32
+	Patch EJWEL39, 0, 16
+}
+
+Texture EJEWRRK2, 48, 48
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL33, 16, 32
+	Patch EJWEL42, 0, 32
+	Patch EJWEL42, 16, 16
+	Patch EJWEL42, 32, 0
+	Patch EJWEL33, 32, 16
+	Patch EJWEL36, 32, 32
+}
+
+Texture EJEWRRK3, 48, 48
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL63, 0, 0
+	Patch EJWEL41, 16, 16
+	Patch EJWEL41, 32, 32
+	Patch EJWEL39, 32, 16
+	Patch EJWEL31, 32, 0
+	Patch EJWEL31, 16, 0
+}
+
+Texture EJEWMTL1, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL51, 0, 0
+}
+
+Texture EJEWMTL2, 80, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL52, 0, 0
+}
+
+Texture EJEWPILR, 32, 336
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL49, 0, 0
+	Patch EJWEL50, 0, 16
+	Patch EJWEL50, 0, 144
+	Patch EJWEL50, 0, 80
+	Patch EJWEL50, 0, 208
+	Patch EJWEL50, 0, 272
+	Patch EJWEL50, 0, 48
+	Patch EJWEL50, 0, 176
+	Patch EJWEL50, 0, 112
+	Patch EJWEL50, 0, 240
+	Patch EJWEL50, 0, 304
+	Patch EJWEL50, 0, 32
+	Patch EJWEL50, 0, 160
+	Patch EJWEL50, 0, 96
+	Patch EJWEL50, 0, 224
+	Patch EJWEL50, 0, 288
+	Patch EJWEL50, 0, 64
+	Patch EJWEL50, 0, 192
+	Patch EJWEL50, 0, 128
+	Patch EJWEL50, 0, 256
+	Patch EJWEL50, 0, 320
+}
+
+Texture EJEWLG1X, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL64, 0, 0
+}
+
+Texture EJEWLOG1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL64, 0, 0
+}
+
+Texture EJEWLOG2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL65, 0, 0
+}
+
+Texture EJEWLOG3, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL66, 0, 0
+}
+
+Texture EJEWLG2X, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL67, 0, 0
+}
+
+Texture EJEWLOG4, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL67, 0, 0
+}
+
+Texture EJEWLOG5, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL68, 0, 0
+}
+
+Texture EJEWLOG6, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL69, 0, 0
+}
+
+Texture EJEWLDR1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL70, 0, 0
+}
+
+Texture EJEWLD2X, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL71, 0, 0
+}
+
+Texture EJEWLD21, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL71, 0, 0
+}
+
+Texture EJEWLD22, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL72, 0, 0
+}
+
+Texture EJEWLD23, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EJWEL73, 0, 0
+}
+
+Texture FACE108E, 32, 32
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch F1CE108E, 0, 0
+}
+
+Texture FACE108A, 32, 32
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch F1CE108E, 0, 0
+}
+
+Texture FACE108B, 32, 32
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch F2CE108E, 0, 0
+}
+
+Texture FACE108C, 32, 32
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch F3CE108E, 0, 0
+}

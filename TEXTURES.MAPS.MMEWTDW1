@@ -1,0 +1,2412 @@
+
+Texture EWT1STP1, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT17, 0, 0
+}
+
+Texture EWT1STP2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT29, 0, 0
+}
+
+Texture EWT1STP3, 64, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT01, 0, 0
+	Patch E1WT05, 16, 0
+	Patch E1WT05, 32, 0
+	Patch E1WT06, 48, 0
+}
+
+Texture EWT1EDG1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT21, 0, 0
+}
+
+Texture EWT1EDG2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT22, 0, 0
+}
+
+Texture EWT1EDG3, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT23, 0, 0
+}
+
+Texture EWT1EDG4, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT24, 0, 0
+}
+
+Texture EWT1EDG5, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT25, 0, 0
+}
+
+Texture EWT1EDG6, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT26, 0, 0
+}
+
+Texture EWT1EDG7, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT27, 0, 0
+}
+
+Texture EWT1EDG8, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT28, 0, 0
+}
+
+Texture EWT1PIP1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT13, 0, 0
+}
+
+Texture EWT1PIP2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT19, 0, 0
+}
+
+Texture EWT1LADR, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT15, 0, 0
+}
+
+Texture EWT1GPIL, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT12, 0, 0
+	Patch E1WT13, 0, 16
+	Patch E1WT13, 0, 32
+	Patch E1WT13, 0, 48
+	Patch E1WT13, 0, 64
+	Patch E1WT13, 0, 80
+	Patch E1WT13, 0, 96
+	Patch E1WT13, 0, 112
+	Patch E1WT13, 0, 128
+	Patch E1WT13, 0, 144
+	Patch E1WT13, 0, 160
+	Patch E1WT13, 0, 176
+	Patch E1WT13, 0, 192
+	Patch E1WT13, 0, 208
+	Patch E1WT13, 0, 224
+	Patch E1WT14, 0, 240
+}
+
+Texture EWT1TUB1, 16, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT32, 0, 0
+}
+
+Texture EWT1TUB2, 32, 288
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT34, 0, 0
+	Patch E1WT30, 0, 32
+	Patch E1WT30, 0, 48
+	Patch E1WT30, 0, 64
+	Patch E1WT30, 0, 80
+	Patch E1WT30, 0, 96
+	Patch E1WT30, 0, 112
+	Patch E1WT30, 0, 128
+	Patch E1WT30, 0, 144
+	Patch E1WT30, 0, 160
+	Patch E1WT30, 0, 176
+	Patch E1WT30, 0, 192
+	Patch E1WT30, 0, 208
+	Patch E1WT30, 0, 224
+	Patch E1WT30, 0, 240
+	Patch E1WT30, 0, 256
+	Patch E1WT30, 0, 272
+}
+
+Texture EWT1TUB3, 16, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT33, 0, 0
+}
+
+Texture EWT1MET1, 32, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT01, 0, 0
+	Patch E1WT95, 0, 16
+	Patch E1WT01, 0, 48
+	Patch E1WT06, 16, 0
+	Patch E1WT06, 16, 48
+}
+
+Texture EWT1MET2, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT20, 0, 0
+	Patch E1WT84, 0, 32
+	Patch E1WT85, 0, 48
+	Patch E1WT83, 0, 16
+	Patch E1WT04, 16, 0
+	Patch E1WT84, 16, 16
+	Patch E1WT84, 16, 32
+	Patch E1WT05, 16, 48
+	Patch E1WT95, 16, 16
+	Patch E1WT01, 16, 48
+	Patch E1WT02, 32, 0
+	Patch E1WT06, 32, 48
+	Patch E1WT18, 48, 0
+	Patch E1WT78, 48, 32
+	Patch E1WT77, 48, 16
+	Patch E1WT79, 48, 48
+}
+
+Texture EWT1MET3, 16, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT19, 0, 0
+	Patch E1WT80, 0, 16
+	Patch E1WT08, 0, 32
+	Patch E1WT82, 0, 48
+}
+
+Texture EWT1MET4, 64, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT77, 0, 0
+	Patch E1WT78, 0, 16
+	Patch E1WT78, 0, 32
+	Patch E1WT78, 0, 48
+	Patch E1WT78, 0, 64
+	Patch E1WT78, 0, 80
+	Patch E1WT78, 0, 96
+	Patch E1WT79, 0, 112
+	Patch E1WT80, 16, 0
+	Patch E1WT08, 16, 16
+	Patch E1WT08, 16, 32
+	Patch E1WT08, 16, 48
+	Patch E1WT08, 16, 64
+	Patch E1WT08, 16, 80
+	Patch E1WT08, 16, 96
+	Patch E1WT82, 16, 112
+	Patch E1WT80, 32, 0
+	Patch E1WT08, 32, 16
+	Patch E1WT08, 32, 32
+	Patch E1WT08, 32, 48
+	Patch E1WT08, 32, 64
+	Patch E1WT08, 32, 80
+	Patch E1WT08, 32, 96
+	Patch E1WT82, 32, 112
+	Patch E1WT83, 48, 0
+	Patch E1WT84, 48, 16
+	Patch E1WT84, 48, 32
+	Patch E1WT84, 48, 48
+	Patch E1WT84, 48, 64
+	Patch E1WT84, 48, 80
+	Patch E1WT84, 48, 96
+	Patch E1WT85, 48, 112
+}
+
+Texture EWT1MET5, 64, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT77, 0, 0
+	Patch E1WT78, 0, 16
+	Patch E1WT78, 0, 32
+	Patch E1WT78, 0, 48
+	Patch E1WT78, 0, 64
+	Patch E1WT78, 0, 80
+	Patch E1WT78, 0, 96
+	Patch E1WT79, 0, 112
+	Patch E1WT80, 16, 0
+	Patch E1WT97, 16, 16
+	Patch E1WT81, 16, 80
+	Patch E1WT81, 16, 96
+	Patch E1WT82, 16, 112
+	Patch E1WT80, 32, 0
+	Patch E1WT81, 32, 80
+	Patch E1WT81, 32, 96
+	Patch E1WT82, 32, 112
+	Patch E1WT83, 48, 0
+	Patch E1WT84, 48, 80
+	Patch E1WT84, 48, 96
+	Patch E1WT85, 48, 112
+}
+
+Texture EWT1MET6, 64, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT77, 0, 0
+	Patch E1WT96, 0, 16
+	Patch E1WT78, 0, 80
+	Patch E1WT78, 0, 96
+	Patch E1WT79, 0, 112
+	Patch E1WT80, 16, 0
+	Patch E1WT81, 16, 80
+	Patch E1WT81, 16, 96
+	Patch E1WT82, 16, 112
+	Patch E1WT80, 32, 0
+	Patch E1WT81, 32, 80
+	Patch E1WT81, 32, 96
+	Patch E1WT82, 32, 112
+	Patch E1WT83, 48, 0
+	Patch E1WT84, 48, 16
+	Patch E1WT84, 48, 32
+	Patch E1WT84, 48, 48
+	Patch E1WT84, 48, 64
+	Patch E1WT84, 48, 80
+	Patch E1WT84, 48, 96
+	Patch E1WT85, 48, 112
+}
+
+Texture EWT1MET7, 64, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT86, 0, 0
+	Patch E1WT87, 16, 0
+	Patch E1WT88, 32, 0
+	Patch E1WT89, 48, 0
+}
+
+Texture EWT1MET8, 32, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT90, 0, 0
+	Patch E1WT91, 0, 16
+	Patch E1WT92, 0, 32
+	Patch E1WT93, 0, 48
+}
+
+Texture EWT1FIRP, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT09, 0, 0
+	Patch E1WT10, 0, 16
+	Patch E1WT10, 0, 32
+	Patch E1WT10, 0, 48
+	Patch E1WT10, 0, 64
+	Patch E1WT10, 0, 80
+	Patch E1WT10, 0, 96
+	Patch E1WT10, 0, 112
+	Patch E1WT10, 0, 128
+	Patch E1WT10, 0, 144
+	Patch E1WT10, 0, 160
+	Patch E1WT10, 0, 176
+	Patch E1WT10, 0, 192
+	Patch E1WT10, 0, 208
+	Patch E1WT10, 0, 224
+	Patch E1WT10, 0, 240
+}
+
+Texture EWT1FIRF, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT11, 0, 0
+}
+
+Texture EWT1RWIR, 16, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT35, 0, 0
+	Patch E1WT39, 0, 16
+	Patch E1WT39, 0, 32
+	Patch E1WT39, 0, 48
+	Patch E1WT36, 0, 64
+	Patch E1WT39, 0, 80
+	Patch E1WT39, 0, 96
+	Patch E1WT40, 0, 112
+	Patch E1WT39, 0, 128
+	Patch E1WT39, 0, 144
+	Patch E1WT36, 0, 160
+	Patch E1WT39, 0, 176
+	Patch E1WT39, 0, 192
+	Patch E1WT39, 0, 208
+	Patch E1WT40, 0, 224
+	Patch E1WT38, 0, 240
+	Patch E1WT39, 0, 256
+	Patch E1WT39, 0, 272
+	Patch E1WT39, 0, 288
+	Patch E1WT36, 0, 304
+	Patch E1WT39, 0, 320
+	Patch E1WT39, 0, 336
+	Patch E1WT38, 0, 352
+	Patch E1WT39, 0, 368
+	Patch E1WT39, 0, 384
+	Patch E1WT36, 0, 400
+	Patch E1WT39, 0, 416
+	Patch E1WT39, 0, 432
+	Patch E1WT36, 0, 448
+	Patch E1WT36, 0, 464
+	Patch E1WT39, 0, 480
+	Patch E1WT37, 0, 496
+}
+
+Texture EWT1RPIL, 32, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT65, 0, 0
+	Patch E1WT66, 0, 16
+	Patch E1WT66, 0, 32
+	Patch E1WT66, 0, 48
+	Patch E1WT66, 0, 64
+	Patch E1WT66, 0, 80
+	Patch E1WT66, 0, 96
+	Patch E1WT66, 0, 112
+	Patch E1WT66, 0, 128
+	Patch E1WT66, 0, 144
+	Patch E1WT66, 0, 160
+	Patch E1WT66, 0, 176
+	Patch E1WT66, 0, 192
+	Patch E1WT66, 0, 208
+	Patch E1WT66, 0, 224
+	Patch E1WT66, 0, 240
+	Patch E1WT66, 0, 256
+	Patch E1WT66, 0, 272
+	Patch E1WT66, 0, 288
+	Patch E1WT66, 0, 304
+	Patch E1WT66, 0, 320
+	Patch E1WT66, 0, 336
+	Patch E1WT66, 0, 352
+	Patch E1WT66, 0, 368
+	Patch E1WT66, 0, 384
+	Patch E1WT66, 0, 400
+	Patch E1WT66, 0, 416
+	Patch E1WT66, 0, 432
+	Patch E1WT66, 0, 448
+	Patch E1WT66, 0, 464
+	Patch E1WT66, 0, 480
+	Patch E1WT67, 0, 496
+}
+
+Texture EWT1RMT1, 128, 304
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT41, 0, 0
+	Patch E1WT44, 0, 16
+	Patch E1WT44, 0, 48
+	Patch E1WT44, 0, 64
+	Patch E1WT47, 0, 32
+	Patch E1WT47, 0, 80
+	Patch E1WT44, 0, 96
+	Patch E1WT44, 0, 112
+	Patch E1WT47, 0, 128
+	Patch E1WT44, 0, 144
+	Patch E1WT44, 0, 160
+	Patch E1WT47, 0, 176
+	Patch E1WT44, 0, 192
+	Patch E1WT44, 0, 208
+	Patch E1WT47, 0, 224
+	Patch E1WT44, 0, 240
+	Patch E1WT44, 0, 256
+	Patch E1WT47, 0, 272
+	Patch E1WT50, 0, 288
+	
+	Patch E1WT42, 16, 0
+	Patch E1WT45, 16, 16
+	Patch E1WT48, 16, 32
+	Patch E1WT45, 16, 48
+	Patch E1WT45, 16, 64
+	Patch E1WT48, 16, 80
+	Patch E1WT45, 16, 96
+	Patch E1WT45, 16, 112
+	Patch E1WT48, 16, 128
+	Patch E1WT45, 16, 144
+	Patch E1WT45, 16, 160
+	Patch E1WT48, 16, 176
+	Patch E1WT45, 16, 192
+	Patch E1WT45, 16, 208
+	Patch E1WT48, 16, 224
+	Patch E1WT45, 16, 240
+	Patch E1WT45, 16, 256
+	Patch E1WT48, 16, 272
+	Patch E1WT51, 16, 288
+	
+	Patch E1WT53, 32, 0
+	Patch E1WT45, 32, 16
+	Patch E1WT48, 32, 32
+	Patch E1WT56, 32, 48
+	Patch E1WT45, 32, 64
+	Patch E1WT48, 32, 80
+	Patch E1WT56, 32, 96
+	Patch E1WT45, 32, 112
+	Patch E1WT48, 32, 128
+	Patch E1WT56, 32, 144
+	Patch E1WT45, 32, 160
+	Patch E1WT48, 32, 176
+	Patch E1WT56, 32, 192
+	Patch E1WT45, 32, 208
+	Patch E1WT48, 32, 224
+	Patch E1WT56, 32, 240
+	Patch E1WT45, 32, 256
+	Patch E1WT48, 32, 272
+	Patch E1WT59, 32, 288
+	
+	Patch E1WT54, 48, 0
+	Patch E1WT45, 48, 16
+	Patch E1WT48, 48, 32
+	Patch E1WT57, 48, 48
+	Patch E1WT45, 48, 64
+	Patch E1WT48, 48, 80
+	Patch E1WT57, 48, 96
+	Patch E1WT45, 48, 112
+	Patch E1WT48, 48, 128
+	Patch E1WT57, 48, 144
+	Patch E1WT45, 48, 160
+	Patch E1WT48, 48, 176
+	Patch E1WT57, 48, 192
+	Patch E1WT45, 48, 208
+	Patch E1WT48, 48, 224
+	Patch E1WT57, 48, 240
+	Patch E1WT45, 48, 256
+	Patch E1WT48, 48, 272
+	Patch E1WT59, 48, 288
+	
+	
+	Patch E1WT54, 64, 0
+	Patch E1WT45, 64, 16
+	Patch E1WT48, 64, 32
+	Patch E1WT57, 64, 48
+	Patch E1WT45, 64, 64
+	Patch E1WT48, 64, 80
+	Patch E1WT57, 64, 96
+	Patch E1WT45, 64, 112
+	Patch E1WT48, 64, 128
+	Patch E1WT57, 64, 144
+	Patch E1WT45, 64, 160
+	Patch E1WT48, 64, 176
+	Patch E1WT57, 64, 192
+	Patch E1WT45, 64, 208
+	Patch E1WT48, 64, 224
+	Patch E1WT57, 64, 240
+	Patch E1WT45, 64, 256
+	Patch E1WT48, 64, 272
+	Patch E1WT59, 64, 288
+	
+	Patch E1WT55, 80, 0
+	Patch E1WT45, 80, 16
+	Patch E1WT48, 80, 32
+	Patch E1WT58, 80, 48
+	Patch E1WT45, 80, 64
+	Patch E1WT48, 80, 80
+	Patch E1WT58, 80, 96
+	Patch E1WT45, 80, 112
+	Patch E1WT48, 80, 128
+	Patch E1WT58, 80, 144
+	Patch E1WT45, 80, 160
+	Patch E1WT48, 80, 176
+	Patch E1WT58, 80, 192
+	Patch E1WT45, 80, 208
+	Patch E1WT48, 80, 224
+	Patch E1WT58, 80, 240
+	Patch E1WT45, 80, 256
+	Patch E1WT48, 80, 272
+	Patch E1WT59, 80, 288
+	
+	Patch E1WT42, 96, 0
+	Patch E1WT45, 96, 16
+	Patch E1WT48, 96, 32
+	Patch E1WT45, 96, 48
+	Patch E1WT45, 96, 64
+	Patch E1WT48, 96, 80
+	Patch E1WT45, 96, 96
+	Patch E1WT45, 96, 112
+	Patch E1WT48, 96, 128
+	Patch E1WT45, 96, 144
+	Patch E1WT45, 96, 160
+	Patch E1WT48, 96, 176
+	Patch E1WT45, 96, 192
+	Patch E1WT45, 96, 208
+	Patch E1WT48, 96, 224
+	Patch E1WT45, 96, 240
+	Patch E1WT45, 96, 256
+	Patch E1WT48, 96, 272
+	Patch E1WT51, 96, 288
+	
+	Patch E1WT43, 112, 0
+	Patch E1WT46, 112, 16
+	Patch E1WT49, 112, 32
+	Patch E1WT46, 112, 48
+	Patch E1WT46, 112, 64
+	Patch E1WT49, 112, 80
+	Patch E1WT46, 112, 96
+	Patch E1WT46, 112, 112
+	Patch E1WT49, 112, 128
+	Patch E1WT46, 112, 144
+	Patch E1WT46, 112, 160
+	Patch E1WT49, 112, 176
+	Patch E1WT46, 112, 192
+	Patch E1WT46, 112, 208
+	Patch E1WT49, 112, 224
+	Patch E1WT46, 112, 240
+	Patch E1WT46, 112, 256
+	Patch E1WT49, 112, 272
+	Patch E1WT52, 112, 288
+	
+}
+
+Texture EWT1RMT2, 32, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT41, 0, 0
+	Patch E1WT44, 0, 16
+	Patch E1WT44, 0, 48
+	Patch E1WT44, 0, 64
+	Patch E1WT44, 0, 32
+	Patch E1WT44, 0, 80
+	Patch E1WT44, 0, 96
+	Patch E1WT44, 0, 112
+	Patch E1WT44, 0, 128
+	Patch E1WT44, 0, 144
+	Patch E1WT44, 0, 160
+	Patch E1WT44, 0, 176
+	Patch E1WT44, 0, 192
+	Patch E1WT44, 0, 208
+	Patch E1WT44, 0, 224
+	Patch E1WT50, 0, 240
+	Patch E1WT43, 16, 0
+	Patch E1WT46, 16, 16
+	Patch E1WT46, 16, 32
+	Patch E1WT46, 16, 48
+	Patch E1WT46, 16, 64
+	Patch E1WT46, 16, 80
+	Patch E1WT46, 16, 96
+	Patch E1WT46, 16, 112
+	Patch E1WT46, 16, 128
+	Patch E1WT46, 16, 144
+	Patch E1WT46, 16, 160
+	Patch E1WT46, 16, 176
+	Patch E1WT46, 16, 192
+	Patch E1WT46, 16, 208
+	Patch E1WT46, 16, 224
+	Patch E1WT52, 16, 240
+}
+
+Texture EWT1RMT3, 128, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT42, 0, 0
+	Patch E1WT45, 0, 16
+	Patch E1WT45, 0, 32
+	Patch E1WT45, 0, 48
+	Patch E1WT45, 0, 64
+	Patch E1WT45, 0, 80
+	Patch E1WT45, 0, 96
+	Patch E1WT45, 0, 112
+	Patch E1WT45, 0, 128
+	Patch E1WT45, 0, 144
+	Patch E1WT45, 0, 160
+	Patch E1WT45, 0, 176
+	Patch E1WT45, 0, 192
+	Patch E1WT45, 0, 208
+	Patch E1WT45, 0, 224
+	Patch E1WT51, 0, 240
+	Patch E1WT62, 16, 0
+	Patch E1WT63, 16, 16
+	Patch E1WT63, 16, 32
+	Patch E1WT63, 16, 48
+	Patch E1WT63, 16, 64
+	Patch E1WT63, 16, 80
+	Patch E1WT63, 16, 96
+	Patch E1WT63, 16, 112
+	Patch E1WT63, 16, 128
+	Patch E1WT63, 16, 144
+	Patch E1WT63, 16, 160
+	Patch E1WT63, 16, 176
+	Patch E1WT63, 16, 192
+	Patch E1WT63, 16, 208
+	Patch E1WT63, 16, 224
+	Patch E1WT64, 16, 240
+	Patch E1WT42, 32, 0
+	Patch E1WT45, 32, 16
+	Patch E1WT45, 32, 32
+	Patch E1WT45, 32, 48
+	Patch E1WT45, 32, 64
+	Patch E1WT45, 32, 80
+	Patch E1WT45, 32, 96
+	Patch E1WT45, 32, 112
+	Patch E1WT45, 32, 128
+	Patch E1WT45, 32, 144
+	Patch E1WT45, 32, 160
+	Patch E1WT45, 32, 176
+	Patch E1WT45, 32, 192
+	Patch E1WT45, 32, 208
+	Patch E1WT45, 32, 224
+	Patch E1WT51, 32, 240
+	Patch E1WT42, 48, 0
+	Patch E1WT45, 48, 16
+	Patch E1WT45, 48, 32
+	Patch E1WT45, 48, 48
+	Patch E1WT45, 48, 64
+	Patch E1WT45, 48, 80
+	Patch E1WT45, 48, 96
+	Patch E1WT45, 48, 112
+	Patch E1WT45, 48, 128
+	Patch E1WT45, 48, 144
+	Patch E1WT45, 48, 160
+	Patch E1WT45, 48, 176
+	Patch E1WT45, 48, 192
+	Patch E1WT45, 48, 208
+	Patch E1WT45, 48, 224
+	Patch E1WT51, 48, 240
+	Patch E1WT42, 64, 0
+	Patch E1WT61, 64, 16
+	Patch E1WT45, 64, 32
+	Patch E1WT60, 64, 48
+	Patch E1WT45, 64, 64
+	Patch E1WT61, 64, 80
+	Patch E1WT45, 64, 96
+	Patch E1WT60, 64, 112
+	Patch E1WT45, 64, 128
+	Patch E1WT61, 64, 144
+	Patch E1WT45, 64, 160
+	Patch E1WT60, 64, 176
+	Patch E1WT45, 64, 192
+	Patch E1WT61, 64, 208
+	Patch E1WT45, 64, 224
+	Patch E1WT51, 64, 240
+	Patch E1WT42, 80, 0
+	Patch E1WT45, 80, 16
+	Patch E1WT45, 80, 32
+	Patch E1WT45, 80, 48
+	Patch E1WT45, 80, 64
+	Patch E1WT45, 80, 80
+	Patch E1WT45, 80, 96
+	Patch E1WT45, 80, 112
+	Patch E1WT45, 80, 128
+	Patch E1WT45, 80, 144
+	Patch E1WT45, 80, 160
+	Patch E1WT45, 80, 176
+	Patch E1WT45, 80, 192
+	Patch E1WT45, 80, 208
+	Patch E1WT45, 80, 224
+	Patch E1WT51, 80, 240
+	Patch E1WT42, 96, 0
+	Patch E1WT45, 96, 16
+	Patch E1WT45, 96, 32
+	Patch E1WT60, 96, 48
+	Patch E1WT45, 96, 64
+	Patch E1WT45, 96, 80
+	Patch E1WT45, 96, 96
+	Patch E1WT61, 96, 112
+	Patch E1WT45, 96, 128
+	Patch E1WT45, 96, 144
+	Patch E1WT45, 96, 160
+	Patch E1WT60, 96, 176
+	Patch E1WT45, 96, 192
+	Patch E1WT45, 96, 208
+	Patch E1WT45, 96, 224
+	Patch E1WT51, 96, 240
+	Patch E1WT42, 112, 0
+	Patch E1WT45, 112, 16
+	Patch E1WT45, 112, 32
+	Patch E1WT45, 112, 48
+	Patch E1WT45, 112, 64
+	Patch E1WT45, 112, 80
+	Patch E1WT45, 112, 96
+	Patch E1WT45, 112, 112
+	Patch E1WT45, 112, 128
+	Patch E1WT45, 112, 144
+	Patch E1WT45, 112, 160
+	Patch E1WT45, 112, 176
+	Patch E1WT45, 112, 192
+	Patch E1WT45, 112, 208
+	Patch E1WT45, 112, 224
+	Patch E1WT51, 112, 240
+}
+
+Texture EWT1RMT4, 16, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT73, 0, 0
+	Patch E1WT74, 0, 16
+	Patch E1WT74, 0, 32
+	Patch E1WT74, 0, 48
+	Patch E1WT74, 0, 64
+	Patch E1WT74, 0, 80
+	Patch E1WT74, 0, 96
+	Patch E1WT75, 0, 112
+}
+
+Texture EWT1RMT5, 16, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT68, 0, 0
+	Patch E1WT69, 0, 16
+	Patch E1WT69, 0, 32
+	Patch E1WT69, 0, 48
+	Patch E1WT69, 0, 64
+	Patch E1WT69, 0, 80
+	Patch E1WT69, 0, 96
+	Patch E1WT70, 0, 112
+}
+
+Texture EWT1RMT6, 16, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT73, 0, 0
+	Patch E1WT74, 0, 16
+	Patch E1WT74, 0, 32
+	Patch E1WT75, 0, 48
+}
+
+Texture EWT1RMT7, 16, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT68, 0, 0
+	Patch E1WT69, 0, 16
+	Patch E1WT69, 0, 32
+	Patch E1WT70, 0, 48
+}
+
+Texture EWT1RMT8, 128, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT68, 0, 112
+	Patch E1WT71, 16, 112
+	Patch E1WT71, 32, 112
+	Patch E1WT71, 48, 112
+	Patch E1WT71, 64, 112
+	Patch E1WT71, 80, 112
+	Patch E1WT71, 96, 112
+	Patch E1WT73, 112, 112
+	Patch E1WT70, 0, 0
+	Patch E1WT72, 16, 0
+	Patch E1WT72, 32, 0
+	Patch E1WT72, 48, 0
+	Patch E1WT72, 64, 0
+	Patch E1WT72, 80, 0
+	Patch E1WT72, 96, 0
+	Patch E1WT75, 112, 0
+}
+
+Texture EWT1RMT9, 128, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT68, 0, 48
+	Patch E1WT71, 16, 48
+	Patch E1WT71, 32, 48
+	Patch E1WT71, 48, 48
+	Patch E1WT71, 64, 48
+	Patch E1WT71, 80, 48
+	Patch E1WT71, 96, 48
+	Patch E1WT73, 112, 48
+	Patch E1WT70, 0, 0
+	Patch E1WT72, 16, 0
+	Patch E1WT72, 32, 0
+	Patch E1WT72, 48, 0
+	Patch E1WT72, 64, 0
+	Patch E1WT72, 80, 0
+	Patch E1WT72, 96, 0
+	Patch E1WT75, 112, 0
+}
+
+Texture EWT1RMTP, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT69, 0, 0
+}
+
+Texture EWT1RMTL, 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch E1WT118, 0, 0
+	Patch E1WT44, 0, 16
+	Patch E1WT44, 0, 144
+	Patch E1WT44, 0, 80
+	Patch E1WT44, 0, 208
+	Patch E1WT44, 0, 48
+	Patch E1WT44, 0, 176
+	Patch E1WT44, 0, 112
+	Patch E1WT44, 0, 240
+	Patch E1WT44, 0, 32
+	Patch E1WT44, 0, 160
+	Patch E1WT44, 0, 96
+	Patch E1WT44, 0, 224
+	Patch E1WT44, 0, 64
+	Patch E1WT44, 0, 192
+	Patch E1WT44, 0, 128
+}
+
+Texture EWT1RMTR, 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch E1WT118, 0, 0
+	Patch E1WT46, 0, 16
+	Patch E1WT46, 0, 144
+	Patch E1WT46, 0, 80
+	Patch E1WT46, 0, 208
+	Patch E1WT46, 0, 48
+	Patch E1WT46, 0, 176
+	Patch E1WT46, 0, 112
+	Patch E1WT46, 0, 240
+	Patch E1WT46, 0, 32
+	Patch E1WT46, 0, 160
+	Patch E1WT46, 0, 96
+	Patch E1WT46, 0, 224
+	Patch E1WT46, 0, 64
+	Patch E1WT46, 0, 192
+	Patch E1WT46, 0, 128
+}
+
+Texture EWT1RED, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT45, 0, 0
+}
+
+Texture EWT1WILY, 48, 48
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT76, 0, 0
+}
+
+Texture EWT1SPCX, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT114, 0, 0
+}
+
+Texture EWT1SPC1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT114, 0, 0
+}
+
+Texture EWT1SPC2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT115, 0, 0
+}
+
+Texture EWT1SPC3, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT116, 0, 0
+}
+
+Texture EWT1SPX2, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT98, 0, 0
+}
+
+Texture EWT1SP21, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT98, 0, 0
+}
+
+Texture EWT1SP22, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT99, 0, 0
+}
+
+Texture EWT1SP23, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT100, 0, 0
+}
+
+Texture EWT1SP24, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT101, 0, 0
+}
+
+Texture EWT1HETX, 288, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT107, 0, 0
+	Patch E1WT107, 96, 0
+	Patch E1WT107, 192, 0
+}
+
+Texture EWT1HET1, 288, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT107, 0, 0
+	Patch E1WT107, 96, 0
+	Patch E1WT107, 192, 0
+}
+
+Texture EWT1HET2, 288, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT108, 0, 0
+	Patch E1WT108, 96, 0
+	Patch E1WT108, 192, 0
+}
+
+Texture EWT1HET3, 288, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT109, 0, 0
+	Patch E1WT109, 96, 0
+	Patch E1WT109, 192, 0
+}
+
+Texture EWT1GENX, 128, 272
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT110, 0, 0
+}
+
+Texture EWT1GEN1, 128, 272
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT110, 0, 0
+}
+
+Texture EWT1GEN2, 128, 272
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT111, 0, 0
+}
+
+Texture EWT1GEN3, 128, 272
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT112, 0, 0
+}
+
+Texture EWT1GEN4, 128, 272
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT113, 0, 0
+}
+
+Texture EWT1WHEL, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT118, 0, 0
+}
+
+Texture EWT1WIRE, 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch E1WT117, 0, 0
+	Patch E1WT122, 0, 16
+	Patch E1WT122, 0, 32
+	Patch E1WT122, 0, 48
+	Patch E1WT122, 0, 64
+	Patch E1WT122, 0, 80
+	Patch E1WT122, 0, 96
+	Patch E1WT122, 0, 112
+	Patch E1WT122, 0, 128
+	Patch E1WT122, 0, 144
+	Patch E1WT122, 0, 208
+	Patch E1WT122, 0, 160
+	Patch E1WT122, 0, 176
+	Patch E1WT122, 0, 192
+	Patch E1WT122, 0, 208
+	Patch E1WT122, 0, 224
+	Patch E1WT122, 0, 240
+	
+}
+
+Texture EWT1FLR1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT119, 0, 0
+}
+
+Texture EWT1FLR2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT120, 0, 0
+}
+
+Texture EWT1FLR3, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT121, 0, 0
+}
+
+Texture EWT1FLR4, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E1WT122, 0, 0
+}
+
+Texture EWT2OPL1, 32, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT1, 0, 0
+}
+
+Texture EWT2OPL2, 32, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT36, 0, 0
+	Patch E2WT36, 16, 0
+	Patch E2WT2, 0, 16
+	Patch E2WT2, 0, 32
+	Patch E2WT2, 0, 48
+	Patch E2WT2, 0, 64
+	Patch E2WT2, 0, 80
+	Patch E2WT2, 0, 96
+	Patch E2WT2, 0, 112
+	Patch E2WT2, 0, 128
+	Patch E2WT2, 0, 144
+	Patch E2WT2, 0, 160
+	Patch E2WT2, 0, 176
+	Patch E2WT2, 0, 192
+	Patch E2WT2, 0, 208
+	Patch E2WT2, 0, 224
+	Patch E2WT37, 0, 240
+	Patch E2WT37, 16, 240
+}
+
+Texture EWT2OMT1, 32, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT33, 0, 0
+	Patch E2WT39, 0, 16
+	Patch E2WT39, 0, 32
+	Patch E2WT39, 0, 48
+	Patch E2WT39, 0, 64
+	Patch E2WT39, 0, 80
+	Patch E2WT39, 0, 96
+	Patch E2WT39, 0, 112
+	Patch E2WT39, 0, 128
+	Patch E2WT39, 0, 144
+	Patch E2WT39, 0, 160
+	Patch E2WT39, 0, 176
+	Patch E2WT39, 0, 192
+	Patch E2WT39, 0, 208
+	Patch E2WT39, 0, 224
+	Patch E2WT35, 0, 240
+	Patch E2WT38, 16, 0
+	Patch E2WT34, 16, 16
+	Patch E2WT34, 16, 32
+	Patch E2WT34, 16, 48
+	Patch E2WT34, 16, 64
+	Patch E2WT34, 16, 80
+	Patch E2WT34, 16, 96
+	Patch E2WT34, 16, 112
+	Patch E2WT34, 16, 128
+	Patch E2WT34, 16, 144
+	Patch E2WT34, 16, 160
+	Patch E2WT34, 16, 176
+	Patch E2WT34, 16, 192
+	Patch E2WT34, 16, 208
+	Patch E2WT34, 16, 224
+	Patch E2WT40, 16, 240
+}
+
+Texture EWT2OMT2, 64, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT36, 0, 0
+	Patch E2WT24, 0, 16
+	Patch E2WT25, 0, 32
+	Patch E2WT25, 0, 48
+	Patch E2WT18, 0, 64
+	Patch E2WT25, 0, 80
+	Patch E2WT25, 0, 96
+	Patch E2WT26, 0, 112
+	Patch E2WT24, 0, 128
+	Patch E2WT25, 0, 144
+	Patch E2WT25, 0, 160
+	Patch E2WT18, 0, 176
+	Patch E2WT25, 0, 192
+	Patch E2WT25, 0, 208
+	Patch E2WT26, 0, 224
+	Patch E2WT37, 0, 240
+	Patch E2WT36, 16, 0
+	Patch E2WT27, 16, 16
+	Patch E2WT28, 16, 32
+	Patch E2WT28, 16, 48
+	Patch E2WT19, 16, 64
+	Patch E2WT28, 16, 80
+	Patch E2WT28, 16, 96
+	Patch E2WT29, 16, 112
+	Patch E2WT27, 16, 128
+	Patch E2WT28, 16, 144
+	Patch E2WT28, 16, 160
+	Patch E2WT19, 16, 176
+	Patch E2WT28, 16, 192
+	Patch E2WT28, 16, 208
+	Patch E2WT29, 16, 224
+	Patch E2WT37, 16, 240
+	Patch E2WT36, 32, 0
+	Patch E2WT27, 32, 16
+	Patch E2WT28, 32, 32
+	Patch E2WT28, 32, 48
+	Patch E2WT19, 32, 64
+	Patch E2WT28, 32, 80
+	Patch E2WT28, 32, 96
+	Patch E2WT29, 32, 112
+	Patch E2WT27, 32, 128
+	Patch E2WT28, 32, 144
+	Patch E2WT28, 32, 160
+	Patch E2WT19, 32, 176
+	Patch E2WT28, 32, 192
+	Patch E2WT28, 32, 208
+	Patch E2WT29, 32, 224
+	Patch E2WT37, 32, 240
+	Patch E2WT36, 48, 0
+	Patch E2WT30, 48, 16
+	Patch E2WT31, 48, 32
+	Patch E2WT31, 48, 48
+	Patch E2WT31, 48, 80
+	Patch E2WT31, 48, 96
+	Patch E2WT20, 48, 64
+	Patch E2WT32, 48, 112
+	Patch E2WT30, 48, 128
+	Patch E2WT31, 48, 144
+	Patch E2WT31, 48, 160
+	Patch E2WT20, 48, 176
+	Patch E2WT31, 48, 192
+	Patch E2WT31, 48, 208
+	Patch E2WT32, 48, 224
+	Patch E2WT37, 48, 240
+}
+
+Texture EWT2OMT3, 128, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT15, 0, 0
+	Patch E2WT16, 0, 16
+	Patch E2WT16, 0, 32
+	Patch E2WT16, 0, 48
+	Patch E2WT16, 0, 80
+	Patch E2WT16, 0, 96
+	Patch E2WT17, 0, 112
+	Patch E2WT27, 16, 0
+	Patch E2WT28, 16, 16
+	Patch E2WT28, 16, 32
+	Patch E2WT28, 16, 48
+	Patch E2WT28, 16, 80
+	Patch E2WT28, 16, 96
+	Patch E2WT29, 16, 112
+	Patch E2WT27, 32, 0
+	Patch E2WT14, 0, 64
+	Patch E2WT19, 16, 64
+	Patch E2WT28, 32, 16
+	Patch E2WT28, 32, 32
+	Patch E2WT28, 32, 48
+	Patch E2WT19, 32, 64
+	Patch E2WT28, 32, 80
+	Patch E2WT28, 32, 96
+	Patch E2WT29, 32, 112
+	Patch E2WT30, 48, 0
+	Patch E2WT31, 48, 16
+	Patch E2WT31, 48, 32
+	Patch E2WT31, 48, 48
+	Patch E2WT20, 48, 64
+	Patch E2WT31, 48, 80
+	Patch E2WT31, 48, 96
+	Patch E2WT32, 48, 112
+	Patch E2WT24, 64, 0
+	Patch E2WT25, 64, 16
+	Patch E2WT25, 64, 32
+	Patch E2WT25, 64, 48
+	Patch E2WT18, 64, 64
+	Patch E2WT25, 64, 80
+	Patch E2WT25, 64, 96
+	Patch E2WT26, 64, 112
+	Patch E2WT27, 80, 0
+	Patch E2WT28, 80, 16
+	Patch E2WT28, 80, 32
+	Patch E2WT28, 80, 48
+	Patch E2WT19, 80, 64
+	Patch E2WT28, 80, 80
+	Patch E2WT28, 80, 96
+	Patch E2WT29, 80, 112
+	Patch E2WT27, 96, 0
+	Patch E2WT28, 96, 16
+	Patch E2WT28, 96, 32
+	Patch E2WT28, 96, 48
+	Patch E2WT19, 96, 64
+	Patch E2WT28, 96, 80
+	Patch E2WT28, 96, 96
+	Patch E2WT29, 96, 112
+	Patch E2WT21A, 112, 0
+	Patch E2WT22, 112, 16
+	Patch E2WT22, 112, 32
+	Patch E2WT22, 112, 48
+	Patch E2WT21, 112, 64
+	Patch E2WT22, 112, 80
+	Patch E2WT22, 112, 96
+	Patch E2WT23, 112, 112
+}
+
+Texture EWT2OMT4, 16, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT41, 0, 0
+	Patch E2WT42, 0, 16
+	Patch E2WT42, 0, 32
+	Patch E2WT43, 0, 48
+}
+
+Texture EWT2OMT5, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT5, 0, 0
+	Patch E2WT6, 0, 16
+	Patch E2WT6, 0, 32
+	Patch E2WT7, 0, 48
+	Patch E2WT8, 16, 0
+	Patch E2WT9, 16, 16
+	Patch E2WT9, 16, 32
+	Patch E2WT10, 16, 48
+	Patch E2WT8, 32, 0
+	Patch E2WT9, 32, 16
+	Patch E2WT9, 32, 32
+	Patch E2WT10, 32, 48
+	Patch E2WT11, 48, 0
+	Patch E2WT12, 48, 16
+	Patch E2WT12, 48, 32
+	Patch E2WT13, 48, 48
+}
+
+Texture EWT2OMTY, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT36, 0, 0
+	Patch E2WT36, 16, 0
+	Patch E2WT27, 16, 16
+	Patch E2WT27, 0, 16
+	Patch E2WT28, 16, 32
+	Patch E2WT28, 0, 32
+	Patch E2WT28, 0, 48
+	Patch E2WT28, 16, 48
+	Patch E2WT36, 32, 0
+	Patch E2WT27, 32, 16
+	Patch E2WT28, 32, 32
+	Patch E2WT28, 32, 48
+	Patch E2WT36, 48, 0
+	Patch E2WT27, 48, 16
+	Patch E2WT28, 48, 32
+	Patch E2WT28, 48, 48
+}
+
+Texture EWT2OMTZ, 32, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT38, -4, 0
+	Patch E2WT34, -4, 16
+	Patch E2WT34, -4, 32
+	Patch E2WT34, -4, 48
+	Patch E2WT33, 12, 0
+	Patch E2WT39, 12, 16
+	Patch E2WT39, 12, 32
+	Patch E2WT39, 12, 48
+	Patch E2WT38, 28, 0
+	Patch E2WT34, 28, 16
+	Patch E2WT34, 28, 32
+	Patch E2WT34, 28, 48
+}
+
+Texture EWT2OIT1, 64, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT45, 0, 0
+	Patch E2WT54, 0, 16
+	Patch E2WT55, 0, 32
+	Patch E2WT52, 0, 48
+	Patch E2WT59, 0, 64
+	Patch E2WT60, 0, 80
+	Patch E2WT60, 0, 96
+	Patch E2WT61, 0, 112
+	Patch E2WT56, 0, 128
+	Patch E2WT53, 0, 144
+	Patch E2WT54, 0, 160
+	Patch E2WT54, 0, 176
+	Patch E2WT55, 0, 192
+	Patch E2WT59, 0, 208
+	Patch E2WT60, 0, 224
+	Patch E2WT61, 0, 240
+	Patch E2WT49, 16, 0
+	Patch E2WT60, 16, 16
+	Patch E2WT60, 16, 32
+	Patch E2WT61, 16, 48
+	Patch E2WT62, 16, 64
+	Patch E2WT63, 16, 80
+	Patch E2WT63, 16, 96
+	Patch E2WT64, 16, 112
+	Patch E2WT57, 16, 128
+	Patch E2WT52, 16, 144
+	Patch E2WT59, 16, 160
+	Patch E2WT61, 16, 176
+	Patch E2WT56, 16, 192
+	Patch E2WT62, 16, 208
+	Patch E2WT63, 16, 224
+	Patch E2WT64, 16, 240
+	Patch E2WT51, 32, 0
+	Patch E2WT66, 32, 16
+	Patch E2WT66, 32, 32
+	Patch E2WT67, 32, 48
+	Patch E2WT62, 32, 64
+	Patch E2WT63, 32, 80
+	Patch E2WT63, 32, 96
+	Patch E2WT64, 32, 112
+	Patch E2WT58, 32, 128
+	Patch E2WT56, 32, 144
+	Patch E2WT65, 32, 160
+	Patch E2WT67, 32, 176
+	Patch E2WT57, 32, 192
+	Patch E2WT65, 32, 208
+	Patch E2WT66, 32, 224
+	Patch E2WT67, 32, 240
+	Patch E2WT44, 48, 0
+	Patch E2WT53, 48, 16
+	Patch E2WT54, 48, 32
+	Patch E2WT55, 48, 48
+	Patch E2WT65, 48, 64
+	Patch E2WT66, 48, 80
+	Patch E2WT66, 48, 96
+	Patch E2WT67, 48, 112
+	Patch E2WT52, 48, 128
+	Patch E2WT58, 48, 144
+	Patch E2WT53, 48, 160
+	Patch E2WT55, 48, 176
+	Patch E2WT58, 48, 192
+	Patch E2WT52, 48, 208
+	Patch E2WT53, 48, 224
+	Patch E2WT55, 48, 240
+}
+
+Texture EWT2OIT3, 64, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT46, 0, 0
+	Patch E2WT47, 16, 0
+	Patch E2WT48, 32, 0
+	Patch E2WT44, 48, 0
+	Patch E2WT52, 0, 16
+	Patch E2WT56, 16, 16
+	Patch E2WT57, 32, 16
+	Patch E2WT58, 48, 16
+}
+
+Texture EWT2UPL1, 32, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT71, 0, 0
+}
+
+Texture EWT2UPL2, 32, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT107, 0, 0
+	Patch E2WT107, 16, 0
+	Patch E2WT72, 0, 16
+	Patch E2WT72, 0, 32
+	Patch E2WT72, 0, 48
+	Patch E2WT72, 0, 64
+	Patch E2WT72, 0, 80
+	Patch E2WT72, 0, 96
+	Patch E2WT72, 0, 112
+	Patch E2WT72, 0, 128
+	Patch E2WT72, 0, 144
+	Patch E2WT72, 0, 160
+	Patch E2WT72, 0, 176
+	Patch E2WT72, 0, 192
+	Patch E2WT72, 0, 208
+	Patch E2WT72, 0, 224
+	Patch E2WT108, 1, 240
+	Patch E2WT108, 16, 240
+}
+
+Texture EWT2UMT1, 32, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT104, 0, 0
+	Patch E2WT110, 0, 16
+	Patch E2WT110, 0, 32
+	Patch E2WT110, 0, 48
+	Patch E2WT110, 0, 64
+	Patch E2WT110, 0, 80
+	Patch E2WT110, 0, 96
+	Patch E2WT110, 0, 112
+	Patch E2WT110, 0, 128
+	Patch E2WT110, 0, 144
+	Patch E2WT110, 0, 160
+	Patch E2WT110, 0, 176
+	Patch E2WT110, 0, 192
+	Patch E2WT110, 0, 208
+	Patch E2WT110, 0, 224
+	Patch E2WT106, 0, 240
+	Patch E2WT109, 16, 0
+	Patch E2WT105, 16, 16
+	Patch E2WT105, 16, 32
+	Patch E2WT105, 16, 48
+	Patch E2WT105, 16, 64
+	Patch E2WT105, 16, 80
+	Patch E2WT105, 16, 96
+	Patch E2WT105, 16, 112
+	Patch E2WT105, 16, 128
+	Patch E2WT105, 16, 144
+	Patch E2WT105, 16, 160
+	Patch E2WT105, 16, 176
+	Patch E2WT105, 16, 192
+	Patch E2WT105, 16, 208
+	Patch E2WT105, 16, 224
+	Patch E2WT111, 16, 240
+}
+
+Texture EWT2UMT2, 64, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT107, 0, 0
+	Patch E2WT95, 0, 16
+	Patch E2WT96, 0, 32
+	Patch E2WT96, 0, 48
+	Patch E2WT88, 0, 64
+	Patch E2WT96, 0, 80
+	Patch E2WT96, 0, 96
+	Patch E2WT97, 0, 112
+	Patch E2WT95, 0, 128
+	Patch E2WT96, 0, 144
+	Patch E2WT96, 0, 160
+	Patch E2WT88, 0, 176
+	Patch E2WT96, 0, 192
+	Patch E2WT96, 0, 208
+	Patch E2WT97, 0, 224
+	Patch E2WT108, 0, 240
+	Patch E2WT107, 16, 0
+	Patch E2WT98, 16, 16
+	Patch E2WT99, 16, 32
+	Patch E2WT99, 16, 48
+	Patch E2WT89, 16, 64
+	Patch E2WT99, 16, 80
+	Patch E2WT99, 16, 96
+	Patch E2WT100, 16, 112
+	Patch E2WT98, 16, 128
+	Patch E2WT99, 16, 144
+	Patch E2WT99, 16, 160
+	Patch E2WT89, 16, 176
+	Patch E2WT99, 16, 192
+	Patch E2WT99, 16, 208
+	Patch E2WT100, 16, 224
+	Patch E2WT108, 16, 240
+	Patch E2WT107, 32, 0
+	Patch E2WT98, 32, 16
+	Patch E2WT99, 32, 32
+	Patch E2WT99, 32, 48
+	Patch E2WT89, 32, 64
+	Patch E2WT99, 32, 80
+	Patch E2WT99, 32, 96
+	Patch E2WT100, 32, 112
+	Patch E2WT98, 32, 128
+	Patch E2WT99, 32, 144
+	Patch E2WT99, 32, 160
+	Patch E2WT89, 32, 176
+	Patch E2WT99, 32, 192
+	Patch E2WT99, 32, 208
+	Patch E2WT100, 32, 224
+	Patch E2WT108, 32, 240
+	Patch E2WT107, 48, 0
+	Patch E2WT101, 48, 16
+	Patch E2WT102, 48, 32
+	Patch E2WT102, 48, 48
+	Patch E2WT102, 48, 80
+	Patch E2WT102, 48, 96
+	Patch E2WT90, 48, 64
+	Patch E2WT103, 48, 112
+	Patch E2WT101, 48, 128
+	Patch E2WT102, 48, 144
+	Patch E2WT102, 48, 160
+	Patch E2WT90, 48, 176
+	Patch E2WT102, 48, 192
+	Patch E2WT102, 48, 208
+	Patch E2WT103, 48, 224
+	Patch E2WT108, 48, 240
+}
+
+Texture EWT2UMT3, 128, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT85, 0, 0
+	Patch E2WT86, 0, 16
+	Patch E2WT86, 0, 32
+	Patch E2WT86, 0, 48
+	Patch E2WT86, 0, 80
+	Patch E2WT86, 0, 96
+	Patch E2WT87, 0, 112
+	Patch E2WT98, 16, 0
+	Patch E2WT99, 16, 16
+	Patch E2WT99, 16, 32
+	Patch E2WT99, 16, 48
+	Patch E2WT99, 16, 80
+	Patch E2WT99, 16, 96
+	Patch E2WT100, 16, 112
+	Patch E2WT98, 32, 0
+	Patch E2WT84, 0, 64
+	Patch E2WT89, 16, 64
+	Patch E2WT99, 32, 16
+	Patch E2WT99, 32, 32
+	Patch E2WT99, 32, 48
+	Patch E2WT89, 32, 64
+	Patch E2WT99, 32, 80
+	Patch E2WT99, 32, 96
+	Patch E2WT100, 32, 112
+	Patch E2WT101, 48, 0
+	Patch E2WT102, 48, 16
+	Patch E2WT102, 48, 32
+	Patch E2WT102, 48, 48
+	Patch E2WT90, 48, 64
+	Patch E2WT102, 48, 80
+	Patch E2WT102, 48, 96
+	Patch E2WT103, 48, 112
+	Patch E2WT95, 64, 0
+	Patch E2WT96, 64, 16
+	Patch E2WT96, 64, 32
+	Patch E2WT96, 64, 48
+	Patch E2WT88, 64, 64
+	Patch E2WT96, 64, 80
+	Patch E2WT96, 64, 96
+	Patch E2WT97, 64, 112
+	Patch E2WT98, 80, 0
+	Patch E2WT99, 80, 16
+	Patch E2WT99, 80, 32
+	Patch E2WT99, 80, 48
+	Patch E2WT89, 80, 64
+	Patch E2WT99, 80, 80
+	Patch E2WT99, 80, 96
+	Patch E2WT100, 80, 112
+	Patch E2WT98, 96, 0
+	Patch E2WT99, 96, 16
+	Patch E2WT99, 96, 32
+	Patch E2WT99, 96, 48
+	Patch E2WT89, 96, 64
+	Patch E2WT99, 96, 80
+	Patch E2WT99, 96, 96
+	Patch E2WT100, 96, 112
+	Patch E2WT92, 112, 0
+	Patch E2WT93, 112, 16
+	Patch E2WT93, 112, 32
+	Patch E2WT93, 112, 48
+	Patch E2WT91, 112, 64
+	Patch E2WT93, 112, 80
+	Patch E2WT93, 112, 96
+	Patch E2WT94, 112, 112
+}
+
+Texture EWT2UMT4, 16, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT112, 0, 0
+	Patch E2WT113, 0, 16
+	Patch E2WT113, 0, 32
+	Patch E2WT114, 0, 48
+}
+
+Texture EWT2UMT5, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT75, 0, 0
+	Patch E2WT76, 0, 16
+	Patch E2WT76, 0, 32
+	Patch E2WT77, 0, 48
+	Patch E2WT78, 16, 0
+	Patch E2WT79, 16, 16
+	Patch E2WT79, 16, 32
+	Patch E2WT80, 16, 48
+	Patch E2WT78, 32, 0
+	Patch E2WT79, 32, 16
+	Patch E2WT79, 32, 32
+	Patch E2WT80, 32, 48
+	Patch E2WT81, 48, 0
+	Patch E2WT82, 48, 16
+	Patch E2WT82, 48, 32
+	Patch E2WT83, 48, 48
+}
+
+Texture EWT2UMT6, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT107, 0, 0
+	Patch E2WT98, 0, 16
+	Patch E2WT99, 0, 32
+	Patch E2WT99, 0, 48
+	Patch E2WT89, 0, 64
+	Patch E2WT99, 0, 80
+	Patch E2WT99, 0, 96
+	Patch E2WT100, 0, 112
+	Patch E2WT98, 0, 128
+	Patch E2WT99, 0, 144
+	Patch E2WT99, 0, 160
+	Patch E2WT89, 0, 176
+	Patch E2WT99, 0, 192
+	Patch E2WT99, 0, 208
+	Patch E2WT100, 0, 224
+	Patch E2WT108, 0, 240
+}
+
+Texture EWT2UIT1, 64, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT116, 0, 0
+	Patch E2WT125, 0, 16
+	Patch E2WT126, 0, 32
+	Patch E2WT123, 0, 48
+	Patch E2WT130, 0, 64
+	Patch E2WT131, 0, 80
+	Patch E2WT131, 0, 96
+	Patch E2WT132, 0, 112
+	Patch E2WT127, 0, 128
+	Patch E2WT124, 0, 144
+	Patch E2WT125, 0, 160
+	Patch E2WT125, 0, 176
+	Patch E2WT126, 0, 192
+	Patch E2WT130, 0, 208
+	Patch E2WT131, 0, 224
+	Patch E2WT132, 0, 240
+	Patch E2WT120, 16, 0
+	Patch E2WT131, 16, 16
+	Patch E2WT131, 16, 32
+	Patch E2WT132, 16, 48
+	Patch E2WT133, 16, 64
+	Patch E2WT134, 16, 80
+	Patch E2WT134, 16, 96
+	Patch E2WT135, 16, 112
+	Patch E2WT128, 16, 128
+	Patch E2WT123, 16, 144
+	Patch E2WT130, 16, 160
+	Patch E2WT132, 16, 176
+	Patch E2WT127, 16, 192
+	Patch E2WT133, 16, 208
+	Patch E2WT134, 16, 224
+	Patch E2WT135, 16, 240
+	Patch E2WT122, 32, 0
+	Patch E2WT137, 32, 16
+	Patch E2WT137, 32, 32
+	Patch E2WT138, 32, 48
+	Patch E2WT133, 32, 64
+	Patch E2WT134, 32, 80
+	Patch E2WT134, 32, 96
+	Patch E2WT135, 32, 112
+	Patch E2WT129, 32, 128
+	Patch E2WT127, 32, 144
+	Patch E2WT136, 32, 160
+	Patch E2WT138, 32, 176
+	Patch E2WT128, 32, 192
+	Patch E2WT136, 32, 208
+	Patch E2WT137, 32, 224
+	Patch E2WT138, 32, 240
+	Patch E2WT115, 48, 0
+	Patch E2WT124, 48, 16
+	Patch E2WT125, 48, 32
+	Patch E2WT126, 48, 48
+	Patch E2WT136, 48, 64
+	Patch E2WT137, 48, 80
+	Patch E2WT137, 48, 96
+	Patch E2WT138, 48, 112
+	Patch E2WT123, 48, 128
+	Patch E2WT129, 48, 144
+	Patch E2WT124, 48, 160
+	Patch E2WT126, 48, 176
+	Patch E2WT129, 48, 192
+	Patch E2WT123, 48, 208
+	Patch E2WT124, 48, 224
+	Patch E2WT126, 48, 240
+}
+
+Texture EWT2UIT2, 64, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT127, 0, 0
+	Patch E2WT124, 0, 16
+	Patch E2WT125, 0, 32
+	Patch E2WT126, 0, 48
+	Patch E2WT130, 0, 64
+	Patch E2WT132, 0, 80
+	Patch E2WT123, 0, 96
+	Patch E2WT127, 0, 112
+	Patch E2WT128, 16, 0
+	Patch E2WT123, 16, 16
+	Patch E2WT130, 16, 32
+	Patch E2WT132, 16, 48
+	Patch E2WT136, 16, 64
+	Patch E2WT138, 16, 80
+	Patch E2WT123, 16, 96
+	Patch E2WT128, 16, 112
+	Patch E2WT129, 32, 0
+	Patch E2WT123, 32, 16
+	Patch E2WT133, 32, 32
+	Patch E2WT135, 32, 48
+	Patch E2WT124, 32, 64
+	Patch E2WT125, 32, 80
+	Patch E2WT126, 32, 96
+	Patch E2WT128, 32, 112
+	Patch E2WT124, 48, 0
+	Patch E2WT126, 48, 16
+	Patch E2WT136, 48, 32
+	Patch E2WT138, 48, 48
+	Patch E2WT123, 48, 64
+	Patch E2WT124, 48, 80
+	Patch E2WT126, 48, 96
+	Patch E2WT129, 48, 112
+}
+
+Texture EWT2OIT2, 128, 512
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT68, 0, 0
+	Patch E2WT69, 0, 16
+	Patch E2WT69, 0, 80
+	Patch E2WT69, 0, 144
+	Patch E2WT69, 0, 208
+	Patch E2WT69, 0, 272
+	Patch E2WT69, 0, 336
+	Patch E2WT69, 0, 400
+	Patch E2WT69, 0, 464
+}
+
+Texture EWT2WILY, 48, 48
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT70, 0, 0
+}
+
+Texture EWT2LADR, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT4, 0, 0
+	Patch E2WT74, 0, 16
+	Patch E2WT74, 0, 32
+	Patch E2WT74, 0, 48
+	Patch E2WT74, 0, 64
+	Patch E2WT74, 0, 80
+	Patch E2WT74, 0, 96
+	Patch E2WT74, 0, 112
+	Patch E2WT74, 0, 128
+	Patch E2WT74, 0, 144
+	Patch E2WT74, 0, 160
+	Patch E2WT74, 0, 176
+	Patch E2WT74, 0, 192
+	Patch E2WT74, 0, 208
+	Patch E2WT74, 0, 224
+	Patch E2WT74, 0, 240
+}
+
+Texture EWT2LDR2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT4, 0, 0
+}
+
+Texture EWT2BELL, 64, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT145, 0, 0
+}
+
+Texture EWT2BEL1, 64, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT145, 0, 0
+}
+
+Texture EWT2BEL2, 64, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT146, 0, 0
+}
+
+Texture EWT2BEL3, 64, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT147, 0, 0
+}
+
+Texture EWT2BELT, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT139, 0, 0
+}
+
+Texture EWT2CT3X, 64, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT145, 0, 0
+	
+	Patch E2WT36, 0, 16
+	Patch E2WT100, 0, 32
+	Patch E2WT98, 0, 48
+	Patch E2WT99, 0, 64
+	Patch E2WT99, 0, 80
+	Patch E2WT99, 0, 112
+	Patch E2WT99, 0, 128
+	Patch E2WT99, 0, 144
+	Patch E2WT99, 0, 160
+	Patch E2WT99, 0, 176
+	Patch E2WT99, 0, 192
+	Patch E2WT99, 0, 208
+	Patch E2WT99, 0, 224
+	Patch E2WT99, 0, 240
+	Patch E2WT89, 0, 96
+	
+	Patch E2WT36, 16, 16
+	Patch E2WT100, 16, 32
+	Patch E2WT98, 16, 48
+	Patch E2WT99, 16, 64
+	Patch E2WT99, 16, 80
+	Patch E2WT99, 16, 112
+	Patch E2WT99, 16, 128
+	Patch E2WT99, 16, 144
+	Patch E2WT99, 16, 160
+	Patch E2WT99, 16, 176
+	Patch E2WT99, 16, 192
+	Patch E2WT99, 16, 208
+	Patch E2WT99, 16, 224
+	Patch E2WT99, 16, 240
+	Patch E2WT89, 16, 96
+	
+	Patch E2WT36, 32, 16
+	Patch E2WT100, 32, 32
+	Patch E2WT98, 32, 48
+	Patch E2WT99, 32, 64
+	Patch E2WT99, 32, 80
+	Patch E2WT99, 32, 112
+	Patch E2WT99, 32, 128
+	Patch E2WT99, 32, 144
+	Patch E2WT99, 32, 160
+	Patch E2WT99, 32, 176
+	Patch E2WT99, 32, 192
+	Patch E2WT99, 32, 208
+	Patch E2WT99, 32, 224
+	Patch E2WT99, 32, 240
+	Patch E2WT89, 32, 96
+	
+	Patch E2WT36, 48, 16
+	Patch E2WT100, 48, 32
+	Patch E2WT98, 48, 48
+	Patch E2WT99, 48, 64
+	Patch E2WT99, 48, 80
+	Patch E2WT99, 48, 112
+	Patch E2WT99, 48, 128
+	Patch E2WT99, 48, 144
+	Patch E2WT99, 48, 160
+	Patch E2WT99, 48, 176
+	Patch E2WT99, 48, 192
+	Patch E2WT99, 48, 208
+	Patch E2WT99, 48, 224
+	Patch E2WT99, 48, 240
+	Patch E2WT89, 48, 96
+}
+
+Texture EWT2CT31, 64, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT145, 0, 0
+	
+	Patch E2WT36, 0, 16
+	Patch E2WT100, 0, 32
+	Patch E2WT98, 0, 48
+	Patch E2WT99, 0, 64
+	Patch E2WT99, 0, 80
+	Patch E2WT99, 0, 112
+	Patch E2WT99, 0, 128
+	Patch E2WT99, 0, 144
+	Patch E2WT99, 0, 160
+	Patch E2WT99, 0, 176
+	Patch E2WT99, 0, 192
+	Patch E2WT99, 0, 208
+	Patch E2WT99, 0, 224
+	Patch E2WT99, 0, 240
+	Patch E2WT89, 0, 96
+	
+	Patch E2WT36, 16, 16
+	Patch E2WT100, 16, 32
+	Patch E2WT98, 16, 48
+	Patch E2WT99, 16, 64
+	Patch E2WT99, 16, 80
+	Patch E2WT99, 16, 112
+	Patch E2WT99, 16, 128
+	Patch E2WT99, 16, 144
+	Patch E2WT99, 16, 160
+	Patch E2WT99, 16, 176
+	Patch E2WT99, 16, 192
+	Patch E2WT99, 16, 208
+	Patch E2WT99, 16, 224
+	Patch E2WT99, 16, 240
+	Patch E2WT89, 16, 96
+	
+	Patch E2WT36, 32, 16
+	Patch E2WT100, 32, 32
+	Patch E2WT98, 32, 48
+	Patch E2WT99, 32, 64
+	Patch E2WT99, 32, 80
+	Patch E2WT99, 32, 112
+	Patch E2WT99, 32, 128
+	Patch E2WT99, 32, 144
+	Patch E2WT99, 32, 160
+	Patch E2WT99, 32, 176
+	Patch E2WT99, 32, 192
+	Patch E2WT99, 32, 208
+	Patch E2WT99, 32, 224
+	Patch E2WT99, 32, 240
+	Patch E2WT89, 32, 96
+	
+	Patch E2WT36, 48, 16
+	Patch E2WT100, 48, 32
+	Patch E2WT98, 48, 48
+	Patch E2WT99, 48, 64
+	Patch E2WT99, 48, 80
+	Patch E2WT99, 48, 112
+	Patch E2WT99, 48, 128
+	Patch E2WT99, 48, 144
+	Patch E2WT99, 48, 160
+	Patch E2WT99, 48, 176
+	Patch E2WT99, 48, 192
+	Patch E2WT99, 48, 208
+	Patch E2WT99, 48, 224
+	Patch E2WT99, 48, 240
+	Patch E2WT89, 48, 96
+}
+
+Texture EWT2CT32, 64, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT145, 0, 0
+	
+	Patch E2WT36, 0, 16
+	Patch E2WT100, 0, 32
+	Patch E2WT98, 0, 48
+	Patch E2WT99, 0, 64
+	Patch E2WT99, 0, 80
+	Patch E2WT99, 0, 112
+	Patch E2WT99, 0, 128
+	Patch E2WT99, 0, 144
+	Patch E2WT99, 0, 160
+	Patch E2WT99, 0, 176
+	Patch E2WT99, 0, 192
+	Patch E2WT99, 0, 208
+	Patch E2WT99, 0, 224
+	Patch E2WT99, 0, 240
+	Patch E2WT89, 0, 96
+	
+	Patch E2WT36, 16, 16
+	Patch E2WT100, 16, 32
+	Patch E2WT98, 16, 48
+	Patch E2WT99, 16, 64
+	Patch E2WT99, 16, 80
+	Patch E2WT99, 16, 112
+	Patch E2WT99, 16, 128
+	Patch E2WT99, 16, 144
+	Patch E2WT99, 16, 160
+	Patch E2WT99, 16, 176
+	Patch E2WT99, 16, 192
+	Patch E2WT99, 16, 208
+	Patch E2WT99, 16, 224
+	Patch E2WT99, 16, 240
+	Patch E2WT89, 16, 96
+	
+	Patch E2WT36, 32, 16
+	Patch E2WT100, 32, 32
+	Patch E2WT98, 32, 48
+	Patch E2WT99, 32, 64
+	Patch E2WT99, 32, 80
+	Patch E2WT99, 32, 112
+	Patch E2WT99, 32, 128
+	Patch E2WT99, 32, 144
+	Patch E2WT99, 32, 160
+	Patch E2WT99, 32, 176
+	Patch E2WT99, 32, 192
+	Patch E2WT99, 32, 208
+	Patch E2WT99, 32, 224
+	Patch E2WT99, 32, 240
+	Patch E2WT89, 32, 96
+	
+	Patch E2WT36, 48, 16
+	Patch E2WT100, 48, 32
+	Patch E2WT98, 48, 48
+	Patch E2WT99, 48, 64
+	Patch E2WT99, 48, 80
+	Patch E2WT99, 48, 112
+	Patch E2WT99, 48, 128
+	Patch E2WT99, 48, 144
+	Patch E2WT99, 48, 160
+	Patch E2WT99, 48, 176
+	Patch E2WT99, 48, 192
+	Patch E2WT99, 48, 208
+	Patch E2WT99, 48, 224
+	Patch E2WT99, 48, 240
+	Patch E2WT89, 48, 96
+}
+
+Texture EWT2CT33, 64, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT145, 0, 0
+	
+	Patch E2WT36, 0, 16
+	Patch E2WT100, 0, 32
+	Patch E2WT98, 0, 48
+	Patch E2WT99, 0, 64
+	Patch E2WT99, 0, 80
+	Patch E2WT99, 0, 112
+	Patch E2WT99, 0, 128
+	Patch E2WT99, 0, 144
+	Patch E2WT99, 0, 160
+	Patch E2WT99, 0, 176
+	Patch E2WT99, 0, 192
+	Patch E2WT99, 0, 208
+	Patch E2WT99, 0, 224
+	Patch E2WT99, 0, 240
+	Patch E2WT89, 0, 96
+	
+	Patch E2WT36, 16, 16
+	Patch E2WT100, 16, 32
+	Patch E2WT98, 16, 48
+	Patch E2WT99, 16, 64
+	Patch E2WT99, 16, 80
+	Patch E2WT99, 16, 112
+	Patch E2WT99, 16, 128
+	Patch E2WT99, 16, 144
+	Patch E2WT99, 16, 160
+	Patch E2WT99, 16, 176
+	Patch E2WT99, 16, 192
+	Patch E2WT99, 16, 208
+	Patch E2WT99, 16, 224
+	Patch E2WT99, 16, 240
+	Patch E2WT89, 16, 96
+	
+	Patch E2WT36, 32, 16
+	Patch E2WT100, 32, 32
+	Patch E2WT98, 32, 48
+	Patch E2WT99, 32, 64
+	Patch E2WT99, 32, 80
+	Patch E2WT99, 32, 112
+	Patch E2WT99, 32, 128
+	Patch E2WT99, 32, 144
+	Patch E2WT99, 32, 160
+	Patch E2WT99, 32, 176
+	Patch E2WT99, 32, 192
+	Patch E2WT99, 32, 208
+	Patch E2WT99, 32, 224
+	Patch E2WT99, 32, 240
+	Patch E2WT89, 32, 96
+	
+	Patch E2WT36, 48, 16
+	Patch E2WT100, 48, 32
+	Patch E2WT98, 48, 48
+	Patch E2WT99, 48, 64
+	Patch E2WT99, 48, 80
+	Patch E2WT99, 48, 112
+	Patch E2WT99, 48, 128
+	Patch E2WT99, 48, 144
+	Patch E2WT99, 48, 160
+	Patch E2WT99, 48, 176
+	Patch E2WT99, 48, 192
+	Patch E2WT99, 48, 208
+	Patch E2WT99, 48, 224
+	Patch E2WT99, 48, 240
+	Patch E2WT89, 48, 96
+}
+
+Texture EWT2CT3Y, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT139, 0, 0
+	Patch E2WT36, 0, 16
+	Patch E2WT100, 0, 32
+	Patch E2WT98, 0, 48
+	Patch E2WT99, 0, 64
+	Patch E2WT99, 0, 80
+	Patch E2WT99, 0, 112
+	Patch E2WT99, 0, 128
+	Patch E2WT99, 0, 144
+	Patch E2WT99, 0, 160
+	Patch E2WT99, 0, 176
+	Patch E2WT99, 0, 192
+	Patch E2WT99, 0, 208
+	Patch E2WT99, 0, 224
+	Patch E2WT99, 0, 240
+	Patch E2WT89, 0, 96
+}
+
+Texture EWTWATER, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT154, 0, 0
+}
+
+Texture EWTWTER1, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT154, 0, 0
+}
+
+Texture EWTWTER2, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT155, 0, 0
+}
+
+Texture EWTWTER3, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT156, 0, 0
+}
+
+Texture EWTWTER4, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT157, 0, 0
+}
+
+Texture EWT2FLR1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT160, 0, 0
+}
+
+Texture EWT2FLR2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT159, 0, 0
+}
+
+Texture EWT2FLR3, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT158, 0, 0
+}
+
+Texture EWT2FLR4, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch E2WT161, 0, 0
+}

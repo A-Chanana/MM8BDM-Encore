@@ -1,0 +1,331 @@
+
+texture EDRIRCK1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM1, 0, 0
+}
+
+texture EDRIRCK2, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM2, 0, 0
+   Patch EDRILM1, 0, 32
+   Patch EDRILM1, 0, 64
+   Patch EDRILM1, 0, 96
+   Patch EDRILM1, 0, 128
+   Patch EDRILM1, 0, 160
+   Patch EDRILM1, 0, 192
+   Patch EDRILM1, 0, 224
+   Patch EDRILM1, 0, 256
+   Patch EDRILM1, 0, 288
+   Patch EDRILM1, 0, 320
+   Patch EDRILM1, 0, 352
+   Patch EDRILM1, 0, 384
+   Patch EDRILM1, 0, 416
+   Patch EDRILM1, 0, 448
+   Patch EDRILM3, 0, 480
+   WorldPanning 
+}
+
+texture EDRIRCK3, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM5, 0, 0
+   Patch EDRILM4, 0, 32
+   Patch EDRILM4, 0, 64
+   Patch EDRILM4, 0, 96
+   Patch EDRILM4, 0, 128
+   Patch EDRILM4, 0, 160
+   Patch EDRILM4, 0, 192
+   Patch EDRILM4, 0, 224
+   Patch EDRILM4, 0, 256
+   Patch EDRILM4, 0, 288
+   Patch EDRILM4, 0, 320
+   Patch EDRILM4, 0, 352
+   Patch EDRILM4, 0, 384
+   Patch EDRILM4, 0, 416
+   Patch EDRILM4, 0, 448
+   Patch EDRILM4, 0, 480
+   WorldPanning 
+}
+
+texture EDRIRCK6, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM5, 0, 0
+   Patch EDRILM6, 0, 32
+   Patch EDRILM4, 0, 64
+   Patch EDRILM6, 0, 96
+   Patch EDRILM4, 0, 128
+   Patch EDRILM6, 0, 160
+   Patch EDRILM4, 0, 192
+   Patch EDRILM6, 0, 224
+   Patch EDRILM4, 0, 256
+   Patch EDRILM6, 0, 288
+   Patch EDRILM4, 0, 320
+   Patch EDRILM6, 0, 352
+   Patch EDRILM4, 0, 384
+   Patch EDRILM6, 0, 416
+   Patch EDRILM4, 0, 448
+   Patch EDRILM6, 0, 480
+   WorldPanning 
+}
+
+texture EDRIRCK4, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM7, 0, 0
+   Patch EDRILM8, 0, 32
+   Patch EDRILM8, 0, 64
+   Patch EDRILM8, 0, 96
+   Patch EDRILM8, 0, 128
+   Patch EDRILM8, 0, 160
+   Patch EDRILM8, 0, 192
+   Patch EDRILM8, 0, 224
+   Patch EDRILM8, 0, 256
+   Patch EDRILM8, 0, 288
+   Patch EDRILM8, 0, 320
+   Patch EDRILM8, 0, 352
+   Patch EDRILM8, 0, 384
+   Patch EDRILM8, 0, 416
+   Patch EDRILM8, 0, 448
+   Patch EDRILM8, 0, 480
+   WorldPanning 
+}
+
+
+texture EDRIRCK5, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM24, 0, 0
+   WorldPanning 
+}
+
+
+texture EDRIRCK7, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM30, 0, 0
+   WorldPanning 
+}
+
+texture EDRIFEN1, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM10, 0, 0
+   Patch EDRILM9, 0, 32
+   Patch EDRILM9, 0, 64
+   Patch EDRILM9, 0, 96
+   Patch EDRILM9, 0, 128
+   Patch EDRILM9, 0, 160
+   Patch EDRILM9, 0, 192
+   Patch EDRILM9, 0, 224
+   Patch EDRILM9, 0, 256
+   Patch EDRILM9, 0, 288
+   Patch EDRILM9, 0, 320
+   Patch EDRILM9, 0, 352
+   Patch EDRILM9, 0, 384
+   Patch EDRILM9, 0, 416
+   Patch EDRILM9, 0, 448
+   Patch EDRILM9, 0, 480
+   WorldPanning 
+}
+
+texture EDRIFEN2, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM12, 0, 0
+   Patch EDRILM11, 0, 32
+   Patch EDRILM11, 0, 64
+   Patch EDRILM11, 0, 96
+   Patch EDRILM11, 0, 128
+   Patch EDRILM11, 0, 160
+   Patch EDRILM11, 0, 192
+   Patch EDRILM11, 0, 224
+   Patch EDRILM11, 0, 256
+   Patch EDRILM11, 0, 288
+   Patch EDRILM11, 0, 320
+   Patch EDRILM11, 0, 352
+   Patch EDRILM11, 0, 384
+   Patch EDRILM11, 0, 416
+   Patch EDRILM11, 0, 448
+   Patch EDRILM11, 0, 480
+   WorldPanning 
+}
+
+texture EDRIFEN4, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM14, 0, 0
+   Patch EDRILM13, 0, 32
+   Patch EDRILM13, 0, 64
+   Patch EDRILM13, 0, 96
+   Patch EDRILM13, 0, 128
+   Patch EDRILM13, 0, 160
+   Patch EDRILM13, 0, 192
+   Patch EDRILM13, 0, 224
+   Patch EDRILM13, 0, 256
+   Patch EDRILM13, 0, 288
+   Patch EDRILM13, 0, 320
+   Patch EDRILM13, 0, 352
+   Patch EDRILM13, 0, 384
+   Patch EDRILM13, 0, 416
+   Patch EDRILM13, 0, 448
+   Patch EDRILM13, 0, 480
+   WorldPanning 
+}
+
+texture EDRIPIPE, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM16, 0, 0
+   Patch EDRILM15, 0, 32
+   Patch EDRILM15, 0, 64
+   Patch EDRILM15, 0, 96
+   Patch EDRILM15, 0, 128
+   Patch EDRILM15, 0, 160
+   Patch EDRILM15, 0, 192
+   Patch EDRILM15, 0, 224
+   Patch EDRILM15, 0, 256
+   Patch EDRILM15, 0, 288
+   Patch EDRILM15, 0, 320
+   Patch EDRILM15, 0, 352
+   Patch EDRILM15, 0, 384
+   Patch EDRILM15, 0, 416
+   Patch EDRILM15, 0, 448
+   Patch EDRILM15, 0, 480
+   WorldPanning 
+}
+
+texture EDRIFEN3, 48, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EDRILM18, 0, 0
+   Patch EDRILM17, 0, 32
+   Patch EDRILM17, 0, 64
+   Patch EDRILM17, 0, 96
+   Patch EDRILM17, 0, 128
+   Patch EDRILM17, 0, 160
+   Patch EDRILM17, 0, 192
+   Patch EDRILM17, 0, 224
+   Patch EDRILM17, 0, 256
+   Patch EDRILM17, 0, 288
+   Patch EDRILM17, 0, 320
+   Patch EDRILM17, 0, 352
+   Patch EDRILM17, 0, 384
+   Patch EDRILM17, 0, 416
+   Patch EDRILM17, 0, 448
+   Patch EDRILM17, 0, 480
+   WorldPanning 
+}
+
+texture EDRIBACK, 32, 48
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM19, 0, 0
+}
+
+texture EDRIMET1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM20, 0, 0
+}
+
+texture EDRIMET2, 64, 112
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM21, 0, 0
+}
+
+texture EDRIMET3, 64, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM22, 0, 0
+}
+
+texture EDRILDR, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM23, 0, 0
+}
+
+texture EDRIFLR1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM25, 0, 0
+}
+
+
+texture EDRIFLR2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM26, 0, 0
+}
+
+texture EDRIFLR3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM27, 0, 0
+}
+
+
+texture EDRIFLR4, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM28, 0, 0
+}
+
+texture EDRIPFEN, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM29, 0, 0
+}
+
+texture EDRIMET4, 64, 32
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM31, 0, 0
+}
+
+texture EDRIPIP2, 64, 64
+{
+   XScale 0.5
+   YScale 0.5
+   WorldPanning 
+   patch EDRILM32, 0, 0
+}

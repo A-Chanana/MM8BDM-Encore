@@ -1,0 +1,2898 @@
+
+//----------------
+//Lightning Blocks
+//----------------
+
+Texture "E10DWBX1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK1", 0, 0
+}
+
+Texture "E10DWBX2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK3", 0, 0
+}
+
+Texture "E10DWBX3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK6", 0, 0
+}
+
+Texture "E10DWBX4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK7", 0, 0
+}
+
+Texture "E10DWBL1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK1", 0, 0
+}
+
+Texture "E10DWBL2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK2", 0, 0
+}
+
+Texture "E10DWBL3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK3", 0, 0
+}
+
+Texture "E10DWBL4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK4", 0, 0
+}
+
+Texture "E10DWBL5", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK5", 0, 0
+}
+
+Texture "E10DWBL6", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK6", 0, 0
+}
+
+Texture "E10DWBL7", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D1BK7", 0, 0
+}
+
+//-------------------------------------------
+//Inactive Textures (Before Lightning Strike)
+//-------------------------------------------
+
+Texture "E10D1FL1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D13", 0, 0
+}
+
+Texture "E10D1FL2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D113", 0, 0
+}
+
+Texture "E10D1FL3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D124", 0, 0
+}
+
+Texture "E10D1FL4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D16", 0, 0
+}
+
+Texture "E10D1FL5", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D117", 0, 0
+}
+
+Texture "E10D1FL6", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D158", 0, 0
+}
+
+Texture "E10D1FL7", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D159", 0, 0
+}
+
+Texture "E10D1RK1", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D11", 0, 0
+	Patch "E10D12", 0, 32
+	Patch "E10D12", 0, 64
+	Patch "E10D12", 0, 96
+}
+
+Texture "E10D1JK1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D116", 0, 0
+}
+
+Texture "E10D1JK2", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D116", 0, 0
+	Patch "E10D116", 0, 32
+	Patch "E10D116", 32, 32
+	Patch "E10D116", 64, 32
+	Patch "E10D116", 32, 0
+	Patch "E10D152", 64, 0
+}
+
+Texture "E10D1JK3", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D116", 0, 0
+	Patch "E10D153", 0, 32
+	Patch "E10D116", 32, 32
+	Patch "E10D116", 64, 32
+	Patch "E10D116", 32, 0
+	Patch "E10D152", 64, 0
+}
+
+Texture "E10D1JK4", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D116", 0, 0
+	Patch "E10D153", 0, 32
+	Patch "E10D116", 32, 32
+	Patch "E10D116", 64, 32
+	Patch "E10D173", 32, 0
+	Patch "E10D152", 64, 0
+}
+
+Texture "E10D1MTL", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D15", 0, 0
+}
+
+Texture "E10D1MT1", 48, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D16", 0, 0
+	Patch "E10D16", 32, 0
+	Patch "E10D16", 16, 16
+	Patch "E10D16", 16, 32
+	Patch "E10D16", 32, 16
+	Patch "E10D17", 16, 0
+	Patch "E10D17", 0, 16
+	Patch "E10D17", 0, 32
+	Patch "E10D17", 32, 32
+}
+
+Texture "E10D1MT2", 64, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D16", 0, 0
+	Patch "E10D18", 0, 96
+	Patch "E10D16", 0, 32
+	Patch "E10D16", 0, 112
+	Patch "E10D16", 32, 0
+	Patch "E10D16", 48, 0
+	Patch "E10D16", 32, 32
+	Patch "E10D16", 48, 32
+	Patch "E10D15", 48, 128
+	Patch "E10D16", 0, 48
+	Patch "E10D18", 0, 128
+	Patch "E10D16", 16, 16
+	Patch "E10D15", 48, 80
+	Patch "E10D16", 48, 160
+	Patch "E10D16", 16, 48
+	Patch "E10D16", 48, 112
+	Patch "E10D16", 16, 112
+	Patch "E10D16", 48, 64
+	Patch "E10D16", 16, 160
+	Patch "E10D16", 32, 16
+	Patch "E10D16", 48, 16
+	Patch "E10D15", 48, 96
+	Patch "E10D16", 32, 64
+	Patch "E10D15", 48, 144
+	Patch "E10D16", 0, 64
+	Patch "E10D18", 0, 144
+	Patch "E10D16", 16, 32
+	Patch "E10D17", 32, 112
+	Patch "E10D16", 32, 160
+	Patch "E10D18", 0, 80
+	Patch "E10D16", 0, 160
+	Patch "E10D17", 16, 0
+	Patch "E10D17", 48, 48
+	Patch "E10D17", 0, 16
+	Patch "E10D17", 32, 48
+	Patch "E10D17", 16, 64
+	Patch "E10D110", 16, 128
+	Patch "E10D110", 16, 80
+}
+
+Texture "E10D1MT3", 64, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D18", 0, 32
+	Patch "E10D18", 0, 64
+	Patch "E10D18", 0, 96
+	Patch "E10D16", 16, 0
+	Patch "E10D16", 32, 0
+	Patch "E10D15", 48, 112
+	Patch "E10D15", 48, 144
+	Patch "E10D18", 0, 112
+	Patch "E10D18", 0, 144
+	Patch "E10D15", 48, 16
+	Patch "E10D15", 48, 48
+	Patch "E10D15", 48, 80
+	Patch "E10D15", 48, 32
+	Patch "E10D15", 48, 64
+	Patch "E10D15", 48, 96
+	Patch "E10D15", 48, 128
+	Patch "E10D15", 48, 160
+	Patch "E10D18", 0, 128
+	Patch "E10D18", 0, 160
+	Patch "E10D18", 0, 16
+	Patch "E10D18", 0, 48
+	Patch "E10D18", 0, 80
+	Patch "E10D17", 0, 0
+	Patch "E10D17", 48, 0
+	Patch "E10D110", 16, 112
+	Patch "E10D110", 16, 144
+	Patch "E10D110", 16, 16
+	Patch "E10D110", 16, 48
+	Patch "E10D110", 16, 80
+}
+
+Texture "E10D1MT4", 48, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D15", 0, 0
+	Patch "E10D15", 0, 16
+	Patch "E10D15", 0, 32
+	Patch "E10D18", 32, 0
+	Patch "E10D16", 16, 16
+	Patch "E10D16", 16, 32
+	Patch "E10D18", 32, 16
+	Patch "E10D18", 32, 32
+	Patch "E10D17", 16, 0
+}
+
+Texture "E10D1MT5", 96, 272
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D14", 0, 16
+	Patch "E10D14", 80, 16
+	Patch "E10D14", 0, 144
+	Patch "E10D14", 80, 144
+	Patch "E10D14", 0, 80
+	Patch "E10D14", 80, 80
+	Patch "E10D14", 0, 208
+	Patch "E10D14", 80, 208
+	Patch "E10D14", 0, 48
+	Patch "E10D14", 80, 48
+	Patch "E10D14", 0, 176
+	Patch "E10D14", 80, 176
+	Patch "E10D14", 0, 112
+	Patch "E10D14", 80, 112
+	Patch "E10D14", 0, 240
+	Patch "E10D14", 80, 240
+	Patch "E10D116", 16, 16
+	Patch "E10D116", 48, 16
+	Patch "E10D116", 16, 144
+	Patch "E10D116", 48, 144
+	Patch "E10D116", 16, 48
+	Patch "E10D116", 48, 48
+	Patch "E10D116", 16, 176
+	Patch "E10D116", 48, 176
+	Patch "E10D116", 16, 80
+	Patch "E10D116", 48, 80
+	Patch "E10D116", 16, 208
+	Patch "E10D116", 48, 208
+	Patch "E10D116", 16, 112
+	Patch "E10D116", 48, 112
+	Patch "E10D116", 16, 240
+	Patch "E10D116", 48, 240
+	Patch "E10D19", 0, 32
+	Patch "E10D19", 0, 160
+	Patch "E10D19", 0, 224
+	Patch "E10D19", 64, 64
+	Patch "E10D19", 64, 192
+	Patch "E10D19", 0, 128
+	Patch "E10D19", 64, 256
+	Patch "E10D18", 80, 32
+	Patch "E10D18", 80, 0
+	Patch "E10D18", 16, 64
+	Patch "E10D18", 16, 96
+	Patch "E10D18", 16, 192
+	Patch "E10D18", 16, 256
+	Patch "E10D18", 80, 96
+	Patch "E10D18", 80, 128
+	Patch "E10D18", 80, 160
+	Patch "E10D18", 80, 224
+	Patch "E10D15", 0, 0
+	Patch "E10D15", 64, 32
+	Patch "E10D15", 0, 64
+	Patch "E10D15", 0, 96
+	Patch "E10D15", 0, 192
+	Patch "E10D15", 0, 256
+	Patch "E10D15", 64, 96
+	Patch "E10D15", 64, 128
+	Patch "E10D15", 64, 160
+	Patch "E10D15", 64, 224
+	Patch "E10D16", 16, 0
+	Patch "E10D16", 32, 0
+	Patch "E10D17", 48, 0
+	Patch "E10D16", 64, 0
+}
+
+Texture "E10D1MTR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D18", 0, 0
+}
+
+Texture "E10D1BL1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D110", 0, 0
+}
+
+Texture "E10D1BL2", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D19", 0, 0
+}
+
+Texture "E10D1BL3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D14", 0, 0
+}
+
+Texture "E10D1BL4", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D19", 0, 0
+	Patch "E10D19", 0, 80
+	Patch "E10D15", 0, 16
+	Patch "E10D15", 0, 48
+	Patch "E10D15", 0, 96
+	Patch "E10D15", 0, 32
+	Patch "E10D15", 0, 64
+	Patch "E10D15", 0, 112
+	Patch "E10D18", 16, 16
+	Patch "E10D18", 16, 48
+	Patch "E10D18", 16, 96
+	Patch "E10D18", 16, 32
+	Patch "E10D18", 16, 64
+	Patch "E10D18", 16, 112
+}
+
+Texture "E10D1WL1", 16, 352
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D118", 0, 0
+	Patch "E10D119", 0, 16
+	Patch "E10D119", 0, 112
+	Patch "E10D119", 0, 208
+	Patch "E10D119", 0, 64
+	Patch "E10D119", 0, 160
+	Patch "E10D119", 0, 32
+	Patch "E10D119", 0, 128
+	Patch "E10D119", 0, 224
+	Patch "E10D119", 0, 80
+	Patch "E10D119", 0, 176
+	Patch "E10D119", 0, 48
+	Patch "E10D119", 0, 144
+	Patch "E10D119", 0, 240
+	Patch "E10D119", 0, 96
+	Patch "E10D119", 0, 192
+	Patch "E10D119", 0, 256
+	Patch "E10D119", 0, 272
+	Patch "E10D119", 0, 288
+	Patch "E10D119", 0, 304
+	Patch "E10D119", 0, 320
+	Patch "E10D119", 0, 336
+}
+
+Texture "E10D1WL2", 16, 336
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D123", 0, 0
+	Patch "E10D124", 0, 16
+	Patch "E10D124", 0, 112
+	Patch "E10D124", 0, 208
+	Patch "E10D124", 0, 64
+	Patch "E10D124", 0, 160
+	Patch "E10D124", 0, 32
+	Patch "E10D124", 0, 128
+	Patch "E10D124", 0, 224
+	Patch "E10D124", 0, 80
+	Patch "E10D124", 0, 176
+	Patch "E10D124", 0, 48
+	Patch "E10D124", 0, 144
+	Patch "E10D124", 0, 240
+	Patch "E10D124", 0, 96
+	Patch "E10D124", 0, 192
+	Patch "E10D124", 0, 256
+	Patch "E10D124", 0, 272
+	Patch "E10D124", 0, 288
+	Patch "E10D124", 0, 304
+	Patch "E10D124", 0, 320
+}
+
+Texture "E10D1W3L", 16, 336
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D120", 0, 0
+	Patch "E10D121", 0, 16
+	Patch "E10D121", 0, 112
+	Patch "E10D121", 0, 208
+	Patch "E10D121", 0, 64
+	Patch "E10D121", 0, 160
+	Patch "E10D121", 0, 32
+	Patch "E10D121", 0, 128
+	Patch "E10D121", 0, 224
+	Patch "E10D121", 0, 80
+	Patch "E10D121", 0, 176
+	Patch "E10D121", 0, 48
+	Patch "E10D121", 0, 144
+	Patch "E10D121", 0, 240
+	Patch "E10D121", 0, 96
+	Patch "E10D121", 0, 192
+	Patch "E10D121", 0, 256
+	Patch "E10D121", 0, 272
+	Patch "E10D121", 0, 288
+	Patch "E10D121", 0, 304
+	Patch "E10D121", 0, 320
+}
+
+Texture "E10D1W3M", 16, 336
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D122", 0, 0
+	Patch "E10D124", 0, 16
+	Patch "E10D124", 0, 112
+	Patch "E10D124", 0, 208
+	Patch "E10D124", 0, 64
+	Patch "E10D124", 0, 160
+	Patch "E10D124", 0, 32
+	Patch "E10D124", 0, 128
+	Patch "E10D124", 0, 224
+	Patch "E10D124", 0, 80
+	Patch "E10D124", 0, 176
+	Patch "E10D124", 0, 48
+	Patch "E10D124", 0, 144
+	Patch "E10D124", 0, 240
+	Patch "E10D124", 0, 96
+	Patch "E10D124", 0, 192
+	Patch "E10D124", 0, 256
+	Patch "E10D124", 0, 272
+	Patch "E10D124", 0, 288
+	Patch "E10D124", 0, 304
+	Patch "E10D124", 0, 320
+}
+
+Texture "E10D1W3R", 16, 336
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D125", 0, 0
+	Patch "E10D126", 0, 16
+	Patch "E10D126", 0, 112
+	Patch "E10D126", 0, 208
+	Patch "E10D126", 0, 64
+	Patch "E10D126", 0, 160
+	Patch "E10D126", 0, 32
+	Patch "E10D126", 0, 128
+	Patch "E10D126", 0, 224
+	Patch "E10D126", 0, 80
+	Patch "E10D126", 0, 176
+	Patch "E10D126", 0, 48
+	Patch "E10D126", 0, 144
+	Patch "E10D126", 0, 240
+	Patch "E10D126", 0, 96
+	Patch "E10D126", 0, 192
+	Patch "E10D126", 0, 256
+	Patch "E10D126", 0, 272
+	Patch "E10D126", 0, 288
+	Patch "E10D126", 0, 304
+	Patch "E10D126", 0, 320
+}
+
+Texture "E10D1WL4", 128, 96
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D128", 0, 16
+	Patch "E10D128", 0, 48
+	Patch "E10D128", 0, 64
+	Patch "E10D128", 16, 16
+	Patch "E10D128", 16, 48
+	Patch "E10D128", 16, 64
+	Patch "E10D161", 0, 0
+	Patch "E10D161", 0, 80
+	Patch "E10D161", 0, 32
+	Patch "E10D161", 64, 0
+	Patch "E10D161", 64, 80
+	Patch "E10D161", 64, 32
+	Patch "E10D128", 64, 16
+	Patch "E10D128", 64, 48
+	Patch "E10D128", 64, 64
+	Patch "E10D161", 32, 0
+	Patch "E10D161", 32, 80
+	Patch "E10D161", 32, 32
+	Patch "E10D128", 32, 16
+	Patch "E10D128", 32, 48
+	Patch "E10D128", 32, 64
+	Patch "E10D161", 96, 0
+	Patch "E10D161", 96, 80
+	Patch "E10D161", 96, 32
+	Patch "E10D128", 96, 16
+	Patch "E10D128", 96, 48
+	Patch "E10D128", 96, 64
+	Patch "E10D161", 16, 0
+	Patch "E10D161", 16, 80
+	Patch "E10D161", 16, 32
+	Patch "E10D161", 80, 0
+	Patch "E10D161", 80, 80
+	Patch "E10D161", 80, 32
+	Patch "E10D128", 80, 16
+	Patch "E10D128", 80, 48
+	Patch "E10D128", 80, 64
+	Patch "E10D161", 48, 0
+	Patch "E10D161", 48, 80
+	Patch "E10D161", 48, 32
+	Patch "E10D128", 48, 16
+	Patch "E10D128", 48, 48
+	Patch "E10D128", 48, 64
+	Patch "E10D161", 112, 0
+	Patch "E10D161", 112, 80
+	Patch "E10D161", 112, 32
+	Patch "E10D129", 112, 16
+	Patch "E10D129", 112, 48
+	Patch "E10D129", 112, 64
+}
+
+Texture "E10D1WL5", 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D162", 0, 0
+	Patch "E10D163", 16, 32
+	Patch "E10D167", -16, 32
+	Patch "E10D167", 48, 32
+	Patch "E10D168", 16, 48
+	Patch "E10D168", 48, 48
+	Patch "E10D168", -16, 48
+	Patch "E10D168", 16, 64
+	Patch "E10D168", 48, 64
+	Patch "E10D168", -16, 64
+	Patch "E10D169", 16, 80
+	Patch "E10D169", 48, 80
+	Patch "E10D169", -16, 80
+	Patch "E10D170", 16, 96
+	Patch "E10D170", 48, 96
+	Patch "E10D170", -16, 96
+}
+
+Texture "E10D1LDR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D115", 0, 0
+}
+
+Texture "E10D1DOR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D114", 0, 0
+}
+
+Texture "E10D1LOG", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D111", 0, 0
+}
+
+Texture "E10D1WIL", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D112", 0, 0
+}
+
+Texture "E10D1RAI", 32, 528
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D146", 0, 0
+	Patch "E10D146", 0, 256
+	Patch "E10D146", 0, 32
+	Patch "E10D146", 0, 288
+	Patch "E10D146", 0, 64
+	Patch "E10D146", 0, 320
+	Patch "E10D146", 0, 96
+	Patch "E10D146", 0, 352
+	Patch "E10D146", 0, 128
+	Patch "E10D146", 0, 384
+	Patch "E10D146", 0, 160
+	Patch "E10D146", 0, 416
+	Patch "E10D146", 0, 192
+	Patch "E10D146", 0, 448
+	Patch "E10D146", 0, 224
+	Patch "E10D146", 0, 480
+	Patch "E10D149", 0, 512
+}
+
+Texture "E10D1RA1", 32, 528
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D146", 0, 0
+	Patch "E10D146", 0, 256
+	Patch "E10D146", 0, 32
+	Patch "E10D146", 0, 288
+	Patch "E10D146", 0, 64
+	Patch "E10D146", 0, 320
+	Patch "E10D146", 0, 96
+	Patch "E10D146", 0, 352
+	Patch "E10D146", 0, 128
+	Patch "E10D146", 0, 384
+	Patch "E10D146", 0, 160
+	Patch "E10D146", 0, 416
+	Patch "E10D146", 0, 192
+	Patch "E10D146", 0, 448
+	Patch "E10D146", 0, 224
+	Patch "E10D146", 0, 480
+	Patch "E10D149", 0, 512
+}
+
+Texture "E10D1RA2", 32, 528
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D147", 0, 0
+	Patch "E10D147", 0, 256
+	Patch "E10D147", 0, 32
+	Patch "E10D147", 0, 288
+	Patch "E10D147", 0, 64
+	Patch "E10D147", 0, 320
+	Patch "E10D147", 0, 96
+	Patch "E10D147", 0, 352
+	Patch "E10D147", 0, 128
+	Patch "E10D147", 0, 384
+	Patch "E10D147", 0, 160
+	Patch "E10D147", 0, 416
+	Patch "E10D147", 0, 192
+	Patch "E10D147", 0, 448
+	Patch "E10D147", 0, 224
+	Patch "E10D147", 0, 480
+	Patch "E10D150", 0, 512
+}
+
+Texture "E10D1RA3", 32, 528
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D148", 0, 0
+	Patch "E10D148", 0, 256
+	Patch "E10D148", 0, 32
+	Patch "E10D148", 0, 288
+	Patch "E10D148", 0, 64
+	Patch "E10D148", 0, 320
+	Patch "E10D148", 0, 96
+	Patch "E10D148", 0, 352
+	Patch "E10D148", 0, 128
+	Patch "E10D148", 0, 384
+	Patch "E10D148", 0, 160
+	Patch "E10D148", 0, 416
+	Patch "E10D148", 0, 192
+	Patch "E10D148", 0, 448
+	Patch "E10D148", 0, 224
+	Patch "E10D148", 0, 480
+	Patch "E10D151", 0, 512
+}
+
+Texture "E10D1WTR", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D154", 0, 0
+}
+
+Texture "E10D1WT1", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D154", 0, 0
+}
+
+Texture "E10D1WT2", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D155", 0, 0
+}
+
+Texture "E10D1WT3", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D156", 0, 0
+}
+
+Texture "E10D1WT4", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D157", 0, 0
+}
+
+Texture "E10D1WTF", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D174", 0, 0
+}
+
+Texture "E10D1WF1", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D174", 0, 0
+}
+
+Texture "E10D1WF2", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D175", 0, 0
+}
+
+Texture "E10D1WF3", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D176", 0, 0
+}
+
+Texture "E10D1ACL", 80, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D130", 0, 0
+}
+
+Texture "E10D1ACM", 64, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D131", 0, 0
+}
+
+Texture "E10D1ACR", 80, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D132", 0, 0
+}
+
+Texture "E10D1ACH", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D131", -16, 0
+}
+
+Texture "E10D1AB1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "E10D133", 0, 0
+}
+
+Texture "E10D1AB2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "E10D134", 0, 0
+}
+
+Texture "E10D1AB3", 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "E10D134", 0, 0
+	Patch "E10D134", 0, 16
+}
+
+Texture "E10D1SCR", 64, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D172", 0, 0
+}
+
+Texture "E10D1GLS", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10D177", 0, 0
+}
+
+Texture "E10D1SKY", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BLACK", 0, 0
+}
+
+Texture "E10D1SY2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BLACK", 0, 0
+}
+
+//-------------------------------------------
+//Active Textures (Post Lightning Strike)
+//-------------------------------------------
+
+Texture "E10W1FL1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W13", 0, 0
+}
+
+Texture "E10W1FL2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W113", 0, 0
+}
+
+Texture "E10W1FL3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W124", 0, 0
+}
+
+Texture "E10W1FL4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W16", 0, 0
+}
+
+Texture "E10W1FL5", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W117", 0, 0
+}
+
+Texture "E10W1F15", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W117", 0, 0
+}
+
+Texture "E10W1F25", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W117B", 0, 0
+}
+
+Texture "E10W1F35", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W117C", 0, 0
+}
+
+Texture "E10W1FL6", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W158", 0, 0
+}
+
+Texture "E10W1FL7", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W159", 0, 0
+}
+
+Texture "E10W1RK1", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W11", 0, 0
+	Patch "E10W12", 0, 32
+	Patch "E10W12", 0, 64
+	Patch "E10W12", 0, 96
+}
+
+Texture "E10W1JK1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116", 0, 0
+}
+
+Texture "E10W1J11", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116", 0, 0
+}
+
+Texture "E10W1J21", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116B", 0, 0
+}
+
+Texture "E10W1J31", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116C", 0, 0
+}
+
+Texture "E10W1JK2", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116", 0, 0
+	Patch "E10W116", 0, 32
+	Patch "E10W116", 32, 32
+	Patch "E10W116", 64, 32
+	Patch "E10W116", 32, 0
+	Patch "E10W152", 64, 0
+}
+
+Texture "E10W1J12", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116", 0, 0
+	Patch "E10W116", 0, 32
+	Patch "E10W116", 32, 32
+	Patch "E10W116", 64, 32
+	Patch "E10W116", 32, 0
+	Patch "E10W152", 64, 0
+}
+
+Texture "E10W1J22", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116B", 0, 0
+	Patch "E10W116B", 0, 32
+	Patch "E10W116B", 32, 32
+	Patch "E10W116B", 64, 32
+	Patch "E10W116B", 32, 0
+	Patch "E10W152B", 64, 0
+}
+
+Texture "E10W1J32", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116C", 0, 0
+	Patch "E10W116C", 0, 32
+	Patch "E10W116C", 32, 32
+	Patch "E10W116C", 64, 32
+	Patch "E10W116C", 32, 0
+	Patch "E10W152C", 64, 0
+}
+
+Texture "E10W1JK3", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116", 0, 0
+	Patch "E10W153", 0, 32
+	Patch "E10W116", 32, 32
+	Patch "E10W116", 64, 32
+	Patch "E10W116", 32, 0
+	Patch "E10W152", 64, 0
+}
+
+Texture "E10W1J13", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116", 0, 0
+	Patch "E10W153", 0, 32
+	Patch "E10W116", 32, 32
+	Patch "E10W116", 64, 32
+	Patch "E10W116", 32, 0
+	Patch "E10W152", 64, 0
+}
+
+Texture "E10W1J23", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116B", 0, 0
+	Patch "E10W153B", 0, 32
+	Patch "E10W116B", 32, 32
+	Patch "E10W116B", 64, 32
+	Patch "E10W116B", 32, 0
+	Patch "E10W152B", 64, 0
+}
+
+Texture "E10W1J33", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116C", 0, 0
+	Patch "E10W153C", 0, 32
+	Patch "E10W116C", 32, 32
+	Patch "E10W116C", 64, 32
+	Patch "E10W116C", 32, 0
+	Patch "E10W152C", 64, 0
+}
+
+Texture "E10W1JK4", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116", 0, 0
+	Patch "E10W153", 0, 32
+	Patch "E10W116", 32, 32
+	Patch "E10W116", 64, 32
+	Patch "E10W173", 32, 0
+	Patch "E10W152", 64, 0
+}
+
+Texture "E10W1J14", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116", 0, 0
+	Patch "E10W153", 0, 32
+	Patch "E10W116", 32, 32
+	Patch "E10W116", 64, 32
+	Patch "E10W173", 32, 0
+	Patch "E10W152", 64, 0
+}
+
+Texture "E10W1J24", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116B", 0, 0
+	Patch "E10W153B", 0, 32
+	Patch "E10W116B", 32, 32
+	Patch "E10W116B", 64, 32
+	Patch "E10W173B", 32, 0
+	Patch "E10W152B", 64, 0
+}
+
+Texture "E10W1J34", 96, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W116C", 0, 0
+	Patch "E10W153C", 0, 32
+	Patch "E10W116C", 32, 32
+	Patch "E10W116C", 64, 32
+	Patch "E10W173C", 32, 0
+	Patch "E10W152C", 64, 0
+}
+
+Texture "E10W1MTL", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W15", 0, 0
+}
+
+Texture "E10W1MT1", 48, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W16", 0, 0
+	Patch "E10W16", 32, 0
+	Patch "E10W16", 16, 16
+	Patch "E10W16", 16, 32
+	Patch "E10W16", 32, 16
+	Patch "E10W17", 16, 0
+	Patch "E10W17", 0, 16
+	Patch "E10W17", 0, 32
+	Patch "E10W17", 32, 32
+}
+
+Texture "E10W1MT2", 64, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W16", 0, 0
+	Patch "E10W18", 0, 96
+	Patch "E10W16", 0, 32
+	Patch "E10W16", 0, 112
+	Patch "E10W16", 32, 0
+	Patch "E10W16", 48, 0
+	Patch "E10W16", 32, 32
+	Patch "E10W16", 48, 32
+	Patch "E10W15", 48, 128
+	Patch "E10W16", 0, 48
+	Patch "E10W18", 0, 128
+	Patch "E10W16", 16, 16
+	Patch "E10W15", 48, 80
+	Patch "E10W16", 48, 160
+	Patch "E10W16", 16, 48
+	Patch "E10W16", 48, 112
+	Patch "E10W16", 16, 112
+	Patch "E10W16", 48, 64
+	Patch "E10W16", 16, 160
+	Patch "E10W16", 32, 16
+	Patch "E10W16", 48, 16
+	Patch "E10W15", 48, 96
+	Patch "E10W16", 32, 64
+	Patch "E10W15", 48, 144
+	Patch "E10W16", 0, 64
+	Patch "E10W18", 0, 144
+	Patch "E10W16", 16, 32
+	Patch "E10W17", 32, 112
+	Patch "E10W16", 32, 160
+	Patch "E10W18", 0, 80
+	Patch "E10W16", 0, 160
+	Patch "E10W17", 16, 0
+	Patch "E10W17", 48, 48
+	Patch "E10W17", 0, 16
+	Patch "E10W17", 32, 48
+	Patch "E10W17", 16, 64
+	Patch "E10W110", 16, 128
+	Patch "E10W110", 16, 80
+}
+
+Texture "E10W1MT3", 64, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W18", 0, 32
+	Patch "E10W18", 0, 64
+	Patch "E10W18", 0, 96
+	Patch "E10W16", 16, 0
+	Patch "E10W16", 32, 0
+	Patch "E10W15", 48, 112
+	Patch "E10W15", 48, 144
+	Patch "E10W18", 0, 112
+	Patch "E10W18", 0, 144
+	Patch "E10W15", 48, 16
+	Patch "E10W15", 48, 48
+	Patch "E10W15", 48, 80
+	Patch "E10W15", 48, 32
+	Patch "E10W15", 48, 64
+	Patch "E10W15", 48, 96
+	Patch "E10W15", 48, 128
+	Patch "E10W15", 48, 160
+	Patch "E10W18", 0, 128
+	Patch "E10W18", 0, 160
+	Patch "E10W18", 0, 16
+	Patch "E10W18", 0, 48
+	Patch "E10W18", 0, 80
+	Patch "E10W17", 0, 0
+	Patch "E10W17", 48, 0
+	Patch "E10W110", 16, 112
+	Patch "E10W110", 16, 144
+	Patch "E10W110", 16, 16
+	Patch "E10W110", 16, 48
+	Patch "E10W110", 16, 80
+}
+
+Texture "E10W1MT4", 48, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W15", 0, 0
+	Patch "E10W15", 0, 16
+	Patch "E10W15", 0, 32
+	Patch "E10W18", 32, 0
+	Patch "E10W16", 16, 16
+	Patch "E10W16", 16, 32
+	Patch "E10W18", 32, 16
+	Patch "E10W18", 32, 32
+	Patch "E10W17", 16, 0
+}
+
+Texture "E10W1MT5", 96, 272
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W14", 0, 16
+	Patch "E10W14", 80, 16
+	Patch "E10W14", 0, 144
+	Patch "E10W14", 80, 144
+	Patch "E10W14", 0, 80
+	Patch "E10W14", 80, 80
+	Patch "E10W14", 0, 208
+	Patch "E10W14", 80, 208
+	Patch "E10W14", 0, 48
+	Patch "E10W14", 80, 48
+	Patch "E10W14", 0, 176
+	Patch "E10W14", 80, 176
+	Patch "E10W14", 0, 112
+	Patch "E10W14", 80, 112
+	Patch "E10W14", 0, 240
+	Patch "E10W14", 80, 240
+	Patch "E10W116", 16, 16
+	Patch "E10W116", 48, 16
+	Patch "E10W116", 16, 144
+	Patch "E10W116", 48, 144
+	Patch "E10W116", 16, 48
+	Patch "E10W116", 48, 48
+	Patch "E10W116", 16, 176
+	Patch "E10W116", 48, 176
+	Patch "E10W116", 16, 80
+	Patch "E10W116", 48, 80
+	Patch "E10W116", 16, 208
+	Patch "E10W116", 48, 208
+	Patch "E10W116", 16, 112
+	Patch "E10W116", 48, 112
+	Patch "E10W116", 16, 240
+	Patch "E10W116", 48, 240
+	Patch "E10W19", 0, 32
+	Patch "E10W19", 0, 160
+	Patch "E10W19", 0, 224
+	Patch "E10W19", 64, 64
+	Patch "E10W19", 64, 192
+	Patch "E10W19", 0, 128
+	Patch "E10W19", 64, 256
+	Patch "E10W18", 80, 32
+	Patch "E10W18", 80, 0
+	Patch "E10W18", 16, 64
+	Patch "E10W18", 16, 96
+	Patch "E10W18", 16, 192
+	Patch "E10W18", 16, 256
+	Patch "E10W18", 80, 96
+	Patch "E10W18", 80, 128
+	Patch "E10W18", 80, 160
+	Patch "E10W18", 80, 224
+	Patch "E10W15", 0, 0
+	Patch "E10W15", 64, 32
+	Patch "E10W15", 0, 64
+	Patch "E10W15", 0, 96
+	Patch "E10W15", 0, 192
+	Patch "E10W15", 0, 256
+	Patch "E10W15", 64, 96
+	Patch "E10W15", 64, 128
+	Patch "E10W15", 64, 160
+	Patch "E10W15", 64, 224
+	Patch "E10W16", 16, 0
+	Patch "E10W16", 32, 0
+	Patch "E10W17", 48, 0
+	Patch "E10W16", 64, 0
+}
+
+Texture "E10W1M15", 96, 272
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W14", 0, 16
+	Patch "E10W14", 80, 16
+	Patch "E10W14", 0, 144
+	Patch "E10W14", 80, 144
+	Patch "E10W14", 0, 80
+	Patch "E10W14", 80, 80
+	Patch "E10W14", 0, 208
+	Patch "E10W14", 80, 208
+	Patch "E10W14", 0, 48
+	Patch "E10W14", 80, 48
+	Patch "E10W14", 0, 176
+	Patch "E10W14", 80, 176
+	Patch "E10W14", 0, 112
+	Patch "E10W14", 80, 112
+	Patch "E10W14", 0, 240
+	Patch "E10W14", 80, 240
+	Patch "E10W116", 16, 16
+	Patch "E10W116", 48, 16
+	Patch "E10W116", 16, 144
+	Patch "E10W116", 48, 144
+	Patch "E10W116", 16, 48
+	Patch "E10W116", 48, 48
+	Patch "E10W116", 16, 176
+	Patch "E10W116", 48, 176
+	Patch "E10W116", 16, 80
+	Patch "E10W116", 48, 80
+	Patch "E10W116", 16, 208
+	Patch "E10W116", 48, 208
+	Patch "E10W116", 16, 112
+	Patch "E10W116", 48, 112
+	Patch "E10W116", 16, 240
+	Patch "E10W116", 48, 240
+	Patch "E10W19", 0, 32
+	Patch "E10W19", 0, 160
+	Patch "E10W19", 0, 224
+	Patch "E10W19", 64, 64
+	Patch "E10W19", 64, 192
+	Patch "E10W19", 0, 128
+	Patch "E10W19", 64, 256
+	Patch "E10W18", 80, 32
+	Patch "E10W18", 80, 0
+	Patch "E10W18", 16, 64
+	Patch "E10W18", 16, 96
+	Patch "E10W18", 16, 192
+	Patch "E10W18", 16, 256
+	Patch "E10W18", 80, 96
+	Patch "E10W18", 80, 128
+	Patch "E10W18", 80, 160
+	Patch "E10W18", 80, 224
+	Patch "E10W15", 0, 0
+	Patch "E10W15", 64, 32
+	Patch "E10W15", 0, 64
+	Patch "E10W15", 0, 96
+	Patch "E10W15", 0, 192
+	Patch "E10W15", 0, 256
+	Patch "E10W15", 64, 96
+	Patch "E10W15", 64, 128
+	Patch "E10W15", 64, 160
+	Patch "E10W15", 64, 224
+	Patch "E10W16", 16, 0
+	Patch "E10W16", 32, 0
+	Patch "E10W17", 48, 0
+	Patch "E10W16", 64, 0
+}
+
+Texture "E10W1M25", 96, 272
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W14", 0, 16
+	Patch "E10W14", 80, 16
+	Patch "E10W14", 0, 144
+	Patch "E10W14", 80, 144
+	Patch "E10W14", 0, 80
+	Patch "E10W14", 80, 80
+	Patch "E10W14", 0, 208
+	Patch "E10W14", 80, 208
+	Patch "E10W14", 0, 48
+	Patch "E10W14", 80, 48
+	Patch "E10W14", 0, 176
+	Patch "E10W14", 80, 176
+	Patch "E10W14", 0, 112
+	Patch "E10W14", 80, 112
+	Patch "E10W14", 0, 240
+	Patch "E10W14", 80, 240
+	Patch "E10W116B", 16, 16
+	Patch "E10W116B", 48, 16
+	Patch "E10W116B", 16, 144
+	Patch "E10W116B", 48, 144
+	Patch "E10W116B", 16, 48
+	Patch "E10W116B", 48, 48
+	Patch "E10W116B", 16, 176
+	Patch "E10W116B", 48, 176
+	Patch "E10W116B", 16, 80
+	Patch "E10W116B", 48, 80
+	Patch "E10W116B", 16, 208
+	Patch "E10W116B", 48, 208
+	Patch "E10W116B", 16, 112
+	Patch "E10W116B", 48, 112
+	Patch "E10W116B", 16, 240
+	Patch "E10W116B", 48, 240
+	Patch "E10W19", 0, 32
+	Patch "E10W19", 0, 160
+	Patch "E10W19", 0, 224
+	Patch "E10W19", 64, 64
+	Patch "E10W19", 64, 192
+	Patch "E10W19", 0, 128
+	Patch "E10W19", 64, 256
+	Patch "E10W18", 80, 32
+	Patch "E10W18", 80, 0
+	Patch "E10W18", 16, 64
+	Patch "E10W18", 16, 96
+	Patch "E10W18", 16, 192
+	Patch "E10W18", 16, 256
+	Patch "E10W18", 80, 96
+	Patch "E10W18", 80, 128
+	Patch "E10W18", 80, 160
+	Patch "E10W18", 80, 224
+	Patch "E10W15", 0, 0
+	Patch "E10W15", 64, 32
+	Patch "E10W15", 0, 64
+	Patch "E10W15", 0, 96
+	Patch "E10W15", 0, 192
+	Patch "E10W15", 0, 256
+	Patch "E10W15", 64, 96
+	Patch "E10W15", 64, 128
+	Patch "E10W15", 64, 160
+	Patch "E10W15", 64, 224
+	Patch "E10W16", 16, 0
+	Patch "E10W16", 32, 0
+	Patch "E10W17", 48, 0
+	Patch "E10W16", 64, 0
+}
+
+Texture "E10W1M35", 96, 272
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W14", 0, 16
+	Patch "E10W14", 80, 16
+	Patch "E10W14", 0, 144
+	Patch "E10W14", 80, 144
+	Patch "E10W14", 0, 80
+	Patch "E10W14", 80, 80
+	Patch "E10W14", 0, 208
+	Patch "E10W14", 80, 208
+	Patch "E10W14", 0, 48
+	Patch "E10W14", 80, 48
+	Patch "E10W14", 0, 176
+	Patch "E10W14", 80, 176
+	Patch "E10W14", 0, 112
+	Patch "E10W14", 80, 112
+	Patch "E10W14", 0, 240
+	Patch "E10W14", 80, 240
+	Patch "E10W116C", 16, 16
+	Patch "E10W116C", 48, 16
+	Patch "E10W116C", 16, 144
+	Patch "E10W116C", 48, 144
+	Patch "E10W116C", 16, 48
+	Patch "E10W116C", 48, 48
+	Patch "E10W116C", 16, 176
+	Patch "E10W116C", 48, 176
+	Patch "E10W116C", 16, 80
+	Patch "E10W116C", 48, 80
+	Patch "E10W116C", 16, 208
+	Patch "E10W116C", 48, 208
+	Patch "E10W116C", 16, 112
+	Patch "E10W116C", 48, 112
+	Patch "E10W116C", 16, 240
+	Patch "E10W116C", 48, 240
+	Patch "E10W19", 0, 32
+	Patch "E10W19", 0, 160
+	Patch "E10W19", 0, 224
+	Patch "E10W19", 64, 64
+	Patch "E10W19", 64, 192
+	Patch "E10W19", 0, 128
+	Patch "E10W19", 64, 256
+	Patch "E10W18", 80, 32
+	Patch "E10W18", 80, 0
+	Patch "E10W18", 16, 64
+	Patch "E10W18", 16, 96
+	Patch "E10W18", 16, 192
+	Patch "E10W18", 16, 256
+	Patch "E10W18", 80, 96
+	Patch "E10W18", 80, 128
+	Patch "E10W18", 80, 160
+	Patch "E10W18", 80, 224
+	Patch "E10W15", 0, 0
+	Patch "E10W15", 64, 32
+	Patch "E10W15", 0, 64
+	Patch "E10W15", 0, 96
+	Patch "E10W15", 0, 192
+	Patch "E10W15", 0, 256
+	Patch "E10W15", 64, 96
+	Patch "E10W15", 64, 128
+	Patch "E10W15", 64, 160
+	Patch "E10W15", 64, 224
+	Patch "E10W16", 16, 0
+	Patch "E10W16", 32, 0
+	Patch "E10W17", 48, 0
+	Patch "E10W16", 64, 0
+}
+
+Texture "E10W1MTR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W18", 0, 0
+}
+
+Texture "E10W1BL1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W110", 0, 0
+}
+
+Texture "E10W1BL2", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W19", 0, 0
+}
+
+Texture "E10W1BL3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W14", 0, 0
+}
+
+Texture "E10W1BL4", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W19", 0, 0
+	Patch "E10W19", 0, 80
+	Patch "E10W15", 0, 16
+	Patch "E10W15", 0, 48
+	Patch "E10W15", 0, 96
+	Patch "E10W15", 0, 32
+	Patch "E10W15", 0, 64
+	Patch "E10W15", 0, 112
+	Patch "E10W18", 16, 16
+	Patch "E10W18", 16, 48
+	Patch "E10W18", 16, 96
+	Patch "E10W18", 16, 32
+	Patch "E10W18", 16, 64
+	Patch "E10W18", 16, 112
+}
+
+Texture "E10W1WL1", 16, 352
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W118", 0, 0
+	Patch "E10W119", 0, 16
+	Patch "E10W119", 0, 112
+	Patch "E10W119", 0, 208
+	Patch "E10W119", 0, 64
+	Patch "E10W119", 0, 160
+	Patch "E10W119", 0, 32
+	Patch "E10W119", 0, 128
+	Patch "E10W119", 0, 224
+	Patch "E10W119", 0, 80
+	Patch "E10W119", 0, 176
+	Patch "E10W119", 0, 48
+	Patch "E10W119", 0, 144
+	Patch "E10W119", 0, 240
+	Patch "E10W119", 0, 96
+	Patch "E10W119", 0, 192
+	Patch "E10W119", 0, 256
+	Patch "E10W119", 0, 272
+	Patch "E10W119", 0, 288
+	Patch "E10W119", 0, 304
+	Patch "E10W119", 0, 320
+	Patch "E10W119", 0, 336
+}
+
+Texture "E10W1WL2", 16, 336
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W123", 0, 0
+	Patch "E10W124", 0, 16
+	Patch "E10W124", 0, 112
+	Patch "E10W124", 0, 208
+	Patch "E10W124", 0, 64
+	Patch "E10W124", 0, 160
+	Patch "E10W124", 0, 32
+	Patch "E10W124", 0, 128
+	Patch "E10W124", 0, 224
+	Patch "E10W124", 0, 80
+	Patch "E10W124", 0, 176
+	Patch "E10W124", 0, 48
+	Patch "E10W124", 0, 144
+	Patch "E10W124", 0, 240
+	Patch "E10W124", 0, 96
+	Patch "E10W124", 0, 192
+	Patch "E10W124", 0, 256
+	Patch "E10W124", 0, 272
+	Patch "E10W124", 0, 288
+	Patch "E10W124", 0, 304
+	Patch "E10W124", 0, 320
+}
+
+Texture "E10W1W3L", 16, 336
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W120", 0, 0
+	Patch "E10W121", 0, 16
+	Patch "E10W121", 0, 112
+	Patch "E10W121", 0, 208
+	Patch "E10W121", 0, 64
+	Patch "E10W121", 0, 160
+	Patch "E10W121", 0, 32
+	Patch "E10W121", 0, 128
+	Patch "E10W121", 0, 224
+	Patch "E10W121", 0, 80
+	Patch "E10W121", 0, 176
+	Patch "E10W121", 0, 48
+	Patch "E10W121", 0, 144
+	Patch "E10W121", 0, 240
+	Patch "E10W121", 0, 96
+	Patch "E10W121", 0, 192
+	Patch "E10W121", 0, 256
+	Patch "E10W121", 0, 272
+	Patch "E10W121", 0, 288
+	Patch "E10W121", 0, 304
+	Patch "E10W121", 0, 320
+}
+
+Texture "E10W1W3M", 16, 336
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W122", 0, 0
+	Patch "E10W124", 0, 16
+	Patch "E10W124", 0, 112
+	Patch "E10W124", 0, 208
+	Patch "E10W124", 0, 64
+	Patch "E10W124", 0, 160
+	Patch "E10W124", 0, 32
+	Patch "E10W124", 0, 128
+	Patch "E10W124", 0, 224
+	Patch "E10W124", 0, 80
+	Patch "E10W124", 0, 176
+	Patch "E10W124", 0, 48
+	Patch "E10W124", 0, 144
+	Patch "E10W124", 0, 240
+	Patch "E10W124", 0, 96
+	Patch "E10W124", 0, 192
+	Patch "E10W124", 0, 256
+	Patch "E10W124", 0, 272
+	Patch "E10W124", 0, 288
+	Patch "E10W124", 0, 304
+	Patch "E10W124", 0, 320
+}
+
+Texture "E10W1W3R", 16, 336
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W125", 0, 0
+	Patch "E10W126", 0, 16
+	Patch "E10W126", 0, 112
+	Patch "E10W126", 0, 208
+	Patch "E10W126", 0, 64
+	Patch "E10W126", 0, 160
+	Patch "E10W126", 0, 32
+	Patch "E10W126", 0, 128
+	Patch "E10W126", 0, 224
+	Patch "E10W126", 0, 80
+	Patch "E10W126", 0, 176
+	Patch "E10W126", 0, 48
+	Patch "E10W126", 0, 144
+	Patch "E10W126", 0, 240
+	Patch "E10W126", 0, 96
+	Patch "E10W126", 0, 192
+	Patch "E10W126", 0, 256
+	Patch "E10W126", 0, 272
+	Patch "E10W126", 0, 288
+	Patch "E10W126", 0, 304
+	Patch "E10W126", 0, 320
+}
+
+Texture "E10W1WL4", 128, 96
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W128", 0, 16
+	Patch "E10W128", 0, 48
+	Patch "E10W128", 0, 64
+	Patch "E10W128", 16, 16
+	Patch "E10W128", 16, 48
+	Patch "E10W128", 16, 64
+	Patch "E10W161", 0, 0
+	Patch "E10W161", 0, 80
+	Patch "E10W161", 0, 32
+	Patch "E10W161", 64, 0
+	Patch "E10W161", 64, 80
+	Patch "E10W161", 64, 32
+	Patch "E10W128", 64, 16
+	Patch "E10W128", 64, 48
+	Patch "E10W128", 64, 64
+	Patch "E10W161", 32, 0
+	Patch "E10W161", 32, 80
+	Patch "E10W161", 32, 32
+	Patch "E10W128", 32, 16
+	Patch "E10W128", 32, 48
+	Patch "E10W128", 32, 64
+	Patch "E10W161", 96, 0
+	Patch "E10W161", 96, 80
+	Patch "E10W161", 96, 32
+	Patch "E10W128", 96, 16
+	Patch "E10W128", 96, 48
+	Patch "E10W128", 96, 64
+	Patch "E10W161", 16, 0
+	Patch "E10W161", 16, 80
+	Patch "E10W161", 16, 32
+	Patch "E10W161", 80, 0
+	Patch "E10W161", 80, 80
+	Patch "E10W161", 80, 32
+	Patch "E10W128", 80, 16
+	Patch "E10W128", 80, 48
+	Patch "E10W128", 80, 64
+	Patch "E10W161", 48, 0
+	Patch "E10W161", 48, 80
+	Patch "E10W161", 48, 32
+	Patch "E10W128", 48, 16
+	Patch "E10W128", 48, 48
+	Patch "E10W128", 48, 64
+	Patch "E10W161", 112, 0
+	Patch "E10W161", 112, 80
+	Patch "E10W161", 112, 32
+	Patch "E10W129", 112, 16
+	Patch "E10W129", 112, 48
+	Patch "E10W129", 112, 64
+}
+
+Texture "E10W1W14", 128, 96
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W128", 0, 16
+	Patch "E10W128", 0, 48
+	Patch "E10W128", 0, 64
+	Patch "E10W128", 16, 16
+	Patch "E10W128", 16, 48
+	Patch "E10W128", 16, 64
+	Patch "E10W161", 0, 0
+	Patch "E10W161", 0, 80
+	Patch "E10W161", 0, 32
+	Patch "E10W161", 64, 0
+	Patch "E10W161", 64, 80
+	Patch "E10W161", 64, 32
+	Patch "E10W128", 64, 16
+	Patch "E10W128", 64, 48
+	Patch "E10W128", 64, 64
+	Patch "E10W161", 32, 0
+	Patch "E10W161", 32, 80
+	Patch "E10W161", 32, 32
+	Patch "E10W128", 32, 16
+	Patch "E10W128", 32, 48
+	Patch "E10W128", 32, 64
+	Patch "E10W161", 96, 0
+	Patch "E10W161", 96, 80
+	Patch "E10W161", 96, 32
+	Patch "E10W128", 96, 16
+	Patch "E10W128", 96, 48
+	Patch "E10W128", 96, 64
+	Patch "E10W161", 16, 0
+	Patch "E10W161", 16, 80
+	Patch "E10W161", 16, 32
+	Patch "E10W161", 80, 0
+	Patch "E10W161", 80, 80
+	Patch "E10W161", 80, 32
+	Patch "E10W128", 80, 16
+	Patch "E10W128", 80, 48
+	Patch "E10W128", 80, 64
+	Patch "E10W161", 48, 0
+	Patch "E10W161", 48, 80
+	Patch "E10W161", 48, 32
+	Patch "E10W128", 48, 16
+	Patch "E10W128", 48, 48
+	Patch "E10W128", 48, 64
+	Patch "E10W161", 112, 0
+	Patch "E10W161", 112, 80
+	Patch "E10W161", 112, 32
+	Patch "E10W129", 112, 16
+	Patch "E10W129", 112, 48
+	Patch "E10W129", 112, 64
+}
+
+Texture "E10W1W24", 128, 96
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W128B", 0, 16
+	Patch "E10W128B", 0, 48
+	Patch "E10W128B", 0, 64
+	Patch "E10W128B", 16, 16
+	Patch "E10W128B", 16, 48
+	Patch "E10W128B", 16, 64
+	Patch "E10W161", 0, 0
+	Patch "E10W161", 0, 80
+	Patch "E10W161", 0, 32
+	Patch "E10W161", 64, 0
+	Patch "E10W161", 64, 80
+	Patch "E10W161", 64, 32
+	Patch "E10W128B", 64, 16
+	Patch "E10W128B", 64, 48
+	Patch "E10W128B", 64, 64
+	Patch "E10W161", 32, 0
+	Patch "E10W161", 32, 80
+	Patch "E10W161", 32, 32
+	Patch "E10W128B", 32, 16
+	Patch "E10W128B", 32, 48
+	Patch "E10W128B", 32, 64
+	Patch "E10W161", 96, 0
+	Patch "E10W161", 96, 80
+	Patch "E10W161", 96, 32
+	Patch "E10W128B", 96, 16
+	Patch "E10W128B", 96, 48
+	Patch "E10W128B", 96, 64
+	Patch "E10W161", 16, 0
+	Patch "E10W161", 16, 80
+	Patch "E10W161", 16, 32
+	Patch "E10W161", 80, 0
+	Patch "E10W161", 80, 80
+	Patch "E10W161", 80, 32
+	Patch "E10W128B", 80, 16
+	Patch "E10W128B", 80, 48
+	Patch "E10W128B", 80, 64
+	Patch "E10W161", 48, 0
+	Patch "E10W161", 48, 80
+	Patch "E10W161", 48, 32
+	Patch "E10W128B", 48, 16
+	Patch "E10W128B", 48, 48
+	Patch "E10W128B", 48, 64
+	Patch "E10W161", 112, 0
+	Patch "E10W161", 112, 80
+	Patch "E10W161", 112, 32
+	Patch "E10W129B", 112, 16
+	Patch "E10W129B", 112, 48
+	Patch "E10W129B", 112, 64
+}
+
+Texture "E10W1WL5", 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W162", 0, 0
+	Patch "E10W163", 16, 32
+	Patch "E10W167", -16, 32
+	Patch "E10W167", 48, 32
+	Patch "E10W168", 16, 48
+	Patch "E10W168", 48, 48
+	Patch "E10W168", -16, 48
+	Patch "E10W168", 16, 64
+	Patch "E10W168", 48, 64
+	Patch "E10W168", -16, 64
+	Patch "E10W169", 16, 80
+	Patch "E10W169", 48, 80
+	Patch "E10W169", -16, 80
+	Patch "E10W170", 16, 96
+	Patch "E10W170", 48, 96
+	Patch "E10W170", -16, 96
+}
+
+Texture "E10W1W5A", 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W162", 0, 0
+	Patch "E10W163", 16, 32
+	Patch "E10W167", -16, 32
+	Patch "E10W167", 48, 32
+	Patch "E10W168", 16, 48
+	Patch "E10W168", 48, 48
+	Patch "E10W168", -16, 48
+	Patch "E10W168", 16, 64
+	Patch "E10W168", 48, 64
+	Patch "E10W168", -16, 64
+	Patch "E10W169", 16, 80
+	Patch "E10W169", 48, 80
+	Patch "E10W169", -16, 80
+	Patch "E10W170", 16, 96
+	Patch "E10W170", 48, 96
+	Patch "E10W170", -16, 96
+}
+
+Texture "E10W1W5B", 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W162", 0, 0
+	Patch "E10W164", 16, 32
+	Patch "E10W167", -16, 32
+	Patch "E10W167", 48, 32
+	Patch "E10W168", 16, 48
+	Patch "E10W168", 48, 48
+	Patch "E10W168", -16, 48
+	Patch "E10W168", 16, 64
+	Patch "E10W168", 48, 64
+	Patch "E10W168", -16, 64
+	Patch "E10W169", 16, 80
+	Patch "E10W169", 48, 80
+	Patch "E10W169", -16, 80
+	Patch "E10W171", -16, 96
+	Patch "E10W171", 16, 96
+	Patch "E10W171", 48, 96
+}
+
+Texture "E10W1W5C", 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W162", 0, 0
+	Patch "E10W165", 16, 32
+	Patch "E10W167", -16, 32
+	Patch "E10W167", 48, 32
+	Patch "E10W168", 16, 48
+	Patch "E10W168", 48, 48
+	Patch "E10W168", -16, 48
+	Patch "E10W168", 16, 64
+	Patch "E10W168", 48, 64
+	Patch "E10W168", -16, 64
+	Patch "E10W169", 16, 80
+	Patch "E10W169", 48, 80
+	Patch "E10W169", -16, 80
+	Patch "E10W170", 16, 96
+	Patch "E10W170", 48, 96
+	Patch "E10W170", -16, 96
+}
+
+Texture "E10W1W5D", 64, 112
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W162", 0, 0
+	Patch "E10W166", 16, 32
+	Patch "E10W167", -16, 32
+	Patch "E10W167", 48, 32
+	Patch "E10W168", 16, 48
+	Patch "E10W168", 48, 48
+	Patch "E10W168", -16, 48
+	Patch "E10W168", 16, 64
+	Patch "E10W168", 48, 64
+	Patch "E10W168", -16, 64
+	Patch "E10W169", 16, 80
+	Patch "E10W169", 48, 80
+	Patch "E10W169", -16, 80
+	Patch "E10W171", -16, 96
+	Patch "E10W171", 16, 96
+	Patch "E10W171", 48, 96
+}
+
+Texture "E10W1LDR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W115", 0, 0
+}
+
+Texture "E10W1DOR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W114", 0, 0
+}
+
+Texture "E10W1LOG", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W111", 0, 0
+}
+
+Texture "E10W1LG1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W111", 0, 0
+}
+
+Texture "E10W1LG2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W111B", 0, 0
+}
+
+Texture "E10W1LG3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W111C", 0, 0
+}
+
+Texture "E10W1WIL", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W112", 0, 0
+}
+
+Texture "E10W1WY1", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W112", 0, 0
+}
+
+Texture "E10W1WY2", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W112B", 0, 0
+}
+
+Texture "E10W1WY3", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W112C", 0, 0
+}
+
+Texture "E10W1WTR", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W154", 0, 0
+}
+
+Texture "E10W1WT1", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W154", 0, 0
+}
+
+Texture "E10W1WT2", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W155", 0, 0
+}
+
+Texture "E10W1WT3", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W156", 0, 0
+}
+
+Texture "E10W1WT4", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W157", 0, 0
+}
+
+Texture "E10W1WTF", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W174", 0, 0
+}
+
+Texture "E10W1WF1", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W174", 0, 0
+}
+
+Texture "E10W1WF2", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W175", 0, 0
+}
+
+Texture "E10W1WF3", 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W176", 0, 0
+}
+
+Texture "E10W1ACL", 80, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W130", 0, 0
+}
+
+Texture "E10W1ACM", 64, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W131", 0, 0
+}
+
+Texture "E10W1ACR", 80, 176
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W132", 0, 0
+}
+
+Texture "E10W1ACH", 32, 128
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W131", -16, 0
+}
+
+Texture "E10W1AB1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "E10W133", 0, 0
+}
+
+Texture "E10W1AB2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "E10W134", 0, 0
+}
+
+Texture "E10W1AB3", 16, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch "E10W134", 0, 0
+	Patch "E10W134", 0, 16
+}
+
+Texture "E10W1STK", 64, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W135A", 0, 0
+}
+
+Texture "E10W1SK1", 64, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W135A", 0, 0
+}
+
+Texture "E10W1SK2", 64, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W135B", 0, 0
+}
+
+Texture "E10W1GLS", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W177", 0, 0
+}
+
+Texture "E10W1GL1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W177", 0, 0
+}
+
+Texture "E10W1GL2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W177B", 0, 0
+}
+
+Texture "E10W1GL3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W177C", 0, 0
+}
+
+Texture "E10W1SKY", 512, 320
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W178", 0, 0
+}
+
+Texture "E10W1SY2", 6, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "E10W179", 0, 0
+}
+
+//-------------------------------------------
+// Transition Textures (Lightning Strike Transition)
+//-------------------------------------------
+
+Texture "E10L1FL1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1FL2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1FL3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1FL4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1FL5", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1FL6", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1FL7", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1RK1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1JK1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1JK2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1JK3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1JK4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1MTL", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1MT1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1MT2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1MT3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1MT4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1MT5", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1MTR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1BL1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1BL2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1BL3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1BL4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WL1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WL2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1W3L", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1W3M", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1W3R", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WL4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WL5", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1LDR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1DOR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1LOG", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WIL", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1RAI", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1RA1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1RA2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1RA3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WTR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WT1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WT2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WT3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WT4", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WTF", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WF1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WF2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1WF3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1ACL", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1ACM", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1ACR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1ACH", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1AB1", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1AB2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1AB3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+Texture "E10L1SCR", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1GLS", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1SKY", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+Texture "E10L1SY2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "WHITE", 0, 0
+}
+
+//-------------------------------------------
+//Mugshot (Animation)
+//-------------------------------------------
+
+Texture "FACE145E", 32, 32
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch "E10W111", 0, 0
+}
+
+Texture "F1CE145E", 32, 32
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch "E10W111", 0, 0
+}
+
+Texture "F2CE145E", 32, 32
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch "E10W111B", 0, 0
+}
+
+Texture "F3CE145E", 32, 32
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch "E10W111C", 0, 0
+}

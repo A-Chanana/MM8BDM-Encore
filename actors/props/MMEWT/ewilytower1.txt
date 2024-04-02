@@ -1,0 +1,277 @@
+
+
+actor EncoreTimeWater 21682
+{
+//$Category MM8BDME-Props
+//$Arg0 Size
+	+NOGRAVITY
+	+FORCEYBILLBOARD
+	+QUICKTORETALIATE
+	+DONTBLAST
+	+LOOKALLAROUND
+	renderstyle none
+	Height 16
+	Radius 16
+	Scale 2.0
+	States
+	{
+	Spawn:
+	SLOD A 0 A_RadiusGive("SpeedyFloorPowerupTimed", Args[0], RGF_PLAYERS, 1)
+	SLOD A 2
+	loop
+	}
+}
+
+//Reference: Encore Time Man (A-Chan)
+
+actor SpeedyFloorPowerupTimed : PowerSpeed
+{
+Speed 1.3
+Powerup.duration 3
+Inventory.amount 1
+Inventory.maxamount 1
+}
+
+//Reference: Encore Magma Man (LordDamager & Megavile)
+
+actor Enc_WilyTower1PoolDetect_P : CustomInventory
+{
+States
+{
+Pickup:
+TNT1 A 0 A_SpawnItemEx("Enc_WilyTower1PoolDetect")
+stop
+}
+}
+
+actor Enc_WilyTower1PoolDetect
+{
+PROJECTILE
++NOINTERACTION
++DONTBLAST
+states
+{
+Spawn:
+TNT1 A 0 A_Warp(AAPTR_TARGET, 0, 0, 0, 0, WARPF_COPYINTERPOLATION|WARPF_NOCHECKPOSITION )
+TNT1 A 0 A_JumpIf(ACS_NamedExecuteWithResult("core_targetexists")==0,"Exit") 
+TNT1 A 1 A_JumpIf(z < -223,"DoTheThing")
+loop
+DoTheThing:
+TNT1 A 0 A_SpawnItemEx("Enc_WilyTower1DamageHbox")
+TNT1 A 0 A_GiveToTarget("Enc_WilyTower1SmokeMaker",1)
+TNT1 A 8
+goto Spawn
+Exit:
+TNT1 A 0
+stop
+}
+}
+
+actor Enc_WilyTower1DamageHbox
+{
+-SOLID
++NOGRAVITY
++NOINTERACTION
+damagetype "Fire"
+mass 25
+States
+{
+Spawn:
+TNT1 A 0
+TNT1 A 0 A_ClearTarget
+TNT1 A 0 A_Explode(mass,2,0,0,2)
+TNT1 A 1
+stop
+}
+}
+
+Actor Enc_WilyTower1SmokeMaker : CustomInventory
+{
+States
+{
+Pickup:
+TNT1 A 0
+TNT1 A 0 A_SpawnItemEx("Enc_WilyTower1FloorCheck",0,0,0)
+stop
+No:
+TNT1 A 0
+stop
+}
+}
+
+actor Enc_WilyTower1FloorCheck
+{
+PROJECTILE
++NOINTERACTION
++DONTBLAST
+reactiontime 118
+states
+{
+Spawn:
+TNT1 A 0 
+TNT1 A 0 A_JumpIf(ACS_NamedExecuteWithResult("core_targetexists")==0,"Death") 
+TNT1 AAAA 1 A_Warp(AAPTR_TARGET, 0, 0, 0, 0, WARPF_COPYINTERPOLATION|WARPF_NOCHECKPOSITION )
+Spawn2:
+TNT1 A 1 A_Warp(AAPTR_TARGET, 0, 0, 0, 0, WARPF_COPYINTERPOLATION|WARPF_NOCHECKPOSITION )
+TNT1 A 0 A_JumpIfInventory("RushJetCounter", 1, "Death")
+TNT1 A 0 A_JumpIfInventory("RushMarineCounter", 1, "Death")
+TNT1 A 0 A_GiveToTarget("Enc_WilyTower1SmokeSpawn",1)
+TNT1 A 0 A_Countdown
+loop
+Death:
+TNT1 A 0
+stop
+}
+}
+
+Actor Enc_WilyTower1SmokeSpawn : CustomInventory
+{
+States
+{
+Pickup:
+TNT1 A 0
+TNT1 A 0 A_JumpIfInventory("Enc_MagmaSmokeDelay",1,"No")
+TNT1 A 0 A_SpawnItemEx("Enc_WilyTower1SmokeFX",-4,0,8)
+TNT1 A 0 A_GiveInventory("Enc_MagmaSmokeDelay",1)
+stop
+No:
+TNT1 A 0
+stop
+}
+}
+
+actor Enc_WilyTower1SmokeFX 
+{
++FORCEYBILLBOARD
++NOGRAVITY
++NOINTERACTION
++CLIENTSIDEONLY
+scale 4.5
+translation "210:210=63:63"
+States
+{
+Spawn:
+MTLK E 0 ThrustThingZ(0, 8, 0, 0)
+MTLK E 4 ThrustThingZ(0, 8, 0, 0)
+MTLK F 0 ThrustThingZ(0, 8, 0, 0)
+MTLK F 4 
+MTLK G 0 ThrustThingZ(0, 8, 0, 0)
+MTLK G 4 
+MTLK H 0 ThrustThingZ(0, 8, 0, 0)
+MTLK H 4 
+MTLK I 0 ThrustThingZ(0, 8, 0, 0)
+MTLK I 4 
+MTLK J 0 ThrustThingZ(0, 8, 0, 0)
+MTLK J 4 
+stop
+}
+}
+
+//Reference: Encore Time Man (A-Chan)
+
+Actor EncoreSpaceFXSpawner : CloudmanRainSpawner 21683
+{
+//$Arg0 Size
+scale 2
+height 16
+radius 32
+States
+{
+Spawn:
+TNT1 AAAA 0 A_SpawnItemEx("EncoreSpaceBounceGFX1", random(-Args[0],Args[0]), random(-Args[0],Args[0]), 0, 0, 0, random(10, 20), 180, SXF_CLIENTSIDE)
+TNT1 A 4
+TNT1 AAAA 0 A_SpawnItemEx("EncoreSpaceBounceGFX2", random(-Args[0],Args[0]), random(-Args[0],Args[0]), 0, 0, 0, random(10, 20), 180, SXF_CLIENTSIDE)
+TNT1 A 4
+loop
+}
+}
+
+actor EncoreSpaceBounceGFX1 : MagParticle
+{
+-FLOORHUGGER
++BRIGHT
+States
+{
+Spawn:
+ESPE A 0
+ESPE A 0 A_Jump(86, "Spawn2")
+ESPE A 0 A_Jump(128, "Spawn3")
+ESPE A 5 
+ESPE A 1 A_Fadeout(0.1)
+wait
+Spawn2:
+ESPE B 5
+ESPE B 1 A_Fadeout(0.1)
+wait
+Spawn3:
+ESPE C 5
+ESPE C 1 A_Fadeout(0.1)
+wait
+}
+}
+
+actor EncoreSpaceBounceGFX2 : EncoreSpaceBounceGFX1
+{
+Translation "78:78=62:62", "60:60=57:57"
+}
+
+actor EncoreSpaceSplash : MMSplash
+{
+States
+{
+Spawn:
+SPCS A 0 
+SPCS A 0 A_PlaySoundEx("encore/spacesplash","Voice")
+SPCS ABCDE 5
+stop
+}
+}
+
+// Encore Quick Man (A-Chan)
+
+Actor EncoreTackleFire : TackleFire 
+{
+//$Category MM8BDME-Props
+Translation "41:41=207:207"
+}
+
+//Original
+
+Actor EncoreFireSnakey
+{
++ISMONSTER
+PROJECTILE
++DONTBLAST
++NOINTERACTION
++NOCLIP
+height 1
+radius 1
+Speed 0
+scale 2.5
+states
+{
+Spawn:
+SNKY G 0
+TNT1 A 2 A_SpawnItemEx("EncoreFireSnakeyHead", 0, 0, 4, 10,0, 30)
+TNT1 AAAAAAAA 2 A_SpawnItemEx("EncoreFireSnakeyBody", 0, 0, 4, 10,0, 30)
+stop
+}
+}
+
+actor EncoreFireSnakeyHead : FireSnakeyHead
+{
+states
+{
+Spawn:
+ESNK GH 2 
+loop
+Death:
+ESNK G 0
+stop
+}
+}
+
+actor EncoreFireSnakeyBody : FireSnakeyBody
+{
+Translation "183:183=62:62", "227:227=57:57", "216:216=91:91"
+}

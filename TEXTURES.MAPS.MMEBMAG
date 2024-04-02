@@ -1,0 +1,702 @@
+
+Texture EMGISKY1, 239, 160
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC1, 0, 0
+}
+
+Texture EMGISKY2, 159, 160
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC3, 0, 0
+}
+
+Texture EMGISK1X, 239, 160
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC1, 0, 0
+}
+
+Texture EMGISK1Y, 239, 160
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC2, 0, 0
+}
+
+Texture EMGISK2X, 159, 160
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC3, 0, 0
+}
+
+Texture EMGISK2Y, 159, 160
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC4, 0, 0
+}
+
+Texture EMGICLDR, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC86, 0, 0
+}
+
+Texture EMGICFL1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC62, 0, 0
+}
+
+Texture EMGICFL2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC63, 0, 0
+}
+
+Texture EMGICFL3, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC64, 0, 0
+}
+
+Texture EMGICFL4, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC118, 0, 0
+	Patch EMGIC118, 32, 32
+	Patch EMGIC119, 32, 0
+	Patch EMGIC119, 0, 32
+}
+
+Texture EMGICFL5, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC120, 0, 0
+	Patch EMGIC120, 16, 16
+	Patch EMGIC121, 16, 0
+	Patch EMGIC121, 0, 16
+}
+
+Texture EMGICPL1, 16, 192
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC93, 0, 0
+	Patch EMGIC94, 0, 16
+	Patch EMGIC94, 0, 32
+	Patch EMGIC94, 0, 48
+	Patch EMGIC94, 0, 112
+	Patch EMGIC94, 0, 64
+	Patch EMGIC94, 0, 128
+	Patch EMGIC94, 0, 80
+	Patch EMGIC94, 0, 144
+	Patch EMGIC94, 0, 96
+	Patch EMGIC94, 0, 160
+	Patch EMGIC95, 0, 176
+}
+
+Texture EMGICPL2, 16, 192
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC96, 0, 0
+	Patch EMGIC97, 0, 16
+	Patch EMGIC97, 0, 96
+	Patch EMGIC97, 0, 32
+	Patch EMGIC97, 0, 112
+	Patch EMGIC97, 0, 48
+	Patch EMGIC97, 0, 128
+	Patch EMGIC97, 0, 64
+	Patch EMGIC97, 0, 144
+	Patch EMGIC97, 0, 80
+	Patch EMGIC97, 0, 160
+	Patch EMGIC98, 0, 176
+}
+
+Texture EMGICPL3, 16, 192
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC99, 0, 0
+	Patch EMGIC100, 0, 16
+	Patch EMGIC100, 0, 96
+	Patch EMGIC100, 0, 32
+	Patch EMGIC100, 0, 112
+	Patch EMGIC100, 0, 48
+	Patch EMGIC100, 0, 128
+	Patch EMGIC100, 0, 64
+	Patch EMGIC100, 0, 144
+	Patch EMGIC100, 0, 80
+	Patch EMGIC100, 0, 160
+	Patch EMGIC101, 0, 176
+}
+
+Texture EMGICPL4, 16, 192
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC102, 0, 0
+	Patch EMGIC103, 0, 16
+	Patch EMGIC103, 0, 96
+	Patch EMGIC103, 0, 32
+	Patch EMGIC103, 0, 112
+	Patch EMGIC103, 0, 48
+	Patch EMGIC103, 0, 128
+	Patch EMGIC103, 0, 64
+	Patch EMGIC103, 0, 144
+	Patch EMGIC103, 0, 80
+	Patch EMGIC103, 0, 160
+	Patch EMGIC104, 0, 176
+}
+
+Texture EMGICPL5, 16, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC87, 0, 0
+	Patch EMGIC87, 0, 16
+	Patch EMGIC87, 0, 32
+	Patch EMGIC88, 0, 48
+}
+
+Texture EMGICPL6, 16, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC89, 0, 0
+	Patch EMGIC89, 0, 16
+	Patch EMGIC89, 0, 32
+	Patch EMGIC90, 0, 48
+}
+
+Texture EMGICGRN, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC21, 0, 0
+}
+
+Texture EMGICYLW, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC20, 0, 0
+}
+
+Texture EMGICFLG, 16, 48
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC108, 0, 0
+}
+
+Texture EMGICCUR, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC109, 0, 0
+}
+
+Texture EMGITRK1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC106, 0, 0
+}
+
+Texture EMGITRK2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC107, 0, 0
+}
+
+Texture EMGICWL1, 32, 80
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC105, 0, 32
+	Patch EMGIC88, 0, 16
+	Patch EMGIC88, 0, 64
+	Patch EMGIC88, 16, 64
+	Patch EMGIC88, 16, 16
+	Patch EMGIC87, 0, 0
+	Patch EMGIC87, 16, 0
+}
+
+Texture EMGICWL2, 64, 112
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC49, 0, 0
+	Patch EMGIC50, 32, 0
+	Patch EMGIC51, 16, 0
+	Patch EMGIC52, 48, 0
+	Patch EMGIC61, 16, 16
+	Patch EMGIC61, 16, 64
+	Patch EMGIC53, 48, 16
+	Patch EMGIC53, 48, 80
+	Patch EMGIC53, 48, 48
+	Patch EMGIC54, 48, 32
+	Patch EMGIC54, 48, 64
+	Patch EMGIC55, 48, 96
+	Patch EMGIC56, 32, 96
+	Patch EMGIC57, 16, 96
+	Patch EMGIC58, 0, 96
+	Patch EMGIC59, 0, 32
+	Patch EMGIC59, 0, 64
+	Patch EMGIC60, 0, 16
+	Patch EMGIC60, 0, 48
+	Patch EMGIC60, 0, 80
+	Patch EMGIC69, 16, 48
+	Patch EMGIC70, 32, 48
+}
+
+Texture EMGICWL3, 64, 80
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC65, 0, 0
+	Patch EMGIC66, 16, 0
+	Patch EMGIC67, 32, 0
+	Patch EMGIC68, 48, 0
+	Patch EMGIC72, 0, 16
+	Patch EMGIC72, 0, 48
+	Patch EMGIC72, 0, 32
+	Patch EMGIC71, 48, 16
+	Patch EMGIC71, 48, 48
+	Patch EMGIC71, 48, 32
+	Patch EMGIC61, 16, 16
+	Patch EMGIC73, 48, 64
+	Patch EMGIC74, 0, 64
+	Patch EMGIC56, 16, 64
+	Patch EMGIC57, 32, 64
+	Patch EMGIC70, 16, 48
+	Patch EMGIC70, 32, 48
+}
+
+Texture EMGICWL4, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC76, 0, 0
+	Patch EMGIC75, 0, 16
+	Patch EMGIC75, 0, 32
+	Patch EMGIC75, 0, 48
+	Patch EMGIC75, 0, 64
+	Patch EMGIC75, 0, 80
+	Patch EMGIC75, 0, 96
+	Patch EMGIC75, 0, 112
+	Patch EMGIC75, 0, 128
+	Patch EMGIC75, 0, 144
+	Patch EMGIC75, 0, 160
+	Patch EMGIC75, 0, 176
+	Patch EMGIC75, 0, 192
+	Patch EMGIC75, 0, 208
+	Patch EMGIC75, 0, 224
+	Patch EMGIC75, 0, 240
+}
+
+Texture EMGICWL5, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC78, 0, 0
+	Patch EMGIC77, 0, 16
+	Patch EMGIC77, 0, 32
+	Patch EMGIC77, 0, 48
+	Patch EMGIC77, 0, 64
+	Patch EMGIC77, 0, 80
+	Patch EMGIC77, 0, 96
+	Patch EMGIC77, 0, 112
+	Patch EMGIC77, 0, 128
+	Patch EMGIC77, 0, 144
+	Patch EMGIC77, 0, 160
+	Patch EMGIC77, 0, 176
+	Patch EMGIC77, 0, 192
+	Patch EMGIC77, 0, 208
+	Patch EMGIC77, 0, 224
+	Patch EMGIC77, 0, 240
+}
+
+Texture EMGICWL6, 16, 256
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC77, 0, 16
+	Patch EMGIC77, 0, 32
+	Patch EMGIC77, 0, 48
+	Patch EMGIC77, 0, 64
+	Patch EMGIC77, 0, 80
+	Patch EMGIC77, 0, 96
+	Patch EMGIC77, 0, 112
+	Patch EMGIC77, 0, 128
+	Patch EMGIC77, 0, 144
+	Patch EMGIC77, 0, 160
+	Patch EMGIC77, 0, 176
+	Patch EMGIC77, 0, 192
+	Patch EMGIC77, 0, 208
+	Patch EMGIC77, 0, 224
+	Patch EMGIC77, 0, 240
+	Patch EMGIC76, 0, 0
+}
+
+Texture EMGICWL7, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC21, 0, 0
+	Patch EMGIC21, 32, 32
+	Patch EMGIC20, 0, 32
+	Patch EMGIC20, 32, 0
+}
+
+Texture EMGICWL8, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC85, 0, 0
+}
+
+Texture EMGICWL9, 64, 48
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC127, 32, 32
+	Patch EMGIC128, 0, 16
+	Patch EMGIC129, 32, 0
+	Patch EMGIC129, 48, 0
+	Patch EMGIC129, 32, 16
+	Patch EMGIC129, 0, 32
+	Patch EMGIC129, 0, 0
+	Patch EMGIC129, 48, 16
+	Patch EMGIC129, 16, 32
+	Patch EMGIC129, 16, 0
+}
+
+Texture EMGIBRK1, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC79, 0, 0
+}
+
+Texture EMGIBRK2, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC80, 0, 0
+}
+
+Texture EMGIBRK3, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC117, 0, 0
+}
+
+Texture EMGIBLK1, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC22, 0, 0
+	Patch EMGIC23, 16, 0
+	Patch EMGIC23, 32, 0
+	Patch EMGIC24, 48, 0
+	Patch EMGIC25, 48, 16
+	Patch EMGIC25, 48, 32
+	Patch EMGIC26, 48, 48
+	Patch EMGIC27, 32, 48
+	Patch EMGIC27, 16, 48
+	Patch EMGIC28, 0, 48
+	Patch EMGIC29, 0, 16
+	Patch EMGIC29, 0, 32
+	Patch EMGIC30, 16, 16
+	Patch EMGIC30, 32, 16
+	Patch EMGIC30, 16, 32
+	Patch EMGIC30, 32, 32
+}
+
+Texture EMGIBLK2, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC31, 0, 0
+	Patch EMGIC32, 16, 0
+	Patch EMGIC32, 32, 0
+	Patch EMGIC33, 48, 0
+	Patch EMGIC34, 48, 16
+	Patch EMGIC34, 48, 32
+	Patch EMGIC35, 48, 48
+	Patch EMGIC36, 32, 48
+	Patch EMGIC36, 16, 48
+	Patch EMGIC37, 0, 48
+	Patch EMGIC38, 0, 16
+	Patch EMGIC38, 0, 32
+	Patch EMGIC39, 16, 16
+	Patch EMGIC39, 32, 16
+	Patch EMGIC39, 16, 32
+	Patch EMGIC39, 32, 32
+}
+
+Texture EMGIBLK3, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC40, 0, 0
+	Patch EMGIC41, 16, 0
+	Patch EMGIC41, 32, 0
+	Patch EMGIC42, 48, 0
+	Patch EMGIC43, 48, 16
+	Patch EMGIC43, 48, 32
+	Patch EMGIC44, 48, 48
+	Patch EMGIC45, 32, 48
+	Patch EMGIC45, 16, 48
+	Patch EMGIC46, 0, 48
+	Patch EMGIC47, 0, 16
+	Patch EMGIC47, 0, 32
+	Patch EMGIC48, 16, 16
+	Patch EMGIC48, 32, 16
+	Patch EMGIC48, 16, 32
+	Patch EMGIC48, 32, 32
+}
+
+Texture EMGIBLK4, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC81, 0, 0
+}
+
+Texture EMGIBLK5, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC82, 0, 0
+}
+
+Texture EMGIBLK6, 32, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC83, 0, 0
+}
+
+Texture EMGIBLK7, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC84, 0, 0
+}
+
+Texture EMGISTPL, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC9, 0, 0
+}
+
+Texture EMGISTP, 144, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC6, 112, 0
+	Patch EMGIC10, 32, 0
+	Patch EMGIC10, 96, 0
+	Patch EMGIC10, 128, 0
+	Patch EMGIC10, 0, 0
+	Patch EMGIC5, 16, 0
+	Patch EMGIC11, 64, 0
+	Patch EMGIC12, 80, 0
+	Patch EMGIC12, 48, 0
+}
+
+Texture EMGISTPR, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC13, 0, 0
+}
+
+Texture EMGISTP4, 64, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC65, 0, 0
+	Patch EMGIC66, 16, 0
+	Patch EMGIC67, 32, 0
+	Patch EMGIC68, 48, 0
+}
+
+Texture EMGITOW1, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC111, 0, 0
+}
+
+Texture EMGITOW2, 32, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC112, 0, 0
+}
+
+Texture EMGITOW3, 64, 64
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC110, 0, 0
+}
+
+Texture EMGITOW4, 32, 160
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC113, 0, 0
+	Patch EMGIC116, 0, 80
+	Patch EMGIC116, 0, 96
+	Patch EMGIC116, 0, 112
+	Patch EMGIC116, 0, 128
+	Patch EMGIC116, 0, 144
+	Patch EMGIC114, 0, 48
+	Patch EMGIC115, 0, 64
+}
+
+Texture EMGITOW5, 32, 128
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC116, 0, 16
+	Patch EMGIC116, 0, 48
+	Patch EMGIC116, 0, 80
+	Patch EMGIC116, 0, 96
+	Patch EMGIC116, 0, 112
+	Patch EMGIC115, 0, 0
+	Patch EMGIC115, 0, 64
+	Patch EMGIC114, 0, 32
+}
+
+Texture EMGISIDE, 8, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC72, 0, 0
+}
+
+Texture EMGICRD1, 96, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC14, 0, 0
+	Patch EMGIC14, 32, 16
+	Patch EMGIC15, 16, 0
+	Patch EMGIC16, 48, 0
+	Patch EMGIC17, 80, 0
+	Patch EMGIC17, 64, 16
+	Patch EMGIC18, 32, 0
+	Patch EMGIC18, 0, 16
+	Patch EMGIC18, 64, 0
+	Patch EMGIC18, 16, 16
+	Patch EMGIC18, 48, 16
+	Patch EMGIC18, 80, 16
+}
+
+Texture EMGICRD2, 64, 32
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC122, 0, 0
+	Patch EMGIC122, 40, 16
+	Patch EMGIC123, 16, 0
+	Patch EMGIC123, 56, 16
+	Patch EMGIC123, -8, 16
+	Patch EMGIC124, 32, 0
+	Patch EMGIC124, 8, 16
+	Patch EMGIC125, 48, 0
+	Patch EMGIC125, 24, 16
+}
+
+Texture EMGIARCH, 64, 96
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC126, 0, 0
+}
+
+Texture EMGIRED, 16, 16
+{
+	XScale 0.5
+	YScale 0.5
+	WorldPanning
+	Patch EMGIC130, 0, 0
+}
+

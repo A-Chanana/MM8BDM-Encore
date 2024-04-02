@@ -1,0 +1,866 @@
+==============
+Changelogs:
+==============
+
+Beta 5.5 > Beta 5.5h
+== MME10CHI, MMEVVEN, MMEVURA ==
+- Fixed the boss theme not playing.
+
+== MMEAUT ==
+- Fixed all code regarding the E-Tank and M-Tank purchases.
+
+Beta 5 > Beta 5.5
+==============
+== General ==
+- Adjusted volume of several tracks.
+- Fixed incorrect teleporter textures in a few maps.
+- New MME8FBOS intense music by Mega Man Maker
+- New MMEWTFBS intense music by MetallicWarrior
+- New MMEVINTS intense music by RushJet1.
+- New MMB2FBOS, by Dark's Tunes ("Rockman Shadow Boss Theme [8-Bit Remix]")
+- Old MMB2FBOS replaces old MMB2BOSS now.
+
+== MME3SNA ==
+- Fixed bugged Wily Spawn.
+
+== MME4PHA ==
+- New Encore by Woolock.
+
+== MME4DIV ==
+- New Encore by Woolock.
+
+== MME4DC1 ==
+- Fixed incorrect boss song name.
+
+== MME5DAR ==
+- Added a few extra textures and visual additions.
+
+== MME6YAM ==
+- Fixed textures of the new room.
+
+== MME6KNI ==
+- Desaturated the brick colors.
+
+== MME8AST == 
+- New Encore by Woolock.
+
+== MME8SWO == 
+- Fixed more obscure safe lava pits.
+
+== MMEWTDW1 ==
+- Slightly adjusted layout to the Rush Jet section.
+
+== MMEWTDW2 ==
+- Top Spin location altered.
+- Water Room adjusted.
+- Added drop down into hallway to Water Room.
+
+== MME10CHI ==
+- New Encore by Woolock.
+
+== MME10STR ==
+- Widened vent.
+- Downgraded a few health and ammo pickups.
+
+== MME10DW1 ==
+- New rain music by MetallicWarrior.
+- Added door to window to prevent classes escaping pre-kill.
+
+== MMEVURA ==
+- Several layout changes by Woolock.
+
+== MMB2KOM ==
+- Replaced the 3D Slope.
+
+== MMEAUT ==
+- New stage by Woolock.
+
+Beta 4hh > Beta 5
+==============
+== General ==
+- Map teleporters now have custom textures.
+- Replaced applicable music files with NSF variants.
+- New MMEWTBOS boss music by RushJet1.
+- New MME1FBOS intense music by RushJet1.
+- New MME2FBOS intense music by RushJet1.
+- New MME3FBOS intense music by RushJet1.
+- New MME4FBOS intense music by RushJet1.
+- New MME5FBOS intense music by unknown. (It was in the RushJet muspak)
+- New MME6FBOS intense music by RushJet1.
+- New MME7FBOS intense music by Codster Seventy-Six.
+- New MMEBFBOS intense music by RushJet1.
+- New MME9FBOS intense music by GrayTunes.
+- New MME10WBS intense music by RushJet1.
+- New MMEKFBOS intense music by RushJet1.
+
+== MME1CUT ==
+- New Encore by Woolock.
+- Textures by Seafra Yaegar.
+
+== MME1GUT ==
+- New stage music.
+
+== MME1BOM ==
+- Updated music by DaBlueJay.
+- Spruced up the texturework.
+
+== MME1FIR ==
+- Added Encore Tackle Fires.
+- Changed Fire Trap colors.
+
+== MME1ICE ==
+- New layout changes by Woolock.
+
+== MME2BUB ==
+- Replaced with old MM2BUB2 layout by LlamaHombre.
+- Old version now is MML2BUB.
+
+== MME2FLA ==
+- Modified a few stairs.
+- Restored ice physics to tiles.
+- Pickup placement updated.
+
+== MME2CRA ==
+- Removed water.
+- Readded ladders.
+- Added pillars to a few areas.
+
+== MME2MET ==
+- Added layout changes inspired by Hansungkee's take.
+
+== MME2DW1 ==
+- Added castle sprite by Woolock.
+
+== MME2DW2 ==
+- Relowered water level to base MM2DW2 level.
+- Removed Gemini Laser pathway.
+- Undid a few changes.
+
+== MME3SNA ==
+- Minor layout changes by Woolock.
+
+== MME3TOP ==
+- Removed sign collisions.
+
+== MME3NEE ==
+- Layout changes by MegaVile.
+ -- Inspired by Pluspack MM3NEE.
+
+== MME4DRI ==
+- New Encore by Woolock.
+
+== MME4TOA ==
+- Added more ramps to get in and out of water.
+- Fixed missing stairs.
+- Fixed out of bounds spawnpoint.
+
+== MME4DC1 ==
+- New Encore by Woolock.
+
+== MME5STA ==
+- New Encore by Scott.
+
+== MME5DAR ==
+- New Encore by AAAAAA and MegaVile.
+
+== MME6KNI ==
+- New Layout changes by MegaVile.
+ -- Inspired by Pluspack MM6KNI.
+
+== MME6BLI ==
+- New Encore by Woolock.
+
+== MME6YAM ==
+- New Encore by AAAAAA.
+
+== MME7TUR ==
+- Added invisible bridges over tires to prevent clipping.
+
+== MMEBGRO ==
+- New Encore by Woolock.
+
+== MMEBMAG ==
+- New Encore by Woolock.
+
+== MMEWTDW1 ==
+- New Encore by Woolock.
+
+== MMEWTDW2 ==
+- New Encore by MegaVile.
+
+== MME9CON ==
+- New Encore by Woolock.
+
+== MME9JEW ==
+- New Encore by Woolock.
+
+== MME9MAG ==
+- Raised magma floor.
+- Added visual effects.
+- Layout changes by MegaVile.
+
+== MME9DW3 ==
+- New Encore by Woolock.
+
+== MME10SHE ==
+- Added block damaging system by Russel.
+-- If you are caught within a respawning set of blocks, you will take 20 damage and be teleported out.
+
+== MME10STR ==
+- New layout changes by MooseFart045.
+
+== MME10DW1 ==
+- New Encore by Woolock.
+
+== MMEVURA ==
+- Redone by MooseFart045.
+
+== MMEBON ==
+- Changed a few floors.
+- Redid map spawns.
+- Added team spawns.
+
+== MML2BUB ==
+- New Legacy Map by MegaVile.
+
+Beta 4 > Beta 4hh
+==============
+== General ==
+- Decompressed multiple music files to shorten total file size
+- New MME2WBOS boss music
+- New MME3WBOS boss music
+
+== MME1TIM == 
+- Readded "Original Textures" variant
+
+== MME2DW2 ==
+- Changed stage song
+
+== MME3SNA ==
+- Modified some floor textures to new areas
+
+== MME5STO ==
+- Textured black walls.
+- Made a lava pit have Line Horizon
+
+== MME8SWO ==
+- Fixed missing hazard pits beneath a lava bridge
+
+== MME10SHE ==
+- New stage palette
+
+== MMECTF08 ==
+- Removed Monster block lines
+- Changed water floor textures
+
+Beta3 compat > Beta 4
+==============
+== General Maps ==
+- All maps now have new mugshots
+- All maps now use the new "mm8bdm_map_createdbytext" text from v6b
+- New MME10 boss music by MetallicWarrior
+- Old MME10 boss theme now MME10WBS
+
+== MME1ICE ==
+- New Encore by Woolock
+  
+== MME1OIL ==
+- Added layout changes from MegaVile
+- Fixed Sabotalls not showing up
+- Changed Stock Explosion spritename to DXPL
+- Changed Stock Explosion change from 10% to 1%
+
+== MME2AIR ==
+- Fixed textures overriding vanilla MM2AIR's textures
+- Updated "Original Textures" variant
+
+== MME2FLA ==
+- New Encore by Lamp and MegaVile
+
+== MME2CRA ==
+- New Encore by Woolock
+
+== MME2DW2 == 
+- New Encore by MegaVile
+
+== MME3DW3 ==
+- Fixed skybox issues with "Original Textures" conflictions.
+
+== MME3SNA ==
+- New Encore by Woolock
+
+== MME3NEE ==
+- New Encore by MegaVile
+
+== MME3GEM ==
+- Fixed outdated boss music.
+
+== MME3DW2 ==
+- New Encore by MegaVile
+
+== MME4TOA ==
+- New Encore by Woolock
+
+== MME10SHE ==
+- New Encore by Woolock
+
+== MME10STR ==
+- Fixed music loop
+- Fixed missing Light Team spawns
+ 
+== MMB2BUL ==
+- New map by Woolock and MegaVile
+
+== MMEPRO ==
+- Red screen flash: 100% -> 80%
+
+== MMECTF08 ==
+- New encore by MegaVile
+- Will update stage textures as maps release.
+
+=========================
+Beta 3 > Beta3-compat
+
+=== MAPS ===
+- Ported maps to MM8BDM V6b
+- Renamed conflicting actor definitions
+
+== MME1TIM ==
+- Temporarily reverted to an older version to have the time pads work 
+ (I didn't make this map I don't know how to make em work lmao -MV)
+
+== MME5STO ==
+- New Encore by Inter and MegaVile
+
+== MME7JUN ==
+- Fixed missing impassable lines
+- Music no longer cuts out when Time Pieces are hit.
+- Cooldown duration of the Time Pieces reduced.
+
+== MME7SHA ==
+- New Encore by Skib
+
+== MME8SWO ==
+- Revamped color palette
+- Many layout changes
+
+== MME9MAG ==
+- Modified magma code to work and not use outdated scripts.
+
+== MMEVURA ==
+- New Encore by Moosefart090 and Woolock
+
+== MME10STR ==
+- Fixed missing impassable lines
+
+== MMB2CLO ==
+- Added new texture to the portal holes.
+
+=========================
+Beta 2 > Beta 3
+== General ==
+- New mapvoting pics for MME1GUT, MME6PLA, and MMB2CLO
+- New mapcard for the MMB2 stages
+- New gamemode: Bot Rush - Fight against an endless barrage of bots. Every 8 bots, a bot contracts a random roboenza effect
+- Encore training room uses different save values
+- New cvar added: enc_ogtextures - Replaces several map textures with their vanilla counterparts
+- Removed the enc_busterstart cvar to fit in a more complex system of starting weapons called enc_customloadouts
+- Encore campaign ally system implemented
+- You can customize your loadout if the cvar is on inside the Weapon Loadout menu in Player Setup
+- Teams now use appropriate charge colors
+- Some more props now use translations instead of sprites
+- Polished up Encore WEPACS code
+- Fixed Thunder Claw bar voxel offsets
+ 
+- MME4BOSS volume raised a bit
+- New MMEB final boss music by Vectric Beats
+- New MME6 boss music by MrKyurem
+ 
+ 
+== Skins ==
+- New Bond Man skin by Seafra Yeager
+ 
+ 
+== Bots ==
+- New Aircon Man bot
+- New Stove Man bot
+ 
+- Bots now use appropriate colors for charge attacks
+- Bots now walk directly to players before using weapons with limited range, and strike when their weapon is in effective range
+- Bots now shoot arcing weapons at appropriate angles depending on proximity
+- Bots that start with random weapons are no longer given a buster
+- Bots which start with more than one weapon now know how to switch between them effectively
+- Flash Man and Skull Man properly drop their weapons upon death
+- Galaxy Man's Black Hole Bomb is now purple
+- Bullet Man now uses his proper colors
+- The Clock Men duo colors now depend on if their player id is odd or even
+- King no longer holds Mirror Buster
+ 
+ 
+== Weapons ==
+- New Justice Meteor by A-Chan
+- New Royal Spin by MegaVile
+- New Berserker Rush by MegaVile
+- New Shield Spiral by MegaVile
+- New Restriction Ring by MegaVile
+- New Onslaught Gatling by MegaVile
+- New Bonding Paste by MegaVile
+- New Barrier Wind by A-Chan
+- New Time Switch by A-Chan
+- New Trailspark Needle by MegaVile and A-Chan
+- New Cardinal Ring by MegaVile
+ 
+- Most explosive weapons got modified to work with Barrier Wind.
+- Buster replacements don't drop upon player kill if they're defined by loadouts
+- Proto Buster damage: 50 -> 48
+- Rolling Cutter the shooter more accurately on its way back
+- Crash Bomb endlag: 20 frames -> 28 frames
+- Spark Shock speed: 35 -> 42
+- Dive Missile ammo consumption: 1 -> 2
+- Ring Boomerang damage: 18 -> 16
+- Napalm Bomb ammo use: 1 -> 2
+- Centaur Flash can now show up in loadouts
+- Plant Barrier can no longer show up in loadouts
+- Junk Shield charge wait: 13 -> 7
+- Junk Shield max uses per clip: 4 -> 5
+- Commando Bomb now summons waves upon direct hit instead of wave balls
+- Commando Bomb direct damage: 15 -> 7
+- Commando Bomb wave prime damage: 5 -> 2
+- Commando Bomb wave scaled damage: 2 -> 1
+- Deep Digger throws both rocks at once
+- Mirror Buster shield time doubled
+ 
+- Brass Bullet sight range: 3 -> 2
+- Time Bomb explosion damage: 5 -> 7
+- Time Bomb blast radius: 113 -> 120
+ 
+- Joe Buster damage: 25 -> 30
+- Joe Buster shield takes longer to reappear
+ 
+ 
+== MME1GUT ==
+- Added missing monsterlines
+- Added new texture for guts lifts
+ 
+== MME1BOM ==
+- Fixed texture offsets
+*Weps replaces Water Wave with Bonding Paste
+ 
+== MME1ELE ==
+- Palette changed
+- Added clearbotline compatibility
+*Weps replaces Spark Shock and Metal Blade with Barrier Wind and Trailspark Needle respectively
+ 
+== MME1FIR ==
+- Many layout changes
+ 
+== MME1TIM ==
+- Speed floors use a better method for checking leaving players
+- Speed floor multiplier: x1.5 -> x1.4
+ 
+== MME1OIL ==
+- Oil Canisters no longer die to Oil Slider
+ 
+== MME1OIL ==
+*Weps replaces Blizzard Attack with Trailspark Needle
+ 
+== MME2AIR ==
+- Removed excess monsterlines
+ 
+== MME2HEA ==
+- Fixed hole
+- Added missing monster lines
+- New music by DaBlueJay
+ 
+== MME2QUI ==
+- Fixed texture offsets
+- Added many failsafes to the steam
+- Reduced the steam vent sound
+- Added some walls to the upper section of the map
+- Separated the upper platforms in mid
+ 
+== MME2DW1 ==
+- New encore by A-Chan
+*Weps replaces Lightning Bolt and Photon Missile with Justice Meteor and Brass Bullet respectively
+ 
+== MME2DW3 ==
+- Added boss music
+- Added victory music
+ 
+== MME3TOP ==
+*Weps replaces Water Wave with Berserker Rush
+ 
+== MME3HAR ==
+- New encore by Megavile and Lamp
+ 
+== MME3GEM ==
+- Fixed missing impassable lines
+- Removed monsterlines
+ 
+== MME3SPA ==
+- Added clearbotline compatibility
+- Lowered the height of the trash
+- Teleporters to spawns removed
+- A pipe in lower mid leads to higher mid
+ 
+== MME4SKU ==
+- EBlueSkeletonJoe now spawns via SpawnSpot
+ 
+== MME5NAP ==
+- Palmtree offsets fixed
+- Outside area floor heights moved around for easier navigation
+ 
+== MME5CRY ==
+- New encore by Swarm9999
+*Weps replaces Mega Arm and Screw Crusher with Barrier Wind and Bonding Paste respectively
+ 
+== MME5GRA ==
+- New encore by A-Chan
+*Weps replaces Lightning Bolt with Onslaught Gatling
+ 
+== MME5WAV ==
+- New encore by MegaVile
+*Weps replaces Top Spin with Justice Meteor
+ 
+== MME6TOM ==
+- Fraglimit: 10 -> 15
+ 
+== MME6KNI ==
+- Removed jumping edges from the main stairs
+ 
+== MME6PLA ==
+- Weapon layout tweaked
+- Raised the ceilings
+*Weps replaces Chill Spike with Restriction Ring
+ 
+== MME6MRX ==
+- Replaced all remaining MRX textures with EMRX textures
+- Fixed pit spot that dealt no damage
+*Weps replaces Ring Boomerang with Cardinal Ring
+ 
+== MME7FRE ==
+- Added missing monster lines
+*Weps replaces Mirror Buster with Barrier Wind
+ 
+== MME7JUN ==
+- New encore by Scott
+*Weps replaces Spark Shock with Restriction Ring
+ 
+== MME7TUR ==
+*Weps replaces Quick Boomerang with Berserker Rush
+ 
+== MME8SWO ==
+- Fixed monsterlines
+- Added missing pit properties
+- Raised the middle lava pool into a platform, which now connects with the backroom
+*Weps replaces Ice Wave with Dawn Breaker
+ 
+== MME9SPL ==
+- Bubble jump pad particles are bigger
+*Weps replaces Top Spin with Time Switch
+ 
+== MME9MAG ==
+- New encore by LordDamager and MegaVile
+ 
+== MME10STR ==
+- New encore by MooseFart045
+ 
+== MMB2CLO ==
+- Moved some textures around
+- Increased available ammo
+- New mapcard mugshot
+- Speed floors use a better method for checking leaving players
+- Speed floor multiplier: x1.5 -> x1.4
+*Weps replaces Star Crash, Time Slow and Centaur Flash with Shield Spiral, Time Bomb, and Time Switch respectively
+ 
+== MMEPRO ==
+- New map by A-Chan
+*Weps replaces Astro Crush and Lightning Bolt with Justice Meteor and Onslaught Gatling respectively
+ 
+== MMEBON ==
+- New map by A-Chan
+*Weps replaces Water Balloon with Bonding Paste
+
+=========================
+Beta 1h > Beta 2
+== General ==
+- Most props now use translations rather than separate sprites
+- Encore buckshot features replaced with their own server variables
+- New server variable for loadouts in deathmatch
+- Death Pickups are now guaranteed to drop
+- Buster Start starts you with an added Energy Balancer
+- Proto Strike has 8 extra tics of endlag
+- Global water opacity 130 -> 100
+- Training room includes the new weapons
+ 
+== Bots ==
+- Special bots have their own server variable
+- Flash Man special bot uses Bass Buster
+- Skull Man special bot uses Revolver Buster
+- Clock Man bot uses 2 different colors depending on how many have spawned
+ 
+== Weapons ==
+- New Revolver Buster Adaptor by A-Chan
+- New Joe Buster Adaptor by A-Chan
+- New Time Bomb by Great Glass
+- New Bullet Vulcan by A-Chan
+- New Brass Bullet by Fr3ak
+- New Flame Shower by Great Glass
+- New Flame Mixer by A-Chan
+ 
+- Tango Roll spawn-to-attack tics: 10 -> 5
+- Tango Roll has a lower, consistent bounce
+- Tango roll hitbox: 16, 16 -> 20, 20
+ 
+- Mega Buster damage: 10 -> 13
+- Arrow Buster and Laser Buster charge way faster
+- Arrow Buster fragment damage: 10 -> 4
+- Bass Buster has less cooldown
+- Mega Arm midcharge damage: 30 -> 27
+- Mega Arm full charge direct: 5 -> 20
+ 
+- Time Stopper effect ends when the affected gets hit
+- Top Spin no longer hitstuns
+- Magnet Missile has a longer cooldown
+- Magnet Missile now homes perfectly, but slows down when homing
+- Magnet Missile damage: 30 -> 24
+- Drill Bomb speed: 25 -> 20
+- Pharaoh Shot direct: 53 -> 43 (+7 explosion)
+- Skull Barrier cooldown: 80 -> 160
+- Gyro Attack can split earlier
+- Power Stone damage: 60 -> 49
+- Blizzard Attack damage: 17 -> 18
+- Wind Storm radius: 45 -> 35
+- Centaur Flash damage: 13 ->18
+- Centaur Flash explosion deflects projectiles
+- Scorch Wheel radius: 96 -> 50
+- Big Junk Shield damage: 4 -> 10
+- Junk shield no longer dies after blocking attacks
+- Tengu Blade slash has no hitstun
+- Tengu Blade projectile damage: 35 -> 30
+- Break Dash duration increased by 70%
+- Electric Shock no longer hitstuns
+- Bubble Bomb explosion damage: 42 -> 33
+- Photon Missile explosion damage: 60 -> 49
+- Screw Crusher ammo use: 1 -> 2
+ 
+== MME1GUT ==
+- New encore by Sir An0n
+*Weps replaces Time Slow with Time Bomb
+ 
+== MME1BOM ==
+- New encore by MegaVile
+*Weps replaces Air Shooter with Bullet Vulcan
+ 
+== MME1FIR ==
+- New encore by MegaVile
+ 
+== MME1TIM ==
+- Fixed boost-retaining speed bug
+- New music by DaBlueJay
+ 
+== MME1OIL ==
+- New encore by Skib
+*Weps replaces Water Balloon with Flame Shower
+ 
+== MME1DW1 ==
+- Fixed textures offsets
+ 
+== MME2BUB ==
+- Raised some platforms above water
+- Fixed underground fish
+- Fixed monsterlines
+- New palette
+- New music by RushJet1
+ 
+== MME2AIR ==
+- Fixed fans shoving you into pits in LMS gamemodes
+- Outside fan vertical velocity: 65 -> 90
+- Fan Fiends are now solid
+- Fan fiends that push you inside replaced with fans
+- Added missing wind particles to fans
+- Fenced up some areas leading to pits
+- Windows now let projectiles through, but not players
+- Skybox floor lowered a little bit to prevent visual cutoff
+*Weps replaces Dive Missile with Brass Bullet
+ 
+== MME2QUI ==
+- New encore by A-Chan
+*Weps replaces Leaf Shield with Flame Mixer
+ 
+== MME2HEA ==
+- Added missing impassable linedef
+*Weps replaces Atomic Fire with Flame Mixer
+ 
+== MME2DW3 ==
+- Reduced big HP pickups
+*Weps replaces Arrow Buster with Maestro Buster
+ 
+== MME3TOP ==
+- Added missing monsterlines
+- Separated some panels from high platforms
+- Optimized 3D floors
+- Reduced animation speed
+- Fixed broken DM spawn
+- New music by RushJet1
+ 
+== MME3SPA ==
+- Lowered platforms on each side of the map
+- Corners now connect to the spawns
+*Weps replaces Quick Boomerang with Flame Shower
+ 
+== MME3GEM ==
+- New encore by Swarm9999
+*Weps replaces Laser Buster with Joe Buster
+ 
+== MME3MAG ==
+- New encore by Inter
+*Weps replaces Triple Blade with Bullet Vulcan
+ 
+== MME4SKU ==
+- Fixed line horizons
+- Fixed ESkeletonJoe
+*Weps replaces Ballade Cracker with Revolver Buster
+ 
+== MME5NAP ==
+- New encore by LordDamager
+ 
+== MME5CHA ==
+- Changed the truck's MOD type for CBM compatibility
+- Flipped the skybox animation (It was backwards)
+- Changed some pickups
+- New music by RushJet1
+*Weps replaces Wind Storm with Joe Buster
+ 
+== MME6TOM ==
+- Fixed line horizon
+- Fixed texture offsets
+*Weps replaces Blizzard Attack and Proto Buster with Bullet Vulcan and Revolver Buster respectively
+ 
+== MME6KNI ==
+- Fixed missing impassable lines
+- Fixed broken pickup placements
+ 
+== MME6PLA ==
+- Reduced the height of the higher platforms
+- Reduced tree density
+- Added another access to both spawn bases
+- Increased width of higher entrances
+ 
+== MME6MRX ==
+- Increased the width of spring holes
+- Both north sections now go up
+- Fixed missing line horizon
+- Extended outer building for easier landing
+- Fixed wrong texture
+ 
+== MME7FRE ==
+- Replaced spike pit with a bottomless pit
+- Extended platform over the pit
+- Changed the pink palette
+- Fixed wrong ladder
+- Fixed texture offsets
+- Raised floor leading to the pit
+ 
+== MME7TUR ==
+- Tire room removed
+- Fixed impassable lines behind the truck
+ 
+== MME8SWO ==
+- New encore by Rainsant
+ 
+== MME9SPL ==
+- New encore by MegaVile
+ 
+== MME9GAL ==
+- Window no longer renders inside
+ 
+== MME10SOL ==
+- New encore by LordDamager and MegaVile
+ 
+== MMEVVEN ==
+- New encore by MegaVile and A-Chan
+ 
+== MMB2KOM ==
+- New pathways on north and east
+- New music by Magnet Dood
+*Weps replaces Time Slow with Time Bomb
+ 
+== MMB2CLO ==
+- New map by A-Chan
+*Weps replaces Time Slow with Time Bomb
+ 
+=========================
+Beta 1 > Beta 1h
+
+== General ==
+- Added a new startup title and message
+- Obits, tags, and pickup messages now use LANGUAGE.
+- Added voxels for Thunder Claw bars
+- Fixed bot ACS, now special bots only show up if buckshot is set to 1
+- Bots that previously didn't have a weapon were now given one
+
+== MME1ELE ==
+- Added a darker shade of green to certain parts of the map
+- Fixed texture offsets
+- Thunder Claw bars are now purple
+
+== MME1TIM ==
+- Reduced the saturation of the blue textures
+
+== MME1DW2 ==
+- Added rain to the outside sections
+
+== MME2AIR ==
+- Map palette redone, props adjusted accordingly
+- Smoothened out some stairs
+- New (hopefully better) skybox
+- Fixed broken monsterlines
+- Goblins are no longer solid
+
+== MME2BUB ==
+- Changed the water color so it matches the skybox
+- Fixed broken spawn
+- Layout slightly tweaked
+- Search Snake replaced with Oil Slider
+
+== MME2MET ==
+- Fixed broken music loop
+- Thunder Claw hooks are now purple
+
+== MME3TOP ==
+- Fixed mapcard displaying the wrong album
+
+== MME3SPA ==
+- Slightly increased the width of both spawns
+- Fixed teleporters sending you to the opposite spawn
+
+== MME4SKU ==
+- Fixed skybox not working for software users
+
+== MME5CHA ==
+- Changed Mega Joe Truck's MOD type for CBM compatibility
+- Scroll speed: 700 -> 800
+- Fixed Mega Joe Truck's spikes not aligning correctly
+
+== MME6PLA ==
+- Fixed mapcard displaying the wrong track
+- Replaced Freeze Cracker with Solar Blaze
+- Replaced light spawn's Water Balloon with Oil Slider
+
+== MME6MRX==
+- Changed the direction of the fans to flow better with the stage
+- Reduced the size of spring sectors for easier access to lower floors
+
+== MME7FRE ==
+- Fixed broken linedefs
+- Pink palette desaturated
+
+== MME7TUR ==
+- Added more pickups
+
+== MME9GAL ==
+- Reduced the saturation of the animated textures
+
+== MMB2KOM ==
+- Fixed B2KOM skybox

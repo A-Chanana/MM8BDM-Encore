@@ -1,0 +1,428 @@
+
+Texture EICEOUT1, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE1, 0, 0
+}
+
+Texture EICEOUT2, 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE2, 0, 0
+	Patch EICE1, 0, 32
+	Patch EICE1, 0, 64
+	Patch EICE1, 0, 96
+	Patch EICE1, 0, 128
+	Patch EICE1, 0, 160
+	Patch EICE1, 0, 192
+	Patch EICE1, 0, 224
+	Patch EICE1, 0, 256
+	Patch EICE1, 0, 288
+	Patch EICE1, 0, 320
+	Patch EICE1, 0, 352
+	Patch EICE1, 0, 384
+	Patch EICE1, 0, 416
+	Patch EICE1, 0, 448
+	Patch EICE1, 0, 480
+}
+
+Texture EICEINT1, 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE4, 0, 0
+	Patch EICE3, 0, 32
+	Patch EICE3, 0, 64
+	Patch EICE3, 0, 96
+	Patch EICE3, 0, 128
+	Patch EICE3, 0, 160
+	Patch EICE3, 0, 192
+	Patch EICE3, 0, 224
+	Patch EICE3, 0, 256
+	Patch EICE3, 0, 288
+	Patch EICE3, 0, 320
+	Patch EICE3, 0, 352
+	Patch EICE3, 0, 384
+	Patch EICE3, 0, 416
+	Patch EICE3, 0, 448
+	Patch EICE3, 0, 480
+}
+
+Texture EICEINT2, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE3, 0, 0
+}
+
+Texture EICEINT3, 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE19, 0, 0
+	Patch EICE1, 0, 32
+	Patch EICE1, 0, 64
+	Patch EICE1, 0, 96
+	Patch EICE1, 0, 128
+	Patch EICE1, 0, 160
+	Patch EICE1, 0, 192
+	Patch EICE1, 0, 224
+	Patch EICE1, 0, 256
+	Patch EICE1, 0, 288
+	Patch EICE1, 0, 320
+	Patch EICE1, 0, 352
+	Patch EICE1, 0, 384
+	Patch EICE1, 0, 416
+	Patch EICE1, 0, 448
+	Patch EICE1, 0, 480
+}
+
+Texture EICEPOL1, 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE6, 0, 0
+	Patch EICE5, 0, 16
+	Patch EICE5, 0, 32
+	Patch EICE7, 0, 48
+	Patch EICE5, 0, 64
+	Patch EICE5, 0, 80
+	Patch EICE7, 0, 96
+	Patch EICE5, 0, 128
+	Patch EICE5, 0, 112
+	Patch EICE7, 0, 144
+	Patch EICE5, 0, 160
+	Patch EICE5, 0, 176
+	Patch EICE7, 0, 192
+	Patch EICE5, 0, 208
+	Patch EICE5, 0, 224
+	Patch EICE7, 0, 240
+	Patch EICE5, 0, 256
+}
+
+Texture EICEPIP1, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch EICE9, 0, 0
+}
+
+Texture EICEPIP2, 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	Patch EICE10, 0, 0
+	Patch EICE11, 0, 32
+	Patch EICE11, 0, 64
+	Patch EICE11, 0, 96
+	Patch EICE11, 0, 128
+	Patch EICE11, 0, 160
+	Patch EICE11, 0, 192
+	Patch EICE11, 0, 224
+	Patch EICE11, 0, 256
+	Patch EICE11, 0, 288
+	Patch EICE11, 0, 320
+	Patch EICE11, 0, 352
+	Patch EICE11, 0, 384
+	Patch EICE11, 0, 416
+	Patch EICE11, 0, 448
+	Patch EICE11, 0, 480
+}
+
+Texture EICEPIP3, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch EICE9, 0, 0
+	{
+		Rotate 90
+	}
+}
+
+Texture EICEPIP4, 32, 16
+{
+	XScale 0.500
+	YScale 0.500
+	Patch EICE12, 0, 0
+}
+
+Texture EICEFLO1, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE13, 0, 0
+}
+
+Texture EICETRE1, 48, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE15, 0, 0
+}
+
+Texture EICETRE2, 4, 4
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE16, 0, 0
+}
+
+Texture EICETRE3, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE14, 0, 0
+}
+
+Texture EICEUND1, 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE2, 0, 0
+	Patch EICE17, 0, 16
+	Patch EICE17, 0, 48
+	Patch EICE17, 0, 64
+	Patch EICE17, 0, 96
+	Patch EICE17, 0, 128
+	Patch EICE17, 0, 160
+	Patch EICE17, 0, 192
+	Patch EICE17, 0, 224
+	Patch EICE17, 0, 256
+	Patch EICE17, 0, 288
+	Patch EICE17, 0, 320
+	Patch EICE17, 0, 352
+	Patch EICE17, 0, 384
+	Patch EICE17, 0, 416
+	Patch EICE17, 0, 448
+	Patch EICE17, 0, 480
+}
+
+Texture EICEUND2, 32, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE3, 0, 0
+	Patch EICE3, 0, 16
+	Patch EICE3, 0, 48
+	Patch EICE3, 0, 64
+	Patch EICE3, 0, 96
+	Patch EICE3, 0, 128
+	Patch EICE18, 0, 160
+	Patch EICE18, 0, 192
+	Patch EICE18, 0, 224
+	Patch EICE18, 0, 256
+	Patch EICE18, 0, 288
+	Patch EICE18, 0, 320
+	Patch EICE18, 0, 352
+	Patch EICE18, 0, 384
+	Patch EICE18, 0, 416
+	Patch EICE18, 0, 448
+	Patch EICE18, 0, 480
+	Patch EICE18, 0, 512
+	Patch EICE18, 0, 544
+	Patch EICE18, 0, 576
+	Patch EICE18, 0, 608
+	Patch EICE18, 0, 640
+	Patch EICE18, 0, 672
+	Patch EICE18, 0, 704
+	Patch EICE18, 0, 736
+}
+
+Texture EICEUND3, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE17, 0, 0
+}
+
+Texture EICEUND4, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE18, 0, 0
+}
+
+Texture EICEUND5, 16, 512
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE20, 0, 0
+	Patch EICE21, 0, 16
+	Patch EICE21, 0, 32
+	Patch EICE21, 0, 48
+	Patch EICE21, 0, 64
+	Patch EICE21, 0, 80
+	Patch EICE21, 0, 96
+	Patch EICE21, 0, 112
+	Patch EICE21, 0, 128
+	Patch EICE21, 0, 144
+	Patch EICE21, 0, 160
+	Patch EICE21, 0, 176
+	Patch EICE21, 0, 192
+	Patch EICE21, 0, 208
+	Patch EICE21, 0, 224
+	Patch EICE21, 0, 240
+	Patch EICE21, 0, 256
+	Patch EICE21, 0, 272
+	Patch EICE21, 0, 288
+	Patch EICE21, 0, 304
+	Patch EICE21, 0, 320
+	Patch EICE21, 0, 336
+	Patch EICE21, 0, 352
+	Patch EICE21, 0, 368
+	Patch EICE21, 0, 384
+	Patch EICE21, 0, 400
+	Patch EICE21, 0, 416
+	Patch EICE21, 0, 432
+	Patch EICE21, 0, 448
+	Patch EICE21, 0, 464
+	Patch EICE21, 0, 480
+	Patch EICE21, 0, 496
+}
+
+Texture EICEPOL2, 16, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE23, 0, 0
+	Patch EICE24, 0, 16
+	Patch EICE24, 0, 32
+	Patch EICE25, 0, 48
+	Patch EICE24, 0, 64
+	Patch EICE24, 0, 80
+	Patch EICE25, 0, 96
+	Patch EICE24, 0, 128
+	Patch EICE24, 0, 112
+	Patch EICE25, 0, 144
+	Patch EICE24, 0, 160
+	Patch EICE24, 0, 176
+	Patch EICE25, 0, 192
+	Patch EICE24, 0, 208
+	Patch EICE24, 0, 224
+	Patch EICE25, 0, 240
+	Patch EICE24, 0, 256
+}
+
+Texture EICEUND6, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE22, 0, 0
+}
+
+Texture EICELADD, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE26, 0, 0
+}
+
+Texture EICEPTCH, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE27, 0, 0
+}
+
+Texture EICEBNC, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE28, 0, 0
+}
+
+
+Texture EICEPCH2, 32, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICE29, 0, 0
+}
+
+
+Texture EICESKY1, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICESKY, 0, 0
+}
+
+Texture EICESKY2, 512, 256
+{
+	XScale 1
+	YScale 1
+	WorldPanning
+	Patch EICEBSKY, 0, 0
+}
+
+Texture EICESKY3, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EICESKY2, 0, 0
+}
+
+Texture EICEWTR1, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EIWATER1, 0, 0
+}
+
+Texture EICEWTR2, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EIWATER2, 0, 0
+}
+
+Texture EICEWTR3, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EIWATER3, 0, 0
+}
+
+Texture EICEWTR4, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EIWATER4, 0, 0
+}
+
+Texture EICEWTRX, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch EIWATER, 0, 0
+}
