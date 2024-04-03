@@ -5,3 +5,44 @@ graphic M_DOOM, 1000, 1000
     YScale 1.5
     Patch MEGAMAN, 0, 0
 }
+
+// Teleporters
+texture ETELEP1, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ETELE1, 0, 0
+   WorldPanning 
+}
+
+texture ETELEP2, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ETELE2, 0, 0
+   WorldPanning 
+}
+
+texture ETELEFL, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ETELE3, 0, 0
+   WorldPanning 
+}
+
+texture ETELPX1, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ETELE2, 0, 0
+   WorldPanning 
+}
+
+texture ETELPX2, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ETELE4, 0, 0
+   WorldPanning 
+}
