@@ -884,23 +884,3 @@ map MMECTF08 "EDGE OF THE DAM: Encore!"
 	next = "MMCTF09"
 	clipmidtextures
 }
-
-////////////////////
-///// MML2BUB /////
-map MML2BUB "BUBBLE MAN: Legacy Encore!"
-{
-	next = "MME2AIR"
-	sky1 = "BLACK", 0
-	music = "LBUBMUS"
-	aircontrol = 0.5
-	UsePlayerStartZ
-}
-/*
-////////////////////
-///// MML9SPL /////
-map MML9SPL "SPLASH WOMAN: Legacy Encore!"
-{
-	next = "MME9MAG"
-	music = "ESPLMUS"
-	aircontrol = 0.5
-}
