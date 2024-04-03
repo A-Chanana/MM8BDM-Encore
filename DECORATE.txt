@@ -1,5 +1,3 @@
-#include "Actors/EncoreMapSupport.txt"
-
 #include "actors/Props/MME1/ecutman.txt"
 #include "actors/Props/MME1/egutsman.txt"
 #include "actors/Props/MME1/eelecman.txt"
@@ -56,7 +54,6 @@
 #include "actors/Props/MMEV/euranus.txt"
 #include "actors/Props/MMEV/evenus.txt"
 #include "actors/Props/MME/protoman.txt"
-#include "actors/Props/MME/autostage.txt"
 #include "actors/Props/MME/bondman.txt"
 #include "actors/Props/MMB2/clockmen.txt"
 #include "actors/Props/MMB2/bulletman.txt"
