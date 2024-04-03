@@ -303,13 +303,6 @@ Texture "PROPLNT1", 32, 64
 	Patch "PROPLNT1", 0, 0
 }
 
-Texture "TEXTURES", 32, 64
-{
-	XScale 0.500
-	YScale 0.500
-	Patch "TEXTURES/PROPLNT2.PNG", 0, 0
-}
-
 Texture "PROPLNT2", 32, 64
 {
 	XScale 0.500

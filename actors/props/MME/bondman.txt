@@ -32,7 +32,7 @@ States
 
 actor GlueDroppedFX
 {
-translation "198:198=4:4"
+translation "192:192=4:4", "198:198=86:86", "210:210=4:4"
 PROJECTILE
 damage 0
 +RIPPER

@@ -855,24 +855,11 @@ map MMB2BUL "BULLET MAN"
 ///// MMEPRO /////
 map MMEPRO "PROTO MAN"
 {
-	next = "MMEAUT"
+	next = "MMEBON"
 	sky1 = "BLACK", 0
 	music = "EPROINT"
 	aircontrol = 0.5
 	forcenoskystretch
-}
-
-
-map MMEAUT "AUTO'S SHOP"
-{
-	next = "MMEBON"
-	sky1 = "BLACK", 0
-	music = "AUTOMUS"
-	aircontrol = 0.5
-	forcenoskystretch
-	clipmidtextures
-	useplayerstartz
-	evenlighting
 }
 
 ////////////////////

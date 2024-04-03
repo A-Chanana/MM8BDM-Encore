@@ -68,7 +68,6 @@ $musicvolume WTDW4MUS 0.95
 //MME
 $musicvolume EPROMUS 2.0
 $musicvolume EPROINT 2.0
-$musicvolume AUTOMUS 0.9
 $musicvolume ESUNBOS 2.0
 //MMB2
 $musicvolume AICMUS 1.1

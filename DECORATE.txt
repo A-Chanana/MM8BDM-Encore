@@ -26,6 +26,7 @@
 #include "actors/Props/MME5/ecrystalman.txt"
 #include "actors/Props/MME5/egravityman.txt"
 #include "actors/Props/MME5/ewaveman.txt"
+#include "actors/Props/MME5/edarkman.txt"
 #include "actors/Props/MME6/etomahawkman.txt"
 #include "actors/Props/MME6/eknightman.txt"
 #include "actors/Props/MME6/eblizzardman.txt"

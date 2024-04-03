@@ -26,6 +26,7 @@ var int user_playerRiding[64];
 mass 99999999
 //ReactionTime 50
 var int user_countdown;
+var int user_noHazardRespawn;
 maxstepheight 0
 damagefactor "Normal", 1.0
 States

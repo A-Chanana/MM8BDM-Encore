@@ -1,0 +1,21 @@
+actor EProtomanProp 20521 //Actually Dark Man 4, but he's always disguised as Proto Man here.
+{
+//$Category MM8BDM-Props
+//$Arg0 Appears
+//$Arg0Enum { 0 = "No"; 1 = "Yes"; }
+//$Arg0Type 11
+Height 52
+Radius 16
+Translation "192:192=87:87", "198:198=42:42"
+scale 2.5
+states
+{
+Spawn:
+TNT1 A 3
+TNT1 A -1 A_JumpIf(args[0]==1, "Exists")
+stop
+Exists:
+PROM AAKK 5
+Loop
+}
+}
