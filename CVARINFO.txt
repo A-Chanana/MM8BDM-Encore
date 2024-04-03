@@ -1,15 +1,1 @@
 user bool enc_ogtextures = false; // Replaces Encore textures with vanilla textures
-
-
-server bool enc_autoshop_active = true; 
-//Blanket On/Off Switch for Auto Map Currency System (Will Require Map Restart)
-server bool enc_vendingmachine_etank_active = true; 
-//On/Off Switch for E-Tank Vending Machine (Will Require Map Restart)
-server bool enc_vendingmachine_mtank_active = true; 
-//On/Off Switch for M-Tank Vending Machine (Will Require Map Restart)
-server bool enc_vendingmachine_eddieweps_active = true; 
-//On/Off Switch for Eddie Weapons Vending Machine (Will Require Map Restart)
-server bool enc_dropnuts_active = true; 
-//On/Off Switch for Nut Drop System (Does NOT Require Map Restart)
-server bool enc_nutkill_active = true;
- //On/Off Switch for Nut Kill System (Does NOT Require Map Restart)
