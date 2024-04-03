@@ -1,48 +1,35 @@
-//-------------------------------------------------------------------------------------------
-//
-// The option menu
-//
-//-------------------------------------------------------------------------------------------
-
-OptionMenu "OptionsMenu"
+OptionMenu "8BDM_AccessibilitySettings"
 {
-	Title "OPTIONS"
-	// [Russ] These were moved to the main menu.
-	//Submenu "Multiplayer Options",		"ZA_MultiplayerOptions" // [TP]
-	//StaticText " " // [TP]
-	Submenu "Customize Controls",		"CustomizeControls"
-	Submenu "Mouse options",			"MouseOptions"
-	Submenu "Joystick options",			"JoystickOptions"
-	StaticText " "
-	Submenu "Message Options", 			"MessageOptions"
-	StaticText " "
-	Submenu "Sound Options",			"SoundOptions"
-	Submenu "Display Options",			"VideoOptions"
-	Submenu "Set video mode",			"VideoModeMenu"
-	Submenu "Advanced Options",			"8BDMAdvancedOptions"
-	
-	StaticText " "
-	
-	StaticText	"MM8BDM Options", 1
-	StaticText " "
-	Option "Display Health Number",			"mm8bdm_healthnumber", "OnOff"
-	Option "Display Ammo Number",			"mm8bdm_ammonumber", "OnOff"
-	Option "Pickup Weapon Colors",			"mm8bdm_noenergycolors", "OffOn"
-	Option "Show Critical Death Gibs",		"mm8bdm_enablegibs", "OnOff"
-	Option "Show Map Creator Cards",		"mm8bdm_mapcards", "8BDM_MapCards"
-	Option "CTF Objective Compass",			"mm8bdm_noctfradar", "OffOn"
-	
-	StaticText " "
-	
-	StaticText	"Music Preferences", 1
-	StaticText " "
-	Option "Tengu Man Stage",			"mm8bdm_music_tenguman", "MM8Music"
-	Option "Enker Stage",			"mm8bdm_music_enker", "MM10Music"
-	Option "Punk Stage",			"mm8bdm_music_punk", "MM10Music"
-	Option "Ballade Stage",			"mm8bdm_music_ballade", "MM10Music"
-	
-	StaticText " "
-	
+	Title "ACCESSIBILITY SETTINGS"
+
+	SubMenu 	"Auto-swap Settings",			"8BDM_AutoSwap"
+	StaticText 	" "
+	Option	   	"Allow screen bob",				"cl_viewbob", 					"YesNo"
+	Slider 		"Move bob intensity",			"movebob", 						0.0, 1.0, 0.1
+	Slider 		"Still bob intensity",			"stillbob", 					0.0, 1.0, 0.1
+	Option 		"Death camera",					"r_deathcamera", 				"OnOff"
+	Option 		"Teleporter zoom",				"telezoom", 					"OnOff"
+	StaticText  " "
+	Slider		"Chasecam height",				"chase_height",					-8.0, 40.0, 1.0 
+	Slider		"Chasecam distance",			"chase_dist",					90.0, 180.0, 1.0 
+	StaticText 	" "
+	Slider 		"Pain flash intensity",			"blood_fade_scalar",			0.0, 1.0, 0.05
+	Option 		"Show critical death gibs",		"mm8bdm_enablegibs", 			"OnOff"
+	StaticText 	" "
+	StaticText 	"Color Settings", 1  
+	SubMenu 	"Customize team colors",		"8BDM_ColorOptions"
+	Submenu 	"Customize automap colors",		"MapColorMenu"
+	SubMenu 	"Message Colors",				"8BDM_MessageColor"
+	StaticText 	" "
+	Option 		"Team colored projectiles",		"mm8bdm_projteamcolor", 		"OnOff"
+	Option 		"Pickups copy weapon color",	"mm8bdm_noenergycolors", 		"OffOn"
+	Option 		"Charge color flash on HUD",	"mm8bdm_usechargebars", 		"OnOff"
+	Option 		"Colors in chat",				"con_colorinmessages", 			"8BDM_ColorInMessages"
+	Option		"Railgun color",				"railcolor", 					"ZA_RailgunColors"
+	StaticText 	" "
+	Slider 		"Menu Dim Amount", 				"dimamount", 					0.0, 1.0, 0.05, 2
+	ColorPicker "Menu Dim Color", 				"dimcolor"
+	StaticText 	" "
 	StaticText	"Encore Preferences", 1
 	StaticText " "
 	Option "Encore map textures",			"enc_ogtextures", "OffOn"
