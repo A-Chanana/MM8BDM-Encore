@@ -2,7 +2,7 @@
 #include "ZCommon.acs"
 #include "ENCTXTR.acs"
 
-#DEFINE ENC_MAXTEXTUREMAPS 19
+#DEFINE ENC_MAXTEXTUREMAPS 26
 str enc_texturemaps[ENC_MAXTEXTUREMAPS] = 
 {
 "MME1CUT",
@@ -22,7 +22,14 @@ str enc_texturemaps[ENC_MAXTEXTUREMAPS] =
 "MME2DW1",
 "MME2DW2",
 "MME2DW3",
+"MME3TOP",
 "MME3NEE",
+"MME3HAR",
+"MME3GEM",
+"MME3MAG",
+"MME3SPA",
+"MME4PHA",
+"MME4DIV",
 "MME10CHI"
 };
 
@@ -338,6 +345,7 @@ defineTextureReplace("EWMROO1","WMROO1");
 defineTextureReplace("EWMROO2","WMROO2");
 }
 
+
 // Mega Man 2 /////////////////////////////////////////
 Script "encore_texreplace_MME2AIR" (Void)
 {
@@ -584,9 +592,51 @@ defineTextureReplace("E2DW3SK3","BLACKR3");
 defineTextureReplace("E2DW3SK4","BLACKR4");
 }
 
+
 // Mega Man 3 /////////////////////////////////////////
-Script "encore_texreplace_MME3SNA" (Void)
+Script "encore_texreplace_MME3TOP" (Void)
 {
+defineTextureReplace("ETOBAR","TOPBAR");
+defineTextureReplace("ETOCEIL","TOPCEIL");
+defineTextureReplace("ETOCOR1","TOPCOR1");
+defineTextureReplace("ETOCOR2","TOPCOR2");
+defineTextureReplace("ETOCOR3","TOPCOR3");
+defineTextureReplace("ETOCOR4","TOPCOR4");
+defineTextureReplace("ETOCRK1","TOPCRCK1");
+defineTextureReplace("ETOCRK2","TOPCRCK2");
+defineTextureReplace("ETOCRK3","TOPCRCK3");
+defineTextureReplace("ETOCRK4","TOPCRCK4");
+defineTextureReplace("ETOFLR","TOPFLR");
+defineTextureReplace("ETOGRA1","TOPGRA1");
+defineTextureReplace("ETOGRA10","TOPGRA10");
+defineTextureReplace("ETOGRA11","TOPGRA11");
+defineTextureReplace("ETOGRA12","TOPGRA12");
+defineTextureReplace("ETOGRA13","TOPGRA13");
+defineTextureReplace("ETOGRA14","TOPGRA14");
+defineTextureReplace("ETOGRA15","TOPGRA15");
+defineTextureReplace("ETOGRA16","TOPGRA16");
+defineTextureReplace("ETOGRA2","TOPGRA2");
+defineTextureReplace("ETOGRA3","TOPGRA3");
+defineTextureReplace("ETOGRA4","TOPGRA4");
+defineTextureReplace("ETOGRA5","TOPGRA5");
+defineTextureReplace("ETOGRA65","TOPGRA65");
+defineTextureReplace("ETOINT1","TOPINT1");
+defineTextureReplace("ETOINT2","TOPINT2");
+defineTextureReplace("ETOLADR","TOPLADR");
+defineTextureReplace("ETOLIT","TOPLIT");
+defineTextureReplace("ETOLITS","TOPLITS");
+defineTextureReplace("ETOMET1","TOPMET1");
+defineTextureReplace("ETOMET2","TOPMET2");
+defineTextureReplace("ETOMET3","TOPMET3");
+defineTextureReplace("ETOMET4","TOPMET4");
+defineTextureReplace("ETOMET5","TOPMET5");
+defineTextureReplace("ETOMET6","TOPMET6");
+defineTextureReplace("ETOMET7","TOPMET7");
+defineTextureReplace("ETOMET8","TOPMET8");
+defineTextureReplace("ETOSKY","TOPSKY");
+defineTextureReplace("ETOSKY1","TOPSKY1");
+defineTextureReplace("ETOSKY2","TOPSKY2");
+defineTextureReplace("ETOSKY3","TOPSKY3");
 }
 
 Script "encore_texreplace_MME3NEE" (Void)
@@ -638,6 +688,247 @@ defineTextureReplace("ENEDWHI","WHITE");
 defineTextureReplace("ENEDWIR","NEEDWIR");
 }
 
+Script "encore_texreplace_MME3HAR" (Void)
+{
+defineTextureReplace("EHRDRO1","HARDRO1");
+defineTextureReplace("EHRDRO2","HARDRO2");
+defineTextureReplace("EHRDRO3","HARDRO3");
+defineTextureReplace("EHRDRO4","HARDRO4");
+defineTextureReplace("EHRDRO5","HARDRO5");
+defineTextureReplace("EHRDRO6","HARDRO6");
+defineTextureReplace("EHRDRO7","HARDRO7");
+defineTextureReplace("EHRDRO8","HARDRO8");
+defineTextureReplace("EHRDRO9","HARDRO9");
+defineTextureReplace("EHRDSNW","HARDSNW");
+defineTextureReplace("EHRDSNW2","HARDSNW2");
+defineTextureReplace("EHRDME1","HARDME1");
+defineTextureReplace("EHRDME2","HARDME2");
+defineTextureReplace("EHRDRM1","HARDRM1");
+defineTextureReplace("EHRDRM2","HARDRM2");
+defineTextureReplace("EHRDRM3","HARDRM3");
+defineTextureReplace("EHRDRM4","HARDRM4");
+defineTextureReplace("EHRDLDR","HARDLDR");
+defineTextureReplace("EHRDTR1","HARDTR1");
+defineTextureReplace("EHRDTR2","HARDTR2");
+defineTextureReplace("EHRDTR3","HARDTR3");
+defineTextureReplace("EHRDSKY","HARDSKY");
+defineTextureReplace("EHRDSKY2","WHITE");
+}
+
+Script "encore_texreplace_MME3GEM" (Void)
+{
+defineTextureReplace("EGEWALL","GEMWALL");
+defineTextureReplace("EGEICE1","GEMICE1");
+defineTextureReplace("EGEICE2","GEMICE2");
+defineTextureReplace("EGECEL1X","GEMCEL1X");
+defineTextureReplace("EGECEL1","GEMCEL1");
+defineTextureReplace("EGECEL2","GEMCEL2");
+defineTextureReplace("EGECEL3","GEMCEL3");
+defineTextureReplace("EGECEL4X","GEMCEL4X");
+defineTextureReplace("EGECEL4","GEMCEL4");
+defineTextureReplace("EGECEL5","GEMCEL5");
+defineTextureReplace("EGECEL6","GEMCEL6");
+defineTextureReplace("EGEFLR1","GEMFLR1");
+defineTextureReplace("EGEFLR1W","GEMFLR1W");
+defineTextureReplace("EGEFLR2","GEMFLR2");
+defineTextureReplace("EGEWALB","GEMWALB");
+defineTextureReplace("EGEFLR3","GEMFLR3");
+defineTextureReplace("EGEFLR3W","GEMFLR3W");
+}
+
+Script "encore_texreplace_MME3MAG" (Void)
+{
+defineTextureReplace("EMAWIR1","MAGWIR1");
+defineTextureReplace("EMAWIR2","MAGWIR2");
+defineTextureReplace("EMAWIR3","MAGWIR3");
+defineTextureReplace("EMAWIR4","MAGWIR4");
+defineTextureReplace("EMAWIR5","MAGWIR5");
+defineTextureReplace("EMAINT1","MAGINT1");
+defineTextureReplace("EMAINT2","MAGINT2");
+defineTextureReplace("EMAINT3","MAGINT3");
+defineTextureReplace("EMAMACH","MAGMACH");
+defineTextureReplace("EMASTE1","MAGSTE1");
+defineTextureReplace("EMASTE2","MAGSTE2");
+defineTextureReplace("EMASTE3","MAGSTE3");
+defineTextureReplace("EMALADR","MAGLADR");
+defineTextureReplace("EMASKY","MAGSKY");
+defineTextureReplace("EMASKYB","MAGSKYB");
+defineTextureReplace("EMAFLR1","MAGFLR1");
+defineTextureReplace("EMAFLR2","MAGFLR2");
+defineTextureReplace("EMAFLR3","MAGFLR3");
+defineTextureReplace("EMAFLR4","MAGFLR4");
+defineTextureReplace("EMAFLR5","MAGFLR5");
+defineTextureReplace("EMAFLR6","MAGFLR6");
+defineTextureReplace("EMAFLR7","MAGFLR7");
+defineTextureReplace("EMAFLR8","MAGFLR8");
+defineTextureReplace("EMAFLR9","MAGFLR9");
+defineTextureReplace("EMAFLR10","MAGFLR10");
+defineTextureReplace("EMAFLR11","MAGFLR11");
+defineTextureReplace("EMASMILE","MAGSMILE");
+}
+
+Script "encore_texreplace_MME3SPA" (Void)
+{
+defineTextureReplace("ESPMET1X","SPAMET1X");
+defineTextureReplace("ESPMET3X","SPAMET3X");
+defineTextureReplace("ESPMET5X","SPAMET5X");
+defineTextureReplace("ESPSIGX1","SPASIGX1");
+defineTextureReplace("ESPSIGX3","SPASIGX3");
+defineTextureReplace("ESPSIGX5","SPASIGX5");
+defineTextureReplace("ESPWIR1","SPAWIR1");
+defineTextureReplace("ESPWIR2","SPAWIR2");
+defineTextureReplace("ESPWIR3","SPAWIR3");
+defineTextureReplace("ESPJUNK","SPAJUNK");
+defineTextureReplace("ESPTUBE","SPATUBE");
+defineTextureReplace("ESPMAC1X","SPAMAC1X");
+defineTextureReplace("ESPPOLE","SPAPOLE");
+defineTextureReplace("ESPLDR","SPALDR");
+defineTextureReplace("ESPFL1X","SPAFL1X");
+defineTextureReplace("ESPFL3X","SPAFL3X");
+defineTextureReplace("ESPFL5X","SPAFL5X");
+defineTextureReplace("ESPFL7X","SPAFL7X");
+defineTextureReplace("ESPFL9X","SPAFL9X");
+defineTextureReplace("ESPFL11X","SPAFL11X");
+defineTextureReplace("ESPFL13","SPAFL13");
+defineTextureReplace("ESPFL14","SPAFL14");
+defineTextureReplace("ESPFL15","SPAFL15");
+defineTextureReplace("ESPFL16X","SPAFL16X");
+defineTextureReplace("ESPFL18X","SPAFL18X");
+defineTextureReplace("ESPFL20","SPAFL20");
+defineTextureReplace("ESPFL21","SPAFL21");
+defineTextureReplace("ESPFL22","SPAFL22");
+defineTextureReplace("ESPFL23","SPAFL23");
+}
+
+
+// Mega Man 4 /////////////////////////////////////////
+Script "encore_texreplace_MME4PHA" (Void)
+{
+defineTextureReplace("EPHAWAL1","PHAWAL1");
+defineTextureReplace("EPHAWAL2","PHAWAL2");
+defineTextureReplace("EPHAWAL3","PHAWAL3");
+defineTextureReplace("EPHAWAL4","PHAWAL4");
+defineTextureReplace("EPHAWAL5","PHAWAL5");
+defineTextureReplace("EPHAWAL6","PHAWAL6");
+defineTextureReplace("EPHAMET1","PHAMET1");
+defineTextureReplace("EPHAMET2","PHAMET2");
+defineTextureReplace("EPHABRK1","PHABRK1");
+defineTextureReplace("EPHABRK2","PHABRK2");
+defineTextureReplace("EPHAYASH","PHAYASHI");
+defineTextureReplace("EPHABRK3","PHABRK3F");
+defineTextureReplace("EPHABRK4","PHABRK4F");
+defineTextureReplace("EPHAFLR1","PHAFLR1");
+defineTextureReplace("EPHAFLR2","PHAFLR2");
+defineTextureReplace("EPHAFLR3","PHAFLR3");
+defineTextureReplace("EPHAFLR4","PHAFLR4");
+defineTextureReplace("EPHAFLR5","PHAFLR5");
+defineTextureReplace("EPHAFLR6","PHAFLR6");
+defineTextureReplace("EPTORCH1","PTORCH");
+defineTextureReplace("EPTORCH2","PTORCH2");
+defineTextureReplace("EPHATWL1","PHATWL1");
+defineTextureReplace("EPHATWL2","PHATWL2");
+defineTextureReplace("EPHATWL3","PHATWL3");
+defineTextureReplace("EPHATWL4","PHATWL4");
+defineTextureReplace("EPSANDY","PSANDY");
+defineTextureReplace("EPHASKY","PHASKY");
+defineTextureReplace("EPHALDR","PHALDR");
+defineTextureReplace("EPHAFEN1","PHAFEN1");
+defineTextureReplace("EPHAFEN2","PHAFEN2");
+defineTextureReplace("ETELEFL","TELEFL");
+defineTextureReplace("ETELEP1","TELEP2");
+}
+
+Script "encore_texreplace_MME4DIV" (Void)
+{
+defineTextureReplace("EDIVGR1","DIVEGR1");
+defineTextureReplace("EDIVPI1","DIVEPI1");
+defineTextureReplace("EDIVPI2","DIVEPI2");
+defineTextureReplace("EDIVPI3","DIVEPI3");
+defineTextureReplace("EDIVPX4","DIVEPX4");
+defineTextureReplace("EDIVPI6","DIVEPI6");
+defineTextureReplace("EDIVPI7","DIVEPI7");
+defineTextureReplace("EDIVPI8","DIVEPI8");
+defineTextureReplace("EDIVPI9","DIVEPI9");
+defineTextureReplace("EDIVPI10","DIVEPI10");
+defineTextureReplace("EDIVPI11","DIVEPI11");
+defineTextureReplace("EDIVPI12","DIVEPI12");
+defineTextureReplace("EDIVGX2","DIVEGX2");
+defineTextureReplace("EDIVGR4","DIVEGR4");
+defineTextureReplace("EDIVGX5","DIVEGX5");
+defineTextureReplace("EDIVGR7","DIVEGR7");
+defineTextureReplace("EDIVCHA","DIVECHA");
+defineTextureReplace("EDIVPR1","DIVEPR1");
+defineTextureReplace("EDIVSEA","DIVESEA");
+defineTextureReplace("EDIVSKY","DIVESKY");
+defineTextureReplace("EDIVPI13","DIVEPI13");
+defineTextureReplace("EDIVPI14","DIVEPI14");
+defineTextureReplace("EDIVPI15","DIVEPI15");
+defineTextureReplace("EDIVPI16","DIVEPI16");
+defineTextureReplace("EDIVPI17","DIVEPI17");
+defineTextureReplace("EDIVPI18","DIVEPI18");
+defineTextureReplace("EDIVPX19","DIVEPX19");
+defineTextureReplace("EDIVPIX1","DIVEPIX1");
+defineTextureReplace("EDIVPX21","DIVEPX21");
+defineTextureReplace("EDIVPI23","DIVEPI23");
+defineTextureReplace("EDIVPI24","DIVEPI24");
+defineTextureReplace("EDIVGR8","DIVEGR8");
+defineTextureReplace("EDWATER","DWATER");
+defineTextureReplace("EDIVGR9","DIVEGR9");
+defineTextureReplace("EDIVFLR","DIVEFLR");
+defineTextureReplace("EDIVPI25","DIVEPI25");
+defineTextureReplace("EDIVGR1X","DIVEGR1X");
+defineTextureReplace("EDIVPI1X","DIVEPI1X");
+defineTextureReplace("EDIVPI2X","DIVEPI2X");
+defineTextureReplace("EDIVPI3X","DIVEPI3X");
+defineTextureReplace("EDIVPI4X","DIVEPI4X");
+defineTextureReplace("EDIVPI6X","DIVEPI6X");
+defineTextureReplace("EDIVPI7X","DIVEPI7X");
+defineTextureReplace("EDIVPI8X","DIVEPI8X");
+defineTextureReplace("EDIVPI9X","DIVEPI9X");
+defineTextureReplace("EDVPI10X","DIVPI10X");
+defineTextureReplace("EDVPI11X","DIVPI11X");
+defineTextureReplace("EDVPI12X","DIVPI12X");
+defineTextureReplace("EDIVGX2X","DIVEGX2X");
+defineTextureReplace("EDIVGR4X","DIVEGR4X");
+defineTextureReplace("EDIVGX5X","DIVEGX5X");
+defineTextureReplace("EDIVGR7X","DIVEGR7X");
+defineTextureReplace("EDIVCHAX","DIVECHAX");
+defineTextureReplace("EDVPI13X","DIVPI13X");
+defineTextureReplace("EDVPI14X","DIVPI14X");
+defineTextureReplace("EDVPI15X","DIVPI15X");
+defineTextureReplace("EDVPI16X","DIVPI16X");
+defineTextureReplace("EDVPI17X","DIVPI17X");
+defineTextureReplace("EDVPI18X","DIVPI18X");
+defineTextureReplace("EDVPX19X","DIVPX19X");
+defineTextureReplace("EDVPIX1X","DIVPIX1X");
+defineTextureReplace("EDVPX21X","DIVPX21X");
+defineTextureReplace("EDVPI23X","DIVPI23X");
+defineTextureReplace("EDVPI24X","DIVPI24X");
+defineTextureReplace("EDIVGR8X","DIVEGR8X");
+defineTextureReplace("EDIVGR9X","DIVEGR9X");
+defineTextureReplace("EDIVFLRX","DIVEFLRX");
+defineTextureReplace("EDVPI25X","DIVPI25X");
+defineTextureReplace("EDIVLDR","DIVELDR");
+defineTextureReplace("EDIVLDR2","DIVELDR2");
+defineTextureReplace("EDIVPFLR","DIVEPFLR");
+defineTextureReplace("EDIVPR2","DIVEPR2");
+defineTextureReplace("EDIVPR3","DIVEPR3");
+defineTextureReplace("EDIVFLR2","DIVEFLR2");
+defineTextureReplace("EDIVFL2X","DIVEFL2X");
+defineTextureReplace("EDIVPFL2","DIVEPFL2");
+defineTextureReplace("EDIVSKY2","WHITE");
+defineTextureReplace("EDIVSKY3","BOMSKY");
+defineTextureReplace("EDIVSKY4","BUBBWTR");
+}
+
+
+// Mega Man 5 /////////////////////////////////////////
+Script "encore_texreplace_MME5CHA" (Void)
+{
+}
+
+
+// Mega Man 10 ////////////////////////////////////////
 Script "encore_texreplace_MME10CHI" (Void)
 {
 defineTextureReplace("ECHISKY1","CHISKY1");
