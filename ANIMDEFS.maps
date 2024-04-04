@@ -301,7 +301,7 @@ texture EQUICK17
     pic EQUICK17 tics 6
 	pic EQUICK4 tics 6
 	
-texture QUICK17
+texture EQUICK18
     allowdecals
     pic QUICK4 tics 6
 	pic BLACK tics 6

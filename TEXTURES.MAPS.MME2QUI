@@ -268,7 +268,7 @@ texture EQUICK17, 32, 32
    WorldPanning 
 }
 
-texture QUICK17, 32, 32
+texture EQUICK18, 32, 32
 {
    XScale 0.5
    YScale 0.5
