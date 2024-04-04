@@ -2,7 +2,7 @@
 #include "ZCommon.acs"
 #include "ENCTXTR.acs"
 
-#DEFINE ENC_MAXTEXTUREMAPS 26
+#DEFINE ENC_MAXTEXTUREMAPS 28
 str enc_texturemaps[ENC_MAXTEXTUREMAPS] = 
 {
 "MME1CUT",
@@ -30,6 +30,8 @@ str enc_texturemaps[ENC_MAXTEXTUREMAPS] =
 "MME3SPA",
 "MME4PHA",
 "MME4DIV",
+"MME8AST",
+"MME9GAL",
 "MME10CHI"
 };
 
@@ -922,9 +924,78 @@ defineTextureReplace("EDIVSKY4","BUBBWTR");
 }
 
 
-// Mega Man 5 /////////////////////////////////////////
-Script "encore_texreplace_MME5CHA" (Void)
+// Mega Man 8 /////////////////////////////////////////
+Script "encore_texreplace_MME8AST" (Void)
 {
+defineTextureReplace("EASTSKY","ASTSKY");
+defineTextureReplace("EASTPUR1","ASTPUR1");
+defineTextureReplace("EASTPUR2","ASTPUR2");
+defineTextureReplace("EASTBG1","ASTBG1");
+defineTextureReplace("EASTBG2","ASTBG2");
+defineTextureReplace("EASTBG3","ASTBG3");
+defineTextureReplace("EASTBG4","ASTBG4");
+defineTextureReplace("EASTBGX","ASTBGX");
+defineTextureReplace("EASTFLR1","ASTFLR1");
+defineTextureReplace("EASTFLR2","ASTFLR2");
+defineTextureReplace("EASTFLR3","ASTFLR3");
+defineTextureReplace("EASTFLR4","ASTFLR4");
+defineTextureReplace("EASTFLR5","ASTFLR5");
+defineTextureReplace("EASTFLRS","ASTFLRS");
+defineTextureReplace("EASTWAL1","ASTWAL1");
+defineTextureReplace("EASTWAL2","ASTWAL2");
+defineTextureReplace("EASTWAL3","ASTWAL3");
+defineTextureReplace("EASTWAL4","ASTWAL4");
+defineTextureReplace("EASTWAL5","ASTWAL5");
+defineTextureReplace("EASTWAL6","ASTWAL6");
+defineTextureReplace("EASTWAL7","ASTWAL7");
+defineTextureReplace("EASTWAL8","ASTWAL8");
+defineTextureReplace("EASTWAL9","ASTWAL9");
+defineTextureReplace("EASTWALS","ASTWALS");
+defineTextureReplace("EASTBRK1","ASTBRCK1");
+defineTextureReplace("EASTBRK2","ASTBRCK2");
+defineTextureReplace("EASTLDRX","ASTLDRX");
+defineTextureReplace("EASTCIL1","ASTCIEL1");
+defineTextureReplace("EASTCIL2","ASTCIEL2");
+defineTextureReplace("EASTCIL3","ASTCIEL3");
+defineTextureReplace("EASTCIL4","ASTCIEL4");
+defineTextureReplace("EASTCIL5","ASTCIEL5");
+defineTextureReplace("EASTSNDX","ASTSNDX");
+}
+
+
+// Mega Man 9 /////////////////////////////////////////
+Script "encore_texreplace_MME9GAL" (Void)
+{
+defineTextureReplace("EGAPLAT1","GALPLAT1");
+defineTextureReplace("EGAWAL1","GALWAL1");
+defineTextureReplace("EGAPIL1","GALPIL1");
+defineTextureReplace("EGAPIL2","GALPIL2");
+defineTextureReplace("EGAPIL3","GALPIL3");
+defineTextureReplace("EGAPIL4","GALPIL4");
+defineTextureReplace("EGASTP1","GALSTP1");
+defineTextureReplace("EGASTP2","GALSTP2");
+defineTextureReplace("EGALIGHT","GALLIGHT");
+defineTextureReplace("EGAGLAS","GALGLAS");
+defineTextureReplace("EGAFLR1","GALFLR1");
+defineTextureReplace("EGAFLR2","GALFLR2");
+defineTextureReplace("EGAFLR3","GALFLR3");
+defineTextureReplace("EGAFLR4","GALFLR4");
+defineTextureReplace("EGAFLR5","GALFLR5");
+defineTextureReplace("EGAFLR6","GALFLR6");
+defineTextureReplace("EGAFLR7","GALFLR7");
+defineTextureReplace("EGAFLR8","GALFLR8");
+defineTextureReplace("EGAFLR13","GALFLR13");
+defineTextureReplace("EGAFLR14","GALFLR14");
+defineTextureReplace("EGALAD","GALLAD");
+defineTextureReplace("EGADOR","GALDOR");
+defineTextureReplace("EGAINT1S","GALINT1S");
+defineTextureReplace("EGAINT1L","GALINT1L");
+defineTextureReplace("EGAINT2S","GALINT2S");
+defineTextureReplace("EGAINT2M","GALINT2M");
+defineTextureReplace("EGAINT2L","GALINT2L");
+defineTextureReplace("EGAINT3S","GALINT3S");
+defineTextureReplace("EGAINT3M","GALINT3M");
+defineTextureReplace("EGAINT3L","GALINT3L");
 }
 
 
