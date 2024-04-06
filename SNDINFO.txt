@@ -8,6 +8,8 @@ encore/sheepcloudshot	S_M2B3-2
 encore/lightningstrike	E10DW1LG
 	$volume encore/lightningstrike 0.6
 encore/spacesplash	ECLIPGWH
+encore/slimeblockhit ACIDHURT
+encore/slimeblockdestroy BLIZPICK
 
 //MM1
 $musicvolume EGUTMUS 1.1
