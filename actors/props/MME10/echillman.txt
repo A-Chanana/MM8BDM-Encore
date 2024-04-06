@@ -26,6 +26,8 @@ Translation "4:4=38:38", "197:197=3:3"
 actor EncoreChillIceCube : ChillIceCube 28498
 {
 Translation "74:74=3:3", "197:197=38:38", "196:196=34:34", "200:205=39:39", "69:69=36:36"
+-DONTRIP
+-NORADIUSDMG
 //$Category MM8BDME-Interactive Props
 //$Arg0 Breakage
 //$Arg0Enum { 0 = "Whole"; 1 = "Broken"; }
@@ -42,6 +44,7 @@ Translation "74:74=3:3", "197:197=38:38", "196:196=34:34", "200:205=39:39", "69:
 	Spawn2:
 		CHIC B 50
 		CHIC B 0 A_SpawnItemEx("EncoreChillBlockDetect", 0, 0, 64)
+	goto SpawnLoop2
 	SpawnLoop2:
 		CHIC B 6 A_JumpIfInventory("EncoreChillBlockFlag", 1, "Pain")
 		loop
@@ -50,11 +53,13 @@ Translation "74:74=3:3", "197:197=38:38", "196:196=34:34", "200:205=39:39", "69:
 		CHIC A 0 A_PlaySound("weapon/ChillBlockCrack",1,0.5)
 		CHIC A 1 A_GiveInventory("CutterFlag", 1)
 		CHIC A 0 A_TakeInventory("EncoreChillBlockFlag", 1)
-		Goto Spawn2
+		goto Spawn2
 	Broken:
 		TNT1 A 0 A_ChangeFlag("SHOOTABLE", 0)
 		TNT1 AAAAA 0 A_SpawnItemEx("ChillIceCubeShard",0,0,0,random(1,5),random(-10,10),random(8,12),random(-5,5),1) 
 		TNT1 A 0 A_PlaySound("weapon/ChillBlockBreak",1,0.5)
+		TNT1 A 1 A_Jump(256,"Respawning")
+		wait
 	Respawning: 
 		TNT1 A 280 A_ChangeFlag("SOLID", 0)
 		TNT1 A 90 A_SpawnItemEX("ChillIceCubeRespawnFX",0,0,0,0,0,0,0,1)
@@ -137,14 +142,34 @@ Translation "74:74=132:132","197:197=127:127","196:196=109:109","200:205=127:127
 		CHIC A 0 A_PlaySound("encore/slimeblockhit",1,1.0)
 		CHIC A 1 A_GiveInventory("CutterFlag",1)
 		CHIC A 0 A_TakeInventory("EncoreChillBlockFlag",1)
-		Goto Spawn2
+		goto Spawn2
 	Broken:
 		TNT1 A 0 A_ChangeFlag("SHOOTABLE",0)
 		TNT1 AAAA 0 A_SpawnItemEx("EncoreAstroSlimeShard",0,0,0,random(1,5),random(-10,10),random(8,12),random(-5,5)) 
 		TNT1 A 0 A_PlaySound("encore/slimeblockdestroy",1,1.0)
-		goto Respawning
+		TNT1 A 1 A_Jump(256,"Respawning")
+		wait
+	Respawning: 
+		TNT1 A 280 A_ChangeFlag("SOLID", 0)
+		TNT1 A 90 A_SpawnItemEX("ChillIceCubeRespawnFX",0,0,0,0,0,0,0,1)
+		TNT1 A 1 A_SpawnItemEx("EncoreAstroSlimeCubeRespawnCheck")
+		TNT1 A 0 A_JumpIfInventory("BossHealth2", 1, "Respawned")
+		loop
 	}
 }
+
+actor EncoreAstroSlimeCubeRespawnCheck : ChillIceCubeRespawnCheck
+{
+States
+{
+	Death:
+	TNT1 A 0 A_SpawnItemEx("EncoreAstroSlimeCubeRespawnDamager")
+	TNT1 AAAA 0 A_SpawnItemEx("EncoreAstroSlimeShard",0,0,0,random(1,5),random(-10,10),random(8,12),random(-5,5)) 
+	stop	
+}
+}
+
+actor EncoreAstroSlimeCubeRespawnDamager : ChillIceCubeRespawnDamager {Damagetype "SlimeTag"}
 
 actor EncoreAstroSlimeShard : ChillIceCubeShard
 {
