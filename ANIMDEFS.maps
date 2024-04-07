@@ -2198,98 +2198,106 @@ texture E9W4MACH
 texture ECHIIC1X
     allowdecals
     pic ECHIIC1A tics 105
-    pic ECHIIC1B tics 6
+	pic ECHIIC1B tics 6
 	pic ECHIIC1C tics 6
 	pic ECHIIC1D tics 6
-	pic ECHIIC1E tics 6
+	pic ECHIIC1B tics 6
 	
 texture ECHIIC2X
     allowdecals
     pic ECHIIC2A tics 105
-    pic ECHIIC2B tics 6
+	pic ECHIIC2B tics 6
 	pic ECHIIC2C tics 6
 	pic ECHIIC2D tics 6
-	pic ECHIIC2E tics 6
+	pic ECHIIC2B tics 6
 	
 texture ECHIIC3X
     allowdecals
     pic ECHIIC3A tics 105
-    pic ECHIIC3B tics 6
+	pic ECHIIC3B tics 6
 	pic ECHIIC3C tics 6
 	pic ECHIIC3D tics 6
-	pic ECHIIC3E tics 6
+	pic ECHIIC3B tics 6
 
 texture ECHIIC4X
     allowdecals
     pic ECHIIC4A tics 105
-    pic ECHIIC4B tics 6
+	pic ECHIIC4B tics 6
 	pic ECHIIC4C tics 6
 	pic ECHIIC4D tics 6
-	pic ECHIIC4E tics 6
+	pic ECHIIC4B tics 6
 
 texture ECHIIC5X
     allowdecals
     pic ECHIIC5A tics 105
-    pic ECHIIC5B tics 6
+	pic ECHIIC5B tics 6
 	pic ECHIIC5C tics 6
 	pic ECHIIC5D tics 6
-	pic ECHIIC5E tics 6
+	pic ECHIIC5B tics 6
 
 texture ECHIIC6X
     allowdecals
     pic ECHIIC6A tics 105
-    pic ECHIIC6B tics 6
+	pic ECHIIC6B tics 6
 	pic ECHIIC6C tics 6
 	pic ECHIIC6D tics 6
-	pic ECHIIC6E tics 6
+	pic ECHIIC6B tics 6
 
 texture ECHIIC7X
     allowdecals
     pic ECHIIC7A tics 105
-    pic ECHIIC7B tics 6
+	pic ECHIIC7B tics 6
 	pic ECHIIC7C tics 6
 	pic ECHIIC7D tics 6
-	pic ECHIIC7E tics 6
+	pic ECHIIC7B tics 6
+	
+texture ECHIIC8X
+    allowdecals
+    pic ECHIIC8A tics 105
+    pic ECHIIC8B tics 6
+	pic ECHIIC8C tics 6
+	pic ECHIIC8D tics 6
+    pic ECHIIC8B tics 6
 	
 texture ECHIIC6X
     allowdecals
     pic ECHIIC6A tics 105
-    pic ECHIIC6B tics 6
+	pic ECHIIC6B tics 6
 	pic ECHIIC6C tics 6
 	pic ECHIIC6D tics 6
-	pic ECHIIC6E tics 6
+	pic ECHIIC6B tics 6
 
 texture ECHIFL3X
     allowdecals
     pic ECHIFL3A tics 105
-    pic ECHIFL3B tics 6
+	pic ECHIFL3B tics 6
 	pic ECHIFL3C tics 6
 	pic ECHIFL3D tics 6
-	pic ECHIFL3E tics 6
-	
+	pic ECHIFL3B tics 6
+	/*
 texture ECHIFL4
     allowdecals
     pic ECHIFL4A tics 105
-    pic ECHIFL4B tics 6
+	pic ECHIFL4B tics 6
 	pic ECHIFL4C tics 6
 	pic ECHIFL4D tics 6
-	pic ECHIFL4E tics 6
-	
+	pic ECHIFL4B tics 6
+	*/
 texture ECHILDRX
     allowdecals
     pic ECHILDRA tics 105
-    pic ECHILDRB tics 6
+	pic ECHILDRB tics 6
 	pic ECHILDRC tics 6
 	pic ECHILDRD tics 6
-	pic ECHILDRE tics 6
+	pic ECHILDRB tics 6
 	
 texture ECHIDORX
     allowdecals
     pic ECHIDORA tics 105
-    pic ECHIDORB tics 6
+	pic ECHIDORB tics 6
 	pic ECHIDORC tics 6
 	pic ECHIDORD tics 6
-	pic ECHIDORE tics 6
+	pic ECHIDORB tics 6
 
 ////////////////////
 ///// MME10SHE /////

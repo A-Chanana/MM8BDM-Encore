@@ -2000,10 +2000,10 @@ Texture "ECHIIC8B", 128, 256
 	Patch "ECHI07B", 96, 128
 	Patch "ECHI07B", 96, 176
 	Patch "ECHI07B", 96, 224
-	Patch "ECHI74B", 0, 0
-	Patch "ECHI74B", 32, 0
-	Patch "ECHI74B", 64, 0
-	Patch "ECHI74B", 96, 0
+	Patch "ECHI74A", 0, 0
+	Patch "ECHI74A", 32, 0
+	Patch "ECHI74A", 64, 0
+	Patch "ECHI74A", 96, 0
 }
 
 Texture "ECHIIC8C", 128, 256
@@ -2071,10 +2071,10 @@ Texture "ECHIIC8C", 128, 256
 	Patch "ECHI07C", 96, 128
 	Patch "ECHI07C", 96, 176
 	Patch "ECHI07C", 96, 224
-	Patch "ECHI74C", 0, 0
-	Patch "ECHI74C", 32, 0
-	Patch "ECHI74C", 64, 0
-	Patch "ECHI74C", 96, 0
+	Patch "ECHI74A", 0, 0
+	Patch "ECHI74A", 32, 0
+	Patch "ECHI74A", 64, 0
+	Patch "ECHI74A", 96, 0
 }
 
 Texture "ECHIIC8D", 128, 256
@@ -2142,10 +2142,10 @@ Texture "ECHIIC8D", 128, 256
 	Patch "ECHI07D", 96, 128
 	Patch "ECHI07D", 96, 176
 	Patch "ECHI07D", 96, 224
-	Patch "ECHI74D", 0, 0
-	Patch "ECHI74D", 32, 0
-	Patch "ECHI74D", 64, 0
-	Patch "ECHI74D", 96, 0
+	Patch "ECHI74A", 0, 0
+	Patch "ECHI74A", 32, 0
+	Patch "ECHI74A", 64, 0
+	Patch "ECHI74A", 96, 0
 }
 
 Texture "ECHIIC8E", 128, 256
@@ -2213,10 +2213,10 @@ Texture "ECHIIC8E", 128, 256
 	Patch "ECHI07E", 96, 128
 	Patch "ECHI07E", 96, 176
 	Patch "ECHI07E", 96, 224
-	Patch "ECHI74E", 0, 0
-	Patch "ECHI74E", 32, 0
-	Patch "ECHI74E", 64, 0
-	Patch "ECHI74E", 96, 0
+	Patch "ECHI74A", 0, 0
+	Patch "ECHI74A", 32, 0
+	Patch "ECHI74A", 64, 0
+	Patch "ECHI74A", 96, 0
 }
 
 Texture "ECHIWL01", 128, 256
