@@ -1,7 +1,7 @@
 actor EncoreKaonaGeeno : KaonaGeeno 28497
 {
 //$Category MM8BDME-Props
-Translation "4:4=38:38", "197:197=3:3"
+Translation "4:4=32:32", "197:197=206:206"
 States
 {
 Spawn:
@@ -19,7 +19,7 @@ Goto Spawn
 
 actor EncoreKaonaGeenoHead : KaonaGeenoHead
 {
-Translation "4:4=38:38", "197:197=3:3"
+Translation "4:4=32:32", "197:197=206:206"
 }
 
 
@@ -121,11 +121,6 @@ actor EncoreChillBlockFlag : Inventory
 {
 	inventory.amount 1
 	inventory.maxamount 1
-}
-
-actor EncoreChillIceCubeRespawnFX : ChillIceCubeRespawnFX
-{
-Translation "74:74=3:3", "197:197=38:38", "196:196=34:34"
 }
 
 actor EncoreAstroSlimeCube : EncoreChillIceCube 28499
