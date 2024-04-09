@@ -5,6 +5,8 @@ height 8
 radius 36
 scale 3.75
 var int user_noHazardRespawn;
+damagetype "OilCanister"
+Obituary "$OB_OILBARRELTAG"
 States
 {
 Spawn:
@@ -49,7 +51,6 @@ actor BulletExplosiveCore
 +QUICKTORETALIATE
 +LOOKALLAROUND
 BounceFactor 0.1
-Obituary "$OB_OILBARRELTAG"
 scale 2.5
 height 16
 Radius 16
