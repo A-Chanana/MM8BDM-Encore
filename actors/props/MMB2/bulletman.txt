@@ -4,6 +4,7 @@ actor BulletPlatform : Item2Platform 20011
 height 8
 radius 36
 scale 3.75
+var int user_noHazardRespawn;
 States
 {
 Spawn:
