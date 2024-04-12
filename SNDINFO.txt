@@ -63,6 +63,8 @@ $musicvolume MME9FBOS 1.45
 $musicvolume E10DW1MS 0.8
 $musicvolume MME10OBS 1.1
 $musicvolume MME10WBS 1.35
+//MMV
+$musicvolume EURAMUS 2.75
 //MMWT
 $musicvolume MMEWTBOS 2.75
 $musicvolume EHSHMUS 2.25

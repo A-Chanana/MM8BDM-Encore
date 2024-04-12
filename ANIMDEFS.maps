@@ -2274,31 +2274,7 @@ texture ECHIFL3X
 	pic ECHIFL3C tics 6
 	pic ECHIFL3D tics 6
 	pic ECHIFL3B tics 6
-	/*
-texture ECHIFL4
-    allowdecals
-    pic ECHIFL4A tics 105
-	pic ECHIFL4B tics 6
-	pic ECHIFL4C tics 6
-	pic ECHIFL4D tics 6
-	pic ECHIFL4B tics 6
-	*/
-texture ECHILDRX
-    allowdecals
-    pic ECHILDRA tics 105
-	pic ECHILDRB tics 6
-	pic ECHILDRC tics 6
-	pic ECHILDRD tics 6
-	pic ECHILDRB tics 6
 	
-texture ECHIDORX
-    allowdecals
-    pic ECHIDORA tics 105
-	pic ECHIDORB tics 6
-	pic ECHIDORC tics 6
-	pic ECHIDORD tics 6
-	pic ECHIDORB tics 6
-
 ////////////////////
 ///// MME10SHE /////
 texture ESHESCN1
@@ -2640,17 +2616,6 @@ texture ESLRFL3X
 	pic ESLRFL3B tics 5
 	pic ESLRFL3B tics 5
 
-texture ESLRLADX
-	allowdecals
-	pic ESLRLADA tics 5
-	pic ESLRLADA tics 5
-	pic ESLRLADB tics 5
-	pic ESLRLADB tics 5
-	pic ESLRLADC tics 5
-	pic ESLRLADC tics 5
-	pic ESLRLADB tics 5
-	pic ESLRLADB tics 5
-
 ////////////////////
 ///// MME10DW1 ///// 	Oh no
 
@@ -2820,10 +2785,9 @@ texture UEALANTX
 	pic UEALANT3 tics 5
 	pic UEALANT2 tics 5
 texture UEATWRX
-    pic UEATWR1 tics 5
-	pic UEATWR2 tics 5
-	pic UEATWR3 tics 5
-	pic UEATWR2 tics 5
+    pic UEATWR1 tics 16
+	pic UEATWR2 tics 16
+	pic UEATWR3 tics 16
 flat EURAN17X
 	pic EURAN17A tics 5
 	pic EURAN17B tics 5

@@ -1419,6 +1419,9 @@ Texture "EURAN115", 49, 114
 Texture "UEAGRT", 16, 16
 {
 	Patch "EURAN117", 0, 0
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
 }
 
 Texture "UEACTCX", 49, 114
