@@ -221,6 +221,13 @@ Texture EDRSKY2, 384, 192
 	Patch EDARK71, 0, 0
 }
 
+Texture DARSKY2, 384, 192
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch DARK27, 0, 0
+}
 
 Texture EDRSTON1, 48, 32
 {
@@ -528,6 +535,14 @@ Texture EDRSTARS, 512, 128
 	Patch EDARK67, 0, 0
 }
 
+Texture DARSTARS, 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch DARK65, 0, 0
+}
+
 Texture EDRKFAN1, 32, 32
 {
 	XScale 0.500
@@ -585,6 +600,37 @@ Texture EDRKPIP5, 7, 48
 	XScale 0.500
 	YScale 0.500
 	Patch EDARK76, 0, 0
+}
+
+Texture DARKEXB, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch DARK72, 0, 0
+}
+Texture DARKRA1, 49, 6
+{
+	XScale 0.500
+	YScale 0.500
+	Patch DARK73, 0, 0
+}
+Texture DARKPIP3, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	Patch DARK74, 0, 0
+}
+Texture DARKPIP4, 7, 82
+{
+	XScale 0.500
+	YScale 0.500
+	Patch DARK75, 0, 0
+}
+Texture DARKPIP5, 7, 48
+{
+	XScale 0.500
+	YScale 0.500
+	Patch DARK76, 0, 0
 }
 // End of texture definitions
 

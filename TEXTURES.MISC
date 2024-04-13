@@ -46,3 +46,10 @@ texture ETELPX2, 32, 16
    Patch ETELE4, 0, 0
    WorldPanning 
 }
+
+//Empty textures for the texture replacer
+texture ENCTY1, 1, 1 {}
+texture ENCTY2, 1, 1 {}
+texture ENCTY3, 1, 1 {}
+texture ENCTY4, 1, 1 {}
+texture ENCTY5, 1, 1 {}

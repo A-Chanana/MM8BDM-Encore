@@ -2,7 +2,7 @@
 #include "ZCommon.acs"
 #include "ENCTXTR.acs"
 
-#DEFINE ENC_MAXTEXTUREMAPS 28
+#DEFINE ENC_MAXTEXTUREMAPS 29
 str enc_texturemaps[ENC_MAXTEXTUREMAPS] = 
 {
 "MME1CUT",
@@ -30,6 +30,7 @@ str enc_texturemaps[ENC_MAXTEXTUREMAPS] =
 "MME3SPA",
 "MME4PHA",
 "MME4DIV",
+"MME5DAR",
 "MME8AST",
 "MME9GAL",
 "MME10CHI"
@@ -923,6 +924,61 @@ defineTextureReplace("EDIVSKY3","BOMSKY");
 defineTextureReplace("EDIVSKY4","BUBBWTR");
 }
 
+// Mega Man 5 /////////////////////////////////////////
+Script "encore_texreplace_MME5DAR" (Void)
+{
+defineTextureReplace("EDRMET1","DARMET1");
+defineTextureReplace("EDRMET2","DARMET2");
+defineTextureReplace("EDRMET3","DARMET3");
+defineTextureReplace("EDRSTEP1","DARSTEP1");
+defineTextureReplace("EDRSTEP2","DARSTEP2");
+defineTextureReplace("EDRTUB1","DARTUB1");
+defineTextureReplace("EDRTUB2","DARTUB2");
+defineTextureReplace("EDRTWIS","DARTWIS");
+defineTextureReplace("EDRBRIG","DARBRIG");
+defineTextureReplace("EDRLDR","DARLDR");
+defineTextureReplace("EDRINT1","DARINT1");
+defineTextureReplace("EDRINT2","DARINT2");
+defineTextureReplace("EDRINT3","DARINT3");
+defineTextureReplace("EDRINT4","DARINT4");
+defineTextureReplace("EDRINT5","DARINT5");
+defineTextureReplace("EDRINT6","DARINT6");
+defineTextureReplace("EDRINT7","DARINT7");
+defineTextureReplace("EDRINT8","DARINT8");
+defineTextureReplace("EDRINT9","DARINT9");
+defineTextureReplace("EDREDG1","DAREDG1");
+defineTextureReplace("EDREDG2","DAREDG2");
+defineTextureReplace("EDRSKY2","DARSKY2");
+defineTextureReplace("EDRSTON1","DARSTON1");
+defineTextureReplace("EDRSTON2","DARSTON2");
+defineTextureReplace("EDRSTON3","DARSTON3");
+defineTextureReplace("EDRSTON4","DARSTON4");
+defineTextureReplace("EDRPIP1","DARPIP1");
+defineTextureReplace("EDRPIP2","DARPIP2");
+defineTextureReplace("EDRWINDO","DARWINDO");
+defineTextureReplace("EDRGLD1","DARGLD1");
+defineTextureReplace("EDRGLD2","DARGLD2");
+defineTextureReplace("EDRGLD3","DARGLD3");
+defineTextureReplace("EDRFLR1","DARFLR1");
+defineTextureReplace("EDRFLR2","DARFLR2");
+defineTextureReplace("EDRFLR3","DARFLR3");
+defineTextureReplace("EDRFLR4","DARFLR4");
+defineTextureReplace("EDRFLR5","DARFLR5");
+defineTextureReplace("EDRFLR6","DARFLR6");
+defineTextureReplace("EDRFLR7","DARFLR7");
+defineTextureReplace("EPINK","PINK");
+defineTextureReplace("EDRCASW","DARCASW");
+defineTextureReplace("EDRSTARS","DARSTARS");
+defineTextureReplace("EDRKFAN1","DARKFAN1");
+defineTextureReplace("EDRKFAN2","DARKFAN2");
+defineTextureReplace("EDRKFAN3","DARKFAN3");
+defineTextureReplace("EDRKFAX","DARKFAX");
+defineTextureReplace("EDRKEXB","DARKEXB");
+defineTextureReplace("EDRKRA1","DARKRA1");
+defineTextureReplace("EDRKPIP3","DARKPIP3");
+defineTextureReplace("EDRKPIP4","DARKPIP4");
+defineTextureReplace("EDRKPIP5","DARKPIP5");
+}
 
 // Mega Man 8 /////////////////////////////////////////
 Script "encore_texreplace_MME8AST" (Void)
