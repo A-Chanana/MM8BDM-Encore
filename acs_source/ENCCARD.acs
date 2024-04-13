@@ -106,6 +106,9 @@ script "Encore_MapCardSetter" OPEN {
 		SetCvarString("mm8bdm_map_victorymusic", enc_mapcards[index][8]);
 		SetCvarString("mm8bdm_map_intensemusic", enc_mapcards[index][9]);
 			
-		SetCvarString("mm8bdm_map_createdbytext", StrParam(l:"MAPCARD_STATIC_CREATEDBY_ENC"));
+		//printbold(i:GetLevelInfo(LEVELINFO_CLUSTERNUM));
+		if(GetLevelInfo(LEVELINFO_CLUSTERNUM) != 514315185){
+			SetCvarString("mm8bdm_map_createdbytext", StrParam(l:"MAPCARD_STATIC_CREATEDBY_ENC"));
+		}
 	}
 }
