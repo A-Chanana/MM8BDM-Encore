@@ -2,7 +2,7 @@
 #include "ZCommon.acs"
 #include "ENCTXTR.acs"
 
-#DEFINE ENC_MAXTEXTUREMAPS 29
+#DEFINE ENC_MAXTEXTUREMAPS 30
 str enc_texturemaps[ENC_MAXTEXTUREMAPS] = 
 {
 "MME1CUT",
@@ -32,6 +32,7 @@ str enc_texturemaps[ENC_MAXTEXTUREMAPS] =
 "MME4DIV",
 "MME5DAR",
 "MME8AST",
+"MMEWTDW2",
 "MME9GAL",
 "MME10CHI"
 };
@@ -1018,6 +1019,51 @@ defineTextureReplace("EASTCIL5","ASTCIEL5");
 defineTextureReplace("EASTSNDX","ASTSNDX");
 }
 
+// Mega Man WT ////////////////////////////////////////
+Script "encore_texreplace_MMEWTDW2" (Void)
+{
+defineTextureReplace("EWT3FLR1","WT3FLR1");
+defineTextureReplace("EWT3FLR2","WT3FLR2");
+defineTextureReplace("EWT3FLR3","WT3FLR3");
+defineTextureReplace("EWT3SKY","WT3SKY");
+defineTextureReplace("EWT3WILY","WT3WILY");
+defineTextureReplace("EWT3PLR1","WT3PILR1");
+defineTextureReplace("EWT3PLR2","WT3PILR2");
+defineTextureReplace("EWT3WAL1","WT3WAL1");
+defineTextureReplace("EWT3LADR","WT3LADR");
+defineTextureReplace("EWT3MTL1","WT3METL1");
+defineTextureReplace("EWT3MTL2","WT3METL2");
+defineTextureReplace("EWT3MTL3","WT3METL3");
+defineTextureReplace("EWT3MTL4","WT3METL4");
+defineTextureReplace("EWT3MTL5","WT3METL5");
+defineTextureReplace("EWT3STPL","WT3STEPL");
+defineTextureReplace("EWT3STPM","WT3STEPM");
+defineTextureReplace("EWT3STPR","WT3STEPR");
+defineTextureReplace("EWT3MAGL","WT3MAGL");
+defineTextureReplace("EWT3MAGR","WT3MAGR");
+defineTextureReplace("EWT3MGFR","WT3MAGFR");
+defineTextureReplace("EWT3MGTP","WT3MAGTP");
+defineTextureReplace("EWT3BRG1","WT3BRG1");
+defineTextureReplace("EWT3BRG2","WT3BRG2");
+defineTextureReplace("EWT3BRG3","WT3BRG3");
+defineTextureReplace("EWT3PIPE","WT3PIPE");
+defineTextureReplace("EWT3PIP1","WT3PIP1");
+defineTextureReplace("EWT3PIP2","WT3PIP2");
+defineTextureReplace("EWT3PIP3","WT3PIP3");
+defineTextureReplace("EWT4FLR1","WT4FLR1");
+defineTextureReplace("EWT4FLR2","WT4FLR2");
+defineTextureReplace("EWT4FLR3","WT4FLR3");
+defineTextureReplace("EWT4WILY","WT4WILY");
+defineTextureReplace("EWT4DOOR","WT4DOOR");
+defineTextureReplace("EWT4MTL1","WT4METL1");
+defineTextureReplace("EWT4MTL2","WT4METL2");
+defineTextureReplace("EWT4MTL3","WT4METL3");
+defineTextureReplace("EWT4MTL4","WT4METL4");
+defineTextureReplace("EWT4BLCK","WT4BLOCK");
+defineTextureReplace("EWT4WAL1","WT4WALL1");
+defineTextureReplace("EWT4WAL2","WT4WALL2");
+defineTextureReplace("EWT2WTRX","WTWATER");
+}
 
 // Mega Man 9 /////////////////////////////////////////
 Script "encore_texreplace_MME9GAL" (Void)
