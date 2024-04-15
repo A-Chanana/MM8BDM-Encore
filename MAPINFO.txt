@@ -816,7 +816,7 @@ map MMEVURA "URANUS: Encore!"
 
 ////////////////////
 ///// MMB2KOM /////
-map MMB2KOM "Komuso Man"
+map MMB2KOM "KOMUSO MAN"
 {
 	cluster = 514315185
 	next = "MMB2CLO"
@@ -829,7 +829,7 @@ map MMB2KOM "Komuso Man"
 
 ////////////////////
 ///// MMB2CLO /////
-map MMB2CLO "Clock Men"
+map MMB2CLO "CLOCK MEN"
 {
 	cluster = 514315185
 	next = "MMB2BUL"
@@ -845,13 +845,25 @@ map MMB2CLO "Clock Men"
 map MMB2BUL "BULLET MAN"
 {
 	cluster = 514315185
-	next = "MMEPRO"
+	next = "MMB2STO"
 	sky1 = "BLACK", 0 
 	music = "BULMUS" 
 	aircontrol = 0.5 
 	clipmidtextures
 	evenlighting
 	UsePlayerStartZ
+}
+
+////////////////////
+///// MMB2STO /////
+map MMB2STO "STOVE MAN"
+{
+	cluster = 514315185
+	next = "MMEPRO"
+	sky1 = "BLACK", 0
+	music = "STVMUS"
+	aircontrol = 0.5
+	useplayerstartz
 }
 
 ////////////////////
@@ -868,7 +880,7 @@ map MMEPRO "PROTO MAN"
 
 ////////////////////
 ///// MMEBON /////
-map MMEBON "Bond Man"
+map MMEBON "BOND MAN"
 {
 	cluster = 514315185
 	next = "MME1CUT"
