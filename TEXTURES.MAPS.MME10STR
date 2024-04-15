@@ -78,6 +78,14 @@ Texture "ETRFLR05", 16, 16
 	Patch "10SP146E", 0, 0
 }
 
+Texture "ETRFLR06", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "10SP154E", 0, 0
+}
+
 Texture "ETRWALL", 32, 512
 {
 	XScale 0.500
