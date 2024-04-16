@@ -1,7 +1,7 @@
 actor EncoreKaonaGeeno : KaonaGeeno 28497
 {
 //$Category MM8BDME-Props
-Translation "4:4=32:32", "197:197=206:206"
+Translation "4:4=68:68", "197:197=62:62"
 States
 {
 Spawn:
@@ -19,13 +19,13 @@ Goto Spawn
 
 actor EncoreKaonaGeenoHead : KaonaGeenoHead
 {
-Translation "4:4=32:32", "197:197=206:206"
+Translation "4:4=68:68", "197:197=62:62"
 }
 
 
 actor EncoreChillIceCube : ChillIceCube 28498
 {
-Translation "74:74=20:20", "197:197=170:170", "196:196=169:169", "200:205=170:170", "69:69=170:170"
+Translation "74:74=78:78", "197:197=73:73", "196:196=68:68", "200:205=73:73", "69:69=73:73"
 -NORADIUSDMG
 //$Category MM8BDME-Interactive Props
 //$Arg0 Breakage

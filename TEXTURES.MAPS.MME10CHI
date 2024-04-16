@@ -2270,12 +2270,76 @@ Texture "ECHILDRX", 16, 16
 	Patch "ECHI14A", 0, 0
 }
 
+Texture "ECHILDRA", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14A", 0, 0
+}
+
+Texture "ECHILDRB", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14B", 0, 0
+}
+
+Texture "ECHILDRC", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14C", 0, 0
+}
+
+Texture "ECHILDRD", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI14D", 0, 0
+}
+
 Texture "ECHIDORX", 16, 16
 {
 	XScale 0.500
 	YScale 0.500
 	WorldPanning
 	Patch "ECHI15A", 0, 0
+}
+
+Texture "ECHIDORA", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15A", 0, 0
+}
+
+Texture "ECHIDORB", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15B", 0, 0
+}
+
+Texture "ECHIDORC", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15C", 0, 0
+}
+
+Texture "ECHIDORD", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "ECHI15D", 0, 0
 }
 
 Texture "ECHIPI01", 16, 16
