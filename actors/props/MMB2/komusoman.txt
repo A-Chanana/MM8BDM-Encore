@@ -1,0 +1,16 @@
+actor Flatelly
+{
++MISSILE
++THRUACTORS
++NOGRAVITY
++CLIENTSIDEONLY
+scale 2.5
+speed 5
+States
+{
+Spawn:
+FLTL ABCDEF 8 ThrustThingZ(0,5,0,0)
+FLTL ABCDEF 8 ThrustThingZ(0,5,1,0)
+loop
+}
+}

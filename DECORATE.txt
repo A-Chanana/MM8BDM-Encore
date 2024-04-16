@@ -56,6 +56,7 @@
 #include "actors/Props/MMEV/evenus.txt"
 #include "actors/Props/MME/protoman.txt"
 #include "actors/Props/MME/bondman.txt"
+#include "actors/Props/MMB2/komusoman.txt"
 #include "actors/Props/MMB2/clockmen.txt"
 #include "actors/Props/MMB2/bulletman.txt"
 #include "actors/Props/MMB2/stoveman.txt"
