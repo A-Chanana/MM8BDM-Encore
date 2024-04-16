@@ -76,3 +76,4 @@ $musicvolume EPROINT 2.0
 $musicvolume ESUNBOS 2.0
 //MMB2
 $musicvolume AICMUS 1.1
+$musicvolume STVMUS 1.3
