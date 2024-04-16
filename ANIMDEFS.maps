@@ -2989,6 +2989,15 @@ texture BULEXPX
 	pic BULEXP2 tics 3
 	
 
+////////////////////
+///// MMB2STO /////
+flat STVLAVA
+    pic STVLAVA1 tics 6
+	pic STVLAVA2 tics 6
+
+flat STVFLR6
+    pic STVFLR6 tics 6
+	pic STVFLR6B tics 6
 
 ////////////////////
 ///// MMEPRO /////

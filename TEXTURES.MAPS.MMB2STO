@@ -58,14 +58,6 @@ Texture STVMET4, 32, 48
 	Patch STVMET4, 0, 0
 }
 
-Texture STVMET7, 32, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch STVMET7, 0, 0
-}
-
 Texture STVMET8, 32, 48
 {
 	XScale 0.500
@@ -82,10 +74,74 @@ Texture STVMET9, 32, 48
 	Patch STVMET9, 0, 0
 }
 
-texture STVVENT, 16, 16
+texture STVFLR1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch STVFLR1, 0, 0
+   WorldPanning 
+}
+
+texture STVFLR2, 16, 16
 {
    XScale 0.5
    YScale 0.5
    Patch QUICK4, 0, -8
+   WorldPanning 
+}
+
+texture STVFLR3, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch STVFLR3, 0, 0
+   WorldPanning 
+}
+
+texture STVFLR4, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch STVFLR4, 0, 0
+   WorldPanning 
+}
+
+texture STVFLR5, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch STVFLR5, 0, 0
+   WorldPanning 
+}
+
+texture STVFLR6, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch STVFLR6, 0, 0
+   WorldPanning 
+}
+
+texture STVFLR6B, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch STVFLR6B, 0, 0
+   WorldPanning 
+}
+
+texture STVLAVA1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch STVLAVA1, 0, 0
+   WorldPanning 
+}
+
+texture STVLAVA2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch STVLAVA2, 0, 0
    WorldPanning 
 }

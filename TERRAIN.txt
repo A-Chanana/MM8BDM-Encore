@@ -127,5 +127,6 @@ floor EHFALL lava
 floor EFIRLAV lava
 floor ESWRLAVX lava
 floor ESLRLAVX lava
+floor STVLAVA lava
 
 floor ECOSFLR1 snow
