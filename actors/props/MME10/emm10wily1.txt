@@ -38,6 +38,8 @@ actor EncoreWily10ElecBlock 27000
 	Spawn:
 		WELB A 3
 		WELB A 0 A_Stop
+		WELB A 0 A_ChangeFlag(MISSILE,false)
+		WELB A 0 A_ChangeFlag(NOBLOCKMAP,false)
 		goto SpawnLoop
 		
 	SpawnLoop:
@@ -45,8 +47,6 @@ actor EncoreWily10ElecBlock 27000
 		loop
 		
 	Activate:
-		WELB A 0 A_ChangeFlag(MISSILE,false)
-		WELB A 0 A_ChangeFlag(NOBLOCKMAP,false)
 		WELB A 0 A_ChangeFlag(SOLID,true)
 		WELB Z 1 A_SpawnItemEx("EncoreWily10ElecBlockDamager",0,0,0)
 		WELB Z 1
