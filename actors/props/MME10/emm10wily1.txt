@@ -48,7 +48,7 @@ actor EncoreWily10ElecBlock 27000
 		
 	Activate:
 		WELB A 0 A_ChangeFlag(SOLID,true)
-		WELB Z 1 A_SpawnItemEx("EncoreWily10ElecBlockDamager",0,0,0)
+		WELB Z 1 A_SpawnItemEx("EncoreWily10ElecBlockDamager",0,0,0,0,0,0,0,0,0,tid)
 		WELB Z 1
 		Wait
 		
