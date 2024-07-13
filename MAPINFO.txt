@@ -766,7 +766,7 @@ map MME10SHE "SHEEP MAN: Encore!"
 
 ////////////////////
 ///// MME10STR /////
-map MME10STR "STRIKE MAN : Encore!"
+map MME10STR "STRIKE MAN: Encore!"
 {
 	next = "MME10SOL"
 	sky1 = "WHITE", 0
