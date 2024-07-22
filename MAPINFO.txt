@@ -1,4 +1,4 @@
-
+////////////////////
 ///// MME1CUT /////
 map MME1CUT "CUT MAN: Encore!"
 {
@@ -520,7 +520,7 @@ map MME6BLI "BLIZZARD MAN: Encore!"
 
 ////////////////////
 ///// MME6PLA /////
-map MMe6PLA "PLANT MAN: Encore!"
+map MME6PLA "PLANT MAN: Encore!"
 {
 	next = "MME6YAM"
 	sky1 = "BLACK", 0
@@ -550,7 +550,6 @@ map MME6MRX "MR. X FORTRESS: Encore!"
 	aircontrol = 0.5
 }
 
-
 ////////////////////
 ///// MME7FRE /////
 map MME7FRE "FREEZE MAN: Encore!"
@@ -561,17 +560,49 @@ map MME7FRE "FREEZE MAN: Encore!"
 	aircontrol = 0.5
 }
 
-
 ////////////////////
 ///// MME7JUN /////
 map MME7JUN "JUNK MAN Encore!"
 {
-	next = "MME7SHA"
+	next = "MME7CLO"
 	sky1 = "BLACK", 0
 	music = "EJUNMUS"
 	aircontrol = 0.5
 }
 
+////////////////////
+///// MM7ECLO /////
+map MME7CLO "CLOUD MAN: Encore"
+{
+	next = "MME7SPR"
+	sky1 = "CLOUSCLD", 0
+	music = "CLOMUS"
+	aircontrol = 0.5
+	UsePlayerStartZ
+}
+
+////////////////////
+///// MM7SPR /////
+map MME7SPR "SPRING MAN: Encore"
+{
+   next = "MME7SLA"
+   sky1 = "BLACK", 0
+   music = "SPRMUS"
+   aircontrol = 0.5
+}
+
+////////////////////
+///// MM7SLA /////
+map MME7SLA "SLASH MAN: Encore"
+{
+   next = "MME7SHA"
+   sky1 = "BLACK", 0
+   music = "SLAMUS"
+   aircontrol = 0.5
+   clipmidtextures
+}
+
+////////////////////
 ///// MME7SHA /////
 map MME7SHA "SHADE MAN Encore!"
 {
@@ -595,7 +626,6 @@ map MME7TUR "TURBO MAN: Encore!"
 
 ////////////////////
 ///// MME8AST /////
-
 map MME8AST "ASTRO MAN: Encore!"
 {
 	next = "MME8SWO"
@@ -682,6 +712,16 @@ map MME9CON "CONCRETE MAN: Encore!"
 	aircontrol = 0.5
 	clipmidtextures
 	evenlighting
+}
+
+////////////////////
+///// MME9TOR /////
+map MME9TOR "TORNADO MAN: Encore!"
+{
+	next = "MM9SPL"
+	sky1 = "AIRSKY", 0
+	music = "TORMUS"
+	aircontrol = 0.5
 }
 
 ////////////////////
