@@ -54,7 +54,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MME7JUN",	"Scott \cf& \c[y1]A\c[c4]-Chan",							"FACE62E",	"EJUNMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	{"MME7CLO",	"\c[y1]A\c[c4]-Chan",										"FACE64",	"ECLOMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	{"MME7SPR",	"\c[y1]A\c[c4]-Chan",										"FACE65",	"ESPRMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7CLO",	"\c[y1]A\c[c4]-Chan",										"FACE66",	"ESLAMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
+	{"MME7SLA",	"\c[y1]A\c[c4]-Chan",										"FACE66",	"ESLAMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	{"MME7SHA",	"Scott",													"FACE67E",	"ESDEMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	{"MME7TUR",	"\c[y1]A\c[c4]-Chan",										"FACE68E",	"ETURMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	{"MME8AST",	"\c[n6]Woo\c[w6]lock \cf& \c[y1]A\c[c4]-Chan",				"FACE75E",	"EASTMUS",	"MAPCD8", 	"MME8BOSS", 	"MMBVIC", 	"MME8FBOS"},
@@ -79,10 +79,10 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MMECTF08","\c[n5]Mega\c[n6]Vile",										"FACE127E",	"ECTFMS8",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2KOM",	"\c[y1]A\c[c4]-Chan",										"FACEKOMU",	"KOMMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2CLO",	"\c[y1]A\c[c4]-Chan",										"FACECLOC",	"CLKMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
-	{"MMB2BUL",	"\c[n6]Woo\c[w6]lock\cf, \c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan","FACEDANG",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
+	{"MMB2BUL",	"\c[n6]Woo\c[w6]lock\cf, \c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan","FACEDANG", 	"BULMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2STO",	"\c[y1]A\c[c4]-Chan",										"FACESTOV",	"STVMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMEPRO",	"\c[y1]A\c[c4]-Chan",										"FACE49",	"PROMUS",	"MAPCD3", 	"MME3BOSS", 	"MM5CLEAR", "MME3FBOS"},
-	{"MMEBON",	"\c[y1]A\c[c4]-Chan",										"FACEBOND",	"BONMUS",	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1WBOS"},
+	{"MMEBON",	"\c[y1]A\c[c4]-Chan",										"FACEBOND",	"BONMUS",	"MAPCD1", 	"MME1BOSS", 	"MM1VIC", 	"MME1WBOS"},
 };
 
 function int findMapIdE(str key) {
@@ -113,7 +113,7 @@ script "Encore_MapCardSetter" OPEN {
 			
 		//printbold(i:GetLevelInfo(LEVELINFO_CLUSTERNUM));
 		if(GetLevelInfo(LEVELINFO_CLUSTERNUM) != 514315185){
-			SetCvarString("mm8bdm_map_createdbytext", StrParam(l:"STATIC_CREATEDBY_ENC"));
+			SetCvarString("mm8bdm_map_createdbytext", StrParam(l:"MAPCARD_STATIC_CREATEDBY_ENC"));
 		}
 	}
 }

@@ -562,7 +562,7 @@ map MME7FRE "FREEZE MAN: Encore!"
 
 ////////////////////
 ///// MME7JUN /////
-map MME7JUN "JUNK MAN Encore!"
+map MME7JUN "JUNK MAN: Encore!"
 {
 	next = "MME7CLO"
 	sky1 = "BLACK", 0
@@ -572,7 +572,7 @@ map MME7JUN "JUNK MAN Encore!"
 
 ////////////////////
 ///// MM7ECLO /////
-map MME7CLO "CLOUD MAN: Encore"
+map MME7CLO "CLOUD MAN: Encore!"
 {
 	next = "MME7SPR"
 	sky1 = "CLOUSCLD", 0
@@ -583,7 +583,7 @@ map MME7CLO "CLOUD MAN: Encore"
 
 ////////////////////
 ///// MM7SPR /////
-map MME7SPR "SPRING MAN: Encore"
+map MME7SPR "SPRING MAN: Encore!"
 {
    next = "MME7SLA"
    sky1 = "BLACK", 0
@@ -593,7 +593,7 @@ map MME7SPR "SPRING MAN: Encore"
 
 ////////////////////
 ///// MM7SLA /////
-map MME7SLA "SLASH MAN: Encore"
+map MME7SLA "SLASH MAN: Encore!"
 {
    next = "MME7SHA"
    sky1 = "BLACK", 0
@@ -604,7 +604,7 @@ map MME7SLA "SLASH MAN: Encore"
 
 ////////////////////
 ///// MME7SHA /////
-map MME7SHA "SHADE MAN Encore!"
+map MME7SHA "SHADE MAN: Encore!"
 {
 	next = "MME7TUR"
 	sky1 = "BLACK", 0
