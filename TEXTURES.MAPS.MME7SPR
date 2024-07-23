@@ -1,0 +1,456 @@
+///// MM7ESR /////
+texture ESRFLR1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING25, 0, 0
+   WorldPanning 
+}
+
+texture ESRFLR2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING26, 0, 0
+   WorldPanning 
+}
+
+texture ESRFLR3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING27, 0, 0
+   WorldPanning 
+}
+
+texture ESRSTARS, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING29, 0, 0
+   WorldPanning 
+}
+
+texture ESRTOP1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING7, 0, 0
+   WorldPanning 
+}
+
+texture ESRPINK1, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING2, 0, 0
+   Patch ESRING1, 0, 32
+   Patch ESRING1, 0, 64
+   Patch ESRING1, 0, 96
+   Patch ESRING1, 0, 128
+   Patch ESRING1, 0, 160
+   Patch ESRING1, 0, 192
+   Patch ESRING1, 0, 224
+   Patch ESRING1, 0, 256
+   Patch ESRING1, 0, 288
+   Patch ESRING1, 0, 320
+   Patch ESRING1, 0, 352
+   Patch ESRING1, 0, 384
+   Patch ESRING1, 0, 416
+   Patch ESRING1, 0, 448
+   Patch ESRING1, 0, 480
+   WorldPanning 
+}
+
+texture ESRPINK2, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING3, 0, 0
+   Patch ESRING4, 0, 32
+   Patch ESRING4, 0, 64
+   Patch ESRING4, 0, 96
+   Patch ESRING4, 0, 128
+   Patch ESRING4, 0, 160
+   Patch ESRING4, 0, 192
+   Patch ESRING4, 0, 224
+   Patch ESRING4, 0, 256
+   Patch ESRING4, 0, 288
+   Patch ESRING4, 0, 320
+   Patch ESRING4, 0, 352
+   Patch ESRING4, 0, 384
+   Patch ESRING4, 0, 416
+   Patch ESRING4, 0, 448
+   Patch ESRING4, 0, 480
+   WorldPanning 
+}
+
+texture ESRPINK3, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING6, 0, 0
+   Patch ESRING5, 0, 32
+   Patch ESRING5, 0, 64
+   Patch ESRING5, 0, 96
+   Patch ESRING5, 0, 128
+   Patch ESRING5, 0, 160
+   Patch ESRING5, 0, 192
+   Patch ESRING5, 0, 224
+   Patch ESRING5, 0, 256
+   Patch ESRING5, 0, 288
+   Patch ESRING5, 0, 320
+   Patch ESRING5, 0, 352
+   Patch ESRING5, 0, 384
+   Patch ESRING5, 0, 416
+   Patch ESRING5, 0, 448
+   Patch ESRING5, 0, 480
+   WorldPanning 
+}
+
+texture ESRPINK4, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING8, 0, 0
+   WorldPanning 
+}
+
+texture ESRPINK5, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING11, 0, 0
+   WorldPanning 
+}
+
+
+texture ESRPINK6, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING1, 0, 0
+   WorldPanning 
+}
+
+
+texture ESRBACK1, 64, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING9, 0, 0
+   WorldPanning 
+}
+
+texture ESRBACK2, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING10, 0, 0
+   Patch ESRING10, 64, 0
+   Patch ESRING10, 64, 64
+   Patch ESRING10, 0, 64
+   WorldPanning 
+}
+
+texture ESRPURP1, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING13, 0, 0
+   WorldPanning 
+}
+
+texture ESRPURP2, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING14, 0, 0
+   WorldPanning 
+}
+
+texture ESRPURP3, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING15, 0, 0
+   WorldPanning 
+}
+
+texture ESRINGA1, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING12, 0, 0
+   WorldPanning 
+}
+
+
+texture ESRPURP4, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING12, 0, 0
+   WorldPanning 
+}
+
+texture ESRPURP5, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING18, 0, 0
+   WorldPanning 
+}
+
+texture ESRPURP6, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING19, 0, 0
+   WorldPanning 
+}
+
+texture ESRPURP7, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING20, 0, 0
+   WorldPanning 
+}
+
+texture ESRPURP8, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING21, 0, 0
+   WorldPanning 
+}
+
+texture ESRPURP9, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING24, 0, 0
+   WorldPanning 
+}
+
+texture ESRPUR10, 128, 256
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING28, 0, 0
+   WorldPanning 
+}
+
+
+texture ESRINGA2, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING15, 0, 0
+   WorldPanning 
+}
+
+texture ESRSCRN1, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING15, 0, 0
+   WorldPanning 
+}
+
+texture ESRSCRN2, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING16, 0, 0
+   WorldPanning 
+}
+
+texture ESRSCRN3, 128, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING17, 0, 0
+   WorldPanning 
+}
+
+texture ESRWIND, 64, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING22, 0, 0
+   WorldPanning 
+}
+
+texture ESRSKY, 256, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING23, 0, 0
+   WorldPanning 
+}
+
+texture ESRPINKX, 32, 496
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING37, 0, 0
+   Patch ESRING1, 0, 16
+   Patch ESRING1, 0, 48
+   Patch ESRING1, 0, 80
+   Patch ESRING1, 0, 112
+   Patch ESRING1, 0, 144
+   Patch ESRING1, 0, 176
+   Patch ESRING1, 0, 208
+   Patch ESRING1, 0, 240
+   Patch ESRING1, 0, 272
+   Patch ESRING1, 0, 304
+   Patch ESRING1, 0, 336
+   Patch ESRING1, 0, 368
+   Patch ESRING1, 0, 400
+   Patch ESRING1, 0, 432
+   Patch ESRING1, 0, 464
+   WorldPanning 
+}
+
+texture ESRPURPX, 128, 144
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING14, 0, 0
+   Patch ESRING36, 0, 128
+   Patch ESRING36, 32, 128
+   Patch ESRING36, 64, 128
+   Patch ESRING36, 96, 128
+   WorldPanning 
+}
+
+texture ESRPURPY, 128, 144
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING14, 0, 0
+   Patch ESRING37, 0, 128
+   Patch ESRING37, 32, 128
+   Patch ESRING37, 64, 128
+   Patch ESRING37, 96, 128
+   WorldPanning 
+}
+
+texture ESRPURPZ, 128, 144
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING36, 0, 0
+   Patch ESRING36, 32, 0
+   Patch ESRING36, 64, 0
+   Patch ESRING36, 96, 0
+   Patch ESRING13, 0, 16
+   WorldPanning 
+}
+
+texture ESRMET1, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING36, 0, 0
+   WorldPanning 
+}
+
+texture ESRMET2, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING37, 0, 0
+   WorldPanning 
+}
+
+texture ESRMET3, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING38, 0, 0
+   Patch ESRING39, 0, 32
+   Patch ESRING39, 0, 64
+   Patch ESRING39, 0, 96
+   Patch ESRING39, 0, 128
+   Patch ESRING39, 0, 160
+   Patch ESRING39, 0, 192
+   Patch ESRING39, 0, 224
+   Patch ESRING39, 0, 256
+   Patch ESRING39, 0, 288
+   Patch ESRING39, 0, 320
+   Patch ESRING39, 0, 352
+   Patch ESRING39, 0, 384
+   Patch ESRING39, 0, 416
+   Patch ESRING39, 0, 448
+   Patch ESRING39, 0, 480
+   WorldPanning 
+}
+
+texture ESRBOX1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING30, 0, 0
+   WorldPanning 
+}
+
+texture ESRBOX2, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING31, 0, 0
+   WorldPanning 
+}
+
+texture ESRBOXX, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING32, 0, 0
+   WorldPanning 
+}
+
+texture ESRBOX3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING32, 0, 0
+   WorldPanning 
+}
+
+texture ESRBOX4, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING33, 0, 0
+   WorldPanning 
+}
+
+texture ESRBOX5, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING34, 0, 0
+   WorldPanning 
+}
+
+texture ESRBOX6, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING40, 0, 0
+   WorldPanning 
+}
+
+texture ESRLDR, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESRING35, 0, 0
+   WorldPanning 
+}
+
+////////////////////

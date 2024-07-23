@@ -1167,6 +1167,33 @@ texture SP2JLAVA
 	pic SP2LAVA4 tics 20
 
 ////////////////////
+///// MME7SPR /////
+texture ESRINGA1
+    allowdecals
+    pic ESRPURP4 tics 4
+	pic ESRPURP4 tics 4
+	pic ESRPURP4 tics 4
+	pic ESRPURP4 tics 4
+	pic ESRPURP4 tics 4
+	pic ESRPURP5 tics 4
+	pic ESRPURP6 tics 4
+	pic ESRPURP7 tics 4
+	pic ESRPURP8 tics 4
+
+texture ESRINGA2
+    allowdecals
+    pic ESRSCRN1 tics 4
+	pic ESRSCRN2 tics 4
+	pic ESRSCRN1 tics 4
+	pic ESRSCRN3 tics 4
+
+texture ESRBOXX
+    allowdecals
+    pic ESRBOX4 tics 4
+	pic ESRBOX5 tics 4
+	pic ESRBOX3 tics 4
+
+////////////////////
 ///// MME7SHA /////
 texture ESHWATRX
     allowdecals

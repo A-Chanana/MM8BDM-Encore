@@ -576,7 +576,7 @@ map MME7CLO "CLOUD MAN: Encore"
 {
 	next = "MME7SPR"
 	sky1 = "CLOUSCLD", 0
-	music = "CLOMUS"
+	music = "ECLOMUS"
 	aircontrol = 0.5
 	UsePlayerStartZ
 }
@@ -587,7 +587,7 @@ map MME7SPR "SPRING MAN: Encore"
 {
    next = "MME7SLA"
    sky1 = "BLACK", 0
-   music = "SPRMUS"
+   music = "ESPRMUS"
    aircontrol = 0.5
 }
 
@@ -597,7 +597,7 @@ map MME7SLA "SLASH MAN: Encore"
 {
    next = "MME7SHA"
    sky1 = "BLACK", 0
-   music = "SLAMUS"
+   music = "ESLAMUS"
    aircontrol = 0.5
    clipmidtextures
 }
@@ -706,7 +706,7 @@ map MMEWTDW2 "WILY TOWER 2: Encore!"
 ///// MME9CON /////
 map MME9CON "CONCRETE MAN: Encore!"
 {
-	next = "MME9SPL"
+	next = "MME9TOR"
 	sky1 = "BLACK", 0
 	music = "ECONMUS"
 	aircontrol = 0.5
@@ -718,9 +718,9 @@ map MME9CON "CONCRETE MAN: Encore!"
 ///// MME9TOR /////
 map MME9TOR "TORNADO MAN: Encore!"
 {
-	next = "MM9SPL"
+	next = "MME9SPL"
 	sky1 = "AIRSKY", 0
-	music = "TORMUS"
+	music = "ETORMUS"
 	aircontrol = 0.5
 }
 
