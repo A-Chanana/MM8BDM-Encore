@@ -39,6 +39,7 @@
 #include "actors/Props/MME6/eplantman.txt"
 
 #include "actors/Props/MME7/efreezeman.txt"
+#include "actors/Props/MME7/eslashman.txt"
 #include "actors/Props/MME7/ejunkman.txt"
 #include "actors/Props/MME7/ecloudman.txt"
 #include "actors/Props/MME7/eshademan.txt"
