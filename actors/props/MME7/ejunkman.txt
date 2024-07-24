@@ -85,7 +85,7 @@ Spawn:
 	HRGL A 1
 	HRGL A 0 A_JumpIfInventory("WeaponCharge",1,"SpawnOkSmile")
 	HRGL A 0 A_GiveInventory("WeaponCharge",1)
-	goto TimeStopped
+	goto WaitingTime
 
 	SpawnOkSmile:
 	HRGL A 1
@@ -97,10 +97,10 @@ Pain:
 Goto Spawn
 TimeStopped:
 	TNT1 A 0 A_ChangeFlag (NOPAIN, 1)
-	TNT1 A 0 A_PlaySound ("encore/hourglassflip", 7)
 	TNT1 A 1 A_SpawnItemEX ("EncoreTimePieceFlipVisual", 0, 0, 1, 0, 0, 15)
 	TNT1 A 33
 WaitingTime:
+	TNT1 A 0 A_ChangeFlag (NOPAIN, 1)
 	HRGL GHI 6
 	Loop
 }
@@ -123,6 +123,7 @@ States
 {
 Spawn:
 	HRGL A 1
+	TNT1 A 0 A_PlaySound("encore/hourglassflip", CHAN_BODY)
 FlippingTime:
 	HRGL BCDEFA 2 A_CheckFloor("MyTimeHasCome")
 	Loop
