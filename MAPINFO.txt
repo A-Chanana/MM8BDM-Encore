@@ -835,6 +835,8 @@ map MME10SOL "SOLAR MAN: Encore!"
 	aircontrol = 0.5
 }
 
+////////////////////
+///// MME10DW1 /////
 map MME10DW1 "WILY STATION ARCHIVES: Encore!"
 {
 	next = "MMEVVEN"
@@ -848,8 +850,18 @@ map MME10DW1 "WILY STATION ARCHIVES: Encore!"
 ///// MMEVVEN /////
 map MMEVVEN "VENUS: Encore!"
 {
-	next = "MMEVURA"
+	next = "MMEVSAT"
 	music = "EVENMUS"
+	aircontrol = 0.5
+}
+
+////////////////////
+///// MMEVSAT /////
+map MMEVSAT "SATURN: Encore!"
+{
+	next = "MMEVURA"
+	sky1 = "BLACK", 0
+	music = "ESATMUS"
 	aircontrol = 0.5
 }
 

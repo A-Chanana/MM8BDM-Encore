@@ -80,7 +80,7 @@ TNT1 A 12
 Loop
 Reset1:
 ESHW CACA 3
-TNT1 A 0 A_JumpIf(ACS_NamedExecuteWithResult("core_checkdistance", 96) == 0, "Reset")
+TNT1 A 0 A_JumpIf(ACS_NamedExecuteWithResult("encore_checkDistance", 96) == 0, "Reset")
 Goto Nope
 Reset:
 ESHW A 0 A_TakeInventory("CutterFlag",999)

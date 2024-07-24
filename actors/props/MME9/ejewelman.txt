@@ -17,32 +17,37 @@ actor EncorePowerJewel 21724
 	States
 	{
 	Spawn:
-	EPJW A 4 A_RadiusGive("JewelSpeedPowerup", Args[0], RGF_PLAYERS, 1)
-	EPJW A 0 A_RadiusGive("JewelJumpPowerup", Args[0], RGF_PLAYERS, 1)
-	EPJW AAAA 0 A_SpawnItemEx("EncoreJewelShotFX1", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW AAAA 0 A_SpawnItemEx("EncoreJewelShotFX2", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW AAAA 0 A_SpawnItemEx("EncoreJewelShotFX3", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW A 0 A_RadiusGive("EncoreJewelPlayerIndicator", Args[0], RGF_PLAYERS, 1)
-	EPJW B 4 A_RadiusGive("JewelSpeedPowerup", Args[0], RGF_PLAYERS, 1)
-	EPJW B 0 A_RadiusGive("JewelJumpPowerup", Args[0], RGF_PLAYERS, 1)
-	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX1", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX2", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX3", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW B 0 A_RadiusGive("EncoreJewelPlayerIndicator", Args[0], RGF_PLAYERS, 1)
-	EPJW C 4 A_RadiusGive("JewelSpeedPowerup", Args[0], RGF_PLAYERS, 1)
-	EPJW C 0 A_RadiusGive("JewelJumpPowerup", Args[0], RGF_PLAYERS, 1)
-	EPJW CCCC 0 A_SpawnItemEx("EncoreJewelShotFX1", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW CCCC 0 A_SpawnItemEx("EncoreJewelShotFX2", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW C 0 A_RadiusGive("EncoreJewelPlayerIndicator", Args[0], RGF_PLAYERS, 1)
-	EPJW CCCC 0 A_SpawnItemEx("EncoreJewelShotFX3", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW B 4 A_RadiusGive("JewelSpeedPowerup", Args[0], RGF_PLAYERS, 1)
-	EPJW B 0 A_RadiusGive("JewelJumpPowerup", Args[0], RGF_PLAYERS, 1)
-	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX1", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX2", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX3", random(-Args[0], Args[0]), random(-Args[0], Args[0]), Random(-Args[0], Args[0]), 0, 0, 0, 0, SXF_ABSOLUTEMOMENTUM)
-	EPJW B 0 A_RadiusGive("EncoreJewelPlayerIndicator", Args[0], RGF_PLAYERS, 1)
+	EPJW A 4 A_RadiusGive("JewelPowerups_P",Args[0],RGF_PLAYERS,1)
+	EPJW AAAA 0 A_SpawnItemEx("EncoreJewelShotFX1",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW AAAA 0 A_SpawnItemEx("EncoreJewelShotFX2",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW AAAA 0 A_SpawnItemEx("EncoreJewelShotFX3",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW B 4 A_RadiusGive("JewelPowerups_P",Args[0],RGF_PLAYERS,1)
+	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX1",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX2",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX3",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW C 4 A_RadiusGive("JewelPowerups_P",Args[0],RGF_PLAYERS,1)
+	EPJW CCCC 0 A_SpawnItemEx("EncoreJewelShotFX1",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW CCCC 0 A_SpawnItemEx("EncoreJewelShotFX2",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW CCCC 0 A_SpawnItemEx("EncoreJewelShotFX3",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW B 4 A_RadiusGive("JewelPowerups_P",Args[0],RGF_PLAYERS,1)
+	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX1",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX2",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
+	EPJW BBBB 0 A_SpawnItemEx("EncoreJewelShotFX3",random(-Args[0],Args[0]),random(-Args[0],Args[0]),Random(-Args[0],Args[0]),0,0,0,0,SXF_ABSOLUTEMOMENTUM)
 	loop
 	}
+}
+
+// Using radiusgive is way more intensive than this
+actor JewelPowerups_P : CustomInventory
+{
+states
+{
+Pickup:
+TNT1 A 0 A_GiveInventory("JewelSpeedPowerup")
+TNT1 A 0 A_GiveInventory("JewelJumpPowerup")
+TNT1 A 0 A_GiveInventory("EncoreJewelPlayerIndicator")
+stop
+}
 }
 
 actor JewelSpeedPowerup : PowerSpeed
@@ -64,6 +69,9 @@ Inventory.maxamount 1
 
 actor EncoreJewelShotFX1 : BasicGraphicEffect
 {
+renderstyle translucent
+alpha 0.8
++CLIENTSIDEONLY
 +FORCEXYBILLBOARD
 +BRIGHT
 translation "192:192=171:171"
@@ -74,43 +82,17 @@ JEWS WVUVW 3
 stop
 }
 }
-
-actor EncoreJewelShotFX2 : BasicGraphicEffect
-{
-+FORCEXYBILLBOARD
-+BRIGHT
-translation "192:192=64:64"
-States
-{
-Spawn:
-JEWS WVUVW 3
-stop
-}
-}
-
-actor EncoreJewelShotFX3 : BasicGraphicEffect
-{
-+FORCEXYBILLBOARD
-+BRIGHT
-translation "192:192=101:101"
-States
-{
-Spawn:
-JEWS WVUVW 3
-stop
-}
-}
-
+actor EncoreJewelShotFX2 : EncoreJewelShotFX1 {translation "192:192=64:64"}
+actor EncoreJewelShotFX3 : EncoreJewelShotFX1 {translation "192:192=101:101"}
 
 Actor EncoreJewelPlayerIndicator : CustomInventory
 {
 States
 {
 Pickup:
-TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX1",random(-64, 64), random(-64, 64), Random(-64, 64), momx, momy, momz, 0, SXF_ABSOLUTEMOMENTUM)
-TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX2",random(-64, 64), random(-64, 64), Random(-64, 64), momx, momy, momz, 0, SXF_ABSOLUTEMOMENTUM)
-TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX3",random(-64, 64), random(-64, 64), Random(-64, 64), momx, momy, momz, 0, SXF_ABSOLUTEMOMENTUM)
-TNT1 A 4
+TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX1",random(-64,64),random(-64,64),Random(-64,64),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
+TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX2",random(-64,64),random(-64,64),Random(-64,64),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
+TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX3",random(-64,64),random(-64,64),Random(-64,64),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
 stop
 }
 }
@@ -142,7 +124,7 @@ States
 Spawn:
 ECRI A 0
 ECRI A 0 ACS_NamedExecuteAlways("core_stickyLifts",0,STICKYMODE_GUTSLIFT)
-ECRI B 0 A_JumpIf(momx==0 && momy==0,"StyleChange") //If train stops, go to more laggy, but more reliable alternative
+ECRI B 0 A_JumpIf(momx==0 && momy==0,"StyleChange") //If train stops,go to more laggy,but more reliable alternative
 ECRI A 3 A_ChangeVelocity(7,0,momz,CVF_RELATIVE)
 ECRI A 0 A_Stop
 ECRI B 0
@@ -185,7 +167,7 @@ States
 {
 Spawn:
 EJCH A 0
-TNT1 A 0 A_JumpIf(ceilingz - z < 16, "Death")
+TNT1 A 0 A_JumpIf(ceilingz - z < 16,"Death")
 TNT1 A 1 A_SpawnItemEx("EncoreJewelChainFx",0,0,16)
 stop
 Death:
@@ -201,7 +183,7 @@ States
 {
 Spawn:
 EJHC A 0
-EJCH A 0 A_JumpIf(ceilingz - z < 16, "Death")
+EJCH A 0 A_JumpIf(ceilingz - z < 16,"Death")
 EJCH A 0 A_SpawnItemEx("EncoreJewelChainFx",0,0,52)
 EJCH A -1
 stop
@@ -265,13 +247,13 @@ States
 {
 Spawn:
 ESJW A 0
-ESJW A 0 A_JumpIf(args[0]==1, "Color2")
-ESJW A 0 A_JumpIf(args[0]==2, "Color3")
-ESJW A 0 A_JumpIf(args[0]==3, "Color4")
-ESJW A 0 A_JumpIf(args[0]==4, "Color5")
-ESJW A 0 A_JumpIf(args[0]==5, "Color6")
-ESJW A 0 A_JumpIf(args[0]==6, "Color7")
-ESJW A 0 A_JumpIf(args[0]==7, "StyleAlt")
+ESJW A 0 A_JumpIf(args[0]==1,"Color2")
+ESJW A 0 A_JumpIf(args[0]==2,"Color3")
+ESJW A 0 A_JumpIf(args[0]==3,"Color4")
+ESJW A 0 A_JumpIf(args[0]==4,"Color5")
+ESJW A 0 A_JumpIf(args[0]==5,"Color6")
+ESJW A 0 A_JumpIf(args[0]==6,"Color7")
+ESJW A 0 A_JumpIf(args[0]==7,"StyleAlt")
 Color1:
 ESJW A 6
 ESJW B 6
@@ -350,3 +332,47 @@ EMJW B 6
 loop
 }
 }
+
+actor JewelParticleGenerator 20827
+{
+//$Category MM8BDME-Props
+//$Arg2 Starting delay (in ticks)
+//$NotAngled
+height 2
+radius 2
++NOINTERACTION
++NOGRAVITY
+renderstyle none
++CLIENTSIDEONLY
+states
+{
+Spawn:
+TNT1 A 0
+TNT1 A 0 A_SetTics(args[2])
+Spawn2:
+TNT1 A 1 A_Jump(256,"A","B","C")
+wait
+A:
+TNT1 A 35 A_SpawnItemEx("EncoreJewelShotFX1Big",0,0,0,0,0,5) 
+goto Spawn2
+B:
+TNT1 A 35 A_SpawnItemEx("EncoreJewelShotFX2Big",0,0,0,0,0,5) 
+goto Spawn2
+C:
+TNT1 A 35 A_SpawnItemEx("EncoreJewelShotFX3Big",0,0,0,0,0,5) 
+goto Spawn2
+}
+}
+
+actor EncoreJewelShotFX1Big : EncoreJewelShotFX1
+{
+scale 3.5
+States
+{
+Spawn:
+JEWS WVUVW 4
+stop
+}
+}
+actor EncoreJewelShotFX2Big : EncoreJewelShotFX1Big {translation "192:192=64:64"}
+actor EncoreJewelShotFX3Big : EncoreJewelShotFX1Big {translation "192:192=101:101"}
