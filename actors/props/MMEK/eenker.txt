@@ -1,5 +1,6 @@
 actor EMoleLauncher : MoleLauncher 21769
 {
+Translation "74:74=41:41"
 States
 {
 Spawn:
