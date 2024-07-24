@@ -1,6 +1,6 @@
 actor EKamegoroMaker : KamegoroMaker 20650
 {
-Translation "106:106=42:42","207:207=16:16"
+Translation "104:106=42:42","194:194=116:116","207:207=116:116","240:240=116:116"
 States
 {
 Spawn:
@@ -19,4 +19,4 @@ wait
 }
 }
 
-actor EKamegoro : Kamegoro {Translation "106:106=42:42"}
+actor EKamegoro : Kamegoro {Translation "104:106=42:42"}
