@@ -31,7 +31,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MME3GEM",	"\cgswa\crrm9\cm999",										"FACE25E",	"EGEMMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
 	{"MME3MAG",	"\c[B1]Inter",												"FACE26E",	"EMAGMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
 	{"MME3SPA",	"\c[a8]g\c[r8]ee\c[x8]k\c[a8]ie",							"FACE27E",	"ESPAMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3DW1",	"\c[y1]A\c[c4]-Chan", 										"FACE28",	"E3DW1MUS",	"MAPCD3", 	"MME3WBOS", 	"MMBVIC", 	"MME3FBOS"},
+	{"MME3DW1",	"\c[y1]A\c[c4]-Chan", 										"FACE178",	"E3DW1MUS",	"MAPCD3", 	"MME3WBOS", 	"MMBVIC", 	"MME3FBOS"},
 	{"MME3DW2",	"\c[n5]Mega\c[n6]Vile",										"FACE29E",	"E3DW2MUS",	"MAPCD3", 	"MME3WBOS", 	"MMBVIC", 	"MME3FBOS"},
 	
 	{"MME4PHA",	"\c[n6]Woo\c[w6]lock",										"FACE31E",	"EPHAMUS",	"MAPCD4", 	"MME4BOSS", 	"MMBVIC", 	"MME4FBOS"},
