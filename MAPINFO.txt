@@ -291,12 +291,23 @@ map MME3MAG "MAGNET MAN: Encore!"
 ///// MME3SPA /////
 map MME3SPA "SPARK MAN: Encore!"
 {
-	next = "MME3DW2"
+	next = "MME3DW1"
 	sky1 = "BLACK", 0
 	music = "ESPAMUS"
 	aircontrol = 0.5
 	forcenoskystretch
 	useplayerstartz
+}
+
+////////////////////
+///// MME3DW1 /////
+map MME3DW1 "SKULL CASTLE COURTYARD: Encore!"
+{
+	next = "MME3DW2"
+	music = "E3DW1MUS"
+	aircontrol = 0.5
+	forcenoskystretch
+	UsePlayerStartZ
 }
 
 ////////////////////

@@ -39,6 +39,7 @@ stop
 
 actor StoveMapSmokeSpawner 21748
 {
+//$Category MM8BDME-Props
 +NOINTERACTION
 +CLIENTSIDEONLY
 states

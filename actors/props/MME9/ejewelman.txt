@@ -4,6 +4,7 @@
 
 actor EncorePowerJewel 21724
 {
+//$Category MM8BDME-Interactive Props
 //$Arg0 Size
 	+NOGRAVITY
 	+FORCEYBILLBOARD
@@ -252,6 +253,7 @@ Face:
 
 actor EncoreUltraPowerJewels 21725
 {
+//$Category MM8BDME-Props
 //$Arg0 Color/Style
 +SOLID
 +NOGRAVITY

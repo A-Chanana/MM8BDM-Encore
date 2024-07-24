@@ -45,6 +45,7 @@ actor ESheepMapBlock 21746
 
 actor EncoreSheepPlatform 20013
 {
+//$Category MM8BDME-Interactive Props
 height 64
 radius 64
 scale 2.5

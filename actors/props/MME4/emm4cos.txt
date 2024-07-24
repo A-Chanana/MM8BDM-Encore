@@ -1,6 +1,7 @@
 
 actor EncoreSnowSpawner 20523
 {
+//$Category MM8BDME-Props
 //$Sprite AMMOA0
 +CLIENTSIDEONLY
 +NOGRAVITY

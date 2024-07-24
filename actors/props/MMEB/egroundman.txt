@@ -50,6 +50,7 @@ loop
 
 actor EncoreGroundSpike 23000
 {
+//$Category MM8BDME-Interactive Props
 +DONTBLAST
 +NOGRAVITY
 +THRUGHOST

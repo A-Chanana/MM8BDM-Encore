@@ -1,5 +1,6 @@
 actor EncoreConcreteSpike 21713
 {
+//$Category MM8BDME-Interactive Props
 +DONTBLAST
 +NOGRAVITY
 +THRUGHOST
@@ -20,6 +21,7 @@ stop
 
 actor EncorePaozo 21706
 {
+//$Category MM8BDME-Props
 //$Arg0 Color
 //$Arg0Enum { 0 = "Red"; 1 = "Green"; }
 //$Arg0Type 11
@@ -48,6 +50,7 @@ translation "183:183=119:119"
 
 actor EncorePaozoBall 21707
 {
+//$Category MM8BDME-Props
 //$Arg0 Color
 //$Arg0Enum { 0 = "Red"; 1 = "Green"; }
 //$Arg0Type 11

@@ -1,6 +1,6 @@
 actor EPenguinBomber 20553
 {
-//$Category MM8BDM-Props
+//$Category MM8BDME-Props
 +CLIENTSIDEONLY
 scale 2.5
 -SOLID

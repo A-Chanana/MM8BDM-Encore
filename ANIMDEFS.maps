@@ -653,6 +653,15 @@ texture ESPFL16X
 	pic ESPFL17 tics 4
 
 ////////////////////
+///// MM3DW1 /////
+texture EWI3WATX
+	allowdecals
+	pic EWI3WATA tics 12
+	pic EWI3WATB tics 12
+	pic EWI3WATC tics 12
+	pic EWI3WATD tics 12
+
+////////////////////
 ///// MME4PHA /////
 
 texture EPTORCH1

@@ -21,6 +21,7 @@ loop
 
 actor EncoreIceGust1 20016
 {
+//$Category MM8BDME-Props
 +BRIGHT
 -SHOOTABLE
 +NOGRAVITY
@@ -40,6 +41,7 @@ loop
 
 actor EncoreIceGust2 20017
 {
+//$Category MM8BDME-Props
 +BRIGHT
 -SHOOTABLE
 +NOGRAVITY
@@ -59,6 +61,7 @@ loop
 
 actor EncoreIceGust3 20014
 {
+//$Category MM8BDME-Props
 +BRIGHT
 -SHOOTABLE
 +NOGRAVITY
@@ -78,6 +81,7 @@ loop
 
 actor EncoreIceGust4 20015
 {
+//$Category MM8BDME-Props
 +BRIGHT
 -SHOOTABLE
 +NOGRAVITY

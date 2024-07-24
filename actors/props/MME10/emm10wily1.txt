@@ -1,5 +1,6 @@
 actor EncoreWeaponsArchiveInactive 26010
 {
+//$Category MM8BDME-Props
 //$NotAngled
 +NOGRAVITY
 +CLIENTSIDEONLY
@@ -23,6 +24,7 @@ loop
 
 actor EncoreWily10ElecBlock 27000
 {
+	//$Category MM8BDME-Interactive Props
 	//$NotAngled
 	PROJECTILE
 	+NOGRAVITY
@@ -100,6 +102,7 @@ loop
 
 actor EncoreWilyLightningRod 26013
 {
+//$Category MM8BDME-Props
 //$Sprite ELGWA0
 +FORCEYBILLBOARD
 height 96

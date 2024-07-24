@@ -1,6 +1,6 @@
 actor EncoreGockRoach 20626
 {
-//$Category EncoreProps
+//$Category MM8BDME-Props
 //$Arg0 Activity
 //$Arg0Enum { 0 = "Moves randomly"; 1 = "Keeps still"; }
 //$Arg0Type 11
@@ -63,7 +63,7 @@ stop
 }
 actor EncoreTimePiece 2050
 {
-//$Category EncoreProps
+//$Category MM8BDME-Props
 +SOLID
 +SHOOTABLE
 +NOTAUTOAIMED
@@ -134,7 +134,7 @@ MyTimeHasCome:
 }
 actor "Lil' Gregor" 1915
 {
-//$Category EncoreProps
+//$Category MM8BDME-Props
 +CANPASS
 +MISSILE
 -ISMONSTER
@@ -183,7 +183,7 @@ Goto SpinningTime
 }
 actor "Randall" 1916
 {
-//$Category EncoreProps
+//$Category MM8BDME-Props
 +CANPASS
 +MISSILE
 -ISMONSTER

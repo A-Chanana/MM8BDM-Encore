@@ -1,5 +1,6 @@
 actor SnakePlatformEncore 20009
 {
+//$Category MM8BDME-Interactive Props
 +SOLID
 +NOGRAVITY
 +FORCEYBILLBOARD
@@ -23,6 +24,7 @@ Stop
 
 actor EBigSnakey 20010
 {
+//$Category MM8BDME-Props
 -SOLID
 height 32
 radius 32
