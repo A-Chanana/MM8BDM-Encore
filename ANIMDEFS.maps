@@ -2895,6 +2895,7 @@ texture UEACTCX
     pic EURAN113 tics 5
     pic EURAN114 tics 5
     pic EURAN115 tics 5
+	
 ////////////////////
 ///// MMEVVEN /////
 texture EVNWFL1X
@@ -2915,7 +2916,15 @@ texture EVNWFL3X
 	pic EVNWFL3B tics 5
 	pic EVNWFL3C tics 5
 
-		
+
+////////////////////
+///// MMKENK /////
+texture EENFAN
+	allowdecals
+	pic EENFANA tics 4
+	pic EENFANB tics 4
+	pic EENFANC tics 4
+	
 
 ////////////////////
 ///// MMB2CLO /////

@@ -869,11 +869,21 @@ map MMEVSAT "SATURN: Encore!"
 ///// MMEVURA /////
 map MMEVURA "URANUS: Encore!"
 {
-	next = "MMB2KOM"
+	next = "MMEKENK"
 	sky1 = "EURAN91"
 	music = "EURAMUS"
 	aircontrol = 0.5
 	forcenoskystretch
+}
+
+////////////////////
+///// MMEKENK /////
+map MMEKENK "ENKER: Encore!"
+{
+   next = "MMB2KOM"
+   music = "EENKMUS"
+   aircontrol = 0.5
+   UsePlayerStartZ
 }
 
 
