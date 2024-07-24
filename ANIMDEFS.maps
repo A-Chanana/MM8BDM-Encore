@@ -1176,6 +1176,69 @@ texture SP2JLAVA
 	pic SP2LAVA4 tics 20
 
 ////////////////////
+///// MM7CLO /////
+texture ECLUFAN
+    allowdecals
+    pic ECLUFAN1 tics 4
+	pic ECLUFAN2 tics 4
+	pic ECLUFAN3 tics 4
+	
+texture ECLRFAN
+    allowdecals
+    pic ECLRFAN1 tics 4
+	pic ECLRFAN2 tics 4
+	pic ECLRFAN3 tics 4
+
+texture ECLMILX1
+    allowdecals
+    pic ECLUMIL1 tics 2
+	pic ECLUMIL2 tics 2
+	pic ECLUMIL3 tics 2
+	pic ECLUMIL7 tics 2
+	
+texture ECLMILX2
+    allowdecals
+    pic ECLUMIL4 tics 2
+	pic ECLUMIL5 tics 2
+	pic ECLUMIL6 tics 2
+	pic ECLUMIL8 tics 2
+	
+texture ECLGENX1
+    allowdecals
+    pic ECLUGEN1 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN1 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN2 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN2 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN3 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN3 tics 2
+	pic ECLUGEN4 tics 1
+	
+texture ECLGENX2
+	allowdecals
+    pic ECLUGEN5 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN5 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN6 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN6 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN7 tics 2
+	pic ECLUGEN4 tics 1
+	pic ECLUGEN7 tics 2
+	pic ECLUGEN4 tics 1
+	
+texture ECLUFAX
+	pic ECLUFAN4 tics 4
+	pic ECLUFAN5 tics 4
+	pic ECLUFAN6 tics 4
+
+////////////////////
 ///// MME7SPR /////
 texture ESRINGA1
     allowdecals

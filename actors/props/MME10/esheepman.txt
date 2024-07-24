@@ -86,7 +86,7 @@ Reset:
 ESHW A 0 A_TakeInventory("CutterFlag",999)
 ESHW A 0 A_ChangeFlag("Shootable",1)
 ESHW A 0 A_ChangeFlag("Solid",1)
-ESHW A 0 A_PlaySoundEx("misc/galaxyteleport", "Weapon")
+ESHW A 0 A_PlaySoundEx("encore/sheepcloudreform", "Weapon")
 Goto Spawn2
 Pain:
 ESHW A 0 A_ChangeFlag("Shootable",0)

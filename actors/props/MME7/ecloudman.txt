@@ -1,0 +1,15 @@
+actor ECloudmanRainSpawner : CloudmanRainSpawner 20623
+{
+//$Category MM8BDME-Props
+States
+{
+Raining:
+TNT1 A 1 A_SpawnItemEx("CloudmanRain", random(-128,128), random(-128,128), 0, -30, 0, -30, 180, SXF_CLIENTSIDE)
+TNT1 A 35 A_SetTics(random(17,35))
+Loop
+RainingInteraction:
+TNT1 A 1 A_SpawnItemEx("CloudmanRain2", random(-128,128), random(-128,128), 0, -30, 0, -30, 180, SXF_CLIENTSIDE)
+TNT1 A 35 A_SetTics(random(35,70))
+Loop
+}
+}

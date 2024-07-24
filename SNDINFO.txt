@@ -6,6 +6,7 @@ TIMERESU TIMERESU
 ROACHSQK ROACHSQK
 ROCHBUMP ROCHBUMP
 encore/sheepcloudshot	S_M2B3-2
+encore/sheepcloudreform CLDRFRM
 encore/lightningstrike	E10DW1LG
 	$volume encore/lightningstrike 0.6
 encore/spacesplash	ECLIPGWH

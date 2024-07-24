@@ -40,6 +40,7 @@
 
 #include "actors/Props/MME7/efreezeman.txt"
 #include "actors/Props/MME7/ejunkman.txt"
+#include "actors/Props/MME7/ecloudman.txt"
 #include "actors/Props/MME7/eshademan.txt"
 #include "actors/Props/MME7/eturboman.txt"
 

@@ -26,54 +26,6 @@ Texture ECLUGRN3, 32, 128
 	Patch ECLUD5, 0, 0
 }
 
-Texture ECLUGRI3, 32, 128
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD5, 0, 0
-}
-
-Texture ECLRGRN1, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD126, 0, 0
-}
-
-Texture ECLRGRN2, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD127, 0, 0
-}
-
-Texture ECLRGRN3, 32, 128
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD122, 0, 0
-}
-
-Texture ECLRGRN4, 64, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD124, 0, 0
-}
-
-Texture ECLUORA1, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD3, 0, 0
-}
-
 Texture ECLUORA2, 32, 16
 {
 	XScale 0.500
@@ -88,46 +40,6 @@ Texture ECLUORA3, 32, 128
 	YScale 0.500
 	WorldPanning
 	Patch ECLUD6, 0, 0
-}
-
-Texture ECLUORI3, 32, 128
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD6, 0, 0
-}
-
-Texture ECLRORA1, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD31, 0, 0
-}
-
-Texture ECLRORA2, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD32, 0, 0
-}
-
-Texture ECLRORA3, 32, 128
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD123, 0, 0
-}
-
-Texture ECLRORA4, 64, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD125, 0, 0
 }
 
 Texture ECLUFAN, 64, 64
@@ -198,46 +110,6 @@ Texture ECLUFANB, 64, 64
 	Patch ECLUD43, 0, 0
 }
 
-Texture ECLRFAN, 64, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD36, 0, 0
-}
-
-Texture ECLRFAN1, 64, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD36, 0, 0
-}
-
-Texture ECLRFAN2, 64, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD37, 0, 0
-}
-
-Texture ECLRFAN3, 64, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD38, 0, 0
-}
-
-Texture ECLRFANB, 64, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD44, 0, 0
-}
-
 Texture ECLUGRN4, 64, 32
 {
 	XScale 0.500
@@ -262,26 +134,6 @@ Texture ECLUGRN5, 32, 16
 	Patch ECLUD14, 0, 0
 }
 
-Texture ECLUORA5, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD12, 0, 0
-}
-
-Texture ECLUPURP, 128, 512
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD15, 0, 0
-	Patch ECLUD16, 0, 128
-	Patch ECLUD16, 0, 256
-	Patch ECLUD16, 0, 384
-	Patch ECLUD16, 0, 480
-}
-
 Texture ECLUGLI1, 32, 16
 {
 	XScale 0.500
@@ -298,14 +150,6 @@ Texture ECLUGLI2, 32, 16
 	Patch ECLUD129, 0, 0
 }
 
-Texture ECLUGLI3, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD130, 0, 0
-}
-
 Texture ECLUGLA1, 32, 16
 {
 	XScale 0.500
@@ -320,38 +164,6 @@ Texture ECLUGLA2, 32, 16
 	YScale 0.500
 	WorldPanning
 	Patch ECLUD18, 0, 0
-}
-
-Texture ECLUGLA3, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD42, 0, 0
-}
-
-Texture ECLRGLA1, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD30, 0, 0
-}
-
-Texture ECLRGLA2, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD29, 0, 0
-}
-
-Texture ECLRGLA3, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD41, 0, 0
 }
 
 Texture ECLUBLK, 16, 16
@@ -375,37 +187,6 @@ Texture ECLUPIL, 64, 512
 	Patch ECLUD21, 0, 320
 	Patch ECLUD21, 0, 384
 	Patch ECLUD21, 0, 448
-}
-
-Texture ECLRPIL, 64, 512
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD34, 0, 0
-	Patch ECLUD35, 0, 64
-	Patch ECLUD35, 0, 128
-	Patch ECLUD35, 0, 192
-	Patch ECLUD35, 0, 256
-	Patch ECLUD35, 0, 320
-	Patch ECLUD35, 0, 384
-	Patch ECLUD35, 0, 448
-}
-
-Texture ECLRLAD2, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD22, 0, 0
-}
-
-Texture ECLRLAD3, 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD39, 0, 0
 }
 
 Texture ECLULAD, 16, 16
@@ -432,22 +213,6 @@ Texture ECLUECL2, 32, 128
 	Patch ECLUD26, 0, 0
 }
 
-Texture ECLRECL1, 32, 128
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD28, 0, 0
-}
-
-Texture ECLRECL2, 32, 128
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD27, 0, 0
-}
-
 Texture ECLUSCLD, 128, 256
 {
 	XScale 0.500
@@ -465,25 +230,6 @@ Texture ECLUSCLD, 128, 256
 	Patch ECLUD26, 64, -32
 	Patch ECLUD26, 96, 224
 	Patch ECLUD26, 96, -32
-}
-
-Texture ECLRSCLD, 128, 256
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD28, 0, 96
-	Patch ECLUD28, 32, 96
-	Patch ECLUD28, 64, 96
-	Patch ECLUD28, 96, 96
-	Patch ECLUD27, 0, 224
-	Patch ECLUD27, 0, -32
-	Patch ECLUD27, 32, 224
-	Patch ECLUD27, 32, -32
-	Patch ECLUD27, 64, 224
-	Patch ECLUD27, 64, -32
-	Patch ECLUD27, 96, 224
-	Patch ECLUD27, 96, -32
 }
 
 Texture ECLUINVS, 32, 16
@@ -550,44 +296,12 @@ Texture ECLUFLR5, 16, 16
 	Patch ECLUD49, 0, 0
 }
 
-Texture ECLRFLR1, 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD49, 0, 0
-}
-
-Texture ECLRFLR2, 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD49, 0, 0
-}
-
-Texture ECLRBLU, 32, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD50, 0, 0
-}
-
 Texture ECLUFGLS, 16, 16
 {
 	XScale 0.500
 	YScale 0.500
 	WorldPanning
 	Patch ECLUD51, 0, 0
-}
-
-Texture ECLRFGLS, 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD52, 0, 0
 }
 
 Texture ECLUMET1, 64, 48
@@ -1548,14 +1262,6 @@ Texture ECLUMET6, 64, 512
 	Patch ECLUD58, 0, 496
 }
 
-Texture ECLRGLA4, 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD59, 0, 0
-}
-
 Texture ECLUMET7, 32, 16
 {
 	XScale 0.500
@@ -1687,14 +1393,6 @@ Texture ECLUMET9, 64, 32
 	Patch ECLUD72, 0, 0
 }
 
-Texture ECLRGLAS, 64, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD73, 0, 0
-}
-
 Texture ECLUBEM2, 64, 16
 {
 	XScale 0.500
@@ -1791,218 +1489,12 @@ Texture ECLGENX2, 64, 128
 	Patch ECLUD81, 0, 0
 }
 
-Texture ECLRG1, 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD84, 0, 0
-}
-
-Texture ECLRY1, 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD85, 0, 0
-}
-
-Texture ECLRG2, 32, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD86, 0, 0
-}
-
-Texture ECLRY2, 32, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD87, 0, 0
-}
-
-Texture ECLRMET1, 64, 48
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD88, 0, 0
-}
-
-Texture ECLRMET2, 32, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD89, 0, 0
-}
-
-Texture ECLRMET3, 32, 48
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD90, 0, 0
-}
-
-Texture ECLRMET4, 64, 48
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD91, 0, 0
-}
-
-Texture ECLRMET5, 64, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD92, 0, 0
-}
-
-Texture ECLRMET6, 64, 512
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD91, 0, -32
-	Patch ECLUD91, 0, 16
-	Patch ECLUD91, 0, 64
-	Patch ECLUD91, 0, 112
-	Patch ECLUD91, 0, 160
-	Patch ECLUD91, 0, 208
-	Patch ECLUD91, 0, 256
-	Patch ECLUD91, 0, 448
-	Patch ECLUD91, 0, 400
-	Patch ECLUD91, 0, 352
-	Patch ECLUD91, 0, 304
-	Patch ECLUD92, 0, 496
-}
-
-Texture ECLRBLOK, 32, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD93, 0, 0
-}
-
-Texture ECLRMET7, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD94, 0, 0
-}
-
-Texture ECLRMET8, 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD95, 0, 0
-}
-
-Texture ECLRPIL2, 16, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD96, 0, 0
-}
-
-Texture ECLRPIL3, 16, 64
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD97, 0, 0
-}
-
-Texture ECLRPTOP, 32, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD98, 0, 0
-}
-
-Texture ECLRPMID, 32, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD99, 0, 0
-}
-
-Texture ECLRPBOT, 32, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD100, 0, 0
-}
-
-Texture ECLRPIL4, 32, 640
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD98, 0, 0
-	Patch ECLUD99, 0, 32
-	Patch ECLUD99, 0, 64
-	Patch ECLUD99, 0, 96
-	Patch ECLUD99, 0, 128
-	Patch ECLUD99, 0, 160
-	Patch ECLUD99, 0, 192
-	Patch ECLUD99, 0, 224
-	Patch ECLUD99, 0, 256
-	Patch ECLUD99, 0, 288
-	Patch ECLUD99, 0, 320
-	Patch ECLUD99, 0, 352
-	Patch ECLUD99, 0, 384
-	Patch ECLUD99, 0, 416
-	Patch ECLUD99, 0, 448
-	Patch ECLUD99, 0, 480
-	Patch ECLUD99, 0, 512
-	Patch ECLUD99, 0, 544
-	Patch ECLUD99, 0, 576
-	Patch ECLUD100, 0, 608
-}
-
-Texture ECLRMET9, 64, 32
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD101, 0, 0
-}
-
-Texture ECLRBEM2, 64, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD102, 0, 0
-}
-
 Texture ECLUBFAN, 128, 128
 {
 	XScale 0.500
 	YScale 0.500
 	WorldPanning
 	Patch ECLUD103, -16, -16
-}
-
-Texture ECLRBFAN, 128, 128
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch ECLUD106, -16, -16
 }
 
 Texture ECLUMIL1, 128, 144
@@ -2083,6 +1575,54 @@ Texture ECLMILX2, 128, 144
 	YScale 0.500
 	WorldPanning
 	Patch ECLUD106, 0, 0
+}
+
+Texture ECLRBLU, 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ECLUD50, 0, 0
+}
+
+Texture ECLRGLAS, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ECLUD73, 0, 0
+}
+
+Texture ECLRFAN, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ECLUD36, 0, 0
+}
+
+Texture ECLRFAN1, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ECLUD36, 0, 0
+}
+
+Texture ECLRFAN2, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ECLUD37, 0, 0
+}
+
+Texture ECLRFAN3, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ECLUD38, 0, 0
 }
 
 // End of texture definitions
