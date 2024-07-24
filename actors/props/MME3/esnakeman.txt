@@ -22,18 +22,14 @@ Stop
 }
 }
 
-actor EBigSnakey 20010
+actor EBigSnakey : BigSnakey 20010
 {
 //$Category MM8BDME-Props
--SOLID
-height 32
-radius 32
-scale 2.5
 States
 {
 Spawn:
 ESNK A 0
-//ESNK A 1 A_JumpIf(Args[0] == 1, "BusterRodGSnakey")
+ESNK A 1 //A_JumpIf(Args[0] == 1, "BusterRodGSnakey")
 GoTo SnakeManSnakey
 SnakeManSnakey:
 ESNK A 45

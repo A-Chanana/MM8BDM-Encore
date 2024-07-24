@@ -1,19 +1,6 @@
-actor EncoreGockRoach 20626
+actor EncoreGockRoach : GockRoach 20626
 {
 //$Category MM8BDME-Props
-//$Arg0 Activity
-//$Arg0Enum { 0 = "Moves randomly"; 1 = "Keeps still"; }
-//$Arg0Type 11
-+CANPASS
--ISMONSTER
--COUNTKILL
--SHOOTABLE
--SOLID
-//+CLIENTSIDEONLY
-scale 2.5
-Height 8
-Radius 12
-Speed 8
 Translation "223:223=132:132", "89:89=230:230"
 States
 {

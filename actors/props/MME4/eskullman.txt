@@ -1,12 +1,6 @@
-actor ESkeletonJoe 20530
+actor ESkeletonJoe : SkeletonJoe 20530
 {
 //$Category MM8BDME-Props
-+SOLID
-+CLIENTSIDEONLY
-height 32
-radius 32
-scale 2.5
-+RANDOMIZE
 States
 {
 Spawn:

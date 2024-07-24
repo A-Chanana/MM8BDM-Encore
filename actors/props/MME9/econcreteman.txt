@@ -1,12 +1,7 @@
-actor EncoreConcreteSpike 21713
+actor EncoreConcreteSpike : ConcreteSpike 21713
 {
 //$Category MM8BDME-Interactive Props
-+DONTBLAST
-+NOGRAVITY
-+THRUGHOST
-Height 16
-radius 16
-scale 2.5
+//$Sprite ECNSA0
 states
 {
 Spawn:
@@ -19,16 +14,9 @@ stop
 }
 }
 
-actor EncorePaozo 21706
+actor EncorePaozo : Paozo 21706
 {
 //$Category MM8BDME-Props
-//$Arg0 Color
-//$Arg0Enum { 0 = "Red"; 1 = "Green"; }
-//$Arg0Type 11
-+SOLID
-height 128
-radius 64
-scale 2.5
 States
 {
 Spawn:
@@ -48,16 +36,9 @@ actor EncoreGreenPaozo : EncorePaozo
 translation "183:183=119:119"
 }
 
-actor EncorePaozoBall 21707
+actor EncorePaozoBall : PaozoBall 21707
 {
 //$Category MM8BDME-Props
-//$Arg0 Color
-//$Arg0Enum { 0 = "Red"; 1 = "Green"; }
-//$Arg0Type 11
-+SOLID
-height 64
-radius 32
-scale 2.5
 States
 {
 Spawn:
@@ -77,28 +58,8 @@ actor EncoreGreenPaozoBall : EncorePaozoBall
 translation "183:183=119:119"
 }
 
-actor EncoreHoohoo
+actor EncoreHoohoo : Hoohoo
 {
-PROJECTILE
-+DONTBLAST
-+RIPPER
-+BLOODLESSIMPACT
--SOLID
-+NOGRAVITY
-+DONTREFLECT
-+SHOOTABLE
-+NOTAUTOAIMED
-+NOBLOOD
--NOBLOCKMAP
-+DONTDRAIN
-+NODAMAGE
-Painchance 256
-Health 1
-Damage (0)
-radius 16
-height 16
-scale 2.5
-speed 0
 States
 {
 Spawn:
@@ -122,17 +83,8 @@ loop
 }
 }
 
-actor EncoreHoohooRock
+actor EncoreHoohooRock : HoohooRock
 {
-PROJECTILE
--NOGRAVITY
-+DONTREFLECT
-+RIPPER
-Damage 0
-Speed 0
-radius 5
-height 5
-Scale 2.5
 States
 {
 Spawn:
@@ -144,17 +96,8 @@ stop
 }
 }
 
-actor EncoreHoohooShrapnel
+actor EncoreHoohooShrapnel : HoohooShrapnel
 {
-PROJECTILE
--NOGRAVITY
-+RIPPER
-+DONTREFLECT
-Damage 0
-Speed 0
-radius 5
-height 5
-Scale 2.5
 States
 {
 Spawn:

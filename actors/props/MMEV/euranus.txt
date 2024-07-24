@@ -1,11 +1,6 @@
-actor EKhamen 16826
+actor EKhamen : TKhamen 16826
 {
-//$Category MM8BDM-Props
-+SOLID
-+CLIENTSIDEONLY
-height 57
-radius 83
-scale 2.5
+//$Category MM8BDME-Props
 States
 {
 Spawn:
@@ -14,16 +9,9 @@ loop
 }
 }
 
-actor EUranusTorch 16825
+actor EUranusTorch : UranusTorch 16825
 {
-//$Category MM8BDM-Props
-+FORCEYBILLBOARD
-+CLIENTSIDEONLY
-+NOGRAVITY
-+BRIGHT
-Height 16
-radius 16
-scale 2.5
+//$Category MM8BDME-Props
 states
 {
 Spawn:
@@ -32,14 +20,9 @@ loop
 }
 }
 
-actor EBirdyChuncoSpawner 17778
+actor EBirdyChuncoSpawner : BirdyChuncoSpawner 17778
 {
-//$Category MM8BDM-Props
-	+SOLID
-	Height 32
-	Radius 32
-	Scale 2.5
-	var int user_flingTime;
+//$Category MM8BDME-Props
 	States
 	{
 	Spawn:
@@ -55,16 +38,8 @@ actor EBirdyChuncoSpawner 17778
 	}
 }
 
-actor EChunco
+actor EChunco : Chunco
 {
-PROJECTILE
-+NOGRAVITY
-+THRUACTORS
-Radius 6
-Height 7
-scale 2.5
-damage (0)
-speed 1
 States
 {
 Spawn:
@@ -78,7 +53,7 @@ stop
 
 actor CoeDrip 1984
 {
-//$Category MM8BDM-Props
+//$Category MM8BDME-Props
 +SOLID
 MONSTER
 health 15

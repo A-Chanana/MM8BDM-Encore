@@ -1,11 +1,6 @@
-actor EncoreMetrengerSpawner 21674
+actor EncoreMetrengerSpawner : MetrengerSpawner 21674
 {
-//$Category MM8BDM-Props
-//+CLIENTSIDEONLY
-+NOINTERACTION
-+NOGRAVITY
--SOLID
-scale 2.5
+//$Category MM8BDME-Props
 States
 {
 Spawn:
@@ -23,19 +18,8 @@ stop
 }
 }
 
-actor EncoreMetrenger
+actor EncoreMetrenger : Metrenger
 {
-+CANPASS
-+FLOORCLIP
--ISMONSTER
--COUNTKILL
--SHOOTABLE
--SOLID
-scale 1.5
-Height 10
-Radius 35
-Speed 5
-scale 2.5
 States
 {
 Spawn:

@@ -1,9 +1,6 @@
-actor EPenguinBomber 20553
+actor EPenguinBomber : PenguinBomber 20553
 {
 //$Category MM8BDME-Props
-+CLIENTSIDEONLY
-scale 2.5
--SOLID
 States
 {
 Spawn:

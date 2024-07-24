@@ -1,22 +1,6 @@
-actor EncoreClownTrain 20814
+actor EncoreClownTrain : ClownTrain 20814
 {
-+SOLID
-+ACTIVATEMCROSS
-+NOGRAVITY
-+FORCEYBILLBOARD
-+CANPASS
-+SHOOTABLE
-+NOTAUTOAIMED
-+NOBLOOD
-+NODAMAGE
-Height 64
-Radius 48
-Speed 7
-scale 2.5
-Mass 999999
-species "MovingPlatform"
-+THRUSPECIES
-var int user_playerRiding[64];
+//$Category MM8BDME-Interactive Props
 States
 {
 Spawn:
@@ -41,12 +25,9 @@ Goto Spawn2+2
 }
 }
 
-actor EncoreRomper : Turtle 21675
+actor EncoreRomper : Romper 21675
 {
-//+NODROPOFF
-+NOBLOCKMONST
-scale 2.0
-Speed 8
+//$Category MM8BDME-Props
 States
 {
 Spawn:
@@ -64,6 +45,7 @@ loop
 
 actor EncoreMagicBalloonSpawner : TenguBalloonSpawner 21658
 {
+//$Category MM8BDME-Interactive Props
 //$Arg0 Height
 //$Arg1 Color
 //$Arg1Enum { 0 = "Red"; 1 = "Blue"; 2 = "Yellow"; }

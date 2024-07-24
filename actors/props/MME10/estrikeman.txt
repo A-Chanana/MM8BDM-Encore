@@ -136,11 +136,8 @@ stop
 }
 }
 
-actor BluePitchanE
+actor BluePitchanE : BluePitchan
 {
-radius 32
-height 32
-scale 2.5
 translation "192:192=92:92", "198:198=195:195"
 states
 {

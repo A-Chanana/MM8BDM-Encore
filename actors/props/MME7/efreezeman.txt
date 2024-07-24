@@ -10,15 +10,9 @@ actor EFreezeTree2 : FreezeTree2 20607
 Translation "243:243=[148,29,85]:[148,29,85]","69:69=[244,149,159]:[244,149,159]"
 }
 
-actor EPolarBear 20609
+actor EPolarBear : PolarBear 20609
 {
 //$Category MM8BDME-Props
-+SOLID
-+CLIENTSIDEONLY
-height 32
-radius 16
-scale 2.5
-+RANDOMIZE
 States
 {
 Spawn:

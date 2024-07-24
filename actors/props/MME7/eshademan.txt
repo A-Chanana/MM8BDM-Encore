@@ -116,41 +116,20 @@ Goto Spawn
 }
 }
 
-actor GHOSE
+actor GHOSE : GhostsNGoblinsThing
 {
-+MISSILE
-+NOGRAVITY
-+DONTBLAST
-+SHOOTABLE
-+NOTAUTOAIMED
-+DONTREFLECT
-Health 1
-Damage (255)
-+RIPPER
-+FLOATBOB
-speed 18
-scale 2.5
-height 30
-radius 25
-+FOILINVUL
 States
 {
 Spawn:
 GHOS CDE 5
 loop
-Death:
-GHOS C 0 ACS_Execute(4,0)
-DOMP IJKLMN 4
-stop
 }
 }
 
-actor GHOSESpawner 23601
+actor GHOSESpawner : GNGSpawner 23601
 {
-//$Category MM8BDM-Interactive Props
-+NOGRAVITY
-+NOINTERACTION
--SOLID
+//$Category MM8BDME-Interactive Props
+//$Sprite GHOSC0
 States
 {
 Spawn:

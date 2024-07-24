@@ -19,14 +19,9 @@ Translation "106:106=173:173"
 
 
 
-actor EncorePetitDevilSpawner 21726
+actor EncorePetitDevilSpawner : PetitDevilSpawner 21726
 {
-//$Category MM8BDM-Props
-+NOGRAVITY
--SOLID
-scale 2.5
-height 64
-radius 32
+//$Category MM8BDME-Props
 States
 {
 Spawn:

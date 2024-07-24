@@ -1,10 +1,6 @@
-actor EncoreWeaponsArchiveInactive 26010
+actor EncoreWeaponsArchiveInactive : WeaponsArchiveInactive 26010
 {
 //$Category MM8BDME-Props
-//$NotAngled
-+NOGRAVITY
-+CLIENTSIDEONLY
-scale 2.0
 States
 {
 Spawn:

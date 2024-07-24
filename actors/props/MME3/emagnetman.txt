@@ -1,19 +1,7 @@
 actor EMagFly : Magfly 20821
 {
 //$Category MM8BDME-Interactive Props
-//$Arg0 Moving?
-//$Arg0Enum { 0 = "Yes"; 1 = "No"; }
-//$Arg0Type 11
-//$Arg1 Movement Speed
 Translation "41:41=117:117","216:216=72:72"
-+SOLID
-+NOGRAVITY
-+CANPASS
-+ACTIVATEPCROSS
-+ACTIVATEMCROSS
-height 64
-radius 32
-scale 2.5
 States
 {
 Spawn:

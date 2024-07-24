@@ -10,66 +10,15 @@ stop
 }
 }
 
-actor ESabotall
+actor ESabotall : Sabotall
 {
-Health 1
-height 56
-speed 0
 Translation "117:117=[73,76,167]:[73,76,167]"
-+SOLID
--SHOOTABLE
-+DONTBLAST
-+ACTIVATEMCROSS
-+ACTIVATEPCROSS
-scale 2.5
-States
-{
-Spawn:
-SABO A 5 A_Recoil(-5)
-SABO A 0 A_Stop
-SABO B 5 A_Recoil(-5)
-SABO B 0 A_Stop
-SABO A 5 A_Recoil(-5)
-SABO A 0 A_Stop
-SABO C 5 A_Recoil(-5)
-SABO C 0 A_Stop
-SABO C 0 A_Jump(100,"Pausing")
-loop
-Pausing:
-SABO D 0 A_Stop
-SABO D 5
-SABO EE 35
-SABO D 5
-Goto Spawn
-Death:
-TNT1 A 0 A_Stop
-//TFOG A 3 A_PlaySound("misc/teleport")
-//TFOG A 3 ACS_Execute(6,0)
-//TFOG BC 2
-stop
-}
 }
 
-actor EOilCanister 20631
+actor EOilCanister : OilCanister 20631
 {
 //$Category MM8BDME-Interactive Props
-+SOLID
-+SHOOTABLE
-+NOTAUTOAIMED
-+NODAMAGETHRUST
-+FORCEYBILLBOARD
-+NOBLOOD
-+DONTBLAST
-+QUICKTORETALIATE
-Obituary "%o got %p stocks rocked by an explosive barrel."
-scale 2.5
-height 80
-Radius 16
 Health 10
-mass 99999
-painchance 256
-damagetype "OilCanister"
-damagefactor "Ignition", 1.0
 damagefactor "OilSlider", 0.0
 States
 {

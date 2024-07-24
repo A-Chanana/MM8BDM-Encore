@@ -1,13 +1,6 @@
-actor ECrystalTower1 13555
+actor ECrystalTower1 : CrystalTower1 13555
 {
-//$Category MM8BDM-Props
-+SOLID
--CANPASS
-+ALLOWCLIENTSPAWN
-height 254
-+FORCEYBILLBOARD
-radius 31
-scale 2.5
+//$Category MM8BDME-Props
 States
 {
 Spawn:
@@ -18,7 +11,6 @@ stop
 
 actor ECrystalTower2 : ECrystalTower1 13556
 {
-//$Category MM8BDM-Props
 States
 {
 Spawn:
@@ -29,7 +21,6 @@ stop
 
 actor ECrystalTower3 : ECrystalTower1 13557
 {
-//$Category MM8BDM-Props
 States
 {
 Spawn:

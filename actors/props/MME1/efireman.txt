@@ -1,14 +1,6 @@
-actor EFireTrap 20503
+actor EFireTrap : FireTrap 20503
 {
 //$Category MM8BDME-Interactive Props
-//$Arg0 Start delay (in ticks)
-+NOGRAVITY
--SOLID
-Radius 4
-Height 4
-Scale 2.5
-renderstyle none
-obituary "%o's timing was off and got burned by a fire trap."
 States
 {
 Spawn:
@@ -27,21 +19,7 @@ Damage (3)
 actor EScrewBomber : ScrewBomber 20633
 {
 //$Category MM8BDME-Props
-+CLIENTSIDEONLY
-+FORCEYBILLBOARD
-height 16
-radius 16
-scale 2.5
-States
-{
-Spawn:
-SWBM A 35
-SWBM A 1 A_Jump(25,"PopUp")
-loop
-PopUp:
-SWBM BCDBCDBCD 5
-goto Spawn
-}
+Translation "198:198=41:41"
 }
 
 actor EFirePillarSpawner 20634

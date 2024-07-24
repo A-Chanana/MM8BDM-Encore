@@ -237,17 +237,8 @@ Translation "41:41=207:207"
 
 //Original
 
-Actor EncoreFireSnakey
+Actor EncoreFireSnakey : FireSnakey
 {
-+ISMONSTER
-PROJECTILE
-+DONTBLAST
-+NOINTERACTION
-+NOCLIP
-height 1
-radius 1
-Speed 0
-scale 2.5
 states
 {
 Spawn:

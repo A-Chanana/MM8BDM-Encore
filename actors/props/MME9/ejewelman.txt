@@ -104,9 +104,6 @@ stop
 actor EncoreJewelCrystal : JewelCrystal 21719
 {
 //$Category MM8BDME-Props
-height 64
-radius 32
-scale 2.5
 States
 {
 Spawn:
@@ -115,10 +112,9 @@ loop
 }
 }
 
-actor EncoreCaricarry : ClownTrain 21720
+actor EncoreCaricarry : Caricarry 21720
 {
 //$Category MM8BDME-Props
-+NOTIMEFREEZE
 States
 {
 Spawn:
@@ -157,12 +153,9 @@ Goto Spawn+2
 }
 }
 
-actor EncoreJewelChain 21721
+actor EncoreJewelChain : JewelChain 21721
 {
 //$Category MM8BDME-Props
-+NOINTERACTION
-scale 2.5
-+NOGRAVITY
 States
 {
 Spawn:
@@ -213,12 +206,6 @@ loop
 actor EncoreStoneHead : StoneHead 21723
 {
 //$Category MM8BDME-Props
-+NOGRAVITY
-+SOLID
-+FORCEXYBILLBOARD
-Height 64
-Radius 32
-Scale 2.0
 States
 {
 Spawn:

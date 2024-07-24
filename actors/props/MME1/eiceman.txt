@@ -1,16 +1,5 @@
-actor EncorePeng
+actor EncorePeng : Peng
 {
-PROJECTILE
-Damage 0
-+RIPPER
-+DONTBLAST
-+FLOATBOB
-+BLOODLESSIMPACT
-+CLIENTSIDEONLY
-scale 2.5
-speed 12
--SOLID
-+NOGRAVITY
 States
 {
 Spawn:
@@ -39,16 +28,8 @@ loop
 }
 }
 
-actor EncoreIceGust2 20017
+actor EncoreIceGust2 : EncoreIceGust1 20017
 {
-//$Category MM8BDME-Props
-+BRIGHT
--SHOOTABLE
-+NOGRAVITY
-+FORCEYBILLBOARD
-height 16
-radius 30
-scale 2.5
 States
 {
 Spawn:
@@ -59,16 +40,8 @@ loop
 }
 }
 
-actor EncoreIceGust3 20014
+actor EncoreIceGust3 : EncoreIceGust1 20014
 {
-//$Category MM8BDME-Props
-+BRIGHT
--SHOOTABLE
-+NOGRAVITY
-+FORCEYBILLBOARD
-height 16
-radius 30
-scale 2.5
 States
 {
 Spawn:
@@ -79,16 +52,8 @@ loop
 }
 }
 
-actor EncoreIceGust4 20015
+actor EncoreIceGust4  : EncoreIceGust1 20015
 {
-//$Category MM8BDME-Props
-+BRIGHT
--SHOOTABLE
-+NOGRAVITY
-+FORCEYBILLBOARD
-height 16
-radius 30
-scale 2.5
 States
 {
 Spawn:

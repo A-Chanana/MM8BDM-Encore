@@ -1,6 +1,6 @@
 actor EOctone : Octone 21727
 {
-//$Category MM8BDM-Interactive Props
+//$Category MM8BDME-Interactive Props
 Translation "41:41=110:110"
 }
 
