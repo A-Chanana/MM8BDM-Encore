@@ -1,7 +1,7 @@
 #library "enccard"
 #include "zcommon.acs"
 
-#DEFINE ENC_MAPS 81
+#DEFINE ENC_MAPS 82
 str enc_mapcards[ENC_MAPS][8] = {
 	{"MME1CUT",	"\c[n6]Woo\c[w6]lock", 										"FACE0E", 	"ECUTMUS", 	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
 	{"MME1GUT",	"\c[p2]Sir An\c[g3]0\c[p2]n", 								"FACE1E", 	"EGUTMUS", 	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
@@ -87,7 +87,8 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MME10STR","\c[b8]M.\c[o9]Fart\c[k1]045\cf & \cgAAAAAA",				"FACE142E",	"ESTRMUS",	"MAPCD10", 	"MME10BOS", 	"MMBVIC", 	"MME10WBS"},
 	{"MME10SOL","\cfLord\chDama\cvger \cf& \c[n5]Mega\c[n6]Vile",			"FACE144E",	"ESOLMUS",	"MAPCD10", 	"MME10BOS", 	"MMBVIC", 	"MME10WBS"},
 	
-	{"MMEVVEN",	"\c[y1]A\c[c4]-Chan \cf& \c[n5]Mega\c[n6]Vile",			    "FACE148E",	"EVENMUS",	"MAPCDV", 	"MMEVBOSS",		"MMBVIC", 	"MMEVINTS"},
+	{"MMEVVEN",	"\c[y1]A\c[c4]-Chan \cf& \c[n5]Mega\c[n6]Vile",				"FACE148E",	"EVENMUS",	"MAPCDV", 	"MMEVBOSS",		"MMBVIC", 	"MMEVINTS"},
+	{"MMEVSAT",	"\c[y1]A\c[c4]-Chan",			 							"FACE149",	"ESATMUS",	"MAPCDV", 	"MMEVBOSS",		"MMBVIC", 	"MMEVINTS"},
 	{"MMEVURA",	"\c[b8]M.\c[o9]Fart\c[k1]045\cf, \c[n6]Woo\c[w6]lock\cf, \c[y1]A\c[c4]-Chan",	"FACE152E",	"EURAMUS",	"MAPCDV",	"MMEVBOSS",	"MMBVIC",	"MMEVINTS"},
 	{"MMECTF08","\c[n5]Mega\c[n6]Vile",										"FACE127E",	"ECTFMS8",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
 	
