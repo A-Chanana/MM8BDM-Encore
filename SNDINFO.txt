@@ -2,6 +2,7 @@ misc/undbel		UNDBEL
 misc/realblast	TREXP
 encore/hourglassflip HRGLFLIP
 JOJOKE JOJOKE
+TIMERESU TIMERESU
 ROACHSQK ROACHSQK
 ROCHBUMP ROCHBUMP
 encore/sheepcloudshot	S_M2B3-2
