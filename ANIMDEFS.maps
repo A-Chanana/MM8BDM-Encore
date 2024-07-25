@@ -5,6 +5,8 @@ texture ETELEP2
 	pic ETELPX1 tics 8
 	pic ETELPX2 tics 8
 
+
+////////////////////
 ///// MME1ELE /////
 texture EELEZ1
     allowdecals
@@ -202,7 +204,6 @@ texture EBBWTRX
 	pic EBBWTR3 tics 6
 	pic EBBWTR4 tics 6
 
-
 ////////////////////
 ///// MME2AIR /////
 texture EAIFAN1
@@ -308,7 +309,6 @@ texture EQUICK18
 
 ////////////////////
 ///// MME2CRA /////
-
 texture ECRAWTRX
     allowdecals
     pic ECRAWTR1 tics 3
@@ -385,6 +385,7 @@ texture EWL6FANX
     pic EWL6FAN1 tics 4
 	pic EWL6FAN2 tics 4
 	pic EWL6FAN3 tics 4
+
 
 ////////////////////
 ///// MME3SNA /////
@@ -661,9 +662,9 @@ texture EWI3WATX
 	pic EWI3WATC tics 12
 	pic EWI3WATD tics 12
 
+
 ////////////////////
 ///// MME4PHA /////
-
 texture EPTORCH1
     allowdecals
     pic EPHATWL1 tics 4
@@ -757,9 +758,9 @@ texture EDVPX21X
     allowdecals
     pic EDVPI21X tics 6
 	pic EDVPI22X tics 6
+	
 ////////////////////
 ///// MME4TOA /////
-
 texture ETOADRAX
     allowdecals
     pic ETOADRA1 tics 3
@@ -792,6 +793,7 @@ texture ECOSSKYX
 	pic ECOSSKY4 tics 16
 	pic ECOSSKY5 tics 16
 	pic ECOSSKY4 tics 16
+
 
 ////////////////////
 ///// MME5NAP /////
@@ -1027,6 +1029,7 @@ texture EDRKFAX
 	pic EDRKFAN2 tics 4
 	pic EDRKFAN3 tics 4
 
+
 ////////////////////
 ///// MME6TOM /////
 texture TOMAGRN
@@ -1050,7 +1053,6 @@ texture TOMASUX
 
 ////////////////////
 ///// MME6BLI /////
-
 texture EBLIZWRT
     allowdecals
     pic EBLIZWRT tics 12
@@ -1058,7 +1060,6 @@ texture EBLIZWRT
     pic EBLIZWT2 tics 12
     pic EBLIZWT3 tics 12
 	
-
 ////////////////////
 ///// MME6PLA /////
 flat PWATER
@@ -1133,6 +1134,7 @@ texture EMRXSKYL
 	pic EMRXSKY1 tics 10
 	pic EMRXSKY2 tics 10
 	pic EMRXSKY3 tics 10
+
 
 ////////////////////
 ///// MME7JUN /////
@@ -1299,9 +1301,9 @@ texture ETURLIT
     pic ETURLIT1 tics 12
 	pic ETURLIT3 tics 12
 
+
 ////////////////////
 ///// MME8AST /////
-
 texture EASTBGX
     allowdecals
     pic EASTBG1 tics 6
@@ -1340,9 +1342,9 @@ texture ESWRLAVY
 	pic ESWRLAV5 tics 3
 	pic ESWRLAV6 tics 3
 
+
 ////////////////////
 ///// MMEBGRO ///// 		GOOD GRIEF
-
 texture EGROWTLX
     allowdecals
     pic EGROWTL1 tics 1
@@ -1384,9 +1386,9 @@ texture EMGISKY2
     pic EMGISK2X tics 5
 	pic EMGISK2Y tics 5
 
+
 ////////////////////
 ///// MMEWTDW1 /////
-
 texture EWT1HETX
     allowdecals
     pic EWT1HET1 tics 6
@@ -1412,7 +1414,6 @@ texture EWT1SPX2
 	pic EWT1SP22 tics 4
 	pic EWT1SP23 tics 4
 	pic EWT1SP24 tics 4
-
 	
 texture EWTWATER
     allowdecals
@@ -1436,7 +1437,6 @@ texture	EWT2CT3X
 
 ////////////////////
 ///// MMEWTDW2 /////
-
 Texture EWT3PIPE
     allowdecals
     pic EWT3PIP1 tics 3
@@ -1464,6 +1464,7 @@ Texture EWT2WTRX
 	pic EWT2WTR2 tics 12
 	pic EWT2WTR3 tics 12
 	pic EWT2WTR4 tics 12
+
 
 ////////////////////
 ///// MME9CON /////
@@ -2404,7 +2405,6 @@ pic BLACK tics 8
 ////////////////////
 ///// MME10SOL /////
 // Animdefs for ESLRrman
-
 texture ESLRMT1X
     allowdecals
     pic ESLRMT1A tics 5
@@ -2662,8 +2662,7 @@ texture ESLRBEVX
     pic ESLRBEVA tics 4
 	pic ESLRBEVB tics 4
 	pic ESLRBEVC tics 4
-	
-	
+		
 texture ESLRBEEX
     allowdecals
     pic ESLRBEEA tics 4
@@ -2715,9 +2714,9 @@ texture ESLRFL3X
 	pic ESLRFL3B tics 5
 	pic ESLRFL3B tics 5
 
+
 ////////////////////
 ///// MME10DW1 ///// 	Oh no
-
 //Lightning Blocks
 texture E10DWBX1
     allowdecals
@@ -3047,7 +3046,6 @@ texture CLKMET3
 
 ////////////////////
 ///// MMB2BUL /////
-
 //Thrusters/Cannons
 texture BULTUBX1
     allowdecals

@@ -1,7 +1,28 @@
 #library "ENCTXTRS"
-#include "ZCommon.acs"
-#include "ENCTXTR.acs"
+#include "zcommon.acs"
 
+// [A-Chan] Texture storage
+#DEFINE MAX_TEXREPLACE_GLOBAL_LIMIT 300
+Int MAX_TEXREPLACE_GLOBAL = 0;
+Str Encore_TexReplace[MAX_TEXREPLACE_GLOBAL_LIMIT][2];
+
+// [A-Chan] Defines a texture and its OGTextures replacement
+Function Int defineTextureReplace(str texture, str textureReplace)
+{
+	If(MAX_TEXREPLACE_GLOBAL < MAX_TEXREPLACE_GLOBAL_LIMIT)
+	{
+		Int idx = MAX_TEXREPLACE_GLOBAL;
+		Encore_TexReplace[idx][0] = texture;
+		Encore_TexReplace[idx][1] = textureReplace;
+		MAX_TEXREPLACE_GLOBAL++;
+		Return idx;
+	}
+	PrintBold(s:"Texture Replace Limit too low");
+	Return -1;
+}
+
+
+// [A-Chan] Maps compatible with OGTextures
 #DEFINE ENC_MAXTEXTUREMAPS 30
 str enc_texturemaps[ENC_MAXTEXTUREMAPS] = 
 {
@@ -16,16 +37,8 @@ str enc_texturemaps[ENC_MAXTEXTUREMAPS] =
 "MME10CHI"
 };
 
-function bool checkOGTextures (str map) {
-	for(int i = 0; i < ENC_MAXTEXTUREMAPS; i++) {
-		if(StrICmp(map, enc_texturemaps[i]) == 0) {
-			return true;
-		}
-	}
-	return false;
-}
 
-// [Bin] Scripts for things like Texture Replacement
+// [A-Chan] Updates textures on cvar change
 script "encore_swaptextures" OPEN CLIENTSIDE
 {
 	str map_code = StrParam(n:PRINTNAME_LEVEL);
@@ -51,6 +64,28 @@ script "encore_swaptextures" OPEN CLIENTSIDE
 	}
 }
 
+// [A-Chan] Returns if the map is compatible with OGTextures
+function bool checkOGTextures (str map) {
+	for(int i = 0; i < ENC_MAXTEXTUREMAPS; i++) {
+		if(StrICmp(map, enc_texturemaps[i]) == 0) {
+			return true;
+		}
+	}
+	return false;
+}
+
+// [A-Chan] Swaps textures with OGTextures
+function void updateTextures(bool which) {
+	int replacee = !which;
+	int replacer = which;
+	for(int i = 0; i < MAX_TEXREPLACE_GLOBAL; i++) {
+		if(Encore_TexReplace[i][2]) {
+			ReplaceTextures(Encore_TexReplace[i][replacee],Encore_TexReplace[i][replacer]);
+		}
+	}
+}
+
+// [A-Chan] Run this on every in-map texture change tic to update all of them
 script "encore_updatetextures" (void) CLIENTSIDE
 {
 updateTextures(GetUserCvar(ConsolePlayerNumber(),"enc_ogtextures"));
