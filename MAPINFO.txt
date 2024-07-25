@@ -932,9 +932,19 @@ map MMB2BUL "BULLET MAN"
 map MMB2STO "STOVE MAN"
 {
 	cluster = 514315185
-	next = "MMEPRO"
+	next = "MMB2AIR"
 	sky1 = "BLACK", 0
 	music = "STVMUS"
+	aircontrol = 0.5
+	useplayerstartz
+}
+
+map MMB2AIR "AIRCON MAN"
+{
+	cluster = 514315185
+	next = "MMEPRO"
+	sky1 = "BLACK", 0
+	music = "AICMUS"
 	aircontrol = 0.5
 	useplayerstartz
 }

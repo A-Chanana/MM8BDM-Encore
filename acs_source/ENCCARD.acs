@@ -1,7 +1,7 @@
 #library "enccard"
 #include "zcommon.acs"
 
-#DEFINE ENC_MAPS 83
+#DEFINE ENC_MAPS 84
 str enc_mapcards[ENC_MAPS][8] = {
 	{"MME1CUT",	"\c[n6]Woo\c[w6]lock", 										"FACE0E", 	"ECUTMUS", 	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
 	{"MME1GUT",	"\c[p2]Sir An\c[g3]0\c[p2]n", 								"FACE1E", 	"EGUTMUS", 	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
@@ -98,6 +98,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MMB2CLO",	"\c[y1]A\c[c4]-Chan",										"FACECLOC",	"CLKMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2BUL",	"\c[n6]Woo\c[w6]lock\cf, \c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan","FACEDANG", 	"BULMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2STO",	"\c[y1]A\c[c4]-Chan",										"FACESTOV",	"STVMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
+	{"MMB2AIR",	"\c[y1]A\c[c4]-Chan \cf& \c[n6]Woo\c[w6]lock",				"FACEAIRC",	"AICMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	
 	{"MMEPRO",	"\c[y1]A\c[c4]-Chan",										"FACE49",	"PROMUS",	"MAPCD3", 	"MME3BOSS", 	"MM5CLEAR", "MME3FBOS"},
 	{"MMEBON",	"\c[y1]A\c[c4]-Chan",										"FACEBOND",	"BONMUS",	"MAPCD1", 	"MME1BOSS", 	"MM1VIC", 	"MME1WBOS"},
