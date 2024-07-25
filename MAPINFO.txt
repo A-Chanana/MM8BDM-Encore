@@ -202,18 +202,17 @@ map MME2DW2 "SKULL CASTLE CORE: Encore!"
 	clipmidtextures
 }
 
-
-
 ////////////////////
 ///// MME2DW3 /////
 map MME2DW3 "SKULL CASTLE DEPTHS: Encore!"
 {
 	next = "MME3SNA"
 	sky1 = "EDW1", 0
-	music = "E2DW4MUS"
+	music = "E2DW3MUS"
 	aircontrol = 0.5
 	clipmidtextures
 }
+
 
 ////////////////////
 ///// MME3SNA /////
