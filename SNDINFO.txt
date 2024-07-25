@@ -34,7 +34,7 @@ $musicvolume E3DW2MUS 1.3
 $musicvolume MME3BOSS 1.2
 $musicvolume MME3WBOS 1.2
 //MM4
-$musicvolume EPHAMUS 0.83
+$musicvolume EPHAMUS 1.3
 $musicvolume EDIVMUS 0.95
 $musicvolume ESKUMUS 0.9
 $musicvolume EDRIMUS 1.4
