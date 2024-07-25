@@ -2978,7 +2978,52 @@ texture EVNWFL3X
 	pic EVNWFL3B tics 5
 	pic EVNWFL3C tics 5
 
-
+////////////////////
+///// MMEVSAT /////
+texture ESAGRVUX
+    allowdecals
+    pic ESAGRVUA tics 4
+	pic ESAGRVUB tics 4
+	pic ESAGRVUC tics 4
+	pic ESAGRVUD tics 4
+		
+texture ESAGRMUX
+	allowdecals
+	pic ESAGRMUA tics 3
+	pic ESAGRMUB tics 1
+	pic ESAGRMUC tics 3
+	pic ESAGRMUD tics 1
+	pic ESAGRMUE tics 3
+	pic ESAGRMUF tics 1
+	
+texture ESAWALXX
+	allowdecals
+	pic ESAWALX1 tics 3
+	pic ESAWALX2 tics 1
+	pic ESAWALX3 tics 3
+	pic ESAWALX4 tics 1
+	pic ESAWALX5 tics 3
+	pic ESAWALX6 tics 1
+	
+texture ESAFLRXX
+	allowdecals
+	pic ESAFLRX1 tics 4
+	pic ESAFLRX2 tics 4
+	pic ESAFLRX3 tics 4
+	pic ESAFLRX4 tics 4
+	pic ESAFLRX5 tics 4
+	
+texture ESAFLR07
+	allowdecals
+	pic ESAFLRY1 tics 6
+	pic ESAFLRY2 tics 6
+	pic ESAFLRY3 tics 6
+	pic ESAFLRY4 tics 6
+	pic ESAFLRY5 tics 8
+	pic ESAFLRY4 tics 6
+	pic ESAFLRY3 tics 6
+	pic ESAFLRY2 tics 6
+	
 ////////////////////
 ///// MMKENK /////
 texture EENFAN
