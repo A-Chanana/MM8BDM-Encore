@@ -1,0 +1,68 @@
+#library "ENCPORT"
+#include "zcommon.acs"
+
+
+// [A-Chan] Sets a prop to its activate state
+script "Encore_ActivateProp" (int tid)
+{
+SetActorState(tid,"Activate",true);
+}
+
+
+// [A-Chan] Scripts for clicky lifts
+script "Encore_ClickyLift" (int Sector, int Height)
+{
+if(CheckInventory("Once")>0){terminate;}
+GiveInventory("Once",1);
+
+int startheight = GetSectorFloorZ(sector,0,0);
+//printbold(s:"startheight: ",i:startheight);
+
+Floor_MoveToValue(sector,100,height);
+while(GetSectorFloorZ(sector,0,0) < height<<16){
+	PlaySound(0,"misc/door");
+	delay(4);
+	}
+Delay(35*3);
+
+Floor_MoveToValue(sector,100,startheight>>16);
+while(GetSectorFloorZ(sector,0,0) > startheight){
+	//printbold(s:"height: ",i:GetSectorFloorZ(sector,0,0));
+	PlaySound(0,"misc/door");
+	delay(4);
+	}
+Delay(35);
+
+TakeInventory("Once",9);
+}
+
+
+
+
+
+
+
+
+// [A-Chan] Had to copy this for v6a compat, sorry!
+Script "encore_checkDistance" (int Distance)
+{
+int ReturnThis=0;
+For(int i = 0; i < 64; i++)
+	{
+	If(PlayerInGame(i) && i != PlayerNumber())
+		{
+		If(xyzdistance(ActivatorTID(), i+1000) < Distance){ReturnThis=1;break;}
+		}
+	}
+SetResultValue(ReturnThis);
+}
+
+function int xyzDistance (int tid1, int tid2)
+{
+	int x, y, z, d;
+	x = GetActorX(tid1) - GetActorX(tid2);
+	y = GetActorY(tid1) - GetActorY(tid2);
+	z = GetActorZ(tid1) - GetActorZ(tid2);
+	d = VectorLength(VectorLength(x, y), z) >> 16;
+	return d;
+}

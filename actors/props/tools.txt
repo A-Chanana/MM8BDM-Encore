@@ -1,0 +1,27 @@
+actor Encore-ClickyLift 20560
+{
+    //$Category MM8BDME-Mapper Tools
+    //$Title Clicky Lift
+    //$NotAngled
+    //$Arg0 Sector
+    //$Arg1 Height
+    //$Arg1 Speed
+    //$Sprite GLIFA0
+    height 3
+    radius 3
+    -SOLID
+    +THRUACTORS
+    +CANPASS
+    +NOGRAVITY
+    renderstyle none
+    states
+    {
+    Spawn:
+        GLIF A 0
+        GLIF A 1
+		wait
+    Activate:
+        GLIF A 0 ACS_NamedExecuteAlways("Encore_ClickyLift",0,args[0],args[1])
+		goto Spawn
+    }
+}

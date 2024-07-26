@@ -1,3 +1,5 @@
+#include "actors/Props/tools.txt"
+
 #include "actors/Props/MME1/ecutman.txt"
 #include "actors/Props/MME1/egutsman.txt"
 #include "actors/Props/MME1/eelecman.txt"
