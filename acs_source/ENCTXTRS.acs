@@ -328,6 +328,7 @@ defineTextureReplace("ENOLWAL5","OILWAL5");
 defineTextureReplace("ENOLWAL6","OILWAL6");
 defineTextureReplace("ENOLWL1","OILWL1");
 defineTextureReplace("OILSKYN","OILSKYX");
+defineTextureReplace("E9MLAVX","FIRELAV");
 }
 
 Script "encore_texreplace_MME1DW1" (Void)
