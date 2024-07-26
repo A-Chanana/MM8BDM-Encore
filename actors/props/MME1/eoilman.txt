@@ -62,14 +62,29 @@ actor EOilCanisterExplosion : BasicHazardExplosion
 	States
 	{
 	Credit:
-		TNT1 E 0 A_SpawnItemEx("OilCanisterExplodeFX")
+		TNT1 E 0 A_SpawnItemEx("EOilCanisterExplodeFX")
 		TNT1 A 35 ACS_NamedExecuteWithResult("core_propexplode",15,120,120)
 		stop
 	NoCredit:
-		TNT1 E 0 A_SpawnItemEx("OilCanisterExplodeFX")
+		TNT1 E 0 A_SpawnItemEx("EOilCanisterExplodeFX")
 		TNT1 A 35 A_Explode(15,120,XF_HURTSOURCE,0,120)
 		stop
 	}
+}
+
+actor EOilCanisterExplodeFX : BasicExplosionEffect
+{
+    States
+    {
+    Spawn:
+		MXP3 A 0 NoDelay A_Jump(3,"SpawnStock")
+        MXP3 ABCDEFGHIJKLMN 1
+        stop
+	SpawnStock:
+		DXPL A 0 A_PlaySoundEx("misc/realblast", "Voice")
+		DXPL ABCDEFGHIJKLMNOPQ 2 A_SetScale(0.7)
+		stop
+    }
 }
 
 actor HazardCredit_EOilCanisterExplosion : BasicACSDamager
@@ -81,22 +96,6 @@ actor HazardCredit_EOilCanisterExplosion : BasicACSDamager
 actor EncoreOilFlame : OilFlame
 {
 Translation "218:218=104:104","43:43=117:117"
-+MISSILE
-+FORCEYBILLBOARD
--SHOOTABLE
-+NOBLOOD
-+DONTBLAST
-+FLOORHUGGER
-+DONTREFLECT
-+BRIGHT
-+HITMASTER
-height 64
-Radius 12
-Damage (0)
-damagetype "Fire"
-Reactiontime 35
-Scale 2.0
-var int user_targettid;
 States
 {
 NoCredit:
