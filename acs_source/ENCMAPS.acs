@@ -21,7 +21,7 @@ int startheight = GetSectorFloorZ(sector,0,0);
 Floor_MoveToValue(sector,100,height);
 while(GetSectorFloorZ(sector,0,0) < height<<16){
 	PlaySound(0,"misc/door");
-	delay(4);
+	delay(2);
 	}
 Delay(35*3);
 
@@ -29,7 +29,7 @@ Floor_MoveToValue(sector,100,startheight>>16);
 while(GetSectorFloorZ(sector,0,0) > startheight){
 	//printbold(s:"height: ",i:GetSectorFloorZ(sector,0,0));
 	PlaySound(0,"misc/door");
-	delay(4);
+	delay(2);
 	}
 Delay(35);
 
@@ -68,6 +68,35 @@ function bool checkSpeedPanel(void){
 	return false;
 }
 
+
+// [A-Chan] Script for jump sectors
+#DEFINE ENC_MAXJUMPSECTORS 2
+str enc_jumpsectors[ENC_MAXJUMPSECTORS] = 
+{
+"ESAFLR07","EJEWFLR8"
+};
+
+Script "encore_jumpSector" (void)
+{
+if(CheckInventory("WaveBubbleFlag")>0){terminate;}
+GiveInventory("WaveBubbleFlag",1);
+
+while(checkJumpSector() && GetActorProperty(0,APROP_Health)>0){
+	GiveInventory("JewelPowerups_P",1);
+	delay(1);
+	}
+
+TakeInventory("WaveBubbleFlag",1);
+}
+
+function bool checkJumpSector(void){
+	for(int i; i < ENC_MAXJUMPSECTORS; i++){
+		if(CheckActorFloorTexture(0,enc_jumpsectors[i]) == true){
+			return true;
+			}
+		}
+	return false;
+}
 
 // [A-Chan] Had to copy this for v6a compat, sorry!
 Script "encore_checkDistance" (int Distance)

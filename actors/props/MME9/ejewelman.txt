@@ -325,6 +325,7 @@ actor JewelParticleGenerator 20827
 //$Category MM8BDME-Props
 //$Arg2 Starting delay (in ticks)
 //$NotAngled
+//$Sprite JEWSU0
 height 2
 radius 2
 +NOINTERACTION

@@ -1595,6 +1595,14 @@ texture FACE108E
 	pic FACE108C tics 6
 	pic FACE108B tics 6
 
+texture EJEWFLR8
+    allowdecals
+    pic EJEWFLR8 tics 12
+	pic EJEWFLR7 tics 12
+	pic EJEWFLR6 tics 12
+	pic EJEWFLR7 tics 12
+
+
 ////////////////////
 ///// MME9MAG /////
 texture E9MLAVX
