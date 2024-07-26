@@ -9,7 +9,7 @@ SetActorState(tid,"Activate",true);
 }
 
 
-// [A-Chan] Scripts for clicky lifts
+// [A-Chan] Script for clicky lifts
 script "Encore_ClickyLift" (int Sector, int Height)
 {
 if(CheckInventory("Once")>0){terminate;}
@@ -37,10 +37,35 @@ TakeInventory("Once",9);
 }
 
 
+// [A-Chan] Script for speed panels
+#DEFINE ENC_MAXSPEEDPANELS 3
+str enc_speedpanels[ENC_MAXSPEEDPANELS] = 
+{
+"ETICONV","CLKSTM","CLKSTM1"
+};
 
+Script "encore_speedPanel" (void)
+{
+if(CheckInventory("SpeedyFloorPowerup")>0){terminate;}
+GiveInventory("SpeedyFloorPowerup",1);
 
+while(CheckInventory("SpeedyFloorPowerup")>0){
+	if(GetActorZ(0)>GetActorFloorZ(0) || !checkSpeedPanel()){
+		TakeInventory("SpeedyFloorPowerup",9);
+		terminate;
+		}
+    Delay(5);
+    }
+}
 
-
+function bool checkSpeedPanel(void){
+	for(int i; i < ENC_MAXSPEEDPANELS; i++){
+		if(CheckActorFloorTexture(0,enc_speedpanels[i]) == true){
+			return true;
+			}
+		}
+	return false;
+}
 
 
 // [A-Chan] Had to copy this for v6a compat, sorry!
