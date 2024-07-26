@@ -25,6 +25,8 @@ Translation "198:198=41:41"
 actor EFirePillarSpawner 20634
 {
 //$Category MM8BDME-Interactive Props
+//$NotAngled
+//$Sprite EFIPA0
 Radius 16
 scale 2.5
 Height 100

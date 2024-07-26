@@ -1,5 +1,8 @@
 actor TimeFXSpawner : CloudmanRainSpawner 23050
 {
+//$Category MM8BDME-Props
+//$NotAngled
+//$Sprite SLODA0
 States
 {
 Spawn:

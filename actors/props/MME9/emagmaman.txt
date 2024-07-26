@@ -186,6 +186,8 @@ actor Enc_MagmaDamageStack5 : Enc_MagmaDamageStack{}
 Actor Enc_MagmaFXSpawner : CloudmanRainSpawner 21728
 {
 //$Arg0 Size
+//$NotAngled
+//$Sprite EMGMA0
 scale 2
 height 16
 radius 32
