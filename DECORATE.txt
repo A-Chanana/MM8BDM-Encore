@@ -76,7 +76,6 @@
 #include "actors/Props/MMEK/eenker.txt"
 
 #include "actors/Props/MMB2/komusoman.txt"
-#include "actors/Props/MMB2/clockmen.txt"
 #include "actors/Props/MMB2/bulletman.txt"
 #include "actors/Props/MMB2/stoveman.txt"
 

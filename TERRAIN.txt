@@ -6,13 +6,6 @@ terrain EncOil
 	footclip		12
 }
 
-splash steam{baseclass SteamPoof}
-
-terrain steam
-{
-	splash steam
-}
-
 splash EnLava{baseclass EncoreLava}
 
 splash BondOil{baseclass BondGlueFX}
@@ -44,7 +37,6 @@ terrain space
 }
 floor EWT1SPCX space
 floor EWT1SPX2 space
-floor EWTWATER steam
 splash FishBite {baseclass	EncoreBigFishBite}
 terrain fish
 {
@@ -115,13 +107,7 @@ floor ETODFLW1 oil
 floor ETODFLW2 oil
 floor ETODFLW3 oil
 
-floor ETICONV steam
-
 floor EPHAFLR1 sink
-
-floor CLKSTM steam
-floor CLKSTMF steam
-floor CLKSTM1 steam
 
 floor EHFALL lava
 floor EFIRLAV lava

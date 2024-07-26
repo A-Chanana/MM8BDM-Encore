@@ -48,6 +48,7 @@ Script "encore_speedPanel" (void)
 {
 if(CheckInventory("SpeedyFloorPowerup")>0){terminate;}
 GiveInventory("SpeedyFloorPowerup",1);
+GiveInventory("SpeedyFloorParticle_P",1);
 
 while(CheckInventory("SpeedyFloorPowerup")>0){
 	if(GetActorZ(0)>GetActorFloorZ(0) || !checkSpeedPanel()){
