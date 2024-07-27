@@ -38,10 +38,10 @@ TakeInventory("Once",9);
 
 
 // [A-Chan] Script for speed panels
-#DEFINE ENC_MAXSPEEDPANELS 3
+#DEFINE ENC_MAXSPEEDPANELS 4
 str enc_speedpanels[ENC_MAXSPEEDPANELS] = 
 {
-"ETICONV","CLKSTM","CLKSTM1"
+"ETICONV","TIMCNV7","CLKSTM","CLKSTM1"
 };
 
 Script "encore_speedPanel" (void)
