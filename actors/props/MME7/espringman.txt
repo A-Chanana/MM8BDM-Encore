@@ -1,0 +1,11 @@
+actor ESpring : Spring 20608
+{
+//$Category MM8BDME-Props
+Translation "61:61=111:111", "63:63=114:114"
+}
+
+actor EWallSpring : WallSpring 21661
+{
+//$Category MM8BDME-Props
+Translation "61:61=111:111", "63:63=114:114"
+}

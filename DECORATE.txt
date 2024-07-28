@@ -46,6 +46,7 @@
 #include "actors/Props/MME7/ecloudman.txt"
 #include "actors/Props/MME7/eshademan.txt"
 #include "actors/Props/MME7/eturboman.txt"
+#include "actors/Props/MME7/espringman.txt"
 
 #include "actors/Props/MME8/eastroman.txt"
 
