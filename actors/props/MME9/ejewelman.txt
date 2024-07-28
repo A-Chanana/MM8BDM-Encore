@@ -43,7 +43,7 @@ actor JewelPowerups_P : CustomInventory
 states
 {
 Pickup:
-TNT1 A 0 A_GiveInventory("JewelSpeedPowerup")
+//TNT1 A 0 A_GiveInventory("JewelSpeedPowerup")
 TNT1 A 0 A_GiveInventory("JewelJumpPowerup")
 TNT1 A 0 A_GiveInventory("EncoreJewelPlayerIndicator")
 stop
@@ -55,16 +55,12 @@ actor JewelSpeedPowerup : PowerSpeed
 Powerup.duration 5
 Powerup.Strength 1.2
 Speed 1.2
-Inventory.amount 1
-Inventory.maxamount 1
 }
 
 actor JewelJumpPowerup : PowerHighJump
 {
 Powerup.duration 5
 Powerup.Strength 1.3
-Inventory.amount 1
-Inventory.maxamount 1
 }
 
 actor EncoreJewelShotFX1 : BasicGraphicEffect
@@ -90,9 +86,9 @@ Actor EncoreJewelPlayerIndicator : CustomInventory
 States
 {
 Pickup:
-TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX1",random(-64,64),random(-64,64),Random(-64,64),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
-TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX2",random(-64,64),random(-64,64),Random(-64,64),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
-TNT1 AA 0 A_SpawnItemEx("EncoreJewelShotFX3",random(-64,64),random(-64,64),Random(-64,64),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
+TNT1 A 0 A_SpawnItemEx("EncoreJewelShotFX1",random(-64,64),random(-64,64),Random(-32,96),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
+TNT1 A 0 A_SpawnItemEx("EncoreJewelShotFX2",random(-64,64),random(-64,64),Random(-32,96),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
+TNT1 A 0 A_SpawnItemEx("EncoreJewelShotFX3",random(-64,64),random(-64,64),Random(-32,96),momx,momy,momz,0,SXF_ABSOLUTEMOMENTUM)
 stop
 }
 }
@@ -323,7 +319,7 @@ loop
 actor JewelParticleGenerator 20827
 {
 //$Category MM8BDME-Props
-//$Arg2 Starting delay (in ticks)
+//$Arg2 Starting delay (in tics)
 //$NotAngled
 //$Sprite JEWSU0
 height 2
