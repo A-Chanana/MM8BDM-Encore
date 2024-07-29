@@ -60,6 +60,7 @@
 
 #include "actors/Props/MME9/econcreteman.txt"
 #include "actors/Props/MME9/esplashwoman.txt"
+#include "actors/Props/MME9/etornadoman.txt"
 #include "actors/Props/MME9/ejewelman.txt"
 #include "actors/Props/MME9/egalaxyman.txt"
 #include "actors/Props/MME9/emagmaman.txt"

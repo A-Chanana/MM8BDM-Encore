@@ -1487,6 +1487,22 @@ texture ECONWTF3
 	pic ECONWTEC tics 4
 
 ////////////////////
+///// MME9TOR /////
+texture ETRCLOX
+    allowdecals
+    pic ETRCLOA tics 4
+	pic ETRCLOB tics 4
+	pic ETRCLOC tics 4
+	pic ETRCLOB tics 4
+	
+texture ETRCLOY
+    allowdecals
+    pic ETRCLOD tics 4
+	pic ETRCLOE tics 4
+	pic ETRCLOF tics 4
+	pic ETRCLOE tics 4
+
+////////////////////
 ///// MME9SPL /////
 texture ESLGLS4
     allowdecals

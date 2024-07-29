@@ -5,7 +5,7 @@ actor Encore-ClickyLift 20560
     //$NotAngled
     //$Arg0 Sector
     //$Arg1 Height
-    //$Arg1 Speed
+    //$Arg2 Speed
     //$Sprite GLIFA0
     height 3
     radius 3
@@ -21,7 +21,7 @@ actor Encore-ClickyLift 20560
         GLIF A 1
 		wait
     Activate:
-        GLIF A 0 ACS_NamedExecuteAlways("Encore_ClickyLift",0,args[0],args[1])
+        GLIF A 0 ACS_NamedExecuteAlways("Encore_ClickyLift",0,args[0],args[1],args[3])
 		goto Spawn
     }
 }

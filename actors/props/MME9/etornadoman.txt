@@ -1,0 +1,5 @@
+actor EBallonBoo : BallonBoo 31713
+{
+//$Category MM8BDME-Props
+Translation "236:236=110:110"
+}
