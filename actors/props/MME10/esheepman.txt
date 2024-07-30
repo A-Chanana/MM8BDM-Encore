@@ -22,14 +22,12 @@ scale 2.5
 -FORCEXYBILLBOARD
 +NOGRAVITY
 -SOLID
-+THRUSPECIES
 +THRUGHOST 
-+Shootable
++SHOOTABLE
 +NOTAUTOAIMED
-+NoDamage
-+DontBlast
++NODAMAGE
++DONTBLAST
 +CANTSEEK
-+FORCEYBILLBOARD
 +NOBLOOD
 Painchance 256
 Health 999999
@@ -39,25 +37,29 @@ States
 Spawn:
 ESHW A 0 A_ChangeFlag("Shootable",1)
 ESHW A 0 A_ChangeFlag("Solid",1)
+ESHW A 0 ACS_NamedExecuteWithResult("encore_complexVoxelCheck")
 Goto Spawn2
 Spawn2:
-ESHW AB 4
-Loop
+ESHW AB 4 ACS_NamedExecuteWithResult("encore_complexVoxelCheck")
+loop
+ComplexVoxelState:
+ESHW E 4
+ESHW E 4 ACS_NamedExecuteWithResult("encore_complexVoxelCheck")
+ESHW A 0 A_CheckFlag("SOLID","Spawn2")
+goto InactiveState
 InactiveState:
 TNT1 A 0 A_JumpIfInventory("CutterFlag",12,"Reset1")
 TNT1 A 0 A_GiveInventory("CutterFlag",1)
 TNT1 A 12
-Loop
+loop
 Reset1:
 ESHW CACA 3
 TNT1 A 0 A_JumpIf(ACS_NamedExecuteWithResult("encore_checkDistance", 96) == 0, "Reset")
 Goto Nope
 Reset:
 ESHW A 0 A_TakeInventory("CutterFlag",999)
-ESHW A 0 A_ChangeFlag("Shootable",1)
-ESHW A 0 A_ChangeFlag("Solid",1)
 ESHW A 0 A_PlaySoundEx("encore/sheepcloudreform", "Weapon")
-Goto Spawn2
+Goto Spawn
 Pain:
 ESHW A 0 A_ChangeFlag("Shootable",0)
 ESHW A 0 A_ChangeFlag("Solid",0)
@@ -66,8 +68,8 @@ ESHW AAAAAAAAAAA 0 A_SpawnItemEx("WoolCloudPoof",random(16,32),0,random(0,64),5,
 Goto InactiveState
 Nope:
 TNT1 A 12
-TNT1 J 0 A_ChangeFlag("Shootable",0)
-TNT1 J 0 A_ChangeFlag("Solid",0) // Just in case
+TNT1 A 0 A_ChangeFlag("Shootable",0)
+TNT1 A 0 A_ChangeFlag("Solid",0)
 Goto Reset1
 Death:
 TNT1 A 0

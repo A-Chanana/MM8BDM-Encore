@@ -121,3 +121,8 @@ function int xyzDistance (int tid1, int tid2)
 	d = VectorLength(VectorLength(x, y), z) >> 16;
 	return d;
 }
+
+Script "encore_complexVoxelCheck" (void) CLIENTSIDE
+{
+if(GetUserCVar(ConsolePlayerNumber(),"enc_complexvoxels")){SetActorState(0,"ComplexVoxelState",1);}
+}
