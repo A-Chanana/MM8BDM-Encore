@@ -1,1 +1,43 @@
 actor ERowBird : RowBird {Translation "59:59=74:74"}
+
+actor ESRowBird : RowBird
+{
+Translation "59:59=227:227"
+States
+{
+Spawn:
+ROWB ABC 5 A_SpawnItemEx("ESlashFire",-24,0,16,0,random(-5,5),random(-16,-5))
+loop
+}
+}
+
+actor ESlashFireSpawner : CloudmanRainSpawner 20018
+{
+//$Category MM8BDME-Props
+//$NotAngled
+//$Sprite ESLFA0
+States
+{
+Spawn:
+TNT1 A 0
+TNT1 A 35 A_SetTics(random(0,35))
+SpawnLoop:
+TNT1 A 9 A_SpawnItemEx("ESlashFire",0,0,0,random(0,2),0,random(0,2),random(0,365))
+loop
+}
+}
+
+actor ESlashFire : BasicGraphicEffect
+{
++CLIENTSIDEONLY
++DONTSPLASH
+-NOINTERACTION
+-FLOORHUGGER
++BRIGHT
+States
+{
+Spawn:
+ESLF ABCDE 3
+stop
+}
+}

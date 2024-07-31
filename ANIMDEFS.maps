@@ -1178,7 +1178,7 @@ texture SP2JLAVA
 	pic SP2LAVA4 tics 20
 
 ////////////////////
-///// MM7CLO /////
+///// MME7CLO /////
 texture ECLUFAN
     allowdecals
     pic ECLUFAN1 tics 4
@@ -1266,6 +1266,51 @@ texture ESRBOXX
     pic ESRBOX4 tics 4
 	pic ESRBOX5 tics 4
 	pic ESRBOX3 tics 4
+
+////////////////////
+///// MME7SLA /////
+texture ESAWATR
+    allowdecals
+    pic ESAWATR1 tics 4
+	pic ESAWATR2 tics 4
+	pic ESAWATR3 tics 4
+	
+texture ESAWATL
+    allowdecals
+    pic ESAWATL1 tics 4
+	pic ESAWATL2 tics 4
+	pic ESAWATL3 tics 4
+	
+texture ESAWATO
+    allowdecals
+    pic ESAWATO1 tics 4
+	pic ESAWATO2 tics 4
+	pic ESAWATO3 tics 4
+	
+texture ESAFOIL1
+    allowdecals
+    pic ESAFOIL1 tics 6
+	pic ESAFOILA tics 6
+	
+texture ESAFOIL2
+    allowdecals
+    pic ESAFOIL2 tics 6
+	pic ESAFOILB tics 6
+	
+texture ESAFOIL3
+    allowdecals
+    pic ESAFOIL3 tics 6
+	pic ESAFOILC tics 6
+
+texture ESAFLR2
+    allowdecals
+    pic ESAFLR2 tics 6
+	pic ESAFLRB tics 6
+
+texture ESABACKD
+    allowdecals
+    pic ESABACKD tics 6
+	pic ESABACKE tics 6
 
 ////////////////////
 ///// MME7SHA /////

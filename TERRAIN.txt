@@ -56,6 +56,9 @@ floor EDWATER water
 floor EBLIZWRT water
 floor EYAMFALX water
 floor EYTOWTRX water
+floor ESAWATR water
+floor ESAWATO water
+floor ESAWATL water
 floor EGROWTLX water
 floor EGROWTL4 water
 floor EGROWTL3 water
