@@ -59,9 +59,9 @@ str enc_mapcards[ENC_MAPS][8] = {
 	
 	{"MME7FRE",	"\c[y1]A\c[c4]-Chan",										"FACE61E",	"EFREMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	{"MME7JUN",	"Scott \cf& \c[y1]A\c[c4]-Chan",							"FACE62E",	"EJUNMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7CLO",	"\c[y1]A\c[c4]-Chan",										"FACE64",	"ECLOMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7SPR",	"\c[y1]A\c[c4]-Chan",										"FACE65",	"ESPRMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7SLA",	"\c[y1]A\c[c4]-Chan",										"FACE66",	"ESLAMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
+	{"MME7CLO",	"\c[y1]A\c[c4]-Chan",										"FACE64E",	"ECLOMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
+	{"MME7SPR",	"\c[y1]A\c[c4]-Chan",										"FACE65E",	"ESPRMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
+	{"MME7SLA",	"\c[y1]A\c[c4]-Chan",										"FACE66E",	"ESLAMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	{"MME7SHA",	"Scott",													"FACE67E",	"ESDEMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	{"MME7TUR",	"\c[y1]A\c[c4]-Chan",										"FACE68E",	"ETURMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
 	
@@ -75,7 +75,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MMEWTDW2","\c[n5]Mega\c[n6]Vile",										"FACE101E",	"EDW2MUS",	"MAPCDWT", 	"MMEWTBOS", 	"MMBVIC", 	"MMEWTFBS"},
 	
 	{"MME9CON",	"\c[n6]Woo\c[w6]lock",										"FACE104E",	"ECONMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
-	{"MME9TOR",	"\c[y1]A\c[c4]-Chan",										"FACE105",	"ETORMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
+	{"MME9TOR",	"\c[y1]A\c[c4]-Chan",										"FACE105E",	"ETORMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
 	{"MME9SPL",	"\c[n5]Mega\c[n6]Vile",										"FACE106E",	"ESPLMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
 	{"MME9JEW",	"\c[n6]Woo\c[w6]lock \cf& \cgAAAAAA",						"FACE108E",	"EJEWMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
 	{"MME9MAG",	"\cfLord\chDama\cvger \cf& \c[n5]Mega\c[n6]Vile",			"FACE110E",	"EMGMMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
@@ -88,11 +88,11 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MME10SOL","\cfLord\chDama\cvger \cf& \c[n5]Mega\c[n6]Vile",			"FACE144E",	"ESOLMUS",	"MAPCD10", 	"MME10BOS", 	"MMBVIC", 	"MME10WBS"},
 	
 	{"MMEVVEN",	"\c[y1]A\c[c4]-Chan \cf& \c[n5]Mega\c[n6]Vile",				"FACE148E",	"EVENMUS",	"MAPCDV", 	"MMEVBOSS",		"MMBVIC", 	"MMEVINTS"},
-	{"MMEVSAT",	"\c[y1]A\c[c4]-Chan",			 							"FACE151",	"ESATMUS",	"MAPCDV", 	"MMEVBOSS",		"MMBVIC", 	"MMEVINTS"},
+	{"MMEVSAT",	"\c[y1]A\c[c4]-Chan",			 							"FACE151E",	"ESATMUS",	"MAPCDV", 	"MMEVBOSS",		"MMBVIC", 	"MMEVINTS"},
 	{"MMEVURA",	"\c[b8]M.\c[o9]Fart\c[k1]045\cf, \c[n6]Woo\c[w6]lock\cf, \c[y1]A\c[c4]-Chan",	"FACE152E",	"EURAMUS",	"MAPCDV",	"MMEVBOSS",	"MMBVIC",	"MMEVINTS"},
 	{"MMECTF08","\c[n5]Mega\c[n6]Vile",										"FACE127E",	"ECTFMS8",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
 	
-	{"MMEKENK",	"\c[y1]A\c[c4]-Chan",										"FACE129",	"EENKMUS",	"MAPCDK", 	"EENKMUS2", 	"MMBVIC", 	"MMEKFBOS"},
+	{"MMEKENK",	"\c[y1]A\c[c4]-Chan",										"FACE129E",	"EENKMUS",	"MAPCDK", 	"EENKMUS2", 	"MMBVIC", 	"MMEKFBOS"},
 	
 	{"MMB2KOM",	"\c[y1]A\c[c4]-Chan",										"FACEKOMU",	"KOMMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2CLO",	"\c[y1]A\c[c4]-Chan",										"FACECLOC",	"CLKMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
