@@ -95,10 +95,10 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MMEKENK",	"\c[y1]A\c[c4]-Chan",										"FACE129E",	"EENKMUS",	"MAPCDK", 	"EENKMUS2", 	"MMBVIC", 	"MMEKFBOS"},
 	
 	{"MMB2KOM",	"\c[y1]A\c[c4]-Chan",										"FACEKOMU",	"KOMMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
-	{"MMB2CLO",	"\c[y1]A\c[c4]-Chan",										"FACECLOC",	"CLKMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2BUL",	"\c[n6]Woo\c[w6]lock\cf, \c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan","FACEDANG", 	"BULMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2STO",	"\c[y1]A\c[c4]-Chan",										"FACESTOV",	"STVMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	{"MMB2AIR",	"\c[y1]A\c[c4]-Chan \cf& \c[n6]Woo\c[w6]lock",				"FACEAIRC",	"AICMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
+	{"MMB2CLO",	"\c[y1]A\c[c4]-Chan",										"FACECLOC",	"CLKMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
 	
 	{"MMEPRO",	"\c[y1]A\c[c4]-Chan",										"FACE49",	"PROMUS",	"MAPCD3", 	"MME3BOSS", 	"MM5CLEAR", "MME3FBOS"},
 	{"MMEBON",	"\c[y1]A\c[c4]-Chan",										"FACEBOND",	"BONMUS",	"MAPCD1", 	"MME1BOSS", 	"MM1VIC", 	"MME1WBOS"},

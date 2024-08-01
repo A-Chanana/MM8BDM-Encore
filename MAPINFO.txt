@@ -891,26 +891,12 @@ map MMEKENK "ENKER: Encore!"
 map MMB2KOM "KOMUSO MAN"
 {
 	cluster = 514315185
-	next = "MMB2CLO"
+	next = "MMB2BUL"
 	sky1 = "BLACK", 0
 	music = "KOMMUS"
 	aircontrol = 0.5
 	useplayerstartz
 }
-
-
-////////////////////
-///// MMB2CLO /////
-map MMB2CLO "CLOCK MEN"
-{
-	cluster = 514315185
-	next = "MMB2BUL"
-	sky1 = "BLACK", 0
-	music = "CLKMUS"
-	aircontrol = 0.5
-	useplayerstartz
-}
-
 
 ////////////////////
 ///// MMB2BUL /////
@@ -938,12 +924,26 @@ map MMB2STO "STOVE MAN"
 	useplayerstartz
 }
 
+////////////////////
+///// MMB2AIR /////
 map MMB2AIR "AIRCON MAN"
+{
+	cluster = 514315185
+	next = "MMB2CLO"
+	sky1 = "BLACK", 0
+	music = "AICMUS"
+	aircontrol = 0.5
+	useplayerstartz
+}
+
+////////////////////
+///// MMB2CLO /////
+map MMB2CLO "CLOCK MEN"
 {
 	cluster = 514315185
 	next = "MMEPRO"
 	sky1 = "BLACK", 0
-	music = "AICMUS"
+	music = "CLKMUS"
 	aircontrol = 0.5
 	useplayerstartz
 }
