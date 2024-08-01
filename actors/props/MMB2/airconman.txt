@@ -1,6 +1,10 @@
+Const int AIRCONWAVEDELAY = 10*35;
+Const int AIRCONWAVEHORITHRUST = 90;
+Const int AIRCONWAVEVERTTHRUST = 12;
+
 actor AirconManNoWaveSpawner_P : Powerup
 {
-    powerup.duration 350
+    powerup.duration 350 //Tic Duration should be the same as AIRCONWAVEDELAY
 }
 
 actor AirconManGiantWave
@@ -22,9 +26,6 @@ WWAV AABBCCDDCCBBAA 1 A_RadiusGive("AirconManGiantWave_Thrust_P",128,RGF_PLAYERS
 Stop
 }
 }
-
-Const int AIRCONWAVEHORITHRUST = 90;
-Const int AIRCONWAVEVERTTHRUST = 12;
 
 actor AirconManGiantWave_Thrust_P : CustomInventory
 {
@@ -51,30 +52,42 @@ actor AirconManMistSpawner 21749
 states
 {
 Spawn:
-TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-4,4),0,random(5,10),random(-4,4),random(5,10),0,0)
-TNT1 A 10
-TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-4,4),0,random(5,10),random(-4,4),random(5,10),0,0)
-TNT1 A 10
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 0 A_PlaySound("misc/fullenglish",7,0.8,0,ATTN_STATIC)
+TNT1 A 10 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 10 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
 TrueLoop:
-TNT1 A 0 A_PlaySound("misc/fullenglish",7,0.4,0,ATTN_STATIC)
-TNT1 A 10 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
-TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-4,4),0,random(5,10),random(-4,4),random(5,10),0,0)
-TNT1 A 10 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
-TNT1 A 0 A_PlaySound("misc/fullenglish",7,0.4,0,ATTN_STATIC)
-TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-4,4),0,random(5,10),random(-4,4),random(5,10),0,0)
-TNT1 A 10 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
-TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-4,4),0,random(5,10),random(-4,4),random(5,10),0,0)
-TNT1 A 10 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
-TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-4,4),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 0 A_PlaySound("misc/fullenglish",7,0.8,0,ATTN_STATIC)
+TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 0 A_PlaySound("misc/fullenglish",7,0.8,0,ATTN_STATIC)
+TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
+TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(0,1),0,0)
+TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
 loop
+Deactive:
+TNT1 A 5 A_SetTics(AIRCONWAVEDELAY)
+goto Spawn
 }
 }
 
 actor AirconManMist
 {
-translation "198:198=196:196", "192:192=196:196"
+translation "198:198=199:199", "192:192=197:197"
 +CLIENTSIDEONLY
-+FORCEXYBILLBOARD
++FORCEYBILLBOARD
 +NOINTERACTION
 +NOGRAVITY
 -SOLID
