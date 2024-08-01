@@ -126,3 +126,15 @@ Script "encore_complexVoxelCheck" (void) CLIENTSIDE
 {
 if(GetUserCVar(ConsolePlayerNumber(),"enc_complexvoxels")){SetActorState(0,"ComplexVoxelState",1);}
 }
+
+//Original Jump Button Check Script by Jaxof7
+Script "Encore_AirconGiantWaveButtonCheck" (void)
+{
+	SetResultValue(PressingButton(GetPlayerInput(-1, INPUT_BUTTONS),BT_JUMP));
+}
+
+
+function bool PressingButton (int buttons, int theButton)
+{
+	return ((buttons&theButton)>0);
+}
