@@ -974,12 +974,20 @@ map MMEBON "BOND MAN"
 
 
 ////////////////////
-///// MMETF08 /////
+///// MMECTF /////
 map MMECTF08 "EDGE OF THE DAM: Encore!"
 {
 	sky1 = "EWVESKY", 0
-	music = "ETFMUS8"
+	music = "ECTFMS8"
 	aircontrol = 0.5
 	next = "MMCTF09"
 	clipmidtextures
+}
+
+map MMECTF15 "DOUBLE CASTLE: Encore!"
+{
+   sky1 = "SNAKESKY", 0
+   music = "ECTFMS15"
+   aircontrol = 0.5
+   next = "MMCTF16"
 }
