@@ -20,7 +20,7 @@ int startheight = GetSectorFloorZ(sector,0,0);
 
 Floor_MoveToValue(sector,100,height);
 while(GetSectorFloorZ(sector,0,0) < height<<16){
-	PlaySound(0,"misc/door");
+	PlaySound(0,"misc/gutslift");
 	delay(2);
 	}
 Delay(35*3);
@@ -28,7 +28,7 @@ Delay(35*3);
 Floor_MoveToValue(sector,100,startheight>>16);
 while(GetSectorFloorZ(sector,0,0) > startheight){
 	//printbold(s:"height: ",i:GetSectorFloorZ(sector,0,0));
-	PlaySound(0,"misc/door");
+	PlaySound(0,"misc/gutslift");
 	delay(2);
 	}
 Delay(35);
