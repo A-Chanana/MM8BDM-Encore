@@ -1,7 +1,7 @@
-Const int AIRCONWAVEDELAY = 10*35;
-Const int AIRCONWAVEHORITHRUST = 90;
-Const int AIRCONWAVEVERTTHRUST = 20;
-Const int AIRCONWAVEVERTTHRUST2 = 75;
+Const int AIRCONWAVEDELAY = 10*35; //Delay between waves
+Const int AIRCONWAVEHORITHRUST = 90; //Horizontal Thrust
+Const int AIRCONWAVEVERTTHRUST = 20; //Vertical Thrust
+Const int AIRCONWAVEVERTTHRUST2 = 75; //Vertical Thrust for the first 3 tics of the wave's duration
 
 actor AirconManNoWaveSpawner_P : Powerup
 {
@@ -135,5 +135,16 @@ Spawn:
 TNT1 A 0
 PIXL A 15
 stop
+}
+}
+
+actor AirconManTideFlag : FanFiend 21750
+{
+//$Category MM8BDME-Props
+States
+{
+Spawn:
+AICF AB 4
+loop
 }
 }
