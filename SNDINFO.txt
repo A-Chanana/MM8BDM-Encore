@@ -41,7 +41,6 @@ $musicvolume EDRIMUS 1.4
 $musicvolume E4DC1MUS 1.3
 $musicvolume ECOSSBOS 1.3
 $musicvolume MME4BOSS 1.7
-$musicvolume MME4FBOS 1.4
 //MM5
 $musicvolume ESTAMUS 0.4
 $musicvolume ECHAMUS 1.2
