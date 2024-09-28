@@ -1,7 +1,7 @@
 #library "enccard"
 #include "zcommon.acs"
 
-#DEFINE ENC_MAPS 85
+#DEFINE ENC_MAPS 86
 str enc_mapcards[ENC_MAPS][8] = {
 	{"MME1CUT",	"\c[n6]Woo\c[w6]lock", 										"FACE0E", 	"ECUTMUS", 	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
 	{"MME1GUT",	"\c[p2]Sir An\c[g3]0\c[p2]n", 								"FACE1E", 	"EGUTMUS", 	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
@@ -93,6 +93,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	
 	{"MMECTF08","\c[n5]Mega\c[n6]Vile",										"FACE127E",	"ECTFMS8",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
 	{"MMECTF15","\c[y1]A\c[c4]-Chan",										"FACE127E",	"ECTFMS15",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
+	{"MMECTF23","\c[y1]A\c[c4]-Chan",										"FACE127E",	"CTFMUS23",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
 	
 	{"MMEKENK",	"\c[y1]A\c[c4]-Chan",										"FACE129E",	"EENKMUS",	"MAPCDK", 	"EENKMUS2", 	"MMBVIC", 	"MMEKFBOS"},
 	

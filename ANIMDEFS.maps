@@ -3100,7 +3100,27 @@ texture EENFAN
 	pic EENFANA tics 4
 	pic EENFANB tics 4
 	pic EENFANC tics 4
-	
+
+////////////////////
+///// MMECTF23 /////
+texture EVOLTCWX
+    allowdecals
+    pic EVOLTCW1 tics 12
+	pic EVOLTCW2 tics 12
+	pic EVOLTCW3 tics 12
+	pic EVOLTCW4 tics 12
+texture EVOLTCFX
+    allowdecals
+    pic EVOLTCF1 tics 4
+	pic EVOLTCF2 tics 4
+	pic EVOLTCF3 tics 4
+	pic EVOLTCF4 tics 4
+texture EVOLTCFR
+    allowdecals
+    pic EVOLTCF4 tics 4
+	pic EVOLTCF3 tics 4
+	pic EVOLTCF2 tics 4
+	pic EVOLTCF1 tics 4
 
 ////////////////////
 ///// MMB2CLO /////

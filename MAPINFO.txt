@@ -991,3 +991,10 @@ map MMECTF15 "DOUBLE CASTLE: Encore!"
    aircontrol = 0.5
    next = "MMCTF16"
 }
+
+map MMECTF23 "WATER WORKS: Encore!"
+{
+	next = "MMCTF24"
+	music = "CTFMUS23"
+	aircontrol = 0.5
+}
