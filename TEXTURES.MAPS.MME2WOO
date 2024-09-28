@@ -1,0 +1,327 @@
+///// MM2WOO /////
+texture EWODDRT1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM1, 0, 0
+   WorldPanning 
+}
+
+texture EWODDRT2, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM1, 0, 0
+   patch EWDM2, 0, 0
+   Patch EWDM2, 16, 0
+   Patch EWDM1, 0, 32
+   Patch EWDM1, 0, 64
+   Patch EWDM1, 0, 96
+   Patch EWDM1, 0, 128
+   Patch EWDM1, 0, 160
+   Patch EWDM1, 0, 192
+   Patch EWDM1, 0, 224
+   Patch EWDM1, 0, 256
+   Patch EWDM1, 0, 288
+   Patch EWDM1, 0, 320
+   Patch EWDM1, 0, 352
+   Patch EWDM1, 0, 384
+   Patch EWDM1, 0, 416
+   Patch EWDM1, 0, 448
+   Patch EWDM1, 0, 480
+   WorldPanning 
+}
+
+texture EWODDRT3, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM1, 0, 0
+   Patch EWDM1, 0, 32
+   Patch EWDM1, 0, 64
+   Patch EWDM1, 0, 96
+   Patch EWDM1, 0, 128
+   Patch EWDM1, 0, 160
+   Patch EWDM1, 0, 192
+   Patch EWDM1, 0, 224
+   Patch EWDM1, 0, 256
+   Patch EWDM1, 0, 288
+   Patch EWDM1, 0, 320
+   Patch EWDM1, 0, 352
+   Patch EWDM1, 0, 384
+   Patch EWDM1, 0, 416
+   Patch EWDM1, 0, 448
+   Patch EWDM1, 0, 480
+   Patch EWDM3, 0, 496
+   Patch EWDM3, 16, 496
+   WorldPanning 
+}
+
+texture EWDMINT1, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM6, 0, 0
+   WorldPanning 
+}
+
+texture EWDMINT2, 32, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM6, 0, 0
+   Patch EWDM7, 0, 0
+   Patch EWDM7, 16, 0
+   Patch EWDM6, 0, 32
+   Patch EWDM6, 0, 64
+   Patch EWDM6, 0, 96
+   Patch EWDM6, 0, 128
+   Patch EWDM6, 0, 160
+   Patch EWDM6, 0, 192
+   Patch EWDM6, 0, 224
+   Patch EWDM6, 0, 256
+   Patch EWDM6, 0, 288
+   Patch EWDM6, 0, 320
+   Patch EWDM6, 0, 352
+   Patch EWDM6, 0, 384
+   Patch EWDM6, 0, 416
+   Patch EWDM6, 0, 448
+   Patch EWDM6, 0, 480
+   WorldPanning 
+}
+
+texture EWDMINT3, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD41, 0, 0
+   WorldPanning 
+}
+
+texture EWDMINT4, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD42, 0, 0
+   WorldPanning 
+}
+
+texture EWDMGRS1, 32, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM4, 0, 0
+   Patch EWDM5, 16, 0
+   WorldPanning 
+}
+
+texture EWDMTREE, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM8, 0, 0
+   WorldPanning 
+}
+
+texture EWDMLDR, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM9, 0, 0
+   WorldPanning 
+}
+
+
+texture EWDMGRS3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM10, 0, 0
+   WorldPanning 
+}
+
+texture EWDMGRS4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM11, 0, 0
+   WorldPanning 
+}
+
+texture EWDMGRS5, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM12, 0, 0
+   WorldPanning 
+}
+
+texture EWDMGRS6, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD38, 0, 0
+   WorldPanning 
+}
+
+texture EWDMGRS7, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD39, 0, 0
+   WorldPanning 
+}
+
+texture EWDMGRS8, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD40, 0, 0
+   WorldPanning 
+}
+
+texture EWDMTRET, 112, 128
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM13, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG1, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM14, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG2, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM15, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG3, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM16, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG4, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM17, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG5, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM18, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG6, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM19, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG7, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM20, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG8, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM21, 0, 0
+   WorldPanning 
+}
+
+texture EWDMEDG9, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM22, 0, 0
+   WorldPanning 
+}
+
+texture EWDMED10, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM23, 0, 0
+   WorldPanning 
+}
+
+texture EWDMED11, 16, 16
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM24, 0, 0
+   WorldPanning 
+}
+
+texture EWDMSKY, 32, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWDM25, 0, 0
+   Patch EWDM25, 16, 0
+   Patch EWDM25, 16, 16
+   Patch EWDM25, 0, 16
+   WorldPanning 
+}
+
+texture EWODFAL, 16, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD26, 0, 0
+   Patch EWOD27, 0, 16
+   WorldPanning 
+}
+
+texture EWODFA1, 16, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD26, 0, 0
+   Patch EWOD27, 0, 16
+   WorldPanning 
+}
+
+texture EWODFA2, 16, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD28, 0, 0
+   Patch EWOD29, 0, 16
+   WorldPanning 
+}
+
+texture EWODFA3, 16, 32
+{
+   XScale 0.5
+   YScale 0.5
+   Patch EWOD30, 0, 0
+   Patch EWOD31, 0, 16
+   WorldPanning 
+}
+
+
+////////////////////
