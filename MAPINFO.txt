@@ -1,5 +1,6 @@
-////////////////////
-///// MME1CUT /////
+////////////////////////////////
+// MME1 ////////////////////////
+////////////////////////////////
 map MME1CUT "CUT MAN: Encore!"
 {
 	next = "MME1GUT"
@@ -11,8 +12,6 @@ map MME1CUT "CUT MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME1GUT /////
 map MME1GUT "GUTS MAN: Encore!"
 {
 	next = "MME1BOM"
@@ -21,9 +20,6 @@ map MME1GUT "GUTS MAN: Encore!"
 	aircontrol = 0.5
 }
 
-
-////////////////////
-///// MME1BOM /////
 map MME1BOM "BOMB MAN: Encore!"
 {
 	next = "MME1ELE"
@@ -34,9 +30,6 @@ map MME1BOM "BOMB MAN: Encore!"
 	clipmidtextures
 }
 
-
-////////////////////
-///// MME1ELE /////
 map MME1ELE "ELEC MAN: Encore!"
 {
 	next = "MME1ICE"
@@ -45,9 +38,6 @@ map MME1ELE "ELEC MAN: Encore!"
 	aircontrol = 0.5
 }
 
-
-////////////////////
-///// MME1ICE /////
 map MME1ICE "ICE MAN: Encore!"
 {
 	next = "MME1FIR"
@@ -56,9 +46,6 @@ map MME1ICE "ICE MAN: Encore!"
 	aircontrol = 0.5
 }
 
-
-////////////////////
-///// MME1FIR /////
 map MME1FIR "FIRE MAN: Encore!"
 {
 	next = "MME1TIM"
@@ -67,9 +54,6 @@ map MME1FIR "FIRE MAN: Encore!"
 	aircontrol = 0.5
 }
 
-
-////////////////////
-///// MME1TIM /////
 map MME1TIM "TIME MAN: Encore!"
 {
 	next = "MME1OIL"
@@ -78,9 +62,6 @@ map MME1TIM "TIME MAN: Encore!"
 	aircontrol = 0.5
 }
 
-
-////////////////////
-///// MME1OIL /////
 map MME1OIL "OIL MAN: Encore!"
 {
 	next = "MME1DW1"
@@ -91,9 +72,6 @@ map MME1OIL "OIL MAN: Encore!"
 	clipmidtextures
 }
 
-
-////////////////////
-///// MME1DW1 /////
 map MME1DW1 "WILY'S HIDEOUT 1: Encore!"
 {
 	next = "MME2BUB"
@@ -102,9 +80,9 @@ map MME1DW1 "WILY'S HIDEOUT 1: Encore!"
 	aircontrol = 0.5
 }
 
-
-////////////////////
-///// MME2BUB /////
+////////////////////////////////
+// MME2 ////////////////////////
+////////////////////////////////
 map MME2BUB "BUBBLE MAN: Encore!"
 {
 	next = "MME2AIR"
@@ -114,9 +92,6 @@ map MME2BUB "BUBBLE MAN: Encore!"
 	UsePlayerStartZ
 }
 
-
-////////////////////
-///// MME2AIR /////
 map MME2AIR "AIR MAN: Encore!"
 {
 	next = "MME2HEA"
@@ -125,9 +100,6 @@ map MME2AIR "AIR MAN: Encore!"
 	aircontrol = 0.5
 }
 
-
-////////////////////
-///// MME2HEA /////
 map MME2HEA "HEAT MAN: Encore!"
 {
 	next = "MME2FLA"
@@ -136,8 +108,6 @@ map MME2HEA "HEAT MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME2FLA /////
 map MME2FLA "FLASH MAN: Encore!"
 {
 	next = "MME2QUI"
@@ -146,8 +116,6 @@ map MME2FLA "FLASH MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME2QUI /////
 map MME2QUI "QUICK MAN: Encore!"
 {
 	next = "MME2CRA"
@@ -156,8 +124,6 @@ map MME2QUI "QUICK MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME2CRA /////
 map MME2CRA "CRASH MAN: Encore!"
 {
 	next = "MME2MET"
@@ -168,9 +134,6 @@ map MME2CRA "CRASH MAN: Encore!"
 	evenlighting
 }
 
-
-////////////////////
-///// MME2MET /////
 map MME2MET "METAL MAN: Encore!"
 {
 	next = "MME2DW1"
@@ -179,9 +142,6 @@ map MME2MET "METAL MAN: Encore!"
 	aircontrol = 0.5
 }
 
-
-////////////////////
-///// MME2DW1 /////
 map MME2DW1 "SKULL CASTLE ENTRANCE: Encore!"
 {
 	next = "MME2DW2"
@@ -191,8 +151,6 @@ map MME2DW1 "SKULL CASTLE ENTRANCE: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME2DW2 /////
 map MME2DW2 "SKULL CASTLE CORE: Encore!"
 {
 	next = "MME2DW3"
@@ -202,8 +160,6 @@ map MME2DW2 "SKULL CASTLE CORE: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME2DW3 /////
 map MME2DW3 "SKULL CASTLE DEPTHS: Encore!"
 {
 	next = "MME3SNA"
@@ -213,9 +169,9 @@ map MME2DW3 "SKULL CASTLE DEPTHS: Encore!"
 	clipmidtextures
 }
 
-
-////////////////////
-///// MME3SNA /////
+////////////////////////////////
+// MME3 ////////////////////////
+////////////////////////////////
 map MME3SNA "SNAKE MAN: Encore!"
 {
 	next = "MME3TOP"
@@ -225,9 +181,6 @@ map MME3SNA "SNAKE MAN: Encore!"
 	forcenoskystretch
 }
 
-
-////////////////////
-///// MME3TOP /////
 map MME3TOP "TOP MAN: Encore!"
 {
 	next = "MME3NEE"
@@ -237,8 +190,6 @@ map MME3TOP "TOP MAN: Encore!"
 	forcenoskystretch
 }
 
-////////////////////
-///// MME3NEE /////
 map MME3NEE "NEEDLE MAN: Encore!"
 {
 	next = "MME3HAR"
@@ -248,9 +199,6 @@ map MME3NEE "NEEDLE MAN: Encore!"
 	forcenoskystretch
 }
 
-
-////////////////////
-///// MME3HAR /////
 map MME3HAR "HARD MAN: Encore!"
 {
 	next = "MME3GEM"
@@ -260,9 +208,6 @@ map MME3HAR "HARD MAN: Encore!"
 	forcenoskystretch
 }
 
-
-////////////////////
-///// MME3GEM /////
 map MME3GEM "GEMINI MAN: Encore!"
 {
 	next = "MME3MAG"
@@ -273,21 +218,15 @@ map MME3GEM "GEMINI MAN: Encore!"
 	clipmidtextures
 }
 
-
-////////////////////
-///// MME3MAG /////
 map MME3MAG "MAGNET MAN: Encore!"
 {
-   next = "MME3SPA"
-   sky1 = "BLACK", 0
-   music = "EMAGMUS"
-   aircontrol = 0.5
-   forcenoskystretch
+	next = "MME3SPA"
+	sky1 = "BLACK", 0
+	music = "EMAGMUS"
+	aircontrol = 0.5
+	forcenoskystretch
 }
 
-
-////////////////////
-///// MME3SPA /////
 map MME3SPA "SPARK MAN: Encore!"
 {
 	next = "MME3DW1"
@@ -298,8 +237,6 @@ map MME3SPA "SPARK MAN: Encore!"
 	useplayerstartz
 }
 
-////////////////////
-///// MME3DW1 /////
 map MME3DW1 "SKULL CASTLE COURTYARD: Encore!"
 {
 	next = "MME3DW2"
@@ -309,8 +246,6 @@ map MME3DW1 "SKULL CASTLE COURTYARD: Encore!"
 	UsePlayerStartZ
 }
 
-////////////////////
-///// MME3DW2 /////
 map MME3DW2 "SKULL CASTLE INTERIOR: Encore!"
 {
 	next = "MME4PHA"
@@ -319,8 +254,9 @@ map MME3DW2 "SKULL CASTLE INTERIOR: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME4PHA /////
+////////////////////////////////
+// MME4 ////////////////////////
+////////////////////////////////
 map MME4PHA "PHARAOH MAN: Encore!"
 {
 	next = "MME4DIV"
@@ -330,8 +266,6 @@ map MME4PHA "PHARAOH MAN: Encore!"
 	forcenoskystretch
 }
 
-////////////////////
-///// MME4DIV /////
 map MME4DIV "DIVE MAN: Encore!"
 {
 	next = "MME4DRI"
@@ -341,8 +275,6 @@ map MME4DIV "DIVE MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME4DRI /////
 map MME4DRI "DRILL MAN: Encore!"
 {
 	next = "MME4TOA"
@@ -354,8 +286,6 @@ map MME4DRI "DRILL MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME4TOA /////
 map MME4TOA "TOAD MAN: Encore!"
 {
 	next = "MME4SKU"
@@ -366,9 +296,6 @@ map MME4TOA "TOAD MAN: Encore!"
 	evenlighting
 }
 
-
-////////////////////
-///// MME4SKU /////
 map MME4SKU "SKULL MAN: Encore!"
 {
 	next = "MME4DC1"
@@ -378,7 +305,6 @@ map MME4SKU "SKULL MAN: Encore!"
 	forcenoskystretch
 	clipmidtextures
 }
-
 
 map MME4DC1 "DR. COSSACK'S CITADEL: Encore!"
 {
@@ -391,8 +317,9 @@ map MME4DC1 "DR. COSSACK'S CITADEL: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME5CHA /////
+////////////////////////////////
+// MME5 ////////////////////////
+////////////////////////////////
 map MME5CHA "CHARGE MAN: Encore!"
 {
 	next = "MME5STO"
@@ -403,9 +330,6 @@ map MME5CHA "CHARGE MAN: Encore!"
 	clipmidtextures
 }
 
-
-////////////////////
-///// MME5STO /////
 map MME5STO "STONE MAN: Encore!"
 {
 	next = "MME5NAP"
@@ -416,8 +340,6 @@ map MME5STO "STONE MAN: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME5NAP /////
 map MME5NAP "NAPALM MAN: Encore!"
 {
 	next = "MME5WAV"
@@ -428,8 +350,6 @@ map MME5NAP "NAPALM MAN: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME5WAV /////
 map MME5WAV "WAVE MAN: Encore!"
 {
 	next = "MME5GRA"
@@ -440,9 +360,6 @@ map MME5WAV "WAVE MAN: Encore!"
 	clipmidtextures
 }
 
-
-////////////////////
-///// MME5GRA /////
 map MME5GRA "GRAVITY MAN: Encore!"
 {
 	next = "MME5STA"
@@ -453,8 +370,6 @@ map MME5GRA "GRAVITY MAN: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME5STA /////
 map MME5STA "STAR MAN: Encore!"
 {
 	next = "MME5CRY"
@@ -465,8 +380,6 @@ map MME5STA "STAR MAN: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME5CRY /////
 map MME5CRY "CRYSTAL MAN: Encore!"
 {
 	next = "MME5DAR"
@@ -477,8 +390,6 @@ map MME5CRY "CRYSTAL MAN: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME5DAR /////
 map MME5DAR "DARK MAN CASTLE: Encore!"
 {
 	next = "MME6TOM"
@@ -489,8 +400,9 @@ map MME5DAR "DARK MAN CASTLE: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME6TOM /////
+////////////////////////////////
+// MME6 ////////////////////////
+////////////////////////////////
 map MME6TOM "TOMAHAWK MAN: Encore!"
 {
 	next = "MME6KNI"
@@ -501,9 +413,6 @@ map MME6TOM "TOMAHAWK MAN: Encore!"
 	clipmidtextures
 }
 
-
-////////////////////
-///// MME6KNI /////
 map MME6KNI "KNIGHT MAN: Encore!"
 {
 	next = "MME6BLI"
@@ -514,22 +423,18 @@ map MME6KNI "KNIGHT MAN: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME6BLI /////
 map MME6BLI "BLIZZARD MAN: Encore!"
 {
-   next = "MME6PLA"
-   sky1 = "BLACK", 0
-   music = "EBLIMUS"
-   aircontrol = 0.5
-   forcenoskystretch
-   clipmidtextures
-   evenlighting
-   UsePlayerStartZ
+	next = "MME6PLA"
+	sky1 = "BLACK", 0
+	music = "EBLIMUS"
+	aircontrol = 0.5
+	forcenoskystretch
+	clipmidtextures
+	evenlighting
+	UsePlayerStartZ
 }
 
-////////////////////
-///// MME6PLA /////
 map MME6PLA "PLANT MAN: Encore!"
 {
 	next = "MME6YAM"
@@ -540,8 +445,6 @@ map MME6PLA "PLANT MAN: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MME6YAM /////
 map MME6YAM "YAMATO MAN: Encore!"
 {
 	next = "MME6MRX"
@@ -550,8 +453,6 @@ map MME6YAM "YAMATO MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME6MRX /////
 map MME6MRX "MR. X FORTRESS: Encore!"
 {
 	next = "MME7FRE"
@@ -560,8 +461,9 @@ map MME6MRX "MR. X FORTRESS: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME7FRE /////
+////////////////////////////////
+// MME7 ////////////////////////
+////////////////////////////////
 map MME7FRE "FREEZE MAN: Encore!"
 {
 	next = "MME7JUN"
@@ -570,8 +472,6 @@ map MME7FRE "FREEZE MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME7JUN /////
 map MME7JUN "JUNK MAN: Encore!"
 {
 	next = "MME7CLO"
@@ -580,8 +480,6 @@ map MME7JUN "JUNK MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MM7ECLO /////
 map MME7CLO "CLOUD MAN: Encore!"
 {
 	next = "MME7SPR"
@@ -591,29 +489,23 @@ map MME7CLO "CLOUD MAN: Encore!"
 	UsePlayerStartZ
 }
 
-////////////////////
-///// MM7SPR /////
 map MME7SPR "SPRING MAN: Encore!"
 {
-   next = "MME7SLA"
-   sky1 = "BLACK", 0
-   music = "ESPRMUS"
-   aircontrol = 0.5
+	next = "MME7SLA"
+	sky1 = "BLACK", 0
+	music = "ESPRMUS"
+	aircontrol = 0.5
 }
 
-////////////////////
-///// MM7SLA /////
 map MME7SLA "SLASH MAN: Encore!"
 {
-   next = "MME7SHA"
-   sky1 = "BLACK", 0
-   music = "ESLAMUS"
-   aircontrol = 0.5
-   clipmidtextures
+	next = "MME7SHA"
+	sky1 = "BLACK", 0
+	music = "ESLAMUS"
+	aircontrol = 0.5
+	clipmidtextures
 }
 
-////////////////////
-///// MME7SHA /////
 map MME7SHA "SHADE MAN: Encore!"
 {
 	next = "MME7TUR"
@@ -623,19 +515,18 @@ map MME7SHA "SHADE MAN: Encore!"
 	UsePlayerStartZ
 }
 
-////////////////////
-///// MME7TUR /////
 map MME7TUR "TURBO MAN: Encore!"
 {
-   next = "MME8AST"
-   sky1 = "BLACK", 0
-   music = "ETURMUS"
-   aircontrol = 0.5
-   UsePlayerStartZ
+	next = "MME8AST"
+	sky1 = "BLACK", 0
+	music = "ETURMUS"
+	aircontrol = 0.5
+	UsePlayerStartZ
 }
 
-////////////////////
-///// MME8AST /////
+////////////////////////////////
+// MME8 ////////////////////////
+////////////////////////////////
 map MME8AST "ASTRO MAN: Encore!"
 {
 	next = "MME8SWO"
@@ -647,8 +538,6 @@ map MME8AST "ASTRO MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME8SWO /////
 map MME8SWO "SWORD MAN: Encore!"
 {
 	next = "MMEBGRO"
@@ -659,8 +548,9 @@ map MME8SWO "SWORD MAN: Encore!"
 	clipmidtextures
 }
 
-////////////////////
-///// MMEBGRO /////
+////////////////////////////////
+// MMEB ////////////////////////
+////////////////////////////////
 map MMEBGRO "GROUND MAN: Encore!"
 {
 	next = "MMEBMAG"
@@ -672,8 +562,6 @@ map MMEBGRO "GROUND MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MMEBMAG /////
 map MMEBMAG "MAGIC MAN: Encore!"
 {
 	next = "MMEWTDW1"
@@ -686,8 +574,9 @@ map MMEBMAG "MAGIC MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MMEWTDW1 /////
+////////////////////////////////
+// MMEWT ///////////////////////
+////////////////////////////////
 map MMEWTDW1 "WILY TOWER 1: Encore!"
 {
 	next = "MMEWTDW2"
@@ -699,8 +588,6 @@ map MMEWTDW1 "WILY TOWER 1: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MMEWTDW2 /////
 map MMEWTDW2 "WILY TOWER 2: Encore!"
 {
 	next = "MME9CON"
@@ -712,8 +599,9 @@ map MMEWTDW2 "WILY TOWER 2: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME9CON /////
+////////////////////////////////
+//// MME9 //////////////////////
+////////////////////////////////
 map MME9CON "CONCRETE MAN: Encore!"
 {
 	next = "MME9TOR"
@@ -724,8 +612,6 @@ map MME9CON "CONCRETE MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME9TOR /////
 map MME9TOR "TORNADO MAN: Encore!"
 {
 	next = "MME9SPL"
@@ -734,8 +620,6 @@ map MME9TOR "TORNADO MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME9SPL /////
 map MME9SPL "SPLASH WOMAN: Encore!"
 {
 	next = "MME9JEW"
@@ -743,8 +627,6 @@ map MME9SPL "SPLASH WOMAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME9JEW /////
 map MME9JEW "JEWEL MAN: Encore!"
 {
 	next = "MME9MAG"
@@ -755,8 +637,6 @@ map MME9JEW "JEWEL MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME9MAG /////
 map MME9MAG "MAGMA MAN: Encore!"
 {
 	next = "MME9GAL"
@@ -766,8 +646,6 @@ map MME9MAG "MAGMA MAN: Encore!"
 	forcenoskystretch
 }
 
-////////////////////
-///// MME9GAL /////
 map MME9GAL "GALAXY MAN: Encore!"
 {
 	next = "MME9DW3"
@@ -776,8 +654,6 @@ map MME9GAL "GALAXY MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME9DW3 /////
 map MME9DW3 "WILY CASTLE TOWER: Encore!"
 {
 	next = "MME10CHI"
@@ -789,8 +665,9 @@ map MME9DW3 "WILY CASTLE TOWER: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME10CHI /////
+////////////////////////////////
+//// MME10 /////////////////////
+////////////////////////////////
 map MME10CHI "CHILL MAN: Encore!"
 {
 	next = "MME10SHE"
@@ -802,8 +679,6 @@ map MME10CHI "CHILL MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME10SHE /////
 map MME10SHE "SHEEP MAN: Encore!"
 {
 	next = "MME10STR"
@@ -814,8 +689,6 @@ map MME10SHE "SHEEP MAN: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MME10STR /////
 map MME10STR "STRIKE MAN: Encore!"
 {
 	next = "MME10SOL"
@@ -824,8 +697,6 @@ map MME10STR "STRIKE MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME10SOL /////
 map MME10SOL "SOLAR MAN: Encore!"
 {
 	next = "MME10DW1"
@@ -834,8 +705,6 @@ map MME10SOL "SOLAR MAN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MME10DW1 /////
 map MME10DW1 "WILY STATION ARCHIVES: Encore!"
 {
 	next = "MMEVVEN"
@@ -845,8 +714,9 @@ map MME10DW1 "WILY STATION ARCHIVES: Encore!"
 	evenlighting
 }
 
-////////////////////
-///// MMEVVEN /////
+////////////////////////////////
+//// MMEV //////////////////////
+////////////////////////////////
 map MMEVVEN "VENUS: Encore!"
 {
 	next = "MMEVSAT"
@@ -854,8 +724,6 @@ map MMEVVEN "VENUS: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MMEVSAT /////
 map MMEVSAT "SATURN: Encore!"
 {
 	next = "MMEVURA"
@@ -864,8 +732,6 @@ map MMEVSAT "SATURN: Encore!"
 	aircontrol = 0.5
 }
 
-////////////////////
-///// MMEVURA /////
 map MMEVURA "URANUS: Encore!"
 {
 	next = "MMEKENK"
@@ -875,19 +741,17 @@ map MMEVURA "URANUS: Encore!"
 	forcenoskystretch
 }
 
-////////////////////
-///// MMEKENK /////
 map MMEKENK "ENKER: Encore!"
 {
-   next = "MMB2KOM"
-   music = "EENKMUS"
-   aircontrol = 0.5
-   UsePlayerStartZ
+	next = "MMB2KOM"
+	music = "EENKMUS"
+	aircontrol = 0.5
+	UsePlayerStartZ
 }
 
-
-////////////////////
-///// MMB2KOM /////
+////////////////////////////////
+//// MMB2 //////////////////////
+////////////////////////////////
 map MMB2KOM "KOMUSO MAN"
 {
 	cluster = 514315185
@@ -898,8 +762,6 @@ map MMB2KOM "KOMUSO MAN"
 	useplayerstartz
 }
 
-////////////////////
-///// MMB2BUL /////
 map MMB2BUL "BULLET MAN"
 {
 	cluster = 514315185
@@ -912,8 +774,6 @@ map MMB2BUL "BULLET MAN"
 	UsePlayerStartZ
 }
 
-////////////////////
-///// MMB2STO /////
 map MMB2STO "STOVE MAN"
 {
 	cluster = 514315185
@@ -924,8 +784,6 @@ map MMB2STO "STOVE MAN"
 	useplayerstartz
 }
 
-////////////////////
-///// MMB2AIR /////
 map MMB2AIR "AIRCON MAN"
 {
 	cluster = 514315185
@@ -936,8 +794,6 @@ map MMB2AIR "AIRCON MAN"
 	useplayerstartz
 }
 
-////////////////////
-///// MMB2CLO /////
 map MMB2CLO "CLOCK MEN"
 {
 	cluster = 514315185
@@ -948,8 +804,9 @@ map MMB2CLO "CLOCK MEN"
 	useplayerstartz
 }
 
-////////////////////
-///// MMEPRO /////
+////////////////////////////////
+//// MME ///////////////////////
+////////////////////////////////
 map MMEPRO "PROTO MAN"
 {
 	cluster = 514315185
@@ -960,8 +817,6 @@ map MMEPRO "PROTO MAN"
 	forcenoskystretch
 }
 
-////////////////////
-///// MMEBON /////
 map MMEBON "BOND MAN"
 {
 	cluster = 514315185
@@ -972,9 +827,9 @@ map MMEBON "BOND MAN"
 	useplayerstartz
 }
 
-
-////////////////////
-///// MMECTF /////
+////////////////////////////////
+//// MMECTF ////////////////////
+////////////////////////////////
 map MMECTF08 "EDGE OF THE DAM: Encore!"
 {
 	sky1 = "EWVESKY", 0
@@ -986,10 +841,10 @@ map MMECTF08 "EDGE OF THE DAM: Encore!"
 
 map MMECTF15 "DOUBLE CASTLE: Encore!"
 {
-   sky1 = "SNAKESKY", 0
-   music = "ECTFMS15"
-   aircontrol = 0.5
-   next = "MMCTF16"
+	sky1 = "SNAKESKY", 0
+	music = "ECTFMS15"
+	aircontrol = 0.5
+	next = "MMCTF16"
 }
 
 map MMECTF23 "WATER WORKS: Encore!"
