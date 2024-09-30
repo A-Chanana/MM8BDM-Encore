@@ -33,5 +33,5 @@ OptionMenu "8BDM_AccessibilitySettings"
 	StaticText	"Encore Preferences", 1
 	StaticText " "
 	Option "Encore map textures",			"enc_ogtextures", "OffOn"
-	Option "Complex voxels",				"enc_complexvoxels", "OffOn"
+	Option "Complex voxels",				"enc_complexvoxels", "OnOff"
 }
