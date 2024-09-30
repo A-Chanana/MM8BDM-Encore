@@ -144,7 +144,7 @@ actor AirconManTideFlag : FanFiend 21750
 States
 {
 Spawn:
-AICF AB 4
+AICF AB 15
 loop
 }
 }

@@ -3123,6 +3123,21 @@ texture EVOLTCFR
 	pic EVOLTCF1 tics 4
 
 ////////////////////
+///// MMB2AIR /////
+texture AICBGX
+	allowdecals
+	pic AICBGX tics 70
+	pic AICBG2 tics 15
+	pic AICBG3 tics 15
+	pic AICBG2 tics 15
+
+texture	AICMET7
+	allowdecals
+	pic AICMET7 tics 15
+	pic AICMET8 tics 15
+	
+
+////////////////////
 ///// MMB2CLO /////
 texture CLKGEA1
 	allowdecals
