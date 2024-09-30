@@ -58,6 +58,7 @@ $musicvolume MMEBBOSS 2.0
 $musicvolume MMEBFBOS 2.2
 //MM9
 $musicvolume ECONMUS 1.25
+$musicvolume EMGMMUS 1.5
 $musicvolume EGALMUS 0.8
 $musicvolume MME9FBOS 1.45
 //MM10
