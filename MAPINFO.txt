@@ -810,13 +810,13 @@ map MMB2CLO "CLOCK MEN"
 map MMEPRO "PROTO MAN"
 {
 	cluster = 514315185
-	next = "MMEBON"
+	next = "MME1CUT"
 	sky1 = "BLACK", 0
 	music = "EPROINT"
 	aircontrol = 0.5
 	forcenoskystretch
 }
-
+/* One day, my friend
 map MMEBON "BOND MAN"
 {
 	cluster = 514315185
@@ -826,7 +826,7 @@ map MMEBON "BOND MAN"
 	aircontrol = 0.5
 	useplayerstartz
 }
-
+*/
 ////////////////////////////////
 //// MMECTF ////////////////////
 ////////////////////////////////
