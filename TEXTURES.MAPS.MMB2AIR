@@ -146,4 +146,13 @@ Texture "AICRCK3", 64, 32
 	WorldPanning
 	Patch "AICRCK3", 0, 0
 }
+
+Texture "AICRCK4", 64, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "AICRCK4", 0, 0
+}
+
 // End of texture definitions
