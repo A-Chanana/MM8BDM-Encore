@@ -1,13 +1,3 @@
-Const int AIRCONWAVEDELAY = 10*35; //Delay between waves
-Const int AIRCONWAVEHORITHRUST = 90; //Horizontal Thrust
-Const int AIRCONWAVEVERTTHRUST = 20; //Vertical Thrust
-Const int AIRCONWAVEVERTTHRUST2 = 75; //Vertical Thrust for the first 3 tics of the wave's duration
-
-actor AirconManNoWaveSpawner_P : Powerup
-{
-    powerup.duration 350 //Tic Duration should be the same as AIRCONWAVEDELAY
-}
-
 actor AirconManGiantWave
 {
 +DONTSPLASH
@@ -20,12 +10,30 @@ maxstepheight 24
 scale 2.5
 Height 60
 Radius 60
+reactiontime 42
 States
 {
 Spawn:
-WWAV AAB 1 A_RadiusGive("AirconManGiantWave_ThrustFirst_P",128,RGF_PLAYERS|RGF_MONSTERS,1)
-WWAV BCCDDCCBBAA 1 A_RadiusGive("AirconManGiantWave_Thrust_P",128,RGF_PLAYERS|RGF_MONSTERS,1)
-Stop
+TNT1 A 0 A_SpawnItemEx("AirconManGiantWaveFX",64,0,-66)
+TNT1 A 1 A_RadiusGive("AirconManGiantWave_Thrust_P",128,RGF_PLAYERS|RGF_MONSTERS,1)
+TNT1 A 0 A_Countdown
+loop
+}
+}
+
+Actor AirconManGiantWaveFX
+{
++NOINTERACTION
++CLIENTSIDEONLY
+renderstyle translucent
+alpha 0.75
+Scale 2.5
+states
+{
+Spawn:
+AICW I 0 
+AICW IHGFEDCBA 1
+stop
 }
 }
 
@@ -35,25 +43,14 @@ actor AirconManGiantWave_Thrust_P : CustomInventory
     {
     Pickup:
 		TNT1 A 0 A_JumpIf(CallACS("Encore_AirconGiantWaveButtonCheck") > 0, "Pickup2")
-        TNT1 A 0 A_ChangeVelocity(AIRCONWAVEHORITHRUST,0,0,CVF_REPLACE)
+        TNT1 A 0 A_ChangeVelocity(60,0,0,CVF_REPLACE)
         stop
 	Pickup2:
-		TNT1 A 0 A_ChangeVelocity(AIRCONWAVEHORITHRUST,0,AIRCONWAVEVERTTHRUST,CVF_REPLACE)
-		//TNT1 A 0 A_Print("Wheeeeee")
+		TNT1 A 0 A_ChangeVelocity(60,0,15,CVF_REPLACE)
 		stop
     }
 }
 
-actor AirconManGiantWave_ThrustFirst_P : CustomInventory
-{
-    States
-    {
-    Pickup:
-		TNT1 A 0 A_ChangeVelocity(AIRCONWAVEHORITHRUST,0,AIRCONWAVEVERTTHRUST2,CVF_REPLACE)
-		//TNT1 A 0 A_Print("Wheeeeee")
-		stop
-    }
-}
 
 //Thanks Pegg
 actor AirconManMistSpawner 21749
@@ -92,10 +89,14 @@ TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(
 TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
 loop
 Deactive:
-TNT1 A 5 A_SetTics(AIRCONWAVEDELAY)
+TNT1 A 0 A_GiveInventory("AirconManNoWaveSpawner_P")
+DeactiveLoop:
+TNT1 A 1
+TNT1 A 1 A_JumpIfInventory("AirconManNoWaveSpawner_P",1,"DeactiveLoop")
 goto Spawn
 }
 }
+actor AirconManNoWaveSpawner_P : Powerup {powerup.duration 350}
 
 actor AirconManMist
 {
@@ -146,5 +147,37 @@ States
 Spawn:
 AICF AB 15
 loop
+}
+}
+
+actor OctoGenerator : FanFiend 21751
+{
+//$Category MM8BDME-Props
++NOGRAVITY
+States
+{
+Spawn:
+OCTG A 35 A_SetTics(random(35, 105))
+OCTG B 4
+OCTG C 4
+OCTG D 4
+OCTG E 4
+loop
+}
+}
+
+actor OctoGeneratorPlatform
+{
+Projectile
++CLIENTSIDEONLY
+Damage (0)
+height 2
+radius 2
+scale 2.5
+States
+{
+Spawn:
+AICF X 35
+wait
 }
 }
