@@ -42,7 +42,7 @@ actor AirconManGiantWave_Thrust_P : CustomInventory
     States
     {
     Pickup:
-		TNT1 A 0 A_JumpIf(CallACS("Encore_AirconGiantWaveButtonCheck") > 0, "Pickup2")
+		TNT1 A 0 A_JumpIf(CallACS("Encore_JumpCheck"), "Pickup2")
         TNT1 A 0 A_ChangeVelocity(60,0,0,CVF_REPLACE)
         stop
 	Pickup2:
