@@ -71,6 +71,3 @@ OILS ABCDE 5
 stop
 }
 }
-
-actor StickyCeilingDelay : Once { }
-actor HitTheBondWall : Powerup {Powerup.duration 4}

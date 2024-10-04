@@ -10,6 +10,22 @@ Texture "BONDFLR", 32, 32
 	Patch "BONDFLR", 0, 0
 }
 
+Texture "BONDFLR2", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BOND17", 0, 0
+}
+
+Texture "BONDFLR3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BOND18", 0, 0
+}
+
 Texture "BONDGLUE", 64, 64
 {
 	XScale 0.500
@@ -88,6 +104,98 @@ Texture "BONDWAL2", 16, 320
 	Patch "BOND04", 0, 304
 }
 
+Texture "BONDWAL3", 32, 320
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BOND19", 0, 0
+	Patch "BOND02", 0, 16
+	Patch "BOND02", 0, 32
+	Patch "BOND02", 0, 48
+	Patch "BOND02", 0, 64
+	Patch "BOND02", 0, 80
+	Patch "BOND02", 0, 96
+	Patch "BOND02", 0, 112
+	Patch "BOND02", 0, 128
+	Patch "BOND02", 0, 144
+	Patch "BOND02", 0, 160
+	Patch "BOND02", 0, 176
+	Patch "BOND02", 0, 192
+	Patch "BOND02", 0, 208
+	Patch "BOND02", 0, 224
+	Patch "BOND02", 0, 240
+	Patch "BOND02", 0, 256
+	Patch "BOND02", 0, 272
+	Patch "BOND02", 0, 288
+	Patch "BOND02", 0, 304
+	Patch "BOND02", 16, 16
+	Patch "BOND02", 16, 32
+	Patch "BOND02", 16, 48
+	Patch "BOND02", 16, 64
+	Patch "BOND02", 16, 80
+	Patch "BOND02", 16, 96
+	Patch "BOND02", 16, 112
+	Patch "BOND02", 16, 128
+	Patch "BOND02", 16, 144
+	Patch "BOND02", 16, 160
+	Patch "BOND02", 16, 176
+	Patch "BOND02", 16, 192
+	Patch "BOND02", 16, 208
+	Patch "BOND02", 16, 224
+	Patch "BOND02", 16, 240
+	Patch "BOND02", 16, 256
+	Patch "BOND02", 16, 272
+	Patch "BOND02", 16, 288
+	Patch "BOND02", 16, 304
+}
+
+Texture "BONDWAL4", 32, 320
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BOND20", 0, 0
+	Patch "BOND02", 0, 16
+	Patch "BOND02", 0, 32
+	Patch "BOND02", 0, 48
+	Patch "BOND02", 0, 64
+	Patch "BOND02", 0, 80
+	Patch "BOND02", 0, 96
+	Patch "BOND02", 0, 112
+	Patch "BOND02", 0, 128
+	Patch "BOND02", 0, 144
+	Patch "BOND02", 0, 160
+	Patch "BOND02", 0, 176
+	Patch "BOND02", 0, 192
+	Patch "BOND02", 0, 208
+	Patch "BOND02", 0, 224
+	Patch "BOND02", 0, 240
+	Patch "BOND02", 0, 256
+	Patch "BOND02", 0, 272
+	Patch "BOND02", 0, 288
+	Patch "BOND02", 0, 304
+	Patch "BOND02", 16, 16
+	Patch "BOND02", 16, 32
+	Patch "BOND02", 16, 48
+	Patch "BOND02", 16, 64
+	Patch "BOND02", 16, 80
+	Patch "BOND02", 16, 96
+	Patch "BOND02", 16, 112
+	Patch "BOND02", 16, 128
+	Patch "BOND02", 16, 144
+	Patch "BOND02", 16, 160
+	Patch "BOND02", 16, 176
+	Patch "BOND02", 16, 192
+	Patch "BOND02", 16, 208
+	Patch "BOND02", 16, 224
+	Patch "BOND02", 16, 240
+	Patch "BOND02", 16, 256
+	Patch "BOND02", 16, 272
+	Patch "BOND02", 16, 288
+	Patch "BOND02", 16, 304
+}
+
 Texture "BONDMET", 32, 32
 {
 	XScale 0.500
@@ -144,6 +252,22 @@ Texture "BONDME2R", 16, 16
 	Patch "BOND11", 0, 0
 }
 
+Texture "BONDME3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BOND21", 0, 0
+}
+
+Texture "BONDME4M", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BOND22", 0, 0
+}
+
 Texture "BONDPILR", 16, 16
 {
 	XScale 0.500
@@ -152,21 +276,6 @@ Texture "BONDPILR", 16, 16
 	Patch "BOND12", 0, 0
 }
 
-Texture "BONDME1L", 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch "BOND07", 0, 0
-}
-
-Texture "BONDME1M", 16, 16
-{
-	XScale 0.500
-	YScale 0.500
-	WorldPanning
-	Patch "BOND06", 0, 0
-}
 
 Texture "BONDDOOR", 16, 16
 {

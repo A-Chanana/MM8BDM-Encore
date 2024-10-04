@@ -816,7 +816,7 @@ map MMEPRO "PROTO MAN"
 	aircontrol = 0.5
 	forcenoskystretch
 }
-/* One day, my friend
+
 map MMEBON "BOND MAN"
 {
 	cluster = 514315185
@@ -826,7 +826,7 @@ map MMEBON "BOND MAN"
 	aircontrol = 0.5
 	useplayerstartz
 }
-*/
+
 ////////////////////////////////
 //// MMECTF ////////////////////
 ////////////////////////////////

@@ -6,22 +6,83 @@ actor Encore-ClickyLift 20560
     //$Arg0 Sector
     //$Arg1 Height
     //$Arg2 Speed
-    //$Sprite GLIFA0
+    //$Sprite ENCTA0
     height 3
     radius 3
     -SOLID
     +THRUACTORS
     +CANPASS
     +NOGRAVITY
-    renderstyle none
     states
     {
     Spawn:
-        GLIF A 0
-        GLIF A 1
+        TNT1 A 0
+        TNT1 A 1
 		wait
     Activate:
-        GLIF A 0 ACS_NamedExecuteAlways("Encore_ClickyLift",0,args[0],args[1],args[3])
+        TNT1 A 0 ACS_NamedExecuteAlways("Encore_ClickyLift",0,args[0],args[1],args[3])
 		goto Spawn
+    }
+}
+
+
+actor Encore-GlueConveyor 20561
+{
+    //$Category MM8BDME-Mapper Tools
+    //$Title Glue Conveyor
+    //$Arg0 Speed
+    //$Arg1 Type
+    //$Sprite ENCTB0
+    height 3
+    radius 3
+    -SOLID
+    +THRUACTORS
+    +CANPASS
+    +NOGRAVITY
+    states
+    {
+    Spawn:
+        TNT1 A 0
+        TNT1 A 1
+		wait
+    Activate:
+        TNT1 A 0 ACS_NamedExecuteWithResult("Encore_GlueConveyor",args[0],args[1])
+		goto Spawn
+    }
+}
+actor StickyCeilingDelay : Once {}
+
+
+actor MM8BDME_PadParticle 20565
+{
+    //$Category MM8BDME-Mapper Tools
+    //$Title Encore Bounce Pad Graphic
+    //$Arg0 Graphic Type
+    //$Arg0Enum { 0 = "Bubbles"; }
+    //$Arg0Type 11
+    //$Arg1 Speed (Default 10)
+    //$Arg2 Pitch
+    //$Sprite EDT1A0
+    +NOINTERACTION
+    Scale 2.0
+    States
+    {
+    Spawn:
+        TNT1 A 0
+        TNT1 A 0 A_SetPitch(90-args[2])
+        TNT1 A 0 A_SetArg(1, (args[1]<=0)*10 + (args[1]>0)*args[1])
+        TNT1 A 2 A_SpawnItemEx("BubblePadParticle", frandom(-32, 32), frandom(-32, 32), 0, cos(pitch)*args[1], 0, sin(pitch)*args[1], 0, SXF_MULTIPLYSPEED)
+        wait
+    }
+}
+
+actor BubblePadParticle : WindPadParticle
+{
+Scale 2.0
+    states
+    {
+    Spawn:
+        BUBS E 15
+        goto Fade
     }
 }

@@ -5,6 +5,9 @@
 // [A-Chan] Sets a prop to its activate state
 script "Encore_ActivateProp" (int tid)
 {
+int activator = ActivatorTID();
+SetActivator(tid);
+SetPointer(AAPTR_Target,activator);
 SetActorState(tid,"Activate",true);
 }
 
@@ -44,7 +47,7 @@ str enc_speedpanels[ENC_MAXSPEEDPANELS] =
 "ETICONV","CLKSTM","CLKSTM1"
 };
 
-Script "encore_speedPanel" (void)
+Script "Encore_SpeedPanel" (void)
 {
 if(CheckInventory("SpeedyFloorPowerup")>0){terminate;}
 GiveInventory("SpeedyFloorPowerup",1);
@@ -76,7 +79,7 @@ str enc_jumpsectors[ENC_MAXJUMPSECTORS] =
 "ESAFLR07","EJEWFLR8"
 };
 
-Script "encore_jumpSector" (void)
+Script "Encore_JumpSector" (void)
 {
 if(CheckInventory("WaveBubbleFlag")>0){terminate;}
 GiveInventory("WaveBubbleFlag",1);
@@ -98,8 +101,46 @@ function bool checkJumpSector(void){
 	return false;
 }
 
+
+// [A-Chan] Script for glue conveyors
+Script "Encore_GlueConveyor" (int speed, int type)
+{
+int Angle = GetActorAngle(0) >> 8;
+//PrintBold(s:"activated by tid ",i:ACS_NamedExecuteWithResult("core_gettarget"));
+SetActivator(ACS_NamedExecuteWithResult("core_gettarget"));
+
+if(CheckInventory("StickyCeilingDelay")){terminate;}
+int height = GetActorProperty(0,APROP_Height)+5.0;
+
+GiveInventory("StickyCeilingDelay",1);
+ACS_NamedExecuteAlways("core_flyplayer",0,0,1);
+ACS_NamedExecuteAlways("core_stopplayer",0,0,1);
+Delay(1);
+
+Until(ACS_NamedExecuteWithResult("Encore_JumpCheck")){
+	ThrustThingZ(0,5,0,0);
+	Thing_Stop(0);
+	ThrustThing(angle,speed,0,0);
+	Delay(1);
+	
+	if(GetActorZ(0) < GetActorCeilingZ(0)-height){
+		TakeInventory("StickyCeilingDelay",1);
+		break;
+		}
+	}
+
+ACS_NamedExecuteAlways("core_flyplayer",0,0,0);
+ACS_NamedExecuteAlways("core_stopplayer",0,0,0);
+Delay(1);
+
+if(CheckInventory("StickyCeilingDelay")>0){ThrustThingZ(0,60,1,1);}
+Delay(10);
+TakeInventory("StickyCeilingDelay",1);
+}
+
+
 // [A-Chan] Had to copy this for v6a compat, sorry!
-Script "encore_checkDistance" (int Distance)
+Script "Encore_CheckDistance" (int Distance)
 {
 int ReturnThis=0;
 For(int i = 0; i < 64; i++)
@@ -122,19 +163,15 @@ function int xyzDistance (int tid1, int tid2)
 	return d;
 }
 
-Script "encore_complexVoxelCheck" (void) CLIENTSIDE
+
+Script "Encore_ComplexVoxelCheck" (void) CLIENTSIDE
 {
 if(GetUserCVar(ConsolePlayerNumber(),"enc_complexvoxels")){SetActorState(0,"ComplexVoxelState",1);}
 }
 
-//Original Jump Button Check Script by Jaxof7
-Script "Encore_AirconGiantWaveButtonCheck" (void)
-{
-	SetResultValue(PressingButton(GetPlayerInput(-1, INPUT_BUTTONS),BT_JUMP));
-}
 
-
-function bool PressingButton (int buttons, int theButton)
+// Returns true if the activator is pressing jump
+Script "Encore_JumpCheck" (void)
 {
-	return ((buttons&theButton)>0);
+	SetResultValue((GetPlayerInput(-1, INPUT_BUTTONS) & BT_JUMP)>0);
 }
