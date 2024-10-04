@@ -810,7 +810,7 @@ map MMB2CLO "CLOCK MEN"
 map MMEPRO "PROTO MAN"
 {
 	cluster = 514315185
-	next = "MME1CUT"
+	next = "MMEBON"
 	sky1 = "BLACK", 0
 	music = "EPROINT"
 	aircontrol = 0.5
