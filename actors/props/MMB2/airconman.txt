@@ -89,11 +89,10 @@ TNT1 A 5 A_SpawnItemEX("AirconManMist",-10,random(-4,4),0,2,random(-1,1),random(
 TNT1 AA 0 A_SpawnItemEX("AirconManDroplet",0,random(-32,32),0,random(5,10),random(-4,4),random(5,10),0,0)
 loop
 Deactive:
-TNT1 A 0 A_GiveInventory("AirconManNoWaveSpawner_P")
-DeactiveLoop:
 TNT1 A 1
-TNT1 A 1 A_JumpIfInventory("AirconManNoWaveSpawner_P",1,"DeactiveLoop")
-goto Spawn
+loop
+Activate:
+goto Spawn+1
 }
 }
 actor AirconManNoWaveSpawner_P : Powerup {powerup.duration 350}
