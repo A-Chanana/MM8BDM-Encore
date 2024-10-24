@@ -175,3 +175,181 @@ Script "Encore_JumpCheck" (void)
 {
 	SetResultValue((GetPlayerInput(-1, INPUT_BUTTONS) & BT_JUMP)>0);
 }
+
+#LIBDEFINE SECTOR_LOWEST    -32768.0
+#LIBDEFINE SECTOR_HIGHEST   32768.0
+#LIBDEFINE GLOBAL_TIMEJUICE_TID -9999
+#LIBDEFINE MAX_TIMEJUICE_GLOBAL_LIMIT 128
+int MAX_TIMEJUICE_GLOBAL = 0;
+int TimeJuiceSectors[MAX_TIMEJUICE_GLOBAL_LIMIT];
+
+function int findTimeJuiceByTag(int tag)
+{
+    int res = -1;
+	for(int i = 0; i < MAX_TIMEJUICE_GLOBAL && res == -1; i++)
+    {
+        if(tag == getTimeJuiceTag(i)) {
+            res = i;
+        }
+    }
+    return res;
+}
+function bool isZPosInTimeJuiceTag(int tag, int zPos)
+{
+    switch(GetUserVariable(tag, "user_direction")) {
+        default: case 0: return zPos < GetActorZ(tag); // TimeJuice builds down
+        case 1: return zPos >= GetActorZ(tag); // TimeJuice builds up
+        case 2: return zPos < GetActorCeilingZ(tag) && zPos >= GetActorFloorZ(tag); // TimeJuice fills sector
+    }
+    return false;
+}
+function int getTimeJuiceTopZ(int tag) 
+{
+    switch(GetUserVariable(tag, "user_direction")) {
+        default: case 0: return GetActorZ(tag); // TimeJuice builds down
+        case 1: return SECTOR_HIGHEST; // TimeJuice builds up
+        case 2: return GetActorCeilingZ(tag); // TimeJuice fills sector
+    }
+    return SECTOR_HIGHEST;
+}
+function int getTimeJuiceBottomZ(int tag) 
+{
+    switch(GetUserVariable(tag, "user_direction")) {
+        default: case 0: return SECTOR_LOWEST; // TimeJuice builds down
+        case 1: return GetActorZ(tag); // TimeJuice builds up
+        case 2: return GetActorFloorZ(tag); // TimeJuice fills sector
+    }
+    return SECTOR_LOWEST;
+}
+function int findActorTimeJuice(int tid)
+{
+    if(tid == 0)
+        return 0;
+    if(ThingCountName("EncoreTimeWater", GLOBAL_TIMEJUICE_TID))
+        return GLOBAL_TIMEJUICE_TID;
+    for(int i = 0; i < MAX_TIMEJUICE_GLOBAL; i++)
+    {
+        if(ThingCountSector(T_NONE, tid, getTimeJuiceTag(i)) == 1)
+        {
+            return getTimeJuiceTag(i);
+        }
+    }
+    return 0;
+}
+
+function int getTimeJuiceTag(int idx) { return TimeJuiceSectors[idx]; }
+
+function void setTimeJuiceTag(int idx, int val) { TimeJuiceSectors[idx] = val; }
+
+script "encore_addtimejuice" (void)
+{
+	// Activate Global Mode (I can't think of a cool way to do it)
+	if(ActivatorTID()==0){
+        Thing_ChangeTID(0, GLOBAL_TIMEJUICE_TID);
+        terminate;
+	}
+
+    if(MAX_TIMEJUICE_GLOBAL < MAX_TIMEJUICE_GLOBAL_LIMIT) {
+		setTimeJuiceTag(MAX_TIMEJUICE_GLOBAL, ActivatorTID());
+        MAX_TIMEJUICE_GLOBAL++;
+	} else {
+        printbold(s:"Limit too low, need more time juice slots");
+    }
+}
+
+script "encore_timejuice" ENTER
+{
+    int feetInTimeJuice = false;
+    int eyesInTimeJuice = false;
+    int oldFeetInTimeJuice = false;
+    int oldEyesInTimeJuice = false;
+	int splashDelay = 0;
+	int maxsplashdelay = 20;
+
+    Delay(5);
+    if(ThingCountName("EncoreTimeWater",0)==0){terminate;}
+    while(GetActorProperty(ActivatorTID(),APROP_HEALTH)>0) {
+ 
+        int eyeDiff = GetActorProperty(0, APROP_ViewHeight);
+        int feetZ = GetActorZ(0);
+        int eyeZ = GetActorZ(0)+eyeDiff;
+        int tid = ActivatorTID();
+        int TimeJuiceBase = 0.0;
+        int TimeJuiceTop = 0.0;
+        int TimeJuiceSector = 0;
+ 
+        // Determine which TimeJuice sector the player is in (if any)
+        TimeJuiceSector = findActorTimeJuice(tid);
+ 
+        // [Russ] if player is in TimeJuice sector, give them physics based on their height in the sector,
+        // if they're within the defined height of the TimeJuice, give them physics!
+        if(TimeJuiceSector != 0)
+        {
+            feetInTimeJuice = isZPosInTimeJuiceTag(TimeJuiceSector, feetZ);
+            eyesInTimeJuice = isZPosInTimeJuiceTag(TimeJuiceSector, eyeZ);
+        }
+        else
+        {
+            feetInTimeJuice = false;
+            eyesInTimeJuice = false;
+        }
+ 
+        if(feetInTimeJuice != oldFeetInTimeJuice || eyesInTimeJuice != oldEyesInTimeJuice)
+        {
+            if(feetInTimeJuice || eyesInTimeJuice) {        
+				GiveInventory("SpeedyFloorPowerupJuice", 1);
+				//print(s:"Time Juice given");
+            } else {
+				TakeInventory("SpeedyFloorPowerupJuice", 1);
+				//print(s:"Time Juice taken");
+			}
+ 
+            if(feetInTimeJuice) {
+                GiveInventory("HasFeetInTimeJuice", 1);
+            } else {
+                TakeInventory("HasFeetInTimeJuice", 999);
+            }
+ 
+            if(eyesInTimeJuice) {
+                GiveInventory("IsUnderTimeJuice", 1);
+            } else {
+                TakeInventory("IsUnderTimeJuice", 999);
+            }
+			
+			if(splashDelay <= 0)
+            {
+                bool entering = false;
+ 
+                if(eyesInTimeJuice != oldEyesInTimeJuice && feetInTimeJuice != oldFeetInTimeJuice)
+                {
+                    entering = eyesInTimeJuice || feetInTimeJuice;
+                    splashDelay = maxsplashdelay;
+                } else {
+                    if(eyesInTimeJuice != oldEyesInTimeJuice) {
+                        entering = eyesInTimeJuice;
+                        if(feetInTimeJuice) {
+                            splashDelay = maxsplashdelay;
+                        } else {
+                            splashDelay = maxsplashdelay;
+                        }
+                    } else if(feetInTimeJuice != oldFeetInTimeJuice) {
+                        entering = feetInTimeJuice;
+                        if(eyesInTimeJuice) {
+                            splashDelay = maxsplashdelay;
+                        } else {
+                            splashDelay = maxsplashdelay;
+                        }
+                    }
+                }
+                if(splashDelay == 0)
+                    splashDelay = maxsplashdelay;
+            }
+         
+            oldFeetInTimeJuice = feetInTimeJuice;
+            oldEyesInTimeJuice = eyesInTimeJuice;
+        }
+		
+		if(splashDelay > 0){splashDelay--;}
+		Delay(1);
+    }
+}
