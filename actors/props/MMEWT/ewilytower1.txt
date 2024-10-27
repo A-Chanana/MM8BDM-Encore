@@ -36,6 +36,45 @@ actor EncoreTimeWater 21682
 actor HasFeetInTimeJuice : Inventory {}
 actor IsUnderTimeJuice : Inventory {}
 
+actor TimeJuiceSplash : MMSplash
+{
+States
+{
+Spawn:
+TNT1 A 0
+TNT1 A 0 A_PlaySoundEx("misc/sheepblockreturn","Voice")
+TNT1 AAAAAAAAAAAAAAAA 0 A_SpawnItemEx("TimeSlowGFX",random(0,16),0,0,random(-16,16)+momx,random(-16,16)+momy,random(0,5)+momz,random(0,360),SXF_ABSOLUTEMOMENTUM)
+TNT1 A 5
+stop
+}
+}
+
+actor TimeJuiceSplash_Mid : TimeJuiceSplash
+{
+States
+{
+Spawn:
+TNT1 A 0
+TNT1 A 0 A_PlaySoundEx("misc/sheepblockreturn","Voice")
+TNT1 AAAAAAAAAAAAAAAA 0 A_SpawnItemEx("TimeSlowGFX",random(0,16),0,0,random(-16,16)+momx,random(-16,16)+momy,random(-5,5)+momz,random(0,360),SXF_ABSOLUTEMOMENTUM)
+TNT1 A 5
+stop
+}
+}
+
+actor TimeJuiceSplash_Down : TimeJuiceSplash
+{
+States
+{
+Spawn:
+TNT1 A 0
+TNT1 A 0 A_PlaySoundEx("misc/sheepblockreturn","Voice")
+TNT1 AAAAAAAAAAAAAAAA 0 A_SpawnItemEx("TimeSlowGFX",random(0,16),0,0,random(-16,16)+momx,random(-16,16)+momy,random(-5,0)+momz,random(0,360),SXF_ABSOLUTEMOMENTUM)
+TNT1 A 5
+stop
+}
+}
+
 //Reference: Encore Time Man (A-Chan)
 
 actor SpeedyFloorPowerupTimed : PowerSpeed
