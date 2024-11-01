@@ -164,7 +164,7 @@ States
 }
 }
 
-actor EncoreAstroSlimeCubeRespawnDamager : ChillIceCubeRespawnDamager {Damagetype "SlimeTag"}
+actor EncoreAstroSlimeCubeRespawnDamager : ChillIceCubeRespawnDamager {Damagetype "SlimeTag" SelfObituary "$OB_ESLIMECUBERESPAWN"}
 
 actor EncoreAstroSlimeShard : ChillIceCubeShard
 {

@@ -723,3 +723,9 @@ MAPCARD_PROMUS_MUSICGAME = "Famicompo Pico 3";
 MAPCARD_BONMUS_MUSICNAME = "Bond Man";
 MAPCARD_BONMUS_MUSICCOMPOSER = "bsolmaz13";
 MAPCARD_BONMUS_MUSICGAME = "Mega Man Revised";
+
+OB_EOILBARREL = "%o went boom with an Oil Canister.";
+OB_EOILBARRELCREDIT = "%o went boom from %k's Oil Barrel.";
+OB_EPRESSBALL = "%o was crushed by a Press Ball.";
+OB_ESLIMECUBERESPAWN = "%o was slimed in a slime cube.";
+OB_EELECBLOCKRESPAWN = "%o was defragmented.";

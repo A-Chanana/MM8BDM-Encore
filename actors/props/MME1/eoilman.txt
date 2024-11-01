@@ -27,7 +27,7 @@ actor EOilCanister 20631
 +DONTBLAST
 +QUICKTORETALIATE
 +DONTDRAIN
-Obituary "$OB_OILBARRELCREDIT"
+Obituary "$OB_EOILBARRELCREDIT"
 scale 2.5
 height 80
 Radius 16
@@ -75,7 +75,8 @@ stop
 actor EOilCanisterExplosion : BasicHazardExplosion
 {
 damagetype "OilCanister"
-Obituary "$OB_OILBARRELCREDIT"
+Obituary "$OB_EOILBARRELCREDIT"
+SelfObituary "$OB_EOILBARREL"
 States
 {
 Credit:
@@ -107,7 +108,8 @@ SpawnStock:
 actor HazardCredit_EOilCanisterExplosion : BasicACSDamager
 {
 	DamageType "OilCanister"
-	Obituary "$OB_OILBARRELCREDIT"
+	Obituary "$OB_EOILBARRELCREDIT"
+	SelfObituary "$OB_EOILBARREL"
 }
 
 actor EncoreOilFlame

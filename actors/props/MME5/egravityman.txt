@@ -4,7 +4,7 @@ actor EPressBall : PressBall 20526
 Radius 32
 scale 2.5
 Height 95
-DamageType "EPressBall"
+DamageType "PressBall"
 +DONTBLAST
 +DONTRIP
 +NOGRAVITY
@@ -15,7 +15,8 @@ DamageType "EPressBall"
 -PUSHABLE
 Health 9999999
 Mass 9999999
-Obituary "%o was flattened by a EPress Ball."
+SelfObituary "$OB_EPRESSBALL"
+obituary "$OB_EPRESSBALL"
 States
 {
 Spawn:

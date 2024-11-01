@@ -66,6 +66,7 @@ actor EncoreWily10ElecBlockDamager
 	species "MovingPlatform"
 	Damage (255)
 	damagetype "SheepBlockRespawn"
+	SelfObituary "$OB_EELECBLOCKRESPAWN"
 	height 31
 	radius 12
 	States
