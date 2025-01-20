@@ -156,3 +156,13 @@ Texture "AICRCK4", 64, 32
 }
 
 // End of texture definitions
+
+sprite AICWZ0,16,8	{offset 8,8 patch AICWA0,0,0	{FlipX}}
+sprite AICWX0,16,16	{offset 8,16 patch AICWB0,0,0	{FlipX}}
+sprite AICWY0,16,24	{offset 8,24 patch AICWC0,0,0	{FlipX}}
+sprite AICWW0,16,32	{offset 8,32 patch AICWD0,0,0	{FlipX}}
+sprite AICWV0,16,40	{offset 8,40 patch AICWE0,0,0	{FlipX}}
+sprite AICWU0,16,48	{offset 8,48 patch AICWF0,0,0	{FlipX}}
+sprite AICWT0,16,56	{offset 8,56 patch AICWG0,0,0	{FlipX}}
+sprite AICWS0,16,64	{offset 8,64 patch AICWH0,0,0	{FlipX}}
+sprite AICWR0,16,64	{offset 8,64 patch AICWI0,0,0	{FlipX}}
