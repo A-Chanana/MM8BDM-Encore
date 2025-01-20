@@ -1,115 +1,124 @@
 #library "enccard"
 #include "zcommon.acs"
 
+#DEFINE ENC_MAP 0
+#DEFINE ENC_MUGSHOT 1
+#DEFINE ENC_MUSIC 2
+#DEFINE ENC_CARD 3
+#DEFINE ENC_BOSSMUS 4
+#DEFINE ENC_VICMUS 5
+#DEFINE ENC_INTENSEMUS 6
+#DEFINE ENC_AUTHOR 7
+
 #DEFINE ENC_MAPS 86
 str enc_mapcards[ENC_MAPS][8] = {
-	{"MME1CUT",	"\c[n6]Woo\c[w6]lock", 										"FACE0E", 	"ECUTMUS", 	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
-	{"MME1GUT",	"\c[p2]Sir An\c[g3]0\c[p2]n", 								"FACE1E", 	"EGUTMUS", 	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
-	{"MME1BOM",	"\c[n5]Mega\c[n6]Vile", 									"FACE2E", 	"EBOMMUS",	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
-	{"MME1ELE",	"\cdSaviorSword", 											"FACE3E", 	"EELEMUS",	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
-	{"MME1ICE",	"\c[n6]Woo\c[w6]lock", 										"FACE4E", 	"EICEMUS",	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
-	{"MME1FIR",	"\c[n5]Mega\c[n6]Vile", 									"FACE5E", 	"EFIRMUS",	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
-	{"MME1TIM",	"\c[y1]A\c[c4]-Chan", 										"FACE6E", 	"ETIMMUS",	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
-	{"MME1OIL",	"Scott, \c[N5]Mega\c[N6]Vile", 								"FACE7E", 	"EOILMUS",	"MAPCD1", 	"MME1BOSS", 	"MMBVIC", 	"MME1FBOS"},
-	{"MME1DW1",	"\c[y1]A\c[c4]-Chan\cf & \c[n5]Mega\c[n6]Vile", 			"FACE8E", 	"E1DW1MUS",	"MAPCD1", 	"MME1WBOS", 	"MMBVIC", 	"MME1FBOS"},
+	{"MME1CUT",	"FACE0E",	"ECUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME1GUT",	"FACE1E",	"EGUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[p2]Sir An\c[g3]0\c[p2]n"},
+	{"MME1BOM",	"FACE2E",	"EBOMMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n5]Mega\c[n6]Vile"},
+	{"MME1ELE",	"FACE3E",	"EELEMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\cdSaviorSword"},
+	{"MME1ICE",	"FACE4E",	"EICEMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME1FIR",	"FACE5E",	"EFIRMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n5]Mega\c[n6]Vile"},
+	{"MME1TIM",	"FACE6E",	"ETIMMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME1OIL",	"FACE7E",	"EOILMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"Scott, \c[N5]Mega\c[N6]Vile"},
+	{"MME1DW1",	"FACE8E",	"E1DW1MUS",	"MAPCD1",	"MME1WBOS",	"MMBVIC",	"MME1FBOS",	"\c[y1]A\c[c4]-Chan\cf & \c[n5]Mega\c[n6]Vile"},
 	
-	{"MME2BUB",	"LlamaHombre", 												"FACE11E",	"EBUBMUS",	"MAPCD2", 	"MME2BOSS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2AIR",	"\cgswa\crrm9\cm999", 										"FACE12E",	"EAIRMUS",	"MAPCD2", 	"MME2BOSS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2HEA",	"\c[y1]A\c[c4]-Chan", 										"FACE13E",	"EHEAMUS",	"MAPCD2", 	"MME2BOSS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2FLA",	"\ciLamp \cf& \c[n5]Mega\c[n6]Vile", 						"FACE14E",	"EFLAMUS",	"MAPCD2", 	"MME2BOSS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2QUI",	"\c[y1]A\c[c4]-Chan", 										"FACE15E",	"EQUIMUS",	"MAPCD2", 	"MME2BOSS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2CRA",	"\c[n6]Woo\c[w6]lock \cf& \c[n5]Mega\c[n6]Vile", 			"FACE17E",	"ECRAMUS",	"MAPCD2", 	"MME2BOSS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2MET",	"\c[y1]A\c[c4]-Chan \cf& \cjHansungkee", 					"FACE18E",	"EMETMUS",	"MAPCD2", 	"MME2BOSS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2DW1",	"\c[y1]A\c[c4]-Chan", 										"FACE19E", 	"E2DW1MUS",	"MAPCD2", 	"MME2WBOS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2DW2",	"\c[N5]Mega\c[N6]Vile", 									"FACE116E", "E2DW2MUS",	"MAPCD2", 	"MME2WBOS", 	"MMBVIC", 	"MME2FBOS"},
-	{"MME2DW3",	"\c[y1]A\c[c4]-Chan", 										"FACE117E",	"E2DW3MUS",	"MAPCD2", 	"MME2WBOS", 	"MMBVIC", 	"MME2FBOS"},
+	{"MME2BUB",	"FACE11E",	"EBUBMUS",	"MAPCD2",	"MME2BOSS",	"MMBVIC",	"MME2FBOS",	"LlamaHombre"},
+	{"MME2AIR",	"FACE12E",	"EAIRMUS",	"MAPCD2",	"MME2BOSS",	"MMBVIC",	"MME2FBOS",	"\cgswa\crrm9\cm999"},
+	{"MME2HEA",	"FACE13E",	"EHEAMUS",	"MAPCD2",	"MME2BOSS",	"MMBVIC",	"MME2FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME2FLA",	"FACE14E",	"EFLAMUS",	"MAPCD2",	"MME2BOSS",	"MMBVIC",	"MME2FBOS",	"\ciLamp \cf& \c[n5]Mega\c[n6]Vile"},
+	{"MME2QUI",	"FACE15E",	"EQUIMUS",	"MAPCD2",	"MME2BOSS",	"MMBVIC",	"MME2FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME2CRA",	"FACE17E",	"ECRAMUS",	"MAPCD2",	"MME2BOSS",	"MMBVIC",	"MME2FBOS",	"\c[n6]Woo\c[w6]lock \cf& \c[n5]Mega\c[n6]Vile"},
+	{"MME2MET",	"FACE18E",	"EMETMUS",	"MAPCD2",	"MME2BOSS",	"MMBVIC",	"MME2FBOS",	"\c[y1]A\c[c4]-Chan \cf& \cjHansungkee"},
+	{"MME2DW1",	"FACE19E",	"E2DW1MUS",	"MAPCD2",	"MME2WBOS",	"MMBVIC",	"MME2FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME2DW2",	"FACE116E", "E2DW2MUS",	"MAPCD2",	"MME2WBOS",	"MMBVIC",	"MME2FBOS",	"\c[N5]Mega\c[N6]Vile"},
+	{"MME2DW3",	"FACE117E",	"E2DW3MUS",	"MAPCD2",	"MME2WBOS",	"MMBVIC",	"MME2FBOS",	"\c[y1]A\c[c4]-Chan"},
 	
-	{"MME3SNA",	"\c[n6]Woo\c[w6]lock", 										"FACE21E",	"ESNAMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3TOP",	"\c[y1]A\c[c4]-Chan", 										"FACE22E",	"ETOPMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3NEE",	"\c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan",				"FACE23E",	"ENEEMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3HAR",	"\c[n5]Mega\c[n6]Vile\cf, \ciLamp \cf& \c[y1]A\c[c4]-Chan",	"FACE24E",	"EHARMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3GEM",	"\cgswa\crrm9\cm999",										"FACE25E",	"EGEMMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3MAG",	"\c[B1]Inter",												"FACE26E",	"EMAGMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3SPA",	"\c[a8]g\c[r8]ee\c[x8]k\c[a8]ie",							"FACE27E",	"ESPAMUS",	"MAPCD3", 	"MME3BOSS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3DW1",	"\c[y1]A\c[c4]-Chan", 										"FACE178",	"E3DW1MUS",	"MAPCD3", 	"MME3WBOS", 	"MMBVIC", 	"MME3FBOS"},
-	{"MME3DW2",	"\c[n5]Mega\c[n6]Vile",										"FACE29E",	"E3DW2MUS",	"MAPCD3", 	"MME3WBOS", 	"MMBVIC", 	"MME3FBOS"},
+	{"MME3SNA",	"FACE21E",	"ESNAMUS",	"MAPCD3",	"MME3BOSS",	"MMBVIC",	"MME3FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME3TOP",	"FACE22E",	"ETOPMUS",	"MAPCD3",	"MME3BOSS",	"MMBVIC",	"MME3FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME3NEE",	"FACE23E",	"ENEEMUS",	"MAPCD3",	"MME3BOSS",	"MMBVIC",	"MME3FBOS",	"\c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan"},
+	{"MME3HAR",	"FACE24E",	"EHARMUS",	"MAPCD3",	"MME3BOSS",	"MMBVIC",	"MME3FBOS",	"\c[n5]Mega\c[n6]Vile\cf, \ciLamp \cf& \c[y1]A\c[c4]-Chan"},
+	{"MME3GEM",	"FACE25E",	"EGEMMUS",	"MAPCD3",	"MME3BOSS",	"MMBVIC",	"MME3FBOS",	"\cgswa\crrm9\cm999"},
+	{"MME3MAG",	"FACE26E",	"EMAGMUS",	"MAPCD3",	"MME3BOSS",	"MMBVIC",	"MME3FBOS",	"\c[B1]Inter"},
+	{"MME3SPA",	"FACE27E",	"ESPAMUS",	"MAPCD3",	"MME3BOSS",	"MMBVIC",	"MME3FBOS",	"\c[a8]g\c[r8]ee\c[x8]k\c[a8]ie"},
+	{"MME3DW1",	"FACE178",	"E3DW1MUS",	"MAPCD3",	"MME3WBOS",	"MMBVIC",	"MME3FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME3DW2",	"FACE29E",	"E3DW2MUS",	"MAPCD3",	"MME3WBOS",	"MMBVIC",	"MME3FBOS",	"\c[n5]Mega\c[n6]Vile"},
 	
-	{"MME4PHA",	"\c[n6]Woo\c[w6]lock",										"FACE31E",	"EPHAMUS",	"MAPCD4", 	"MME4BOSS", 	"MMBVIC", 	"MME4FBOS"},
-	{"MME4DIV",	"\c[n6]Woo\c[w6]lock",										"FACE32E",	"EDIVMUS",	"MAPCD4", 	"MME4BOSS", 	"MMBVIC", 	"MME4FBOS"},
-	{"MME4DRI",	"\c[n6]Woo\c[w6]lock",										"FACE33E",	"EDRIMUS",	"MAPCD4", 	"MME4BOSS", 	"MMBVIC", 	"MME4FBOS"},
-	{"MME4TOA",	"\c[n6]Woo\c[w6]lock",										"FACE34E",	"ETOAMUS",	"MAPCD4", 	"MME4BOSS", 	"MMBVIC", 	"MME4FBOS"},
-	{"MME4SKU",	"\c[y1]A\c[c4]-Chan",										"FACE37E",	"ESKUMUS",	"MAPCD4", 	"MME4BOSS", 	"MMBVIC", 	"MME4FBOS"},
-	{"MME4DC1",	"\c[n6]Woo\c[w6]lock \cf& \c[y1]A\c[c4]-Chan",				"FACE39E",	"E4DC1MUS",	"MAPCD4", 	"ECOSSBOS", 	"MMBVIC", 	"MME4FBOS"},
+	{"MME4PHA",	"FACE31E",	"EPHAMUS",	"MAPCD4",	"MME4BOSS",	"MMBVIC",	"MME4FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME4DIV",	"FACE32E",	"EDIVMUS",	"MAPCD4",	"MME4BOSS",	"MMBVIC",	"MME4FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME4DRI",	"FACE33E",	"EDRIMUS",	"MAPCD4",	"MME4BOSS",	"MMBVIC",	"MME4FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME4TOA",	"FACE34E",	"ETOAMUS",	"MAPCD4",	"MME4BOSS",	"MMBVIC",	"MME4FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME4SKU",	"FACE37E",	"ESKUMUS",	"MAPCD4",	"MME4BOSS",	"MMBVIC",	"MME4FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME4DC1",	"FACE39E",	"E4DC1MUS",	"MAPCD4",	"ECOSSBOS",	"MMBVIC",	"MME4FBOS",	"\c[n6]Woo\c[w6]lock \cf& \c[y1]A\c[c4]-Chan"},
 	
-	{"MME5CHA",	"\c[y1]A\c[c4]-Chan",										"FACE41E",	"ECHAMUS",	"MAPCD5", 	"MME5BOSS", 	"MMBVIC", 	"MME5FBOS"},
-	{"MME5STO",	"\c[B1]Inter \cf& \c[n5]Mega\c[n6]Vile\cf",					"FACE42E",	"ESTOMUS",	"MAPCD5", 	"MME5BOSS", 	"MMBVIC", 	"MME5FBOS"},
-	{"MME5NAP",	"\cfLord\chDama\cvger",										"FACE43E",	"ENAPMUS",	"MAPCD5", 	"MME5BOSS", 	"MMBVIC", 	"MME5FBOS"},
-	{"MME5WAV",	"\c[n5]Mega\c[n6]Vile",										"FACE44E",	"EWAVMUS",	"MAPCD5", 	"MME5BOSS", 	"MMBVIC", 	"MME5FBOS"},
-	{"MME5GRA",	"\c[y1]A\c[c4]-Chan",										"FACE46E",	"EGRAMUS",	"MAPCD5", 	"MME5BOSS", 	"MMBVIC", 	"MME5FBOS"},
-	{"MME5STA",	"Scott",													"FACE47E",	"ESTAMUS",	"MAPCD5", 	"MME5BOSS", 	"MMBVIC", 	"MME5FBOS"},
-	{"MME5CRY",	"\cgswa\crrm9\cm999",										"FACE48E",	"ECRYMUS",	"MAPCD5", 	"MME5BOSS", 	"MMBVIC", 	"MME5FBOS"},
-	{"MME5DAR",	"\cgSir Dee\cf, \c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan","FACE49E",	"EDARMUS",	"MAPCD5", 	"MME5BOSS", 	"MMBVIC", 	"MME5FBOS"},
+	{"MME5CHA",	"FACE41E",	"ECHAMUS",	"MAPCD5",	"MME5BOSS",	"MMBVIC",	"MME5FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME5STO",	"FACE42E",	"ESTOMUS",	"MAPCD5",	"MME5BOSS",	"MMBVIC",	"MME5FBOS",	"\c[B1]Inter \cf& \c[n5]Mega\c[n6]Vile\cf"},
+	{"MME5NAP",	"FACE43E",	"ENAPMUS",	"MAPCD5",	"MME5BOSS",	"MMBVIC",	"MME5FBOS",	"\cfLord\chDama\cvger"},
+	{"MME5WAV",	"FACE44E",	"EWAVMUS",	"MAPCD5",	"MME5BOSS",	"MMBVIC",	"MME5FBOS",	"\c[n5]Mega\c[n6]Vile"},
+	{"MME5GRA",	"FACE46E",	"EGRAMUS",	"MAPCD5",	"MME5BOSS",	"MMBVIC",	"MME5FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME5STA",	"FACE47E",	"ESTAMUS",	"MAPCD5",	"MME5BOSS",	"MMBVIC",	"MME5FBOS",	"Scott"},
+	{"MME5CRY",	"FACE48E",	"ECRYMUS",	"MAPCD5",	"MME5BOSS",	"MMBVIC",	"MME5FBOS",	"\cgswa\crrm9\cm999"},
+	{"MME5DAR",	"FACE49E",	"EDARMUS",	"MAPCD5",	"MME5BOSS",	"MMBVIC",	"MME5FBOS",	"\cgSir Dee\cf, \c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan"},
 	
-	{"MME6TOM",	"\c[n5]Mega\c[n6]Vile",										"FACE51E",	"ETOMMUS",	"MAPCD6", 	"MME6BOSS", 	"MMBVIC", 	"MME6FBOS"},
-	{"MME6KNI",	"\c[n5]Mega\c[n6]Vile",										"FACE53E",	"EKNIMUS",	"MAPCD6", 	"MME6BOSS", 	"MMBVIC", 	"MME6FBOS"},
-	{"MME6BLI",	"\c[n6]Woo\c[w6]lock",										"FACE54E",	"EBLIMUS",	"MAPCD6", 	"MME6BOSS", 	"MMBVIC", 	"MME6FBOS"},
-	{"MME6PLA",	"\c[y1]A\c[c4]-Chan",										"FACE55E",	"EPLAMUS",	"MAPCD6", 	"MME6BOSS", 	"MMBVIC", 	"MME6FBOS"},
-	{"MME6YAM",	"\cgSir Dee",												"FACE58E",	"EYAMMUS",	"MAPCD6", 	"MME6BOSS", 	"MMBVIC", 	"MME6FBOS"},
-	{"MME6MRX",	"\c[y1]A\c[c4]-Chan \cf& \c[a8]g\c[r8]ee\c[x8]k\c[a8]ie",	"FACE59E",	"EMRXMUS",	"MAPCD6", 	"MME6BOSS", 	"MMBVIC", 	"MME6FBOS"},
+	{"MME6TOM",	"FACE51E",	"ETOMMUS",	"MAPCD6",	"MME6BOSS",	"MMBVIC",	"MME6FBOS",	"\c[n5]Mega\c[n6]Vile"},
+	{"MME6KNI",	"FACE53E",	"EKNIMUS",	"MAPCD6",	"MME6BOSS",	"MMBVIC",	"MME6FBOS",	"\c[n5]Mega\c[n6]Vile"},
+	{"MME6BLI",	"FACE54E",	"EBLIMUS",	"MAPCD6",	"MME6BOSS",	"MMBVIC",	"MME6FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME6PLA",	"FACE55E",	"EPLAMUS",	"MAPCD6",	"MME6BOSS",	"MMBVIC",	"MME6FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME6YAM",	"FACE58E",	"EYAMMUS",	"MAPCD6",	"MME6BOSS",	"MMBVIC",	"MME6FBOS",	"\cgSir Dee"},
+	{"MME6MRX",	"FACE59E",	"EMRXMUS",	"MAPCD6",	"MME6BOSS",	"MMBVIC",	"MME6FBOS",	"\c[y1]A\c[c4]-Chan \cf& \c[a8]g\c[r8]ee\c[x8]k\c[a8]ie"},
 	
-	{"MME7FRE",	"\c[y1]A\c[c4]-Chan",										"FACE61E",	"EFREMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7JUN",	"Scott \cf& \c[y1]A\c[c4]-Chan",							"FACE62E",	"EJUNMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7CLO",	"\c[y1]A\c[c4]-Chan",										"FACE64E",	"ECLOMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7SPR",	"\c[y1]A\c[c4]-Chan",										"FACE65E",	"ESPRMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7SLA",	"\c[y1]A\c[c4]-Chan",										"FACE66E",	"ESLAMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7SHA",	"Scott",													"FACE67E",	"ESDEMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
-	{"MME7TUR",	"\c[y1]A\c[c4]-Chan",										"FACE68E",	"ETURMUS",	"MAPCD7", 	"MME7BOSS", 	"MMBVIC", 	"MME7FBOS"},
+	{"MME7FRE",	"FACE61E",	"EFREMUS",	"MAPCD7",	"MME7BOSS",	"MMBVIC",	"MME7FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME7JUN",	"FACE62E",	"EJUNMUS",	"MAPCD7",	"MME7BOSS",	"MMBVIC",	"MME7FBOS",	"Scott \cf& \c[y1]A\c[c4]-Chan"},
+	{"MME7CLO",	"FACE64E",	"ECLOMUS",	"MAPCD7",	"MME7BOSS",	"MMBVIC",	"MME7FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME7SPR",	"FACE65E",	"ESPRMUS",	"MAPCD7",	"MME7BOSS",	"MMBVIC",	"MME7FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME7SLA",	"FACE66E",	"ESLAMUS",	"MAPCD7",	"MME7BOSS",	"MMBVIC",	"MME7FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME7SHA",	"FACE67E",	"ESDEMUS",	"MAPCD7",	"MME7BOSS",	"MMBVIC",	"MME7FBOS",	"Scott"},
+	{"MME7TUR",	"FACE68E",	"ETURMUS",	"MAPCD7",	"MME7BOSS",	"MMBVIC",	"MME7FBOS",	"\c[y1]A\c[c4]-Chan"},
 	
-	{"MME8AST",	"\c[n6]Woo\c[w6]lock \cf& \c[y1]A\c[c4]-Chan",				"FACE75E",	"EASTMUS",	"MAPCD8", 	"MME8BOSS", 	"MMBVIC", 	"MME8FBOS"},
-	{"MME8SWO",	"\c[c6]Ra\c[t7]in\c[c6]sa\c[t7]nt \cf& \c[y1]A\c[c4]-Chan",	"FACE76E",	"ESWOMUS",	"MAPCD8", 	"MME8BOSS", 	"MMBVIC", 	"MME8FBOS"},
+	{"MME8AST",	"FACE75E",	"EASTMUS",	"MAPCD8",	"MME8BOSS",	"MMBVIC",	"MME8FBOS",	"\c[n6]Woo\c[w6]lock \cf& \c[y1]A\c[c4]-Chan"},
+	{"MME8SWO",	"FACE76E",	"ESWOMUS",	"MAPCD8",	"MME8BOSS",	"MMBVIC",	"MME8FBOS",	"\c[c6]Ra\c[t7]in\c[c6]sa\c[t7]nt \cf& \c[y1]A\c[c4]-Chan"},
 	
-	{"MMEBGRO",	"\c[n6]Woo\c[w6]lock \cf& \cgSir Dee",						"FACE91E",	"EGROMUS",	"MAPCDAB", 	"MMEBBOSS", 	"MMBVIC", 	"MMEBFBOS"},
-	{"MMEBMAG",	"\c[n6]Woo\c[w6]lock",										"FACE94E",	"EMGCMUS",	"MAPCDAB", 	"MMEBBOSS", 	"MMBVIC", 	"MMEBFBOS"},
+	{"MMEBGRO",	"FACE91E",	"EGROMUS",	"MAPCDAB",	"MMEBBOSS",	"MMBVIC",	"MMEBFBOS",	"\c[n6]Woo\c[w6]lock \cf& \cgSir Dee"},
+	{"MMEBMAG",	"FACE94E",	"EMGCMUS",	"MAPCDAB",	"MMEBBOSS",	"MMBVIC",	"MMEBFBOS",	"\c[n6]Woo\c[w6]lock"},
 	
-	{"MMEWTDW1","\c[n6]Woo\c[w6]lock",										"FACE100E",	"EDW1MUS",	"MAPCDWT", 	"MMEWTBOS", 	"MMBVIC", 	"MMEWTFBS"},
-	{"MMEWTDW2","\c[n5]Mega\c[n6]Vile",										"FACE101E",	"EDW2MUS",	"MAPCDWT", 	"MMEWTBOS", 	"MMBVIC", 	"MMEWTFBS"},
+	{"MMEWTDW1","FACE100E",	"EDW1MUS",	"MAPCDWT",	"MMEWTBOS",	"MMBVIC",	"MMEWTFBS",	"\c[n6]Woo\c[w6]lock"},
+	{"MMEWTDW2","FACE101E",	"EDW2MUS",	"MAPCDWT",	"MMEWTBOS",	"MMBVIC",	"MMEWTFBS",	"\c[n5]Mega\c[n6]Vile"},
 	
-	{"MME9CON",	"\c[n6]Woo\c[w6]lock",										"FACE104E",	"ECONMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
-	{"MME9TOR",	"\c[y1]A\c[c4]-Chan",										"FACE105E",	"ETORMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
-	{"MME9SPL",	"\c[n5]Mega\c[n6]Vile",										"FACE106E",	"ESPLMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
-	{"MME9JEW",	"\c[n6]Woo\c[w6]lock \cf& \cgSir Dee",						"FACE108E",	"EJEWMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
-	{"MME9MAG",	"\cfLord\chDama\cvger \cf& \c[n5]Mega\c[n6]Vile",			"FACE110E",	"EMGMMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
-	{"MME9GAL",	"\c[y1]A\c[c4]-Chan",										"FACE111E",	"EGALMUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
-	{"MME9DW3",	"\c[n6]Woo\c[w6]lock",										"FACE125E",	"E9DW3MUS",	"MAPCD9", 	"MME9BOSS", 	"MMBVIC", 	"MME9FBOS"},
+	{"MME9CON",	"FACE104E",	"ECONMUS",	"MAPCD9",	"MME9BOSS",	"MMBVIC",	"MME9FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME9TOR",	"FACE105E",	"ETORMUS",	"MAPCD9",	"MME9BOSS",	"MMBVIC",	"MME9FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME9SPL",	"FACE106E",	"ESPLMUS",	"MAPCD9",	"MME9BOSS",	"MMBVIC",	"MME9FBOS",	"\c[n5]Mega\c[n6]Vile"},
+	{"MME9JEW",	"FACE108E",	"EJEWMUS",	"MAPCD9",	"MME9BOSS",	"MMBVIC",	"MME9FBOS",	"\c[n6]Woo\c[w6]lock \cf& \cgSir Dee"},
+	{"MME9MAG",	"FACE110E",	"EMGMMUS",	"MAPCD9",	"MME9BOSS",	"MMBVIC",	"MME9FBOS",	"\cfLord\chDama\cvger \cf& \c[n5]Mega\c[n6]Vile"},
+	{"MME9GAL",	"FACE111E",	"EGALMUS",	"MAPCD9",	"MME9BOSS",	"MMBVIC",	"MME9FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME9DW3",	"FACE125E",	"E9DW3MUS",	"MAPCD9",	"MME9BOSS",	"MMBVIC",	"MME9FBOS",	"\c[n6]Woo\c[w6]lock"},
 	
-	{"MME10CHI","\c[n6]Woo\c[w6]lock \cf& \c[y1]A\c[c4]-Chan",				"FACE140E",	"ECHIMUS",	"MAPCD10",	"MME10BOS",		"MMBVIC",	"MME10WBS"},
-	{"MME10SHE","\c[n6]Woo\c[w6]lock",										"FACE141E",	"ESHEMUS",	"MAPCD10", 	"MME10BOS", 	"MMBVIC", 	"MME10WBS"},
-	{"MME10STR","\c[b8]M.\c[o9]Fart\c[k1]045\cf & \cgSir Dee",				"FACE142E",	"ESTRMUS",	"MAPCD10", 	"MME10BOS", 	"MMBVIC", 	"MME10WBS"},
-	{"MME10SOL","\cfLord\chDama\cvger \cf& \c[n5]Mega\c[n6]Vile",			"FACE144E",	"ESOLMUS",	"MAPCD10", 	"MME10BOS", 	"MMBVIC", 	"MME10WBS"},
+	{"MME10CHI","FACE140E",	"ECHIMUS",	"MAPCD10",	"MME10BOS",	"MMBVIC",	"MME10WBS",	"\c[n6]Woo\c[w6]lock \cf& \c[y1]A\c[c4]-Chan"},
+	{"MME10SHE","FACE141E",	"ESHEMUS",	"MAPCD10",	"MME10BOS",	"MMBVIC",	"MME10WBS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME10STR","FACE142E",	"ESTRMUS",	"MAPCD10",	"MME10BOS",	"MMBVIC",	"MME10WBS",	"\c[b8]M.\c[o9]Fart\c[k1]045\cf & \cgSir Dee"},
+	{"MME10SOL","FACE144E",	"ESOLMUS",	"MAPCD10",	"MME10BOS",	"MMBVIC",	"MME10WBS",	"\cfLord\chDama\cvger \cf& \c[n5]Mega\c[n6]Vile"},
 	
-	{"MMEVVEN",	"\c[y1]A\c[c4]-Chan \cf& \c[n5]Mega\c[n6]Vile",				"FACE148E",	"EVENMUS",	"MAPCDV", 	"MMEVBOSS",		"MMBVIC", 	"MMEVINTS"},
-	{"MMEVSAT",	"\c[y1]A\c[c4]-Chan",			 							"FACE151E",	"ESATMUS",	"MAPCDV", 	"MMEVBOSS",		"MMBVIC", 	"MMEVINTS"},
-	{"MMEVURA",	"\c[b8]M.\c[o9]Fart\c[k1]045\cf, \c[n6]Woo\c[w6]lock\cf, \c[y1]A\c[c4]-Chan",	"FACE152E",	"EURAMUS",	"MAPCDV",	"MMEVBOSS",	"MMBVIC",	"MMEVINTS"},
+	{"MMEVVEN",	"FACE148E",	"EVENMUS",	"MAPCDV",	"MMEVBOSS",	"MMBVIC",	"MMEVINTS",	"\c[y1]A\c[c4]-Chan \cf& \c[n5]Mega\c[n6]Vile"},
+	{"MMEVSAT",	"FACE151E",	"ESATMUS",	"MAPCDV",	"MMEVBOSS",	"MMBVIC",	"MMEVINTS",	"\c[y1]A\c[c4]-Chan"},
+	{"MMEVURA",	"FACE152E",	"EURAMUS",	"MAPCDV",	"MMEVBOSS",	"MMBVIC",	"MMEVINTS",	"\c[b8]M.\c[o9]Fart\c[k1]045\cf, \c[n6]Woo\c[w6]lock\cf, \c[y1]A\c[c4]-Chan"},
 	
-	{"MMECTF08","\c[n5]Mega\c[n6]Vile",										"FACE127E",	"ECTFMS8",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
-	{"MMECTF15","\c[y1]A\c[c4]-Chan",										"FACE127E",	"ECTFMS15",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
-	{"MMECTF23","\c[y1]A\c[c4]-Chan",										"FACE127E",	"CTFMUS23",	"MAPCDV", 	"ESUNBOS", 		"MMBVIC", 	"MMB2FBOS"},
+	{"MMECTF08","FACE127E",	"ECTFMS8",	"MAPCDV",	"ESUNBOS",	"MMBVIC",	"MMB2FBOS",	"\c[n5]Mega\c[n6]Vile"},
+	{"MMECTF15","FACE127E",	"ECTFMS15",	"MAPCDV",	"ESUNBOS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MMECTF23","FACE127E",	"CTFMUS23",	"MAPCDV",	"ESUNBOS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan",},
 	
-	{"MMEKENK",	"\c[y1]A\c[c4]-Chan",										"FACE129E",	"EENKMUS",	"MAPCDK", 	"EENKMUS2", 	"MMBVIC", 	"MMEKFBOS"},
+	{"MMEKENK",	"FACE129E",	"EENKMUS",	"MAPCDK",	"EENKMUS2",	"MMBVIC",	"MMEKFBOS",	"\c[y1]A\c[c4]-Chan"},
 	
-	{"MMB2KOM",	"\c[y1]A\c[c4]-Chan",										"FACEKOMU",	"KOMMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
-	{"MMB2BUL",	"\c[n6]Woo\c[w6]lock\cf, \c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan","FACEDANG", 	"BULMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
-	{"MMB2STO",	"\c[y1]A\c[c4]-Chan",										"FACESTOV",	"STVMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
-	{"MMB2AIR",	"\c[y1]A\c[c4]-Chan \cf& \c[n6]Woo\c[w6]lock",				"FACEAIRC",	"AICMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
-	{"MMB2CLO",	"\c[y1]A\c[c4]-Chan",										"FACECLOC",	"CLKMUS",	"MAPCDB2", 	"MMB2BOSS", 	"MMBVIC", 	"MMB2FBOS"},
+	{"MMB2KOM",	"FACEKOMU",	"KOMMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MMB2BUL",	"FACEDANG",	"BULMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS", "\c[n6]Woo\c[w6]lock\cf, \c[n5]Mega\c[n6]Vile \cf& \c[y1]A\c[c4]-Chan"},
+	{"MMB2STO",	"FACESTOV",	"STVMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MMB2AIR",	"FACEAIRC",	"AICMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan \cf& \c[n6]Woo\c[w6]lock"},
+	{"MMB2CLO",	"FACECLOC",	"CLKMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
 	
-	{"MMEPRO",	"\c[y1]A\c[c4]-Chan",										"FACE49",	"PROMUS",	"MAPCD3", 	"MME3BOSS", 	"MM5CLEAR", "MME3FBOS"},
-	{"MMEBON",	"DuoraSuperGyro",											"FACEBOND",	"BONMUS",	"MAPCD1", 	"MME1BOSS", 	"MM1VIC", 	"MME1WBOS"},
+	{"MMEPRO",	"FACE49",	"PROMUS",	"MAPCD3",	"MME3BOSS",	"MM5CLEAR", "MME3FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MMEBON",	"FACEBOND",	"BONMUS",	"MAPCD1",	"MME1BOSS",	"MM1VIC",	"MME1WBOS",	"DuoraSuperGyro"},
 };
 
 function int findMapIdE(str key) {
 	for(int i = 0; i < ENC_MAPS; i++) {
-		if(StrICmp(key, enc_mapcards[i][0]) == 0) {
+		if(StrICmp(key, enc_mapcards[i][ENC_MAP]) == 0) {
 			return i;
 		}
 	}
@@ -121,17 +130,17 @@ script "Encore_MapCardSetter" OPEN {
 	int index = findMapIdE(StrParam(n:PRINTNAME_LEVEL));
 	
 	if(index != -1) {
-		SetCvarString("mm8bdm_map_creator", enc_mapcards[index][1]);
-		SetCvarString("mm8bdm_map_icon", enc_mapcards[index][2]);
-		SetCvarString("mm8bdm_map_background", enc_mapcards[index][4]);
+		SetCvarString("mm8bdm_map_creator", enc_mapcards[index][ENC_AUTHOR]);
+		SetCvarString("mm8bdm_map_icon", enc_mapcards[index][ENC_MUGSHOT]);
+		SetCvarString("mm8bdm_map_background", enc_mapcards[index][ENC_CARD]);
 		
-		SetCvarString("mm8bdm_map_musicname", StrParam(l:StrParam(s:"MAPCARD_",s:enc_mapcards[index][3],s:"_MUSICNAME")));
-		SetCvarString("mm8bdm_map_musicgame", StrParam(l:StrParam(s:"MAPCARD_",s:enc_mapcards[index][3],s:"_MUSICGAME")));
-		SetCvarString("mm8bdm_map_musiccomposer", StrParam(l:StrParam(s:"MAPCARD_",s:enc_mapcards[index][3],s:"_MUSICCOMPOSER")));
+		SetCvarString("mm8bdm_map_musicname", StrParam(l:StrParam(s:"MAPCARD_",s:enc_mapcards[index][ENC_MUSIC],s:"_MUSICNAME")));
+		SetCvarString("mm8bdm_map_musicgame", StrParam(l:StrParam(s:"MAPCARD_",s:enc_mapcards[index][ENC_MUSIC],s:"_MUSICGAME")));
+		SetCvarString("mm8bdm_map_musiccomposer", StrParam(l:StrParam(s:"MAPCARD_",s:enc_mapcards[index][ENC_MUSIC],s:"_MUSICCOMPOSER")));
 
-		SetCvarString("mm8bdm_map_bossmusic", enc_mapcards[index][5]);
-		SetCvarString("mm8bdm_map_victorymusic", enc_mapcards[index][6]);
-		SetCvarString("mm8bdm_map_intensemusic", enc_mapcards[index][7]);
+		SetCvarString("mm8bdm_map_bossmusic", enc_mapcards[index][ENC_BOSSMUS]);
+		SetCvarString("mm8bdm_map_victorymusic", enc_mapcards[index][ENC_VICMUS]);
+		SetCvarString("mm8bdm_map_intensemusic", enc_mapcards[index][ENC_INTENSEMUS]);
 			
 		//printbold(i:GetLevelInfo(LEVELINFO_CLUSTERNUM));
 		if(GetLevelInfo(LEVELINFO_CLUSTERNUM) != 514315185){
