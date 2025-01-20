@@ -86,8 +86,8 @@ Texture "AICMET7", 64, 80
 	XScale 0.500
 	YScale 0.500
 	WorldPanning
-	Patch "AICMET9", 0, 0
-	Patch "AICMET9", 48, 0
+	Patch "AICMET12", 0, 0
+	Patch "AICMET12", 48, 0
 	Patch "AICMET9", 0, 32
 	Patch "AICMET9", 0, 64
 	Patch "AICMET9", 16, 16
@@ -95,8 +95,8 @@ Texture "AICMET7", 64, 80
 	Patch "AICMET9", 16, 48
 	Patch "AICMET10", 16, 0
 	Patch "AICMET9", 32, 32
-	Patch "AICMET10", 31, 32
-	Patch "AICMET9", 32, -16
+	Patch "AICMET10", 32, 32
+	Patch "AICMET12", 32, 0
 	Patch "AICMET9", 48, 32
 	Patch "AICMET9", 32, 64
 	Patch "AICMET10", 48, 64
@@ -107,8 +107,8 @@ Texture "AICMET8", 64, 80
 	XScale 0.500
 	YScale 0.500
 	WorldPanning
-	Patch "AICMET9", 0, 0
-	Patch "AICMET9", 48, 0
+	Patch "AICMET12", 0, 0
+	Patch "AICMET12", 48, 0
 	Patch "AICMET9", 0, 32
 	Patch "AICMET9", 0, 64
 	Patch "AICMET9", 16, 16
@@ -116,8 +116,8 @@ Texture "AICMET8", 64, 80
 	Patch "AICMET9", 16, 48
 	Patch "AICMET11", 16, 0
 	Patch "AICMET9", 32, 32
-	Patch "AICMET11", 31, 32
-	Patch "AICMET9", 32, -16
+	Patch "AICMET11", 32, 32
+	Patch "AICMET12", 32, 0
 	Patch "AICMET9", 48, 32
 	Patch "AICMET9", 32, 64
 	Patch "AICMET11", 48, 64
