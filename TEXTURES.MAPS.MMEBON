@@ -322,3 +322,117 @@ Texture "BONDGLU2", 16, 16
 
 
 ////////////////////
+
+
+Texture "BONDFLR1", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR01", 0, 0
+}
+
+Texture "BONDFLR2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR02", 0, 0
+}
+
+Texture "BONDFLR3", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR03", 0, 0
+}
+
+Texture "BONDFLR4", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR04", 0, 0
+}
+
+Texture "BONDFLR5", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR05", 0, 0
+}
+
+Texture "BONDFNC0", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR17", 0, 0
+}
+
+Texture "BONDFNC1", 80, 48
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR12", 0, 0
+}
+
+Texture "BONDFNC2", 80, 96
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR13", 0, 48
+	Patch "BONDFNC1", 0, 0
+}
+
+Texture "BONDFNC3", 128, 192
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR14", 0, 0
+}
+
+Texture "BONDFNC4", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR15", 0, 0
+}
+
+Texture "BONDFNC5", 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR16", 0, 0
+}
+
+Texture "BONDMET1", 64, 160
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR18", 0, 0
+}
+
+Texture "BONDMET2", 32, 32
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR19", 0, 0
+}
+
+Texture "BONDMET3", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "BONDDR20", 0, 0
+}
