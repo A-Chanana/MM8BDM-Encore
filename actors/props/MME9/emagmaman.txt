@@ -117,7 +117,7 @@ actor Enc_MagmaSmokeDelay : Powerup {Powerup.Duration 4}
 
 actor Enc_MagmaSmokeFX
 {
-+FORCEYBILLBOARD
++FORCEXYBILLBOARD
 +NOGRAVITY
 +NOINTERACTION
 +CLIENTSIDEONLY
