@@ -113,7 +113,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MMB2CLO",	"FACECLOC",	"CLKMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
 	
 	{"MMEPRO",	"FACE49",	"PROMUS",	"MAPCD3",	"MME3BOSS",	"MM5CLEAR", "MME3FBOS",	"\c[y1]A\c[c4]-Chan"},
-	{"MMEBON",	"FACEBOND",	"BONMUS",	"MAPCD1",	"MME1BOSS",	"MM1VIC",	"MME1WBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MMEBON",	"FACEBOND",	"BONMUS",	"MAPCD1",	"MME1BOSS",	"MM1VIC",	"MME1WBOS",	"\c[y3]Criss\c[s3]Le\c[b9]Grz \cf& \c[y1]A\c[c4]-Chan"},
 };
 
 function int findMapIdE(str key) {
