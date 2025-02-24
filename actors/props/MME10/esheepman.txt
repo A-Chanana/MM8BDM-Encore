@@ -1,16 +1,23 @@
 actor ESheepMapBlock : SheepMapBlock 21746
 {
-	//$Category MM8BDME-Interactive Props
-	States
-	{
-	Death:
-		SBLO Z 16
-	Replace:
-		SBLO Z 1
-		SBLO Z 0 A_SpawnItemEx("SheepMapBlock", 0, 0, 0, 0, 0, 0, 0, 0, 0, tid)
-		SBLO Z 0 A_SpawnItemEx("SheepBlockDamager", 0, 0, 0, 0, 0, 0, 0, 0, 0, tid)
-		stop
-	}
+    //$Category MM8BDME-Interactive Props
+    States
+    {
+        Destroy:
+            // [Furb] this follows the same fix as the one in MM10SHE
+            // SBLO A 0 A_TakeInventory("SheepBlockFlag", 1) // [Furb]
+            SBLO A 0 A_ChangeFlag(SOLID, FALSE)
+            SBLO ZZZZZ 1 A_TakeInventory("SheepBlockFlag", 1) // [Furb]
+            SBLO Z 1
+            wait
+        Death:
+            SBLO Z 16
+        Replace:
+            SBLO Z 1
+            // SBLO Z 0 A_SpawnItemEx("SheepMapBlock", 0, 0, 0, 0, 0, 0, 0, 0, 0, tid) // [Furb]
+            SBLO Z 0 A_SpawnItemEx("SheepBlockDamager", 0, 0, 0, 0, 0, 0, 0, 0, 0, tid)
+            goto spawn // stop // [Furb]
+    }
 }
 
 actor EncoreSheepPlatform 20013
