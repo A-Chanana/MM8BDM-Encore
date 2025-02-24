@@ -12,7 +12,7 @@
 
 #DEFINE ENC_MAPS 86
 str enc_mapcards[ENC_MAPS][8] = {
-	{"MME1CUT",	"FACE0E",	"ECUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n6]Woo\c[w6]lock"},
+	{"MME1CUT",	"FACE0E",	"ECUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n6]Woo\c[w6]lock\c-, \cjHansungkee"},
 	{"MME1GUT",	"FACE1E",	"EGUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[p2]Sir An\c[g3]0\c[p2]n"},
 	{"MME1BOM",	"FACE2E",	"EBOMMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n5]Mega\c[n6]Vile"},
 	{"MME1ELE",	"FACE3E",	"EELEMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\cdSaviorSword"},
