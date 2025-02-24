@@ -14,7 +14,7 @@ Function Int defineTextureReplace(str texture, str textureReplace)
 		Int idx = MAX_TEXREPLACE_GLOBAL;
 		Encore_TexReplace[idx][0] = texture;
 		Encore_TexReplace[idx][1] = textureReplace;
-		MAX_TEXREPLACE_GLOBAL++;
+		MAX_TEXREPLACE_GLOBAL = idx+1;
 		Return idx;
 	}
 	PrintBold(s:"Texture Replace Limit too low");
@@ -48,10 +48,10 @@ script "encore_swaptextures" OPEN CLIENTSIDE
 	//delay(3);
 	
 	int cpn = ConsolePlayerNumber();
-	bool val = GetUserCvar(cpn,"enc_ogtextures");
+	bool val = !GetUserCvar(cpn,"enc_ogtextures");
 	bool newVal;
 	
-	updateTextures(val);
+	//updateTextures(val);
 	while(true)
 	{
 		newVal = GetUserCvar(cpn,"enc_ogtextures");
@@ -79,7 +79,7 @@ function void updateTextures(bool which) {
 	int replacee = !which;
 	int replacer = which;
 	for(int i = 0; i < MAX_TEXREPLACE_GLOBAL; i++) {
-		if(Encore_TexReplace[i][2]) {
+		if(Encore_TexReplace[i][1]) {
 			ReplaceTextures(Encore_TexReplace[i][replacee],Encore_TexReplace[i][replacer]);
 		}
 	}
@@ -127,7 +127,6 @@ defineTextureReplace("ECUTTCH4","CUTTECH4");
 defineTextureReplace("ECUTTCH5","CUTTECH5");
 defineTextureReplace("ECUTSKY","CUTSKY");
 defineTextureReplace("ECUTSKY2","CUTSKY2");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME1BOM" (Void)
@@ -160,7 +159,6 @@ defineTextureReplace("EBMFLO15","BOMFLO15");
 defineTextureReplace("EBMDOOR","BOMDOOR");
 defineTextureReplace("EBMBINNR","BOMBINNR");
 defineTextureReplace("EBMBTOWR","BOMBTOWR");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME1ELE" (Void)
@@ -182,7 +180,6 @@ defineTextureReplace("EELETR2","ELECTR2");
 defineTextureReplace("EELEZ1","ELECZ1");
 defineTextureReplace("ETELEFL","TELEFL");
 defineTextureReplace("ETELEP1","TELEP2");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME1FIR" (Void)
@@ -209,7 +206,6 @@ defineTextureReplace("EFIRTB1","FIRETB1");
 defineTextureReplace("EFIRTB3","FIRETB3");
 defineTextureReplace("EFIRTU1","FIRETU1");
 defineTextureReplace("EFIRTU2","FIRETU2");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME1GUT" (Void)
@@ -235,7 +231,6 @@ defineTextureReplace("EGURCKR","GUTRCKR");
 defineTextureReplace("EGUSKY","GUTSKY");
 defineTextureReplace("EGULIF1","GUTLIF1");
 defineTextureReplace("EGULIF2","GUTLIF2");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME1TIM" (Void)
@@ -280,7 +275,6 @@ defineTextureReplace("ETICNV4","TIMCNV4");
 defineTextureReplace("ETICONV","TIMCNV7");
 defineTextureReplace("ETIARW1","TIMARW1");
 defineTextureReplace("ETISKY","TIMSKY");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME1OIL" (Void)
@@ -335,7 +329,6 @@ defineTextureReplace("ENOLWAL6","OILWAL6");
 defineTextureReplace("ENOLWL1","OILWL1");
 defineTextureReplace("OILSKYN","OILSKYX");
 defineTextureReplace("E9MLAVX","FIRELAV");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME1DW1" (Void)
@@ -369,7 +362,6 @@ defineTextureReplace("EWEDGE1","WEDGE1");
 defineTextureReplace("EWEDGE2","WEDGE2");
 defineTextureReplace("EWMROO1","WMROO1");
 defineTextureReplace("EWMROO2","WMROO2");
-defineTextureReplace("WHITE","WHITE");
 }
 
 
@@ -393,7 +385,6 @@ defineTextureReplace("BLACK","AIRSKY");
 defineTextureReplace("EAISK1","EAEMPT1");
 defineTextureReplace("EAISK2","WHITE");
 defineTextureReplace("EAISK3","EAEMPT2");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME2HEA" (Void)
@@ -413,7 +404,6 @@ defineTextureReplace("EHEATUB2","HEATTUB2");
 defineTextureReplace("EHEAWILY","HEATWILY");
 defineTextureReplace("EHFALL","HFALL");
 defineTextureReplace("EHTUBE2","HTUBE2");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME2FLA" (Void)
@@ -447,7 +437,6 @@ defineTextureReplace("EFLSHW2","FLASHW2");
 defineTextureReplace("EFLSHW3","FLASHW3");
 defineTextureReplace("EFLSHW4","FLASHW4");
 defineTextureReplace("EFLSHW5","FLASHW5");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME2QUI" (Void)
@@ -462,7 +451,6 @@ defineTextureReplace("EQUICK8","QUICK8");
 defineTextureReplace("EQUICK9","QUICK9");
 defineTextureReplace("EQUICK10","QUICK10");
 defineTextureReplace("EQUICK17","QUICK17");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME2CRA" (Void)
@@ -496,7 +484,6 @@ defineTextureReplace("ECRASWL1","CRASWL1");
 defineTextureReplace("ECRASWL2","CRASWL2");
 defineTextureReplace("ECRASWL3","CRASWL3");
 defineTextureReplace("ECRASWL4","CRASWL4");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME2MET" (Void)
@@ -529,7 +516,6 @@ defineTextureReplace("EMETLWL3","METALWL3");
 defineTextureReplace("EMETLWL4","METALWL4");
 defineTextureReplace("EMETLWL5","METALWL5");
 defineTextureReplace("EMETLWL6","METALWL6");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME2DW1" (Void)
@@ -560,7 +546,6 @@ defineTextureReplace("BLACK","WIL2SKY");
 defineTextureReplace("EWI2BSD","WIL2BSD");
 defineTextureReplace("EWI2BTP","WIL2BTP");
 defineTextureReplace("EWI2SKC", "WIL2SKC");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME2DW2" (Void)
@@ -606,7 +591,6 @@ defineTextureReplace("EWL6WAL6","WIL6WAL6");
 defineTextureReplace("EWL6WIL1","WIL6WIL1");
 defineTextureReplace("EWL6WIL2","WIL6WIL2");
 defineTextureReplace("EWL6WIL3","WIL6WIL3");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME2DW3" (Void)
@@ -625,7 +609,6 @@ defineTextureReplace("E2DW3SK1","BLACKR1");
 defineTextureReplace("E2DW3SK2","BLACKR2");
 defineTextureReplace("E2DW3SK3","BLACKR3");
 defineTextureReplace("E2DW3SK4","BLACKR4");
-defineTextureReplace("WHITE","WHITE");
 }
 
 
@@ -673,7 +656,6 @@ defineTextureReplace("ETOSKY","TOPSKY");
 defineTextureReplace("ETOSKY1","TOPSKY1");
 defineTextureReplace("ETOSKY2","TOPSKY2");
 defineTextureReplace("ETOSKY3","TOPSKY3");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME3NEE" (Void)
@@ -723,7 +705,6 @@ defineTextureReplace("ENEDST3","NEEDST3");
 defineTextureReplace("ENEDST4","NEEDST4");
 defineTextureReplace("ENEDWHI","WHITE");
 defineTextureReplace("ENEDWIR","NEEDWIR");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME3HAR" (Void)
@@ -751,7 +732,6 @@ defineTextureReplace("EHRDTR2","HARDTR2");
 defineTextureReplace("EHRDTR3","HARDTR3");
 defineTextureReplace("EHRDSKY","HARDSKY");
 defineTextureReplace("EHRDSKY2","WHITE");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME3GEM" (Void)
@@ -773,7 +753,6 @@ defineTextureReplace("EGEFLR2","GEMFLR2");
 defineTextureReplace("EGEWALB","GEMWALB");
 defineTextureReplace("EGEFLR3","GEMFLR3");
 defineTextureReplace("EGEFLR3W","GEMFLR3W");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME3MAG" (Void)
@@ -805,7 +784,6 @@ defineTextureReplace("EMAFLR9","MAGFLR9");
 defineTextureReplace("EMAFLR10","MAGFLR10");
 defineTextureReplace("EMAFLR11","MAGFLR11");
 defineTextureReplace("EMASMILE","MAGSMILE");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME3SPA" (Void)
@@ -839,7 +817,6 @@ defineTextureReplace("ESPFL20","SPAFL20");
 defineTextureReplace("ESPFL21","SPAFL21");
 defineTextureReplace("ESPFL22","SPAFL22");
 defineTextureReplace("ESPFL23","SPAFL23");
-defineTextureReplace("WHITE","WHITE");
 }
 
 
@@ -878,7 +855,6 @@ defineTextureReplace("EPHAFEN1","PHAFEN1");
 defineTextureReplace("EPHAFEN2","PHAFEN2");
 defineTextureReplace("ETELEFL","TELEFL");
 defineTextureReplace("ETELEP1","TELEP2");
-defineTextureReplace("WHITE","WHITE");
 }
 
 Script "encore_texreplace_MME4DIV" (Void)
@@ -962,7 +938,6 @@ defineTextureReplace("EDIVPFL2","DIVEPFL2");
 defineTextureReplace("EDIVSKY2","WHITE");
 defineTextureReplace("EDIVSKY3","BOMSKY");
 defineTextureReplace("EDIVSKY4","BUBBWTR");
-defineTextureReplace("WHITE","WHITE");
 }
 
 // Mega Man 5 /////////////////////////////////////////
@@ -1022,7 +997,6 @@ defineTextureReplace("EDRKPIP5","DARKPIP5");
 defineTextureReplace("ETELEFL","TELEFL");
 defineTextureReplace("ETELEP1","TELEP2");
 defineTextureReplace("ETELEP2","TELEP1");
-defineTextureReplace("WHITE","WHITE");
 }
 
 // Mega Man 8 /////////////////////////////////////////
@@ -1060,9 +1034,7 @@ defineTextureReplace("EASTCIL2","ASTCIEL2");
 defineTextureReplace("EASTCIL3","ASTCIEL3");
 defineTextureReplace("EASTCIL4","ASTCIEL4");
 defineTextureReplace("EASTCIL5","ASTCIEL5");
-defineTextureReplace("EASTSNDX","ASTSNDX");
-defineTextureReplace("WHITE","WHITE");
-}
+defineTextureReplace("EASTSNDX","ASTSNDX");}
 
 // Mega Man WT ////////////////////////////////////////
 Script "encore_texreplace_MMEWTDW2" (Void)
@@ -1108,7 +1080,6 @@ defineTextureReplace("EWT4BLCK","WT4BLOCK");
 defineTextureReplace("EWT4WAL1","WT4WALL1");
 defineTextureReplace("EWT4WAL2","WT4WALL2");
 defineTextureReplace("EWT2WTRX","WTWATER");
-defineTextureReplace("WHITE","WHITE");
 }
 
 // Mega Man 9 /////////////////////////////////////////
@@ -1144,7 +1115,6 @@ defineTextureReplace("EGAINT2L","GALINT2L");
 defineTextureReplace("EGAINT3S","GALINT3S");
 defineTextureReplace("EGAINT3M","GALINT3M");
 defineTextureReplace("EGAINT3L","GALINT3L");
-defineTextureReplace("WHITE","WHITE");
 }
 
 
@@ -1201,5 +1171,4 @@ defineTextureReplace("ECHIFL11","CHIFLR11");
 defineTextureReplace("ECHIMT01","CHIMET01");
 defineTextureReplace("ECHIMT02","CHIMET02");
 defineTextureReplace("ECHIMT03","CHIMET03");
-defineTextureReplace("WHITE","WHITE");
 }
