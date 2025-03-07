@@ -69,27 +69,31 @@ painchance 256
 States
 {
 Spawn:
-	HRGL A 1
-	HRGL A 0 A_JumpIfInventory("WeaponCharge",1,"SpawnOkSmile")
-	HRGL A 0 A_GiveInventory("WeaponCharge",1)
-	goto WaitingTime
+HRGL A 1
+HRGL A 0 A_JumpIfInventory("WeaponCharge",1,"SpawnOkSmile")
+HRGL A 0 A_GiveInventory("WeaponCharge",1)
+goto WaitingTime
 
-	SpawnOkSmile:
-	HRGL A 1
-	HRGL A 1 A_ChangeFlag (NOPAIN, 0)
+SpawnOkSmile:
+HRGL L 1
+HRGL L 1 A_ChangeFlag(NOPAIN, 0)
+HRGL MNO 2
+SpawnLoop:
+HRGL BCBA 6
 Loop
+
 Pain:
-	HRGL A 1
-	HRGL A 1 ACS_NamedExecuteWithResult ("GogogadgetTimeWillNowStop")
+HRGL A 1
+HRGL A 1 ACS_NamedExecuteWithResult("GogogadgetTimeWillNowStop")
 Goto Spawn
 TimeStopped:
-	TNT1 A 0 A_ChangeFlag (NOPAIN, 1)
-	TNT1 A 1 A_SpawnItemEX ("EncoreTimePieceFlipVisual", 0, 0, 1, 0, 0, 15)
-	TNT1 A 33
+TNT1 A 0 A_ChangeFlag(NOPAIN, 1)
+TNT1 A 1 A_SpawnItemEX("EncoreTimePieceFlipVisual", 0, 0, 1, 0, 0, 15)
+TNT1 A 33
 WaitingTime:
-	TNT1 A 0 A_ChangeFlag (NOPAIN, 1)
-	HRGL GHI 6
-	Loop
+TNT1 A 0 A_ChangeFlag(NOPAIN, 1)
+HRGL IJK 3
+Loop
 }
 }
 actor EncoreTimePieceFlipVisual
@@ -109,15 +113,15 @@ Radius 32
 States
 {
 Spawn:
-	HRGL A 1
-	TNT1 A 0 A_PlaySound("encore/hourglassflip", CHAN_BODY)
+HRGL B 1
+TNT1 A 0 A_PlaySound("encore/hourglassflip", CHAN_BODY)
 FlippingTime:
-	HRGL BCDEFA 2 A_CheckFloor("MyTimeHasCome")
-	Loop
+HRGL HEFGDB 2 A_CheckFloor("MyTimeHasCome")
+Loop
 MyTimeHasCome:
-	HRGL GHI 1
-	TNT1 A -1
-	Stop
+HRGL IJK 1
+TNT1 A -1
+Stop
 }
 }
 actor "Lil' Gregor" 1915
