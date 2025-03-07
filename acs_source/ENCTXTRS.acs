@@ -1,6 +1,6 @@
 #library "ENCTXTRS"
 #include "zcommon.acs"
-
+//
 // [A-Chan] Texture storage
 #DEFINE MAX_TEXREPLACE_GLOBAL_LIMIT 300
 Int MAX_TEXREPLACE_GLOBAL = 0;

@@ -540,9 +540,19 @@ map MME8AST "ASTRO MAN: Encore!"
 
 map MME8SWO "SWORD MAN: Encore!"
 {
-	next = "MMEBGRO"
+	next = "MME8FRO"
 	sky1 = "BLACK", 0
 	music = "ESWOMUS"
+	aircontrol = 0.5
+	forcenoskystretch
+	clipmidtextures
+}
+
+map MME8FRO "FROST MAN: Encore!"
+{
+	next = "MMEBGRO"
+	sky1 = "BLACK", 0
+	music = "EFROMUS"
 	aircontrol = 0.5
 	forcenoskystretch
 	clipmidtextures
