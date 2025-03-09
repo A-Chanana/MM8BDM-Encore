@@ -54,6 +54,8 @@ $musicvolume EMRXMUS 1.7
 $musicvolume MME6FBOS 1.15
 //MM7
 $musicvolume MME7FBOS 1.5
+//MM8
+$musicvolume EGREMUS 1.75
 //MM&B
 $musicvolume EGROMUS 1.6
 $musicvolume MMEBBOSS 2.0
