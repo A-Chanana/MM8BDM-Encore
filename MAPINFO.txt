@@ -550,12 +550,23 @@ map MME8SWO "SWORD MAN: Encore!"
 
 map MME8FRO "FROST MAN: Encore!"
 {
-	next = "MMEBGRO"
+	next = "MME8GRE"
 	sky1 = "BLACK", 0
 	music = "EFROMUS"
 	aircontrol = 0.5
 	forcenoskystretch
 	clipmidtextures
+}
+
+map MME8GRE "GRENADE MAN: Encore!"
+{
+	next = "MMEBGRO"
+	sky1 = "BLACK", 0
+	music = "EGREMUS"
+	aircontrol = 0.5
+	forcenoskystretch
+	clipmidtextures
+	evenlighting
 }
 
 ////////////////////////////////

@@ -10,7 +10,7 @@
 #DEFINE ENC_INTENSEMUS 6
 #DEFINE ENC_AUTHOR 7
 
-#DEFINE ENC_MAPS 87
+#DEFINE ENC_MAPS 88
 str enc_mapcards[ENC_MAPS][8] = {
 	{"MME1CUT",	"FACE0E",	"ECUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n6]Woo\c[w6]lock\c-, \cjHansungkee"},
 	{"MME1GUT",	"FACE1E",	"EGUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[p2]Sir An\c[g3]0\c[p2]n"},
@@ -77,6 +77,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MME8AST",	"FACE75E",	"EASTMUS",	"MAPCD8",	"MME8BOSS",	"MMBVIC",	"MME8FBOS",	"\c[n6]Woo\c[w6]lock \cf& \c[y1]A\c[c4]-Chan"},
 	{"MME8SWO",	"FACE76E",	"ESWOMUS",	"MAPCD8",	"MME8BOSS",	"MMBVIC",	"MME8FBOS",	"\c[c6]Ra\c[t7]in\c[c6]sa\c[t7]nt \cf& \c[y1]A\c[c4]-Chan"},
 	{"MME8FRO",	"FACE79",	"EFROMUS",	"MAPCD8",	"MME8BOSS",	"MMBVIC",	"MME8FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MME8GRE",	"FACE80E",	"EGREMUS",	"MAPCD8",	"MME8BOSS",	"MMBVIC",	"MME8FBOS",	"\c[g3]eroLaggiN"},
 	
 	{"MMEBGRO",	"FACE91E",	"EGROMUS",	"MAPCDAB",	"MMEBBOSS",	"MMBVIC",	"MMEBFBOS",	"\c[n6]Woo\c[w6]lock \cf& \cgSir Dee"},
 	{"MMEBMAG",	"FACE94E",	"EMGCMUS",	"MAPCDAB",	"MMEBBOSS",	"MMBVIC",	"MMEBFBOS",	"\c[n6]Woo\c[w6]lock"},

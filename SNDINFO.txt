@@ -25,6 +25,7 @@ $musicvolume EAIRMUS 2.0
 $musicvolume EHEAMUS 1.1
 $musicvolume EFLAMUS 0.8
 $musicvolume E2DW2MUS 1.2
+$musicvolume E2DW3MUS 1.3
 //MM3
 $musicvolume EHARMUS 1.2
 $musicvolume ENEEMUS 1.25
