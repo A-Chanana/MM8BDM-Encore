@@ -1,6 +1,7 @@
 misc/undbel		UNDBEL
 misc/realblast	TREXP
 encore/hourglassflip HRGLFLIP
+encore/hourglassactive HRGLACTV
 JOJOKE JOJOKE
 TIMERESU TIMERESU
 ROACHSQK ROACHSQK

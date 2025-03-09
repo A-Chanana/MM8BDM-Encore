@@ -75,6 +75,7 @@ HRGL A 0 A_GiveInventory("WeaponCharge",1)
 goto WaitingTime
 
 SpawnOkSmile:
+HRGL L 0 A_PlaySoundEx("encore/hourglassactive","Voice")
 HRGL L 1
 HRGL L 1 A_ChangeFlag(NOPAIN, 0)
 HRGL MNO 2
