@@ -7,6 +7,8 @@ terrain EncOil
 }
 
 splash EnLava{baseclass EncoreLava}
+splash EnLavaBlue{baseclass EncoreLavaBlue}
+splash EnLavaPurple{baseclass EncoreLavaPurple}
 
 splash BondOil{baseclass BondGlueFX}
 
@@ -28,6 +30,16 @@ floor BONDGLUE BondOil
 terrain Encorelava
 {
 	splash EnLava
+}
+
+terrain EncorelavaBlue
+{
+	splash EnLavaBlue
+}
+
+terrain EncorelavaPurple
+{
+	splash EnLavaPurple
 }
 
 splash SpaceSplash {baseclass	EncoreSpaceSplash}
@@ -112,10 +124,10 @@ floor ETODFLW3 oil
 
 floor EPHAFLR1 sink
 
-floor EHFALL lava
+floor EHFALL EncorelavaBlue
 floor EFIRLAV lava
-floor ESWRLAVX lava
-floor ESLRLAVX lava
-floor STVLAVA lava
+floor ESWRLAVX EncorelavaPurple
+floor ESLRLAVX EncorelavaBlue
+floor STVLAVA EncorelavaBlue
 
 floor ECOSFLR1 snow

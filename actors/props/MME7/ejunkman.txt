@@ -48,6 +48,31 @@ ELVS ABCD 5
 stop
 }
 }
+
+actor EncoreLavaBlue : EncoreLava
+{
+States
+{
+Spawn:
+ELVS F 0
+ELVS F 0 A_PlaySoundEx("misc/lava","Voice")
+ELVS EFGH 5
+stop
+}
+}
+
+actor EncoreLavaPurple : EncoreLava
+{
+States
+{
+Spawn:
+ELVS J 0
+ELVS J 0 A_PlaySoundEx("misc/lava","Voice")
+ELVS IJKL 5
+stop
+}
+}
+
 actor EncoreTimePiece 2050
 {
 //$Category MM8BDME-Props
@@ -75,6 +100,7 @@ HRGL A 0 A_GiveInventory("WeaponCharge",1)
 goto WaitingTime
 
 SpawnOkSmile:
+HRGL L 0 A_PlaySoundEx("encore/hourglassactive","Voice")
 HRGL L 1
 HRGL L 1 A_ChangeFlag(NOPAIN, 0)
 HRGL MNO 2

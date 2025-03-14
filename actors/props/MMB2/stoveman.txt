@@ -32,7 +32,7 @@ Spawn:
 FMIX AB 2 
 loop
 Death:
-LAVS ABCD 5
+ELVS EFGH 5
 stop
 }
 }
