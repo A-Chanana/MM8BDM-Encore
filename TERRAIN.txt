@@ -65,6 +65,7 @@ floor ECRAWTR2 water
 floor ECRAWTR3 water
 floor ECRAWTR4 water
 floor EDWATER water
+floor EWVWAT water
 floor EBLIZWRT water
 floor EYAMFALX water
 floor EYTOWTRX water
