@@ -1,6 +1,7 @@
 actor EncoreWeaponsArchiveInactive : WeaponsArchiveInactive 26010
 {
 //$Category MM8BDME-Props
+-CLIENTSIDEONLY
 States
 {
 Spawn:
