@@ -1,4 +1,4 @@
-ACTOR GlueDripper : AcidDripper 23001
+ACTOR GlueDripper_Bond : AcidDripper 23001
 {
 translation "225:225=4:4", "44:44=86:86"
   //$Category MM8BDME-Interactive Props
@@ -8,13 +8,13 @@ translation "225:225=4:4", "44:44=86:86"
     TNT1 A 0
 	ACID ABABAB 5 
   Drip:
-	ACID C 1 A_CustomMissile("GlueDrip",0,0,0,2,0)
+	ACID C 1 A_CustomMissile("GlueDrip_Bond",0,0,0,2,0)
 	ACID C 35
 	Goto Spawn
   }
 }
 
-actor GlueDrip : AcidDrip
+actor GlueDrip_Bond : AcidDrip
 {
 +DONTSPLASH
 translation "225:225=4:4", "44:44=86:86"
@@ -25,12 +25,12 @@ States
 		loop
 	Death:
 		ACID E 3 //A_PlaySoundEx("misc/oil","Voice")
-		ACID EEEE 0 A_SpawnItemEx("GlueDroppedFX",0,0,0,random(-10,10),random(-10,10),random(5,10),random(0,360))
+		ACID EEEE 0 A_SpawnItemEx("GlueDroppedFX_Bond",0,0,0,random(-10,10),random(-10,10),random(5,10),random(0,360))
 		stop
 	}
 }
 
-actor GlueDroppedFX
+actor GlueDroppedFX_Bond
 {
 translation "192:192=4:4", "198:198=86:86", "210:210=4:4"
 PROJECTILE
