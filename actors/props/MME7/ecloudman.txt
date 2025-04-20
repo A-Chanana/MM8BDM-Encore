@@ -1,4 +1,4 @@
-actor ECloudmanRainSpawner : CloudmanRainSpawner 20623
+actor ECloudmanRainSpawner : CloudmanRainSpawner 20624
 {
 //$Category MM8BDME-Props
 States
