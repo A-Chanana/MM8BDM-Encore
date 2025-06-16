@@ -129,7 +129,6 @@ loop
 actor GHOSESpawner : GNGSpawner 23601
 {
 //$Category MM8BDME-Interactive Props
-//$Sprite GHOSC0
 States
 {
 Spawn:
