@@ -73,7 +73,6 @@ actor AirconManGiantWave_Thrust_P : CustomInventory
 actor AirconManMistSpawner 21749
 {
 //$Category MM8BDME-Props
-+CLIENTSIDEONLY
 +NOINTERACTION
 +NOGRAVITY
 -SOLID
