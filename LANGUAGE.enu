@@ -672,9 +672,9 @@ MAPCARD_ECTFMS15_MUSICGAME = "Mega Man: Rock Force";
 // MAPCARD_ECTFMS22_MUSICCOMPOSER = "";
 // MAPCARD_ECTFMS22_MUSICGAME = "";
 
-MAPCARD_CTFMUS23_MUSICNAME = "Bullet Bounce";
-MAPCARD_CTFMUS23_MUSICCOMPOSER = "RushJet1";
-MAPCARD_CTFMUS23_MUSICGAME = "-";
+MAPCARD_ECTFMS23_MUSICNAME = "Bullet Bounce";
+MAPCARD_ECTFMS23_MUSICCOMPOSER = "RushJet1";
+MAPCARD_ECTFMS23_MUSICGAME = "-";
 
 // MAPCARD_ECTFMS24_MUSICNAME = "";
 // MAPCARD_ECTFMS24_MUSICCOMPOSER = "";
@@ -727,5 +727,5 @@ MAPCARD_BONMUS_MUSICGAME = "Mega Man Revised";
 OB_EOILBARREL = "%o went boom with an Oil Canister.";
 OB_EOILBARRELCREDIT = "%o went boom from %k's Oil Barrel.";
 OB_EPRESSBALL = "%o was crushed by a Press Ball.";
-OB_ESLIMECUBERESPAWN = "%o was slimed in a slime cube.";
+OB_ESLIMECUBERESPAWN = "%o was slimed in a Slime Cube.";
 OB_EELECBLOCKRESPAWN = "%o was defragmented.";

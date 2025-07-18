@@ -104,7 +104,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	
 	{"MMECTF08","FACE127E",	"ECTFMS8",	"MAPCDV",	"ESUNBOS",	"MMBVIC",	"MMB2FBOS",	"\c[n5]Mega\c[n6]Vile"},
 	{"MMECTF15","FACE127E",	"ECTFMS15",	"MAPCD6",	"ESUNBOS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
-	{"MMECTF23","FACE127E",	"CTFMUS23",	"MAPCD3",	"ESUNBOS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan",},
+	{"MMECTF23","FACE127E",	"ECTFMS23",	"MAPCD3",	"ESUNBOS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan",},
 	
 	{"MMEKENK",	"FACE129E",	"EENKMUS",	"MAPCDK",	"EENKMUS2",	"MMBVIC",	"MMEKFBOS",	"\c[y1]A\c[c4]-Chan"},
 	
