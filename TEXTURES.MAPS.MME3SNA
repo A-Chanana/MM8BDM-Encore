@@ -629,11 +629,25 @@ texture ESNAKTO3, 48, 48
    Patch ESNAKT31, 0, 0
 }
 
-texture ESNAKSKY, 512, 256
+texture ESNAKSKY, 512, 512 //edited off the work of Iceman81 https://www.spriters-resource.com/custom_edited/megamancustoms/sheet/220046/
 {
    XScale 0.5
    YScale 0.5
    Patch ESNAKT20, 0, 0
+}
+
+texture ESKSKYX1, 512, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNK20X1, 0, 0
+}
+
+texture ESKSKYX2, 512, 512
+{
+   XScale 0.5
+   YScale 0.5
+   Patch ESNK20X2, 0, 0
 }
 
 texture ESNAKSFL, 16, 16

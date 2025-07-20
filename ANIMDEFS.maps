@@ -398,6 +398,11 @@ texture ESNAKESX
 	pic ESNAKES6 tics 4
 	pic ESNAKES7 tics 4
 	pic ESNAKES8 tics 4	
+	
+texture ESNAKSKY
+	allowdecals
+	pic ESKSKYX1 tics 6
+	pic ESKSKYX2 tics 6
 
 ////////////////////
 ///// MME3TOP /////
