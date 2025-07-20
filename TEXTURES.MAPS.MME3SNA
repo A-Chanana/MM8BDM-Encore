@@ -832,3 +832,42 @@ texture ESNAKESX, 32, 32
    Patch ESNAKT38, 0, 0
 }
 
+Texture E3SNWATX, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ESNAKT46, 0, 0
+}
+
+Texture E3SNWATA, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ESNAKT46, 0, 0
+}
+
+Texture E3SNWATB, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ESNAKT47, 0, 0
+}
+
+Texture E3SNWATC, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ESNAKT48, 0, 0
+}
+
+Texture E3SNWATD, 64, 64
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch ESNAKT49, 0, 0
+}

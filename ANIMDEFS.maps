@@ -404,6 +404,13 @@ texture ESNAKSKY
 	pic ESKSKYX1 tics 6
 	pic ESKSKYX2 tics 6
 
+texture E3SNWATX
+    allowdecals
+    pic E3SNWATA tics 6
+	pic E3SNWATB tics 6
+	pic E3SNWATC tics 6
+	pic E3SNWATD tics 6
+
 ////////////////////
 ///// MME3TOP /////
 texture ETOLIT
