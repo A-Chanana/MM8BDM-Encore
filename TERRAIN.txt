@@ -55,6 +55,7 @@ terrain fish
 	splash FishBite
 }
 
+floor E3SNWATX water
 floor EWT2WTRX water
 floor EWT2WTRP fish
 
