@@ -49,6 +49,7 @@
 #include "actors/Props/MME7/espringman.txt"
 
 #include "actors/Props/MME8/eastroman.txt"
+#include "actors/Props/MME8/efrostman.txt"
 
 #include "actors/Props/MMEB/emuseum.txt"
 #include "actors/Props/MMEB/egroundman.txt"

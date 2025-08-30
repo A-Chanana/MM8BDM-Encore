@@ -1,0 +1,32 @@
+actor EFrostPole : FrostPole 21636
+{
+//$Category MM8BDME-Props
+Translation "103:103=119:119", "4:4=102:102", "42:42=188:188"
+}
+
+
+actor EFrostFirework0 : BasicGraphicEffect
+{
+Translation "192:192=59:59","198:198=62:62"
+scale 2.5
++BRIGHT
++FORCEXYBILLBOARD
+States
+{
+Spawn:
+FROF A 0
+FROF A 0 ThrustThingZ(0,60,0,0)
+FROF ABABA 5
+FROF A 0 A_Stop
+Death:
+FROF CDEFGHIJ 5
+stop
+}
+}
+actor EFrostFirework1 : EFrostFirework0{Translation"192:192=205:205","198:198=206:206"}
+actor EFrostFirework2 : EFrostFirework0{Translation"192:192=103:103","198:198=116:116"}
+actor EFrostFirework3 : EFrostFirework0{Translation"192:192=106:106","198:198=111:111"}
+actor EFrostFirework4 : EFrostFirework0{Translation"192:192=248:248","198:198=230:230"}
+actor EFrostFirework5 : EFrostFirework0{Translation"192:192=225:225","198:198=227:227"}
+actor EFrostFirework6 : EFrostFirework0{Translation"192:192=38:38","198:198=40:40"}
+actor EFrostFirework7 : EFrostFirework0{Translation"192:192=57:57","198:198=60:60"}

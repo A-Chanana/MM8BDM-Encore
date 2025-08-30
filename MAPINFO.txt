@@ -550,23 +550,12 @@ map MME8SWO "SWORD MAN: Encore!"
 
 map MME8FRO "FROST MAN: Encore!"
 {
-	next = "MME8GRE"
+	next = "MMEBGRO"
 	sky1 = "BLACK", 0
 	music = "EFROMUS"
 	aircontrol = 0.5
 	forcenoskystretch
 	clipmidtextures
-}
-
-map MME8GRE "GRENADE MAN: Encore!"
-{
-	next = "MMEBGRO"
-	sky1 = "BLACK", 0
-	music = "EGREMUS"
-	aircontrol = 0.5
-	forcenoskystretch
-	clipmidtextures
-	evenlighting
 }
 
 ////////////////////////////////
@@ -818,9 +807,19 @@ map MMB2AIR "AIRCON MAN"
 map MMB2CLO "CLOCK MEN"
 {
 	cluster = 514315185
-	next = "MMEPRO"
+	next = "MMB2COM"
 	sky1 = "BLACK", 0
 	music = "CLKMUS"
+	aircontrol = 0.5
+	useplayerstartz
+}
+
+map MMB2COM "COMPASS MAN"
+{
+	cluster = 514315185
+	next = "MMEPRO"
+	sky1 = "BLACK", 0
+	music = "CMPMUS"
 	aircontrol = 0.5
 	useplayerstartz
 }
