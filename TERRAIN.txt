@@ -50,12 +50,18 @@ terrain space
 floor EWT1SPCX space
 floor EWT1SPX2 space
 splash FishBite {baseclass	EncoreBigFishBite}
+splash FishBite_Splash {baseclass	EncoreBigFishBite_Splash}
 terrain fish
 {
 	splash FishBite
 }
 
-floor E3SNWATX water
+terrain fish_splash
+{
+	splash FishBite_Splash
+}
+
+floor E3SNWATX fish_splash
 floor EWT2WTRX water
 floor EWT2WTRP fish
 
