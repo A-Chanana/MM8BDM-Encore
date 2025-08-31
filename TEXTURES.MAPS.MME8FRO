@@ -424,44 +424,6 @@ texture EFOWAL1, 32, 480
    WorldPanning
 }
 
-
-texture EFOWAL1X, 32, 480
-{
-   XScale 0.5
-   YScale 0.5
-   Patch EFROS12X, 0, 0
-   Patch EFROS13X, 0, 16
-   Patch EFROS13X, 0, 32
-   Patch EFROS13X, 0, 48
-   Patch EFROS13X, 0, 64
-   Patch EFROS13X, 0, 80
-   Patch EFROS13X, 0, 96
-   Patch EFROS13X, 0, 112
-   Patch EFROS13X, 0, 128
-   Patch EFROS13X, 0, 144
-   Patch EFROS13X, 0, 160
-   Patch EFROS13X, 0, 176
-   Patch EFROS13X, 0, 192
-   Patch EFROS13X, 0, 208
-   Patch EFROS13X, 0, 224
-   Patch EFROS13X, 0, 240
-   Patch EFROS13X, 0, 256
-   Patch EFROS13X, 0, 272
-   Patch EFROS13X, 0, 288
-   Patch EFROS13X, 0, 304
-   Patch EFROS13X, 0, 320
-   Patch EFROS13X, 0, 336
-   Patch EFROS13X, 0, 352
-   Patch EFROS13X, 0, 368
-   Patch EFROS13X, 0, 384
-   Patch EFROS13X, 0, 400
-   Patch EFROS13X, 0, 416
-   Patch EFROS13X, 0, 432
-   Patch EFROS13X, 0, 448
-   Patch EFROS13X, 0, 464
-   WorldPanning
-}
-
 texture EFOWAL2, 32, 480
 {
    XScale 0.5
@@ -496,43 +458,6 @@ texture EFOWAL2, 32, 480
    Patch EFROS14, 0, 432
    Patch EFROS14, 0, 448
    Patch EFROS15, 0, 464
-   WorldPanning
-}
-
-texture EFOWAL2X, 32, 480
-{
-   XScale 0.5
-   YScale 0.5
-   Patch EFROS14X, 0, 0
-   Patch EFROS14X, 0, 16
-   Patch EFROS14X, 0, 32
-   Patch EFROS14X, 0, 48
-   Patch EFROS14X, 0, 64
-   Patch EFROS14X, 0, 80
-   Patch EFROS14X, 0, 96
-   Patch EFROS14X, 0, 112
-   Patch EFROS14X, 0, 128
-   Patch EFROS14X, 0, 144
-   Patch EFROS14X, 0, 160
-   Patch EFROS14X, 0, 176
-   Patch EFROS14X, 0, 192
-   Patch EFROS14X, 0, 208
-   Patch EFROS14X, 0, 224
-   Patch EFROS14X, 0, 240
-   Patch EFROS14X, 0, 256
-   Patch EFROS14X, 0, 272
-   Patch EFROS14X, 0, 288
-   Patch EFROS14X, 0, 304
-   Patch EFROS14X, 0, 320
-   Patch EFROS14X, 0, 336
-   Patch EFROS14X, 0, 352
-   Patch EFROS14X, 0, 368
-   Patch EFROS14X, 0, 384
-   Patch EFROS14X, 0, 400
-   Patch EFROS14X, 0, 416
-   Patch EFROS14X, 0, 432
-   Patch EFROS14X, 0, 448
-   Patch EFROS15X, 0, 464
    WorldPanning
 }
 
@@ -575,43 +500,6 @@ texture EFOWAL3, 32, 480
    WorldPanning
 }
 
-texture EFOWAL3X, 32, 480
-{
-   XScale 0.5
-   YScale 0.5
-   Patch EFROS17X, 0, 0
-   Patch EFROS40X, 0, 16
-   Patch EFROS40X, 0, 32
-   Patch EFROS40X, 0, 48
-   Patch EFROS40X, 0, 64
-   Patch EFROS40X, 0, 80
-   Patch EFROS40X, 0, 96
-   Patch EFROS40X, 0, 112
-   Patch EFROS40X, 0, 128
-   Patch EFROS40X, 0, 144
-   Patch EFROS40X, 0, 160
-   Patch EFROS40X, 0, 176
-   Patch EFROS40X, 0, 192
-   Patch EFROS40X, 0, 208
-   Patch EFROS40X, 0, 224
-   Patch EFROS40X, 0, 240
-   Patch EFROS40X, 0, 256
-   Patch EFROS40X, 0, 272
-   Patch EFROS40X, 0, 288
-   Patch EFROS40X, 0, 304
-   Patch EFROS40X, 0, 320
-   Patch EFROS40X, 0, 336
-   Patch EFROS40X, 0, 352
-   Patch EFROS40X, 0, 368
-   Patch EFROS40X, 0, 384
-   Patch EFROS40X, 0, 400
-   Patch EFROS40X, 0, 416
-   Patch EFROS40X, 0, 432
-   Patch EFROS40X, 0, 448
-   Patch EFROS18X, 0, 464
-   WorldPanning
-}
-
 texture EFOSNW1, 32, 480
 {
    XScale 0.5
@@ -646,43 +534,6 @@ texture EFOSNW1, 32, 480
    Patch EFROS13, 0, 432
    Patch EFROS13, 0, 448
    Patch EFROS13, 0, 464
-   WorldPanning
-}
-
-texture EFOSNW1X, 32, 480
-{
-   XScale 0.5
-   YScale 0.5
-   Patch EFROS4, 0, 0
-   Patch EFROS12X, 0, 16
-   Patch EFROS13X, 0, 32
-   Patch EFROS13X, 0, 48
-   Patch EFROS13X, 0, 64
-   Patch EFROS13X, 0, 80
-   Patch EFROS13X, 0, 96
-   Patch EFROS13X, 0, 112
-   Patch EFROS13X, 0, 128
-   Patch EFROS13X, 0, 144
-   Patch EFROS13X, 0, 160
-   Patch EFROS13X, 0, 176
-   Patch EFROS13X, 0, 192
-   Patch EFROS13X, 0, 208
-   Patch EFROS13X, 0, 224
-   Patch EFROS13X, 0, 240
-   Patch EFROS13X, 0, 256
-   Patch EFROS13X, 0, 272
-   Patch EFROS13X, 0, 288
-   Patch EFROS13X, 0, 304
-   Patch EFROS13X, 0, 320
-   Patch EFROS13X, 0, 336
-   Patch EFROS13X, 0, 352
-   Patch EFROS13X, 0, 368
-   Patch EFROS13X, 0, 384
-   Patch EFROS13X, 0, 400
-   Patch EFROS13X, 0, 416
-   Patch EFROS13X, 0, 432
-   Patch EFROS13X, 0, 448
-   Patch EFROS13X, 0, 464
    WorldPanning
 }
 
@@ -760,44 +611,6 @@ texture EFOSNW3, 32, 480
    WorldPanning
 }
 
-
-texture EFOSNW3X, 32, 480
-{
-   XScale 0.5
-   YScale 0.5
-   Patch EFROS4, 0, 0
-   Patch EFROS17X, 0, 16
-   Patch EFROS40X, 0, 32
-   Patch EFROS40X, 0, 48
-   Patch EFROS40X, 0, 64
-   Patch EFROS40X, 0, 80
-   Patch EFROS40X, 0, 96
-   Patch EFROS40X, 0, 112
-   Patch EFROS40X, 0, 128
-   Patch EFROS40X, 0, 144
-   Patch EFROS40X, 0, 160
-   Patch EFROS40X, 0, 176
-   Patch EFROS40X, 0, 192
-   Patch EFROS40X, 0, 208
-   Patch EFROS40X, 0, 224
-   Patch EFROS40X, 0, 240
-   Patch EFROS40X, 0, 256
-   Patch EFROS40X, 0, 272
-   Patch EFROS40X, 0, 288
-   Patch EFROS40X, 0, 304
-   Patch EFROS40X, 0, 320
-   Patch EFROS40X, 0, 336
-   Patch EFROS40X, 0, 352
-   Patch EFROS40X, 0, 368
-   Patch EFROS40X, 0, 384
-   Patch EFROS40X, 0, 400
-   Patch EFROS40X, 0, 416
-   Patch EFROS40X, 0, 432
-   Patch EFROS18X, 0, 448
-   Patch EFROS4, 0, 464
-   WorldPanning
-}
-
 texture EFOMETL2, 16, 128
 {
    XScale 0.5
@@ -830,14 +643,6 @@ texture EFOGLASS, 16, 128
    XScale 0.5
    YScale 0.5
    Patch EFROS41, 0, 0
-   WorldPanning
-}
-
-texture EFOGLASX, 16, 128
-{
-   XScale 0.5
-   YScale 0.5
-   Patch EFROS41X, 0, 0
    WorldPanning
 }
 
@@ -902,22 +707,6 @@ texture EFOSKY2, 16, 16
    XScale 0.5
    YScale 0.5
    Patch EFROS9, 0, 0
-   WorldPanning
-}
-
-texture EFOSKY3, 384, 240
-{
-   XScale 0.5
-   YScale 0.5
-   Patch EFROS1X, 0, 0
-   WorldPanning
-}
-
-texture EFOSKY4, 16, 16
-{
-   XScale 0.5
-   YScale 0.5
-   Patch EFROS9X, 0, 0
    WorldPanning
 }
 
