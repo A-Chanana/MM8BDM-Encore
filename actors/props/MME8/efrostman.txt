@@ -14,12 +14,12 @@ scale 2.5
 States
 {
 Spawn:
-FROF A 0
-FROF A 0 ThrustThingZ(0,60,0,0)
-FROF ABABA 5
-FROF A 0 A_Stop
+EFRO A 0
+EFRO A 0 ThrustThingZ(0,60,0,0)
+EFRO ABABA 5
+EFRO A 0 A_Stop
 Death:
-FROF CDEFGHIJ 5
+EFRO CDEFGHIJ 5
 stop
 }
 }
