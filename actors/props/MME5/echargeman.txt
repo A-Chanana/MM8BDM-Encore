@@ -51,3 +51,6 @@ EMTK ABCD 4 A_SpawnItemEx(MetallSmoke, 24, 0, 72, 0, 0, 4)
 loop
 }
 }
+
+Actor Hazard_JoeTrain : BasicExecution {Obituary "$OB_JOETRAIN" tag "JoeTrain"}
+actor HazardTag_JoeTrain : BasicACSDamager {damagetype "SuicideTag" Obituary "$OB_JOETRAIN"}

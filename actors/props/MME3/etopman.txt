@@ -35,3 +35,6 @@ ETOP AABBCC 1 A_JumpIf(z - floorz < 16, "GoUp")
 Goto GoingDown+1
 }
 }
+
+Actor Hazard_TopmanPit : BasicExecution {Obituary "$OB_TOPMANPIT" tag "TopmanPit"}
+actor HazardTag_TopmanPit : BasicACSDamager {damagetype "FallingTag" Obituary "$OB_TOPMANPITTAG"}

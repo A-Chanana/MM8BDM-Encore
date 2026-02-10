@@ -14,6 +14,7 @@ actor EFireWave : FireWave
 {
 Translation "41:41=236:236", "216:216=32:32"
 Damage (3)
+Damagetype "FireTrap"
 }
 
 actor EScrewBomber : ScrewBomber 20633
@@ -95,3 +96,6 @@ EFIP C 1 A_FadeOut(0.5)
 Loop
 }
 }
+
+Actor Hazard_EFireTrap : BasicExecution {Obituary "$OB_FIRETRAP" tag "EFireTrap"}
+actor HazardTag_EFireTrap : BasicACSDamager {damagetype "FireTag" Obituary "$OB_FIRETRAPTAG"}

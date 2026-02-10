@@ -324,3 +324,6 @@ actor EncoreFireSnakeyBody : FireSnakeyBody
 {
 Translation "183:183=62:62", "227:227=57:57", "216:216=91:91"
 }
+
+Actor Hazard_EWTDW1Fire : BasicExecution {Obituary "$OB_EWTDW1FIRE" tag "EWTDW1Fire"}
+actor HazardTag_EWTDW1Fire : BasicACSDamager {damagetype "FireTag" Obituary "$OB_EWTDW1FIRETAG"}

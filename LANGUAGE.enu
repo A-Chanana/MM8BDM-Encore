@@ -729,3 +729,70 @@ OB_EOILBARRELCREDIT = "%o went boom from %k's Oil Barrel.";
 OB_EPRESSBALL = "%o was crushed by a Press Ball.";
 OB_ESLIMECUBERESPAWN = "%o was slimed in a Slime Cube.";
 OB_EELECBLOCKRESPAWN = "%o was defragmented.";
+
+
+//
+// MAP HAZARD DEFINITIONS
+//
+
+// Global
+GLOBAL_ICE = "Hazard_Ice";
+OB_ICE = "%o froze away.";
+OB_ICETAG = "%o froze away while trying to fight %k.";
+
+GLOBAL_ELECTRIC = "Hazard_Electric";
+OB_ELECTRIC = "%o electrocuted.";
+OB_ELECTRICTAG = "%o electrocuted while trying to fight %k.";
+
+GLOBAL_SPINEY = "Hazard_Spiney";
+OB_SPINEY = "%o was perforated by spikes.";
+OB_SPINEYTAG = "%o was perforated by spikes while trying to fight %k.";
+
+GLOBAL_FIRETRAP = "Hazard_EFireTrap";
+OB_FIRETRAP = "%o's mistimed and got burned by a Fire Trap.";
+OB_FIRETRAPTAG = "%o mistimed and got burned by a Fire Trap while trying to fight %k.";
+
+GLOBAL_METALPRESS = "Hazard_EMetalPress";
+OB_METALPRESS = "%o was squashed by a Metal Press.";
+OB_METALPRESSTAG = "%o was squashed while trying to fight %k.";
+
+GLOBAL_KYOROWNBULLET = "Hazard_KyorownKiller";
+OB_KYOROWN = "%o was Kyorowned.";
+
+
+// Map-specific
+MME1ELE_ELECTRIC = "Hazard_ElectricLine";
+OB_ELECTRICLINE = "%o was zapped by an electric line.";
+OB_ELECTRICLINETAG = "%o was zapped by an electric line while trying to fight %k.";
+
+MME2AIR_FALLING = "Hazard_AirmanPit";
+OB_AIRMANPIT = "%o was carried away by the storm.";
+OB_AIRMANPITTAG = "%o was carried away by the storm while trying to fight %k.";
+
+MME3SNA_FALLING = "Hazard_SnakeyPit";
+OB_SNAKEYPIT = "%o was devoured by snakes.";
+OB_SNAKEYPITTAG = "%o was devoured by snakes while trying to fight %k.";
+
+MME3TOP_FALLING = "Hazard_TopmanPit";
+OB_TOPMANPIT = "%o fell into a pit of wonders.";
+OB_TOPMANPITTAG = "%o fell into a pit of wonders while trying to fight %k.";
+
+MME3GEM_SUICIDE = "Hazard_GeminiSuicide";
+OB_GEMINISUICIDE = "%o went home. They were seeing double.";
+OB_GEMINISUICIDETAG = "%o went home. They were seeing two %ks.";
+
+MME5CHA_CRUSH = "Hazard_JoeTrain";
+OB_JOETRAIN = "%o tripped and was ran over by Sniper Joe.";
+OB_JOETRAINTAG = "%o tripped and was ran over by Sniper Joe while trying to fight %k.";
+
+MME8AST_FALLING = "Hazard_AstromanPit";
+OB_ASTROPIT = "%o became an illusion.";
+OB_ASTROPITTAG = "%o became an illusion while trying to fight %k.";
+
+MMEBGRO_SUICIDE = "Hazard_GroundSuicide";
+OB_GROUNDSUICIDE = "%o was too salty to deal with it.";
+OB_GROUNDSUICIDETAG = "%o was too salty to deal with %k.";
+
+MMEWTDW1_FIRE = "Hazard_EWTDW1Fire";
+OB_EWTDW1FIRE = "%o fell into infinity.";
+OB_EWTDW1FIRETAG = "%o fell into infinity while trying to fight %k.";

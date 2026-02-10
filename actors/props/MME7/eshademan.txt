@@ -139,3 +139,6 @@ TNT1 A 1 A_CustomMissile("GHOSE",0,0,0,2,0)
 Goto Spawn
 }
 }
+
+Actor Hazard_KyorownKiller : BasicExecution {Obituary "$OB_KYOROWN" tag "KyorownKiller"}
+actor HazardTag_KyorownKiller : BasicACSDamager {damagetype "Normal" Obituary "$OB_KYOROWNTAG"}

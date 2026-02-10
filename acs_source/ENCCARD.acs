@@ -143,10 +143,13 @@ script "Encore_MapCardSetter" OPEN {
 		SetCvarString("mm8bdm_map_bossmusic", enc_mapcards[index][ENC_BOSSMUS]);
 		SetCvarString("mm8bdm_map_victorymusic", enc_mapcards[index][ENC_VICMUS]);
 		SetCvarString("mm8bdm_map_intensemusic", enc_mapcards[index][ENC_INTENSEMUS]);
-			
+		
+		SetCVar("enc_hazardobits",true);
+		
 		//printbold(i:GetLevelInfo(LEVELINFO_CLUSTERNUM));
 		if(GetLevelInfo(LEVELINFO_CLUSTERNUM) != 514315185){
 			SetCvarString("mm8bdm_map_createdbytext", StrParam(l:"MAPCARD_STATIC_CREATEDBY_ENC"));
 		}
 	}
+	else{SetCVar("enc_hazardobits",false);}
 }

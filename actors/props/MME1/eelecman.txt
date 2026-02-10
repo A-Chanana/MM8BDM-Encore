@@ -51,3 +51,8 @@ ETH1 C -1
 stop
 }
 }
+
+actor ElectricLineZapDelayer : Powerup {powerup.duration 10}
+
+Actor Hazard_ElectricLine : BasicExecution {Obituary "$OB_ELECTRICLINE" tag "ElectricLine"}
+actor HazardTag_ElectricLine : BasicACSDamager {damagetype "ElectricTag" Obituary "$OB_ELECTRICLINETAG"}

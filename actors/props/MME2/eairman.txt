@@ -23,3 +23,6 @@ actor EFanFiend : FanFiend 20555
 //$Category MM8BDME-Props
 Translation "196:196=[104,136,252]:[104,136,252]","198:198=[24,56,88]:[24,56,88]"
 }
+
+Actor Hazard_AirmanPit : BasicExecution {Obituary "$OB_AIRMANPIT" tag "AirmanPit"}
+actor HazardTag_AirmanPit : BasicACSDamager {damagetype "FallingTag" Obituary "$OB_AIRMANPITTAG"}

@@ -86,3 +86,30 @@ Scale 2.0
         goto Fade
     }
 }
+
+Actor BasicExecution
+{
+Monster
+-COUNTKILL
++NOBLOCKMAP +NOGRAVITY +NOCLIP +NOINTERACTION
++INVULNERABLE
+RenderStyle None
+Obituary "$OB_NORMAL"
+Health 1
+States
+{
+Spawn:
+PLAY A 0
+PLAY A 5
+stop
+}
+}
+
+Actor Hazard_Ice : BasicExecution {Obituary "$OB_ICE" tag "IceTag"}
+actor HazardTag_IceTag : BasicACSDamager {damagetype "IceTag" Obituary "$OB_ICETAG"}
+
+Actor Hazard_Electric : BasicExecution {Obituary "$OB_ELECTRIC" tag "ElectricTag"}
+actor HazardTag_ElectricTag : BasicACSDamager {damagetype "ElectricTag" Obituary "$OB_ELECTRICTAG"}
+
+Actor Hazard_Spiney : BasicExecution {Obituary "$OB_SPINEY" tag "SpineyTag"}
+actor HazardTag_SpineyTag : BasicACSDamager {damagetype "SpineyTag" Obituary "$OB_SPINEYTAG"}

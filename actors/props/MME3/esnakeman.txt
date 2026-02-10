@@ -58,3 +58,6 @@ ESNE FGH 2
 stop
 }
 }
+
+Actor Hazard_SnakeyPit : BasicExecution {Obituary "$OB_SNAKEYPIT" tag "SnakeyPit"}
+actor HazardTag_SnakeyPit : BasicACSDamager {damagetype "FallingTag" Obituary "$OB_SNAKEYPITTAG"}

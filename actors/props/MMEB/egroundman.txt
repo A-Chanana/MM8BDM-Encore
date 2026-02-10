@@ -52,3 +52,6 @@ EGRS A -1
 stop
 }
 }
+
+Actor Hazard_GroundSuicide : BasicExecution {Obituary "$OB_GROUNDSUICIDE" tag "GroundSuicide"}
+actor HazardTag_GroundSuicide : BasicACSDamager {damagetype "SuicideTag" Obituary "$OB_GROUNDSUICIDETAG"}

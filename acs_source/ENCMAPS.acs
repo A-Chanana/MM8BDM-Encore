@@ -383,3 +383,86 @@ script "encore_timejuicesplash" (int direction, int entering, int eyes)
     
     SetResultValue(20);
 }
+
+
+//
+// Custom pit obits
+//
+#DEFINE ENC_PITDMGTYPES 17
+str enc_pitdmgtype[ENC_PITDMGTYPES] = 
+{
+"Drowning","Slime","Fire","Electric","Crush","Telefrag","Falling","Suicide","Ice","Disintegrate","Extreme","InstantDeath",
+"Spiney","MetalPress","Beam","FireTrap","KyorownBullet"
+};
+
+function bool IsDMGTypeFromWorld(str damagetype){
+	for(int i; i < ENC_PITDMGTYPES; i++){
+		if(enc_pitdmgtype[i] == damagetype){
+			return true;
+			}
+		}
+	return false;
+}
+
+script "encore_customhazardobits" (int type, int arg1, int arg2) EVENT
+{
+if(GetCVar("enc_hazardobits")){
+	int TID = ActivatorTID();
+	int PN = PlayerNumber();
+	
+	if(type == GAMEEVENT_ACTOR_DAMAGED_PREMOD){
+		if(GetActorProperty(tid,APROP_Health)-arg1 < 1){
+			if(IsDMGTypeFromWorld(arg2)){
+				//PrintBold(s:"Damagetype found");
+				if(CustomHazardKill(tid, arg1, arg2)){
+					//PrintBold(s:"Custom kill");
+					SetResultValue(0);
+					}
+				}
+			}
+		}
+	}
+}
+
+function bool CustomHazardKill(int tid, int dmg, str damagetype){
+	//PrintBold(i:GetActorProperty(tid,APROP_Health));
+	PrintBold(s:damagetype);
+	PrintBold(s:StrParam(l:StrParam(n:PRINTNAME_LEVEL,s:"_",s:damagetype)));
+	int PitTID = UniqueTID();
+	bool KillActor = false;
+	
+	// If there's no level-specific executioner, try to spawn a global one
+	if(SpawnSpotForced(StrParam(l:StrParam(n:PRINTNAME_LEVEL,s:"_",s:damagetype)), tid, PitTID, 0)){
+		KillActor = true;
+		}
+	else if(SpawnSpotForced(StrParam(l:StrParam(s:"GLOBAL_",s:damagetype)), tid, PitTID, 0)){
+		KillActor = true;
+		}
+
+	if(KillActor){
+		SetActivator(PitTID,0);
+
+		//PrintBold(s:GetActorProperty(PitTID,APROP_NameTag));
+		SetActorState(tid,StrParam(s:"Death.",s:damagetype),false);
+		Thing_Damage2(tid, dmg, GetActorProperty(PitTID,APROP_NameTag));
+
+		Thing_ChangeTID(PitTID,0);
+		return true;
+		}
+	return false;
+}
+
+
+// Elec Beam script
+script 1942 (int mn, int mx)
+{
+int Activator = ActivatorTID();
+if(CheckActorInventory(Activator,"ElectricLineZapDelayer") == 0){
+	if(GetActorZ(0) >= (mn << 16) && GetActorZ(0) < (mx << 16))
+		{
+		GiveActorInventory(Activator,"ElectricLineZapDelayer",1);
+		SetActivator(0,AAPTR_Null);
+		Thing_Damage2(Activator,15,"Electric");
+		}
+	}
+}

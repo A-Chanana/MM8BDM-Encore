@@ -10,3 +10,6 @@ EPEN E 21 ThrustThingZ(0,40,0,0)
 loop
 }
 }
+
+Actor Hazard_GeminiSuicide : BasicExecution {Obituary "$OB_GEMINISUICIDE" tag "GeminiSuicide"}
+actor HazardTag_GeminiSuicide : BasicACSDamager {damagetype "SuicideTag" Obituary "$OB_GEMINISUICIDETAG"}

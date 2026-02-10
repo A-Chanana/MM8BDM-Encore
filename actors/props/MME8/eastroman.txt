@@ -44,3 +44,6 @@ Translation "216:216=37:37","44:44=42:42","110:110=222:222","104:104=217:217"
 // Slime block moved to E10CHI due to inheritance issues
 //
 //
+
+Actor Hazard_AstromanPit : BasicExecution {Obituary "$OB_ASTROPIT" tag "AstromanPit"}
+actor HazardTag_AstromanPit : BasicACSDamager {damagetype "FallingTag" Obituary "$OB_ASTROPITTAG"}
