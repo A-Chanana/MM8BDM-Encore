@@ -426,8 +426,8 @@ if(GetCVar("enc_hazardobits")){
 
 function bool CustomHazardKill(int tid, int dmg, str damagetype){
 	//PrintBold(i:GetActorProperty(tid,APROP_Health));
-	PrintBold(s:damagetype);
-	PrintBold(s:StrParam(l:StrParam(n:PRINTNAME_LEVEL,s:"_",s:damagetype)));
+	//PrintBold(s:damagetype);
+	//PrintBold(s:StrParam(l:StrParam(n:PRINTNAME_LEVEL,s:"_",s:damagetype)));
 	int PitTID = UniqueTID();
 	bool KillActor = false;
 	
