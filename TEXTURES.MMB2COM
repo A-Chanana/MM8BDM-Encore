@@ -1,0 +1,15 @@
+Texture "CMPBG01", 64, 256
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "CMPBG1", 0, 0
+}
+
+Texture "CMPSKY", 16, 16
+{
+	XScale 0.500
+	YScale 0.500
+	WorldPanning
+	Patch "CMPSKY", 0, 0
+}
