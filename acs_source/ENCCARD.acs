@@ -10,7 +10,7 @@
 #DEFINE ENC_INTENSEMUS 6
 #DEFINE ENC_AUTHOR 7
 
-#DEFINE ENC_MAPS 88
+#DEFINE ENC_MAPS 89
 str enc_mapcards[ENC_MAPS][8] = {
 	{"MME1CUT",	"FACE0E",	"ECUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[n6]Woo\c[w6]lock\c-, \cjHansungkee"},
 	{"MME1GUT",	"FACE1E",	"EGUTMUS",	"MAPCD1",	"MME1BOSS",	"MMBVIC",	"MME1FBOS",	"\c[p2]Sir An\c[g3]0\c[p2]n"},
@@ -113,6 +113,7 @@ str enc_mapcards[ENC_MAPS][8] = {
 	{"MMB2STO",	"FACESTOV",	"STVMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
 	{"MMB2AIR",	"FACEAIRC",	"AICMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan \cf& \c[n6]Woo\c[w6]lock"},
 	{"MMB2CLO",	"FACECLOC",	"CLKMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
+	{"MMB2COM",	"FACECOMP",	"CMPMUS",	"MAPCDB2",	"MMB2BOSS",	"MMBVIC",	"MMB2FBOS",	"\c[y1]A\c[c4]-Chan"},
 	
 	{"MMEPRO",	"FACE49",	"PROMUS",	"MAPCD3",	"MME3BOSS",	"MM5CLEAR", "MME3FBOS",	"\c[y1]A\c[c4]-Chan"},
 	{"MMEBON",	"FACEBOND",	"BONMUS",	"MAPCD1",	"MME1BOSS",	"MM1VIC",	"MME1WBOS",	"\c[y3]Criss\c[s3]Le\c[b9]Grz \cf& \c[y1]A\c[c4]-Chan"},
